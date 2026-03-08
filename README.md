@@ -1,36 +1,205 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Books Tools — books.kuras-plus.com
 
-## Getting Started
+Kindle本を感覚的に探索するためのツール集。
 
-First, run the development server:
+## 技術選定理由
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+| 技術 | 選定理由 |
+|------|----------|
+| **Next.js 16 (App Router)** | `output: 'export'` による完全静的出力。Cloudflare Pagesとの相性が良く、サーバーレス運用が可能 |
+| **TypeScript** | 型安全によるバグ削減。プロバイダー抽象化（`BookProvider`インターフェース）で将来のAPI切り替えが容易 |
+| **Tailwind CSS v4** | 設定ファイル不要・クラスベースで素早くUI構築。カスタムCSS最小化 |
+| **Cloudflare Pages** | 無料プランで月間500ビルド・無制限リクエスト対応。不動産ツールズと同じ運用体制 |
+
+## 低コスト理由
+
+- **ホスティング**: Cloudflare Pages 無料プラン（$0/月）
+- **データ**: 初期はモックJSON（API費用ゼロ）
+- **サーバー**: 完全静的サイト（サーバー不要）
+- **ドメイン**: kuras-plus.com のサブドメイン（追加費用なし）
+- **Amazon API**: 初期は不要、将来のみ有料（PA-APIは無料だがアソシエイト審査が必要）
+
+## ディレクトリ構成
+
+```
+src/
+├── app/
+│   ├── layout.tsx              # ルートレイアウト（メタデータ・フォント）
+│   ├── page.tsx                # トップページ（ツール一覧）
+│   ├── globals.css             # グローバルスタイル
+│   └── similar-books/
+│       └── page.tsx            # 類似本検索ツール
+├── components/
+│   ├── Header.tsx
+│   ├── Footer.tsx
+│   ├── BookCard.tsx            # 書籍カード（類似理由・価格・Amazonリンク）
+│   └── SearchBox.tsx
+├── data/
+│   └── books.json              # モックデータ（25冊）
+└── lib/
+    ├── similarity.ts           # 類似度スコアリングロジック
+    └── bookProviders/
+        ├── types.ts            # Book / SimilarityResult / BookProvider インターフェース
+        ├── mockProvider.ts     # モックデータプロバイダー（現在使用中）
+        └── amazonProvider.ts   # Amazon PA-APIプロバイダー（スタブ・将来用）
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ローカル起動
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Node.js 18+ が必要
+cd books-tools
+npm install
+npm run dev
+# → http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ビルド・確認
 
-## Learn More
+```bash
+npm run build
+# → out/ ディレクトリに静的ファイルが生成される
+```
 
-To learn more about Next.js, take a look at the following resources:
+## デプロイ方法（Cloudflare Pages）
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 1. GitHubリポジトリを作成してプッシュ
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+cd books-tools
+git init
+git add .
+git commit -m "initial commit"
+git remote add origin https://github.com/YOUR_USERNAME/books-tools.git
+git push -u origin main
+```
 
-## Deploy on Vercel
+### 2. Cloudflare Pagesプロジェクトを作成
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Cloudflareダッシュボード → Workers & Pages → Create application → Pages
+2. GitHubリポジトリを接続
+3. ビルド設定:
+   - **Framework preset**: Next.js (Static HTML Export)
+   - **Build command**: `npm run build`
+   - **Build output directory**: `out`
+4. 「Save and Deploy」
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## DNS設定（books.kuras-plus.com）
+
+Cloudflare DNSに以下のCNAMEレコードを追加:
+
+```
+Type:  CNAME
+Name:  books
+Value: <your-project>.pages.dev
+TTL:   Auto
+Proxy: オン（オレンジ雲）
+```
+
+### Cloudflare PagesでカスタムドメインをSet up:
+1. Pages プロジェクト → Custom domains → Add custom domain
+2. `books.kuras-plus.com` を入力
+3. 自動でDNSレコードが追加される
+
+## ツール追加方法
+
+### 1. ページを追加
+
+```bash
+mkdir -p src/app/compare-books
+touch src/app/compare-books/page.tsx
+```
+
+### 2. ナビゲーションに追加
+
+`src/components/Header.tsx` の `tools` 配列にエントリを追加:
+
+```typescript
+const tools = [
+  { href: "/similar-books", label: "類似本検索" },
+  { href: "/compare-books", label: "本の比較" },  // ← 追加
+];
+```
+
+### 3. トップページに追加
+
+`src/app/page.tsx` の `tools` 配列に追加。
+
+## Amazon PA-API連携方法
+
+### 前提条件
+1. Amazonアソシエイト・プログラムに参加（審査あり）
+2. PA-APIのアクセスキーを取得
+
+### 環境変数の設定
+
+`.env.local` を作成:
+```
+AMAZON_ACCESS_KEY=your_access_key
+AMAZON_SECRET_KEY=your_secret_key
+AMAZON_PARTNER_TAG=your_associate_tag
+```
+
+### プロバイダーの実装
+
+`src/lib/bookProviders/amazonProvider.ts` を実装:
+
+```typescript
+import { SearchItemsCommand } from "@aws-sdk/client-paapi5";
+
+export const amazonProvider: BookProvider = {
+  async search(query: string) {
+    // PA-API SearchItems でキーワード検索
+    // レスポンスを SimilarityResult[] に変換
+    // findSimilarBooks() で類似度スコアを付与
+  },
+  async getById(id: string) {
+    // PA-API GetItems でASIN検索
+  },
+};
+```
+
+### 切り替え
+
+`src/app/similar-books/page.tsx` でプロバイダーを変更:
+
+```typescript
+// import { mockProvider } from "@/lib/bookProviders/mockProvider";
+import { amazonProvider } from "@/lib/bookProviders/amazonProvider";
+const provider = amazonProvider;
+```
+
+## 環境変数例
+
+```bash
+# .env.local（ローカル開発用）
+AMAZON_ACCESS_KEY=         # Amazon PA-API アクセスキー（将来用）
+AMAZON_SECRET_KEY=         # Amazon PA-API シークレットキー（将来用）
+AMAZON_PARTNER_TAG=        # Amazonアソシエイトタグ（将来用）
+NEXT_PUBLIC_SITE_URL=https://books.kuras-plus.com
+```
+
+## 将来拡張案
+
+| ツール | 概要 |
+|--------|------|
+| `/compare-books` | 2〜3冊をサイドバイサイド比較 |
+| `/book-map` | ジャンルの繋がりを視覚化（D3.js等） |
+| `/kindle-sale` | Kindleセール中の本を一覧表示 |
+| `/reading-time` | ページ数から読了時間を推定 |
+| `/tag-explorer` | タグ・テーマベースで関連本を辿る |
+
+## 類似度アルゴリズム
+
+`src/lib/similarity.ts` で実装。スコアリング基準:
+
+| 一致条件 | スコア |
+|----------|--------|
+| タイトルに完全含まれる | +10 |
+| 著者名が一致 | +6 |
+| カテゴリが一致 | +5 |
+| タグが一致（1件あたり） | +3 |
+| タイトルが部分一致（bigram） | +4 |
+| 説明文に含まれる | +2 |
+
+上位12件を返す。
