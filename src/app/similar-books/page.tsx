@@ -8,6 +8,7 @@ import BookListCard from "@/components/BookListCard";
 import { indexProvider, type SubcatResult } from "@/lib/bookProviders/indexProvider";
 import type { Book, SimilarityResult } from "@/lib/bookProviders/types";
 import type { L1Category, Category } from "@/lib/categories";
+import { trackBookSelect, trackSimilarNavigate } from "@/lib/analytics";
 
 // ── 状態型 ──────────────────────────────────────────────────────
 
@@ -129,7 +130,7 @@ export default function SimilarBooksPage() {
 
   // ── データ取得 ────────────────────────────────────────────────
   useEffect(() => {
-    document.title = "類似本検索 | Books Tools";
+    document.title = "書籍ブラウザ | Books Tools";
     window.scrollTo({ top: 0, behavior: "smooth" });
 
     let cancelled = false;
@@ -183,8 +184,8 @@ export default function SimilarBooksPage() {
         <Header />
         <main>
           <Hero view={view} go={go}>
-            <p className="text-amber-400 text-xs font-bold tracking-widest uppercase mb-2">Similar Books Search</p>
-            <h1 className="text-2xl sm:text-3xl font-bold mb-2">類似本検索</h1>
+            <p className="text-amber-400 text-xs font-bold tracking-widest uppercase mb-2">Book Browser</p>
+            <h1 className="text-2xl sm:text-3xl font-bold mb-2">書籍ブラウザ</h1>
             <p className="text-stone-300 text-sm sm:text-base leading-relaxed">
               カテゴリを絞り込んで書籍を探し、気になる本をクリックすると<br className="hidden sm:block" />
               類似した本が表示されます。
@@ -260,7 +261,16 @@ export default function SimilarBooksPage() {
                     <BookListCard
                       key={book.id}
                       book={book}
-                      onClick={b => go({ type: "similar", book: b, l1, catPath })}
+                      onClick={b => {
+                        trackBookSelect({
+                          bookId: b.id,
+                          bookTitle: b.title,
+                          l1CategoryId: l1.id,
+                          l1CategoryLabel: l1.label,
+                          catPath: catPath.map(c => c.label).join(" > "),
+                        });
+                        go({ type: "similar", book: b, l1, catPath });
+                      }}
                     />
                   ))}
                 </div>
@@ -382,7 +392,16 @@ export default function SimilarBooksPage() {
                     key={book.id}
                     book={book}
                     subLabel={subLabel}
-                    onClick={b => go({ type: "similar", book: b, l1, catPath })}
+                    onClick={b => {
+                      trackBookSelect({
+                        bookId: b.id,
+                        bookTitle: b.title,
+                        l1CategoryId: l1.id,
+                        l1CategoryLabel: l1.label,
+                        catPath: catPath.map(c => c.label).join(" > "),
+                      });
+                      go({ type: "similar", book: b, l1, catPath });
+                    }}
                   />
                 ))}
               </div>
@@ -438,11 +457,20 @@ export default function SimilarBooksPage() {
                   </div>
                 ) : (
                   <div className="space-y-3">
-                    {similar.map(({ book: simBook, reasons }) => (
+                    {similar.map(({ book: simBook, reasons }, index) => (
                       <BookCard
                         key={simBook.id}
                         result={{ book: simBook, score: 1, reasons }}
-                        onSelect={b => go({ type: "similar", book: b, l1, catPath })}
+                        onSelect={b => {
+                          trackSimilarNavigate({
+                            fromBookId: book.id,
+                            fromBookTitle: book.title,
+                            toBookId: b.id,
+                            toBookTitle: b.title,
+                            rank: index + 1,
+                          });
+                          go({ type: "similar", book: b, l1, catPath });
+                        }}
                       />
                     ))}
                   </div>

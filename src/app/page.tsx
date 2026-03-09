@@ -4,24 +4,24 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Books Tools | Kindle本を感覚的に探索",
+  title: "Books Tools | カテゴリと類似度で本を探す",
   description:
-    "Kindle本を感覚的に探索できる無料ツール集。類似本検索・比較など、Amazonでは体験できない本の探し方を提供します。登録不要・完全無料。",
+    "ジャンルを絞り込んで書籍を探し、気になる本から類似本を発見できる無料ツール集。Amazonでは体験できない横断的な本の探し方を提供します。登録不要・完全無料。",
   openGraph: {
-    title: "Books Tools | Kindle本を感覚的に探索",
+    title: "Books Tools | カテゴリと類似度で本を探す",
     description:
-      "類似本検索など、Kindle本を感覚的に探索するための無料ツール集。",
+      "カテゴリ絞り込み＋類似本発見で、読みたい本が見つかる無料ツール集。",
   },
 };
 
 const tools = [
   {
     href: "/similar-books",
-    icon: "🔍",
-    label: "Search",
-    title: "類似本検索",
+    icon: "📚",
+    label: "Browse",
+    title: "書籍ブラウザ",
     description:
-      "本のタイトルやキーワードを入力するだけで、似た本を一覧表示。タイトル・著者・カテゴリ・キーワードから類似度を自動判定。Amazonでは体験できない横断的な探索ができます。",
+      "カテゴリを絞り込んで書籍を探し、気になる本をクリックすると類似した本が一覧表示されます。ジャンル・著者・キーワードをもとに類似度を自動判定。",
     badge: "無料",
     status: "利用可能",
   },
@@ -74,17 +74,10 @@ export default function HomePage() {
               Kindle本を、<br />
               もっと感覚的に。
             </h1>
-            <p className="text-stone-300 text-base sm:text-lg max-w-xl mx-auto leading-relaxed mb-8">
-              Amazonの検索では見つかりにくい本を、
-              テーマ・類似度・タグで横断的に探索。
-              本選びの新しい体験を提供します。
+            <p className="text-stone-300 text-base sm:text-lg max-w-xl mx-auto leading-relaxed">
+              カテゴリを絞り込んで書籍を探し、気になる本から類似作品を発見。
+              Amazonの検索では見つかりにくい本との出会いを提供します。
             </p>
-            <Link
-              href="/similar-books"
-              className="inline-block bg-amber-600 hover:bg-amber-500 text-white font-bold px-8 py-4 rounded-xl text-base transition-colors shadow-lg"
-            >
-              類似本を探してみる →
-            </Link>
           </div>
         </section>
 
@@ -156,8 +149,8 @@ export default function HomePage() {
             このサイトについて
           </h2>
           <p className="text-stone-500 text-sm leading-relaxed">
-            Books Toolsは、Kindle本をより感覚的に・直感的に探索できるようにするためのツール集です。
-            Amazonの検索では「似た本を比べたい」「テーマで横断的に探したい」というニーズに応えにくいという課題を解決します。
+            Books Toolsは、Kindle本をカテゴリと類似度で横断的に探索できるツール集です。
+            ジャンルを絞り込んで書籍を探し、気になった本から類似作品を芋づる式に発見できます。
             登録不要・完全無料・ブラウザだけで動作します。
           </p>
         </section>
