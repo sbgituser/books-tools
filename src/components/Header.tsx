@@ -4,7 +4,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const tools = [
-  { href: "/similar-books", label: "書籍ブラウザ" },
+  { href: "/similar-books",        label: "書籍ブラウザ" },
+  { href: "/tools/book-compare",   label: "本を比較する" },
 ];
 
 export default function Header() {

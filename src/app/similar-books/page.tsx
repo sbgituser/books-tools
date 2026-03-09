@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BookCard from "@/components/BookCard";
@@ -258,20 +259,30 @@ export default function SimilarBooksPage() {
               ) : (
                 <div className="space-y-2">
                   {leafBooks.map(book => (
-                    <BookListCard
-                      key={book.id}
-                      book={book}
-                      onClick={b => {
-                        trackBookSelect({
-                          bookId: b.id,
-                          bookTitle: b.title,
-                          l1CategoryId: l1.id,
-                          l1CategoryLabel: l1.label,
-                          catPath: catPath.map(c => c.label).join(" > "),
-                        });
-                        go({ type: "similar", book: b, l1, catPath });
-                      }}
-                    />
+                    <div key={book.id} className="flex items-center gap-2">
+                      <div className="flex-1 min-w-0">
+                        <BookListCard
+                          book={book}
+                          onClick={b => {
+                            trackBookSelect({
+                              bookId: b.id,
+                              bookTitle: b.title,
+                              l1CategoryId: l1.id,
+                              l1CategoryLabel: l1.label,
+                              catPath: catPath.map(c => c.label).join(" > "),
+                            });
+                            go({ type: "similar", book: b, l1, catPath });
+                          }}
+                        />
+                      </div>
+                      <Link
+                        href={`/tools/book-compare?baseId=${book.id}`}
+                        className="shrink-0 text-xs text-stone-400 hover:text-amber-700 border border-stone-200 hover:border-amber-400 rounded-lg px-2 py-1.5 transition-all whitespace-nowrap"
+                        title="この本を起点に比較する"
+                      >
+                        ⚖️ 比較
+                      </Link>
+                    </div>
                   ))}
                 </div>
               )}
@@ -388,21 +399,31 @@ export default function SimilarBooksPage() {
             ) : (
               <div className="space-y-2">
                 {books.map(book => (
-                  <BookListCard
-                    key={book.id}
-                    book={book}
-                    subLabel={subLabel}
-                    onClick={b => {
-                      trackBookSelect({
-                        bookId: b.id,
-                        bookTitle: b.title,
-                        l1CategoryId: l1.id,
-                        l1CategoryLabel: l1.label,
-                        catPath: catPath.map(c => c.label).join(" > "),
-                      });
-                      go({ type: "similar", book: b, l1, catPath });
-                    }}
-                  />
+                  <div key={book.id} className="flex items-center gap-2">
+                    <div className="flex-1 min-w-0">
+                      <BookListCard
+                        book={book}
+                        subLabel={subLabel}
+                        onClick={b => {
+                          trackBookSelect({
+                            bookId: b.id,
+                            bookTitle: b.title,
+                            l1CategoryId: l1.id,
+                            l1CategoryLabel: l1.label,
+                            catPath: catPath.map(c => c.label).join(" > "),
+                          });
+                          go({ type: "similar", book: b, l1, catPath });
+                        }}
+                      />
+                    </div>
+                    <Link
+                      href={`/tools/book-compare?baseId=${book.id}`}
+                      className="shrink-0 text-xs text-stone-400 hover:text-amber-700 border border-stone-200 hover:border-amber-400 rounded-lg px-2 py-1.5 transition-all whitespace-nowrap"
+                      title="この本を起点に比較する"
+                    >
+                      ⚖️ 比較
+                    </Link>
+                  </div>
                 ))}
               </div>
             )}
@@ -433,6 +454,14 @@ export default function SimilarBooksPage() {
             <p className="text-xs font-semibold text-stone-500 uppercase tracking-wider mb-2">選択中</p>
             <div className="mb-6">
               <BookCard result={{ book, score: 0, reasons: [] }} />
+              <div className="mt-2 flex justify-end">
+                <Link
+                  href={`/tools/book-compare?baseId=${book.id}`}
+                  className="text-xs text-stone-400 hover:text-amber-700 border border-stone-200 hover:border-amber-400 rounded-lg px-3 py-1.5 transition-all"
+                >
+                  ⚖️ この本で比較する
+                </Link>
+              </div>
             </div>
 
             {loading || !similar ? (

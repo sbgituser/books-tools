@@ -33,6 +33,21 @@ export function trackBookSelect(params: {
   });
 }
 
+/** 書籍比較ツールを開いたとき */
+export function trackBookCompareOpen(params: {
+  baseBookId: string;
+  baseBookTitle: string;
+  /** browser = 書籍ブラウザから遷移, direct = 直接アクセス */
+  source: "browser" | "direct";
+}) {
+  if (!isGtagAvailable()) return;
+  gtag("event", "book_compare_open", {
+    base_book_id: params.baseBookId,
+    base_book_title: params.baseBookTitle,
+    source: params.source,
+  });
+}
+
 /** 類似本リストからクリックして別の本の類似本ビューへ遷移したとき */
 export function trackSimilarNavigate(params: {
   fromBookId: string;

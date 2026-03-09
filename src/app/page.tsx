@@ -26,14 +26,14 @@ const tools = [
     status: "利用可能",
   },
   {
-    href: "#",
+    href: "/tools/book-compare",
     icon: "⚖️",
     label: "Compare",
-    title: "本の比較ツール",
+    title: "本を比較する",
     description:
-      "複数の本をサイドバイサイドで比較。価格・評価・内容の違いを一目で把握して購入判断をサポートします。",
-    badge: "近日公開",
-    status: "開発予定",
+      "複数の本を並べて、著者・出版年・ページ数・キーワードの違いと共通点を一覧表示。「どちらを読むか」の判断をサポートします。",
+    badge: "無料",
+    status: "利用可能",
   },
   {
     href: "#",
