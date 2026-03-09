@@ -6,7 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "search:books": "tsx scripts/search-books.ts",
+    "search:books:dry": "tsx scripts/search-books.ts --dry-run",
+    "fetch:books": "tsx scripts/fetch-books.ts",
+    "fetch:books:dry": "tsx scripts/fetch-books.ts --dry-run",
+    "build:related": "tsx scripts/build-related.ts",
+    "build:related:dry": "tsx scripts/build-related.ts --dry-run",
+    "split:index": "tsx scripts/build-split-index.ts",
+    "build:all": "tsx scripts/search-books.ts && tsx scripts/fetch-books.ts && tsx scripts/build-related.ts && tsx scripts/build-split-index.ts",
+    "prebuild": "tsx scripts/build-split-index.ts"
   },
   "dependencies": {
     "next": "16.1.6",
@@ -22,6 +31,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "tailwindcss": "^4",
+    "tsx": "^4.21.0",
     "typescript": "^5"
   }
 }

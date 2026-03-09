@@ -1,20 +1,34 @@
-import type { SimilarityResult } from "@/lib/bookProviders/types";
+import type { Book, SimilarityResult } from "@/lib/bookProviders/types";
 
 const CATEGORY_STYLES: Record<string, { bg: string; text: string; cover: string }> = {
-  "ビジネス・経済": { bg: "bg-amber-100 text-amber-800", text: "text-amber-700", cover: "bg-amber-600" },
-  "テクノロジー・AI": { bg: "bg-blue-100 text-blue-800", text: "text-blue-700", cover: "bg-blue-600" },
-  "自己啓発": { bg: "bg-emerald-100 text-emerald-800", text: "text-emerald-700", cover: "bg-emerald-600" },
-  "投資・お金": { bg: "bg-red-100 text-red-800", text: "text-red-700", cover: "bg-red-600" },
-  "小説・文学": { bg: "bg-purple-100 text-purple-800", text: "text-purple-700", cover: "bg-purple-600" },
-  "健康・ライフスタイル": { bg: "bg-teal-100 text-teal-800", text: "text-teal-700", cover: "bg-teal-600" },
-  "歴史・社会": { bg: "bg-orange-100 text-orange-800", text: "text-orange-700", cover: "bg-orange-600" },
+  "ビジネス・経済":     { bg: "bg-amber-100 text-amber-800",   text: "text-amber-700",   cover: "bg-amber-600" },
+  "テクノロジー・AI":   { bg: "bg-blue-100 text-blue-800",     text: "text-blue-700",    cover: "bg-blue-600" },
+  "自己啓発":           { bg: "bg-emerald-100 text-emerald-800", text: "text-emerald-700", cover: "bg-emerald-600" },
+  "投資・お金":         { bg: "bg-red-100 text-red-800",       text: "text-red-700",     cover: "bg-red-600" },
+  "小説・文学":         { bg: "bg-purple-100 text-purple-800", text: "text-purple-700",  cover: "bg-purple-600" },
+  "健康・ライフスタイル": { bg: "bg-teal-100 text-teal-800",   text: "text-teal-700",    cover: "bg-teal-600" },
+  "歴史・社会":         { bg: "bg-orange-100 text-orange-800", text: "text-orange-700",  cover: "bg-orange-600" },
+  "心理学":             { bg: "bg-pink-100 text-pink-800",     text: "text-pink-700",    cover: "bg-pink-600" },
+  "哲学・思想":         { bg: "bg-slate-100 text-slate-800",   text: "text-slate-700",   cover: "bg-slate-600" },
+  "科学・教養":         { bg: "bg-cyan-100 text-cyan-800",     text: "text-cyan-700",    cover: "bg-cyan-600" },
+  "漫画":               { bg: "bg-rose-100 text-rose-800",     text: "text-rose-700",    cover: "bg-rose-500" },
 };
 
 const DEFAULT_STYLE = { bg: "bg-stone-100 text-stone-700", text: "text-stone-600", cover: "bg-stone-600" };
 
-function BookCover({ title, category }: { title: string; category: string }) {
+function BookCover({ title, category, thumbnailUrl }: { title: string; category: string; thumbnailUrl?: string }) {
   const style = CATEGORY_STYLES[category] ?? DEFAULT_STYLE;
-  const display = title.slice(0, 2);
+
+  if (thumbnailUrl) {
+    return (
+      // eslint-disable-next-line @next/next/no-img-element
+      <img
+        src={thumbnailUrl}
+        alt={title}
+        className="shrink-0 w-16 h-24 sm:w-20 sm:h-28 rounded object-cover shadow-md"
+      />
+    );
+  }
 
   return (
     <div
@@ -22,7 +36,7 @@ function BookCover({ title, category }: { title: string; category: string }) {
       aria-hidden="true"
     >
       <span className="text-white font-bold text-base leading-tight text-center px-1">
-        {display}
+        {title.slice(0, 2)}
       </span>
     </div>
   );
@@ -43,16 +57,20 @@ function StarRating({ rating }: { rating: number }) {
 
 interface Props {
   result: SimilarityResult;
+  onSelect?: (book: Book) => void;
 }
 
-export default function BookCard({ result }: Props) {
+export default function BookCard({ result, onSelect }: Props) {
   const { book, reasons } = result;
   const style = CATEGORY_STYLES[book.category] ?? DEFAULT_STYLE;
 
   return (
-    <article className="bg-white border border-stone-200 rounded-xl p-4 sm:p-5 flex gap-4 shadow-sm hover:shadow-md transition-shadow">
+    <article
+      className={`bg-white border border-stone-200 rounded-xl p-4 sm:p-5 flex gap-4 shadow-sm hover:shadow-md transition-shadow ${onSelect ? "cursor-pointer hover:border-amber-300" : ""}`}
+      onClick={onSelect ? () => onSelect(book) : undefined}
+    >
       {/* Cover */}
-      <BookCover title={book.title} category={book.category} />
+      <BookCover title={book.title} category={book.category} thumbnailUrl={book.thumbnailUrl} />
 
       {/* Content */}
       <div className="flex-1 min-w-0">
@@ -132,6 +150,7 @@ export default function BookCard({ result }: Props) {
             href={book.amazonUrl}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={(e) => e.stopPropagation()}
             className="inline-flex items-center gap-1 bg-amber-600 hover:bg-amber-700 text-white text-xs font-semibold px-3 py-1.5 rounded-lg transition-colors"
           >
             Amazonで見る

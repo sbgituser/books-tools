@@ -12,6 +12,9 @@ export interface Book {
   publishedYear: number;
   rating?: number;
   reviewCount?: number;
+  thumbnailUrl?: string;
+  pageCount?: number;
+  estimatedReadingHours?: number;
 }
 
 export interface SimilarityResult {
