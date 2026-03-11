@@ -1,0 +1,64 @@
+name: blog-post-template
+
+on:
+  workflow_dispatch:
+    inputs:
+      title:
+        description: "記事タイトル"
+        required: true
+        type: string
+      slug:
+        description: "スラッグ（未入力ならタイトルから自動生成）"
+        required: false
+        type: string
+      description:
+        description: "記事説明"
+        required: false
+        type: string
+      tags:
+        description: "タグ（カンマ区切り）"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  create-post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: books-tools/package-lock.json
+
+      - name: Install dependencies
+        working-directory: books-tools
+        run: npm ci
+
+      - name: Create blog post template
+        working-directory: books-tools
+        run: >
+          npm run blog:new --
+          --title="${{ github.event.inputs.title }}"
+          --slug="${{ github.event.inputs.slug }}"
+          --description="${{ github.event.inputs.description }}"
+          --tags="${{ github.event.inputs.tags }}"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add books-tools/content/blog/*.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "blog: add draft post"
+          git push
+

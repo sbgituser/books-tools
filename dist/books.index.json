@@ -1,0 +1,220 @@
+[
+  {
+    "id": "book-001",
+    "title": "ファクトフルネス——10の思い込みを乗り越え、データを基に世界を正しく見る習慣",
+    "authors": [
+      "ハンス・ロスリング",
+      "オーラ・ロスリング",
+      "アンナ・ロスリング・ロンランド"
+    ],
+    "publisher": "日経BP",
+    "publishedDate": "2019-01-11",
+    "language": "ja",
+    "categories": [
+      "ビジネス・経済",
+      "科学・統計"
+    ],
+    "subjects": [
+      "データ分析",
+      "世界情勢",
+      "認知バイアス"
+    ],
+    "keywords": [
+      "データ分析",
+      "世界情勢",
+      "統計",
+      "思考法",
+      "認知バイアス",
+      "グローバル",
+      "教養"
+    ],
+    "pageCount": 400,
+    "searchableText": "ファクトフルネス データ 世界 思い込み 統計",
+    "updatedAt": "2026-03-09T01:40:58.959Z",
+    "relatedBookIds": [
+      "book-005",
+      "book-002",
+      "book-006",
+      "book-004",
+      "book-003"
+    ]
+  },
+  {
+    "id": "book-002",
+    "title": "イシューからはじめよ——知的生産の「シンプルな本質」",
+    "authors": [
+      "安宅和人"
+    ],
+    "publisher": "英治出版",
+    "publishedDate": "2010-11-24",
+    "language": "ja",
+    "categories": [
+      "ビジネス・経済"
+    ],
+    "subjects": [
+      "思考法",
+      "問題解決"
+    ],
+    "keywords": [
+      "思考法",
+      "問題解決",
+      "仕事術",
+      "生産性",
+      "ロジカルシンキング",
+      "コンサルタント"
+    ],
+    "pageCount": 248,
+    "searchableText": "イシュー 問題解決 知的生産 思考",
+    "updatedAt": "2026-03-09T01:40:58.959Z",
+    "relatedBookIds": [
+      "book-006",
+      "book-004",
+      "book-005",
+      "book-001",
+      "book-003"
+    ]
+  },
+  {
+    "id": "book-003",
+    "title": "ZERO to ONE——君はゼロから何を生み出せるか",
+    "authors": [
+      "ピーター・ティール",
+      "ブレイク・マスターズ"
+    ],
+    "publisher": "NHK出版",
+    "publishedDate": "2014-09-25",
+    "language": "ja",
+    "categories": [
+      "ビジネス・経済",
+      "テクノロジー"
+    ],
+    "subjects": [
+      "スタートアップ",
+      "起業"
+    ],
+    "keywords": [
+      "スタートアップ",
+      "起業",
+      "イノベーション",
+      "ビジョン",
+      "シリコンバレー",
+      "テクノロジー"
+    ],
+    "pageCount": 256,
+    "searchableText": "スタートアップ 起業 ゼロ イノベーション",
+    "updatedAt": "2026-03-09T01:40:58.959Z",
+    "relatedBookIds": [
+      "book-002",
+      "book-004",
+      "book-006",
+      "book-001",
+      "book-005"
+    ]
+  },
+  {
+    "id": "book-004",
+    "title": "なぜ、あなたの仕事は終わらないのか",
+    "authors": [
+      "中島聡"
+    ],
+    "publisher": "文響社",
+    "publishedDate": "2016-06-29",
+    "language": "ja",
+    "categories": [
+      "ビジネス・経済"
+    ],
+    "subjects": [
+      "仕事術",
+      "生産性"
+    ],
+    "keywords": [
+      "仕事術",
+      "生産性",
+      "時間管理",
+      "スピード",
+      "タスク管理"
+    ],
+    "pageCount": 224,
+    "searchableText": "仕事 時間管理 生産性 スピード",
+    "updatedAt": "2026-03-09T01:40:58.959Z",
+    "relatedBookIds": [
+      "book-006",
+      "book-002",
+      "book-001",
+      "book-003",
+      "book-005"
+    ]
+  },
+  {
+    "id": "book-005",
+    "title": "Think clearly——最新の学術研究から導いた、よりよい人生を送るための思考法",
+    "authors": [
+      "ロルフ・ドベリ"
+    ],
+    "publisher": "サンマーク出版",
+    "publishedDate": "2019-07-01",
+    "language": "ja",
+    "categories": [
+      "ビジネス・経済",
+      "心理学"
+    ],
+    "subjects": [
+      "思考法",
+      "認知バイアス"
+    ],
+    "keywords": [
+      "思考法",
+      "認知バイアス",
+      "哲学",
+      "意思決定",
+      "心理学",
+      "行動経済学"
+    ],
+    "pageCount": 416,
+    "searchableText": "思考 認知バイアス 意思決定 心理",
+    "updatedAt": "2026-03-09T01:40:58.959Z",
+    "relatedBookIds": [
+      "book-002",
+      "book-006",
+      "book-001",
+      "book-004",
+      "book-003"
+    ]
+  },
+  {
+    "id": "book-006",
+    "title": "エッセンシャル思考——最少の時間で成果を最大にする",
+    "authors": [
+      "グレッグ・マキューン"
+    ],
+    "publisher": "かんき出版",
+    "publishedDate": "2014-11-19",
+    "language": "ja",
+    "categories": [
+      "ビジネス・経済"
+    ],
+    "subjects": [
+      "仕事術",
+      "生産性",
+      "思考法"
+    ],
+    "keywords": [
+      "生産性",
+      "仕事術",
+      "選択",
+      "集中",
+      "時間管理",
+      "思考法"
+    ],
+    "pageCount": 296,
+    "searchableText": "エッセンシャル 生産性 選択 集中",
+    "updatedAt": "2026-03-09T01:40:58.959Z",
+    "relatedBookIds": [
+      "book-004",
+      "book-002",
+      "book-005",
+      "book-001",
+      "book-003"
+    ]
+  }
+]

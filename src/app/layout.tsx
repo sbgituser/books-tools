@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
-
-const SITE_NAME = "Books Tools | kuras-plus";
-const SITE_URL = "https://books.kuras-plus.com";
+import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -11,12 +9,20 @@ export const metadata: Metadata = {
     default: SITE_NAME,
     template: `%s | Books Tools`,
   },
-  description:
-    "Kindle本を感覚的に探索できるツール集。類似本検索・比較など、Amazonでは体験できない本の探し方を提供します。",
+  description: SITE_DESCRIPTION,
   openGraph: {
     type: "website",
     siteName: SITE_NAME,
     locale: "ja_JP",
+    url: SITE_URL,
+  },
+  alternates: {
+    canonical: SITE_URL,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION,
   },
   robots: {
     index: true,

@@ -1,0 +1,284 @@
+"use client";
+
+import { useState, useEffect } from "react";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import BookCard from "@/components/BookCard";
+import BookListCard from "@/components/BookListCard";
+import { indexProvider } from "@/lib/bookProviders/indexProvider";
+import type { Book } from "@/lib/bookProviders/types";
+import type { L1Category, L2Category } from "@/lib/categories";
+
+// ── 状態型 ──────────────────────────────────────────────────────
+
+type View =
+  | { type: "home" }
+  | { type: "l2";    l1: L1Category }
+  | { type: "books"; l1: L1Category; l2: L2Category }
+  | { type: "similar"; book: Book; l1?: L1Category; l2?: L2Category };
+
+// ── パンくず ──────────────────────────────────────────────────────
+
+function Breadcrumb({ view, go }: { view: View; go: (v: View) => void }) {
+  const crumbs: { label: string; action?: () => void }[] = [
+    { label: "カテゴリ", action: view.type !== "home" ? () => go({ type: "home" }) : undefined },
+  ];
+
+  if (view.type === "l2" || view.type === "books" || view.type === "similar") {
+    const l1 = (view as { l1: L1Category }).l1;
+    crumbs.push({
+      label: l1.label,
+      action: view.type !== "l2" ? () => go({ type: "l2", l1 }) : undefined,
+    });
+  }
+  if (view.type === "books" || (view.type === "similar" && view.l2)) {
+    const l2 = view.type === "books" ? view.l2 : view.l2!;
+    const l1 = view.type === "books" ? view.l1 : view.l1!;
+    crumbs.push({
+      label: l2.label,
+      action: view.type === "similar" ? () => go({ type: "books", l1, l2 }) : undefined,
+    });
+  }
+  if (view.type === "similar") {
+    crumbs.push({ label: view.book.title });
+  }
+
+  return (
+    <nav className="text-stone-400 text-xs mb-4 flex gap-1 items-center flex-wrap" aria-label="パンくずリスト">
+      {crumbs.map((c, i) => (
+        <span key={i} className="flex items-center gap-1">
+          {i > 0 && <span className="text-stone-600">›</span>}
+          {c.action ? (
+            <button onClick={c.action} className="hover:text-white transition-colors max-w-[140px] truncate">
+              {c.label}
+            </button>
+          ) : (
+            <span className="text-stone-300 max-w-[160px] truncate">{c.label}</span>
+          )}
+        </span>
+      ))}
+    </nav>
+  );
+}
+
+// ── Hero wrapper ─────────────────────────────────────────────────
+
+function Hero({ view, go, children }: { view: View; go: (v: View) => void; children: React.ReactNode }) {
+  return (
+    <section className="bg-gradient-to-br from-stone-800 to-stone-700 text-white px-4 py-8 sm:py-10">
+      <div className="max-w-3xl mx-auto">
+        <Breadcrumb view={view} go={go} />
+        {children}
+      </div>
+    </section>
+  );
+}
+
+// ════════════════════════════════════════════════════════════════
+// Page
+// ════════════════════════════════════════════════════════════════
+
+export default function SimilarBooksPage() {
+  const [view, setView] = useState<View>({ type: "home" });
+
+  const go = (v: View) => setView(v);
+
+  useEffect(() => {
+    document.title = "類似本検索 | Books Tools";
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [view]);
+
+  // ── A. カテゴリトップ ──────────────────────────────────────────
+  if (view.type === "home") {
+    const categories = indexProvider.getL1Categories();
+    return (
+      <>
+        <Header />
+        <main>
+          <Hero view={view} go={go}>
+            <p className="text-amber-400 text-xs font-bold tracking-widest uppercase mb-2">Similar Books Search</p>
+            <h1 className="text-2xl sm:text-3xl font-bold mb-2">類似本検索</h1>
+            <p className="text-stone-300 text-sm sm:text-base leading-relaxed">
+              カテゴリを選んで書籍を探し、気になる本をクリックすると<br className="hidden sm:block" />
+              類似した本が表示されます。
+            </p>
+          </Hero>
+
+          <section className="max-w-3xl mx-auto px-4 py-8">
+            <p className="text-xs font-semibold text-stone-500 uppercase tracking-wider mb-4">カテゴリを選択</p>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+              {categories.map(({ l1, count }) => (
+                <button
+                  key={l1.id}
+                  onClick={() => go({ type: "l2", l1 })}
+                  className="flex flex-col items-start gap-1.5 bg-white border border-stone-200 rounded-xl p-4 text-left hover:border-amber-400 hover:shadow-md transition-all"
+                >
+                  <span className="text-2xl">{l1.emoji}</span>
+                  <span className="font-semibold text-stone-800 text-sm leading-tight">{l1.label}</span>
+                  <span className="text-stone-400 text-xs leading-snug">{l1.desc}</span>
+                  <span className="text-stone-400 text-xs mt-1">{count}冊</span>
+                </button>
+              ))}
+            </div>
+          </section>
+        </main>
+        <Footer />
+      </>
+    );
+  }
+
+  // ── B. 2階層目カテゴリ一覧 ────────────────────────────────────
+  if (view.type === "l2") {
+    const { l1 } = view;
+    const l2list = indexProvider.getL2Categories(l1.id);
+    const totalCount = indexProvider.getL1Categories().find(x => x.l1.id === l1.id)?.count ?? 0;
+
+    return (
+      <>
+        <Header />
+        <main>
+          <Hero view={view} go={go}>
+            <h1 className="text-xl sm:text-2xl font-bold mb-1 flex items-center gap-2">
+              <span>{l1.emoji}</span>{l1.label}
+            </h1>
+            <p className="text-stone-400 text-sm">{totalCount}冊 · サブカテゴリを選択してください</p>
+          </Hero>
+
+          <section className="max-w-3xl mx-auto px-4 py-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {l2list.map(({ l2, count, sampleThumbnails }) => (
+                <button
+                  key={l2.id}
+                  onClick={() => go({ type: "books", l1, l2 })}
+                  className="flex items-center gap-3 bg-white border border-stone-200 rounded-xl p-4 text-left hover:border-amber-400 hover:shadow-md transition-all"
+                >
+                  {/* サムネイルプレビュー */}
+                  <div className="shrink-0 flex gap-0.5">
+                    {sampleThumbnails.length > 0 ? (
+                      sampleThumbnails.map((url, i) => (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img key={i} src={url} alt="" className="w-8 h-12 object-cover rounded shadow-sm" />
+                      ))
+                    ) : (
+                      <div className="w-8 h-12 rounded bg-stone-100 flex items-center justify-center">
+                        <span className="text-stone-400 text-xs">📚</span>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* ラベル */}
+                  <div className="flex-1 min-w-0">
+                    <p className="font-semibold text-stone-800 text-sm leading-tight">{l2.label}</p>
+                    <p className="text-stone-400 text-xs mt-0.5">{count}冊</p>
+                  </div>
+
+                  <span className="text-stone-300 shrink-0">›</span>
+                </button>
+              ))}
+            </div>
+          </section>
+        </main>
+        <Footer />
+      </>
+    );
+  }
+
+  // ── C. 書籍一覧 ───────────────────────────────────────────────
+  if (view.type === "books") {
+    const { l1, l2 } = view;
+    const books = indexProvider.getBooksByL2(l1.id, l2.id);
+
+    return (
+      <>
+        <Header />
+        <main>
+          <Hero view={view} go={go}>
+            <h1 className="text-xl sm:text-2xl font-bold mb-1">{l2.label}</h1>
+            <p className="text-stone-400 text-sm">{books.length}冊 · クリックで類似本を表示</p>
+          </Hero>
+
+          <section className="max-w-3xl mx-auto px-4 py-6">
+            {books.length === 0 ? (
+              <p className="text-center text-stone-400 py-20">書籍が見つかりませんでした</p>
+            ) : (
+              <div className="space-y-2">
+                {books.map(book => (
+                  <BookListCard
+                    key={book.id}
+                    book={book}
+                    subLabel={l2.id !== "other" ? l2.label : undefined}
+                    onClick={b => go({ type: "similar", book: b, l1, l2 })}
+                  />
+                ))}
+              </div>
+            )}
+          </section>
+        </main>
+        <Footer />
+      </>
+    );
+  }
+
+  // ── D. 類似本一覧 ────────────────────────────────────────────
+  if (view.type === "similar") {
+    const { book, l1, l2 } = view;
+    const similar = indexProvider.getSimilarBooks(book.id);
+
+    return (
+      <>
+        <Header />
+        <main>
+          <Hero view={view} go={go}>
+            <h1 className="text-xl font-bold mb-1">この本に似た本</h1>
+            <p className="text-stone-400 text-sm">{similar.length}件</p>
+          </Hero>
+
+          <section className="max-w-3xl mx-auto px-4 py-6">
+            {/* 選択中の本 */}
+            <p className="text-xs font-semibold text-stone-500 uppercase tracking-wider mb-2">選択中</p>
+            <div className="mb-6">
+              <BookCard result={{ book, score: 0, reasons: [] }} />
+            </div>
+
+            {/* 類似本 */}
+            <p className="text-xs font-semibold text-stone-500 uppercase tracking-wider mb-3">
+              類似した本 — {similar.length}件
+            </p>
+            {similar.length === 0 ? (
+              <div className="text-center py-16 text-stone-400">
+                <p className="text-4xl mb-3">📭</p>
+                <p className="mb-4">類似書籍データがありません</p>
+                {l1 && l2 && (
+                  <button
+                    onClick={() => go({ type: "books", l1, l2 })}
+                    className="text-amber-600 hover:underline text-sm"
+                  >
+                    ← {l2.label} の一覧に戻る
+                  </button>
+                )}
+              </div>
+            ) : (
+              <div className="space-y-3">
+                {similar.map(({ book: simBook, reasons }) => (
+                  <BookCard
+                    key={simBook.id}
+                    result={{ book: simBook, score: 1, reasons }}
+                    onSelect={b => go({ type: "similar", book: b, l1, l2 })}
+                  />
+                ))}
+              </div>
+            )}
+
+            <p className="text-xs text-stone-400 mt-8 text-center leading-relaxed">
+              ※ 書籍情報はGoogle Books / OpenBDから取得しています。<br />
+              ※ Amazonでの実際の価格・在庫状況をご確認ください。
+            </p>
+          </section>
+        </main>
+        <Footer />
+      </>
+    );
+  }
+
+  return null;
+}

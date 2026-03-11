@@ -5,7 +5,8 @@ import { usePathname } from "next/navigation";
 
 const tools = [
   { href: "/similar-books",        label: "書籍ブラウザ" },
-  { href: "/tools/book-compare",   label: "本を比較する" },
+  { href: "/tools/book-compare",   label: "条件一致で本を探す" },
+  { href: "/blog",                 label: "ブログ" },
 ];
 
 export default function Header() {

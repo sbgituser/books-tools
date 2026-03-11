@@ -28,10 +28,20 @@ const tools = [
   {
     href: "/tools/book-compare",
     icon: "⚖️",
-    label: "Compare",
-    title: "本を比較する",
+    label: "Match",
+    title: "条件一致で本を探す",
     description:
-      "複数の本を並べて、著者・出版年・ページ数・キーワードの違いと共通点を一覧表示。「どちらを読むか」の判断をサポートします。",
+      "起点となる1冊を選び、著者・出版年・ページ数・読書時間・カテゴリ・共通キーワードの条件に合う本を自動抽出。次に読む本の候補探しを支援します。",
+    badge: "無料",
+    status: "利用可能",
+  },
+  {
+    href: "/blog",
+    icon: "📝",
+    label: "Blog",
+    title: "ブログ",
+    description:
+      "Books Tools の更新情報や、本選び・読書体験に関する記事を掲載します。",
     badge: "無料",
     status: "利用可能",
   },

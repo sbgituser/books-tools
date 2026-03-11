@@ -35,22 +35,23 @@ type CompareField =
   | "pageCount"
   | "estimatedReadingHours"
   | "categories"
-  | "descriptionSummary"
-  | "commonKeywords"
-  | "diffKeywords";
+  | "commonKeywords";
 
 const FIELD_CONFIG: { key: CompareField; label: string; defaultOn: boolean }[] = [
   { key: "authors",               label: "著者",         defaultOn: true  },
-  { key: "publishedYear",         label: "出版年",       defaultOn: true  },
-  { key: "pageCount",             label: "ページ数",     defaultOn: true  },
-  { key: "estimatedReadingHours", label: "読書時間",     defaultOn: true  },
-  { key: "categories",            label: "カテゴリ",     defaultOn: true  },
-  { key: "descriptionSummary",    label: "説明",         defaultOn: false },
-  { key: "commonKeywords",        label: "共通キーワード", defaultOn: true },
-  { key: "diffKeywords",          label: "相違キーワード", defaultOn: true },
+  { key: "publishedYear",         label: "出版年",       defaultOn: false },
+  { key: "pageCount",             label: "ページ数",     defaultOn: false },
+  { key: "estimatedReadingHours", label: "読書時間",     defaultOn: false },
+  { key: "categories",            label: "カテゴリ",     defaultOn: false },
+  { key: "commonKeywords",        label: "共通キーワード", defaultOn: false },
 ];
 
 const DEFAULT_FIELDS = FIELD_CONFIG.filter(f => f.defaultOn).map(f => f.key);
+
+type MatchedBook = CachedBook & {
+  matchedBy: CompareField[];
+  score: number;
+};
 
 const L1_IDS = [
   "business", "tech", "self-help", "investing",
@@ -127,6 +128,85 @@ function getCommonKeywords(books: CachedBook[]): string[] {
   if (nonEmpty.length < 2) return [];
   const sets = nonEmpty.map(b => new Set(b.keywords));
   return [...sets[0]].filter(k => sets.slice(1).every(s => s.has(k))).slice(0, 8);
+}
+
+function normalizeText(v: string): string {
+  return v.trim().toLowerCase();
+}
+
+function toYear(v?: string): number | null {
+  if (!v) return null;
+  const m = v.match(/^(\d{4})/);
+  return m ? Number(m[1]) : null;
+}
+
+function withinRange(base: number, target: number, ratio: number, minAbs: number): boolean {
+  const threshold = Math.max(minAbs, base * ratio);
+  return Math.abs(base - target) <= threshold;
+}
+
+function countKeywordOverlap(a: string[], b: string[]): number {
+  if (a.length === 0 || b.length === 0) return 0;
+  const set = new Set(b.map(normalizeText));
+  return a.map(normalizeText).filter(k => set.has(k)).length;
+}
+
+function isMatchedByField(base: CachedBook, candidate: CachedBook, field: CompareField): boolean {
+  switch (field) {
+    case "authors": {
+      const baseAuthors = new Set(base.authors.map(normalizeText));
+      return candidate.authors.some(a => baseAuthors.has(normalizeText(a)));
+    }
+    case "publishedYear": {
+      const by = toYear(base.publishedDate);
+      const cy = toYear(candidate.publishedDate);
+      if (by == null || cy == null) return false;
+      return Math.abs(by - cy) <= 1;
+    }
+    case "pageCount": {
+      if (!base.pageCount || !candidate.pageCount) return false;
+      return withinRange(base.pageCount, candidate.pageCount, 0.25, 40);
+    }
+    case "estimatedReadingHours": {
+      if (!base.estimatedReadingHours || !candidate.estimatedReadingHours) return false;
+      return withinRange(base.estimatedReadingHours, candidate.estimatedReadingHours, 0.3, 0.8);
+    }
+    case "categories": {
+      if (base.l1Id === candidate.l1Id) return true;
+      const baseCats = new Set(base.categories.map(normalizeText));
+      return candidate.categories.some(c => baseCats.has(normalizeText(c)));
+    }
+    case "commonKeywords": {
+      return countKeywordOverlap(base.keywords, candidate.keywords) >= 1;
+    }
+    default:
+      return false;
+  }
+}
+
+async function findMatchedBooks(base: CachedBook, selectedFields: CompareField[]): Promise<MatchedBook[]> {
+  if (selectedFields.length === 0) return [];
+
+  const buckets = await Promise.all(L1_IDS.map(loadL1Books));
+  const allBooks = buckets.flat();
+
+  const matched: MatchedBook[] = [];
+  for (const candidate of allBooks) {
+    if (candidate.id === base.id) continue;
+
+    const matchedBy = selectedFields.filter(field => isMatchedByField(base, candidate, field));
+    const allMatched = matchedBy.length === selectedFields.length;
+    if (!allMatched) continue;
+
+    const score =
+      matchedBy.length * 10 +
+      countKeywordOverlap(base.keywords, candidate.keywords) +
+      (base.l1Id === candidate.l1Id ? 2 : 0);
+
+    matched.push({ ...candidate, matchedBy, score });
+  }
+
+  return matched.sort((a, b) => b.score - a.score || a.title.localeCompare(b.title, "ja"));
 }
 
 // ── BookMiniCard ────────────────────────────────────────────────
@@ -345,11 +425,6 @@ function CellValue({
     case "categories":
       return <span>{getCategoryLabel(book.l1Id)}</span>;
 
-    case "descriptionSummary":
-      return (
-        <span className="text-xs leading-relaxed text-stone-600">{getDescription(book)}</span>
-      );
-
     case "commonKeywords": {
       const common = getCommonKeywords(allBooks);
       if (common.length === 0)
@@ -360,36 +435,6 @@ function CellValue({
             <span
               key={k}
               className="px-1.5 py-0.5 bg-green-50 text-green-700 rounded text-xs border border-green-200"
-            >
-              {k}
-            </span>
-          ))}
-        </div>
-      );
-    }
-
-    case "diffKeywords": {
-      const base = allBooks[0];
-      const isBase = book.id === base.id;
-      const compareSet = isBase
-        ? new Set(allBooks.slice(1).flatMap(b => b.keywords))
-        : new Set(base.keywords);
-      const uniqueKeywords = book.keywords
-        .filter(k => !compareSet.has(k))
-        .slice(0, 6);
-
-      if (uniqueKeywords.length === 0)
-        return <span className="text-stone-400 text-xs">—</span>;
-      return (
-        <div className="flex flex-wrap gap-1">
-          {uniqueKeywords.map(k => (
-            <span
-              key={k}
-              className={`px-1.5 py-0.5 rounded text-xs border ${
-                isBase
-                  ? "bg-blue-50 text-blue-700 border-blue-200"
-                  : "bg-orange-50 text-orange-700 border-orange-200"
-              }`}
             >
               {k}
             </span>
@@ -494,17 +539,14 @@ function CompareTable({
 function BookCompareInner() {
   const params = useSearchParams();
   const [baseBook, setBaseBook] = useState<CachedBook | null>(null);
-  const [compareBooks, setCompareBooks] = useState<CachedBook[]>([]);
+  const [matchedBooks, setMatchedBooks] = useState<MatchedBook[]>([]);
   const [selectedFields, setSelectedFields] = useState<CompareField[]>(DEFAULT_FIELDS);
-  const [showAddSearch, setShowAddSearch] = useState(false);
+  const [matching, setMatching] = useState(false);
   const [initialized, setInitialized] = useState(false);
 
   // URL パラメータから初期状態を復元
   useEffect(() => {
     const baseId = params.get("baseId");
-    const compareIdsParam = params.get("compareIds");
-    const compareIds = compareIdsParam ? compareIdsParam.split(",").filter(Boolean) : [];
-
     (async () => {
       if (baseId) {
         const book = await getBookById(baseId);
@@ -517,30 +559,30 @@ function BookCompareInner() {
           });
         }
       }
-      if (compareIds.length > 0) {
-        const books = (
-          await Promise.all(compareIds.map(id => getBookById(id)))
-        ).filter(Boolean) as CachedBook[];
-        setCompareBooks(books);
-      }
       setInitialized(true);
     })();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const allBooks = baseBook ? [baseBook, ...compareBooks] : [];
-  const canAddMore = allBooks.length < 4;
-  const excludeIds = allBooks.map(b => b.id);
+  useEffect(() => {
+    if (!baseBook) {
+      setMatchedBooks([]);
+      return;
+    }
+
+    setMatching(true);
+    findMatchedBooks(baseBook, selectedFields)
+      .then(setMatchedBooks)
+      .finally(() => setMatching(false));
+  }, [baseBook, selectedFields]);
+
+  const tableBooks = baseBook ? [baseBook, ...matchedBooks.slice(0, 3)] : [];
+  const excludeIds = baseBook ? [baseBook.id] : [];
 
   const toggleField = useCallback((field: CompareField) => {
     setSelectedFields(prev =>
       prev.includes(field) ? prev.filter(f => f !== field) : [...prev, field]
     );
-  }, []);
-
-  const handleAddCompare = useCallback((book: CachedBook) => {
-    setCompareBooks(prev => [...prev, book]);
-    setShowAddSearch(false);
   }, []);
 
   return (
@@ -555,21 +597,21 @@ function BookCompareInner() {
                 Books Tools
               </Link>
               <span>›</span>
-              <span className="text-stone-300">本を比較する</span>
+              <span className="text-stone-300">条件一致で本を探す</span>
             </nav>
             <p className="text-amber-400 text-xs font-bold tracking-widest uppercase mb-2">
-              Book Compare
+              Book Match
             </p>
-            <h1 className="text-2xl sm:text-3xl font-bold mb-2">本を比較する</h1>
+            <h1 className="text-2xl sm:text-3xl font-bold mb-2">条件一致で本を探す</h1>
             <p className="text-stone-300 text-sm sm:text-base leading-relaxed">
-              気になる本を並べて、違いと共通点を確認できます。
+              起点となる1冊を選び、著者や出版年などの条件に合う本を一覧で見つけられます。
             </p>
           </div>
         </section>
 
         <div className="max-w-3xl mx-auto px-4 py-8 space-y-8">
-          {/* ── 1. 比較元書籍 ── */}
-          <section>
+          {/* ── 1. 起点 + 条件（上部固定） ── */}
+          <section className={baseBook ? "sticky top-14 z-30 bg-white/95 backdrop-blur py-4 border-b border-stone-200" : ""}>
             <h2 className="text-sm font-bold text-stone-600 uppercase tracking-wider mb-3">
               比較の起点
             </h2>
@@ -602,118 +644,91 @@ function BookCompareInner() {
                 )}
               </div>
             ) : (
-              <BookMiniCard
-                book={baseBook}
-                isBase
-                onRemove={() => {
-                  setBaseBook(null);
-                  setCompareBooks([]);
-                  setShowAddSearch(false);
-                }}
-              />
+              <div className="space-y-2">
+                <BookMiniCard
+                  book={baseBook}
+                  isBase
+                  onRemove={() => {
+                    setBaseBook(null);
+                    setMatchedBooks([]);
+                  }}
+                />
+                <p className="text-xs text-stone-500">
+                  一致候補: <span className="font-semibold text-stone-700">{matching ? "抽出中…" : `${matchedBooks.length}冊`}</span>
+                </p>
+              </div>
+            )}
+
+            {/* ── 条件選択（起点の直下に固定） ── */}
+            {baseBook && (
+              <div className="mt-4 pt-3 border-t border-stone-200">
+                <div className="flex items-center justify-between mb-3">
+                  <h2 className="text-sm font-bold text-stone-600 uppercase tracking-wider">
+                    条件項目
+                  </h2>
+                  <div className="flex gap-3">
+                    <button
+                      onClick={() => setSelectedFields(DEFAULT_FIELDS)}
+                      className="text-xs text-stone-400 hover:text-stone-700 transition-colors"
+                    >
+                      デフォルト
+                    </button>
+                    <button
+                      onClick={() => setSelectedFields(FIELD_CONFIG.map(f => f.key))}
+                      className="text-xs text-stone-400 hover:text-stone-700 transition-colors"
+                    >
+                      すべて
+                    </button>
+                  </div>
+                </div>
+                <FieldSelector selectedFields={selectedFields} onToggle={toggleField} />
+                <p className="text-xs text-stone-400 mt-2">
+                  著者を選ぶと、同じ著者の本が優先的に一覧表示されます
+                </p>
+              </div>
             )}
           </section>
 
-          {/* ── 2. 比較対象 ── */}
+          {/* ── 2. 一致書籍一覧 ── */}
           {baseBook && (
             <section>
-              <div className="flex items-center justify-between mb-3">
+              <div className="flex items-center justify-between mb-3 gap-3">
                 <h2 className="text-sm font-bold text-stone-600 uppercase tracking-wider">
-                  比較対象{" "}
-                  <span className="text-stone-400 font-normal normal-case">（最大3冊）</span>
+                  一致した書籍{" "}
+                  <span className="text-stone-400 font-normal normal-case">（起点に合致する本）</span>
                 </h2>
-                {canAddMore && compareBooks.length > 0 && (
-                  <button
-                    onClick={() => setShowAddSearch(s => !s)}
-                    className="text-xs text-amber-700 font-semibold hover:underline"
-                  >
-                    {showAddSearch ? "✕ 閉じる" : "+ 本を追加"}
-                  </button>
-                )}
+                <p className="text-xs text-stone-400">一覧は自動抽出されます</p>
               </div>
 
-              <div className="space-y-2">
-                {compareBooks.map((book, i) => (
-                  <BookMiniCard
-                    key={book.id}
-                    book={book}
-                    onRemove={() =>
-                      setCompareBooks(prev => prev.filter((_, j) => j !== i))
-                    }
-                  />
-                ))}
-              </div>
-
-              {compareBooks.length === 0 && !showAddSearch && (
-                <button
-                  onClick={() => setShowAddSearch(true)}
-                  className="w-full mt-2 py-5 border border-dashed border-stone-300 rounded-xl text-stone-400 hover:border-amber-400 hover:text-amber-600 transition-all text-sm"
-                >
-                  ＋ 比較する本を追加
-                </button>
+              {matching && (
+                <p className="text-sm text-stone-400 py-3 text-center">候補を抽出中…</p>
               )}
 
-              {showAddSearch && canAddMore && (
-                <div className="mt-3">
-                  <SearchPanel
-                    onSelect={handleAddCompare}
-                    excludeIds={excludeIds}
-                    placeholder="追加する本を検索…"
-                  />
+              {!matching && matchedBooks.length === 0 && (
+                <div className="border border-dashed border-stone-300 rounded-xl p-5 text-center text-sm text-stone-500">
+                  選択した比較軸に合致する本が見つかりませんでした
                 </div>
               )}
 
-              {!canAddMore && (
-                <p className="text-xs text-stone-400 mt-2 text-center">
-                  最大4冊まで比較できます
-                </p>
-              )}
-            </section>
-          )}
-
-          {/* ── 3. 比較軸選択 ── */}
-          {allBooks.length >= 2 && (
-            <section>
-              <div className="flex items-center justify-between mb-3">
-                <h2 className="text-sm font-bold text-stone-600 uppercase tracking-wider">
-                  比較項目
-                </h2>
-                <div className="flex gap-3">
-                  <button
-                    onClick={() => setSelectedFields(DEFAULT_FIELDS)}
-                    className="text-xs text-stone-400 hover:text-stone-700 transition-colors"
-                  >
-                    デフォルト
-                  </button>
-                  <button
-                    onClick={() => setSelectedFields(FIELD_CONFIG.map(f => f.key))}
-                    className="text-xs text-stone-400 hover:text-stone-700 transition-colors"
-                  >
-                    すべて
-                  </button>
+              {!matching && matchedBooks.length > 0 && (
+                <div className="space-y-2">
+                  {matchedBooks.slice(0, 12).map((book) => (
+                    <div key={book.id} className="space-y-1">
+                      <BookMiniCard book={book} />
+                      <p className="text-xs text-stone-400 pl-1">
+                        一致軸: {book.matchedBy.map(f => FIELD_CONFIG.find(v => v.key === f)?.label ?? f).join(" / ")}
+                      </p>
+                    </div>
+                  ))}
                 </div>
-              </div>
-              <FieldSelector selectedFields={selectedFields} onToggle={toggleField} />
-            </section>
-          )}
-
-          {/* ── 4. 比較テーブル ── */}
-          {allBooks.length >= 2 && selectedFields.length > 0 && (
-            <section>
-              <h2 className="text-sm font-bold text-stone-600 uppercase tracking-wider mb-3">
-                比較結果
-              </h2>
-              <CompareTable books={allBooks} selectedFields={selectedFields} />
-              <p className="text-xs text-stone-400 mt-3 text-center">
-                ← 横スクロールで全列を確認できます（スマートフォン）
-              </p>
+              )}
             </section>
           )}
 
           {/* ── 待機メッセージ ── */}
-          {baseBook && compareBooks.length === 0 && !showAddSearch && (
+          {baseBook && !matching && matchedBooks.length === 0 && (
             <div className="text-center py-6 text-stone-400 text-sm">
-              比較する本を追加すると、違いと共通点が表示されます
+              条件を切り替えると、合致する本の候補が更新されます
             </div>
           )}
         </div>
