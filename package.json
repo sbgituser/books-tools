@@ -7,6 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "blog:new": "tsx scripts/create-blog-post.ts",
+    "blog:auto": "tsx scripts/auto-generate-blog.ts",
     "search:books": "tsx scripts/search-books.ts",
     "search:books:dry": "tsx scripts/search-books.ts --dry-run",
     "fetch:books": "tsx scripts/fetch-books.ts",
@@ -18,9 +20,15 @@
     "prebuild": "tsx scripts/build-split-index.ts"
   },
   "dependencies": {
+    "google-trends-api": "^4.9.2",
+    "gray-matter": "^4.0.3",
+    "marked": "^16.3.0",
     "next": "16.1.6",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "react-markdown": "^10.1.0",
+    "rehype-sanitize": "^6.0.0",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
