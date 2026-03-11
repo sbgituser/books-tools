@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://books.kuras-plus.com/blog</id>
     <title>Books Tools | kuras-plus Blog</title>
-    <updated>2026-03-11T21:48:28.527Z</updated>
+    <updated>2026-03-11T23:01:19.129Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://books.kuras-plus.com/blog"/>
     <link rel="self" href="https://books.kuras-plus.com/atom.xml"/>
@@ -574,29 +574,5 @@ SNSの口コミが広がることで、**個性的な作品が短期間で人気
         <category label="読書"/>
         <category label="ベストセラー"/>
         <category label="話題の本"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Books Tools ブログを公開しました]]></title>
-        <id>https://books.kuras-plus.com/blog/2026-03-10-blog-start</id>
-        <link href="https://books.kuras-plus.com/blog/2026-03-10-blog-start"/>
-        <updated>2026-03-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Books Tools にブログ機能を追加し、GitHub Actions で投稿しやすい運用を開始しました。]]></summary>
-        <content type="html"><![CDATA[
-# Books Tools ブログを公開しました
-
-Books Tools にブログ機能を追加しました。
-
-- ホーム画面とヘッダーからブログへ遷移できます
-- `content/blog/*.mdx` に MDX で記事を追加できます
-- GitHub Actions から手動で記事テンプレートを作成できます
-
-## 関連ツール
-
-- [類似書籍探索](/similar-books)
-- [条件一致で本を探す](/tools/book-compare)
-
-]]></content>
-        <category label="お知らせ"/>
-        <category label="運用"/>
     </entry>
 </feed>

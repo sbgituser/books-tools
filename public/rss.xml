@@ -4,7 +4,7 @@
         <title>Books Tools | kuras-plus Blog</title>
         <link>https://books.kuras-plus.com/blog</link>
         <description>本選び・読書術・比較ノウハウを発信するBooks Tools公式ブログ。検索流入から書籍ツール活用までをつなげます。</description>
-        <lastBuildDate>Wed, 11 Mar 2026 21:48:28 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Mar 2026 23:01:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
@@ -574,30 +574,6 @@ SNSの口コミが広がることで、**個性的な作品が短期間で人気
             <category>読書</category>
             <category>ベストセラー</category>
             <category>話題の本</category>
-        </item>
-        <item>
-            <title><![CDATA[Books Tools ブログを公開しました]]></title>
-            <link>https://books.kuras-plus.com/blog/2026-03-10-blog-start</link>
-            <guid>https://books.kuras-plus.com/blog/2026-03-10-blog-start</guid>
-            <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Books Tools にブログ機能を追加し、GitHub Actions で投稿しやすい運用を開始しました。]]></description>
-            <content:encoded><![CDATA[
-# Books Tools ブログを公開しました
-
-Books Tools にブログ機能を追加しました。
-
-- ホーム画面とヘッダーからブログへ遷移できます
-- `content/blog/*.mdx` に MDX で記事を追加できます
-- GitHub Actions から手動で記事テンプレートを作成できます
-
-## 関連ツール
-
-- [類似書籍探索](/similar-books)
-- [条件一致で本を探す](/tools/book-compare)
-
-]]></content:encoded>
-            <category>お知らせ</category>
-            <category>運用</category>
         </item>
     </channel>
 </rss>
