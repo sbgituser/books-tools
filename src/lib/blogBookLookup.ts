@@ -6,6 +6,10 @@ type IndexedBook = {
   title: string;
   authors?: string[];
   thumbnailUrl?: string;
+  isbn13?: string;
+  sourceIds?: {
+    googleBooksId?: string;
+  };
 };
 
 type BookLookupCache = {
@@ -79,5 +83,22 @@ export function findBookByHeadingText(headingText: string): IndexedBook | null {
   );
 
   return authorMatched ?? matches[0] ?? null;
+}
+
+export function resolveBlogBookThumbnail(book: IndexedBook): string | null {
+  const candidates = [
+    book.sourceIds?.googleBooksId
+      ? `https://books.google.com/books/content?id=${book.sourceIds.googleBooksId}&printsec=frontcover&img=1&zoom=1&source=gbs_api`
+      : undefined,
+    book.isbn13
+      ? `https://books.google.com/books/content?vid=ISBN${book.isbn13}&printsec=frontcover&img=1&zoom=1&source=gbs_api`
+      : undefined,
+    book.thumbnailUrl,
+    book.isbn13
+      ? `https://covers.openlibrary.org/b/isbn/${book.isbn13}-M.jpg?default=false`
+      : undefined,
+  ].filter((v): v is string => Boolean(v));
+
+  return candidates[0] ?? null;
 }
 

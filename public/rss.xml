@@ -4,7 +4,7 @@
         <title>Books Tools | kuras-plus Blog</title>
         <link>https://books.kuras-plus.com/blog</link>
         <description>本選び・読書術・比較ノウハウを発信するBooks Tools公式ブログ。検索流入から書籍ツール活用までをつなげます。</description>
-        <lastBuildDate>Thu, 12 Mar 2026 07:43:18 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 12 Mar 2026 09:01:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
@@ -86,8 +86,8 @@
         </item>
         <item>
             <title><![CDATA[おすすめ小説ランキング100選【ジャンル別まとめ】]]></title>
-            <link>https://books.kuras-plus.com/blog//best-novels</link>
-            <guid>https://books.kuras-plus.com/blog//best-novels</guid>
+            <link>https://books.kuras-plus.com/blog/best-novels</link>
+            <guid>https://books.kuras-plus.com/blog/best-novels</guid>
             <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[おすすめ小説をジャンル別にランキング形式で紹介。初心者でも読みやすい名作をまとめました。]]></description>
             <content:encoded><![CDATA[

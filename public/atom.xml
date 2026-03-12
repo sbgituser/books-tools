@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://books.kuras-plus.com/blog</id>
     <title>Books Tools | kuras-plus Blog</title>
-    <updated>2026-03-12T07:43:18.158Z</updated>
+    <updated>2026-03-12T09:01:01.126Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://books.kuras-plus.com/blog"/>
     <link rel="self" href="https://books.kuras-plus.com/atom.xml"/>
@@ -86,8 +86,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[おすすめ小説ランキング100選【ジャンル別まとめ】]]></title>
-        <id>https://books.kuras-plus.com/blog//best-novels</id>
-        <link href="https://books.kuras-plus.com/blog//best-novels"/>
+        <id>https://books.kuras-plus.com/blog/best-novels</id>
+        <link href="https://books.kuras-plus.com/blog/best-novels"/>
         <updated>2026-03-12T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[おすすめ小説をジャンル別にランキング形式で紹介。初心者でも読みやすい名作をまとめました。]]></summary>
         <content type="html"><![CDATA[
