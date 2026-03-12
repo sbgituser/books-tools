@@ -10,7 +10,7 @@ interface Props {
 export default function BookListCard({ book, subLabel, onClick }: Props) {
   const [coverError, setCoverError] = useState(false);
   const fallbackCover = book.isbn13
-    ? `https://covers.openlibrary.org/b/isbn/${book.isbn13}-M.jpg`
+    ? `https://covers.openlibrary.org/b/isbn/${book.isbn13}-M.jpg?default=false`
     : null;
   const coverSrc = coverError ? null : (book.thumbnailUrl ?? fallbackCover);
 

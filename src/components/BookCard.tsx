@@ -22,7 +22,7 @@ function BookCover({ title, category, thumbnailUrl, isbn13 }: { title: string; c
   const [coverError, setCoverError] = useState(false);
 
   const fallbackCover = isbn13
-    ? `https://covers.openlibrary.org/b/isbn/${isbn13}-M.jpg`
+    ? `https://covers.openlibrary.org/b/isbn/${isbn13}-M.jpg?default=false`
     : null;
   const coverSrc = coverError ? null : (thumbnailUrl ?? fallbackCover);
 
