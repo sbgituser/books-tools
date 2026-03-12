@@ -43,8 +43,8 @@ function BlogBookHeading(props: ComponentPropsWithoutRef<"h3">) {
                   loading="lazy"
                 />
               ) : (
-                <div className="w-14 h-20 sm:w-16 sm:h-24 rounded-md border border-stone-200 bg-white flex items-center justify-center text-stone-400 text-xs shrink-0">
-                  NO IMAGE
+                <div className="w-14 h-20 sm:w-16 sm:h-24 rounded-md border border-stone-300 bg-stone-200 px-1 py-1.5 flex items-center justify-center text-center text-[10px] leading-tight text-stone-700 font-medium shrink-0 overflow-hidden">
+                  <span className="line-clamp-4 break-words">{book.title}</span>
                 </div>
               )}
               <div className="min-w-0">
