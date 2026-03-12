@@ -31,7 +31,8 @@ function normalizeText(value: string): string {
 function extractHeadingParts(headingText: string): { title: string; author: string | null } {
   const cleaned = headingText
     .replace(/\s+#+\s*$/, "")
-    .replace(/^\s*\d+\s*位\s*/u, "")
+    .replace(/^\s*(?:第\s*)?\d+\s*位\s*/u, "")
+    .replace(/^\s*\d+\s*[\.．]\s*/u, "")
     .trim();
 
   const fullWidth = cleaned.match(/^(.*?)[（(]([^）)]+)[）)]\s*$/u);
