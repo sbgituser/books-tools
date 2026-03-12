@@ -2,6 +2,7 @@ export interface Book {
   id: string;
   title: string;
   author: string;
+  isbn13?: string;
   category: string;
   tags: string[];
   isKindle: boolean;

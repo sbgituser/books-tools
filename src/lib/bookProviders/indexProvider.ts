@@ -52,6 +52,7 @@ function toBook(b: BookIndex): Book {
     id: b.id,
     title: b.title,
     author: b.authors.join(" / "),
+    isbn13: b.isbn13,
     category: b.categories[0] ?? "",
     tags: b.keywords.slice(0, 8),
     isKindle: false,

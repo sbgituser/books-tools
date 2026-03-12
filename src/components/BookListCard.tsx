@@ -1,3 +1,4 @@
+import { useState } from "react";
 import type { Book } from "@/lib/bookProviders/types";
 
 interface Props {
@@ -7,17 +8,24 @@ interface Props {
 }
 
 export default function BookListCard({ book, subLabel, onClick }: Props) {
+  const [coverError, setCoverError] = useState(false);
+  const fallbackCover = book.isbn13
+    ? `https://covers.openlibrary.org/b/isbn/${book.isbn13}-M.jpg`
+    : null;
+  const coverSrc = coverError ? null : (book.thumbnailUrl ?? fallbackCover);
+
   return (
     <article
       onClick={() => onClick(book)}
       className="bg-white border border-stone-200 rounded-xl p-3 sm:p-4 flex gap-3 cursor-pointer hover:border-amber-300 hover:shadow-md transition-all"
     >
       {/* 書影 */}
-      {book.thumbnailUrl ? (
+      {coverSrc ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img
-          src={book.thumbnailUrl}
+          src={coverSrc}
           alt={book.title}
+          onError={() => setCoverError(true)}
           className="shrink-0 w-12 h-[72px] sm:w-14 sm:h-[84px] rounded object-cover shadow-sm"
         />
       ) : (
