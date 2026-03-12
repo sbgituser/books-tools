@@ -93,3 +93,58 @@ npm run blog:auto
 
 実装箇所: `scripts/auto-generate-blog.ts`
 
+## 7. 書籍情報（`books.index.json`）更新手順
+
+ブログ記事を追加・更新したあと、ランキング見出し（`### 1位 タイトル（著者）`）に対応する書籍情報を `src/data/books.index.json` に反映します。
+
+### 7-1. 事前準備
+
+- 作業ディレクトリを `books-tools` に移動
+- 必要に応じて `GOOGLE_BOOKS_API_KEY` を設定（未設定でも実行可）
+- 見出し形式は `### <順位>位 <タイトル>（<著者>）` に統一
+
+### 7-2. 不足書籍の自動補完（ブログ見出し → index）
+
+```bash
+cd books-tools
+npx tsx scripts/sync-blog-books.ts
+```
+
+このスクリプトは以下を行います。
+
+1. `content/blog/*.mdx` の見出しを走査
+2. `src/data/books.index.json` に未登録の書籍を検出
+3. Google Books API 候補からタイトル・著者一致度で最適候補を選択
+4. `books.index.json` へ追記（`id / title / authors / categories / keywords` など）
+
+### 7-3. ISBN ベースで新規収集する場合（カテゴリ収集）
+
+カテゴリ単位で候補ISBNを収集してから、書誌情報を生成する場合は次を実行します。
+
+```bash
+cd books-tools
+npm run search:books
+npm run fetch:books
+npm run build:related
+npm run split:index
+```
+
+一括実行は以下でも可能です。
+
+```bash
+cd books-tools
+npm run build:all
+```
+
+### 7-4. 反映確認
+
+- `src/data/books.index.json` に対象タイトル・著者が追加されていること
+- 可能なら `npm run dev` で画面表示を確認
+- 画像未取得（`[no-thumb]`）は必要に応じて手動補完
+
+### 7-5. 運用メモ
+
+- `sync-blog-books.ts` は「ブログ見出し起点の不足補完」に最適
+- `search-books.ts` + `fetch-books.ts` は「カテゴリ起点の大量収集」に最適
+- 重複・誤マッチを防ぐため、見出しのタイトルと著者表記は一定に保つ
+

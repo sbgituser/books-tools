@@ -89,6 +89,12 @@ interface Options {
   dryRun:     boolean;
   verbose:    boolean;
   noKey:      boolean;    // APIキーを使わず匿名アクセス
+  maxRetries: number;     // 429 / 一時エラー時の再試行回数
+  backoffMs:  number;     // 再試行時のベース待機ms
+  maxPages:   number;     // 1クエリあたりのページ数上限
+  targetNew:  number;     // 全体の新規追加目標件数（0=無制限）
+  maxNoNewQueries: number; // 連続で新規0件のクエリ数上限
+  maxRateLimitedQueries: number; // 429が続いたときの打ち切り閾値
 }
 
 function parseArgs(): Options {
@@ -104,6 +110,12 @@ function parseArgs(): Options {
     dryRun:     false,
     verbose:    false,
     noKey:      false,
+    maxRetries: 4,
+    backoffMs:  1500,
+    maxPages:   3,
+    targetNew:  0,
+    maxNoNewQueries: 6,
+    maxRateLimitedQueries: 4,
   };
 
   for (const arg of process.argv.slice(2)) {
@@ -118,6 +130,16 @@ function parseArgs(): Options {
     if (k === '--output')   opts.output     = path.resolve(process.cwd(), v);
     if (k === '--delay')    opts.delay      = parseInt(v, 10);
     if (k === '--category') opts.categories.push(v);
+    if (k === '--max-retries') opts.maxRetries = Math.max(0, parseInt(v, 10));
+    if (k === '--backoff-ms')  opts.backoffMs = Math.max(200, parseInt(v, 10));
+    if (k === '--max-pages')   opts.maxPages = Math.max(1, parseInt(v, 10));
+    if (k === '--target-new')  opts.targetNew = Math.max(0, parseInt(v, 10));
+    if (k === '--max-no-new-queries') {
+      opts.maxNoNewQueries = Math.max(1, parseInt(v, 10));
+    }
+    if (k === '--max-rate-limited-queries') {
+      opts.maxRateLimitedQueries = Math.max(1, parseInt(v, 10));
+    }
   }
   return opts;
 }
@@ -130,6 +152,12 @@ function printHelp() {
   --output=<path>     books.source.json の出力パス
   --delay=<ms>        リクエスト間隔（デフォルト: 500ms）
   --category=<label>  指定カテゴリのみ処理（複数指定可）
+  --max-pages=<n>     1クエリあたりのページ数上限（デフォルト: 3）
+  --target-new=<n>    全体の新規追加目標件数（デフォルト: 0 = 無制限）
+  --max-retries=<n>   429/一時エラー時の再試行回数（デフォルト: 4）
+  --backoff-ms=<ms>   再試行のベース待機ms（デフォルト: 1500）
+  --max-no-new-queries=<n> 連続で新規0件ならカテゴリ打ち切り（デフォルト: 6）
+  --max-rate-limited-queries=<n> 429連続時の全体打ち切り閾値（デフォルト: 4）
   --replace           既存 source.json を置き換え（デフォルトは追記）
   --dry-run           ファイル書き込みなし（プレビューのみ）
   --verbose           詳細ログ
@@ -142,6 +170,26 @@ function printHelp() {
 
 function sleep(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function getRetryAfterMs(res: Response): number | null {
+  const header = res.headers.get('retry-after');
+  if (!header) return null;
+
+  const seconds = Number(header);
+  if (Number.isFinite(seconds) && seconds >= 0) {
+    return Math.round(seconds * 1000);
+  }
+
+  const dateMs = Date.parse(header);
+  if (Number.isNaN(dateMs)) return null;
+  return Math.max(0, dateMs - Date.now());
+}
+
+function calcBackoffMs(attempt: number, baseMs: number): number {
+  const exp = Math.min(attempt, 6);
+  const jitter = Math.floor(Math.random() * 500);
+  return baseMs * (2 ** exp) + jitter;
 }
 
 // ════════════════════════════════════════════════════════════════
@@ -190,26 +238,31 @@ function deduplicateVolumes(books: SearchedBook[]): SearchedBook[] {
 // Google Books API 検索
 // ════════════════════════════════════════════════════════════════
 
-/** Google Books API が 429 を返した場合のグローバルフラグ */
-let rateLimited = false;
-
 interface SearchedBook {
   isbn13: string;
   title:  string;
 }
 
+interface SearchResult {
+  books: SearchedBook[];
+  hitRateLimit: boolean;
+}
+
 async function searchGoogleBooks(
   query:        string,
+  startIndex:   number,
   maxResults:   number,
   langRestrict: string,
   orderBy:      string,
   apiKey:       string | null,
   verbose:      boolean,
-): Promise<SearchedBook[]> {
-  if (rateLimited) return [];
+  maxRetries:   number,
+  backoffMs:    number,
+): Promise<SearchResult> {
 
   const params = new URLSearchParams({
     q:          query,
+    startIndex: String(Math.max(0, startIndex)),
     maxResults: String(Math.min(maxResults, 40)),
     langRestrict,
     orderBy,
@@ -219,38 +272,57 @@ async function searchGoogleBooks(
 
   if (verbose) console.log(`    GET ${url.replace(/key=[^&]+/, 'key=***')}`);
 
-  try {
-    const res = await fetch(url, {
-      headers: { 'Accept': 'application/json' },
-      signal:  AbortSignal.timeout(10_000),
-    });
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    try {
+      const res = await fetch(url, {
+        headers: { 'Accept': 'application/json' },
+        signal:  AbortSignal.timeout(10_000),
+      });
 
-    if (res.status === 429) {
-      rateLimited = true;
-      console.warn('  ⚠️  レート制限（429）— 実行を停止します。時間をおいて再試行してください。');
-      return [];
+      if (res.status === 429) {
+        const serverRetryMs = getRetryAfterMs(res);
+        const waitMs = serverRetryMs ?? calcBackoffMs(attempt, backoffMs);
+
+        if (attempt < maxRetries) {
+          console.warn(`  ⚠️  429（再試行 ${attempt + 1}/${maxRetries}）: ${Math.round(waitMs / 1000)}秒待機`);
+          await sleep(waitMs);
+          continue;
+        }
+
+        console.warn('  ⚠️  429 が継続したため、このクエリはスキップします。');
+        return { books: [], hitRateLimit: true };
+      }
+
+      if (!res.ok) {
+        console.warn(`  ⚠️  HTTP ${res.status}: ${url.replace(/key=[^&]+/, 'key=***')}`);
+        return { books: [], hitRateLimit: false };
+      }
+
+      const data = await res.json() as GBSearchResponse;
+      if (verbose) console.log(`    → totalItems: ${data.totalItems ?? 0}, items: ${data.items?.length ?? 0}`);
+
+      const found: SearchedBook[] = [];
+      for (const item of data.items ?? []) {
+        const isbn13 = item.volumeInfo.industryIdentifiers
+          ?.find(x => x.type === 'ISBN_13')?.identifier;
+        if (!isbn13) continue;
+        found.push({ isbn13, title: item.volumeInfo.title ?? isbn13 });
+      }
+      return { books: found, hitRateLimit: false };
+
+    } catch (e) {
+      if (attempt < maxRetries) {
+        const waitMs = calcBackoffMs(attempt, backoffMs);
+        console.warn(`  ⚠️  一時エラー（再試行 ${attempt + 1}/${maxRetries}）: ${(e as Error).message}`);
+        await sleep(waitMs);
+        continue;
+      }
+      console.warn(`  ⚠️  エラー: ${(e as Error).message}`);
+      return { books: [], hitRateLimit: false };
     }
-    if (!res.ok) {
-      console.warn(`  ⚠️  HTTP ${res.status}: ${url.replace(/key=[^&]+/, 'key=***')}`);
-      return [];
-    }
-
-    const data = await res.json() as GBSearchResponse;
-    if (verbose) console.log(`    → totalItems: ${data.totalItems ?? 0}, items: ${data.items?.length ?? 0}`);
-
-    const found: SearchedBook[] = [];
-    for (const item of data.items ?? []) {
-      const isbn13 = item.volumeInfo.industryIdentifiers
-        ?.find(x => x.type === 'ISBN_13')?.identifier;
-      if (!isbn13) continue;
-      found.push({ isbn13, title: item.volumeInfo.title ?? isbn13 });
-    }
-    return found;
-
-  } catch (e) {
-    console.warn(`  ⚠️  エラー: ${(e as Error).message}`);
-    return [];
   }
+
+  return { books: [], hitRateLimit: false };
 }
 
 // ════════════════════════════════════════════════════════════════
@@ -298,11 +370,17 @@ async function main() {
   console.log(`⏱   リクエスト間隔: ${opts.delay}ms`);
   if (opts.replace) console.log('🔄  --replace: 既存データを置き換えます');
   if (opts.dryRun)  console.log('👁   --dry-run: ファイルは書き込まれません');
+  console.log(`📄  1クエリ最大ページ数: ${opts.maxPages}`);
+  if (opts.targetNew > 0) console.log(`🎯  新規追加目標: ${opts.targetNew} 件`);
+  console.log(`🔁  再試行: 最大${opts.maxRetries}回 / ベース待機 ${opts.backoffMs}ms`);
+  console.log(`⛔  連続新規0件クエリで打ち切り: ${opts.maxNoNewQueries}`);
   console.log('');
 
   // ── カテゴリごとに検索 ────────────────────────────────────────
   const newEntries: SourceEntry[] = [];
   let totalNew = 0;
+  let globalRateLimitedQueries = 0;
+  let reachedTarget = false;
 
   for (const config of configs) {
     const langRestrict = config.langRestrict ?? 'ja';
@@ -313,30 +391,79 @@ async function main() {
 
     const categoryFound: SearchedBook[] = [];
     const seenInCategory = new Set<string>();
+    let noNewQueryStreak = 0;
 
     for (const query of config.queries) {
-      if (rateLimited) break;
+      if (opts.targetNew > 0 && totalNew >= opts.targetNew) {
+        reachedTarget = true;
+        break;
+      }
 
       console.log(`  🔍  "${query}"`);
-      const books = await searchGoogleBooks(
-        query, maxResults, langRestrict, orderBy, env.googleApiKey, opts.verbose
-      );
-
+      let queryTotalFetched = 0;
       let addedThisQuery = 0;
-      for (const book of books) {
-        if (seenInCategory.has(book.isbn13)) continue;
-        seenInCategory.add(book.isbn13);
-        categoryFound.push(book);
+      let queryRateLimited = false;
 
-        if (!existingIsbn13s.has(book.isbn13)) {
-          addedThisQuery++;
+      for (let page = 0; page < opts.maxPages; page++) {
+        const startIndex = page * Math.min(maxResults, 40);
+        const result = await searchGoogleBooks(
+          query,
+          startIndex,
+          maxResults,
+          langRestrict,
+          orderBy,
+          env.googleApiKey,
+          opts.verbose,
+          opts.maxRetries,
+          opts.backoffMs,
+        );
+
+        if (result.hitRateLimit) {
+          queryRateLimited = true;
+          globalRateLimitedQueries++;
+          break;
         }
-        if (opts.verbose) {
-          const status = existingIsbn13s.has(book.isbn13) ? '既存' : '新規';
-          console.log(`    ${status === '新規' ? '✅' : '⏭ '} [${status}] ${book.isbn13}  ${book.title}`);
+
+        const books = result.books;
+        if (books.length === 0) break;
+
+        queryTotalFetched += books.length;
+
+        for (const book of books) {
+          if (seenInCategory.has(book.isbn13)) continue;
+          seenInCategory.add(book.isbn13);
+          categoryFound.push(book);
+
+          if (!existingIsbn13s.has(book.isbn13)) {
+            addedThisQuery++;
+          }
+          if (opts.verbose) {
+            const status = existingIsbn13s.has(book.isbn13) ? '既存' : '新規';
+            console.log(`    ${status === '新規' ? '✅' : '⏭ '} [${status}] ${book.isbn13}  ${book.title}`);
+          }
         }
+
+        if (books.length < Math.min(maxResults, 40)) break;
       }
-      console.log(`    → ${books.length} 件取得 / ${addedThisQuery} 件新規`);
+
+      if (queryRateLimited) {
+        console.log('    → 429継続のためクエリをスキップ');
+      } else {
+        console.log(`    → ${queryTotalFetched} 件取得 / ${addedThisQuery} 件新規`);
+      }
+
+      if (addedThisQuery === 0) noNewQueryStreak++;
+      else noNewQueryStreak = 0;
+
+      if (noNewQueryStreak >= opts.maxNoNewQueries) {
+        console.log(`  ⛔  連続 ${opts.maxNoNewQueries} クエリで新規0件のためカテゴリ打ち切り`);
+        break;
+      }
+
+      if (globalRateLimitedQueries >= opts.maxRateLimitedQueries) {
+        console.log(`  ⛔  429クエリが ${opts.maxRateLimitedQueries} 回に達したため全体を打ち切り`);
+        break;
+      }
 
       if (config.queries.indexOf(query) < config.queries.length - 1) {
         await sleep(opts.delay);
@@ -364,7 +491,8 @@ async function main() {
     console.log(`  → カテゴリ合計: ${categoryFound.length} 件 / ${newEntries.filter(e => e._category === config.label).length} 件新規追加`);
     console.log('');
 
-    if (rateLimited) break;
+    if (reachedTarget) break;
+    if (globalRateLimitedQueries >= opts.maxRateLimitedQueries) break;
     if (configs.indexOf(config) < configs.length - 1) await sleep(opts.delay);
   }
 
