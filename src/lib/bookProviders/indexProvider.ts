@@ -1,5 +1,6 @@
 import type { Book, SimilarityResult } from "./types";
 import { CATEGORY_TREE, type L1Category, type Category } from "../categories";
+import { resolveCategoryPath } from "../categoryClassifier";
 
 // ── 型定義 ───────────────────────────────────────────────────────
 
@@ -19,6 +20,9 @@ interface BookIndex {
   thumbnailUrl?: string;
   searchableText: string;
   relatedBookIds?: string[];
+  sourceIds?: {
+    googleBooksId?: string;
+  };
   updatedAt: string;
 }
 
@@ -37,22 +41,18 @@ export type SubcatResult = {
 
 // ── ユーティリティ ────────────────────────────────────────────────
 
-function matchesKeywords(raw: BookIndex, keywords: string[]): boolean {
-  if (keywords.length === 0) return false;
-  const text = `${raw.title} ${raw.searchableText ?? ""}`.toLowerCase();
-  return keywords.some(kw => text.includes(kw.toLowerCase()));
-}
-
 function toBook(b: BookIndex): Book {
   const description = [...(b.subjects ?? []), ...b.keywords.slice(0, 3)].slice(0, 5).join("、");
   const amazonUrl = b.isbn13
     ? `https://www.amazon.co.jp/s?k=${b.isbn13}`
     : `https://www.amazon.co.jp/s?k=${encodeURIComponent(b.title)}`;
+  const safeAuthors = b.authors.length > 0 ? b.authors : ["著者不明"];
   return {
     id: b.id,
     title: b.title,
-    author: b.authors.join(" / "),
+    author: safeAuthors.join(" / "),
     isbn13: b.isbn13,
+    googleBooksId: b.sourceIds?.googleBooksId,
     category: b.categories[0] ?? "",
     tags: b.keywords.slice(0, 8),
     isKindle: false,
@@ -95,24 +95,25 @@ function buildPathMap(
   pathPrefix: string,
   pathMap: Map<string, Book[]>,
 ): void {
-  const matchedIds = new Set<string>();
+  const tmp = new Map<string, Book[]>();
 
-  for (const cat of cats) {
-    if (cat.keywords.length === 0) continue;
-    const matched = books.filter(b => {
-      const raw = rawById.get(b.id);
-      return raw && matchesKeywords(raw, cat.keywords);
-    });
-    if (matched.length === 0) continue;
+  for (const b of books) {
+    const raw = rawById.get(b.id);
+    if (!raw) continue;
+    const ids = resolveCategoryPath(raw, cats);
+    if (ids.length === 0) continue;
 
-    const catPath = pathPrefix ? `${pathPrefix}:${cat.id}` : cat.id;
-    pathMap.set(catPath, matched);
-    matched.forEach(b => matchedIds.add(b.id));
-
-    if (cat.subcategories?.length) {
-      buildPathMap(matched, rawById, cat.subcategories, catPath, pathMap);
+    for (let i = 0; i < ids.length; i++) {
+      const catPath = pathPrefix
+        ? `${pathPrefix}:${ids.slice(0, i + 1).join(":")}`
+        : ids.slice(0, i + 1).join(":");
+      const list = tmp.get(catPath) ?? [];
+      list.push(b);
+      tmp.set(catPath, list);
     }
   }
+
+  for (const [k, v] of tmp) pathMap.set(k, v);
 }
 
 function buildL1Index(l1Id: string, rawBooks: BookIndex[]): L1Index {

@@ -3,6 +3,7 @@ export interface Book {
   title: string;
   author: string;
   isbn13?: string;
+  googleBooksId?: string;
   category: string;
   tags: string[];
   isKindle: boolean;

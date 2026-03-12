@@ -17,14 +17,36 @@ const CATEGORY_STYLES: Record<string, { bg: string; text: string; cover: string 
 
 const DEFAULT_STYLE = { bg: "bg-stone-100 text-stone-700", text: "text-stone-600", cover: "bg-stone-600" };
 
-function BookCover({ title, category, thumbnailUrl, isbn13 }: { title: string; category: string; thumbnailUrl?: string; isbn13?: string }) {
+function BookCover({
+  title,
+  category,
+  thumbnailUrl,
+  isbn13,
+  googleBooksId,
+}: {
+  title: string;
+  category: string;
+  thumbnailUrl?: string;
+  isbn13?: string;
+  googleBooksId?: string;
+}) {
   const style = CATEGORY_STYLES[category] ?? DEFAULT_STYLE;
-  const [coverError, setCoverError] = useState(false);
+  const [coverIndex, setCoverIndex] = useState(0);
 
-  const fallbackCover = isbn13
-    ? `https://covers.openlibrary.org/b/isbn/${isbn13}-M.jpg?default=false`
-    : null;
-  const coverSrc = coverError ? null : (thumbnailUrl ?? fallbackCover);
+  const coverCandidates = [
+    thumbnailUrl,
+    googleBooksId
+      ? `https://books.google.com/books/content?id=${googleBooksId}&printsec=frontcover&img=1&zoom=1&source=gbs_api`
+      : undefined,
+    isbn13
+      ? `https://books.google.com/books/content?vid=ISBN${isbn13}&printsec=frontcover&img=1&zoom=1&source=gbs_api`
+      : undefined,
+    isbn13
+      ? `https://covers.openlibrary.org/b/isbn/${isbn13}-M.jpg?default=false`
+      : undefined,
+  ].filter((v): v is string => Boolean(v));
+
+  const coverSrc = coverCandidates[coverIndex] ?? null;
 
   if (coverSrc) {
     return (
@@ -32,7 +54,9 @@ function BookCover({ title, category, thumbnailUrl, isbn13 }: { title: string; c
       <img
         src={coverSrc}
         alt={title}
-        onError={() => setCoverError(true)}
+        onError={() => {
+          setCoverIndex((prev) => prev + 1);
+        }}
         className="shrink-0 w-16 h-24 sm:w-20 sm:h-28 rounded object-cover shadow-md"
       />
     );
@@ -78,7 +102,13 @@ export default function BookCard({ result, onSelect }: Props) {
       onClick={onSelect ? () => onSelect(book) : undefined}
     >
       {/* Cover */}
-      <BookCover title={book.title} category={book.category} thumbnailUrl={book.thumbnailUrl} isbn13={book.isbn13} />
+      <BookCover
+        title={book.title}
+        category={book.category}
+        thumbnailUrl={book.thumbnailUrl}
+        isbn13={book.isbn13}
+        googleBooksId={book.googleBooksId}
+      />
 
       {/* Content */}
       <div className="flex-1 min-w-0">

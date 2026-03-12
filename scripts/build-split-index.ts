@@ -12,6 +12,7 @@
 import { writeFileSync, readFileSync, mkdirSync } from "fs";
 import { join } from "path";
 import { CATEGORY_TREE, type Category } from "../src/lib/categories";
+import { resolveCategoryPath } from "../src/lib/categoryClassifier";
 
 // ── 型定義 ───────────────────────────────────────────────────────
 
@@ -82,25 +83,43 @@ function classifyByText(text: string): string | null {
   for (const rule of L1_TEXT_RULES) {
     if (rule.words.some(w => t.includes(w))) return rule.label;
   }
+
+  // 最終フォールバック: L1語彙の最多一致を採用（必ずどこかに寄せる）
+  let best: { label: string; score: number } | null = null;
+  for (const rule of L1_TEXT_RULES) {
+    const score = rule.words.reduce((acc, w) => acc + (t.includes(w) ? 1 : 0), 0);
+    if (!best || score > best.score) best = { label: rule.label, score };
+  }
+  if (best) return best.label;
+
   return null;
 }
 
 /** 書籍を L1 mappedLabel に分類する（カテゴリ文字列 → テキストフォールバック） */
 function resolveL1Label(raw: BookIndex): string | null {
-  // まずカテゴリ文字列で判定
+  // まずカテゴリ文字列を全件評価（配列先頭バイアスを避ける）
+  const labelScores = new Map<string, number>();
   for (const cat of raw.categories) {
     const result = mapCategoryString(cat);
-    if (result) return result;
+    if (!result) continue;
+    labelScores.set(result, (labelScores.get(result) ?? 0) + 1);
   }
+
+  if (labelScores.size > 0) {
+    const ranked = [...labelScores.entries()].sort((a, b) => b[1] - a[1]);
+    if (ranked.length === 1) return ranked[0][0];
+
+    // 同率時は本文の語彙一致で最終決定
+    const text = `${raw.title} ${(raw.keywords ?? []).join(" ")} ${raw.searchableText ?? ""}`;
+    const byText = classifyByText(text);
+    if (byText && ranked.some(([label]) => label === byText)) return byText;
+
+    return ranked[0][0];
+  }
+
   // フォールバック: タイトル + keywords + searchableText
   const text = `${raw.title} ${(raw.keywords ?? []).join(" ")} ${raw.searchableText ?? ""}`;
   return classifyByText(text);
-}
-
-function matchesKeywords(raw: BookIndex, keywords: string[]): boolean {
-  if (keywords.length === 0) return false;
-  const text = `${raw.title} ${raw.searchableText ?? ""}`.toLowerCase();
-  return keywords.some(kw => text.includes(kw.toLowerCase()));
 }
 
 // ── パス別インデックス構築 ────────────────────────────────────────
@@ -112,25 +131,22 @@ function buildPathIndexes(
   pathCounts: Record<string, number>,
   pathThumbs: Record<string, string[]>,
 ): void {
-  const matchedIds = new Set<string>();
+  const thumbSets: Record<string, Set<string>> = {};
 
-  for (const cat of cats) {
-    if (cat.keywords.length === 0) continue;
-    const matched = books.filter(b => matchesKeywords(b, cat.keywords));
-    if (matched.length === 0) continue;
+  for (const b of books) {
+    const ids = resolveCategoryPath(b, cats);
+    if (ids.length === 0) continue;
 
-    const catPath = `${pathPrefix}:${cat.id}`;
-    pathCounts[catPath] = matched.length;
-    pathThumbs[catPath] = matched
-      .filter(b => b.thumbnailUrl)
-      .slice(0, 3)
-      .map(b => b.thumbnailUrl!);
-
-    matched.forEach(b => matchedIds.add(b.id));
-
-    if (cat.subcategories?.length) {
-      buildPathIndexes(matched, cat.subcategories, catPath, pathCounts, pathThumbs);
+    for (let i = 0; i < ids.length; i++) {
+      const p = `${pathPrefix}:${ids.slice(0, i + 1).join(":")}`;
+      pathCounts[p] = (pathCounts[p] ?? 0) + 1;
+      if (!thumbSets[p]) thumbSets[p] = new Set<string>();
+      if (b.thumbnailUrl && thumbSets[p].size < 3) thumbSets[p].add(b.thumbnailUrl);
     }
+  }
+
+  for (const p of Object.keys(thumbSets)) {
+    pathThumbs[p] = Array.from(thumbSets[p]);
   }
 }
 
@@ -149,7 +165,7 @@ const bookL1: Record<string, string> = {};
 
 let skipped = 0;
 for (const raw of rawData) {
-  if (!raw.title || !raw.authors.length) continue;
+  if (!raw.title) continue;
 
   const mappedLabel = resolveL1Label(raw);
   if (!mappedLabel) { skipped++; continue; }

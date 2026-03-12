@@ -8,11 +8,22 @@ interface Props {
 }
 
 export default function BookListCard({ book, subLabel, onClick }: Props) {
-  const [coverError, setCoverError] = useState(false);
-  const fallbackCover = book.isbn13
-    ? `https://covers.openlibrary.org/b/isbn/${book.isbn13}-M.jpg?default=false`
-    : null;
-  const coverSrc = coverError ? null : (book.thumbnailUrl ?? fallbackCover);
+  const [coverIndex, setCoverIndex] = useState(0);
+
+  const coverCandidates = [
+    book.thumbnailUrl,
+    book.googleBooksId
+      ? `https://books.google.com/books/content?id=${book.googleBooksId}&printsec=frontcover&img=1&zoom=1&source=gbs_api`
+      : undefined,
+    book.isbn13
+      ? `https://books.google.com/books/content?vid=ISBN${book.isbn13}&printsec=frontcover&img=1&zoom=1&source=gbs_api`
+      : undefined,
+    book.isbn13
+      ? `https://covers.openlibrary.org/b/isbn/${book.isbn13}-M.jpg?default=false`
+      : undefined,
+  ].filter((v): v is string => Boolean(v));
+
+  const coverSrc = coverCandidates[coverIndex] ?? null;
 
   return (
     <article
@@ -25,7 +36,9 @@ export default function BookListCard({ book, subLabel, onClick }: Props) {
         <img
           src={coverSrc}
           alt={book.title}
-          onError={() => setCoverError(true)}
+          onError={() => {
+            setCoverIndex((prev) => prev + 1);
+          }}
           className="shrink-0 w-12 h-[72px] sm:w-14 sm:h-[84px] rounded object-cover shadow-sm"
         />
       ) : (
