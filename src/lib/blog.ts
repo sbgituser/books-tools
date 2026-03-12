@@ -131,13 +131,24 @@ export function getAllBlogSlugs(options?: { includeDraft?: boolean }): string[] 
 export async function getBlogPostBySlug(slug: string, options?: { includeDraft?: boolean }): Promise<BlogPost | null> {
   const includeDraft = options?.includeDraft ?? false;
   ensureBlogDir();
-  const candidates = BLOG_EXTENSIONS.map((ext) => path.join(BLOG_DIR, `${slug}${ext}`));
+  const files = fs.readdirSync(BLOG_DIR).filter(isMarkdownFile);
+  let fileName: string | null = null;
+  let raw: string | null = null;
 
-  const fullPath = candidates.find((p) => fs.existsSync(p));
-  if (!fullPath) return null;
+  for (const candidateFileName of files) {
+    const fullPath = path.join(BLOG_DIR, candidateFileName);
+    const candidateRaw = fs.readFileSync(fullPath, "utf-8");
+    const candidateMeta = parseMeta(candidateFileName, candidateRaw);
 
-  const fileName = path.basename(fullPath);
-  const raw = fs.readFileSync(fullPath, "utf-8");
+    if (candidateMeta.slug === slug || toSlug(candidateFileName) === slug) {
+      fileName = candidateFileName;
+      raw = candidateRaw;
+      break;
+    }
+  }
+
+  if (!fileName || !raw) return null;
+
   const parsed = matter(raw);
   const meta = parseMeta(fileName, raw);
   if (!includeDraft && meta.draft) return null;
@@ -199,16 +210,16 @@ export function getBlogCanonical(slug?: string): string {
 }
 
 export function getAllBlogForFeed(): BlogPost[] {
-  const slugs = getAllBlogSlugs();
-  const posts = slugs
-    .map((slug) => {
-      const filePathMd = path.join(BLOG_DIR, `${slug}.md`);
-      const filePathMdx = path.join(BLOG_DIR, `${slug}.mdx`);
-      const fullPath = fs.existsSync(filePathMdx) ? filePathMdx : filePathMd;
-      if (!fs.existsSync(fullPath)) return null;
+  ensureBlogDir();
+  const files = fs.readdirSync(BLOG_DIR).filter(isMarkdownFile);
 
+  const posts = files
+    .map((fileName) => {
+      const fullPath = path.join(BLOG_DIR, fileName);
       const raw = fs.readFileSync(fullPath, "utf-8");
-      const meta = parseMeta(path.basename(fullPath), raw);
+      const meta = parseMeta(fileName, raw);
+      if (meta.draft) return null;
+
       const parsed = matter(raw);
       return {
         ...meta,
