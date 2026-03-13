@@ -1,6 +1,5 @@
 import type { Book, SimilarityResult } from "./types";
 import { CATEGORY_TREE, type L1Category, type Category } from "../categories";
-import { resolveCategoryPath } from "../categoryClassifier";
 
 // ── 型定義 ───────────────────────────────────────────────────────
 
@@ -8,22 +7,20 @@ interface BookIndex {
   id: string;
   title: string;
   authors: string[];
+  subtitle?: string;
   publisher?: string;
   publishedDate?: string;
   isbn13?: string;
-  language?: string;
-  categories: string[];
   subjects?: string[];
   keywords: string[];
   pageCount?: number;
   estimatedReadingHours?: number;
   thumbnailUrl?: string;
-  searchableText: string;
   relatedBookIds?: string[];
+  pathIds: string[];
   sourceIds?: {
     googleBooksId?: string;
   };
-  updatedAt: string;
 }
 
 interface MetaData {
@@ -101,30 +98,25 @@ function resolveSubcategories(l1: L1Category, catIds: string[]): Category[] {
 interface L1Index {
   books: Book[];
   bookById: Map<string, Book>;
-  rawById: Map<string, BookIndex>;
   relatedMap: Map<string, string[]>;
   pathMap: Map<string, Book[]>; // "l2" | "l2:l3" | ... (L1プレフィックスなし)
 }
 
 function buildPathMap(
-  books: Book[],
-  rawById: Map<string, BookIndex>,
-  cats: Category[],
-  pathPrefix: string,
+  rawBooks: BookIndex[],
+  bookById: Map<string, Book>,
   pathMap: Map<string, Book[]>,
 ): void {
   const tmp = new Map<string, Book[]>();
 
-  for (const b of books) {
-    const raw = rawById.get(b.id);
-    if (!raw) continue;
-    const ids = resolveCategoryPath(raw, cats);
+  for (const raw of rawBooks) {
+    const b = bookById.get(raw.id);
+    if (!b) continue;
+    const ids = raw.pathIds ?? [];
     if (ids.length === 0) continue;
 
     for (let i = 0; i < ids.length; i++) {
-      const catPath = pathPrefix
-        ? `${pathPrefix}:${ids.slice(0, i + 1).join(":")}`
-        : ids.slice(0, i + 1).join(":");
+      const catPath = ids.slice(0, i + 1).join(":");
       const list = tmp.get(catPath) ?? [];
       list.push(b);
       tmp.set(catPath, list);
@@ -138,24 +130,22 @@ function buildL1Index(l1Id: string, rawBooks: BookIndex[]): L1Index {
   const l1 = CATEGORY_TREE.find(c => c.id === l1Id)!;
   const books: Book[] = [];
   const bookById = new Map<string, Book>();
-  const rawById = new Map<string, BookIndex>();
   const relatedMap = new Map<string, string[]>();
 
   for (const raw of rawBooks) {
     if (!raw.title || !raw.authors.length) continue;
-    const pathIds = resolveCategoryPath(raw, l1.subcategories);
+    const pathIds = raw.pathIds ?? [];
     const pathLabels = resolveCategoryLabels(pathIds, l1.subcategories);
     const book = toBook(raw, pathLabels);
     books.push(book);
     bookById.set(book.id, book);
-    rawById.set(book.id, raw);
     if (raw.relatedBookIds?.length) relatedMap.set(book.id, raw.relatedBookIds);
   }
 
   const pathMap = new Map<string, Book[]>();
-  buildPathMap(books, rawById, l1.subcategories, "", pathMap);
+  buildPathMap(rawBooks, bookById, pathMap);
 
-  return { books, bookById, rawById, relatedMap, pathMap };
+  return { books, bookById, relatedMap, pathMap };
 }
 
 // ── IndexProvider ─────────────────────────────────────────────────

@@ -16,14 +16,14 @@ import { resolveCategoryPath } from "../src/lib/categoryClassifier";
 
 // ── 型定義 ───────────────────────────────────────────────────────
 
-interface BookIndex {
+interface SourceBookIndex {
   id: string;
   title: string;
   authors: string[];
+  subtitle?: string;
   publisher?: string;
   publishedDate?: string;
   isbn13?: string;
-  language?: string;
   categories: string[];
   subjects?: string[];
   keywords: string[];
@@ -32,7 +32,29 @@ interface BookIndex {
   thumbnailUrl?: string;
   searchableText: string;
   relatedBookIds?: string[];
-  updatedAt: string;
+  sourceIds?: {
+    googleBooksId?: string;
+  };
+}
+
+interface SplitBookIndex {
+  id: string;
+  title: string;
+  authors: string[];
+  subtitle?: string;
+  publisher?: string;
+  publishedDate?: string;
+  isbn13?: string;
+  subjects?: string[];
+  keywords: string[];
+  pageCount?: number;
+  estimatedReadingHours?: number;
+  thumbnailUrl?: string;
+  relatedBookIds?: string[];
+  sourceIds?: {
+    googleBooksId?: string;
+  };
+  pathIds: string[];
 }
 
 // ── カテゴリマッピング ─────────────────────────────────────────────
@@ -96,7 +118,7 @@ function classifyByText(text: string): string | null {
 }
 
 /** 書籍を L1 mappedLabel に分類する（カテゴリ文字列 → テキストフォールバック） */
-function resolveL1Label(raw: BookIndex): string | null {
+function resolveL1Label(raw: SourceBookIndex): string | null {
   // まずカテゴリ文字列を全件評価（配列先頭バイアスを避ける）
   const labelScores = new Map<string, number>();
   for (const cat of raw.categories) {
@@ -125,7 +147,7 @@ function resolveL1Label(raw: BookIndex): string | null {
 // ── パス別インデックス構築 ────────────────────────────────────────
 
 function buildPathIndexes(
-  books: BookIndex[],
+  books: SplitBookIndex[],
   cats: Category[],
   pathPrefix: string,
   pathCounts: Record<string, number>,
@@ -134,7 +156,7 @@ function buildPathIndexes(
   const thumbSets: Record<string, Set<string>> = {};
 
   for (const b of books) {
-    const ids = resolveCategoryPath(b, cats);
+    const ids = b.pathIds;
     if (ids.length === 0) continue;
 
     for (let i = 0; i < ids.length; i++) {
@@ -154,13 +176,13 @@ function buildPathIndexes(
 
 const rawData = JSON.parse(
   readFileSync(join(process.cwd(), "src/data/books.index.json"), "utf-8"),
-) as BookIndex[];
+) as SourceBookIndex[];
 
 const outDir = join(process.cwd(), "public", "data");
 mkdirSync(outDir, { recursive: true });
 
 // L1別に書籍を振り分け
-const l1Groups = new Map<string, BookIndex[]>(); // l1Id → books
+const l1Groups = new Map<string, SplitBookIndex[]>(); // l1Id → books
 const bookL1: Record<string, string> = {};
 
 let skipped = 0;
@@ -172,8 +194,30 @@ for (const raw of rawData) {
   const l1 = CATEGORY_TREE.find(c => c.mappedLabels.includes(mappedLabel));
   if (!l1) { skipped++; continue; }
 
+  const pathIds = resolveCategoryPath(raw, l1.subcategories);
+  const splitBook: SplitBookIndex = {
+    id: raw.id,
+    title: raw.title,
+    authors: raw.authors,
+    keywords: raw.keywords,
+    pathIds,
+  };
+
+  if (raw.subtitle) splitBook.subtitle = raw.subtitle;
+  if (raw.publisher) splitBook.publisher = raw.publisher;
+  if (raw.publishedDate) splitBook.publishedDate = raw.publishedDate;
+  if (raw.isbn13) splitBook.isbn13 = raw.isbn13;
+  if (raw.subjects?.length) splitBook.subjects = raw.subjects;
+  if (raw.pageCount) splitBook.pageCount = raw.pageCount;
+  if (raw.estimatedReadingHours) splitBook.estimatedReadingHours = raw.estimatedReadingHours;
+  if (raw.thumbnailUrl) splitBook.thumbnailUrl = raw.thumbnailUrl;
+  if (raw.relatedBookIds?.length) splitBook.relatedBookIds = raw.relatedBookIds;
+  if (raw.sourceIds?.googleBooksId) {
+    splitBook.sourceIds = { googleBooksId: raw.sourceIds.googleBooksId };
+  }
+
   if (!l1Groups.has(l1.id)) l1Groups.set(l1.id, []);
-  l1Groups.get(l1.id)!.push(raw);
+  l1Groups.get(l1.id)!.push(splitBook);
   bookL1[raw.id] = l1.id;
 }
 

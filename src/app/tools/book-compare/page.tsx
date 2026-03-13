@@ -14,9 +14,8 @@ interface RawBook {
   id: string;
   title: string;
   authors: string[];
-  categories: string[];
+  pathIds: string[];
   keywords: string[];
-  searchableText: string;
   subtitle?: string;
   publisher?: string;
   publishedDate?: string;
@@ -206,8 +205,8 @@ function isMatchedByField(base: CachedBook, candidate: CachedBook, field: Compar
     }
     case "categories": {
       if (base.l1Id === candidate.l1Id) return true;
-      const baseCats = new Set(base.categories.map(normalizeText));
-      return candidate.categories.some(c => baseCats.has(normalizeText(c)));
+      const basePath = new Set(base.pathIds.map(normalizeText));
+      return candidate.pathIds.some(p => basePath.has(normalizeText(p)));
     }
     case "commonKeywords": {
       return countKeywordOverlap(base.keywords, candidate.keywords) >= 1;

@@ -14,7 +14,7 @@ Kindle本を感覚的に探索するためのツール集。
 ## 低コスト理由
 
 - **ホスティング**: Cloudflare Pages 無料プラン（$0/月）
-- **データ**: 初期はモックJSON（API費用ゼロ）
+- **データ**: 生成済みインデックスJSONを静的配信（API費用ゼロ）
 - **サーバー**: 完全静的サイト（サーバー不要）
 - **ドメイン**: kuras-plus.com のサブドメイン（追加費用なし）
 - **Amazon API**: 初期は不要、将来のみ有料（PA-APIは無料だがアソシエイト審査が必要）
@@ -35,13 +35,14 @@ src/
 │   ├── BookCard.tsx            # 書籍カード（類似理由・価格・Amazonリンク）
 │   └── SearchBox.tsx
 ├── data/
-│   └── books.json              # モックデータ（25冊）
+│   ├── books.source.json       # ISBNソース（収集用）
+│   └── books.index.json        # 正規化済み書誌インデックス（生成元）
 └── lib/
-    ├── similarity.ts           # 類似度スコアリングロジック
+    ├── categoryClassifier.ts   # カテゴリ推定ロジック
     └── bookProviders/
         ├── types.ts            # Book / SimilarityResult / BookProvider インターフェース
-        ├── mockProvider.ts     # モックデータプロバイダー（現在使用中）
-        └── amazonProvider.ts   # Amazon PA-APIプロバイダー（スタブ・将来用）
+        ├── indexProvider.ts    # 分割インデックス読み込みプロバイダー（現在使用中）
+        └── amazonProvider.ts   # Amazon PA-APIプロバイダー（将来用）
 ```
 
 ## ローカル起動
@@ -161,13 +162,7 @@ export const amazonProvider: BookProvider = {
 
 ### 切り替え
 
-`src/app/similar-books/page.tsx` でプロバイダーを変更:
-
-```typescript
-// import { mockProvider } from "@/lib/bookProviders/mockProvider";
-import { amazonProvider } from "@/lib/bookProviders/amazonProvider";
-const provider = amazonProvider;
-```
+現在は `src/lib/bookProviders/indexProvider.ts` を利用中。将来 `amazonProvider` を使う場合は、利用箇所で `indexProvider` から差し替えます。
 
 ## 環境変数例
 
@@ -189,9 +184,16 @@ NEXT_PUBLIC_SITE_URL=https://books.kuras-plus.com
 | `/reading-time` | ページ数から読了時間を推定 |
 | `/tag-explorer` | タグ・テーマベースで関連本を辿る |
 
-## 類似度アルゴリズム
+## 類似表示ロジック
 
-`src/lib/similarity.ts` で実装。スコアリング基準:
+現在は事前計算済みの `relatedBookIds` を使って関連書籍を表示。
+追加の理由表示（同著者・同カテゴリ・共通タグ）はフロント側で付与。
+
+参照:
+- `src/lib/bookProviders/indexProvider.ts`
+- `scripts/build-related.ts`
+
+スコアリング基準（`build-related.ts`）:
 
 | 一致条件 | スコア |
 |----------|--------|
