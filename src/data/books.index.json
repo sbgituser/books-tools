@@ -1,5 +1,2580 @@
 [
   {
+    "id": "gb-ztZUEAAAQBAJ",
+    "title": "荒川弘イラスト集　鋼の錬金術師",
+    "authors": [
+      "荒川弘"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "荒川弘イラスト集　鋼の錬金術師 荒川弘 Square Enix 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "Square Enix",
+    "publishedDate": "2017-09-15",
+    "language": "ja",
+    "pageCount": 292,
+    "estimatedReadingHours": 7.3,
+    "thumbnailUrl": "https://books.google.com/books/content?id=ztZUEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "ztZUEAAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-nKXGDwAAQBAJ",
+    "title": "鬼滅の刃 19",
+    "authors": [
+      "吾峠呼世晴"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "鬼滅の刃 19 吾峠呼世晴 集英社 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "集英社",
+    "publishedDate": "2020-02-04",
+    "language": "ja",
+    "pageCount": 201,
+    "estimatedReadingHours": 5,
+    "thumbnailUrl": "https://books.google.com/books/content?id=nKXGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "nKXGDwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-hjQJEQAAQBAJ",
+    "title": "ハイキュー!! カラー版 42",
+    "authors": [
+      "古舘春一"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "ハイキュー!! カラー版 42 古舘春一 集英社 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "集英社",
+    "publishedDate": "2020-03-04",
+    "language": "ja",
+    "pageCount": 205,
+    "estimatedReadingHours": 5.1,
+    "thumbnailUrl": "https://books.google.com/books/content?id=hjQJEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "hjQJEQAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-W-icDwAAQBAJ",
+    "title": "東京卍リベンジャーズ（１２）",
+    "authors": [
+      "和久井健"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "東京卍リベンジャーズ（１２） 和久井健 講談社 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "講談社",
+    "publishedDate": "2019-06-17",
+    "language": "ja",
+    "pageCount": 211,
+    "estimatedReadingHours": 5.3,
+    "thumbnailUrl": "https://books.google.com/books/content?id=W-icDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "W-icDwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-tELGBQAAQBAJ",
+    "title": "ヴィンランド・サガ（９）",
+    "authors": [
+      "幸村誠"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "ヴィンランド・サガ（９） 幸村誠 講談社 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "講談社",
+    "publishedDate": "2010-06-23",
+    "language": "ja",
+    "pageCount": 211,
+    "estimatedReadingHours": 5.3,
+    "thumbnailUrl": "https://books.google.com/books/content?id=tELGBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "tELGBQAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-oRgFEAAAQBAJ",
+    "title": "ゴールデンカムイ公式ファンブック 探究者たちの記録",
+    "authors": [
+      "野田サトル"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "ゴールデンカムイ公式ファンブック 探究者たちの記録 野田サトル 集英社 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "集英社",
+    "publishedDate": "2020-11-19",
+    "language": "ja",
+    "pageCount": 241,
+    "estimatedReadingHours": 6,
+    "thumbnailUrl": "https://books.google.com/books/content?id=oRgFEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "oRgFEAAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-yG4QEAAAQBAJ",
+    "title": "DEATH NOTE短編集",
+    "authors": [
+      "大場つぐみ",
+      "小畑健"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "DEATH NOTE短編集 大場つぐみ 小畑健 集英社 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "集英社",
+    "publishedDate": "2021-02-04",
+    "language": "ja",
+    "pageCount": 229,
+    "estimatedReadingHours": 5.7,
+    "thumbnailUrl": "https://books.google.com/books/content?id=yG4QEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "yG4QEAAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-6GKuDwAAQBAJ",
+    "title": "ダンジョン飯 8巻",
+    "authors": [
+      "九井　諒子"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "ダンジョン飯 8巻 九井　諒子 KADOKAWA 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "KADOKAWA",
+    "publishedDate": "2019-09-14",
+    "language": "ja",
+    "pageCount": 207,
+    "estimatedReadingHours": 5.2,
+    "thumbnailUrl": "https://books.google.com/books/content?id=6GKuDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "6GKuDwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-S1fTDwAAQBAJ",
+    "title": "図説 メイドインアビス 探窟記録【電子特典付き】",
+    "authors": [
+      "つくしあきひと",
+      "増山修",
+      "小島正幸"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "図説 メイドインアビス 探窟記録【電子特典付き】 つくしあきひと 増山修 小島正幸 竹書房 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "竹書房",
+    "publishedDate": "2020-01-17",
+    "language": "ja",
+    "pageCount": 395,
+    "estimatedReadingHours": 9.9,
+    "thumbnailUrl": "https://books.google.com/books/content?id=S1fTDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "S1fTDwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-_0GoDwAAQBAJ",
+    "title": "Dr.STONEの最強自由研究",
+    "authors": [
+      "稲垣理一郎",
+      "Boichi",
+      "くられ"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "Dr.STONEの最強自由研究 稲垣理一郎 Boichi くられ 集英社 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "集英社",
+    "publishedDate": "2019-08-02",
+    "language": "ja",
+    "pageCount": 84,
+    "estimatedReadingHours": 2.1,
+    "thumbnailUrl": "https://books.google.com/books/content?id=_0GoDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "_0GoDwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-K1liDAAAQBAJ",
+    "title": "僕のヒーローアカデミア公式キャラクターブック Ultra Archive",
+    "authors": [
+      "堀越耕平"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "僕のヒーローアカデミア公式キャラクターブック Ultra Archive 堀越耕平 集英社 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "集英社",
+    "publishedDate": "2016-05-02",
+    "language": "ja",
+    "pageCount": 217,
+    "estimatedReadingHours": 5.4,
+    "thumbnailUrl": "https://books.google.com/books/content?id=K1liDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "K1liDAAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-DBnKDwAAQBAJ",
+    "title": "宇宙兄弟　オールカラー版（３３）",
+    "authors": [
+      "小山宙哉"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "宇宙兄弟　オールカラー版（３３） 小山宙哉 講談社 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "講談社",
+    "language": "ja",
+    "pageCount": 205,
+    "estimatedReadingHours": 5.1,
+    "thumbnailUrl": "https://books.google.com/books/content?id=DBnKDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "DBnKDwAAQBAJ"
+    }
+  },
+  {
+    "id": "9784163906188",
+    "title": "コンビニ人間",
+    "authors": [
+      "村田沙耶香"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "コンビニ人間 村田沙耶香 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "2016-07",
+    "isbn10": "4163906185",
+    "isbn13": "9784163906188",
+    "language": "ja",
+    "pageCount": 160,
+    "estimatedReadingHours": 4,
+    "thumbnailUrl": "https://books.google.com/books/content?id=ZgUFvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "ZgUFvgAACAAJ"
+    }
+  },
+  {
+    "id": "gb-vYbDBQAAQBAJ",
+    "title": "博士の愛した数式",
+    "authors": [
+      "小川洋子",
+      "くりた陸"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "博士の愛した数式 小川洋子 くりた陸 講談社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "講談社",
+    "publishedDate": "2006-02-03",
+    "language": "ja",
+    "pageCount": 193,
+    "estimatedReadingHours": 4.8,
+    "thumbnailUrl": "https://books.google.com/books/content?id=vYbDBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "vYbDBQAAQBAJ"
+    }
+  },
+  {
+    "id": "9784344029279",
+    "title": "ツバキ文具店",
+    "authors": [
+      "小川糸"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "ツバキ文具店 小川糸 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "2016-04-20",
+    "isbn10": "4344029275",
+    "isbn13": "9784344029279",
+    "language": "ja",
+    "pageCount": 269,
+    "estimatedReadingHours": 6.7,
+    "thumbnailUrl": "https://books.google.com/books/content?id=yEvvjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "yEvvjwEACAAJ"
+    }
+  },
+  {
+    "id": "gb-q1imYpx_hbUC",
+    "title": "図書館戦争　図書館戦争シリーズ(1)",
+    "authors": [
+      "有川　浩"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "図書館戦争　図書館戦争シリーズ(1) 有川　浩 KADOKAWA 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "KADOKAWA",
+    "language": "ja",
+    "pageCount": 273,
+    "estimatedReadingHours": 6.8,
+    "thumbnailUrl": "https://books.google.com/books/content?id=q1imYpx_hbUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "q1imYpx_hbUC"
+    }
+  },
+  {
+    "id": "gb-fxoXEAAAQBAJ",
+    "title": "かがみの孤城 3",
+    "authors": [
+      "辻村深月",
+      "武富智"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "かがみの孤城 3 辻村深月 武富智 集英社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "集英社",
+    "publishedDate": "2021-02-19",
+    "language": "ja",
+    "pageCount": 227,
+    "estimatedReadingHours": 5.7,
+    "thumbnailUrl": "https://books.google.com/books/content?id=fxoXEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "fxoXEAAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-ujZoEQAAQBAJ",
+    "title": "成瀬は天下を取りにいく（新潮文庫）",
+    "authors": [
+      "宮島未奈"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "成瀬は天下を取りにいく（新潮文庫） 宮島未奈 新潮社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "新潮社",
+    "publishedDate": "2025-06-25",
+    "language": "ja",
+    "pageCount": 165,
+    "estimatedReadingHours": 4.1,
+    "thumbnailUrl": "https://books.google.com/books/content?id=ujZoEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "ujZoEQAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-DEoxDgAAQBAJ",
+    "title": "夜は短し歩けよ乙女　映画カバー版",
+    "authors": [
+      "森見　登美彦"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "夜は短し歩けよ乙女　映画カバー版 森見　登美彦 KADOKAWA 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "KADOKAWA",
+    "publishedDate": "2008-12-25",
+    "language": "ja",
+    "pageCount": 198,
+    "estimatedReadingHours": 5,
+    "thumbnailUrl": "https://books.google.com/books/content?id=DEoxDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "DEoxDgAAQBAJ"
+    }
+  },
+  {
+    "id": "9784122073708",
+    "title": "52ヘルツのクジラたち",
+    "authors": [
+      "町田そのこ"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "52ヘルツのクジラたち 町田そのこ 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "2023-05",
+    "isbn10": "4122073707",
+    "isbn13": "9784122073708",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=V5nVzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "V5nVzwEACAAJ"
+    }
+  },
+  {
+    "id": "gb-CdvCBQAAQBAJ",
+    "title": "寄生獣（５）",
+    "authors": [
+      "岩明均"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "寄生獣（５） 岩明均 講談社 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "講談社",
+    "publishedDate": "1992-08-22",
+    "language": "ja",
+    "pageCount": 219,
+    "estimatedReadingHours": 5.5,
+    "thumbnailUrl": "https://books.google.com/books/content?id=CdvCBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "CdvCBQAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-OsHKCwAAQBAJ",
+    "title": "暗殺教室 5",
+    "authors": [
+      "松井優征"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "暗殺教室 5 松井優征 集英社 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "集英社",
+    "publishedDate": "2013-07-04",
+    "language": "ja",
+    "pageCount": 195,
+    "estimatedReadingHours": 4.9,
+    "thumbnailUrl": "https://books.google.com/books/content?id=OsHKCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "OsHKCwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-HbmEDwAAQBAJ",
+    "title": "約束のネバーランド 13 ミニ画集付き特装版",
+    "authors": [
+      "白井カイウ",
+      "出水ぽすか"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "約束のネバーランド 13 ミニ画集付き特装版 白井カイウ 出水ぽすか 集英社 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "集英社",
+    "publishedDate": "2019-03-04",
+    "language": "ja",
+    "pageCount": 273,
+    "estimatedReadingHours": 6.8,
+    "thumbnailUrl": "https://books.google.com/books/content?id=HbmEDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "HbmEDwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-WZP2CgAAQBAJ",
+    "title": "うしおととら（２７）",
+    "authors": [
+      "藤田和日郎"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "うしおととら（２７） 藤田和日郎 小学館 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "小学館",
+    "publishedDate": "1996-01-18",
+    "language": "ja",
+    "pageCount": 200,
+    "estimatedReadingHours": 5,
+    "thumbnailUrl": "https://books.google.com/books/content?id=WZP2CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "WZP2CgAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-jdReEAAAQBAJ",
+    "title": "MONSTER 完全版 デジタルVer.（９）",
+    "authors": [
+      "浦沢直樹"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "MONSTER 完全版 デジタルVer.（９） 浦沢直樹 小学館 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "小学館",
+    "publishedDate": "1998-05-30",
+    "language": "ja",
+    "pageCount": 226,
+    "estimatedReadingHours": 5.7,
+    "thumbnailUrl": "https://books.google.com/books/content?id=jdReEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "jdReEAAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-0pTLCwAAQBAJ",
+    "title": "ヒカルの碁 4",
+    "authors": [
+      "ほったゆみ",
+      "小畑健"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "ヒカルの碁 4 ほったゆみ 小畑健 集英社 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "集英社",
+    "publishedDate": "1999-12-02",
+    "language": "ja",
+    "pageCount": 198,
+    "estimatedReadingHours": 5,
+    "thumbnailUrl": "https://books.google.com/books/content?id=0pTLCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "0pTLCwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-eRz4CgAAQBAJ",
+    "title": "からくりサーカス（３）",
+    "authors": [
+      "藤田和日郎"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "からくりサーカス（３） 藤田和日郎 小学館 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "小学館",
+    "publishedDate": "1998-04-18",
+    "language": "ja",
+    "pageCount": 192,
+    "estimatedReadingHours": 4.8,
+    "thumbnailUrl": "https://books.google.com/books/content?id=eRz4CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "eRz4CgAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-HQfzCgAAQBAJ",
+    "title": "ピンポン（１）",
+    "authors": [
+      "松本大洋"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "ピンポン（１） 松本大洋 小学館 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "小学館",
+    "publishedDate": "1996-07-30",
+    "language": "ja",
+    "pageCount": 215,
+    "estimatedReadingHours": 5.4,
+    "thumbnailUrl": "https://books.google.com/books/content?id=HQfzCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "HQfzCgAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-eNE2EAAAQBAJ",
+    "title": "寄生獣リバーシ（８）",
+    "authors": [
+      "岩明均",
+      "太田モアレ"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "寄生獣リバーシ（８） 岩明均 太田モアレ 講談社 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "講談社",
+    "publishedDate": "2021-07-14",
+    "language": "ja",
+    "pageCount": 191,
+    "estimatedReadingHours": 4.8,
+    "thumbnailUrl": "https://books.google.com/books/content?id=eNE2EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "eNE2EAAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-zPhIDwAAQBAJ",
+    "title": "チムニーズ館の秘密",
+    "authors": [
+      "榛野なな恵",
+      "アガサ・クリスティー"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "チムニーズ館の秘密 榛野なな恵 アガサ・クリスティー 集英社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "集英社",
+    "publishedDate": "2006-09-19",
+    "language": "ja",
+    "pageCount": 217,
+    "estimatedReadingHours": 5.4,
+    "thumbnailUrl": "https://books.google.com/books/content?id=zPhIDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "zPhIDwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-xpJBCgAAQBAJ",
+    "title": "実例　大人の基本　手紙書き方大全",
+    "authors": [
+      "中川越"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "実例　大人の基本　手紙書き方大全 中川越 講談社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "講談社",
+    "publishedDate": "2015-06-16",
+    "language": "ja",
+    "pageCount": 324,
+    "estimatedReadingHours": 8.1,
+    "thumbnailUrl": "https://books.google.com/books/content?id=xpJBCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "xpJBCgAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-JmvTtwEACAAJ",
+    "title": "眠りの森",
+    "authors": [
+      "東野圭吾"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "眠りの森 東野圭吾 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "1992",
+    "language": "ja",
+    "pageCount": 328,
+    "estimatedReadingHours": 8.2,
+    "sourceIds": {
+      "googleBooksId": "JmvTtwEACAAJ"
+    }
+  },
+  {
+    "id": "9784061816879",
+    "title": "どちらかが彼女を殺した",
+    "authors": [
+      "圭吾·東野"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "どちらかが彼女を殺した 圭吾·東野 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "1996",
+    "isbn10": "406181687X",
+    "isbn13": "9784061816879",
+    "language": "ja",
+    "pageCount": 250,
+    "estimatedReadingHours": 6.3,
+    "sourceIds": {
+      "googleBooksId": "Rah9MwEACAAJ"
+    }
+  },
+  {
+    "id": "gb-nZZ8DwAAQBAJ",
+    "title": "見えない悪意",
+    "authors": [
+      "立木美和"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "見えない悪意 立木美和 ぶんか社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "ぶんか社",
+    "language": "ja",
+    "pageCount": 171,
+    "estimatedReadingHours": 4.3,
+    "thumbnailUrl": "https://books.google.com/books/content?id=nZZ8DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "nZZ8DwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-xwy50QEACAAJ",
+    "title": "聖女の救済",
+    "authors": [
+      "著者不明"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "聖女の救済 著者不明 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "2013",
+    "language": "ja",
+    "sourceIds": {
+      "googleBooksId": "xwy50QEACAAJ"
+    }
+  },
+  {
+    "id": "9784062185363",
+    "title": "祈りの幕が下りる時",
+    "authors": [
+      "東野圭吾"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "祈りの幕が下りる時 東野圭吾 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "2013-09-13",
+    "isbn10": "4062185369",
+    "isbn13": "9784062185363",
+    "language": "ja",
+    "pageCount": 81,
+    "estimatedReadingHours": 2,
+    "thumbnailUrl": "https://books.google.com/books/content?id=uQ8inwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "uQ8inwEACAAJ"
+    }
+  },
+  {
+    "id": "9784062769204",
+    "title": "流星の絆",
+    "authors": [
+      "東野圭吾"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "流星の絆 東野圭吾 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "2011-04",
+    "isbn10": "4062769204",
+    "isbn13": "9784062769204",
+    "language": "ja",
+    "pageCount": 617,
+    "estimatedReadingHours": 15.4,
+    "thumbnailUrl": "https://books.google.com/books/content?id=Xh9nzgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Xh9nzgAACAAJ"
+    }
+  },
+  {
+    "id": "9784041879887",
+    "title": "セーラー服と機関銃・その後 ──卒業──",
+    "authors": [
+      "赤川次郎"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "セーラー服と機関銃・その後 ──卒業── 赤川次郎 角川書店 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "角川書店",
+    "publishedDate": "2006-09",
+    "isbn10": "4041879884",
+    "isbn13": "9784041879887",
+    "language": "ja",
+    "pageCount": 354,
+    "estimatedReadingHours": 8.9,
+    "thumbnailUrl": "https://books.google.com/books/content?id=7OiL7rc0hjAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "7OiL7rc0hjAC"
+    }
+  },
+  {
+    "id": "gb-blog-分身",
+    "title": "分身",
+    "authors": [
+      "著者不明"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "分身 著者不明 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "language": "ja"
+  },
+  {
+    "id": "gb-ji_9EAAAQBAJ",
+    "title": "変身",
+    "authors": [
+      "フランツ・カフカ",
+      "原田義人",
+      "古典名作文庫編集部"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "変身 フランツ・カフカ 原田義人 古典名作文庫編集部 千歳出版 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "千歳出版",
+    "language": "ja",
+    "pageCount": 50,
+    "estimatedReadingHours": 1.3,
+    "thumbnailUrl": "https://books.google.com/books/content?id=ji_9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "ji_9EAAAQBAJ"
+    }
+  },
+  {
+    "id": "9784101250267",
+    "title": "ゴールデンスランバー",
+    "authors": [
+      "伊坂幸太郎"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "ゴールデンスランバー 伊坂幸太郎 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "2010-12-01",
+    "isbn10": "410125026X",
+    "isbn13": "9784101250267",
+    "language": "ja",
+    "pageCount": 690,
+    "estimatedReadingHours": 17.3,
+    "thumbnailUrl": "https://books.google.com/books/content?id=XdNYewAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "XdNYewAACAAJ"
+    }
+  },
+  {
+    "id": "gb-YbxaEAAAQBAJ",
+    "title": "重力ピエロ",
+    "authors": [
+      "伊坂幸太郎"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "重力ピエロ 伊坂幸太郎 新潮社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "新潮社",
+    "publishedDate": "2006-07-01",
+    "language": "ja",
+    "pageCount": 267,
+    "estimatedReadingHours": 6.7,
+    "thumbnailUrl": "https://books.google.com/books/content?id=YbxaEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "YbxaEAAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-iNs7QS_3wiMC",
+    "title": "グラスホッパー(1)",
+    "authors": [
+      "井田　ヒロト"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "グラスホッパー(1) 井田　ヒロト KADOKAWA 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "KADOKAWA",
+    "publishedDate": "2007-06",
+    "language": "ja",
+    "pageCount": 177,
+    "estimatedReadingHours": 4.4,
+    "thumbnailUrl": "https://books.google.com/books/content?id=iNs7QS_3wiMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "iNs7QS_3wiMC"
+    }
+  },
+  {
+    "id": "gb-2WM7AQAAQBAJ",
+    "title": "マリアビートル",
+    "authors": [
+      "伊坂　幸太郎"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "マリアビートル 伊坂　幸太郎 KADOKAWA 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "KADOKAWA",
+    "publishedDate": "2013-09-25",
+    "language": "ja",
+    "pageCount": 353,
+    "estimatedReadingHours": 8.8,
+    "thumbnailUrl": "https://books.google.com/books/content?id=2WM7AQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "2WM7AQAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-9APQDwAAQBAJ",
+    "title": "ＡＸ アックス",
+    "authors": [
+      "伊坂　幸太郎"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "ＡＸ アックス 伊坂　幸太郎 KADOKAWA 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "KADOKAWA",
+    "publishedDate": "2020-02-21",
+    "language": "ja",
+    "pageCount": 218,
+    "estimatedReadingHours": 5.5,
+    "thumbnailUrl": "https://books.google.com/books/content?id=9APQDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "9APQDwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-Y7xaEAAAQBAJ",
+    "title": "ラッシュライフ",
+    "authors": [
+      "伊坂幸太郎"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "ラッシュライフ 伊坂幸太郎 新潮社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "新潮社",
+    "publishedDate": "2005-05-01",
+    "language": "ja",
+    "pageCount": 231,
+    "estimatedReadingHours": 5.8,
+    "thumbnailUrl": "https://books.google.com/books/content?id=Y7xaEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Y7xaEAAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-pZ9DEQAAQBAJ",
+    "title": "死神の精度",
+    "authors": [
+      "伊坂幸太郎"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "死神の精度 伊坂幸太郎 文藝春秋 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "文藝春秋",
+    "publishedDate": "2025-02-05",
+    "language": "ja",
+    "pageCount": 208,
+    "estimatedReadingHours": 5.2,
+    "thumbnailUrl": "https://books.google.com/books/content?id=pZ9DEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "pZ9DEQAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-xuWeAwAAQBAJ",
+    "title": "ノーブルチルドレンの残酷(2)",
+    "authors": [
+      "著者不明"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "ノーブルチルドレンの残酷(2) 著者不明 KADOKAWA 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "KADOKAWA",
+    "language": "ja",
+    "pageCount": 200,
+    "estimatedReadingHours": 5,
+    "thumbnailUrl": "https://books.google.com/books/content?id=xuWeAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "xuWeAwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-X7xaEAAAQBAJ",
+    "title": "オーデュボンの祈り",
+    "authors": [
+      "伊坂幸太郎"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "オーデュボンの祈り 伊坂幸太郎 新潮社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "新潮社",
+    "publishedDate": "2003-12-01",
+    "language": "ja",
+    "pageCount": 281,
+    "estimatedReadingHours": 7,
+    "thumbnailUrl": "https://books.google.com/books/content?id=X7xaEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "X7xaEAAAQBAJ"
+    }
+  },
+  {
+    "id": "9784062150736",
+    "title": "モダンタイムス",
+    "authors": [
+      "伊坂幸太郎"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "モダンタイムス 伊坂幸太郎 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "2008-10",
+    "isbn10": "4062150735",
+    "isbn13": "9784062150736",
+    "language": "ja",
+    "pageCount": 540,
+    "estimatedReadingHours": 13.5,
+    "thumbnailUrl": "https://books.google.com/books/content?id=O8JTzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "O8JTzQEACAAJ"
+    }
+  },
+  {
+    "id": "9784533103872",
+    "title": "たべあるキングが選んだ！東京トレンドグルメ 2015",
+    "authors": [
+      "著者不明"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "たべあるキングが選んだ！東京トレンドグルメ 2015 著者不明 JTBパブリッシング 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "JTBパブリッシング",
+    "publishedDate": "2015-04-24",
+    "isbn10": "4533103871",
+    "isbn13": "9784533103872",
+    "language": "ja",
+    "pageCount": 98,
+    "estimatedReadingHours": 2.5,
+    "thumbnailUrl": "https://books.google.com/books/content?id=o36fCAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "o36fCAAAQBAJ"
+    }
+  },
+  {
+    "id": "9784101250311",
+    "title": "首折り男のための協奏曲",
+    "authors": [
+      "伊坂幸太郎"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "首折り男のための協奏曲 伊坂幸太郎 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "2016-11",
+    "isbn10": "4101250316",
+    "isbn13": "9784101250311",
+    "language": "ja",
+    "pageCount": 448,
+    "estimatedReadingHours": 11.2,
+    "thumbnailUrl": "https://books.google.com/books/content?id=t8YDMQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "t8YDMQAACAAJ"
+    }
+  },
+  {
+    "id": "gb-9rZ9DwAAQBAJ",
+    "title": "フーガはユーガ",
+    "authors": [
+      "伊坂幸太郎"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "フーガはユーガ 伊坂幸太郎 実業之日本社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "実業之日本社",
+    "language": "ja",
+    "pageCount": 199,
+    "estimatedReadingHours": 5,
+    "thumbnailUrl": "https://books.google.com/books/content?id=9rZ9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "9rZ9DwAAQBAJ"
+    }
+  },
+  {
+    "id": "9784022517920",
+    "title": "ペッパーズ・ゴースト",
+    "authors": [
+      "伊坂幸太郎"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "ペッパーズ・ゴースト 伊坂幸太郎 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "2021-10",
+    "isbn10": "4022517921",
+    "isbn13": "9784022517920",
+    "language": "ja",
+    "pageCount": 392,
+    "estimatedReadingHours": 9.8,
+    "thumbnailUrl": "https://books.google.com/books/content?id=83KKzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "83KKzgEACAAJ"
+    }
+  },
+  {
+    "id": "gb-ogktEQAAQBAJ",
+    "title": "贖罪の花嫁はいつわりの婚姻に溺れる１",
+    "authors": [
+      "蜂谷ナナオ",
+      "マチバリ"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "贖罪の花嫁はいつわりの婚姻に溺れる１ 蜂谷ナナオ マチバリ アルファポリス 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "アルファポリス",
+    "publishedDate": "2024-11-01",
+    "language": "ja",
+    "pageCount": 160,
+    "estimatedReadingHours": 4,
+    "thumbnailUrl": "https://books.google.com/books/content?id=ogktEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "ogktEQAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-n7bnDwAAQBAJ",
+    "title": "Nのために",
+    "authors": [
+      "湊かなえ"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "Nのために 湊かなえ 双葉社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "双葉社",
+    "language": "ja",
+    "pageCount": 176,
+    "estimatedReadingHours": 4.4,
+    "thumbnailUrl": "https://books.google.com/books/content?id=n7bnDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "n7bnDwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-PnQ1EAAAQBAJ",
+    "title": "白ゆき姫殺人事件",
+    "authors": [
+      "湊かなえ"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "白ゆき姫殺人事件 湊かなえ 集英社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "集英社",
+    "publishedDate": "2014-02-25",
+    "language": "ja",
+    "pageCount": 225,
+    "estimatedReadingHours": 5.6,
+    "thumbnailUrl": "https://books.google.com/books/content?id=PnQ1EAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "PnQ1EAAAQBAJ"
+    }
+  },
+  {
+    "id": "9784861570209",
+    "title": "母性看護学",
+    "authors": [
+      "茅島江子"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "母性看護学 茅島江子 日本放射線技師会出版会 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "日本放射線技師会出版会",
+    "publishedDate": "2007-05",
+    "isbn10": "4861570204",
+    "isbn13": "9784861570209",
+    "language": "ja",
+    "pageCount": 234,
+    "estimatedReadingHours": 5.9,
+    "thumbnailUrl": "https://books.google.com/books/content?id=lpVDOuXQfF8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "lpVDOuXQfF8C"
+    }
+  },
+  {
+    "id": "gb-owmS_TJaucIC",
+    "title": "現代少女とその教育",
+    "authors": [
+      "沼田笠峰"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "現代少女とその教育 沼田笠峰 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "1916",
+    "language": "ja",
+    "pageCount": 308,
+    "estimatedReadingHours": 7.7,
+    "thumbnailUrl": "https://books.google.com/books/content?id=owmS_TJaucIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "owmS_TJaucIC"
+    }
+  },
+  {
+    "id": "9784575305104",
+    "title": "コミック版夜行観覧車",
+    "authors": [
+      "木村まるみ",
+      "湊かなえ"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "コミック版夜行観覧車 木村まるみ 湊かなえ 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "2013-03-17",
+    "isbn10": "4575305103",
+    "isbn13": "9784575305104",
+    "language": "ja",
+    "pageCount": 169,
+    "estimatedReadingHours": 4.2,
+    "thumbnailUrl": "https://books.google.com/books/content?id=C_ZKmgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "C_ZKmgEACAAJ"
+    }
+  },
+  {
+    "id": "gb-jMM4EAAAQBAJ",
+    "title": "リバース",
+    "authors": [
+      "湊かなえ"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "リバース 湊かなえ 講談社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "講談社",
+    "publishedDate": "2017-03-15",
+    "language": "ja",
+    "pageCount": 183,
+    "estimatedReadingHours": 4.6,
+    "thumbnailUrl": "https://books.google.com/books/content?id=jMM4EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "jMM4EAAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-KuvKAwAAQBAJ",
+    "title": "望郷",
+    "authors": [
+      "森　瑤子"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "望郷 森　瑤子 KADOKAWA 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "KADOKAWA",
+    "language": "ja",
+    "pageCount": 297,
+    "estimatedReadingHours": 7.4,
+    "thumbnailUrl": "https://books.google.com/books/content?id=KuvKAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "KuvKAwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-IxBNEAAAQBAJ",
+    "title": "往復書簡",
+    "authors": [
+      "湊かなえ"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "往復書簡 湊かなえ 幻冬舎 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "幻冬舎",
+    "publishedDate": "2021-11-11",
+    "language": "ja",
+    "pageCount": 188,
+    "estimatedReadingHours": 4.7,
+    "thumbnailUrl": "https://books.google.com/books/content?id=IxBNEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "IxBNEAAAQBAJ"
+    }
+  },
+  {
+    "id": "9784344026018",
+    "title": "山女日記",
+    "authors": [
+      "湊かなえ"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "山女日記 湊かなえ 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "2014-07-10",
+    "isbn10": "4344026012",
+    "isbn13": "9784344026018",
+    "language": "ja",
+    "pageCount": 292,
+    "estimatedReadingHours": 7.3,
+    "thumbnailUrl": "https://books.google.com/books/content?id=2_mMoAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "2_mMoAEACAAJ"
+    }
+  },
+  {
+    "id": "gb-Ps4NEAAAQBAJ",
+    "title": "こんなにスゴイ！ 未来のせかい",
+    "authors": [
+      "増田まもる"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "こんなにスゴイ！ 未来のせかい 増田まもる 東京書籍 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "東京書籍",
+    "publishedDate": "2020-11-24",
+    "language": "ja",
+    "pageCount": 114,
+    "estimatedReadingHours": 2.9,
+    "thumbnailUrl": "https://books.google.com/books/content?id=Ps4NEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Ps4NEAAAQBAJ"
+    }
+  },
+  {
+    "id": "9784488425074",
+    "title": "ミハスの落日",
+    "authors": [
+      "貫井徳郎"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "ミハスの落日 貫井徳郎 東京創元社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "東京創元社",
+    "publishedDate": "2016-09-09",
+    "isbn10": "4488425070",
+    "isbn13": "9784488425074",
+    "language": "ja",
+    "pageCount": 208,
+    "estimatedReadingHours": 5.2,
+    "thumbnailUrl": "https://books.google.com/books/content?id=M83_DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "M83_DAAAQBAJ"
+    }
+  },
+  {
+    "id": "9784140052921",
+    "title": "サファイアの書",
+    "authors": [
+      "ジルベールシヌエ"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "サファイアの書 ジルベールシヌエ 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "1998-04-25",
+    "isbn10": "4140052929",
+    "isbn13": "9784140052921",
+    "language": "ja",
+    "pageCount": 573,
+    "estimatedReadingHours": 14.3,
+    "thumbnailUrl": "https://books.google.com/books/content?id=_LGYAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "_LGYAAAACAAJ"
+    }
+  },
+  {
+    "id": "9784103329121",
+    "title": "豆の上で眠る",
+    "authors": [
+      "かなえ・湊"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "豆の上で眠る かなえ・湊 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "2014",
+    "isbn10": "4103329122",
+    "isbn13": "9784103329121",
+    "language": "ja",
+    "pageCount": 275,
+    "estimatedReadingHours": 6.9,
+    "sourceIds": {
+      "googleBooksId": "FRzRoAEACAAJ"
+    }
+  },
+  {
+    "id": "gb-eNjdDwAAQBAJ",
+    "title": "容疑者Xの献身",
+    "authors": [
+      "東野圭吾"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "容疑者Xの献身 東野圭吾 文藝春秋 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "文藝春秋",
+    "publishedDate": "2008-08-05",
+    "language": "ja",
+    "pageCount": 234,
+    "estimatedReadingHours": 5.9,
+    "thumbnailUrl": "https://books.google.com/books/content?id=eNjdDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "eNjdDwAAQBAJ"
+    }
+  },
+  {
+    "id": "9784101001548",
+    "title": "海辺のカフカ",
+    "authors": [
+      "村上春樹"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "海辺のカフカ 村上春樹 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "2005",
+    "isbn10": "4101001545",
+    "isbn13": "9784101001548",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=CFyr0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "CFyr0AEACAAJ"
+    }
+  },
+  {
+    "id": "9784061879454",
+    "title": "ねじまき鳥クロニクル",
+    "authors": [
+      "村上春樹"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "ねじまき鳥クロニクル 村上春樹 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "2003",
+    "isbn10": "4061879456",
+    "isbn13": "9784061879454",
+    "language": "ja",
+    "pageCount": 434,
+    "estimatedReadingHours": 10.9,
+    "thumbnailUrl": "https://books.google.com/books/content?id=UrszQwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "UrszQwAACAAJ"
+    }
+  },
+  {
+    "id": "9784103534174",
+    "title": "世界の終りとハードボイルド・ワンダーランド",
+    "authors": [
+      "村上春樹"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "世界の終りとハードボイルド・ワンダーランド 村上春樹 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "2005-09",
+    "isbn10": "4103534176",
+    "isbn13": "9784103534174",
+    "language": "ja",
+    "pageCount": 618,
+    "estimatedReadingHours": 15.5,
+    "thumbnailUrl": "https://books.google.com/books/content?id=DdPNPQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "DdPNPQAACAAJ"
+    }
+  },
+  {
+    "id": "gb-dbk2DwAAQBAJ",
+    "title": "10ダンス！ダンス！ダンス！！ ： 2",
+    "authors": [
+      "酒井美羽"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "10ダンス！ダンス！ダンス！！ ： 2 酒井美羽 双葉社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "双葉社",
+    "language": "ja",
+    "pageCount": 178,
+    "estimatedReadingHours": 4.5,
+    "thumbnailUrl": "https://books.google.com/books/content?id=dbk2DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "dbk2DwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-DID4oQEACAAJ",
+    "title": "羊をめぐる冒険",
+    "authors": [
+      "村上春樹"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "羊をめぐる冒険 村上春樹 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "1998",
+    "language": "ja",
+    "sourceIds": {
+      "googleBooksId": "DID4oQEACAAJ"
+    }
+  },
+  {
+    "id": "gb-f6v2SgAACAAJ",
+    "title": "村上春樹「風の歌を聴け」を読む",
+    "authors": [
+      "英正·弘",
+      "同志社高校「現代国語」講座生"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "村上春樹「風の歌を聴け」を読む 英正·弘 同志社高校「現代国語」講座生 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "1997",
+    "language": "ja",
+    "pageCount": 312,
+    "estimatedReadingHours": 7.8,
+    "sourceIds": {
+      "googleBooksId": "f6v2SgAACAAJ"
+    }
+  },
+  {
+    "id": "gb-QotNAQAAIAAJ",
+    "title": "1973年のピンボール",
+    "authors": [
+      "村上春樹"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "1973年のピンボール 村上春樹 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "1990",
+    "language": "ja",
+    "pageCount": 272,
+    "estimatedReadingHours": 6.8,
+    "thumbnailUrl": "https://books.google.com/books/content?id=QotNAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "QotNAQAAIAAJ"
+    }
+  },
+  {
+    "id": "gb-VNArAQAAIAAJ",
+    "title": "国境の南,太陽の西",
+    "authors": [
+      "村上春樹"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "国境の南,太陽の西 村上春樹 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "1992",
+    "language": "ja",
+    "pageCount": 314,
+    "estimatedReadingHours": 7.9,
+    "sourceIds": {
+      "googleBooksId": "VNArAQAAIAAJ"
+    }
+  },
+  {
+    "id": "gb-pTq4DQAAQBAJ",
+    "title": "スプートニクの恋人",
+    "authors": [
+      "村上春樹"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "スプートニクの恋人 村上春樹 講談社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "講談社",
+    "publishedDate": "2001-04-15",
+    "language": "ja",
+    "pageCount": 183,
+    "estimatedReadingHours": 4.6,
+    "thumbnailUrl": "https://books.google.com/books/content?id=pTq4DQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "pTq4DQAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-V88nDwAAQBAJ",
+    "title": "アフターダーク",
+    "authors": [
+      "村上春樹"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "アフターダーク 村上春樹 講談社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "講談社",
+    "publishedDate": "2006-09-15",
+    "language": "ja",
+    "pageCount": 145,
+    "estimatedReadingHours": 3.6,
+    "thumbnailUrl": "https://books.google.com/books/content?id=V88nDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "V88nDwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-SLo_DwAAQBAJ",
+    "title": "村上春樹『色彩を持たない多崎つくると、彼の巡礼の年』メッタ斬り！",
+    "authors": [
+      "大森望",
+      "豊崎由美"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "村上春樹『色彩を持たない多崎つくると、彼の巡礼の年』メッタ斬り！ 大森望 豊崎由美 河出書房新社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "河出書房新社",
+    "language": "ja",
+    "pageCount": 39,
+    "estimatedReadingHours": 1,
+    "thumbnailUrl": "https://books.google.com/books/content?id=SLo_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "SLo_DwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-tcU_DwAAQBAJ",
+    "title": "村上春樹「騎士団長殺し」メッタ斬り！",
+    "authors": [
+      "大森望",
+      "豊崎由美"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "村上春樹「騎士団長殺し」メッタ斬り！ 大森望 豊崎由美 河出書房新社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "河出書房新社",
+    "publishedDate": "2017-04-17",
+    "language": "ja",
+    "pageCount": 109,
+    "estimatedReadingHours": 2.7,
+    "thumbnailUrl": "https://books.google.com/books/content?id=tcU_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "tcU_DwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-Pc8rAQAAIAAJ",
+    "title": "村上春樹『1Q84』をどう読むか",
+    "authors": [
+      "河出書房新社編集部"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "村上春樹『1Q84』をどう読むか 河出書房新社編集部 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "2009-07",
+    "language": "ja",
+    "pageCount": 236,
+    "estimatedReadingHours": 5.9,
+    "thumbnailUrl": "https://books.google.com/books/content?id=Pc8rAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Pc8rAQAAIAAJ"
+    }
+  },
+  {
+    "id": "9784163900742",
+    "title": "女のいない男たち",
+    "authors": [
+      "村上春樹"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "女のいない男たち 村上春樹 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "2014-04-20",
+    "isbn10": "4163900748",
+    "isbn13": "9784163900742",
+    "language": "ja",
+    "pageCount": 285,
+    "estimatedReadingHours": 7.1,
+    "thumbnailUrl": "https://books.google.com/books/content?id=gdDWoAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "gdDWoAEACAAJ"
+    }
+  },
+  {
+    "id": "9784794609090",
+    "title": "そして誰もいなくなった",
+    "authors": [
+      "アガサ",
+      "クリスティー"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "そして誰もいなくなった アガサ クリスティー 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "2026-01-27",
+    "isbn10": "4794609094",
+    "isbn13": "9784794609090",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=4tPE0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "4tPE0QEACAAJ"
+    }
+  },
+  {
+    "id": "gb--JaFEAAAQBAJ",
+    "title": "方舟",
+    "authors": [
+      "夕木春央"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "方舟 夕木春央 講談社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "講談社",
+    "publishedDate": "2022-09-08",
+    "language": "ja",
+    "pageCount": 218,
+    "estimatedReadingHours": 5.5,
+    "thumbnailUrl": "https://books.google.com/books/content?id=-JaFEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "-JaFEAAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-fw7NDwAAQBAJ",
+    "title": "検察側の罪人（下）",
+    "authors": [
+      "雫井脩介"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "検察側の罪人（下） 雫井脩介 文藝春秋 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "文藝春秋",
+    "publishedDate": "2017-02-10",
+    "language": "ja",
+    "pageCount": 180,
+    "estimatedReadingHours": 4.5,
+    "thumbnailUrl": "https://books.google.com/books/content?id=fw7NDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "fw7NDwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-HmFnDwAAQBAJ",
+    "title": "ロートレック荘事件（新潮文庫）",
+    "authors": [
+      "筒井康隆"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "ロートレック荘事件（新潮文庫） 筒井康隆 新潮社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "新潮社",
+    "publishedDate": "1995-01-30",
+    "language": "ja",
+    "pageCount": 137,
+    "estimatedReadingHours": 3.4,
+    "thumbnailUrl": "https://books.google.com/books/content?id=HmFnDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "HmFnDwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-ew7NDwAAQBAJ",
+    "title": "火花",
+    "authors": [
+      "又吉直樹"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "火花 又吉直樹 文藝春秋 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "文藝春秋",
+    "publishedDate": "2017-02-10",
+    "language": "ja",
+    "pageCount": 96,
+    "estimatedReadingHours": 2.4,
+    "thumbnailUrl": "https://books.google.com/books/content?id=ew7NDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "ew7NDwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-rvjFJXXO5l4C",
+    "title": "オリエント急行の殺人",
+    "authors": [
+      "アガサ・クリスティー"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "オリエント急行の殺人 アガサ・クリスティー 早川書房 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "早川書房",
+    "publishedDate": "1960",
+    "language": "ja",
+    "pageCount": 341,
+    "estimatedReadingHours": 8.5,
+    "thumbnailUrl": "https://books.google.com/books/content?id=rvjFJXXO5l4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "rvjFJXXO5l4C"
+    }
+  },
+  {
+    "id": "9784103283232",
+    "title": "ツナグ",
+    "authors": [
+      "辻村深月"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "ツナグ 想い人の心得 辻村深月 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "subtitle": "想い人の心得",
+    "publishedDate": "2019-10",
+    "isbn10": "4103283238",
+    "isbn13": "9784103283232",
+    "language": "ja",
+    "pageCount": 286,
+    "estimatedReadingHours": 7.2,
+    "thumbnailUrl": "https://books.google.com/books/content?id=U_X_ygEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "U_X_ygEACAAJ"
+    }
+  },
+  {
+    "id": "gb-m2qtBQAAQBAJ",
+    "title": "凍りのくじら",
+    "authors": [
+      "辻村深月"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "凍りのくじら 辻村深月 講談社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "講談社",
+    "publishedDate": "2008-11-14",
+    "language": "ja",
+    "pageCount": 311,
+    "estimatedReadingHours": 7.8,
+    "thumbnailUrl": "https://books.google.com/books/content?id=m2qtBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "m2qtBQAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-R9yrBQAAQBAJ",
+    "title": "ぼくのメジャースプーン",
+    "authors": [
+      "辻村深月"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "ぼくのメジャースプーン 辻村深月 講談社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "講談社",
+    "publishedDate": "2009-04-15",
+    "language": "ja",
+    "pageCount": 275,
+    "estimatedReadingHours": 6.9,
+    "thumbnailUrl": "https://books.google.com/books/content?id=R9yrBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "R9yrBQAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-Tr6aDwAAQBAJ",
+    "title": "スロウハイツの神様（４）",
+    "authors": [
+      "桂明日香",
+      "辻村深月"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "スロウハイツの神様（４） 桂明日香 辻村深月 講談社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "講談社",
+    "publishedDate": "2019-06-07",
+    "language": "ja",
+    "pageCount": 163,
+    "estimatedReadingHours": 4.1,
+    "thumbnailUrl": "https://books.google.com/books/content?id=Tr6aDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Tr6aDwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-trSqBQAAQBAJ",
+    "title": "名前探しの放課後（上）",
+    "authors": [
+      "辻村深月"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "名前探しの放課後（上） 辻村深月 講談社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "講談社",
+    "publishedDate": "2010-09-15",
+    "language": "ja",
+    "pageCount": 239,
+    "estimatedReadingHours": 6,
+    "thumbnailUrl": "https://books.google.com/books/content?id=trSqBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "trSqBQAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-d3Y1EAAAQBAJ",
+    "title": "オーダーメイド殺人クラブ",
+    "authors": [
+      "辻村深月"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "オーダーメイド殺人クラブ 辻村深月 集英社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "集英社",
+    "publishedDate": "2015-05-25",
+    "language": "ja",
+    "pageCount": 273,
+    "estimatedReadingHours": 6.8,
+    "thumbnailUrl": "https://books.google.com/books/content?id=d3Y1EAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "d3Y1EAAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-blog-鍵のない夢を見る",
+    "title": "鍵のない夢を見る",
+    "authors": [
+      "著者不明"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "鍵のない夢を見る 著者不明 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "language": "ja"
+  },
+  {
+    "id": "gb-NxLNDwAAQBAJ",
+    "title": "朝が来る",
+    "authors": [
+      "辻村深月"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "朝が来る 辻村深月 文藝春秋 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "文藝春秋",
+    "publishedDate": "2018-09-04",
+    "language": "ja",
+    "pageCount": 224,
+    "estimatedReadingHours": 5.6,
+    "thumbnailUrl": "https://books.google.com/books/content?id=NxLNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "NxLNDwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-Mna5DAAAQBAJ",
+    "title": "ハケンアニメ！",
+    "authors": [
+      "辻村深月",
+      "ＣＬＡＭＰ"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "ハケンアニメ！ 辻村深月 ＣＬＡＭＰ マガジンハウス 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "マガジンハウス",
+    "publishedDate": "2014-08-22",
+    "language": "ja",
+    "pageCount": 282,
+    "estimatedReadingHours": 7.1,
+    "thumbnailUrl": "https://books.google.com/books/content?id=Mna5DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Mna5DAAAQBAJ"
+    }
+  },
+  {
+    "id": "9784061823754",
+    "title": "冷たい校舎の時は止まる",
+    "authors": [
+      "辻村深月"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "冷たい校舎の時は止まる 辻村深月 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "2004-06-05",
+    "isbn10": "4061823752",
+    "isbn13": "9784061823754",
+    "language": "ja",
+    "pageCount": 235,
+    "estimatedReadingHours": 5.9,
+    "thumbnailUrl": "https://books.google.com/books/content?id=6BhNswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "6BhNswEACAAJ"
+    }
+  },
+  {
+    "id": "gb-kvKqBQAAQBAJ",
+    "title": "島はぼくらと",
+    "authors": [
+      "辻村深月"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "島はぼくらと 辻村深月 講談社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "講談社",
+    "publishedDate": "2013-06-07",
+    "language": "ja",
+    "pageCount": 239,
+    "estimatedReadingHours": 6,
+    "thumbnailUrl": "https://books.google.com/books/content?id=kvKqBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "kvKqBQAAQBAJ"
+    }
+  },
+  {
+    "id": "9784022650597",
+    "title": "傲慢と善良",
+    "authors": [
+      "辻村深月"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "傲慢と善良 辻村深月 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "2022-09",
+    "isbn10": "4022650591",
+    "isbn13": "9784022650597",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=jIBNzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "jIBNzwEACAAJ"
+    }
+  },
+  {
+    "id": "9784062191876",
+    "title": "家族シアター",
+    "authors": [
+      "辻村深月"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "家族シアター 辻村深月 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publishedDate": "2014-10-20",
+    "isbn10": "4062191873",
+    "isbn13": "9784062191876",
+    "language": "ja",
+    "pageCount": 275,
+    "estimatedReadingHours": 6.9,
+    "thumbnailUrl": "https://books.google.com/books/content?id=PTrIoQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "PTrIoQEACAAJ"
+    }
+  },
+  {
+    "id": "gb-GgDVEAAAQBAJ",
+    "title": "琥珀の夏",
+    "authors": [
+      "辻村深月"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "琥珀の夏 辻村深月 文藝春秋 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T12:07:52.291Z",
+    "publisher": "文藝春秋",
+    "publishedDate": "2023-09-05",
+    "language": "ja",
+    "pageCount": 381,
+    "estimatedReadingHours": 9.5,
+    "thumbnailUrl": "https://books.google.com/books/content?id=GgDVEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "GgDVEAAAQBAJ"
+    }
+  },
+  {
     "id": "9784101240510",
     "title": "十二国記 月の影 影の海",
     "authors": [
