@@ -1,5 +1,129 @@
 [
   {
+    "id": "gb-o_wHKogGZOkC",
+    "title": "Yの悲劇",
+    "authors": [
+      "エラリー・クイーン／田村隆一訳"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "Yの悲劇 エラリー・クイーン／田村隆一訳 グーテンベルク21 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T16:33:00.896Z",
+    "publisher": "グーテンベルク21",
+    "publishedDate": "2001-11-09",
+    "language": "ja",
+    "pageCount": 317,
+    "estimatedReadingHours": 7.9,
+    "thumbnailUrl": "https://books.google.com/books/content?id=o_wHKogGZOkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "o_wHKogGZOkC"
+    }
+  },
+  {
+    "id": "gb-6xy2xdunrmgC",
+    "title": "Xの悲劇",
+    "authors": [
+      "エラリイ・クイーン／田村隆一訳"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "Xの悲劇 エラリイ・クイーン／田村隆一訳 グーテンベルク21 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T16:33:00.896Z",
+    "publisher": "グーテンベルク21",
+    "publishedDate": "1960-01-01",
+    "language": "ja",
+    "pageCount": 296,
+    "estimatedReadingHours": 7.4,
+    "thumbnailUrl": "https://books.google.com/books/content?id=6xy2xdunrmgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "6xy2xdunrmgC"
+    }
+  },
+  {
+    "id": "gb-maj8C2nM8e4C",
+    "title": "Zの悲劇",
+    "authors": [
+      "エラリー・クイーン／田村隆一訳"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "Zの悲劇 エラリー・クイーン／田村隆一訳 グーテンベルク21 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T16:33:00.896Z",
+    "publisher": "グーテンベルク21",
+    "language": "ja",
+    "pageCount": 265,
+    "estimatedReadingHours": 6.6,
+    "thumbnailUrl": "https://books.google.com/books/content?id=maj8C2nM8e4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "maj8C2nM8e4C"
+    }
+  },
+  {
+    "id": "9784488104399",
+    "title": "ギリシャ棺の謎",
+    "authors": [
+      "エラリー・クイーン"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "ギリシャ棺の謎 エラリー・クイーン 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T16:33:00.896Z",
+    "publishedDate": "2014-07",
+    "isbn10": "4488104398",
+    "isbn13": "9784488104399",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=CZrxoAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "CZrxoAEACAAJ"
+    }
+  },
+  {
+    "id": "9784488104405",
+    "title": "エジプト十字架の謎",
+    "authors": [
+      "エラリー クイーン"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "エジプト十字架の謎 エラリー クイーン 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T16:33:00.896Z",
+    "publishedDate": "2016-07",
+    "isbn10": "4488104401",
+    "isbn13": "9784488104405",
+    "language": "ja",
+    "pageCount": 512,
+    "estimatedReadingHours": 12.8,
+    "thumbnailUrl": "https://books.google.com/books/content?id=BljwvQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "BljwvQAACAAJ"
+    }
+  },
+  {
     "id": "gb-crGcBQAAQBAJ",
     "title": "シャーロック・ホームズの冒険",
     "authors": [
