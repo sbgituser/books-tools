@@ -108,7 +108,17 @@ export const CATEGORY_TREE: L1Category[] = [
         label: "AI・機械学習",
         keywords: ["AI", "人工知能", "機械学習", "ディープラーニング", "ChatGPT", "LLM"],
         subcategories: [
-          { id: "generative",      label: "生成AI・LLM",       keywords: ["生成AI", "ChatGPT", "GPT", "LLM", "大規模言語", "プロンプト", "Copilot", "Gemini", "LangChain", "Bedrock", "Azure AI"] },
+          {
+            id: "generative",
+            label: "生成AI・LLM",
+            keywords: ["生成AI", "ChatGPT", "GPT", "LLM", "大規模言語", "プロンプト", "Copilot", "Gemini", "LangChain", "Bedrock", "Azure AI"],
+            subcategories: [
+              { id: "chatgpt", label: "ChatGPT", keywords: ["ChatGPT", "GPT", "OpenAI", "GPT-4", "GPT-4o", "ChatGPT Plus"] },
+              { id: "prompt", label: "プロンプト設計", keywords: ["プロンプト", "Prompt", "プロンプトエンジニアリング", "命令文", "Few-shot", "Chain-of-Thought"] },
+              { id: "llm-app", label: "LLMアプリ開発", keywords: ["LangChain", "RAG", "Function Calling", "Agents", "Bedrock", "Azure OpenAI", "AIアプリ"] },
+              { id: "genai-other", label: "その他の生成AI", keywords: ["生成AI", "画像生成", "音声生成", "AIツール"] },
+            ],
+          },
           { id: "ml-dl",           label: "機械学習・深層学習", keywords: ["機械学習", "ディープラーニング", "ニューラル", "深層学習", "強化学習", "教師あり", "コンテナ"] },
           { id: "data-sci",        label: "データサイエンス",   keywords: ["データサイエンス", "データ分析", "pandas", "Jupyter", "データエンジニア", "特徴量"] },
           { id: "ai-application",  label: "AI活用・ビジネス応用", keywords: ["AI活用", "AIビジネス", "AI社会", "人工知能活用", "AIサービス", "AI-900", "Scratch 3", "子どもAI"] },

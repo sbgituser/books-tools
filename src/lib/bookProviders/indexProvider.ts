@@ -41,19 +41,34 @@ export type SubcatResult = {
 
 // ── ユーティリティ ────────────────────────────────────────────────
 
-function toBook(b: BookIndex): Book {
+function resolveCategoryLabels(ids: string[], cats: Category[]): string[] {
+  const labels: string[] = [];
+  let current = cats;
+  for (const id of ids) {
+    const found = current.find(c => c.id === id);
+    if (!found) break;
+    labels.push(found.label);
+    current = found.subcategories ?? [];
+  }
+  return labels;
+}
+
+function toBook(b: BookIndex, resolvedLabels: string[]): Book {
   const description = [...(b.subjects ?? []), ...b.keywords.slice(0, 3)].slice(0, 5).join("、");
   const amazonUrl = b.isbn13
     ? `https://www.amazon.co.jp/s?k=${b.isbn13}`
     : `https://www.amazon.co.jp/s?k=${encodeURIComponent(b.title)}`;
   const safeAuthors = b.authors.length > 0 ? b.authors : ["著者不明"];
+  const [l2Category, l3Raw, l4Raw] = resolvedLabels;
+  const l3Category = l3Raw ?? l2Category;
+  const l4Category = l4Raw ?? l3Category ?? l2Category;
   return {
     id: b.id,
     title: b.title,
     author: safeAuthors.join(" / "),
     isbn13: b.isbn13,
     googleBooksId: b.sourceIds?.googleBooksId,
-    category: b.categories[0] ?? "",
+    category: l2Category ?? "",
     tags: b.keywords.slice(0, 8),
     isKindle: false,
     kindlePrice: null,
@@ -64,6 +79,9 @@ function toBook(b: BookIndex): Book {
     thumbnailUrl: b.thumbnailUrl,
     pageCount: b.pageCount,
     estimatedReadingHours: b.estimatedReadingHours,
+    l2Category,
+    l3Category,
+    l4Category,
   };
 }
 
@@ -125,7 +143,9 @@ function buildL1Index(l1Id: string, rawBooks: BookIndex[]): L1Index {
 
   for (const raw of rawBooks) {
     if (!raw.title || !raw.authors.length) continue;
-    const book = toBook(raw);
+    const pathIds = resolveCategoryPath(raw, l1.subcategories);
+    const pathLabels = resolveCategoryLabels(pathIds, l1.subcategories);
+    const book = toBook(raw, pathLabels);
     books.push(book);
     bookById.set(book.id, book);
     rawById.set(book.id, raw);

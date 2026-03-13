@@ -17,6 +17,9 @@ export interface Book {
   thumbnailUrl?: string;
   pageCount?: number;
   estimatedReadingHours?: number;
+  l2Category?: string;
+  l3Category?: string;
+  l4Category?: string;
 }
 
 export interface SimilarityResult {

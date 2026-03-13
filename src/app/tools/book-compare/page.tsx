@@ -31,6 +31,7 @@ interface CachedBook extends RawBook {
 
 type CompareField =
   | "authors"
+  | "publisher"
   | "publishedYear"
   | "pageCount"
   | "estimatedReadingHours"
@@ -39,6 +40,7 @@ type CompareField =
 
 const FIELD_CONFIG: { key: CompareField; label: string; defaultOn: boolean }[] = [
   { key: "authors",               label: "著者",         defaultOn: true  },
+  { key: "publisher",             label: "出版社",       defaultOn: false },
   { key: "publishedYear",         label: "出版年",       defaultOn: false },
   { key: "pageCount",             label: "ページ数",     defaultOn: false },
   { key: "estimatedReadingHours", label: "読書時間",     defaultOn: false },
@@ -51,6 +53,13 @@ const DEFAULT_FIELDS = FIELD_CONFIG.filter(f => f.defaultOn).map(f => f.key);
 type MatchedBook = CachedBook & {
   matchedBy: CompareField[];
   score: number;
+};
+
+type SearchFilters = {
+  author: string;
+  publisher: string;
+  category: string;
+  publishedYear: string;
 };
 
 const L1_IDS = [
@@ -73,8 +82,8 @@ async function loadL1Books(l1Id: string): Promise<CachedBook[]> {
   return cached;
 }
 
-async function searchBooks(query: string): Promise<CachedBook[]> {
-  if (query.trim().length < 2) return [];
+async function searchBooks(query: string, filters: SearchFilters): Promise<CachedBook[]> {
+  if (query.trim().length < 2 && !filters.author && !filters.publisher && !filters.category && !filters.publishedYear) return [];
   const q = query.toLowerCase();
   const allResults: { book: CachedBook; score: number }[] = [];
 
@@ -82,10 +91,25 @@ async function searchBooks(query: string): Promise<CachedBook[]> {
     L1_IDS.map(async (l1Id) => {
       const books = await loadL1Books(l1Id);
       for (const book of books) {
+        if (filters.author && !book.authors.some(a => normalizeText(a).includes(normalizeText(filters.author)))) continue;
+        if (filters.publisher && (book.publisher ?? "") !== filters.publisher) continue;
+        if (filters.category && getCategoryLabel(book.l1Id) !== filters.category) continue;
+        if (filters.publishedYear && getPublishedYear(book.publishedDate) !== filters.publishedYear) continue;
+
         let score = 0;
-        if (book.title.toLowerCase().includes(q)) score += 10;
-        if (book.authors.some(a => a.toLowerCase().includes(q))) score += 6;
-        if (book.subtitle?.toLowerCase().includes(q)) score += 3;
+        if (q.length >= 2) {
+          if (book.title.toLowerCase().includes(q)) score += 10;
+          if (book.authors.some(a => a.toLowerCase().includes(q))) score += 6;
+          if (book.subtitle?.toLowerCase().includes(q)) score += 3;
+          if (book.keywords.some(k => k.toLowerCase().includes(q))) score += 2;
+        }
+
+        if (filters.author) score += 3;
+        if (filters.publisher) score += 2;
+        if (filters.category) score += 2;
+        if (filters.publishedYear) score += 2;
+
+        if (q.length < 2 && score > 0) score += 1;
         if (score > 0) allResults.push({ book, score });
       }
     })
@@ -122,6 +146,11 @@ function getDescription(book: CachedBook): string {
   return "—";
 }
 
+function formatReadingHours(hours?: number): string {
+  if (!hours) return "—";
+  return hours < 1 ? `約${Math.round(hours * 60)}分` : `約${hours.toFixed(1)}時間`;
+}
+
 function getCommonKeywords(books: CachedBook[]): string[] {
   if (books.length < 2) return [];
   const nonEmpty = books.filter(b => b.keywords.length > 0);
@@ -156,6 +185,10 @@ function isMatchedByField(base: CachedBook, candidate: CachedBook, field: Compar
     case "authors": {
       const baseAuthors = new Set(base.authors.map(normalizeText));
       return candidate.authors.some(a => baseAuthors.has(normalizeText(a)));
+    }
+    case "publisher": {
+      if (!base.publisher || !candidate.publisher) return false;
+      return normalizeText(base.publisher) === normalizeText(candidate.publisher);
     }
     case "publishedYear": {
       const by = toYear(base.publishedDate);
@@ -266,41 +299,74 @@ function BookMiniCard({
 function SearchPanel({
   onSelect,
   excludeIds = [],
-  placeholder = "タイトルまたは著者名で検索",
+  placeholder = "キーワードで検索（タイトル・著者・キーワード）",
 }: {
   onSelect: (book: CachedBook) => void;
   excludeIds?: string[];
   placeholder?: string;
 }) {
   const [query, setQuery] = useState("");
+  const [filters, setFilters] = useState<SearchFilters>({ author: "", publisher: "", category: "", publishedYear: "" });
   const [results, setResults] = useState<CachedBook[]>([]);
   const [searching, setSearching] = useState(false);
+  const [publishers, setPublishers] = useState<string[]>([]);
+  const [categories, setCategories] = useState<string[]>([]);
+  const [publishedYears, setPublishedYears] = useState<string[]>([]);
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const excludeIdsRef = useRef(excludeIds);
   excludeIdsRef.current = excludeIds;
 
   useEffect(() => {
+    let mounted = true;
+    (async () => {
+      const buckets = await Promise.all(L1_IDS.map(loadL1Books));
+      const all = buckets.flat();
+
+      const publisherSet = new Set<string>();
+      const categorySet = new Set<string>();
+      const yearSet = new Set<string>();
+
+      for (const b of all) {
+        if (b.publisher) publisherSet.add(b.publisher);
+        categorySet.add(getCategoryLabel(b.l1Id));
+        const y = getPublishedYear(b.publishedDate);
+        if (y !== "—") yearSet.add(y);
+      }
+
+      if (!mounted) return;
+      setPublishers([...publisherSet].sort((a, b) => a.localeCompare(b, "ja")));
+      setCategories([...categorySet].sort((a, b) => a.localeCompare(b, "ja")));
+      setPublishedYears([...yearSet].sort((a, b) => Number(b) - Number(a)));
+    })();
+
+    return () => {
+      mounted = false;
+    };
+  }, []);
+
+  useEffect(() => {
     if (timerRef.current) clearTimeout(timerRef.current);
-    if (query.trim().length < 2) {
+    if (query.trim().length < 2 && !filters.author && !filters.publisher && !filters.category && !filters.publishedYear) {
       setResults([]);
       setSearching(false);
       return;
     }
     setSearching(true);
     timerRef.current = setTimeout(async () => {
-      const res = await searchBooks(query);
+      const res = await searchBooks(query, filters);
       setResults(res.filter(b => !excludeIdsRef.current.includes(b.id)));
       setSearching(false);
     }, 300);
     return () => {
       if (timerRef.current) clearTimeout(timerRef.current);
     };
-  }, [query]);
+  }, [query, filters]);
 
   const handleSelect = useCallback(
     (book: CachedBook) => {
       onSelect(book);
       setQuery("");
+      setFilters({ author: "", publisher: "", category: "", publishedYear: "" });
       setResults([]);
     },
     [onSelect]
@@ -322,6 +388,49 @@ function SearchPanel({
             検索中…
           </span>
         )}
+      </div>
+
+      <div className="mt-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2">
+        <input
+          type="text"
+          value={filters.author}
+          onChange={(e) => setFilters(prev => ({ ...prev, author: e.target.value }))}
+          placeholder="著者で絞り込み（部分一致）"
+          className="w-full px-3 py-2 border border-stone-300 rounded-xl text-sm focus:outline-none focus:border-amber-400"
+        />
+
+        <select
+          value={filters.publisher}
+          onChange={(e) => setFilters(prev => ({ ...prev, publisher: e.target.value }))}
+          className="w-full px-3 py-2 border border-stone-300 rounded-xl text-sm focus:outline-none focus:border-amber-400"
+        >
+          <option value="">出版社で絞り込み</option>
+          {publishers.map(publisher => (
+            <option key={publisher} value={publisher}>{publisher}</option>
+          ))}
+        </select>
+
+        <select
+          value={filters.category}
+          onChange={(e) => setFilters(prev => ({ ...prev, category: e.target.value }))}
+          className="w-full px-3 py-2 border border-stone-300 rounded-xl text-sm focus:outline-none focus:border-amber-400"
+        >
+          <option value="">カテゴリで絞り込み</option>
+          {categories.map(category => (
+            <option key={category} value={category}>{category}</option>
+          ))}
+        </select>
+
+        <select
+          value={filters.publishedYear}
+          onChange={(e) => setFilters(prev => ({ ...prev, publishedYear: e.target.value }))}
+          className="w-full px-3 py-2 border border-stone-300 rounded-xl text-sm focus:outline-none focus:border-amber-400"
+        >
+          <option value="">出版年で絞り込み</option>
+          {publishedYears.map(year => (
+            <option key={year} value={year}>{year}年</option>
+          ))}
+        </select>
       </div>
 
       {results.length > 0 && (
@@ -356,7 +465,7 @@ function SearchPanel({
         </div>
       )}
 
-      {query.trim().length >= 2 && results.length === 0 && !searching && (
+      {(query.trim().length >= 2 || !!filters.author || !!filters.publisher || !!filters.category || !!filters.publishedYear) && results.length === 0 && !searching && (
         <p className="mt-2 text-sm text-stone-400 text-center py-3">見つかりませんでした</p>
       )}
     </div>
@@ -409,6 +518,9 @@ function CellValue({
   switch (field) {
     case "authors":
       return <span>{book.authors.join(" / ") || "—"}</span>;
+
+    case "publisher":
+      return <span>{book.publisher || "—"}</span>;
 
     case "publishedYear":
       return <span>{getPublishedYear(book.publishedDate)}</span>;
@@ -630,7 +742,7 @@ function BookCompareInner() {
                     });
                   }}
                   excludeIds={excludeIds}
-                  placeholder="タイトルまたは著者名で検索…"
+                  placeholder="キーワードで検索（タイトル・著者・キーワード）…"
                 />
                 {initialized && (
                   <p className="text-xs text-stone-400 text-center mt-4">
@@ -645,14 +757,62 @@ function BookCompareInner() {
               </div>
             ) : (
               <div className="space-y-2">
-                <BookMiniCard
-                  book={baseBook}
-                  isBase
-                  onRemove={() => {
-                    setBaseBook(null);
-                    setMatchedBooks([]);
-                  }}
-                />
+                <div className="rounded-xl border border-amber-200 bg-amber-50/60 p-3">
+                  <div className="flex items-start gap-3">
+                    {baseBook.thumbnailUrl ? (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        src={baseBook.thumbnailUrl}
+                        alt=""
+                        className="w-12 h-16 object-cover rounded shadow-sm shrink-0"
+                      />
+                    ) : (
+                      <div className="w-12 h-16 bg-stone-100 rounded flex items-center justify-center shrink-0">
+                        <span className="text-stone-400 text-xs">📚</span>
+                      </div>
+                    )}
+
+                    <div className="flex-1 min-w-0">
+                      <p className="text-[10px] font-bold text-amber-700 uppercase tracking-wider mb-0.5">起点</p>
+                      <p className="font-semibold text-stone-900 text-sm leading-snug line-clamp-2">{baseBook.title}</p>
+                      <p className="text-stone-500 text-xs mt-0.5 truncate">{baseBook.authors.join(" / ") || "—"}</p>
+
+                      <div className="mt-2 grid grid-cols-2 sm:grid-cols-6 gap-1.5 text-[11px]">
+                        <div className="rounded-md bg-white border border-stone-200 px-2 py-1">
+                          <p className="text-stone-400 leading-none">出版年</p>
+                          <p className="text-stone-700 font-medium mt-1 leading-none">{getPublishedYear(baseBook.publishedDate)}</p>
+                        </div>
+                        <div className="rounded-md bg-white border border-stone-200 px-2 py-1">
+                          <p className="text-stone-400 leading-none">ページ数</p>
+                          <p className="text-stone-700 font-medium mt-1 leading-none">{baseBook.pageCount ? `${baseBook.pageCount.toLocaleString()}p` : "—"}</p>
+                        </div>
+                        <div className="rounded-md bg-white border border-stone-200 px-2 py-1">
+                          <p className="text-stone-400 leading-none">読書時間</p>
+                          <p className="text-stone-700 font-medium mt-1 leading-none">{formatReadingHours(baseBook.estimatedReadingHours)}</p>
+                        </div>
+                        <div className="rounded-md bg-white border border-stone-200 px-2 py-1 col-span-2 sm:col-span-3">
+                          <p className="text-stone-400 leading-none">出版社</p>
+                          <p className="text-stone-700 font-medium mt-1 line-clamp-1">{baseBook.publisher || "—"}</p>
+                        </div>
+                        <div className="rounded-md bg-white border border-stone-200 px-2 py-1 col-span-2 sm:col-span-3">
+                          <p className="text-stone-400 leading-none">カテゴリ</p>
+                          <p className="text-stone-700 font-medium mt-1 line-clamp-1">{getCategoryLabel(baseBook.l1Id)}</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <button
+                      onClick={() => {
+                        setBaseBook(null);
+                        setMatchedBooks([]);
+                      }}
+                      className="shrink-0 text-stone-400 hover:text-red-500 transition-colors p-1 -mr-1 -mt-1"
+                      aria-label="起点を削除"
+                    >
+                      ✕
+                    </button>
+                  </div>
+                </div>
                 <p className="text-xs text-stone-500">
                   一致候補: <span className="font-semibold text-stone-700">{matching ? "抽出中…" : `${matchedBooks.length}冊`}</span>
                 </p>

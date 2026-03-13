@@ -126,6 +126,7 @@ export default function SimilarBooksPage() {
   const [view, setView] = useState<View>({ type: "home" });
   const [viewData, setViewData] = useState<ViewData | null>(null);
   const [loading, setLoading] = useState(true);
+  const [l4Filter, setL4Filter] = useState("");
 
   const go = (v: View) => setView(v);
 
@@ -133,6 +134,7 @@ export default function SimilarBooksPage() {
   useEffect(() => {
     document.title = "書籍ブラウザ | Books Tools";
     window.scrollTo({ top: 0, behavior: "smooth" });
+    setL4Filter("");
 
     let cancelled = false;
     setLoading(true);
@@ -245,6 +247,8 @@ export default function SimilarBooksPage() {
 
     // サブカテゴリが存在しない場合は書籍一覧を直接表示
     if (subcats.length === 0) {
+      const l4Options = Array.from(new Set((leafBooks ?? []).map(b => b.l4Category).filter((v): v is string => Boolean(v)))).sort((a, b) => a.localeCompare(b, "ja"));
+      const filteredLeafBooks = (leafBooks ?? []).filter((b) => !l4Filter || b.l4Category === l4Filter);
       return (
         <>
           <Header />
@@ -257,8 +261,24 @@ export default function SimilarBooksPage() {
               {!leafBooks?.length ? (
                 <p className="text-center text-stone-400 py-20">書籍が見つかりませんでした</p>
               ) : (
-                <div className="space-y-2">
-                  {leafBooks.map(book => (
+                <>
+                  <div className="mb-3 flex items-center gap-2">
+                    <label className="text-xs text-stone-500 shrink-0">L4絞り込み</label>
+                    <select
+                      value={l4Filter}
+                      onChange={(e) => setL4Filter(e.target.value)}
+                      className="w-full sm:w-72 px-3 py-2 border border-stone-300 rounded-lg text-sm focus:outline-none focus:border-amber-400"
+                    >
+                      <option value="">すべて</option>
+                      {l4Options.map((opt) => (
+                        <option key={opt} value={opt}>{opt}</option>
+                      ))}
+                    </select>
+                    <span className="text-xs text-stone-400 shrink-0">{filteredLeafBooks.length}冊</span>
+                  </div>
+
+                  <div className="space-y-2">
+                    {filteredLeafBooks.map(book => (
                     <div key={book.id} className="flex items-center gap-2">
                       <div className="flex-1 min-w-0">
                         <BookListCard
@@ -283,8 +303,9 @@ export default function SimilarBooksPage() {
                         ⚖️ 比較
                       </Link>
                     </div>
-                  ))}
-                </div>
+                    ))}
+                  </div>
+                </>
               )}
             </section>
           </main>
