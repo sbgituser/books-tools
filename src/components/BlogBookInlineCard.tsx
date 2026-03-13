@@ -20,11 +20,11 @@ export default function BlogBookInlineCard({ book }: { book: BlogLinkedBook }) {
   const coverCandidates = useMemo(
     () =>
       [
-        book.sourceIds?.googleBooksId
-          ? `https://books.google.com/books/content?id=${book.sourceIds.googleBooksId}&printsec=frontcover&img=1&zoom=1&source=gbs_api`
-          : undefined,
         book.isbn13
           ? `https://books.google.com/books/content?vid=ISBN${book.isbn13}&printsec=frontcover&img=1&zoom=1&source=gbs_api`
+          : undefined,
+        book.sourceIds?.googleBooksId
+          ? `https://books.google.com/books/content?id=${book.sourceIds.googleBooksId}&printsec=frontcover&img=1&zoom=1&source=gbs_api`
           : undefined,
         book.thumbnailUrl,
         book.isbn13

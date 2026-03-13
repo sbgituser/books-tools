@@ -4,7 +4,7 @@
 
 ## 1. 記事データ形式
 
-記事は `content/blog/*.md` に保存します。
+記事は `content/blog/*.mdx`（または `.md`）に保存します。
 
 ```md
 ---
@@ -147,4 +147,91 @@ npm run build:all
 - `sync-blog-books.ts` は「ブログ見出し起点の不足補完」に最適
 - `search-books.ts` + `fetch-books.ts` は「カテゴリ起点の大量収集」に最適
 - 重複・誤マッチを防ぐため、見出しのタイトルと著者表記は一定に保つ
+
+### 7-6. 著者名の表記ゆれ防止ルール（追記）
+
+書籍情報登録時は、著者名の表記ゆれ（中点あり/なし、空白有無、全角半角混在）を防ぐため、以下を必須とします。
+
+1. **正規表記の優先順位を固定**
+   - 既存の `src/data/books.index.json` に同一著者が存在する場合は、**既存表記を正**として合わせる
+   - 新規著者は、可能な限り書誌情報（Google Books / 出版社情報）に合わせる
+2. **見出し表記の統一**
+   - 見出しは `### <順位>位 <タイトル>（<著者>）` を維持し、著者名は `books.index.json` の表記に一致させる
+3. **登録前に表記ゆれ検出を実施**
+   - ブログ見出し内の著者ゆれを検出してから `sync-blog-books.ts` を実行する
+4. **登録後に正規化バッチを実施**
+   - `books.index.json` の `authors` 配列を正規化して、揺れを残さない
+
+#### 推奨コマンド（登録時の標準フロー）
+
+```bash
+cd books-tools
+npx tsx scripts/detect-blog-author-variants.ts
+npx tsx scripts/sync-blog-books.ts
+npx tsx scripts/normalize-author-variants.ts
+```
+
+- 検出レポート: `reports/blog-author-variants.tsv`
+- 正規化レポート: `reports/author-variants-before.tsv` / `reports/author-variants-after.tsv` / `reports/author-variants-replaced.tsv`
+
+#### 判定基準（公開前）
+
+- `reports/blog-author-variants.tsv` の `variant_groups=0`
+- `reports/author-variants-after.tsv` に複数表記グループが残っていないこと
+- 変更があった場合、`reports/author-variants-replaced.tsv` に置換履歴が出力されていること
+
+## 8. 書籍カード掲載ガイドライン（必須）
+
+ブログ記事で書籍情報を載せる場合、**サムネイル付きカード + 「条件一致で本を探す」ボタン**が表示されることを必須とします。
+
+### 8-1. 必須ルール
+
+1. 書籍紹介見出しは `###` を使う（`h3`）
+   - 例: `### 1位 火星の人（アンディ・ウィアー）`
+   - 例: `### 火星の人（アンディ・ウィアー）`
+2. 可能な限り **タイトル + 著者（括弧）** で表記する
+   - 著者なし見出しは照合精度が落ちるため非推奨
+3. スラッグはスペルミスを避ける
+   - 例: `recommendations`（`recmmendations` はNG）
+4. 記事公開前に、対象記事URLでカード表示を実画面確認する
+   - サムネイル表示
+   - 「条件一致で本を探す」ボタン表示
+
+### 8-2. 記事作成時の標準手順（必ず参照）
+
+記事作成時は、以下の順で必ずこのガイドラインを参照して作業します。
+
+1. 本ドキュメントの `1` と `8` を先に確認
+2. 記事本文を作成（書籍見出しは `###` + 著者付き）
+3. 書籍情報同期を実行
+
+```bash
+cd books-tools
+npx tsx scripts/sync-blog-books.ts
+```
+
+4. 必要に応じて不足補完（著者・画像）
+
+```bash
+cd books-tools
+npx tsx scripts/fill-unknown-authors.ts
+npx tsx scripts/fill-missing-image-sources.ts
+```
+
+5. 配信用データ再生成
+
+```bash
+cd books-tools
+npx tsx scripts/build-split-index.ts
+```
+
+6. `npm run dev` で対象記事を開いてカード表示を最終確認
+
+### 8-3. チェックリスト（公開前）
+
+- [ ] 書籍紹介見出しは `###` で統一されている
+- [ ] 見出しにタイトルと著者（`（著者）`）を記載している
+- [ ] 対象記事で書籍カードにサムネイルが表示される
+- [ ] 対象記事で「条件一致で本を探す」ボタンが表示される
+- [ ] 誤字スラッグや404がない
 

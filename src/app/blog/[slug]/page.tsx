@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { renderBlogMdx } from "@/lib/mdx";
@@ -16,13 +16,18 @@ import { SITE_NAME, TOOL_LINKS } from "@/lib/site";
 
 type Params = { slug: string };
 
+function normalizeBlogSlug(slug: string): string {
+  return slug.replace(/recmmendations/g, "recommendations");
+}
+
 export async function generateStaticParams() {
   return getAllBlogSlugs().map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
   const { slug } = await params;
-  const post = await getBlogPostBySlug(slug);
+  const normalizedSlug = normalizeBlogSlug(slug);
+  const post = await getBlogPostBySlug(normalizedSlug);
   if (!post) return { title: "記事が見つかりません" };
 
   const canonical = getBlogCanonical(post.slug);
@@ -52,7 +57,12 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
 
 export default async function BlogDetailPage({ params }: { params: Promise<Params> }) {
   const { slug } = await params;
-  const post = await getBlogPostBySlug(slug);
+  const normalizedSlug = normalizeBlogSlug(slug);
+  if (normalizedSlug !== slug) {
+    redirect(`/blog/${normalizedSlug}`);
+  }
+
+  const post = await getBlogPostBySlug(normalizedSlug);
 
   if (!post) {
     notFound();

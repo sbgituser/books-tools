@@ -20,6 +20,7 @@ type BookLookupCache = {
 const BOOK_INDEX_PATH = path.join(process.cwd(), "src", "data", "books.index.json");
 
 let cache: BookLookupCache | null = null;
+let cacheMtimeMs = -1;
 
 function normalizeText(value: string): string {
   return value
@@ -61,7 +62,8 @@ function extractHeadingParts(headingText: string): { title: string; author: stri
 }
 
 function getCache(): BookLookupCache {
-  if (cache) return cache;
+  const stat = fs.statSync(BOOK_INDEX_PATH);
+  if (cache && cacheMtimeMs === stat.mtimeMs) return cache;
 
   const raw = fs.readFileSync(BOOK_INDEX_PATH, "utf-8");
   const books = JSON.parse(raw) as IndexedBook[];
@@ -76,6 +78,7 @@ function getCache(): BookLookupCache {
   }
 
   cache = { byNormalizedTitle, allBooks: books };
+  cacheMtimeMs = stat.mtimeMs;
   return cache;
 }
 
@@ -150,11 +153,11 @@ export function findBookByHeadingText(headingText: string): IndexedBook | null {
 
 export function resolveBlogBookThumbnail(book: IndexedBook): string | null {
   const candidates = [
-    book.sourceIds?.googleBooksId
-      ? `https://books.google.com/books/content?id=${book.sourceIds.googleBooksId}&printsec=frontcover&img=1&zoom=1&source=gbs_api`
-      : undefined,
     book.isbn13
       ? `https://books.google.com/books/content?vid=ISBN${book.isbn13}&printsec=frontcover&img=1&zoom=1&source=gbs_api`
+      : undefined,
+    book.sourceIds?.googleBooksId
+      ? `https://books.google.com/books/content?id=${book.sourceIds.googleBooksId}&printsec=frontcover&img=1&zoom=1&source=gbs_api`
       : undefined,
     book.thumbnailUrl,
     book.isbn13
