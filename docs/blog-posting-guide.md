@@ -139,6 +139,8 @@ npm run build:all
 ### 7-4. 反映確認
 
 - `src/data/books.index.json` に対象タイトル・著者が追加されていること
+- `npm run split:index` 実行後に `public/data/books-*.json` へ反映されていること
+- 分類結果（`l1Id / l2Id / l3Id / l4TagIds / l5TagIds / confidence / reasons`）が出力されること
 - 可能なら `npm run dev` で画面表示を確認
 - 画像未取得（`[no-thumb]`）は必要に応じて手動補完
 
@@ -225,6 +227,14 @@ cd books-tools
 npx tsx scripts/build-split-index.ts
 ```
 
+このとき、書籍ごとに以下が出力されます。
+
+- 階層分類: `l1Id` / `l2Id` / `l3Id`
+- 補助ファセット: `l4TagIds`
+- 詳細ファセット: `l5TagIds`
+- 互換経路: `pathIds`（既存UI互換）
+- 判定情報: `confidence`（L1〜L3） / `reasons`（判定根拠）
+
 6. `npm run dev` で対象記事を開いてカード表示を最終確認
 
 ### 8-3. チェックリスト（公開前）
@@ -234,4 +244,36 @@ npx tsx scripts/build-split-index.ts
 - [ ] 対象記事で書籍カードにサムネイルが表示される
 - [ ] 対象記事で「条件一致で本を探す」ボタンが表示される
 - [ ] 誤字スラッグや404がない
+
+## 9. 分類ロジック運用ガイド（L1〜L5）
+
+`build-split-index.ts` 実行時、分類は以下の段階で判定されます。
+
+1. L1（ジャンル大分類）
+2. L2（主題カテゴリ）
+3. L3（実用サブジャンル）
+4. L4（補助タグ）
+5. L5（詳細属性タグ）
+
+### 9-1. 基本方針
+
+- L1/L2/L3 は原則単一選択
+- L4/L5 は複数付与可
+- 低信頼時は L2/L3 を無理に埋めない
+- `reasons` を使って誤分類の原因を追跡する
+
+### 9-2. 参照実装
+
+- カテゴリ辞書: `src/lib/categories.ts`
+- 分類器: `src/lib/categoryClassifier.ts`
+- 出力生成: `scripts/build-split-index.ts`
+
+### 9-3. 調整手順
+
+分類が直感とずれる場合は、以下の順で調整します。
+
+1. `reasons` で一致語/除外語を確認
+2. `categories.ts` の `strongKeywords / aliases / excludeKeywords` を調整
+3. 必要に応じて著者・シリーズ補正辞書を追加
+4. `npm run split:index` を再実行して出力を確認
 

@@ -1,20 +1,17 @@
 /**
- * カテゴリツリー定義（任意階層対応）
- *
- * - L1: 大分類
- * - Category（L2以降）: 再帰的なサブカテゴリ
- * - keywords: books.index.json の searchableText + title に対して部分一致で分類
- * - mappedLabels: indexProvider.ts の mapCategory() が返す値（book.category）に対応
+ * カテゴリツリー定義（L1/L2/L3） + ファセットタグ（L4/L5）
  */
 
 export interface Category {
   id: string;
   label: string;
   keywords: string[];
+  strongKeywords?: string[];
+  aliases?: string[];
+  excludeKeywords?: string[];
   subcategories?: Category[];
 }
 
-/** 後方互換エイリアス */
 export type L2Category = Category;
 
 export interface L1Category {
@@ -23,430 +20,532 @@ export interface L1Category {
   emoji: string;
   desc: string;
   mappedLabels: string[];
+  keywords: string[];
+  strongKeywords?: string[];
+  aliases?: string[];
+  excludeKeywords?: string[];
   subcategories: Category[];
 }
+
+export interface FacetTagRule {
+  id: string;
+  label: string;
+  keywords: string[];
+  strongKeywords?: string[];
+  aliases?: string[];
+  excludeKeywords?: string[];
+  l1Allow?: string[];
+  l2Allow?: string[];
+}
+
+const c = (
+  id: string,
+  label: string,
+  keywords: string[],
+  subcategories?: Category[],
+  extra?: Partial<Category>,
+): Category => ({ id, label, keywords, ...(subcategories ? { subcategories } : {}), ...(extra ?? {}) });
 
 export const CATEGORY_TREE: L1Category[] = [
   {
     id: "business",
     label: "ビジネス・経済",
     emoji: "💼",
-    desc: "経営・起業・仕事術・マーケティング",
+    desc: "仕事術・経営・マーケ・会計・キャリア・起業",
     mappedLabels: ["ビジネス・経済"],
+    keywords: ["ビジネス", "経営", "会計", "マーケ", "起業", "キャリア", "仕事術"],
+    strongKeywords: ["マネジメント", "財務", "コンサル", "BtoB", "BtoC"],
     subcategories: [
-      {
-        id: "productivity",
-        label: "仕事術・生産性",
-        keywords: ["仕事術", "生産性", "タスク管理", "時間管理", "効率化", "時短", "残業", "集中力", "働き方", "手帳", "時間術", "すぐやる", "やる気", "働く", "ノート術", "仕事力"],
-        subcategories: [
-          { id: "time", label: "時間管理・タスク設計", keywords: ["時間管理", "タスク管理", "時短", "段取り", "優先順位", "ToDo", "GTD"] },
-          { id: "focus", label: "集中力・習慣化", keywords: ["集中力", "習慣", "継続", "ルーティン", "先延ばし", "モチベーション"] },
-          { id: "workstyle", label: "働き方・キャリア実務", keywords: ["働き方", "リモートワーク", "会議", "資料作成", "メール", "ビジネスマナー"] },
-        ],
-      },
-      {
-        id: "thinking",
-        label: "思考法・問題解決",
-        keywords: ["思考法", "問題解決", "フレームワーク", "ロジカル", "意思決定", "コンサル", "論理思考", "思考力", "知的生産", "行動経済学", "仮説", "水平思考", "論理的", "ファクト", "話し方", "伝え方", "図解力"],
-        subcategories: [
-          { id: "logical", label: "ロジカル思考", keywords: ["ロジカル", "論理思考", "MECE", "ピラミッド", "仮説思考", "クリティカル"] },
-          { id: "decision", label: "意思決定・判断", keywords: ["意思決定", "判断", "選択", "バイアス", "意思決定理論", "ナッジ"] },
-          { id: "communication-thinking", label: "伝える技術", keywords: ["話し方", "伝え方", "説明", "図解", "プレゼン", "ストーリー"] },
-        ],
-      },
-      {
-        id: "management",
-        label: "経営・マネジメント",
-        keywords: ["経営", "マネジメント", "組織", "リーダー", "マネジャー", "管理職", "ガバナンス", "人材", "チーム", "人事", "採用", "キャリア", "リスキリング"],
-        subcategories: [
-          { id: "leadership", label: "リーダーシップ", keywords: ["リーダー", "リーダーシップ", "管理職", "1on1", "評価", "育成"] },
-          { id: "organization", label: "組織開発・制度", keywords: ["組織", "制度", "人事", "採用", "オンボーディング", "カルチャー"] },
-          { id: "strategy-mgmt", label: "経営実務", keywords: ["経営", "ガバナンス", "KPI", "事業計画", "意思決定会議", "経営企画"] },
-        ],
-      },
-      {
-        id: "startup",
-        label: "起業・イノベーション",
-        keywords: ["起業", "スタートアップ", "ベンチャー", "イノベーション", "シリコンバレー", "事業", "開業", "フリーランス", "独立", "副業"],
-        subcategories: [
-          { id: "new-business", label: "新規事業開発", keywords: ["新規事業", "事業開発", "PMF", "リーン", "仮説検証", "MVP"] },
-          { id: "startup-fund", label: "資金調達・VC", keywords: ["資金調達", "VC", "エンジェル", "ピッチ", "株式", "ストックオプション"] },
-          { id: "solo-business", label: "副業・独立", keywords: ["副業", "独立", "フリーランス", "個人事業", "案件", "営業"] },
-        ],
-      },
-      {
-        id: "marketing",
-        label: "マーケティング・戦略",
-        keywords: ["マーケティング", "ブランディング", "セールス", "戦略", "マーケ", "ビジネスモデル", "EC", "Shopify", "データ視覚化"],
-        subcategories: [
-          { id: "digital",   label: "デジタル・SNS",     keywords: ["デジタルマーケティング", "SNS", "コンテンツ", "グロース", "Web広告", "グロースハック"] },
-          { id: "strategy",  label: "経営戦略・競争優位", keywords: ["経営戦略", "競争優位", "差別化", "ポジショニング", "ポーター"] },
-          { id: "sales",     label: "営業・顧客体験",     keywords: ["営業", "セールス", "顧客体験", "CX", "カスタマー"] },
-        ],
-      },
-      {
-        id: "finance",
-        label: "財務・会計",
-        keywords: ["財務", "会計", "経理", "財務諸表", "簿記", "資産形成", "FP", "ファイナンス", "投資信託", "家計管理", "お金の教科書", "資産管理"],
-        subcategories: [
-          { id: "accounting", label: "会計・簿記", keywords: ["会計", "経理", "簿記", "仕訳", "損益計算書", "貸借対照表"] },
-          { id: "corporate-finance", label: "ファイナンス", keywords: ["ファイナンス", "企業価値", "DCF", "資本コスト", "IR", "資金繰り"] },
-          { id: "personal-finance", label: "家計・資産管理", keywords: ["家計", "資産管理", "FP", "保険", "家計簿", "ライフプラン"] },
-        ],
-      },
+      c("workstyle", "仕事術", ["仕事術", "生産性", "働き方"], [
+        c("task-management", "タスク管理", ["タスク管理", "todo", "gtd", "段取り"]),
+        c("time-management", "時間管理", ["時間管理", "タイムマネジメント", "時短"]),
+        c("focus", "集中力", ["集中力", "先延ばし", "ルーティン"]),
+        c("meeting-doc", "会議・資料作成", ["会議", "議事録", "資料作成", "スライド"]),
+        c("team-practice", "チーム実務", ["チーム", "実務", "連携", "業務改善"]),
+      ]),
+      c("thinking", "思考法", ["思考法", "論理", "問題解決"], [
+        c("logical-thinking", "ロジカルシンキング", ["ロジカル", "論理思考", "mece"]),
+        c("problem-solving", "問題解決", ["問題解決", "課題解決", "ボトルネック"]),
+        c("decision-making", "意思決定", ["意思決定", "判断", "選択"]),
+        c("hypothesis", "仮説思考", ["仮説", "仮説思考", "検証"]),
+        c("explanation", "伝達・説明", ["説明", "伝え方", "図解", "プレゼン"]),
+      ]),
+      c("management", "経営", ["経営", "事業", "組織"], [
+        c("business-strategy", "経営戦略", ["経営戦略", "競争優位", "戦略"]),
+        c("org-management", "組織マネジメント", ["組織", "マネジメント", "チーム"]),
+        c("leadership", "リーダーシップ", ["リーダー", "リーダーシップ", "管理職"]),
+        c("hr-system", "人事・制度", ["人事", "制度", "評価", "採用"]),
+        c("biz-planning", "事業企画", ["事業企画", "企画", "kpi", "新規事業計画"]),
+      ]),
+      c("marketing", "マーケティング", ["マーケティング", "セールス", "顧客"], [
+        c("brand", "ブランド", ["ブランド", "ブランディング"]),
+        c("digital-marketing", "デジタルマーケティング", ["デジタルマーケティング", "web広告", "seo"]),
+        c("sns-content", "SNS・コンテンツ", ["sns", "コンテンツ", "発信", "youtube"]),
+        c("sales", "セールス", ["営業", "セールス", "商談"]),
+        c("customer-insight", "顧客理解", ["顧客理解", "インサイト", "ペルソナ", "cx"]),
+      ]),
+      c("finance", "会計・ファイナンス", ["会計", "簿記", "財務", "ファイナンス"], [
+        c("bookkeeping", "簿記・会計", ["簿記", "会計", "仕訳", "財務諸表"]),
+        c("managerial-accounting", "管理会計", ["管理会計", "原価", "予算管理"]),
+        c("corporate-finance", "コーポレートファイナンス", ["企業価値", "dcf", "資本コスト"]),
+        c("investment-decision", "投資判断", ["投資判断", "npv", "roi"]),
+        c("personal-finance", "家計・資産管理", ["家計", "資産管理", "fp"]),
+      ]),
+      c("career", "キャリア", ["キャリア", "転職", "副業"], [
+        c("job-change", "転職", ["転職", "職務経歴", "面接"]),
+        c("workstyle-career", "働き方", ["働き方", "リモート", "ワークスタイル"]),
+        c("career-design", "キャリア設計", ["キャリア設計", "キャリア形成"]),
+        c("side-business", "副業", ["副業", "複業", "フリーランス"]),
+        c("manager-practice", "マネージャー実務", ["マネージャー", "1on1", "評価"]),
+      ]),
+      c("startup", "起業", ["起業", "スタートアップ", "独立"], [
+        c("startup-intro", "起業入門", ["起業入門", "起業", "会社設立"]),
+        c("new-business", "新規事業", ["新規事業", "事業開発", "事業立ち上げ"]),
+        c("pmf-growth", "PMF・グロース", ["pmf", "グロース", "成長戦略"]),
+        c("fundraising", "資金調達", ["資金調達", "vc", "ピッチ"]),
+        c("independent-practice", "独立実務", ["独立", "個人事業", "営業", "請求"]),
+      ]),
     ],
   },
   {
     id: "tech",
     label: "テクノロジー・IT",
     emoji: "💻",
-    desc: "AI・プログラミング・DX・データサイエンス",
+    desc: "AI・開発・クラウド・セキュリティ・データ・DX",
     mappedLabels: ["テクノロジー・AI"],
+    keywords: ["プログラミング", "ai", "it", "クラウド", "セキュリティ", "データ"],
+    strongKeywords: ["python", "javascript", "aws", "docker", "kubernetes", "sql", "chatgpt", "llm"],
     subcategories: [
-      {
-        id: "ai",
-        label: "AI・機械学習",
-        keywords: ["AI", "人工知能", "機械学習", "ディープラーニング", "ChatGPT", "LLM"],
-        subcategories: [
-          {
-            id: "generative",
-            label: "生成AI・LLM",
-            keywords: ["生成AI", "ChatGPT", "GPT", "LLM", "大規模言語", "プロンプト", "Copilot", "Gemini", "LangChain", "Bedrock", "Azure AI"],
-            subcategories: [
-              { id: "chatgpt", label: "ChatGPT", keywords: ["ChatGPT", "GPT", "OpenAI", "GPT-4", "GPT-4o", "ChatGPT Plus"] },
-              { id: "prompt", label: "プロンプト設計", keywords: ["プロンプト", "Prompt", "プロンプトエンジニアリング", "命令文", "Few-shot", "Chain-of-Thought"] },
-              { id: "llm-app", label: "LLMアプリ開発", keywords: ["LangChain", "RAG", "Function Calling", "Agents", "Bedrock", "Azure OpenAI", "AIアプリ"] },
-              { id: "genai-other", label: "その他の生成AI", keywords: ["生成AI", "画像生成", "音声生成", "AIツール"] },
-            ],
-          },
-          { id: "ml-dl",           label: "機械学習・深層学習", keywords: ["機械学習", "ディープラーニング", "ニューラル", "深層学習", "強化学習", "教師あり", "コンテナ"] },
-          { id: "data-sci",        label: "データサイエンス",   keywords: ["データサイエンス", "データ分析", "pandas", "Jupyter", "データエンジニア", "特徴量"] },
-          { id: "ai-application",  label: "AI活用・ビジネス応用", keywords: ["AI活用", "AIビジネス", "AI社会", "人工知能活用", "AIサービス", "AI-900", "Scratch 3", "子どもAI"] },
-        ],
-      },
-      {
-        id: "programming",
-        label: "プログラミング・開発",
-        keywords: ["プログラミング", "ソフトウェア", "エンジニア", "開発", "アーキテクチャ", "コード", "Python", "JavaScript", "Java", "Vue", "PHP", "Git", "API", "Web開発", "Web制作", "RPA", "自動化"],
-        subcategories: [
-          { id: "web",         label: "Web開発",             keywords: ["JavaScript", "TypeScript", "React", "Next.js", "フロントエンド", "CSS", "Vue", "Angular", "HTML", "PHP", "UI", "UX", "Webデザイン"] },
-          { id: "infra",       label: "インフラ・クラウド",   keywords: ["DevOps", "AWS", "Azure", "GCP", "クラウド", "インフラ", "Docker", "Kubernetes", "CI/CD", "Ansible", "RPA", "自動化"] },
-          { id: "security",    label: "セキュリティ",         keywords: ["セキュリティ", "脆弱性", "サイバー", "暗号", "ハッキング", "ペネトレーション", "安全確保支援士", "NIST", "情報セキュリティ"] },
-          { id: "design-arch", label: "設計・アーキテクチャ", keywords: ["アーキテクチャ", "設計", "リファクタリング", "クリーンコード", "デザインパターン", "テスト駆動", "アジャイル", "スクラム", "マイクロサービス", "ソフトウェアエンジニアリング"] },
-          { id: "backend",     label: "バックエンド・開発言語", keywords: ["Java", "Swift", "Ruby", "Go言語", "C言語", "C/C++", "バックエンド", "サーバサイド", "スッキリわかる"] },
-        ],
-      },
-      {
-        id: "dx",
-        label: "DX・デジタル活用",
-        keywords: ["DX", "デジタル", "クラウド", "データ活用", "デジタルトランスフォーメーション", "IoT", "Excel", "Word", "Office", "パソコン", "Power BI", "プロセス改善"],
-        subcategories: [
-          { id: "dx-strategy", label: "DX戦略・推進", keywords: ["DX", "デジタル戦略", "業務改革", "BPR", "デジタル変革", "変革" ] },
-          { id: "bi-automation", label: "BI・業務自動化", keywords: ["Power BI", "BI", "RPA", "自動化", "業務改善", "ダッシュボード"] },
-          { id: "office-skill", label: "Office実務", keywords: ["Excel", "Word", "PowerPoint", "Office", "関数", "VBA"] },
-        ],
-      },
-      {
-        id: "it-cert",
-        label: "IT資格・試験対策",
-        keywords: ["基本情報", "ITパスポート", "情報処理", "安全確保支援士", "ウェブ解析士", "検定試験", "試験対策", "認定試験", "シスコ", "CCNA", "Java SE"],
-        subcategories: [
-          { id: "ipa", label: "情報処理試験（IPA）", keywords: ["基本情報", "応用情報", "情報処理", "ITパスポート", "高度試験"] },
-          { id: "security-cert", label: "セキュリティ資格", keywords: ["安全確保支援士", "情報セキュリティ", "CISSP", "CompTIA Security+"] },
-          { id: "vendor-cert", label: "ベンダー資格", keywords: ["CCNA", "AWS認定", "Azure認定", "Java SE", "Oracle"] },
-        ],
-      },
+      c("ai-ml", "AI・機械学習", ["ai", "機械学習", "llm", "生成ai"], [
+        c("genai", "生成AI", ["生成ai", "chatgpt", "gpt", "gemini"]),
+        c("llm-app", "LLMアプリ開発", ["llm", "rag", "langchain", "agent"]),
+        c("ml-basic", "機械学習基礎", ["機械学習", "回帰", "分類", "特徴量"]),
+        c("deep-learning", "深層学習", ["深層学習", "ニューラル", "cnn", "transformer"]),
+        c("ai-business", "AIビジネス活用", ["ai活用", "業務活用", "ai導入"]),
+      ]),
+      c("programming", "プログラミング", ["プログラミング", "開発", "コード"], [
+        c("frontend", "Webフロントエンド", ["react", "next.js", "vue", "css", "typescript"]),
+        c("backend", "バックエンド", ["java", "go", "ruby", "node", "api"]),
+        c("algorithm", "アルゴリズム", ["アルゴリズム", "計算量", "データ構造"]),
+        c("architecture", "設計・アーキテクチャ", ["アーキテクチャ", "設計", "クリーンコード"]),
+        c("dev-process", "開発プロセス", ["アジャイル", "スクラム", "テスト", "ci/cd"]),
+      ]),
+      c("infra-cloud", "インフラ・クラウド", ["インフラ", "クラウド", "sre"], [
+        c("aws", "AWS", ["aws", "ec2", "lambda", "s3"]),
+        c("gcp-azure", "GCP・Azure", ["gcp", "azure", "bigquery"]),
+        c("container", "Docker・Kubernetes", ["docker", "kubernetes", "k8s"]),
+        c("network", "ネットワーク", ["ネットワーク", "tcp/ip", "dns", "ルーティング"]),
+        c("sre-ops", "SRE・運用", ["sre", "運用", "監視", "可観測性"]),
+      ]),
+      c("security", "セキュリティ", ["セキュリティ", "脆弱性", "暗号"], [
+        c("security-basic", "セキュリティ基礎", ["セキュリティ基礎", "脅威", "脆弱性"]),
+        c("web-security", "Webセキュリティ", ["webセキュリティ", "xss", "sqlインジェクション"]),
+        c("network-security", "ネットワークセキュリティ", ["firewall", "ids", "vpn"]),
+        c("auth-crypto", "認証・暗号", ["認証", "暗号", "公開鍵", "oauth"]),
+        c("incident", "インシデント対応", ["インシデント", "csirt", "フォレンジック"]),
+      ]),
+      c("data", "データ活用", ["データ分析", "sql", "bi", "統計"], [
+        c("sql", "SQL", ["sql", "クエリ", "join", "postgres", "mysql"]),
+        c("bi", "BI", ["bi", "power bi", "tableau", "ダッシュボード"]),
+        c("data-analysis", "データ分析", ["データ分析", "pandas", "分析"]),
+        c("stats-basic", "統計基礎", ["統計", "確率", "回帰", "検定"]),
+        c("data-platform", "データ基盤", ["データ基盤", "dwh", "etl", "dbt"]),
+      ]),
+      c("dx", "IT戦略・DX", ["dx", "業務改善", "it企画"], [
+        c("dx-promotion", "DX推進", ["dx推進", "デジタル変革"]),
+        c("process-improve", "業務改善", ["業務改善", "bpr", "業務改革"]),
+        c("automation-rpa", "自動化・RPA", ["rpa", "自動化", "power automate"]),
+        c("it-planning", "IT企画", ["it企画", "ロードマップ", "要件定義"]),
+        c("system-intro", "システム導入", ["システム導入", "erp", "crm"]),
+      ]),
+      c("cert", "資格試験", ["基本情報", "応用情報", "aws認定", "試験"], [
+        c("fe", "基本情報", ["基本情報", "fe", "itパスポート"]),
+        c("ap", "応用情報", ["応用情報", "ap"]),
+        c("ipa-advanced", "高度情報処理", ["高度情報処理", "ネットワークスペシャリスト", "dbスペ"]),
+        c("aws-cert", "AWS認定", ["aws認定", "saa", "soa", "dva"]),
+        c("security-cert", "セキュリティ資格", ["情報処理安全確保支援士", "security+", "cissp"]),
+      ]),
     ],
   },
   {
     id: "self-help",
     label: "自己啓発",
     emoji: "🌱",
-    desc: "習慣・マインドセット・コミュニケーション",
+    desc: "習慣・マインドセット・学習法・生き方",
     mappedLabels: ["自己啓発"],
+    keywords: ["自己啓発", "習慣", "モチベーション", "生き方"],
     subcategories: [
-      {
-        id: "habit",
-        label: "習慣・行動変容",
-        keywords: ["習慣", "行動", "継続", "自己管理", "ルーティン", "モチベーション", "やる気", "マインドフルネス", "瞑想", "時間術"],
-        subcategories: [
-          { id: "habit-design", label: "習慣設計", keywords: ["習慣", "ルーティン", "トリガー", "行動設計", "継続"] },
-          { id: "mindfulness", label: "瞑想・マインドフルネス", keywords: ["マインドフルネス", "瞑想", "呼吸", "自己受容", "ストレス"] },
-        ],
-      },
-      {
-        id: "mindset",
-        label: "マインドセット・人生論",
-        keywords: ["マインドセット", "成功", "幸福", "価値観", "人生", "自己実現", "メンタル"],
-        subcategories: [
-          { id: "success", label: "成功哲学", keywords: ["成功", "目標達成", "セルフイメージ", "自己実現"] },
-          { id: "wellbeing", label: "幸福・ウェルビーイング", keywords: ["幸福", "ウェルビーイング", "価値観", "人生", "生き方"] },
-        ],
-      },
-      {
-        id: "communication",
-        label: "コミュニケーション",
-        keywords: ["コミュニケーション", "人間関係", "対話", "説得", "交渉", "プレゼン"],
-        subcategories: [
-          { id: "dialogue", label: "対話・傾聴", keywords: ["対話", "傾聴", "質問", "1on1", "心理的安全性"] },
-          { id: "persuasion", label: "説得・交渉", keywords: ["説得", "交渉", "合意形成", "影響力", "ネゴシエーション"] },
-          { id: "presentation", label: "プレゼン・発信", keywords: ["プレゼン", "スピーチ", "資料", "話し方", "発信"] },
-        ],
-      },
+      c("habit", "習慣", ["習慣", "継続", "行動"], [
+        c("habit-formation", "習慣化", ["習慣化", "継続", "ルーティン"]),
+        c("motivation", "モチベーション", ["モチベーション", "やる気"]),
+      ]),
+      c("mindset", "マインドセット", ["マインドセット", "自己理解"], [
+        c("self-understanding", "自己理解", ["自己理解", "自己分析"]),
+        c("wellbeing", "幸福論", ["幸福", "ウェルビーイング", "幸せ"]),
+      ]),
+      c("communication", "コミュニケーション", ["対話", "交渉", "プレゼン"], [
+        c("listening", "対話・傾聴", ["傾聴", "対話", "質問力"]),
+        c("negotiation", "説得・交渉", ["説得", "交渉", "合意形成"]),
+        c("presentation", "プレゼン", ["プレゼン", "発信", "話し方"]),
+      ]),
+      c("learning", "学び方", ["学習法", "記憶", "勉強法"], [
+        c("study-method", "学習法", ["学習法", "勉強法", "学び方"]),
+        c("memory", "記憶法", ["記憶法", "暗記", "記憶術"]),
+      ]),
+      c("life", "生き方", ["人生", "人生設計", "生き方"], [
+        c("life-design", "人生設計", ["人生設計", "ライフデザイン", "キャリア観"]),
+      ]),
     ],
   },
   {
     id: "investing",
     label: "投資・お金",
     emoji: "📈",
-    desc: "資産運用・NISA・財務・節約",
+    desc: "資産形成・株式・NISA・FX・家計",
     mappedLabels: ["投資・お金"],
+    keywords: ["投資", "nisa", "株", "資産形成", "家計"],
     subcategories: [
-      {
-        id: "index",
-        label: "インデックス・長期投資",
-        keywords: ["インデックス投資", "NISA", "つみたて", "長期投資", "複利", "積立"],
-        subcategories: [
-          { id: "nisa", label: "NISA制度", keywords: ["NISA", "新NISA", "つみたてNISA", "成長投資枠"] },
-          { id: "index-fund", label: "インデックスファンド", keywords: ["インデックス", "投資信託", "S&P500", "全世界株", "ETF"] },
-          { id: "long-term", label: "長期運用の考え方", keywords: ["長期投資", "積立", "複利", "ドルコスト", "リバランス"] },
-        ],
-      },
-      {
-        id: "stock",
-        label: "株式・FX投資",
-        keywords: ["株式", "FX", "トレード", "相場", "投資信託", "株"],
-        subcategories: [
-          { id: "japan-stock", label: "日本株", keywords: ["日本株", "東証", "銘柄", "決算", "配当"] },
-          { id: "us-stock", label: "米国株", keywords: ["米国株", "NASDAQ", "S&P500", "ETF", "米国市場"] },
-          { id: "fx-trade", label: "FX・短期売買", keywords: ["FX", "トレード", "テクニカル", "チャート", "為替"] },
-        ],
-      },
-      {
-        id: "money",
-        label: "お金・資産形成",
-        keywords: ["節約", "財務", "お金", "資産形成", "家計", "貯金", "貯蓄"],
-        subcategories: [
-          { id: "household", label: "家計管理", keywords: ["家計", "家計簿", "固定費", "節約", "支出"] },
-          { id: "savings", label: "貯金・防衛資金", keywords: ["貯金", "貯蓄", "防衛資金", "生活防衛", "現金比率"] },
-          { id: "money-literacy", label: "金融リテラシー", keywords: ["金融教育", "お金の教養", "資産形成", "税金", "社会保険"] },
-        ],
-      },
+      c("asset-building", "資産形成", ["資産形成", "長期投資", "分散投資"], [
+        c("beginner-invest", "初心者向け投資", ["初心者", "入門", "投資入門"]),
+        c("long-term-invest", "長期投資", ["長期投資", "積立", "複利"]),
+      ]),
+      c("stock", "株式投資", ["株式", "日本株", "米国株", "高配当"], [
+        c("high-dividend", "高配当株", ["高配当", "配当"]),
+        c("jp-stock", "日本株", ["日本株", "東証"]),
+        c("us-stock", "米国株", ["米国株", "nasdaq", "nyse"]),
+      ]),
+      c("nisa-fund", "投資信託・NISA", ["nisa", "投資信託", "etf"], [
+        c("nisa", "NISA", ["nisa", "新nisa"]),
+        c("etf", "ETF", ["etf", "インデックスファンド"]),
+      ]),
+      c("fx-trade", "FX・トレード", ["fx", "トレード", "為替"], [
+        c("fx", "FX", ["fx", "為替", "通貨ペア"]),
+      ]),
+      c("money-lit", "マネーリテラシー", ["家計", "税金", "節約"], [
+        c("household", "家計管理", ["家計管理", "家計簿"]),
+        c("saving", "節約", ["節約", "固定費", "支出"]),
+        c("tax", "税金", ["税金", "節税", "確定申告"]),
+      ]),
+      c("real-estate-invest", "不動産投資", ["不動産投資", "キャッシュフロー", "物件"], [
+        c("real-estate", "不動産投資", ["不動産投資", "rc", "利回り"]),
+      ]),
     ],
   },
   {
     id: "psychology",
     label: "心理学・行動科学",
     emoji: "🧠",
-    desc: "認知バイアス・行動経済学・脳科学",
+    desc: "行動経済学・認知心理・メンタル",
     mappedLabels: ["心理学"],
+    keywords: ["心理学", "行動経済学", "脳科学", "メンタル"],
     subcategories: [
-      {
-        id: "behavioral",
-        label: "行動経済学・意思決定",
-        keywords: ["行動経済学", "意思決定", "認知バイアス", "心理学", "行動科学", "ナッジ"],
-        subcategories: [
-          { id: "bias", label: "認知バイアス", keywords: ["認知バイアス", "ヒューリスティック", "確証バイアス", "アンカリング"] },
-          { id: "nudge", label: "ナッジ・行動設計", keywords: ["ナッジ", "行動設計", "選択アーキテクチャ", "行動介入"] },
-        ],
-      },
-      {
-        id: "neuroscience",
-        label: "脳科学・メンタル",
-        keywords: ["脳科学", "神経科学", "脳", "記憶", "集中", "睡眠", "ストレス"],
-        subcategories: [
-          { id: "brain-learning", label: "学習・記憶", keywords: ["記憶", "学習", "脳", "集中", "認知"] },
-          { id: "mental-care", label: "ストレス・メンタルケア", keywords: ["ストレス", "睡眠", "メンタル", "不安", "セルフケア"] },
-        ],
-      },
+      c("behavioral-econ", "行動経済学", ["行動経済学", "意思決定", "バイアス"], [
+        c("bias", "バイアス", ["バイアス", "ヒューリスティック"]),
+        c("decision", "意思決定", ["意思決定", "判断"]),
+      ]),
+      c("cognitive", "認知心理学", ["認知心理", "学習", "記憶"], [
+        c("learning-memory", "学習・記憶", ["学習", "記憶", "認知"]),
+      ]),
+      c("neuroscience", "脳科学", ["脳科学", "脳", "神経"], [
+        c("habit-build", "習慣形成", ["習慣形成", "習慣化"]),
+      ]),
+      c("mental-care", "メンタルケア", ["ストレス", "メンタル", "感情"], [
+        c("stress", "ストレス", ["ストレス", "不安", "回復"]),
+        c("emotion", "感情", ["感情", "情動", "セルフケア"]),
+      ]),
+      c("social-psych", "対人心理", ["対人", "説得", "人間関係"], [
+        c("persuasion", "説得", ["説得", "影響力"]),
+        c("relationships", "人間関係", ["人間関係", "対人関係"]),
+      ]),
     ],
   },
   {
     id: "novel",
     label: "小説・文芸",
     emoji: "📖",
-    desc: "ミステリー・SF・恋愛・純文学",
+    desc: "ミステリー・SF・恋愛・文学・ホラー",
     mappedLabels: ["小説・文学"],
+    keywords: ["小説", "文芸", "物語", "ミステリー", "sf", "ファンタジー"],
+    strongKeywords: ["探偵", "ミステリー", "サスペンス", "恋愛小説", "純文学"],
     subcategories: [
-      {
-        id: "mystery",
-        label: "ミステリー・サスペンス",
-        keywords: ["ミステリー", "推理", "サスペンス", "スリラー", "犯罪"],
-        subcategories: [
-          { id: "classic-mystery", label: "本格・古典ミステリー", keywords: ["本格", "古典", "探偵", "密室", "ポアロ"] },
-          { id: "modern-thriller", label: "現代サスペンス", keywords: ["サスペンス", "スリラー", "心理戦", "どんでん返し"] },
-        ],
-      },
-      {
-        id: "sf",
-        label: "SF・ファンタジー",
-        keywords: ["SF", "ファンタジー", "近未来", "宇宙", "ディストピア"],
-        subcategories: [
-          { id: "space-sf", label: "宇宙・ハードSF", keywords: ["宇宙", "ハードSF", "科学", "AI", "惑星"] },
-          { id: "fantasy-world", label: "異世界・幻想", keywords: ["ファンタジー", "魔法", "異世界", "冒険", "王国"] },
-        ],
-      },
-      {
-        id: "romance",
-        label: "恋愛・青春",
-        keywords: ["恋愛", "青春", "感動", "ラブ"],
-        subcategories: [
-          { id: "youth", label: "青春小説", keywords: ["青春", "学生", "成長", "友情", "部活"] },
-          { id: "love-story", label: "恋愛小説", keywords: ["恋愛", "ラブ", "切ない", "結婚", "再会"] },
-        ],
-      },
-      {
-        id: "literary",
-        label: "純文学・日本文学",
-        keywords: ["純文学", "日本文学", "直木賞", "芥川賞", "文芸", "村上春樹"],
-        subcategories: [
-          { id: "award", label: "受賞作", keywords: ["直木賞", "芥川賞", "本屋大賞", "受賞作"] },
-          { id: "modern-jp", label: "現代日本文学", keywords: ["日本文学", "文芸", "純文学", "現代"] },
-        ],
-      },
+      c("mystery", "ミステリー", ["ミステリー", "推理", "探偵", "サスペンス"], [
+        c("honkaku-mystery", "本格ミステリー", ["本格", "トリック", "密室"]),
+        c("suspense", "サスペンス", ["サスペンス", "緊張感", "心理戦"]),
+        c("police", "警察小説", ["警察", "刑事", "捜査"]),
+        c("court-social", "法廷・社会派", ["法廷", "社会派", "冤罪"]),
+        c("classic-mystery", "古典ミステリー", ["古典", "ホームズ", "ポアロ", "クリスティ"]),
+      ]),
+      c("sf", "SF", ["sf", "宇宙", "ディストピア", "近未来"], [
+        c("hard-sf", "ハードSF", ["ハードsf", "科学考証", "工学"]),
+        c("near-future", "近未来SF", ["近未来", "未来社会"]),
+        c("dystopia", "ディストピア", ["ディストピア", "管理社会"]),
+        c("space-sf", "宇宙SF", ["宇宙", "惑星", "宇宙船"]),
+        c("ai-tech-sf", "AI・テクノロジーSF", ["ai", "人工知能", "テクノロジー"]),
+      ]),
+      c("fantasy", "ファンタジー", ["ファンタジー", "魔法", "異世界"], [
+        c("isekai", "異世界", ["異世界", "転生", "召喚"]),
+        c("dark-fantasy", "ダークファンタジー", ["ダーク", "退廃", "呪い"]),
+        c("adventure-fantasy", "冒険ファンタジー", ["冒険", "旅", "王国"]),
+        c("myth", "神話・伝承系", ["神話", "伝承", "英雄譚"]),
+        c("modern-fantasy", "現代ファンタジー", ["現代ファンタジー", "日常×幻想"]),
+      ]),
+      c("romance", "恋愛", ["恋愛", "ラブ", "純愛"], [
+        c("pure-love", "純愛", ["純愛", "一途"]),
+        c("adult-romance", "大人の恋愛", ["大人の恋愛", "再会"]),
+        c("sad-romance", "切ない恋愛", ["切ない", "喪失", "別れ"]),
+        c("romcom", "ラブコメ", ["ラブコメ", "恋愛コメディ"]),
+        c("women-romance", "女性向け恋愛", ["女性向け", "恋愛小説"]),
+      ]),
+      c("youth", "青春", ["青春", "学園", "成長"], [
+        c("school", "学園", ["学園", "学校", "高校"]),
+        c("growth", "成長物語", ["成長", "自立", "葛藤"]),
+        c("friendship", "友情", ["友情", "仲間"]),
+        c("club-sports", "部活・競技", ["部活", "競技", "大会"]),
+        c("summer", "ひと夏系", ["ひと夏", "夏休み", "夏"]),
+      ]),
+      c("literary", "純文学", ["純文学", "文学", "文芸", "受賞"], [
+        c("modern-literature", "現代文学", ["現代文学", "現代小説"]),
+        c("jp-literature", "日本文学", ["日本文学", "文豪"]),
+        c("foreign-literature", "海外文学", ["海外文学", "翻訳文学"]),
+        c("award", "受賞作", ["受賞作", "芥川賞", "直木賞", "本屋大賞"]),
+        c("classic-literature", "古典文学", ["古典文学", "古典"]),
+      ]),
+      c("historical-novel", "歴史小説", ["歴史小説", "時代小説", "戦国", "幕末"], [
+        c("jp-history", "日本史", ["日本史", "時代小説"]),
+        c("sengoku-bakumatsu", "戦国・幕末", ["戦国", "幕末"]),
+        c("ancient-medieval", "古代・中世", ["古代", "中世"]),
+        c("foreign-history", "海外歴史", ["海外歴史", "欧州史"]),
+        c("modern-history", "近現代史", ["近現代", "戦後"]),
+      ]),
+      c("horror", "ホラー", ["ホラー", "怪談", "恐怖"], [
+        c("ghost-story", "怪談", ["怪談", "怪異"]),
+        c("psycho-horror", "心理ホラー", ["心理ホラー", "不安", "狂気"]),
+        c("splatter", "スプラッタ", ["スプラッタ", "残虐"]),
+        c("j-horror", "和風ホラー", ["和風ホラー", "和風"]),
+        c("suspense-horror", "サスペンスホラー", ["サスペンスホラー", "追跡"]),
+      ]),
+      c("entertainment", "エンタメ小説", ["エンタメ", "ベストセラー", "映像化"], [
+        c("tearjerker", "泣ける", ["泣ける", "感動"]),
+        c("twist", "どんでん返し", ["どんでん返し", "意外な結末"]),
+        c("movie-adapted", "映像化作品", ["映像化", "映画化", "ドラマ化"]),
+        c("easy-masterpiece", "読みやすい名作", ["読みやすい", "名作", "入門"]),
+        c("bestseller", "ベストセラー", ["ベストセラー", "話題作"]),
+      ]),
     ],
   },
   {
     id: "philosophy",
     label: "哲学・思想",
     emoji: "🔭",
-    desc: "倫理・宗教・古典・人生論",
+    desc: "西洋哲学・東洋思想・倫理・宗教",
     mappedLabels: ["哲学・思想"],
+    keywords: ["哲学", "思想", "倫理", "宗教"],
     subcategories: [
-      {
-        id: "western",
-        label: "西洋哲学・倫理",
-        keywords: ["哲学", "倫理", "西洋哲学", "道徳", "形而上学", "ソクラテス", "ニーチェ", "カント", "ストア"],
-        subcategories: [
-          { id: "ethics", label: "倫理学", keywords: ["倫理", "道徳", "善悪", "規範", "功利主義"] },
-          { id: "history-philo", label: "哲学史", keywords: ["ソクラテス", "プラトン", "アリストテレス", "カント", "ニーチェ"] },
-        ],
-      },
-      {
-        id: "eastern",
-        label: "東洋思想・宗教",
-        keywords: ["仏教", "東洋思想", "宗教", "禅", "道教", "儒教", "老子", "孔子", "ヨーガ"],
-        subcategories: [
-          { id: "buddhism", label: "仏教・禅", keywords: ["仏教", "禅", "瞑想", "悟り", "仏典"] },
-          { id: "chinese-thought", label: "儒教・道教", keywords: ["儒教", "道教", "老子", "孔子", "論語"] },
-        ],
-      },
+      c("western", "西洋哲学", ["西洋哲学", "哲学史", "実存", "ニーチェ", "カント"], [
+        c("philosophy-history", "哲学史", ["哲学史", "ソクラテス", "カント", "ニーチェ"]),
+        c("existentialism", "実存", ["実存", "実存主義", "サルトル"]),
+      ]),
+      c("eastern", "東洋思想", ["東洋思想", "仏教", "儒教", "道教", "禅"], [
+        c("buddhism", "仏教", ["仏教", "仏典"]),
+        c("zen", "禅", ["禅", "坐禅"]),
+        c("confucianism", "儒教", ["儒教", "論語"]),
+        c("taoism", "道教", ["道教", "老子", "荘子"]),
+      ]),
+      c("ethics-life", "倫理・人生論", ["倫理", "人生論", "生き方"], [
+        c("ethics", "倫理学", ["倫理学", "規範", "善悪"]),
+        c("life-theory", "人生論", ["人生論", "生き方", "幸福"]),
+      ]),
+      c("religion", "宗教", ["宗教", "宗教学", "信仰"], [
+        c("religious-studies", "宗教学", ["宗教学", "宗教史"]),
+        c("intro-thought", "思想入門", ["思想入門", "哲学入門"]),
+      ]),
     ],
   },
   {
     id: "history",
     label: "歴史・社会",
     emoji: "🏛️",
-    desc: "世界史・日本史・社会問題・政治",
+    desc: "世界史・日本史・政治・社会課題",
     mappedLabels: ["歴史・社会"],
+    keywords: ["歴史", "社会", "政治", "地政学", "国際"],
     subcategories: [
-      {
-        id: "world",
-        label: "世界史・文明",
-        keywords: ["世界史", "文明", "ヨーロッパ", "グローバル", "人類", "地政学", "帝国", "植民地"],
-        subcategories: [
-          { id: "ancient-medieval", label: "古代〜中世", keywords: ["古代", "中世", "文明", "ローマ", "ギリシャ"] },
-          { id: "modern-world", label: "近代〜現代", keywords: ["近代", "現代", "帝国", "植民地", "冷戦"] },
-        ],
-      },
-      {
-        id: "japan",
-        label: "日本史・近現代",
-        keywords: ["日本史", "近現代史", "昭和", "明治", "戦後", "江戸", "幕末", "戦国", "明治維新"],
-        subcategories: [
-          { id: "premodern-jp", label: "古代〜江戸", keywords: ["日本史", "古代", "中世", "江戸", "戦国"] },
-          { id: "modern-jp-history", label: "明治〜戦後", keywords: ["明治", "大正", "昭和", "戦後", "近現代史"] },
-        ],
-      },
-      {
-        id: "social",
-        label: "社会・政治・経済",
-        keywords: ["社会", "政治", "格差", "社会問題", "経済学", "民主主義", "少子化", "環境問題", "SDGs"],
-        subcategories: [
-          { id: "politics", label: "政治・制度", keywords: ["政治", "民主主義", "政策", "選挙", "行政"] },
-          { id: "social-issues", label: "社会課題", keywords: ["格差", "少子化", "高齢化", "教育", "貧困"] },
-          { id: "environment", label: "環境・SDGs", keywords: ["環境", "気候変動", "SDGs", "サステナビリティ"] },
-        ],
-      },
+      c("world-history", "世界史", ["世界史", "文明", "地政学"], [
+        c("ancient", "古代", ["古代", "古代文明"]),
+        c("medieval", "中世", ["中世"]),
+        c("modern", "近代", ["近代", "帝国"]),
+        c("contemporary", "現代", ["現代", "冷戦", "グローバル"]),
+      ]),
+      c("japanese-history", "日本史", ["日本史", "戦国", "幕末", "戦後"], [
+        c("sengoku", "戦国・幕末", ["戦国", "幕末", "維新"]),
+        c("postwar", "戦後", ["戦後", "昭和", "平成"]),
+      ]),
+      c("politics", "政治・制度", ["政治", "制度", "政策"], [
+        c("policy", "政策", ["政策", "行政", "制度設計"]),
+      ]),
+      c("social-issue", "社会課題", ["社会問題", "格差", "少子化"], [
+        c("social-problem", "社会問題", ["社会問題", "格差", "貧困"]),
+      ]),
+      c("global", "環境・国際", ["sdgs", "環境", "国際", "国際関係"], [
+        c("sdgs", "SDGs", ["sdgs", "サステナビリティ", "気候変動"]),
+        c("international", "国際関係", ["国際関係", "外交", "国連"]),
+      ]),
     ],
   },
   {
     id: "science",
     label: "科学・教養",
     emoji: "🔬",
-    desc: "物理・生物・数学・統計・宇宙",
+    desc: "物理・生物・数学・一般教養",
     mappedLabels: ["科学・教養", "科学・技術"],
+    keywords: ["科学", "物理", "宇宙", "数学", "統計", "生物"],
     subcategories: [
-      {
-        id: "physics",
-        label: "物理・宇宙科学",
-        keywords: ["物理", "宇宙", "天文", "量子", "相対性"],
-        subcategories: [
-          { id: "quantum",   label: "量子力学・素粒子", keywords: ["量子力学", "量子", "素粒子", "量子コンピュータ", "量子論"] },
-          { id: "cosmology", label: "宇宙・天文学",     keywords: ["宇宙論", "天文", "ブラックホール", "相対性", "宇宙探査", "銀河", "ホーキング"] },
-        ],
-      },
-      {
-        id: "bio",
-        label: "生物・進化・医学",
-        keywords: ["生物学", "進化論", "遺伝子", "生命", "医学", "DNA", "ゲノム", "微生物", "人体"],
-        subcategories: [
-          { id: "evolution", label: "進化・生態", keywords: ["進化", "生態", "自然選択", "生物多様性"] },
-          { id: "genetics", label: "遺伝子・分子生物", keywords: ["遺伝子", "DNA", "ゲノム", "分子生物", "遺伝"] },
-          { id: "medical", label: "医学・人体", keywords: ["医学", "人体", "解剖", "病気", "公衆衛生"] },
-        ],
-      },
-      {
-        id: "math",
-        label: "数学・統計・データ",
-        keywords: ["数学", "統計学", "データ分析", "確率", "データサイエンス"],
-        subcategories: [
-          { id: "statistics",     label: "統計学・確率",   keywords: ["統計学", "統計", "ベイズ", "確率論", "回帰", "仮説検定"] },
-          { id: "linear-algebra", label: "線形代数",       keywords: ["線形代数", "行列", "ベクトル", "固有値", "行列式"] },
-          { id: "applied-math",   label: "数学・教養",     keywords: ["数学", "算数", "微分積分", "数理", "数学的思考"] },
-        ],
-      },
+      c("physics-space", "物理・宇宙", ["物理", "宇宙", "量子"], [
+        c("quantum", "量子", ["量子", "素粒子"]),
+        c("space", "宇宙", ["宇宙", "天文学", "銀河"]),
+      ]),
+      c("bio-med", "生物・医学", ["生物", "遺伝", "人体", "医学"], [
+        c("evolution", "進化", ["進化", "生態"]),
+        c("genetics", "遺伝", ["遺伝", "dna", "ゲノム"]),
+        c("human-body", "人体", ["人体", "解剖", "脳"]),
+      ]),
+      c("math-stats", "数学・統計", ["数学", "統計", "確率", "線形代数"], [
+        c("statistics", "統計", ["統計", "回帰", "仮説検定"]),
+        c("probability", "確率", ["確率", "確率論"]),
+        c("linear-algebra", "線形代数", ["線形代数", "行列", "ベクトル"]),
+      ]),
+      c("general-education", "一般教養", ["教養", "科学読み物", "サイエンス"], [
+        c("math-literacy", "数学教養", ["数学教養", "数理思考"]),
+        c("science-reading", "科学読み物", ["科学読み物", "科学エッセイ"]),
+      ]),
     ],
   },
   {
     id: "manga",
     label: "漫画",
     emoji: "🎨",
-    desc: "少年・少女・青年コミック",
+    desc: "少年・少女・青年・一般漫画",
     mappedLabels: ["漫画"],
+    keywords: ["漫画", "コミック", "マンガ"],
     subcategories: [
-      {
-        id: "shonen",
-        label: "少年コミック",
-        keywords: ["少年", "バトル", "冒険", "友情", "ジャンプ", "スポーツ", "野球", "サッカー", "キャプテン", "プレイボール"],
-        subcategories: [
-          { id: "battle", label: "バトル・冒険", keywords: ["バトル", "冒険", "能力", "異能", "ジャンプ"] },
-          { id: "sports", label: "スポーツ", keywords: ["スポーツ", "野球", "サッカー", "バスケ", "部活"] },
-        ],
-      },
-      {
-        id: "shojo",
-        label: "少女・恋愛コミック",
-        keywords: ["少女", "恋愛", "ラブコメ", "花とゆめ", "マーガレット"],
-        subcategories: [
-          { id: "shojo-love", label: "恋愛", keywords: ["恋愛", "胸キュン", "少女", "学園", "ラブ"] },
-          { id: "shojo-comedy", label: "ラブコメ", keywords: ["ラブコメ", "コメディ", "少女漫画", "日常"] },
-        ],
-      },
-      {
-        id: "seinen",
-        label: "青年・一般コミック",
-        keywords: ["青年", "ビジネス", "社会人", "大人", "グルメ", "モーニング"],
-        subcategories: [
-          { id: "seinen-drama", label: "社会派・ドラマ", keywords: ["社会", "仕事", "ビジネス", "ドラマ", "社会人"] },
-          { id: "seinen-hobby", label: "趣味・グルメ", keywords: ["グルメ", "料理", "趣味", "日常", "ライフスタイル"] },
-        ],
-      },
+      c("shonen", "少年漫画", ["少年", "ジャンプ", "バトル", "スポーツ"], [
+        c("battle", "バトル", ["バトル", "異能", "能力"]),
+        c("adventure", "冒険", ["冒険", "旅"]),
+        c("sports", "スポーツ", ["スポーツ", "野球", "サッカー"]),
+      ]),
+      c("shojo", "少女漫画", ["少女", "恋愛", "ラブコメ"], [
+        c("romance", "恋愛", ["恋愛", "胸キュン"]),
+        c("romcom", "ラブコメ", ["ラブコメ", "コメディ"]),
+      ]),
+      c("seinen", "青年漫画", ["青年", "社会派", "ドラマ", "グルメ"], [
+        c("social", "社会派", ["社会派", "社会問題"]),
+        c("drama", "ドラマ", ["ドラマ", "人間ドラマ"]),
+        c("hobby-gourmet", "趣味・グルメ", ["グルメ", "趣味", "料理"]),
+      ]),
+      c("general", "一般漫画", ["日常", "ギャグ", "一般"], [
+        c("daily", "日常", ["日常", "ほのぼの"]),
+        c("gag", "ギャグ", ["ギャグ", "コメディ", "笑い"]),
+      ]),
     ],
   },
 ];
+
+export const L4_TAG_RULES: FacetTagRule[] = [
+  { id: "intro", label: "入門", keywords: ["入門", "はじめて", "最初の1冊"] },
+  { id: "beginner", label: "初級", keywords: ["初級", "初心者向け", "やさしい"] },
+  { id: "intermediate", label: "中級", keywords: ["中級"] },
+  { id: "advanced", label: "上級", keywords: ["上級", "実践上級"] },
+  { id: "practical", label: "実務向け", keywords: ["実務", "現場", "業務で使う"] },
+  { id: "exam", label: "試験対策", keywords: ["試験対策", "頻出", "過去問"] },
+  { id: "diagram", label: "図解", keywords: ["図解"] },
+  { id: "case-study", label: "事例中心", keywords: ["事例", "ケーススタディ"] },
+  { id: "workbook", label: "ワーク付き", keywords: ["ワーク", "演習", "問題集"] },
+  { id: "readable", label: "読みやすい", keywords: ["読みやすい", "わかりやすい"] },
+  { id: "dense", label: "重厚", keywords: ["重厚", "大作", "本格長編"] },
+  { id: "short-story", label: "短編集", keywords: ["短編集", "短編", "連作短編"] },
+  { id: "long-form", label: "長編", keywords: ["長編"] },
+  { id: "series", label: "シリーズ", keywords: ["シリーズ", "第1巻", "続編"] },
+  { id: "adapted", label: "映像化", keywords: ["映像化", "映画化", "ドラマ化"] },
+  { id: "analysis", label: "考察向け", keywords: ["考察", "解釈", "テーマ性"] },
+];
+
+export const L5_TAG_RULES: FacetTagRule[] = [
+  // 小説・文芸（重点）
+  { id: "locked-room", label: "密室", keywords: ["密室"], l1Allow: ["novel"] },
+  { id: "unreliable-trick", label: "叙述トリック", keywords: ["叙述トリック"], l1Allow: ["novel"] },
+  { id: "plot-twist", label: "どんでん返し", keywords: ["どんでん返し", "意外な結末"], l1Allow: ["novel"] },
+  { id: "page-turner", label: "一気読み", keywords: ["一気読み", "止まらない"], l1Allow: ["novel"] },
+  { id: "dark-aftertaste", label: "後味が悪い", keywords: ["後味が悪い"], l1Allow: ["novel"] },
+  { id: "tearjerker", label: "泣ける", keywords: ["泣ける", "涙"], l1Allow: ["novel"] },
+  { id: "moving", label: "感動", keywords: ["感動"], l1Allow: ["novel"] },
+  { id: "female-lead", label: "女主人公", keywords: ["女性主人公", "女主人公"], l1Allow: ["novel"] },
+  { id: "male-lead", label: "男主人公", keywords: ["男性主人公", "男主人公"], l1Allow: ["novel"] },
+  { id: "ensemble", label: "群像劇", keywords: ["群像劇"], l1Allow: ["novel"] },
+  { id: "school", label: "学園", keywords: ["学園", "学校"], l1Allow: ["novel", "manga"] },
+  { id: "police", label: "警察", keywords: ["警察", "刑事"], l1Allow: ["novel"] },
+  { id: "detective", label: "探偵", keywords: ["探偵", "ホームズ", "ポアロ"], l1Allow: ["novel"] },
+  { id: "courtroom", label: "法廷", keywords: ["法廷"], l1Allow: ["novel"] },
+  { id: "war", label: "戦争", keywords: ["戦争", "戦時"], l1Allow: ["novel", "history"] },
+  { id: "isekai", label: "異世界", keywords: ["異世界", "転生"], l1Allow: ["novel", "manga"] },
+  { id: "space", label: "宇宙", keywords: ["宇宙"], l1Allow: ["novel", "science"] },
+  { id: "ai-theme", label: "AIテーマ", keywords: ["ai", "人工知能"], l1Allow: ["novel", "tech"] },
+  { id: "adapted-original", label: "映像化原作", keywords: ["映像化", "映画化", "ドラマ化"], l1Allow: ["novel"] },
+  { id: "linked-shorts", label: "短編連作", keywords: ["連作", "短編連作"], l1Allow: ["novel"] },
+
+  // テクノロジー・IT（重点）
+  { id: "python", label: "Python", keywords: ["python"], l1Allow: ["tech"] },
+  { id: "javascript", label: "JavaScript", keywords: ["javascript"], l1Allow: ["tech"] },
+  { id: "typescript", label: "TypeScript", keywords: ["typescript"], l1Allow: ["tech"] },
+  { id: "react", label: "React", keywords: ["react"], l1Allow: ["tech"] },
+  { id: "nextjs", label: "Next.js", keywords: ["next.js", "nextjs"], l1Allow: ["tech"] },
+  { id: "aws", label: "AWS", keywords: ["aws"], l1Allow: ["tech"] },
+  { id: "docker", label: "Docker", keywords: ["docker"], l1Allow: ["tech"] },
+  { id: "kubernetes", label: "Kubernetes", keywords: ["kubernetes", "k8s"], l1Allow: ["tech"] },
+  { id: "chatgpt", label: "ChatGPT", keywords: ["chatgpt"], l1Allow: ["tech"] },
+  { id: "llm", label: "LLM", keywords: ["llm", "rag"], l1Allow: ["tech"] },
+  { id: "sql", label: "SQL", keywords: ["sql", "postgres", "mysql"], l1Allow: ["tech"] },
+  { id: "hands-on", label: "ハンズオン", keywords: ["ハンズオン", "手を動かす"], l1Allow: ["tech"] },
+  { id: "sample-code", label: "サンプルコードあり", keywords: ["サンプルコード", "コード例"], l1Allow: ["tech"] },
+  { id: "non-engineer", label: "非エンジニア向け", keywords: ["非エンジニア", "文系", "入門"], l1Allow: ["tech"] },
+  { id: "for-practice", label: "現場向け", keywords: ["現場向け", "実務", "運用"], l1Allow: ["tech"] },
+  { id: "implementation", label: "実装重視", keywords: ["実装", "実践", "コード中心"], l1Allow: ["tech"] },
+  { id: "theory", label: "理論重視", keywords: ["理論", "数理", "理論重視"], l1Allow: ["tech"] },
+  { id: "exam-freq", label: "試験頻出", keywords: ["頻出", "過去問", "試験"], l1Allow: ["tech"] },
+
+  // 他ジャンル（最小限）
+  { id: "manager-target", label: "管理職向け", keywords: ["管理職", "マネージャー"], l1Allow: ["business"] },
+  { id: "career-change", label: "キャリア転職", keywords: ["転職", "キャリアチェンジ"], l1Allow: ["business"] },
+  { id: "new-nisa", label: "新NISA", keywords: ["新nisa", "nisa"], l1Allow: ["investing"] },
+  { id: "index-invest", label: "インデックス", keywords: ["インデックス", "etf"], l1Allow: ["investing"] },
+  { id: "mental-recovery", label: "メンタル回復", keywords: ["回復", "ストレス", "不安"], l1Allow: ["psychology", "self-help"] },
+  { id: "self-analysis", label: "自己分析", keywords: ["自己分析", "自己理解"], l1Allow: ["self-help"] },
+];
+
+export type AuthorPrior = {
+  l1Id: string;
+  l2Id?: string;
+  l3Id?: string;
+  boostL1?: number;
+  boostL2?: number;
+  boostL3?: number;
+};
+
+export const AUTHOR_PRIORS: Record<string, AuthorPrior> = {
+  "アガサ・クリスティ": { l1Id: "novel", l2Id: "mystery", l3Id: "classic-mystery", boostL1: 4, boostL2: 5, boostL3: 5 },
+  "東野圭吾": { l1Id: "novel", l2Id: "mystery", boostL1: 4, boostL2: 4 },
+  "村上春樹": { l1Id: "novel", l2Id: "literary", boostL1: 4, boostL2: 4 },
+  "j.r.r.トールキン": { l1Id: "novel", l2Id: "fantasy", boostL1: 4, boostL2: 5 },
+  "jrrトールキン": { l1Id: "novel", l2Id: "fantasy", boostL1: 4, boostL2: 5 },
+  "コナン・ドイル": { l1Id: "novel", l2Id: "mystery", l3Id: "classic-mystery", boostL1: 4, boostL2: 5, boostL3: 5 },
+};
+
+export const SERIES_PRIORS: Record<string, AuthorPrior> = {
+  "シャーロック・ホームズ": { l1Id: "novel", l2Id: "mystery", l3Id: "classic-mystery", boostL1: 4, boostL2: 6, boostL3: 6 },
+  "ポアロ": { l1Id: "novel", l2Id: "mystery", l3Id: "classic-mystery", boostL1: 3, boostL2: 5, boostL3: 5 },
+  "ファウンデーション": { l1Id: "novel", l2Id: "sf", l3Id: "space-sf", boostL1: 3, boostL2: 5, boostL3: 4 },
+};
 
 /** @deprecated Use CATEGORY_TREE directly */
 export const OTHER_CATEGORY: Category = { id: "other", label: "その他", keywords: [] };
 /** @deprecated */
 export const OTHER_L2 = OTHER_CATEGORY;
+
