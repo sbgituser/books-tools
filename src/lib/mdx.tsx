@@ -8,6 +8,15 @@ import type { ReactNode, ComponentPropsWithoutRef } from "react";
 import { findBookByHeadingText } from "@/lib/blogBookLookup";
 import BlogBookInlineCard from "@/components/BlogBookInlineCard";
 
+type BlogBookCardProps = {
+  id: string;
+  title: string;
+  author?: string;
+  thumbnailUrl?: string;
+  isbn13?: string;
+  googleBooksId?: string;
+};
+
 const prettyCodeOptions = {
   theme: "github-dark",
   keepBackground: false,
@@ -38,11 +47,29 @@ function BlogBookHeading(props: ComponentPropsWithoutRef<"h3">) {
   );
 }
 
+function BlogBookCard(props: BlogBookCardProps) {
+  const authors = props.author ? [props.author] : [];
+
+  return (
+    <BlogBookInlineCard
+      book={{
+        id: props.id,
+        title: props.title,
+        authors,
+        thumbnailUrl: props.thumbnailUrl,
+        isbn13: props.isbn13,
+        sourceIds: props.googleBooksId ? { googleBooksId: props.googleBooksId } : undefined,
+      }}
+    />
+  );
+}
+
 export async function renderBlogMdx(source: string) {
   const { content } = await compileMDX({
     source,
     components: {
       h3: BlogBookHeading,
+      BlogBookCard,
     },
     options: {
       parseFrontmatter: false,

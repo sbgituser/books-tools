@@ -1,5 +1,627 @@
 [
   {
+    "id": "gb-blog-氷菓",
+    "title": "氷菓",
+    "authors": [
+      "米澤穂信"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "氷菓 米澤穂信 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-14T00:18:06.881Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=SsgOMK9uQWUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "SsgOMK9uQWUC"
+    }
+  },
+  {
+    "id": "gb-blog-愚者のエンドロール",
+    "title": "愚者のエンドロール",
+    "authors": [
+      "米澤穂信"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "愚者のエンドロール 米澤穂信 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-14T00:18:06.881Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=Mv_Ef8J6ohQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Mv_Ef8J6ohQC"
+    }
+  },
+  {
+    "id": "gb-blog-クドリャフカの順番",
+    "title": "クドリャフカの順番",
+    "authors": [
+      "米澤穂信"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "クドリャフカの順番 米澤穂信 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-14T00:18:06.881Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=FDwMzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784048736183",
+    "isbn10": "4048736183",
+    "sourceIds": {
+      "googleBooksId": "FDwMzQEACAAJ"
+    }
+  },
+  {
+    "id": "gb-blog-満願",
+    "title": "満願",
+    "authors": [
+      "米澤穂信"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "満願 米澤穂信 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-14T00:18:06.881Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=qBFIBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "qBFIBQAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-blog-王とサーカス",
+    "title": "王とサーカス",
+    "authors": [
+      "米澤穂信"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "王とサーカス 米澤穂信 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-14T00:18:06.881Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=mX5oDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "isbn13": "9784488451103",
+    "isbn10": "4488451101",
+    "sourceIds": {
+      "googleBooksId": "mX5oDwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-blog-追想五断章",
+    "title": "追想五断章",
+    "authors": [
+      "米澤穂信"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "追想五断章 米澤穂信 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-14T00:18:06.881Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=9O-GQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784087713046",
+    "isbn10": "4087713040",
+    "sourceIds": {
+      "googleBooksId": "9O-GQgAACAAJ"
+    }
+  },
+  {
+    "id": "gb-blog-いまさら翼といわれても",
+    "title": "いまさら翼といわれても",
+    "authors": [
+      "米澤穂信"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "いまさら翼といわれても 米澤穂信 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-14T00:18:06.881Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=Upm8xgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784041081648",
+    "isbn10": "4041081645",
+    "sourceIds": {
+      "googleBooksId": "Upm8xgEACAAJ"
+    }
+  },
+  {
+    "id": "gb-blog-黒牢城",
+    "title": "黒牢城",
+    "authors": [
+      "米澤穂信"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "黒牢城 米澤穂信 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-14T00:18:06.881Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=-lap0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784041147221",
+    "isbn10": "4041147220",
+    "sourceIds": {
+      "googleBooksId": "-lap0AEACAAJ"
+    }
+  },
+  {
+    "id": "gb-blog-理由",
+    "title": "理由",
+    "authors": [
+      "宮部みゆき"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "理由 宮部みゆき 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-14T00:05:00.376Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=NcgPAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "NcgPAAAAYAAJ"
+    }
+  },
+  {
+    "id": "gb-blog-模倣犯",
+    "title": "模倣犯",
+    "authors": [
+      "宮部みゆき"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "模倣犯 宮部みゆき 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-14T00:05:00.376Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=5s4rAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "5s4rAQAAIAAJ"
+    }
+  },
+  {
+    "id": "gb-blog-ソロモンの偽証",
+    "title": "ソロモンの偽証",
+    "authors": [
+      "宮部みゆき"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "ソロモンの偽証 宮部みゆき 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-14T00:05:00.376Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=sMbhwQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784101369358",
+    "isbn10": "4101369356",
+    "sourceIds": {
+      "googleBooksId": "sMbhwQEACAAJ"
+    }
+  },
+  {
+    "id": "gb-blog-レベル7",
+    "title": "レベル7",
+    "authors": [
+      "宮部みゆき"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "レベル7 宮部みゆき 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-14T00:05:00.376Z",
+    "language": "ja",
+    "isbn13": "9784106027222",
+    "isbn10": "4106027224",
+    "sourceIds": {
+      "googleBooksId": "_654NwAACAAJ"
+    }
+  },
+  {
+    "id": "gb-blog-龍は眠る",
+    "title": "龍は眠る",
+    "authors": [
+      "宮部みゆき"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "龍は眠る 宮部みゆき 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-14T00:05:00.376Z",
+    "language": "ja",
+    "sourceIds": {
+      "googleBooksId": "0mWEzwEACAAJ"
+    }
+  },
+  {
+    "id": "gb-blog-蒲生邸事件",
+    "title": "蒲生邸事件",
+    "authors": [
+      "宮部みゆき"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "蒲生邸事件 宮部みゆき 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-14T00:05:00.376Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=BQogNwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784860550189",
+    "isbn10": "4860550188",
+    "sourceIds": {
+      "googleBooksId": "BQogNwAACAAJ"
+    }
+  },
+  {
+    "id": "gb-blog-スタイルズ荘の怪事件",
+    "title": "スタイルズ荘の怪事件",
+    "authors": [
+      "アガサ",
+      "クリスティー"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "スタイルズ荘の怪事件 アガサ クリスティー 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T23:48:39.094Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=kW5QB40w4fQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "kW5QB40w4fQC"
+    }
+  },
+  {
+    "id": "gb-blog-緋色の研究",
+    "title": "緋色の研究",
+    "authors": [
+      "コナン",
+      "ドイル"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "緋色の研究 コナン ドイル 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T23:48:39.094Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=M4SizwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784770025555",
+    "isbn10": "4770025556",
+    "sourceIds": {
+      "googleBooksId": "M4SizwEACAAJ"
+    }
+  },
+  {
+    "id": "gb-blog-xの悲劇",
+    "title": "Xの悲劇",
+    "authors": [
+      "エラリー",
+      "クイーン"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "Xの悲劇 エラリー クイーン 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T23:48:39.094Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=r8qvQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784591081716",
+    "isbn10": "4591081710",
+    "sourceIds": {
+      "googleBooksId": "r8qvQgAACAAJ"
+    }
+  },
+  {
+    "id": "gb-blog-犬神家の一族",
+    "title": "犬神家の一族",
+    "authors": [
+      "横溝正史"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "犬神家の一族 横溝正史 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T23:48:39.094Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=q2R50QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784882933090",
+    "isbn10": "4882933098",
+    "sourceIds": {
+      "googleBooksId": "q2R50QEACAAJ"
+    }
+  },
+  {
+    "id": "gb-blog-八つ墓村",
+    "title": "八つ墓村",
+    "authors": [
+      "横溝正史"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "八つ墓村 横溝正史 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T23:48:39.094Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=lZl60QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784882933168",
+    "isbn10": "4882933160",
+    "sourceIds": {
+      "googleBooksId": "lZl60QEACAAJ"
+    }
+  },
+  {
+    "id": "gb-blog-獄門島",
+    "title": "獄門島",
+    "authors": [
+      "横溝正史"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "獄門島 横溝正史 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T23:48:39.094Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=U-iA0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784882933137",
+    "isbn10": "4882933136",
+    "sourceIds": {
+      "googleBooksId": "U-iA0QEACAAJ"
+    }
+  },
+  {
+    "id": "gb-blog-本陣殺人事件",
+    "title": "本陣殺人事件",
+    "authors": [
+      "横溝正史"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "本陣殺人事件 横溝正史 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T23:48:39.094Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=iuppQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784882933083",
+    "isbn10": "488293308X",
+    "sourceIds": {
+      "googleBooksId": "iuppQgAACAAJ"
+    }
+  },
+  {
+    "id": "gb-blog-悪魔の手毬唄",
+    "title": "悪魔の手毬唄",
+    "authors": [
+      "横溝正史"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "悪魔の手毬唄 横溝正史 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T23:48:39.094Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=jkuB0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784882933236",
+    "isbn10": "4882933233",
+    "sourceIds": {
+      "googleBooksId": "jkuB0QEACAAJ"
+    }
+  },
+  {
+    "id": "gb-blog-時計館の殺人",
+    "title": "時計館の殺人",
+    "authors": [
+      "綾辻行人"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "時計館の殺人 綾辻行人 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T23:48:39.094Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=45GuBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "45GuBQAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-blog-水車館の殺人",
+    "title": "水車館の殺人",
+    "authors": [
+      "綾辻行人"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "水車館の殺人 綾辻行人 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T23:48:39.094Z",
+    "language": "ja",
+    "isbn13": "9784061813458",
+    "isbn10": "4061813455",
+    "sourceIds": {
+      "googleBooksId": "vTg5pwAACAAJ"
+    }
+  },
+  {
+    "id": "gb-blog-迷路館の殺人",
+    "title": "迷路館の殺人",
+    "authors": [
+      "綾辻行人"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "迷路館の殺人 綾辻行人 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T23:48:39.094Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=cCGuBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "cCGuBQAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-blog-霧越邸殺人事件",
+    "title": "霧越邸殺人事件",
+    "authors": [
+      "綾辻行人"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "霧越邸殺人事件 綾辻行人 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T23:48:39.094Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=_bbZoAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784041008478",
+    "isbn10": "4041008476",
+    "sourceIds": {
+      "googleBooksId": "_bbZoAEACAAJ"
+    }
+  },
+  {
+    "id": "gb-blog-another",
+    "title": "Another",
+    "authors": [
+      "綾辻行人"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "Another 綾辻行人 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T23:48:39.094Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=maBdDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "maBdDAAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-blog-人形館の殺人",
+    "title": "人形館の殺人",
+    "authors": [
+      "綾辻行人"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "人形館の殺人 綾辻行人 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T23:48:39.094Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=OsiuBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "OsiuBQAAQBAJ"
+    }
+  },
+  {
     "id": "gb-o_wHKogGZOkC",
     "title": "Yの悲劇",
     "authors": [
@@ -1140,7 +1762,7 @@
     "id": "blog-秘密-na",
     "title": "秘密",
     "authors": [
-      "著者不明"
+      "アガサクリスティー"
     ],
     "categories": [
       "小説・文学"
@@ -1149,8 +1771,8 @@
       "小説・文学",
       "ブログ掲載書籍"
     ],
-    "searchableText": "秘密 著者不明 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
+    "searchableText": "秘密 アガサクリスティー 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T23:47:25.673Z",
     "thumbnailUrl": "https://books.google.com/books/content?id=6VNmvwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "isbn13": "9784151300479",
     "isbn10": "4151300473",
@@ -1314,7 +1936,7 @@
     "id": "blog-少女-na",
     "title": "少女",
     "authors": [
-      "著者不明"
+      "沼田笠峰"
     ],
     "categories": [
       "小説・文学"
@@ -1323,8 +1945,8 @@
       "小説・文学",
       "ブログ掲載書籍"
     ],
-    "searchableText": "少女 著者不明 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
+    "searchableText": "少女 沼田笠峰 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T23:47:25.673Z",
     "thumbnailUrl": "https://books.google.com/books/content?id=owmS_TJaucIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "owmS_TJaucIC"
@@ -5924,7 +6546,7 @@
     "id": "gb-blog-新nisa完全攻略投資術",
     "title": "新NISA完全攻略 投資術",
     "authors": [
-      "著者不明"
+      "日経マネー"
     ],
     "categories": [
       "投資・お金"
@@ -5933,8 +6555,8 @@
       "投資・お金",
       "ブログ掲載書籍"
     ],
-    "searchableText": "新NISA完全攻略 投資術 著者不明 投資・お金 投資・お金 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:15:30.019Z",
+    "searchableText": "新NISA完全攻略 投資術 日経マネー 投資・お金 投資・お金 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T23:47:25.673Z",
     "language": "ja",
     "relatedBookIds": [
       "gb-blog-本当の自由を手に入れるお金の大学",
@@ -5957,7 +6579,7 @@
     "id": "gb-blog-勝てる日本株forbeginne",
     "title": "勝てる日本株 for Beginners",
     "authors": [
-      "著者不明"
+      "大洋図書"
     ],
     "categories": [
       "投資・お金"
@@ -5966,8 +6588,8 @@
       "投資・お金",
       "ブログ掲載書籍"
     ],
-    "searchableText": "勝てる日本株 for Beginners 著者不明 投資・お金 投資・お金 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:15:30.019Z",
+    "searchableText": "勝てる日本株 for Beginners 大洋図書 投資・お金 投資・お金 ブログ掲載書籍",
+    "updatedAt": "2026-03-13T23:47:25.673Z",
     "language": "ja",
     "relatedBookIds": [
       "gb-blog-本当の自由を手に入れるお金の大学",
