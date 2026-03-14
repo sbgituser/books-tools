@@ -46,6 +46,16 @@ const tools = [
     status: "利用可能",
   },
   {
+    href: "/tools/original-reverse-lookup",
+    icon: "📖",
+    label: "Reverse",
+    title: "原作本から映像化作品を探すツール",
+    description:
+      "書名・著者・出版社・ISBNを起点に原作本を検索し、紐づく映像化作品（アニメ/ドラマ/映画）を時期付きでまとめて確認できます。",
+    badge: "無料",
+    status: "利用可能",
+  },
+  {
     href: "/blog",
     icon: "📝",
     label: "Blog",
