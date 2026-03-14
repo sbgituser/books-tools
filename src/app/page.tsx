@@ -36,6 +36,16 @@ const tools = [
     status: "利用可能",
   },
   {
+    href: "/tools/adaptation-originals",
+    icon: "🎬",
+    label: "Adaptations",
+    title: "映像化作品 原作検索ツール",
+    description:
+      "年・期・メディア種別で映像化作品を絞り込み、原作が漫画/小説の作品は書籍カードで確認。条件一致の書籍検索へすぐ遷移できます。",
+    badge: "無料",
+    status: "利用可能",
+  },
+  {
     href: "/blog",
     icon: "📝",
     label: "Blog",
