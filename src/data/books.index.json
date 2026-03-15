@@ -113,8 +113,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "ドラゴンボール 鳥山明 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=mmjdDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "mmjdDwAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-hunterhunter",
@@ -130,8 +134,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "HUNTER×HUNTER 冨樫義博 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=AdsVEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "AdsVEQAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-narutoナルト",
@@ -164,8 +172,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "炎炎ノ消防隊 大久保篤 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=4ihtEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "4ihtEAAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-ジョジョの奇妙な冒険",
@@ -181,8 +193,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "ジョジョの奇妙な冒険 荒木飛呂彦 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=osTHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "osTHEAAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-バキ",
@@ -198,8 +214,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "バキ 板垣恵介 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=P2TTzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784253109451",
+    "isbn10": "4253109454",
+    "sourceIds": {
+      "googleBooksId": "P2TTzgEACAAJ"
+    }
   },
   {
     "id": "gb-blog-ケンガンアシュラ",
@@ -217,8 +239,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "ケンガンアシュラ サンドロビッチ ヤバ子 だろめおん 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=l1T7CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "l1T7CgAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-銀魂",
@@ -672,8 +698,11 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "伊藤潤二傑作集 伊藤潤二 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "sourceIds": {
+      "googleBooksId": "Od9R0QEACAAJ"
+    }
   },
   {
     "id": "gb-blog-地獄先生ぬべ",
@@ -690,8 +719,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "地獄先生ぬ〜べ〜 真倉翔 岡野剛 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=TDaEDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "TDaEDwAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-彼岸島",
@@ -707,8 +740,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "彼岸島 松本光司 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=PlYTEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "isbn13": "9789861761640",
+    "isbn10": "9861761640",
+    "sourceIds": {
+      "googleBooksId": "PlYTEAAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-ハカイジュウ",
@@ -724,8 +763,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "ハカイジュウ 本田真吾 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=ru3XDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "ru3XDAAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-なるたる",
@@ -741,8 +784,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "なるたる 鬼頭莫宏 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=QqHBBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "QqHBBQAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-ミスミソウ",
@@ -758,8 +805,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "ミスミソウ 押切蓮介 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=4PglDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "4PglDwAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-漂流教室",
@@ -775,8 +826,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "漂流教室 楳図かずお 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=l7D9CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "l7D9CgAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-神の左手悪魔の右手",
@@ -792,8 +847,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "神の左手 悪魔の右手 楳図かずお 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=MKU-DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "MKU-DwAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-不安の種",
@@ -809,8 +868,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "不安の種 中山昌亮 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=y8XbDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "y8XbDAAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-モンキーピーク",
@@ -827,8 +890,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "モンキーピーク 志名坂高次 粂田晃宏 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=-gHZDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "-gHZDwAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-食糧人類starvinganon",
@@ -845,8 +912,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "食糧人類-Starving Anonymous- 蔵石ユウ イナベカズ 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=_aYRDQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "_aYRDQAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-さんかれあ",
@@ -862,8 +933,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "さんかれあ はっとりみつる 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=Hn_GBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Hn_GBQAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-学校怪談",
@@ -879,8 +954,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "学校怪談 高橋葉介 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=tB3bDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "tB3bDAAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-魔実子さんが許さない",
@@ -896,8 +975,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "魔実子さんが許さない 柳澤公夫 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=jgChzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784041117231",
+    "isbn10": "4041117232",
+    "sourceIds": {
+      "googleBooksId": "jgChzwEACAAJ"
+    }
   },
   {
     "id": "gb-blog-見える子ちゃん",
@@ -913,8 +998,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "見える子ちゃん 泉朝樹 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=JotNEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "JotNEQAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-亜人",
@@ -931,8 +1020,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "亜人 桜井画門 三浦追儺 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=kNkCDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "kNkCDAAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-ひぐらしのなく頃に",
@@ -948,8 +1041,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "ひぐらしのなく頃に 竜騎士07 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=_eHxzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784575243000",
+    "isbn10": "4575243000",
+    "sourceIds": {
+      "googleBooksId": "_eHxzQEACAAJ"
+    }
   },
   {
     "id": "gb-blog-繝峨λ繧エ繝ウ繝懊繝ォ",
@@ -982,8 +1081,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "ONE PIECE 著者不明 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:56:30.691Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=b-orEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "isbn13": "9784533145353",
+    "isbn10": "4533145353",
+    "sourceIds": {
+      "googleBooksId": "b-orEAAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-蜻ェ陦灘ササ謌ヲ",
@@ -1067,8 +1172,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "NARUTO 著者不明 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:56:30.691Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=EErMCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "EErMCwAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-bleach",
@@ -1084,8 +1193,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "BLEACH 著者不明 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:56:30.691Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=F1JQXwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784088740799",
+    "isbn10": "4088740793",
+    "sourceIds": {
+      "googleBooksId": "F1JQXwAACAAJ"
+    }
   },
   {
     "id": "gb-blog-驪シ縺ョ骭ャ驥題灘クォ",
@@ -1254,8 +1369,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "GANTZ 著者不明 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:56:30.691Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=SbO_PgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784887189935",
+    "isbn10": "4887189931",
+    "sourceIds": {
+      "googleBooksId": "SbO_PgAACAAJ"
+    }
   },
   {
     "id": "gb-blog-繝舌く",
@@ -2195,8 +2316,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "orange 著者不明 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:56:30.691Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=2CwyEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "isbn13": "9784764906310",
+    "isbn10": "4764906317",
+    "sourceIds": {
+      "googleBooksId": "2CwyEAAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-繝上ル繝シ繝ャ繝繝ウ繧ス繝シ繝",
@@ -2297,8 +2424,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "AKIRA 著者不明 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:56:30.691Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=zBR5QgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784831400352",
+    "isbn10": "4831400351",
+    "sourceIds": {
+      "googleBooksId": "zBR5QgAACAAJ"
+    }
   },
   {
     "id": "gb-blog-謾サ谿サ讖溷虚髫",
@@ -2331,8 +2464,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "PLUTO 著者不明 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:56:30.691Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=BZvFAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "isbn13": "9781613124963",
+    "isbn10": "1613124961",
+    "sourceIds": {
+      "googleBooksId": "BZvFAgAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-20荳也エ蟆大ケエ",
@@ -2365,8 +2504,13 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "BLAME! 著者不明 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:56:30.691Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "isbn13": "9784063772036",
+    "isbn10": "4063772039",
+    "sourceIds": {
+      "googleBooksId": "De0ZswEACAAJ"
+    }
   },
   {
     "id": "gb-blog-繧キ繝峨ル繧縺ョ鬨主ォ",
@@ -2484,8 +2628,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "EX-ARM 著者不明 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:56:30.691Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=2g6ODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "2g6ODwAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-繧繝繝ェ",
@@ -2603,8 +2751,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "SLAM DUNK 著者不明 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:56:30.691Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=sZ9ROjUamcsC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9780972503792",
+    "isbn10": "097250379X",
+    "sourceIds": {
+      "googleBooksId": "sZ9ROjUamcsC"
+    }
   },
   {
     "id": "gb-blog-繝上う繧ュ繝繝シ",
@@ -2739,8 +2893,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "GIANT KILLING 著者不明 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:56:30.691Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=DvlwDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "isbn13": "9781642124842",
+    "isbn10": "1642124842",
+    "sourceIds": {
+      "googleBooksId": "DvlwDwAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-days",
@@ -2756,8 +2916,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "DAYS 著者不明 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:56:30.691Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=7peCEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "7peCEQAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-縺翫縺阪謖ッ繧翫縺カ縺縺ヲ",
@@ -2824,8 +2988,13 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "DEAR BOYS 著者不明 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:56:30.691Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "isbn13": "9784063708899",
+    "isbn10": "4063708896",
+    "sourceIds": {
+      "googleBooksId": "jOj2MwEACAAJ"
+    }
   },
   {
     "id": "gb-blog-major2nd",
@@ -2841,8 +3010,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "MAJOR 2nd 著者不明 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:56:30.691Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=7Br7CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "7Br7CgAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-capeta",
@@ -2858,8 +3031,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "capeta 著者不明 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:56:30.691Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=X2rABQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "X2rABQAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-縺ッ縺倥a縺ョ荳豁ゥ",
@@ -2926,8 +3103,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "Mr.FULLSWING 著者不明 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:56:30.691Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=hgnGCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "hgnGCwAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-ベルセルク",
@@ -2943,8 +3124,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "ベルセルク 三浦建太郎 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:20:03.219Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=QON9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "QON9DwAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-魔法使いの嫁",
@@ -2960,8 +3145,13 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "魔法使いの嫁 ヤマザキコレ 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:20:03.219Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "isbn13": "9784048997874",
+    "isbn10": "4048997874",
+    "sourceIds": {
+      "googleBooksId": "nK3a0QEACAAJ"
+    }
   },
   {
     "id": "gb-blog-マギ",
@@ -2977,8 +3167,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "マギ 大高忍 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:20:03.219Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=kLv1CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "kLv1CgAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-七つの大罪",
@@ -2994,8 +3188,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "七つの大罪 鈴木央 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:20:03.219Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=ZHA5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "ZHA5DwAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-fairytail",
@@ -3011,8 +3209,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "FAIRY TAIL 真島ヒロ 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:20:03.219Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=Kkz6DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Kkz6DAAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-ブラッククローバー",
@@ -3028,8 +3230,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "ブラッククローバー 田畠裕基 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:20:03.219Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=47ipEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "47ipEAAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-暁のヨナ",
@@ -3045,8 +3251,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "暁のヨナ 草凪みずほ 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:20:03.219Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=xzW8EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "xzW8EAAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-ヴァニタスの手記",
@@ -3062,8 +3272,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "ヴァニタスの手記 望月淳 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:20:03.219Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=ATjuzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784757578272",
+    "isbn10": "475757827X",
+    "sourceIds": {
+      "googleBooksId": "ATjuzgEACAAJ"
+    }
   },
   {
     "id": "gb-blog-転生したらスライムだった件",
@@ -3080,8 +3296,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "転生したらスライムだった件 伏瀬 川上泰樹 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:20:03.219Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=nl7BDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "nl7BDwAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-オーバーロード",
@@ -3098,8 +3318,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "オーバーロード 丸山くがね 深山フギン 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:20:03.219Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=88M_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "88M_DwAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-とんがり帽子のアトリエ",
@@ -3115,8 +3339,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "とんがり帽子のアトリエ 白浜鴎 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:20:03.219Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=hD_XzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784065319697",
+    "isbn10": "4065319692",
+    "sourceIds": {
+      "googleBooksId": "hD_XzwEACAAJ"
+    }
   },
   {
     "id": "gb-blog-3月のライオン",
@@ -3132,8 +3362,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "3月のライオン 羽海野チカ 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:20:03.219Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=iimo0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784592106425",
+    "isbn10": "4592106423",
+    "sourceIds": {
+      "googleBooksId": "iimo0QEACAAJ"
+    }
   },
   {
     "id": "gb-blog-灰と幻想のグリムガル",
@@ -3150,8 +3386,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "灰と幻想のグリムガル 十文字青 奥橋睦 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:20:03.219Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=_6fCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "_6fCDwAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-魔法陣グルグル",
@@ -3167,8 +3407,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "魔法陣グルグル 衛藤ヒロユキ 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:20:03.219Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=SqPFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "SqPFDwAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-カラスの親指",
@@ -3184,8 +3428,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "カラスの親指 道尾秀介 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T01:14:26.496Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=szKUEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "szKUEAAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-向日葵の咲かない夏",
@@ -3224,8 +3472,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "シャドウ 道尾秀介 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T01:14:26.496Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=J466Pf9pmk4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "isbn13": "9784488496012",
+    "isbn10": "4488496016",
+    "sourceIds": {
+      "googleBooksId": "J466Pf9pmk4C"
+    }
   },
   {
     "id": "gb-blog-ソロモンの犬",
@@ -3241,8 +3495,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "ソロモンの犬 道尾秀介 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T01:14:26.496Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=KRPNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "KRPNDwAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-龍神の雨",
@@ -3258,8 +3516,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "龍神の雨 道尾秀介 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T01:14:26.496Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=8cRaEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "8cRaEAAAQBAJ"
+    }
   },
   {
     "id": "gb-blog-光媒の花",
@@ -3318,8 +3580,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "奇想、天を動かす 島田荘司 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T01:14:26.496Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=86PrAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784334716622",
+    "isbn10": "4334716628",
+    "sourceIds": {
+      "googleBooksId": "86PrAQAACAAJ"
+    }
   },
   {
     "id": "gb-blog-すべてがfになる",
@@ -3335,8 +3603,12 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "すべてがFになる 森博嗣 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T01:08:34.659Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T21:55:07.214Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=hfq8CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "hfq8CwAAQBAJ"
+    }
   },
   {
     "id": "9784062775038",
