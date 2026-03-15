@@ -4,11 +4,12 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const tools = [
-  { href: "/similar-books",        label: "書籍ブラウザ" },
-  { href: "/tools/book-compare",   label: "条件一致で本を探す" },
-  { href: "/tools/adaptation-originals", label: "映像化作品 原作検索" },
+  { href: "/search",                        label: "検索" },
+  { href: "/similar-books",                 label: "書籍ブラウザ" },
+  { href: "/tools/book-compare",            label: "条件一致で本を探す" },
+  { href: "/tools/adaptation-originals",    label: "映像化作品 原作検索" },
   { href: "/tools/original-reverse-lookup", label: "原作本から映像化" },
-  { href: "/blog",                 label: "ブログ" },
+  { href: "/blog",                          label: "ブログ" },
 ];
 
 export default function Header() {

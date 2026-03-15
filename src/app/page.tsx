@@ -108,6 +108,38 @@ export default function HomePage() {
               カテゴリを絞り込んで書籍を探し、気になる本から類似作品を発見。
               Amazonの検索では見つかりにくい本との出会いを提供します。
             </p>
+
+            {/* 検索バー */}
+            <form
+              action="/search"
+              method="get"
+              className="mt-8 max-w-xl mx-auto"
+            >
+              <div className="flex gap-2">
+                <div className="relative flex-1">
+                  <span
+                    className="absolute left-3 top-1/2 -translate-y-1/2 text-stone-400 text-sm pointer-events-none"
+                    aria-hidden="true"
+                  >
+                    🔍
+                  </span>
+                  <input
+                    name="q"
+                    type="search"
+                    placeholder="書名・著者・キーワード・ISBNで探す"
+                    className="w-full pl-9 pr-4 py-3 rounded-xl text-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-amber-400"
+                    autoComplete="off"
+                    aria-label="本を検索"
+                  />
+                </div>
+                <button
+                  type="submit"
+                  className="px-5 py-3 bg-amber-500 hover:bg-amber-600 text-white font-semibold rounded-xl text-sm transition-colors whitespace-nowrap"
+                >
+                  検索
+                </button>
+              </div>
+            </form>
           </div>
         </section>
 

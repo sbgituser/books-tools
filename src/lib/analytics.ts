@@ -48,6 +48,94 @@ export function trackBookCompareOpen(params: {
   });
 }
 
+// ── 検索イベント ──────────────────────────────────────────────────
+
+/** 検索を実行したとき */
+export function trackSearchExecuted(params: {
+  query: string;
+  resultCount: number;
+  mode: "simple" | "advanced";
+}) {
+  if (!isGtagAvailable()) return;
+  gtag("event", "search_executed", {
+    query: params.query,
+    result_count: params.resultCount,
+    mode: params.mode,
+  });
+}
+
+/** 検索結果が0件だったとき */
+export function trackSearchZeroResult(params: {
+  query: string;
+  mode: "simple" | "advanced";
+}) {
+  if (!isGtagAvailable()) return;
+  gtag("event", "search_zero_result", {
+    query: params.query,
+    mode: params.mode,
+  });
+}
+
+/** 検索サジェストをクリックしたとき */
+export function trackSearchSuggestionClicked(params: {
+  query: string;
+  suggestionType: "title" | "author" | "isbn" | "category";
+  suggestionValue: string;
+}) {
+  if (!isGtagAvailable()) return;
+  gtag("event", "search_suggestion_clicked", {
+    query: params.query,
+    suggestion_type: params.suggestionType,
+    suggestion_value: params.suggestionValue,
+  });
+}
+
+/** 検索結果の本をクリックしたとき */
+export function trackSearchResultClicked(params: {
+  query: string;
+  bookId: string;
+  bookTitle: string;
+  rank: number;
+}) {
+  if (!isGtagAvailable()) return;
+  gtag("event", "search_result_clicked", {
+    query: params.query,
+    book_id: params.bookId,
+    book_title: params.bookTitle,
+    rank: params.rank,
+  });
+}
+
+/** 検索結果から既存ツールへ遷移したとき */
+export function trackRelatedToolClicked(params: {
+  tool: "book_compare" | "similar_books" | "adaptation_originals" | "original_reverse";
+  bookId: string;
+  bookTitle: string;
+  source: "search_result";
+}) {
+  if (!isGtagAvailable()) return;
+  gtag("event", "related_tool_clicked", {
+    tool: params.tool,
+    book_id: params.bookId,
+    book_title: params.bookTitle,
+    source: params.source,
+  });
+}
+
+/** 検索のフィルタ・ソートを変更したとき */
+export function trackSearchFilterChanged(params: {
+  filterType: string;
+  filterValue: string;
+}) {
+  if (!isGtagAvailable()) return;
+  gtag("event", "search_filter_changed", {
+    filter_type: params.filterType,
+    filter_value: params.filterValue,
+  });
+}
+
+// ── 既存イベント ──────────────────────────────────────────────────
+
 /** 類似本リストからクリックして別の本の類似本ビューへ遷移したとき */
 export function trackSimilarNavigate(params: {
   fromBookId: string;
