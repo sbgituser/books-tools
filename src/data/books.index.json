@@ -1,5 +1,105 @@
 [
   {
+    "id": "gb-fVsxDwAAQBAJ",
+    "title": "ONE PIECE モノクロ版 86",
+    "authors": [
+      "尾田栄一郎"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "ONE PIECE モノクロ版 86 尾田栄一郎 集英社 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-15T14:16:43.296Z",
+    "publisher": "集英社",
+    "publishedDate": "2017-08-04",
+    "language": "ja",
+    "pageCount": 228,
+    "estimatedReadingHours": 5.7,
+    "thumbnailUrl": "https://books.google.com/books/content?id=fVsxDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "fVsxDwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-LinKCwAAQBAJ",
+    "title": "BLEACH モノクロ版 12",
+    "authors": [
+      "久保帯人"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "BLEACH モノクロ版 12 久保帯人 集英社 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-15T14:16:43.296Z",
+    "publisher": "集英社",
+    "publishedDate": "2004-03-04",
+    "language": "ja",
+    "pageCount": 200,
+    "estimatedReadingHours": 5,
+    "thumbnailUrl": "https://books.google.com/books/content?id=LinKCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "LinKCwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-MgI8DAAAQBAJ",
+    "title": "GANTZ カラー版 ゆびわ星人編＆小島多恵編 1",
+    "authors": [
+      "奥浩哉"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "GANTZ カラー版 ゆびわ星人編＆小島多恵編 1 奥浩哉 集英社 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-15T14:16:43.296Z",
+    "publisher": "集英社",
+    "publishedDate": "2004-12-17",
+    "language": "ja",
+    "pageCount": 227,
+    "estimatedReadingHours": 5.7,
+    "thumbnailUrl": "https://books.google.com/books/content?id=MgI8DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "MgI8DAAAQBAJ"
+    }
+  },
+  {
+    "id": "gb--nbNCwAAQBAJ",
+    "title": "SKET DANCE モノクロ版 1",
+    "authors": [
+      "篠原健太"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "SKET DANCE モノクロ版 1 篠原健太 集英社 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-15T14:16:43.296Z",
+    "publisher": "集英社",
+    "publishedDate": "2007-11-02",
+    "language": "ja",
+    "pageCount": 200,
+    "estimatedReadingHours": 5,
+    "thumbnailUrl": "https://books.google.com/books/content?id=-nbNCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "-nbNCwAAQBAJ"
+    }
+  },
+  {
     "id": "gb-blog-ドラゴンボール",
     "title": "ドラゴンボール",
     "authors": [
@@ -134,8 +234,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "銀魂 空知英秋 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T14:29:59.972Z",
+    "language": "ja",
+    "publisher": "集英社",
+    "thumbnailUrl": "https://books.google.com/books/content?id=lwLKCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "lwLKCwAAQBAJ"
+    },
+    "isbn13": "9784088706825"
   },
   {
     "id": "gb-blog-斉木楠雄のψ難",
@@ -151,8 +257,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "斉木楠雄のΨ難 麻生周一 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T14:28:11.682Z",
+    "language": "ja",
+    "publisher": "集英社",
+    "thumbnailUrl": "https://books.google.com/books/content?id=WO3JCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "WO3JCwAAQBAJ"
+    },
+    "isbn13": "9784088705040"
   },
   {
     "id": "gb-blog-月刊少女野崎くん",
@@ -168,8 +280,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "月刊少女野崎くん 椿いづみ 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T14:28:12.093Z",
+    "language": "ja",
+    "publisher": "Square Enix",
+    "thumbnailUrl": "https://books.google.com/books/content?id=qqLFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "qqLFDwAAQBAJ"
+    },
+    "isbn13": "9784757573963"
   },
   {
     "id": "gb-blog-こちら葛飾区亀有公園前派出所",
@@ -185,8 +303,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "こちら葛飾区亀有公園前派出所 秋本治 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T14:28:16.730Z",
+    "language": "ja",
+    "publisher": "集英社",
+    "thumbnailUrl": "https://books.google.com/books/content?id=EKrHCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "EKrHCwAAQBAJ"
+    },
+    "isbn13": "9784086180382"
   },
   {
     "id": "gb-blog-聖おにいさん",
@@ -202,8 +326,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "聖☆おにいさん 中村光 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T14:28:19.543Z",
+    "language": "ja",
+    "publisher": "講談社",
+    "thumbnailUrl": "https://books.google.com/books/content?id=YaXDBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "YaXDBQAAQBAJ"
+    },
+    "isbn13": "9784065400333"
   },
   {
     "id": "gb-blog-あそびあそばせ",
@@ -219,8 +349,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "あそびあそばせ 涼川りん 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T14:28:21.222Z",
+    "language": "ja",
+    "publisher": "白泉社",
+    "thumbnailUrl": "https://books.google.com/books/content?id=wp-ADwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "wp-ADwAAQBAJ"
+    },
+    "isbn13": "9784592161981"
   },
   {
     "id": "gb-blog-日常",
@@ -236,8 +372,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "日常 あらゐけいいち 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T14:28:23.258Z",
+    "language": "ja",
+    "publisher": "KADOKAWA",
+    "thumbnailUrl": "https://books.google.com/books/content?id=xaugEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "xaugEAAAQBAJ"
+    },
+    "isbn13": "9784041132630"
   },
   {
     "id": "gb-blog-女子高生の無駄づかい",
@@ -253,8 +395,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "女子高生の無駄づかい ビーノ 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T14:28:23.659Z",
+    "language": "ja",
+    "publisher": "KADOKAWA",
+    "thumbnailUrl": "https://books.google.com/books/content?id=Wg7dCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Wg7dCwAAQBAJ"
+    },
+    "isbn13": "9784041171189"
   },
   {
     "id": "gb-blog-ぐらんぶる",
@@ -271,8 +419,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "ぐらんぶる 井上堅二 吉岡公威 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T14:30:12.586Z",
+    "language": "ja",
+    "publisher": "講談社",
+    "thumbnailUrl": "https://books.google.com/books/content?id=0YDHBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "0YDHBQAAQBAJ"
+    },
+    "isbn13": "9784065162385"
   },
   {
     "id": "gb-blog-坂本ですが",
@@ -288,8 +442,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "坂本ですが？ 佐野菜見 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T14:25:17.620Z",
+    "language": "ja",
+    "publisher": "Enterbrain",
+    "isbn13": "9784047286337",
+    "thumbnailUrl": "https://books.google.com/books/content?id=2WrQlwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "2WrQlwEACAAJ"
+    }
   },
   {
     "id": "gb-blog-であいもん",
@@ -305,8 +465,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "であいもん 浅野りん 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T14:28:27.266Z",
+    "language": "ja",
+    "publisher": "KADOKAWA",
+    "thumbnailUrl": "https://books.google.com/books/content?id=LpqTDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "LpqTDQAAQBAJ"
+    },
+    "isbn13": "9784041166987"
   },
   {
     "id": "gb-blog-それでも町は廻っている",
@@ -322,8 +488,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "それでも町は廻っている 石黒正数 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T14:28:28.690Z",
+    "language": "ja",
+    "publisher": "少年画報社",
+    "thumbnailUrl": "https://books.google.com/books/content?id=Y09MDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Y09MDwAAQBAJ"
+    },
+    "isbn13": "9784785926045"
   },
   {
     "id": "gb-blog-かぐや様は告らせたい",
@@ -339,8 +511,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "かぐや様は告らせたい 赤坂アカ 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T14:30:18.853Z",
+    "language": "ja",
+    "isbn13": "9784088911793",
+    "sourceIds": {
+      "googleBooksId": "GdN-DwAAQBAJ"
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=GdN-DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "publisher": "集英社"
   },
   {
     "id": "gb-blog-ヒナまつり",
@@ -356,8 +534,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "ヒナまつり 大武政夫 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T14:30:20.947Z",
+    "language": "ja",
+    "publisher": "KADOKAWA",
+    "thumbnailUrl": "https://books.google.com/books/content?id=m1hWDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "m1hWDwAAQBAJ"
+    },
+    "isbn13": "9784047273818"
   },
   {
     "id": "gb-blog-みなみけ",
@@ -373,8 +557,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "みなみけ 桜場コハル 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T14:30:22.991Z",
+    "language": "ja",
+    "publisher": "講談社",
+    "thumbnailUrl": "https://books.google.com/books/content?id=JgDIBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "JgDIBQAAQBAJ"
+    },
+    "isbn13": "9784063584066"
   },
   {
     "id": "gb-blog-らんま12",
@@ -390,8 +580,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "らんま1/2 高橋留美子 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T14:30:25.061Z",
+    "language": "ja",
+    "sourceIds": {
+      "googleBooksId": "iD31CgAAQBAJ"
+    },
+    "isbn13": "9784091234681",
+    "thumbnailUrl": "https://books.google.com/books/content?id=iD31CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "publisher": "小学館"
   },
   {
     "id": "gb-blog-うる星やつら",
@@ -407,8 +603,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "うる星やつら 高橋留美子 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T14:28:36.130Z",
+    "language": "ja",
+    "publisher": "小学館",
+    "thumbnailUrl": "https://books.google.com/books/content?id=PFv3CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "PFv3CgAAQBAJ"
+    },
+    "isbn13": "9784098515172"
   },
   {
     "id": "gb-blog-ボボボーボボーボボ",
@@ -424,8 +626,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "ボボボーボ・ボーボボ 澤井啓夫 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T14:30:26.493Z",
+    "language": "ja",
+    "isbn13": "9784088732589",
+    "sourceIds": {
+      "googleBooksId": "HIfADQAAQBAJ"
+    },
+    "publisher": "集英社",
+    "thumbnailUrl": "https://books.google.com/books/content?id=HIfADQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "gb-blog-ルリドラゴン",
@@ -441,8 +649,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "ルリドラゴン 眞藤雅興 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T04:37:53.895Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T14:28:39.720Z",
+    "language": "ja",
+    "publisher": "集英社",
+    "thumbnailUrl": "https://books.google.com/books/content?id=RdqEEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "RdqEEAAAQBAJ"
+    },
+    "isbn13": "9784088845388"
   },
   {
     "id": "gb-blog-伊藤潤二傑作集",
@@ -1142,8 +1356,14 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "SKET DANCE 著者不明 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-14T03:56:30.691Z",
-    "language": "ja"
+    "updatedAt": "2026-03-15T14:30:02.889Z",
+    "language": "ja",
+    "publisher": "集英社",
+    "thumbnailUrl": "https://books.google.com/books/content?id=8obLCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "8obLCwAAQBAJ"
+    },
+    "isbn13": "9784088700748"
   },
   {
     "id": "gb-blog-縺薙繧芽騒鬟セ蛹コ莠譛牙蝨貞燕豢",
