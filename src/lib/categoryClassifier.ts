@@ -25,6 +25,14 @@ import { AUTHOR_PRIORS_MAP, SERIES_PRIORS_MAP } from "./priors";
 // 型定義
 // ─────────────────────────────────────────────────────────────────────────────
 
+export interface ManualClassification {
+  l1Id?: string;
+  l2Id?: string;
+  l3Id?: string;
+  l4TagIds?: string[];
+  l5TagIds?: string[];
+}
+
 export interface ClassifiableBook {
   title: string;
   searchableText?: string;
@@ -33,6 +41,7 @@ export interface ClassifiableBook {
   subjects?: string[];
   authors?: string[];
   publisher?: string;
+  manualClassification?: ManualClassification;
 }
 
 export interface CategoryEvidence {
@@ -649,6 +658,34 @@ export function resolveL5Tags(
 // ─────────────────────────────────────────────────────────────────────────────
 
 export function resolveBookClassification(book: ClassifiableBook): ClassificationResult {
+  // 手動設定がある場合はそれを優先する
+  const manual = book.manualClassification;
+  if (manual?.l1Id) {
+    const evidence = buildCategoryEvidence(book);
+    const l1Auto = resolveL1Category(book, evidence);
+    const l2Auto = resolveL2Category(book, l1Auto.l1, evidence);
+    const l3Auto = resolveL3Category(book, l1Auto.l1, l2Auto.l2, evidence);
+    const l4Auto = resolveL4Tags(book, l1Auto.l1, l2Auto.l2, l3Auto.l3, evidence);
+    const l5Auto = resolveL5Tags(book, l1Auto.l1, l2Auto.l2, l3Auto.l3, l4Auto.tagIds, evidence);
+
+    const l2Id = manual.l2Id ?? l2Auto.l2?.id;
+    const l3Id = manual.l3Id ?? l3Auto.l3?.id;
+    const l4TagIds = manual.l4TagIds ?? l4Auto.tagIds;
+    const l5TagIds = manual.l5TagIds ?? l5Auto.tagIds;
+    const pathIds = [l2Id, l3Id].filter((v): v is string => Boolean(v));
+
+    return {
+      l1Id: manual.l1Id,
+      l2Id,
+      l3Id,
+      l4TagIds,
+      l5TagIds,
+      pathIds,
+      confidence: { l1: 1.0, l2: l2Id ? 1.0 : 0, l3: l3Id ? 1.0 : 0 },
+      reasons: ["manual-override"],
+    };
+  }
+
   const evidence = buildCategoryEvidence(book);
   const l1 = resolveL1Category(book, evidence);
   const l2 = resolveL2Category(book, l1.l1, evidence);

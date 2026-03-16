@@ -17,6 +17,8 @@
     "build:related:dry": "tsx scripts/build-related.ts --dry-run",
     "blog:feed": "tsx scripts/generate-feeds.ts",
     "split:index": "tsx scripts/build-split-index.ts",
+    "classify:export": "tsx scripts/export-classifications.ts",
+    "classify:import": "tsx scripts/import-classifications.ts",
     "build:all": "tsx scripts/search-books.ts && tsx scripts/fetch-books.ts && tsx scripts/build-related.ts && tsx scripts/build-split-index.ts",
     "prebuild": "tsx scripts/build-split-index.ts && tsx scripts/build-search-index.ts && tsx scripts/generate-feeds.ts"
   },
