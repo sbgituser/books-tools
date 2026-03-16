@@ -152,8 +152,8 @@ export const SCORE_WEIGHTS = {
 export const DEFAULT_THRESHOLDS = {
   l2MinScore:  3.0,   // L2採用の最低スコア（旧: 2.0）
   l2MinMargin: 0.8,   // L2 1位と2位の最低差
-  l3MinScore:  3.5,   // L3採用の最低スコア（旧: 2.5）
-  l3MinMargin: 0.8,   // L3 1位と2位の最低差
+  l3MinScore:  2.5,   // L3採用の最低スコア（L2確定後なので緩め）
+  l3MinMargin: 0.3,   // L3 1位と2位の最低差
   l4Threshold: 2.2,
   l5Threshold: 2.8,   // L5閾値引き上げ（旧: 2.6）
 } as const;
