@@ -64,12 +64,20 @@ export default function BlogBookInlineCard({ book }: { book: BlogLinkedBook }) {
           </div>
         </div>
 
-        <Link
-          href={`/tools/book-compare?baseId=${encodeURIComponent(book.id)}`}
-          className="inline-flex items-center justify-center rounded-lg bg-amber-500 px-3 py-2 text-xs font-semibold text-white hover:bg-amber-600 transition-colors whitespace-nowrap"
-        >
-          条件一致で本を探す
-        </Link>
+        <div className="flex flex-col gap-2 shrink-0">
+          <Link
+            href={`/books/${encodeURIComponent(book.id)}`}
+            className="inline-flex items-center justify-center rounded-lg border border-amber-400 bg-white px-3 py-2 text-xs font-semibold text-amber-700 hover:bg-amber-50 transition-colors whitespace-nowrap"
+          >
+            詳細を見る
+          </Link>
+          <Link
+            href={`/tools/book-compare?baseId=${encodeURIComponent(book.id)}`}
+            className="inline-flex items-center justify-center rounded-lg bg-amber-500 px-3 py-2 text-xs font-semibold text-white hover:bg-amber-600 transition-colors whitespace-nowrap"
+          >
+            条件一致で本を探す
+          </Link>
+        </div>
       </div>
     </div>
   );

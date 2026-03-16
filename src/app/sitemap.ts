@@ -1,8 +1,16 @@
+import { readFileSync } from "fs";
+import { join } from "path";
 import type { MetadataRoute } from "next";
 import { getAllBlogMeta } from "@/lib/blog";
 import { SITE_URL } from "@/lib/site";
 
 export const dynamic = "force-static";
+
+function getAllBookIds(): string[] {
+  const path = join(process.cwd(), "src/data/books.index.json");
+  const books = JSON.parse(readFileSync(path, "utf-8")) as { id: string }[];
+  return books.map((b) => b.id);
+}
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
@@ -40,6 +48,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...blogRoutes];
+  const bookRoutes: MetadataRoute.Sitemap = getAllBookIds().map((id) => ({
+    url: `${SITE_URL}/books/${encodeURIComponent(id)}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.6,
+  }));
+
+  return [...staticRoutes, ...blogRoutes, ...bookRoutes];
 }
 
