@@ -25,7 +25,7 @@
   },
   {
     "id": "gb-fVsxDwAAQBAJ",
-    "title": "ONE PIECE モノクロ版 86",
+    "title": "ONE PIECE",
     "authors": [
       "尾田栄一郎"
     ],
@@ -43,14 +43,14 @@
     "language": "ja",
     "pageCount": 228,
     "estimatedReadingHours": 5.7,
-    "thumbnailUrl": "https://books.google.com/books/content?id=fVsxDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=9ca7CwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "fVsxDwAAQBAJ"
+      "googleBooksId": "9ca7CwAAQBAJ"
     }
   },
   {
     "id": "gb-LinKCwAAQBAJ",
-    "title": "BLEACH モノクロ版 12",
+    "title": "BLEACH",
     "authors": [
       "久保帯人"
     ],
@@ -68,10 +68,11 @@
     "language": "ja",
     "pageCount": 200,
     "estimatedReadingHours": 5,
-    "thumbnailUrl": "https://books.google.com/books/content?id=LinKCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=FQTwAQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "LinKCwAAQBAJ"
-    }
+      "googleBooksId": "FQTwAQAAQBAJ"
+    },
+    "isbn13": "9781421543642"
   },
   {
     "id": "gb-MgI8DAAAQBAJ",
@@ -125,7 +126,7 @@
   },
   {
     "id": "gb-blog-ドラゴンボール",
-    "title": "ドラゴンボール超 カラー版 4",
+    "title": "ドラゴンボール超",
     "authors": [
       "とよたろう",
       "鳥山明"
@@ -140,9 +141,9 @@
     "searchableText": "ドラゴンボール超 カラー版 4 とよたろう 鳥山明 集英社 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=mmjdDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72pLaADr0pXZzxe54C0JOUW5880zulpVOlqnbpJ_EmzNa5a71nQpY_7KOejMsBm_cYauzvukFlxGqDASL__cBGa2rPRUGTBTKiP8V2DRQK9OZ1sGnP1JnXCDBBEX7nsZmTYe4d0&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=dND-CwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "mmjdDwAAQBAJ"
+      "googleBooksId": "dND-CwAAQBAJ"
     },
     "publisher": "集英社",
     "publishedDate": "2017-11-02",
@@ -151,7 +152,7 @@
   },
   {
     "id": "gb-blog-hunterhunter",
-    "title": "HUNTER×HUNTER モノクロ版 38",
+    "title": "HUNTER×HUNTER",
     "authors": [
       "冨樫義博"
     ],
@@ -165,9 +166,9 @@
     "searchableText": "HUNTER×HUNTER モノクロ版 38 冨樫義博 集英社 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=AdsVEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73GvxiIiAXVZsMWGUWiciNnJ7R3pue4BJAWqBA0AT7LJOGGZH4iPyJUvw3dYvkJ560JDFw5INgwyDEvUIJNjdt-Ji9vREiPgy_QkiaqidHjt6TW7WuQALdiCoaBXK1ZYjePGvBZ&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=ze_JCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "AdsVEQAAQBAJ"
+      "googleBooksId": "ze_JCwAAQBAJ"
     },
     "publisher": "集英社",
     "publishedDate": "2024-09-04",
@@ -176,7 +177,7 @@
   },
   {
     "id": "gb-blog-narutoナルト",
-    "title": "NARUTO―ナルト― モノクロ版 47",
+    "title": "NARUTO―ナルト―",
     "authors": [
       "岸本斉史"
     ],
@@ -191,9 +192,9 @@
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
     "sourceIds": {
-      "googleBooksId": "EErMCwAAQBAJ"
+      "googleBooksId": "ji3NCwAAQBAJ"
     },
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=EErMCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70ntOE_lvo6F6LAuqUNesTGbM8_XME2YoRev-m5gB39yS5H5XwOOOU32ke7hx164ZDKefVk_dUsPbUM7XTpXUSBWXENXDYfa-NO0iAQWs4q45zGWPh4BGW_akw0vN8PqML4oYEN&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=ji3NCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "publisher": "集英社",
     "publishedDate": "2009-08-04",
     "pageCount": 192,
@@ -201,7 +202,7 @@
   },
   {
     "id": "gb-blog-炎炎ノ消防隊",
-    "title": "炎炎ノ消防隊（３４）",
+    "title": "炎炎ノ消防隊",
     "authors": [
       "大久保篤"
     ],
@@ -215,14 +216,15 @@
     "searchableText": "炎炎ノ消防隊（３４） 大久保篤 講談社 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=4ihtEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73pRJnqkEyQ7TIsPqmqJR2yfrSrSy8fjiOY6JSFcV7Rz1NN2wzPp0pNcY1tMelpwBAW_d4uBYhvL8eWIcv6ly68Ql-cGnXzp4bFnK3ReKaXeu5pq8RJ_DFiVKiWxErrNR_J_usM&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=833yjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "4ihtEAAAQBAJ"
+      "googleBooksId": "833yjwEACAAJ"
     },
     "publisher": "講談社",
     "publishedDate": "2022-05-17",
     "pageCount": 213,
-    "estimatedReadingHours": 5.3
+    "estimatedReadingHours": 5.3,
+    "isbn13": "9784063955675"
   },
   {
     "id": "gb-blog-ジョジョの奇妙な冒険",
@@ -251,7 +253,7 @@
   },
   {
     "id": "gb-blog-バキ",
-    "title": "小説ゆうえんち -バキ外伝- 5",
+    "title": "グラップラー刃牙",
     "authors": [
       "夢枕獏"
     ],
@@ -265,20 +267,20 @@
     "searchableText": "小説ゆうえんち -バキ外伝- 5 夢枕獏 秋田書店 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/content?id=P2TTzgEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70pEFjmiYAOz7E3MWTY9256NreyoxbxtPMJzSQpl2TaIjFP6EDUY5eNKg9AyEnOERc3vipdiU2YY0bZtcAN6aazl58Iket53zBYbPbYq4MWsV3hrBKHSRBgkd4Wv1R9ZdEVf1gd&source=gbs_api",
-    "isbn13": "9784253109451",
+    "thumbnailUrl": "https://books.google.com/books/content?id=-2OKzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "isbn10": "4253109454",
     "sourceIds": {
-      "googleBooksId": "P2TTzgEACAAJ"
+      "googleBooksId": "-2OKzgEACAAJ"
     },
     "publisher": "秋田書店",
     "publishedDate": "2022-02",
     "pageCount": 288,
-    "estimatedReadingHours": 7.2
+    "estimatedReadingHours": 7.2,
+    "isbn13": "9784253186612"
   },
   {
     "id": "gb-blog-ケンガンアシュラ",
-    "title": "ケンガンアシュラ（４）",
+    "title": "ケンガンアシュラ",
     "authors": [
       "サンドロビッチ・ヤバ子",
       "だろめおん"
@@ -293,9 +295,9 @@
     "searchableText": "ケンガンアシュラ（４） サンドロビッチ・ヤバ子 だろめおん 小学館 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=l1T7CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72ziC52nja4nYrK4e0_-ZMswrPJkK29-jqNCtHOu184PAYBGoag5whW7S3Xa6IM-IPK6hqSHlzmxUOn98SycA4hQRzQmX3NuTadsTELGJCeF_A6SqIemyUiR371qXtXOsbLuu9c&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=W4UIEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "l1T7CgAAQBAJ"
+      "googleBooksId": "W4UIEAAAQBAJ"
     },
     "publisher": "小学館",
     "publishedDate": "2013-05-17",
@@ -460,7 +462,7 @@
   },
   {
     "id": "gb-blog-日常",
-    "title": "【合本版】日常(1)～(5)セット【電子特別版】",
+    "title": "日常",
     "authors": [
       "あらゐ　けいいち"
     ],
@@ -475,11 +477,10 @@
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
     "publisher": "KADOKAWA",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=xaugEAAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE71jls1KjT7NQBJgBq9v4tDWXNMdzOVCxn7jCfyFwHWCcHlGDjVo_Ktet7FG_FX_sHmHRbBuohFTblIG1MMZ_hA0ut2jBisx5zPa271OIBwFgXSGhd2xyZmdLMBH4fsb1FCoBsE_&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=0v8xVa8xlP0C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "xaugEAAAQBAJ"
+      "googleBooksId": "0v8xVa8xlP0C"
     },
-    "isbn13": "9784041132630",
     "pageCount": 901,
     "estimatedReadingHours": 22.5
   },
@@ -847,7 +848,7 @@
   },
   {
     "id": "gb-blog-彼岸島",
-    "title": "(限)彼岸島 6",
+    "title": "彼岸島",
     "authors": [
       "松本光司"
     ],
@@ -861,16 +862,16 @@
     "searchableText": "(限)彼岸島 6 松本光司 台灣東販 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "zh-TW",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=PlYTEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71b6UqoDJznnaeBrCZZtQ7hz_3mM2x3m5bWvaOwgy3G0KzUOW1XAqFJvxT33BLGNCWqArV2URRbDuqVz8kPZu3wi2U13V0K7dWjAqYPgREDgTnS6i7ZQpnHVuXWa6nMfqMhVGSQ&source=gbs_api",
-    "isbn13": "9789861761640",
+    "thumbnailUrl": "https://books.google.com/books/content?id=jNUmAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "isbn10": "9861761640",
     "sourceIds": {
-      "googleBooksId": "PlYTEAAAQBAJ"
+      "googleBooksId": "jNUmAAAACAAJ"
     },
     "publisher": "台灣東販",
     "publishedDate": "2021-01-12",
     "pageCount": 202,
-    "estimatedReadingHours": 4
+    "estimatedReadingHours": 4,
+    "isbn13": "9784063611267"
   },
   {
     "id": "gb-blog-ハカイジュウ",
@@ -899,7 +900,7 @@
   },
   {
     "id": "gb-blog-なるたる",
-    "title": "なるたる（７）",
+    "title": "なるたる",
     "authors": [
       "鬼頭莫宏"
     ],
@@ -913,9 +914,9 @@
     "searchableText": "なるたる（７） 鬼頭莫宏 講談社 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=QqHBBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70D4A1fDYkG3--bwuloxWBxcunZcpblncqykF6o015lOxnX97jM3lEaqT8_K9ypjRQ6d8fFEoYW_MJTm4Y-JoWrJZYw8Z27Ez2cAYoxaMpxG_BWYbynVtweFdkFodygi7I3efby&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=iqDBBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "QqHBBQAAQBAJ"
+      "googleBooksId": "iqDBBQAAQBAJ"
     },
     "publisher": "講談社",
     "publishedDate": "2001-06-22",
@@ -949,7 +950,7 @@
   },
   {
     "id": "gb-blog-漂流教室",
-    "title": "漂流教室〔文庫版〕（２）",
+    "title": "漂流教室",
     "authors": [
       "楳図かずお"
     ],
@@ -963,14 +964,15 @@
     "searchableText": "漂流教室〔文庫版〕（２） 楳図かずお 小学館 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=l7D9CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70gu8SDgbIGYvpNxc2qNErmN7JDq_qGqyXaXvVfZ1syWOv6KtKXNkv7ajRcV09fs3ZewuURA9dJe3LCAxVhbGlHuhvDSqMZV1ClR3Qa7KbD57BbH6Hy5UInmziP5CDTRHZKLR23&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=aNjQAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "l7D9CgAAQBAJ"
+      "googleBooksId": "aNjQAQAACAAJ"
     },
     "publisher": "小学館",
     "publishedDate": "1998-07-17",
     "pageCount": 352,
-    "estimatedReadingHours": 8.8
+    "estimatedReadingHours": 8.8,
+    "isbn13": "9784091931719"
   },
   {
     "id": "gb-blog-神の左手悪魔の右手",
@@ -999,7 +1001,7 @@
   },
   {
     "id": "gb-blog-不安の種",
-    "title": "不安の種（2）　ぼーの章",
+    "title": "不安の種",
     "authors": [
       "中山昌亮"
     ],
@@ -1013,9 +1015,9 @@
     "searchableText": "不安の種（2）　ぼーの章 中山昌亮 秋田書店 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=y8XbDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70v9q5bXPKl2cy8_lBIocN0dKpf0_nBW0AWsIgD2dvWTPhp8FLYmlvBMrjMDiyNc3hRXy26Hd7iSZJcwPOTU-c1ftG5_9o2GX6TX-yQm1zVtYhaYPoZiDHBxvpdcH2stFcMO3H-&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=ySTbDAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "y8XbDAAAQBAJ"
+      "googleBooksId": "ySTbDAAAQBAJ"
     },
     "publisher": "秋田書店",
     "publishedDate": "2004-06-24",
@@ -1024,7 +1026,7 @@
   },
   {
     "id": "gb-blog-モンキーピーク",
-    "title": "モンキーピーク【単話版】 第107話",
+    "title": "モンキーピーク",
     "authors": [
       "志名坂高次",
       "粂田晃宏"
@@ -1039,9 +1041,9 @@
     "searchableText": "モンキーピーク【単話版】 第107話 志名坂高次 粂田晃宏 日本文芸社 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=-gHZDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE708qQpqPauOeqNUuE9KZK2pYMeJMorSiaFk5RLohRNGxYWNYVKfx1WxKM675LidqmX9vgUz17gn6mZLnjXYXZJhK8s0nPnB5mxn6umBvBcHljD2vX_YdBu58QJhbnH5ZHdG7_Ab&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=AKKBDgAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "-gHZDwAAQBAJ"
+      "googleBooksId": "AKKBDgAAQBAJ"
     },
     "publisher": "日本文芸社",
     "pageCount": 23,
@@ -1076,7 +1078,7 @@
   },
   {
     "id": "gb-blog-さんかれあ",
-    "title": "さんかれあ（４）",
+    "title": "さんかれあ",
     "authors": [
       "はっとりみつる"
     ],
@@ -1090,9 +1092,9 @@
     "searchableText": "さんかれあ（４） はっとりみつる 講談社 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=Hn_GBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70ZjNJtY921tEuHOnC6o0RWKP2CfS9kMP9E4GIAwitnMFAxWun6GiToahSbHIvErwKtkiI6-jtF5ovmgYyr8Klm68etfkgOKE53llS6zm20U70or3INUaG9XFh6gZcVtUfcFgke&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=-PbFBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "Hn_GBQAAQBAJ"
+      "googleBooksId": "-PbFBQAAQBAJ"
     },
     "publisher": "講談社",
     "publishedDate": "2011-08-09",
@@ -1101,7 +1103,7 @@
   },
   {
     "id": "gb-blog-学校怪談",
-    "title": "学校怪談（11）",
+    "title": "学校怪談",
     "authors": [
       "高橋葉介"
     ],
@@ -1115,9 +1117,9 @@
     "searchableText": "学校怪談（11） 高橋葉介 秋田書店 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=tB3bDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE7104nP_ffBhqrItO3FtlUdBTwl9V4bBSc5To-bJS9Uu8gQCWMjxXKRfdC4W67g891WK9NmWntqD314V3dC3ULu2AP2sUT4uDOYXgB3kaHdWUSYu-7AjVCB4iyIbfEmyGUOiMjkx&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=mCDbDAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "tB3bDAAAQBAJ"
+      "googleBooksId": "mCDbDAAAQBAJ"
     },
     "publisher": "秋田書店",
     "publishedDate": "1999-03-05",
@@ -1153,7 +1155,7 @@
   },
   {
     "id": "gb-blog-見える子ちゃん",
-    "title": "見える子ちゃん　１２",
+    "title": "見える子ちゃん",
     "authors": [
       "泉　朝樹"
     ],
@@ -1167,9 +1169,9 @@
     "searchableText": "見える子ちゃん　１２ 泉　朝樹 KADOKAWA 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=JotNEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71L6tdKJuYXf0AsiYstAAg0amgJXBJus1LB-zEJUaQbvfVU-uS_5hsfXlWg1hU4C-gzYUE-oKFlxlmqR0wUqe5K4XmjVtB_e6r4QSZJUfnCLqdNyQCXKxOdAeMdxcYp-FodP8UY&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=1a6SDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "JotNEQAAQBAJ"
+      "googleBooksId": "1a6SDwAAQBAJ"
     },
     "publisher": "KADOKAWA",
     "publishedDate": "2025-03-22",
@@ -1178,7 +1180,7 @@
   },
   {
     "id": "gb-blog-亜人",
-    "title": "亜人（８）",
+    "title": "亜人",
     "authors": [
       "桜井画門"
     ],
@@ -1192,9 +1194,9 @@
     "searchableText": "亜人（８） 桜井画門 講談社 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=kNkCDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73sMXyzni-wfaIRGHy8f6zeRuthY5BUyU2vFyCguozzcU_nIHau76EjYVWbpt7QS7Yud2GkzLp1VFqEoTAxb1Di7wDcrCNKQ0QcUIuCSkPSru0A4Hef7oI86EsrvpW3j-GQnfK7&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=S1DKBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "kNkCDAAAQBAJ"
+      "googleBooksId": "S1DKBQAAQBAJ"
     },
     "publisher": "講談社",
     "publishedDate": "2016-05-06",
@@ -1228,141 +1230,6 @@
     "publishedDate": "2020-10",
     "pageCount": 294,
     "estimatedReadingHours": 7.4
-  },
-  {
-    "id": "gb-blog-onepiece",
-    "title": "るるぶONE PIECE",
-    "authors": [
-      "著者不明"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "るるぶONE PIECE 著者不明 Jtbパブリッシング 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=b-orEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73PEdWhnY3YhpniGguplmjxPfUr-3Z8hEqs4W8lMXWjTv5yFiPy0HUxL4TtFMt0Z5vMhstVBZ0DUiocw2QlkMPFFfGuRrkDP-p04EOlKkTxDne3yjCHVPMOQKGvT-lGroZpgmbS&source=gbs_api",
-    "isbn13": "9784533145353",
-    "isbn10": "4533145353",
-    "sourceIds": {
-      "googleBooksId": "b-orEAAAQBAJ"
-    },
-    "publisher": "Jtbパブリッシング",
-    "publishedDate": "2021-03-04",
-    "pageCount": 116,
-    "estimatedReadingHours": 2.9
-  },
-  {
-    "id": "gb-blog-bleach",
-    "title": "Bleach Ofiicial Character Book“SOULs.”",
-    "authors": [
-      "久保帯人"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "Bleach Ofiicial Character Book“SOULs.” 久保帯人 集英社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/content?id=F1JQXwAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70XstuLKTQdr-4-dQkmpsIKJ43L3nha5P6pEZFJmDvf9pJ3evVXpcZCOqCW2sQjNNiUcaZil6kAIetmdVU-8e8UlvCRkKBsLkG2YnVvswLZP633BM1LBtlbpEfPMzMKrXT7hdO8&source=gbs_api",
-    "isbn13": "9784088740799",
-    "isbn10": "4088740793",
-    "sourceIds": {
-      "googleBooksId": "F1JQXwAACAAJ"
-    },
-    "publisher": "集英社",
-    "publishedDate": "2006-02",
-    "pageCount": 328,
-    "estimatedReadingHours": 8.2
-  },
-  {
-    "id": "gb-blog-gantz",
-    "title": "『GANTZ』の秘密",
-    "authors": [
-      "GANTZ研究会"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "『GANTZ』の秘密 GANTZ研究会 データハウス 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/content?id=SbO_PgAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73_h5O_zsHdVyty8DkcD_cVxvBP3ClsUuYpaO-bTWp5_BtBAagaEW_1U6JzRKtRp1hQh_vjIYbJU7kKgtvShoGziBlzWAar9WWLIGg_FYcJcn5QZrRZBaNnRwatO4YhOb4w7qUp&source=gbs_api",
-    "isbn13": "9784887189935",
-    "isbn10": "4887189931",
-    "sourceIds": {
-      "googleBooksId": "SbO_PgAACAAJ"
-    },
-    "publisher": "データハウス",
-    "publishedDate": "2008-10",
-    "pageCount": 217,
-    "estimatedReadingHours": 5.4
-  },
-  {
-    "id": "gb-blog-sketdance",
-    "title": "SKET DANCE モノクロ版 17",
-    "authors": [
-      "篠原健太"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "SKET DANCE モノクロ版 17 篠原健太 集英社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "publisher": "集英社",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=8obLCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73GvgrU3XwJoDyBZhJlnC7KVrcVL5m6JyHeYy15kuCTEq5nrLYRy-9zqUMhaLg8Wk2eHDuilfXbPobxKMcTSaeaL1_J4Jy7tisDPgaWgVI5l4eXzNJPOpT7EkwUf_CYD8b6J7Zd&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "8obLCwAAQBAJ"
-    },
-    "isbn13": "9784088700748",
-    "publishedDate": "2011-02-04",
-    "pageCount": 189,
-    "estimatedReadingHours": 4.7
-  },
-  {
-    "id": "gb-blog-orange",
-    "title": "Orange Data Miningではじめる マテリアルズインフォマティクス",
-    "authors": [
-      "木野 日織",
-      "ダム ヒョウ　チ"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "Orange Data Miningではじめる マテリアルズインフォマティクス 木野 日織 ダム ヒョウ　チ 近代科学社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=2CwyEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73IUfDFkUJE1Law0Cx36sULQNR5JkhB8M3PdKZPk8QdG5Vg22UWHuDRPZqGvOmVjo0UdJu8RHZcvB5fkdxcYSGiHDH2L2aLKVYsWbfY6kpya5sV-SbSwcPShB_nEama8Fx_4tRS&source=gbs_api",
-    "isbn13": "9784764906310",
-    "isbn10": "4764906317",
-    "sourceIds": {
-      "googleBooksId": "2CwyEAAAQBAJ"
-    },
-    "publisher": "近代科学社",
-    "publishedDate": "2021-05-28",
-    "pageCount": 200,
-    "estimatedReadingHours": 5
   },
   {
     "id": "gb-blog-akira",
@@ -1450,7 +1317,7 @@
   },
   {
     "id": "gb-blog-exarm",
-    "title": "EX-ARM エクスアーム 13",
+    "title": "EX-ARM エクスアーム",
     "authors": [
       "HiRock",
       "古味慎也"
@@ -1465,9 +1332,9 @@
     "searchableText": "EX-ARM エクスアーム 13 HiRock 古味慎也 集英社 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=2g6ODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72AjlQ6_1ZfH3FVlAbD3OTt6OXIitQwvkFMqAhtL-1Wa1GX6bJzee7s1GHpR1kl41x3Mg3Y9qiaVM13svgEkFwMvtsKKOKhs9zz1OYD5YoDqQ7kEH-y_gdIDiZgEFX1R00n2OWX&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=bc4LEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "2g6ODwAAQBAJ"
+      "googleBooksId": "bc4LEAAAQBAJ"
     },
     "publisher": "集英社",
     "publishedDate": "2019-04-19",
@@ -1476,7 +1343,7 @@
   },
   {
     "id": "gb-blog-slamdunk",
-    "title": "Slam Dunk",
+    "title": "SLAM DUNK",
     "authors": [
       "Inoue Takehito",
       "Takehiko Inoue"
@@ -1491,20 +1358,20 @@
     "searchableText": "Slam Dunk Inoue Takehito Takehiko Inoue Gutsoon! Entertainment, Incorporated 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "en",
-    "thumbnailUrl": "https://books.google.com/books/content?id=sZ9ROjUamcsC&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE71OWHcVN2xk-YSaaJgzfRZ1DrpJy15KPT8thdsxSPXO8BYZ0LkRUxoWseDuhxN-NA8fr12bRlAbMmNvXeVT8Shhw-nVkaiAqOSAwAM3JkZQ7TvhynNOt7JATbCsft59YP15WCTs&source=gbs_api",
-    "isbn13": "9780972503792",
+    "thumbnailUrl": "https://books.google.com/books/content?id=aRhXygEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "isbn10": "097250379X",
     "sourceIds": {
-      "googleBooksId": "sZ9ROjUamcsC"
+      "googleBooksId": "aRhXygEACAAJ"
     },
     "publisher": "Gutsoon! Entertainment, Incorporated",
     "publishedDate": "2003",
     "pageCount": 190,
-    "estimatedReadingHours": 3.8
+    "estimatedReadingHours": 3.8,
+    "isbn13": "9784088716114"
   },
   {
     "id": "gb-blog-giantkilling",
-    "title": "Giant Killing 14",
+    "title": "Giant Killing",
     "authors": [
       "Story by Masaya Tsunamoto"
     ],
@@ -1518,20 +1385,20 @@
     "searchableText": "Giant Killing 14 Story by Masaya Tsunamoto Kodansha America LLC 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "en",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=DvlwDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72_6FF63R1Fww9gXUu79U6cuHSODUPNtW_XrkpakS_AfTOj_w7UFCHFM4jCJudsP2XZ-I-hhvTkdPOk3vP6NVMJ3ZNAFu-Op3H37MFIv61gAO5lNUy7TyLH7RpoicbvU3NyTG-g&source=gbs_api",
-    "isbn13": "9781642124842",
+    "thumbnailUrl": "https://books.google.com/books/content?id=qDcfKQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "isbn10": "1642124842",
     "sourceIds": {
-      "googleBooksId": "DvlwDwAAQBAJ"
+      "googleBooksId": "qDcfKQEACAAJ"
     },
     "publisher": "Kodansha America LLC",
     "publishedDate": "2018-10-16",
     "pageCount": 226,
-    "estimatedReadingHours": 4.5
+    "estimatedReadingHours": 4.5,
+    "isbn13": "9784063725933"
   },
   {
     "id": "gb-blog-days",
-    "title": "SAKAMOTO DAYS 24",
+    "title": "SAKAMOTO DAYS",
     "authors": [
       "鈴木祐斗"
     ],
@@ -1545,9 +1412,9 @@
     "searchableText": "SAKAMOTO DAYS 24 鈴木祐斗 集英社 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=7peCEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72H7tLCptnozoPcyWkQD28g96Dk5PTZLk6Bgi64qmcmQZtEkA7i0ajnW6AhJwYdRo8pBQu12xg9mFy6xSzPFlMW_FCePUwEx-6L3zU8DaSELiHsGaWmECq3GEMH8G3TZY87tFlu&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=3D4gEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "7peCEQAAQBAJ"
+      "googleBooksId": "3D4gEAAAQBAJ"
     },
     "publisher": "集英社",
     "publishedDate": "2025-10-03",
@@ -1608,7 +1475,7 @@
   },
   {
     "id": "gb-blog-capeta",
-    "title": "capeta（８）",
+    "title": "capeta",
     "authors": [
       "曽田正人"
     ],
@@ -1622,9 +1489,9 @@
     "searchableText": "capeta（８） 曽田正人 講談社 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=X2rABQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73YWeEXEPa5o2VgCkLhkzLL9D_rbXdKHBCeyPoB1AAUbimOWS43wxS-rRSPN5uZNyl1olSapL_sQ2z5dUWnXhAEjHqUo20fLKQ7ktX4VuFuuhUpt6wlDi1D9vDVFbezsqg2X1c8&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=UoA1EQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "X2rABQAAQBAJ"
+      "googleBooksId": "UoA1EQAAQBAJ"
     },
     "publisher": "講談社",
     "publishedDate": "2005-07-15",
@@ -1658,7 +1525,7 @@
   },
   {
     "id": "gb-blog-ベルセルク",
-    "title": "ベルセルク　18巻",
+    "title": "ベルセルク",
     "authors": [
       "三浦建太郎"
     ],
@@ -1672,9 +1539,9 @@
     "searchableText": "ベルセルク　18巻 三浦建太郎 白泉社 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=QON9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73doa14JfF-42rgMUY6GzF6uDRurKKBtV4hNPfwMg64fIkfcWbGOedq3U3yxI8u3EvzMrSBtXoreZ5SWreMhgKkCOKQVCAJJ3CJl8Z2NU-nTNQdFnSEVVMGAjRVOxAKH9yjyX_z&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=OSs2AQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "QON9DwAAQBAJ"
+      "googleBooksId": "OSs2AQAAIAAJ"
     },
     "publisher": "白泉社",
     "publishedDate": "1999-10-01",
@@ -1683,7 +1550,7 @@
   },
   {
     "id": "gb-blog-魔法使いの嫁",
-    "title": "魔法使いの嫁 24 ヤマザキコレ描き下ろし漫画小冊子付き特装版",
+    "title": "魔法使いの嫁",
     "authors": [
       "ヤマザキコレ"
     ],
@@ -1697,15 +1564,15 @@
     "searchableText": "魔法使いの嫁 24 ヤマザキコレ描き下ろし漫画小冊子付き特装版 ヤマザキコレ KADOKAWA 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "isbn13": "9784048997874",
     "isbn10": "4048997874",
     "sourceIds": {
-      "googleBooksId": "nK3a0QEACAAJ"
+      "googleBooksId": "P3T1EAAAQBAJ"
     },
     "publisher": "KADOKAWA",
     "publishedDate": "2026-04-08",
     "pageCount": 176,
-    "estimatedReadingHours": 4.4
+    "estimatedReadingHours": 4.4,
+    "thumbnailUrl": "https://books.google.com/books/content?id=P3T1EAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "gb-blog-マギ",
@@ -1734,7 +1601,7 @@
   },
   {
     "id": "gb-blog-七つの大罪",
-    "title": "七つの大罪　セブンデイズ～盗賊と聖少女～（２）",
+    "title": "七つの大罪",
     "authors": [
       "鈴木央",
       "岩佐まもる",
@@ -1750,18 +1617,19 @@
     "searchableText": "七つの大罪　セブンデイズ～盗賊と聖少女～（２） 鈴木央 岩佐まもる 小菊路よう 講談社 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=ZHA5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73Tnua2MvvwkTtqbVFG8F_zo6tCsDSgyNnoBS617zZLX2Bz1RGOvF6lyvl_M6GRbDPph58WWjj3VpuYmm4n3NoYmEBuIo2S1A-xmiI2O-MvHN_-Iy9Hh5koT65OlQitr6zRzJwo&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=eFhuEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "ZHA5DwAAQBAJ"
+      "googleBooksId": "eFhuEAAAQBAJ"
     },
     "publisher": "講談社",
     "publishedDate": "2017-10-17",
     "pageCount": 201,
-    "estimatedReadingHours": 5
+    "estimatedReadingHours": 5,
+    "isbn13": "9784063957303"
   },
   {
     "id": "gb-blog-fairytail",
-    "title": "ＦＡＩＲＹ　ＴＡＩＬ（５７）",
+    "title": "FAIRY TAIL",
     "authors": [
       "真島ヒロ"
     ],
@@ -1775,9 +1643,9 @@
     "searchableText": "ＦＡＩＲＹ　ＴＡＩＬ（５７） 真島ヒロ 講談社 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=Kkz6DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE720Z8vMoGuo6zev4aDlBqR6vAZ2I2GcauQSkVZig4iDhER6GidYv_hg0rsn_c_atOaYO1LC3LWCCiLKXYwsE-gbzAXBDhCZ8kGbvusrtM4NmTbB90NeJKgI03oM1W7WfbPvzTVe&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=u7IpDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "Kkz6DAAAQBAJ"
+      "googleBooksId": "u7IpDwAAQBAJ"
     },
     "publisher": "講談社",
     "publishedDate": "2016-09-16",
@@ -1786,7 +1654,7 @@
   },
   {
     "id": "gb-blog-ブラッククローバー",
-    "title": "ブラッククローバー 34",
+    "title": "ブラッククローバー",
     "authors": [
       "田畠裕基"
     ],
@@ -1800,9 +1668,9 @@
     "searchableText": "ブラッククローバー 34 田畠裕基 集英社 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=47ipEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71v8Ns54RoW7UMnw8fl7xnR9gc9xf9fU4TSX8mznYSPf61GiOtTyuFHj-enW5qR2vWrpZI9KWC54_sYBAil1m3P4MP4n7-mwXDdIUDcrlubkeoxHMmQse89AORgjEVhoIWk57dp&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=MS3LCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "47ipEAAAQBAJ"
+      "googleBooksId": "MS3LCwAAQBAJ"
     },
     "publisher": "集英社",
     "publishedDate": "2023-03-03",
@@ -1811,7 +1679,7 @@
   },
   {
     "id": "gb-blog-暁のヨナ",
-    "title": "暁のヨナ　41巻",
+    "title": "暁のヨナ",
     "authors": [
       "草凪みずほ"
     ],
@@ -1825,18 +1693,19 @@
     "searchableText": "暁のヨナ　41巻 草凪みずほ 白泉社 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=xzW8EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72Pc_pxuyUI3m8WSJpSdk0H6f1pRHBs3x3sdr8zSnuF5h_bAn08Noi9pxDRaBVV5ufrlwX6FsQm6LB4DSrvfoW3JXjYRWLNfkR8WNPa-gRMYk3fDlECCbHUhYtdb5YE9nQ-38Tt&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=mc6vXwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "xzW8EAAAQBAJ"
+      "googleBooksId": "mc6vXwAACAAJ"
     },
     "publisher": "白泉社",
     "publishedDate": "2023-05-19",
     "pageCount": 194,
-    "estimatedReadingHours": 4.9
+    "estimatedReadingHours": 4.9,
+    "isbn13": "9784592190813"
   },
   {
     "id": "gb-blog-ヴァニタスの手記",
-    "title": "ヴァニタスの手記(10) 特装版小冊子付き",
+    "title": "ヴァニタスの手記",
     "authors": [
       "望月淳"
     ],
@@ -1850,11 +1719,10 @@
     "searchableText": "ヴァニタスの手記(10) 特装版小冊子付き 望月淳 スクウェア・エニックス 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/content?id=ATjuzgEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72NFoEPBFn-IURPAIZsQdL3Cg6PYolqeVWW9OeM9x6v8h8v4qtcAFKkmQV8iNX0_Uzpc-VGMcJwsOvvq6mMQ_45XrCZoUfJ1ShZjIQq9QTZrv1ckJOxjr7CZ_Vs0EcACJozyn7T&source=gbs_api",
-    "isbn13": "9784757578272",
+    "thumbnailUrl": "https://books.google.com/books/content?id=iirGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "isbn10": "475757827X",
     "sourceIds": {
-      "googleBooksId": "ATjuzgEACAAJ"
+      "googleBooksId": "iirGDwAAQBAJ"
     },
     "publisher": "スクウェア・エニックス",
     "publishedDate": "2022-05",
@@ -1863,7 +1731,7 @@
   },
   {
     "id": "gb-blog-転生したらスライムだった件",
-    "title": "『転生したらスライムだった件』シリーズまるっと試し読みパック",
+    "title": "転生したらスライムだった件",
     "authors": [
       "伏瀬",
       "川上泰樹",
@@ -1881,17 +1749,18 @@
     "searchableText": "『転生したらスライムだった件』シリーズまるっと試し読みパック 伏瀬 川上泰樹 戸野タエ 柴 明地雫 講談社 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=nl7BDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70dW17J7o2CZK5wDXYtzQSMJIqgdQ68y-Ak0w74BsY5HkPmLWtWUKQw_vE5qFYBHVnpFa1m-fJ2fH_qxJJytPPwRPkJLSNsjmsEa6jK0bXDr7I37BQLQhoX0gw7MNIiWzwVfVty&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=YIqWzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "nl7BDwAAQBAJ"
+      "googleBooksId": "YIqWzQEACAAJ"
     },
     "publisher": "講談社",
     "pageCount": 159,
-    "estimatedReadingHours": 4
+    "estimatedReadingHours": 4,
+    "isbn13": "9784063765786"
   },
   {
     "id": "gb-blog-オーバーロード",
-    "title": "オーバーロード9　破軍の魔法詠唱者",
+    "title": "オーバーロード",
     "authors": [
       "丸山　くがね"
     ],
@@ -1905,9 +1774,9 @@
     "searchableText": "オーバーロード9　破軍の魔法詠唱者 丸山　くがね KADOKAWA 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=88M_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70oTSmvenoqfgVhwyd6B-O0_DcLxYxaBKKwbZJOpm3vXcrtkZu-Ed0HWVHHGPlKWKwK7c2nN6D29_7FGlu3C-kEcAMKilogDGVBDzCiHtY8wogtFcTd58qW5wg7a600wYJoPpFl&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=Pj__CQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "88M_DwAAQBAJ"
+      "googleBooksId": "Pj__CQAAQBAJ"
     },
     "publisher": "KADOKAWA",
     "publishedDate": "2015-06-29",
@@ -1916,7 +1785,7 @@
   },
   {
     "id": "gb-blog-とんがり帽子のアトリエ",
-    "title": "とんがり帽子のアトリエ(12)",
+    "title": "とんがり帽子のアトリエ",
     "authors": [
       "白浜鴎"
     ],
@@ -1930,11 +1799,11 @@
     "searchableText": "とんがり帽子のアトリエ(12) 白浜鴎 講談社 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/content?id=hD_XzwEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72ciWFy5NXVzXdxE4dgMLqvUUJNCA91iNMHOcdqFZ5UY_iYbFDlCCs6TXbf5JwBQWLu3Vi4HNpWDU7evCi2UM906-lh91i3FYHkAJWWz7ZgRB4SByrdTB9abQcgbHaHCwG8T_65&source=gbs_api",
-    "isbn13": "9784065319697",
+    "thumbnailUrl": "https://books.google.com/books/content?id=viOsswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784063886900",
     "isbn10": "4065319692",
     "sourceIds": {
-      "googleBooksId": "hD_XzwEACAAJ"
+      "googleBooksId": "viOsswEACAAJ"
     },
     "publisher": "講談社",
     "publishedDate": "2023-06",
@@ -1943,7 +1812,7 @@
   },
   {
     "id": "gb-blog-3月のライオン",
-    "title": "3月のライオンダイアリー 2025.12-2027.3",
+    "title": "3月のライオン",
     "authors": [
       "羽海野チカ"
     ],
@@ -1957,12 +1826,7 @@
     "searchableText": "3月のライオンダイアリー 2025.12-2027.3 羽海野チカ 白泉社 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/content?id=iimo0QEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70aI17AxLJtM41n1M3IGBfKz65k4OmGthzy37oYNptbkLJsMOH83aye688zNX7P3bMRGuxFOYt8VBI_dFtyJSClPHhsepIhGgtmC47kv_s9dsbdOSKoRgFPSxcdFKS3ajK3GmXo&source=gbs_api",
-    "isbn13": "9784592106425",
     "isbn10": "4592106423",
-    "sourceIds": {
-      "googleBooksId": "iimo0QEACAAJ"
-    },
     "publisher": "白泉社",
     "publishedDate": "2025-11-28",
     "pageCount": 112,
@@ -1970,7 +1834,7 @@
   },
   {
     "id": "gb-blog-灰と幻想のグリムガル",
-    "title": "灰と幻想のグリムガル　level.15　強くて儚きニューゲーム",
+    "title": "灰と幻想のグリムガル",
     "authors": [
       "十文字青",
       "白井鋭利"
@@ -1985,9 +1849,9 @@
     "searchableText": "灰と幻想のグリムガル　level.15　強くて儚きニューゲーム 十文字青 白井鋭利 オーバーラップ 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=_6fCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73iD7K2CabBrORdiT-9ibvkBxLYf-JgWfPbuG_FXto34usdw1_Zf6uQKbeFjxU14xdJYYmv1sr2REuFHCxkwLb_zUAL6qAlBH6MwG7Zw09aAX7nSHqRP9p-qtEUp0rADZMM6Hv6&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=XdnFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "_6fCDwAAQBAJ"
+      "googleBooksId": "XdnFDwAAQBAJ"
     },
     "publisher": "オーバーラップ",
     "publishedDate": "2019-12-25",
@@ -1996,7 +1860,7 @@
   },
   {
     "id": "gb-blog-魔法陣グルグル",
-    "title": "魔法陣グルグル外伝　舞勇伝キタキタ 7巻",
+    "title": "魔法陣グルグル",
     "authors": [
       "衛藤ヒロユキ"
     ],
@@ -2010,9 +1874,9 @@
     "searchableText": "魔法陣グルグル外伝　舞勇伝キタキタ 7巻 衛藤ヒロユキ Square Enix 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=SqPFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72f2_c9NueX2z-6F0ILNZGOT0Uxha5g5thWPlfzdQJwcgkrwgXiVqiw_RryKSQmBTeEdiAtO3Q_Qe3lz5M4GWfIHwNjo390O6VYWWFNwPpYvtDX6--DOfPg7j_a51sm5SFSeC2Y&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=GybFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "SqPFDwAAQBAJ"
+      "googleBooksId": "GybFDwAAQBAJ"
     },
     "publisher": "Square Enix",
     "publishedDate": "2012-11-22",
@@ -4614,9 +4478,9 @@
     ],
     "searchableText": "鋼の錬金術師 荒川弘 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=ztZUEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=PQ7FDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "ztZUEAAAQBAJ"
+      "googleBooksId": "PQ7FDwAAQBAJ"
     }
   },
   {
@@ -4634,11 +4498,10 @@
     ],
     "searchableText": "進撃の巨人 諫山創 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=c884oAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "isbn13": "9784063769616",
+    "thumbnailUrl": "https://books.google.com/books/content?id=nMjEBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "isbn10": "4063769615",
     "sourceIds": {
-      "googleBooksId": "c884oAEACAAJ"
+      "googleBooksId": "nMjEBQAAQBAJ"
     }
   },
   {
@@ -4656,11 +4519,10 @@
     ],
     "searchableText": "鬼滅の刃 吾峠呼世晴 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=ue2KzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "isbn13": "9784087900491",
+    "thumbnailUrl": "https://books.google.com/books/content?id=Mj1cDAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "isbn10": "4087900495",
     "sourceIds": {
-      "googleBooksId": "ue2KzgEACAAJ"
+      "googleBooksId": "Mj1cDAAAQBAJ"
     }
   },
   {
@@ -4678,9 +4540,9 @@
     ],
     "searchableText": "ハイキュー!! 古舘春一 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=hjQJEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=wI7LCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "hjQJEQAAQBAJ"
+      "googleBooksId": "wI7LCwAAQBAJ"
     }
   },
   {
@@ -4698,9 +4560,9 @@
     ],
     "searchableText": "東京卍リベンジャーズ 和久井健 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=W-icDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=0dvPDgAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "W-icDwAAQBAJ"
+      "googleBooksId": "0dvPDgAAQBAJ"
     }
   },
   {
@@ -4718,9 +4580,9 @@
     ],
     "searchableText": "ヴィンランド・サガ 幸村誠 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=tELGBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=BVj1CQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "tELGBQAAQBAJ"
+      "googleBooksId": "BVj1CQAAQBAJ"
     }
   },
   {
@@ -4738,9 +4600,9 @@
     ],
     "searchableText": "ゴールデンカムイ 野田サトル 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=oRgFEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=WX7NCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "oRgFEAAAQBAJ"
+      "googleBooksId": "WX7NCwAAQBAJ"
     }
   },
   {
@@ -4759,9 +4621,9 @@
     ],
     "searchableText": "DEATH NOTE 大場つぐみ 小畑健 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=yG4QEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=_ERuCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "yG4QEAAAQBAJ"
+      "googleBooksId": "_ERuCwAAQBAJ"
     }
   },
   {
@@ -4779,9 +4641,9 @@
     ],
     "searchableText": "ダンジョン飯 九井諒子 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=6GKuDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=kV9WDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "6GKuDwAAQBAJ"
+      "googleBooksId": "kV9WDwAAQBAJ"
     }
   },
   {
@@ -4799,10 +4661,11 @@
     ],
     "searchableText": "メイドインアビス つくしあきひと 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=S1fTDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=AOvGsgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "S1fTDwAAQBAJ"
-    }
+      "googleBooksId": "AOvGsgEACAAJ"
+    },
+    "isbn13": "9784812483800"
   },
   {
     "id": "blog-drstone-稲垣理一郎boichi",
@@ -4820,9 +4683,9 @@
     ],
     "searchableText": "Dr.STONE 稲垣理一郎 Boichi 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=0Gx8DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=nhUqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "0Gx8DwAAQBAJ"
+      "googleBooksId": "nhUqDwAAQBAJ"
     }
   },
   {
@@ -4840,9 +4703,9 @@
     ],
     "searchableText": "僕のヒーローアカデミア 堀越耕平 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=K1liDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=7iLLCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "K1liDAAAQBAJ"
+      "googleBooksId": "7iLLCwAAQBAJ"
     }
   },
   {
@@ -4859,11 +4722,7 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "宇宙兄弟 小山宙哉 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=DBnKDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "DBnKDwAAQBAJ"
-    }
+    "updatedAt": "2026-03-13T13:12:21.565Z"
   },
   {
     "id": "blog-図書館戦争-有川浩",
@@ -4960,10 +4819,11 @@
     ],
     "searchableText": "寄生獣 岩明均 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=CdvCBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=h4S_oQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "CdvCBQAAQBAJ"
-    }
+      "googleBooksId": "h4S_oQEACAAJ"
+    },
+    "isbn13": "9784063770483"
   },
   {
     "id": "blog-暗殺教室-松井優征",
@@ -4980,9 +4840,9 @@
     ],
     "searchableText": "暗殺教室 松井優征 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=OsHKCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=xZ_MCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "OsHKCwAAQBAJ"
+      "googleBooksId": "xZ_MCwAAQBAJ"
     }
   },
   {
@@ -5001,9 +4861,9 @@
     ],
     "searchableText": "約束のネバーランド 白井カイウ 出水ぽすか 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=za5TDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=9o2yDQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "za5TDwAAQBAJ"
+      "googleBooksId": "9o2yDQAAQBAJ"
     }
   },
   {
@@ -5021,10 +4881,11 @@
     ],
     "searchableText": "うしおととら 藤田和日郎 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=WZP2CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=xNVqNAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "WZP2CgAAQBAJ"
-    }
+      "googleBooksId": "xNVqNAEACAAJ"
+    },
+    "isbn13": "9784091935113"
   },
   {
     "id": "blog-monster-浦沢直樹",
@@ -5041,7 +4902,7 @@
     ],
     "searchableText": "MONSTER 浦沢直樹 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=ZdNeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=ZdNeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "ZdNeEAAAQBAJ"
     }
@@ -5084,9 +4945,9 @@
     ],
     "searchableText": "ヒカルの碁 ほったゆみ 小畑健 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=FtrKCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=5dXKCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "FtrKCwAAQBAJ"
+      "googleBooksId": "5dXKCwAAQBAJ"
     }
   },
   {
@@ -5104,11 +4965,10 @@
     ],
     "searchableText": "タッチ あだち充 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=6s2s0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "isbn13": "9784099432270",
+    "thumbnailUrl": "https://books.google.com/books/content?id=fvpiDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "isbn10": "4099432270",
     "sourceIds": {
-      "googleBooksId": "6s2s0QEACAAJ"
+      "googleBooksId": "fvpiDwAAQBAJ"
     }
   },
   {
@@ -5126,10 +4986,11 @@
     ],
     "searchableText": "からくりサーカス 藤田和日郎 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=eRz4CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=xcGUMwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "eRz4CgAAQBAJ"
-    }
+      "googleBooksId": "xcGUMwEACAAJ"
+    },
+    "isbn13": "9784091230287"
   },
   {
     "id": "blog-ピンポン-松本大洋",
@@ -5166,11 +5027,10 @@
     ],
     "searchableText": "四月は君の嘘 新川直司 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=KkAYtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "isbn13": "9784063713879",
+    "thumbnailUrl": "https://books.google.com/books/content?id=n0fKBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "isbn10": "4063713873",
     "sourceIds": {
-      "googleBooksId": "KkAYtAEACAAJ"
+      "googleBooksId": "n0fKBQAAQBAJ"
     }
   },
   {
@@ -5188,11 +5048,12 @@
     ],
     "searchableText": "岳 みんなの山 石塚真一 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-13T13:12:21.565Z",
-    "isbn13": "9784091835277",
+    "isbn13": "9784098608140",
     "isbn10": "4091835279",
     "sourceIds": {
-      "googleBooksId": "tifNkQEACAAJ"
-    }
+      "googleBooksId": "9NskzgEACAAJ"
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=9NskzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "blog-ぼくらの-鬼頭莫宏",
@@ -5209,11 +5070,10 @@
     ],
     "searchableText": "ぼくらの 鬼頭莫宏 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=fjYjQwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "isbn13": "9784091790392",
+    "thumbnailUrl": "https://books.google.com/books/content?id=mbNUEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "isbn10": "4091790399",
     "sourceIds": {
-      "googleBooksId": "fjYjQwAACAAJ"
+      "googleBooksId": "mbNUEAAAQBAJ"
     }
   },
   {
@@ -5232,10 +5092,11 @@
     ],
     "searchableText": "寄生獣リバーシ 太田モアレ 原作 岩明均 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=OcisDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=bkbMvQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "OcisDwAAQBAJ"
-    }
+      "googleBooksId": "bkbMvQEACAAJ"
+    },
+    "isbn13": "9784065124284"
   },
   {
     "id": "blog-秘密-na",
@@ -5732,310 +5593,6 @@
     }
   },
   {
-    "id": "gb-ztZUEAAAQBAJ",
-    "title": "荒川弘イラスト集　鋼の錬金術師",
-    "authors": [
-      "荒川弘"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "荒川弘イラスト集　鋼の錬金術師 荒川弘 Square Enix 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T12:07:52.291Z",
-    "publisher": "Square Enix",
-    "publishedDate": "2017-09-15",
-    "language": "ja",
-    "pageCount": 292,
-    "estimatedReadingHours": 7.3,
-    "thumbnailUrl": "https://books.google.com/books/content?id=ztZUEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "ztZUEAAAQBAJ"
-    }
-  },
-  {
-    "id": "gb-nKXGDwAAQBAJ",
-    "title": "鬼滅の刃 19",
-    "authors": [
-      "吾峠呼世晴"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "鬼滅の刃 19 吾峠呼世晴 集英社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T12:07:52.291Z",
-    "publisher": "集英社",
-    "publishedDate": "2020-02-04",
-    "language": "ja",
-    "pageCount": 201,
-    "estimatedReadingHours": 5,
-    "thumbnailUrl": "https://books.google.com/books/content?id=nKXGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "nKXGDwAAQBAJ"
-    }
-  },
-  {
-    "id": "gb-hjQJEQAAQBAJ",
-    "title": "ハイキュー!! カラー版 42",
-    "authors": [
-      "古舘春一"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "ハイキュー!! カラー版 42 古舘春一 集英社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T12:07:52.291Z",
-    "publisher": "集英社",
-    "publishedDate": "2020-03-04",
-    "language": "ja",
-    "pageCount": 205,
-    "estimatedReadingHours": 5.1,
-    "thumbnailUrl": "https://books.google.com/books/content?id=hjQJEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "hjQJEQAAQBAJ"
-    }
-  },
-  {
-    "id": "gb-W-icDwAAQBAJ",
-    "title": "東京卍リベンジャーズ（１２）",
-    "authors": [
-      "和久井健"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "東京卍リベンジャーズ（１２） 和久井健 講談社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T12:07:52.291Z",
-    "publisher": "講談社",
-    "publishedDate": "2019-06-17",
-    "language": "ja",
-    "pageCount": 211,
-    "estimatedReadingHours": 5.3,
-    "thumbnailUrl": "https://books.google.com/books/content?id=W-icDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "W-icDwAAQBAJ"
-    }
-  },
-  {
-    "id": "gb-tELGBQAAQBAJ",
-    "title": "ヴィンランド・サガ（９）",
-    "authors": [
-      "幸村誠"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "ヴィンランド・サガ（９） 幸村誠 講談社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T12:07:52.291Z",
-    "publisher": "講談社",
-    "publishedDate": "2010-06-23",
-    "language": "ja",
-    "pageCount": 211,
-    "estimatedReadingHours": 5.3,
-    "thumbnailUrl": "https://books.google.com/books/content?id=tELGBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "tELGBQAAQBAJ"
-    }
-  },
-  {
-    "id": "gb-oRgFEAAAQBAJ",
-    "title": "ゴールデンカムイ公式ファンブック 探究者たちの記録",
-    "authors": [
-      "野田サトル"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "ゴールデンカムイ公式ファンブック 探究者たちの記録 野田サトル 集英社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T12:07:52.291Z",
-    "publisher": "集英社",
-    "publishedDate": "2020-11-19",
-    "language": "ja",
-    "pageCount": 241,
-    "estimatedReadingHours": 6,
-    "thumbnailUrl": "https://books.google.com/books/content?id=oRgFEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "oRgFEAAAQBAJ"
-    }
-  },
-  {
-    "id": "gb-yG4QEAAAQBAJ",
-    "title": "DEATH NOTE短編集",
-    "authors": [
-      "大場つぐみ",
-      "小畑健"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "DEATH NOTE短編集 大場つぐみ 小畑健 集英社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T12:07:52.291Z",
-    "publisher": "集英社",
-    "publishedDate": "2021-02-04",
-    "language": "ja",
-    "pageCount": 229,
-    "estimatedReadingHours": 5.7,
-    "thumbnailUrl": "https://books.google.com/books/content?id=yG4QEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "yG4QEAAAQBAJ"
-    }
-  },
-  {
-    "id": "gb-6GKuDwAAQBAJ",
-    "title": "ダンジョン飯 8巻",
-    "authors": [
-      "九井　諒子"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "ダンジョン飯 8巻 九井　諒子 KADOKAWA 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T12:07:52.291Z",
-    "publisher": "KADOKAWA",
-    "publishedDate": "2019-09-14",
-    "language": "ja",
-    "pageCount": 207,
-    "estimatedReadingHours": 5.2,
-    "thumbnailUrl": "https://books.google.com/books/content?id=6GKuDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "6GKuDwAAQBAJ"
-    }
-  },
-  {
-    "id": "gb-S1fTDwAAQBAJ",
-    "title": "図説 メイドインアビス 探窟記録【電子特典付き】",
-    "authors": [
-      "つくしあきひと",
-      "増山修",
-      "小島正幸"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "図説 メイドインアビス 探窟記録【電子特典付き】 つくしあきひと 増山修 小島正幸 竹書房 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T12:07:52.291Z",
-    "publisher": "竹書房",
-    "publishedDate": "2020-01-17",
-    "language": "ja",
-    "pageCount": 395,
-    "estimatedReadingHours": 9.9,
-    "thumbnailUrl": "https://books.google.com/books/content?id=S1fTDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "S1fTDwAAQBAJ"
-    }
-  },
-  {
-    "id": "gb-_0GoDwAAQBAJ",
-    "title": "Dr.STONEの最強自由研究",
-    "authors": [
-      "稲垣理一郎",
-      "Boichi",
-      "くられ"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "Dr.STONEの最強自由研究 稲垣理一郎 Boichi くられ 集英社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T12:07:52.291Z",
-    "publisher": "集英社",
-    "publishedDate": "2019-08-02",
-    "language": "ja",
-    "pageCount": 84,
-    "estimatedReadingHours": 2.1,
-    "thumbnailUrl": "https://books.google.com/books/content?id=_0GoDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "_0GoDwAAQBAJ"
-    }
-  },
-  {
-    "id": "gb-K1liDAAAQBAJ",
-    "title": "僕のヒーローアカデミア公式キャラクターブック Ultra Archive",
-    "authors": [
-      "堀越耕平"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "僕のヒーローアカデミア公式キャラクターブック Ultra Archive 堀越耕平 集英社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T12:07:52.291Z",
-    "publisher": "集英社",
-    "publishedDate": "2016-05-02",
-    "language": "ja",
-    "pageCount": 217,
-    "estimatedReadingHours": 5.4,
-    "thumbnailUrl": "https://books.google.com/books/content?id=K1liDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "K1liDAAAQBAJ"
-    }
-  },
-  {
-    "id": "gb-DBnKDwAAQBAJ",
-    "title": "宇宙兄弟　オールカラー版（３３）",
-    "authors": [
-      "小山宙哉"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "宇宙兄弟　オールカラー版（３３） 小山宙哉 講談社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T12:07:52.291Z",
-    "publisher": "講談社",
-    "language": "ja",
-    "pageCount": 205,
-    "estimatedReadingHours": 5.1,
-    "thumbnailUrl": "https://books.google.com/books/content?id=DBnKDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "DBnKDwAAQBAJ"
-    }
-  },
-  {
     "id": "9784163906188",
     "title": "コンビニ人間",
     "authors": [
@@ -6235,234 +5792,6 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=V5nVzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "V5nVzwEACAAJ"
-    }
-  },
-  {
-    "id": "gb-CdvCBQAAQBAJ",
-    "title": "寄生獣（５）",
-    "authors": [
-      "岩明均"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "寄生獣（５） 岩明均 講談社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T12:07:52.291Z",
-    "publisher": "講談社",
-    "publishedDate": "1992-08-22",
-    "language": "ja",
-    "pageCount": 219,
-    "estimatedReadingHours": 5.5,
-    "thumbnailUrl": "https://books.google.com/books/content?id=CdvCBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "CdvCBQAAQBAJ"
-    }
-  },
-  {
-    "id": "gb-OsHKCwAAQBAJ",
-    "title": "暗殺教室 5",
-    "authors": [
-      "松井優征"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "暗殺教室 5 松井優征 集英社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T12:07:52.291Z",
-    "publisher": "集英社",
-    "publishedDate": "2013-07-04",
-    "language": "ja",
-    "pageCount": 195,
-    "estimatedReadingHours": 4.9,
-    "thumbnailUrl": "https://books.google.com/books/content?id=OsHKCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "OsHKCwAAQBAJ"
-    }
-  },
-  {
-    "id": "gb-HbmEDwAAQBAJ",
-    "title": "約束のネバーランド 13 ミニ画集付き特装版",
-    "authors": [
-      "白井カイウ",
-      "出水ぽすか"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "約束のネバーランド 13 ミニ画集付き特装版 白井カイウ 出水ぽすか 集英社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T12:07:52.291Z",
-    "publisher": "集英社",
-    "publishedDate": "2019-03-04",
-    "language": "ja",
-    "pageCount": 273,
-    "estimatedReadingHours": 6.8,
-    "thumbnailUrl": "https://books.google.com/books/content?id=HbmEDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "HbmEDwAAQBAJ"
-    }
-  },
-  {
-    "id": "gb-WZP2CgAAQBAJ",
-    "title": "うしおととら（２７）",
-    "authors": [
-      "藤田和日郎"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "うしおととら（２７） 藤田和日郎 小学館 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T12:07:52.291Z",
-    "publisher": "小学館",
-    "publishedDate": "1996-01-18",
-    "language": "ja",
-    "pageCount": 200,
-    "estimatedReadingHours": 5,
-    "thumbnailUrl": "https://books.google.com/books/content?id=WZP2CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "WZP2CgAAQBAJ"
-    }
-  },
-  {
-    "id": "gb-jdReEAAAQBAJ",
-    "title": "MONSTER 完全版 デジタルVer.（９）",
-    "authors": [
-      "浦沢直樹"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "MONSTER 完全版 デジタルVer.（９） 浦沢直樹 小学館 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T12:07:52.291Z",
-    "publisher": "小学館",
-    "publishedDate": "1998-05-30",
-    "language": "ja",
-    "pageCount": 226,
-    "estimatedReadingHours": 5.7,
-    "thumbnailUrl": "https://books.google.com/books/content?id=jdReEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "jdReEAAAQBAJ"
-    }
-  },
-  {
-    "id": "gb-0pTLCwAAQBAJ",
-    "title": "ヒカルの碁 4",
-    "authors": [
-      "ほったゆみ",
-      "小畑健"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "ヒカルの碁 4 ほったゆみ 小畑健 集英社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T12:07:52.291Z",
-    "publisher": "集英社",
-    "publishedDate": "1999-12-02",
-    "language": "ja",
-    "pageCount": 198,
-    "estimatedReadingHours": 5,
-    "thumbnailUrl": "https://books.google.com/books/content?id=0pTLCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "0pTLCwAAQBAJ"
-    }
-  },
-  {
-    "id": "gb-eRz4CgAAQBAJ",
-    "title": "からくりサーカス（３）",
-    "authors": [
-      "藤田和日郎"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "からくりサーカス（３） 藤田和日郎 小学館 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T12:07:52.291Z",
-    "publisher": "小学館",
-    "publishedDate": "1998-04-18",
-    "language": "ja",
-    "pageCount": 192,
-    "estimatedReadingHours": 4.8,
-    "thumbnailUrl": "https://books.google.com/books/content?id=eRz4CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "eRz4CgAAQBAJ"
-    }
-  },
-  {
-    "id": "gb-HQfzCgAAQBAJ",
-    "title": "ピンポン（１）",
-    "authors": [
-      "松本大洋"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "ピンポン（１） 松本大洋 小学館 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T12:07:52.291Z",
-    "publisher": "小学館",
-    "publishedDate": "1996-07-30",
-    "language": "ja",
-    "pageCount": 215,
-    "estimatedReadingHours": 5.4,
-    "thumbnailUrl": "https://books.google.com/books/content?id=HQfzCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "HQfzCgAAQBAJ"
-    }
-  },
-  {
-    "id": "gb-eNE2EAAAQBAJ",
-    "title": "寄生獣リバーシ（８）",
-    "authors": [
-      "岩明均",
-      "太田モアレ"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "寄生獣リバーシ（８） 岩明均 太田モアレ 講談社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T12:07:52.291Z",
-    "publisher": "講談社",
-    "publishedDate": "2021-07-14",
-    "language": "ja",
-    "pageCount": 191,
-    "estimatedReadingHours": 4.8,
-    "thumbnailUrl": "https://books.google.com/books/content?id=eNE2EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "eNE2EAAAQBAJ"
     }
   },
   {
@@ -8679,389 +8008,6 @@
     "updatedAt": "2026-03-12T10:41:41.689Z"
   },
   {
-    "id": "9784065232231",
-    "title": "寄生獣リバーシ 7",
-    "authors": [
-      "岩明均",
-      "太田モアレ"
-    ],
-    "publishedDate": "2021-05",
-    "isbn10": "4065232236",
-    "isbn13": "9784065232231",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 0,
-    "thumbnailUrl": "https://books.google.com/books/content?id=VxSCzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "searchableText": "寄生獣リバーシ 7 岩明均 太田モアレ 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "VxSCzgEACAAJ"
-    },
-    "updatedAt": "2026-03-12T10:41:41.689Z"
-  },
-  {
-    "id": "9784091790392",
-    "title": "鬼頭莫宏イラスト&バックヤード集『ぼくらの』",
-    "authors": [
-      "鬼頭莫宏"
-    ],
-    "publishedDate": "2009-12",
-    "isbn10": "4091790399",
-    "isbn13": "9784091790392",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 130,
-    "estimatedReadingHours": 3.3,
-    "thumbnailUrl": "https://books.google.com/books/content?id=fjYjQwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "searchableText": "鬼頭莫宏イラスト&バックヤード集『ぼくらの』 鬼頭莫宏 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "fjYjQwAACAAJ"
-    },
-    "updatedAt": "2026-03-12T10:41:41.689Z"
-  },
-  {
-    "id": "9784091835277",
-    "title": "岳みんなの山 13",
-    "subtitle": "13",
-    "authors": [
-      "石塚真一"
-    ],
-    "publishedDate": "2010-12",
-    "isbn10": "4091835279",
-    "isbn13": "9784091835277",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 222,
-    "estimatedReadingHours": 5.6,
-    "searchableText": "岳みんなの山 13 13 石塚真一 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "tifNkQEACAAJ"
-    },
-    "updatedAt": "2026-03-12T10:41:41.689Z"
-  },
-  {
-    "id": "9784063713879",
-    "title": "四月は君の嘘 7",
-    "authors": [
-      "新川直司"
-    ],
-    "publishedDate": "2013-09",
-    "isbn10": "4063713873",
-    "isbn13": "9784063713879",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 0,
-    "thumbnailUrl": "https://books.google.com/books/content?id=KkAYtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "searchableText": "四月は君の嘘 7 新川直司 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "KkAYtAEACAAJ"
-    },
-    "updatedAt": "2026-03-12T10:41:41.689Z"
-  },
-  {
-    "id": "9784091793430",
-    "title": "『ピンポン』ビジュアル・シネブック",
-    "authors": [
-      "松本大洋",
-      "『ピンポン』製作委員会"
-    ],
-    "publishedDate": "2002-08",
-    "isbn10": "4091793436",
-    "isbn13": "9784091793430",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 160,
-    "estimatedReadingHours": 4,
-    "thumbnailUrl": "https://books.google.com/books/content?id=JgrjPAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "searchableText": "『ピンポン』ビジュアル・シネブック 松本大洋 『ピンポン』製作委員会 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "JgrjPAAACAAJ"
-    },
-    "updatedAt": "2026-03-12T10:41:41.689Z"
-  },
-  {
-    "id": "9784091933560",
-    "title": "からくりサーカス 14",
-    "authors": [
-      "藤田和日郎"
-    ],
-    "publishedDate": "2018-06",
-    "isbn10": "4091933564",
-    "isbn13": "9784091933560",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 0,
-    "thumbnailUrl": "https://books.google.com/books/content?id=LQ0qtwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "searchableText": "からくりサーカス 14 藤田和日郎 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "LQ0qtwEACAAJ"
-    },
-    "updatedAt": "2026-03-12T10:41:41.689Z"
-  },
-  {
-    "id": "9784099432270",
-    "title": "『タッチ』ポスターコレクション 2",
-    "authors": [
-      "あだち充"
-    ],
-    "publishedDate": "2025-12",
-    "isbn10": "4099432270",
-    "isbn13": "9784099432270",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 0,
-    "thumbnailUrl": "https://books.google.com/books/content?id=6s2s0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "searchableText": "『タッチ』ポスターコレクション 2 あだち充 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "6s2s0QEACAAJ"
-    },
-    "updatedAt": "2026-03-12T10:41:41.689Z"
-  },
-  {
-    "id": "gb-blog-ヒカルの碁",
-    "title": "ヒカルの碁 4",
-    "authors": [
-      "ほったゆみ",
-      "小畑健"
-    ],
-    "publisher": "集英社",
-    "publishedDate": "1999-12-02",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 198,
-    "estimatedReadingHours": 5,
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=0pTLCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73tsDkXDNPKc5HUfMTBHlb-iThM9sXQuhiZYe7hEn1x_zS1nXOX-hJ8z19mJEokCih1ueJQvMsdN1V1flQXJjV5CfKPB6XFGhudQAxz8xX7H2JO6oYfJDrBM92pCHRZo3zKM94c&source=gbs_api",
-    "searchableText": "ヒカルの碁 4 ほったゆみ 小畑健 集英社 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "0pTLCwAAQBAJ"
-    },
-    "updatedAt": "2026-03-15T23:35:34.362Z"
-  },
-  {
-    "id": "9784091875365",
-    "title": "20世紀少年完全版 1",
-    "subtitle": "",
-    "authors": [
-      "浦沢直樹"
-    ],
-    "publishedDate": "2016-02",
-    "isbn10": "409187536X",
-    "isbn13": "9784091875365",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 0,
-    "thumbnailUrl": "https://books.google.com/books/content?id=XDfkjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "searchableText": "20世紀少年完全版 1 浦沢直樹 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "XDfkjwEACAAJ"
-    },
-    "updatedAt": "2026-03-12T10:41:41.689Z"
-  },
-  {
-    "id": "gb-blog-monster",
-    "title": "MONSTER 完全版 デジタルVer.（１）",
-    "authors": [
-      "浦沢直樹"
-    ],
-    "publisher": "小学館",
-    "publishedDate": "1995-06-30",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 224,
-    "estimatedReadingHours": 5.6,
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=ZdNeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71gNruv_QvQBgiF3P5Ama6U53VYWqT0HYCHJFZHrGFu1Qg7ZGoj6rVlJ196r0PigTNsp4PmCg-TZEYGzWdP66EXgO97yGmWthFR0kHPyGyZuSkntaSUK5zZ-3Gq-e0XIMV6H7yR&source=gbs_api",
-    "searchableText": "MONSTER 完全版 デジタルVer.（１） 浦沢直樹 小学館 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "ZdNeEAAAQBAJ"
-    },
-    "updatedAt": "2026-03-15T23:35:34.362Z"
-  },
-  {
-    "id": "gb-blog-うしおととら",
-    "title": "うしおととら（２７）",
-    "authors": [
-      "藤田和日郎"
-    ],
-    "publisher": "小学館",
-    "publishedDate": "1996-01-18",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 189,
-    "estimatedReadingHours": 4.7,
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=WZP2CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73nq5NFbaFkUzVCKqlLJ6DTM5PymOP2ZbXmd_G1O7GYSutdsDQSzNeCk4qMdIO6L0IYOlri8jQssAzC16CuR6dNdx3K4idTfkihpIRbUKE47Ft8n4g8g3skp0Hwf1Y7ZMLKMLhH&source=gbs_api",
-    "searchableText": "うしおととら（２７） 藤田和日郎 小学館 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "WZP2CgAAQBAJ"
-    },
-    "updatedAt": "2026-03-15T23:35:34.362Z"
-  },
-  {
-    "id": "gb-blog-約束のネバーランド",
-    "title": "約束のネバーランド 1",
-    "authors": [
-      "白井カイウ",
-      "出水ぽすか"
-    ],
-    "publisher": "集英社",
-    "publishedDate": "2016-12-02",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 197,
-    "estimatedReadingHours": 4.9,
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=9o2yDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70ePOD-Yy3u-vD9rnv8qXzjI4zJzuldeF4aYLRpjaCu4KAyFzTaQjtWYxQohw7I0cnxI9atuEvNG1ufzu8Xu2zGjWYMwTLrCNj1nUKbxcCXyBYZDVBSWWoaiYRj0894QDUMWahl&source=gbs_api",
-    "searchableText": "約束のネバーランド 1 白井カイウ 出水ぽすか 集英社 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "9o2yDQAAQBAJ"
-    },
-    "updatedAt": "2026-03-15T23:35:34.362Z"
-  },
-  {
-    "id": "gb-blog-暗殺教室",
-    "title": "暗殺教室 5",
-    "authors": [
-      "松井優征"
-    ],
-    "publisher": "集英社",
-    "publishedDate": "2013-07-04",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 195,
-    "estimatedReadingHours": 4.9,
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=OsHKCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73-WZACCOkc9CIIz8uB6Szt4xFEQdGguW-xuarpKZ_AvfdAJaOIO6O65_AOaL4OZCnZ-yZvjLn7AMhdVHQ6SzD7OsOiATF3CxsaoLRuxITN_TfyNAOI4cGsy4xX4-UHDduCy_LC&source=gbs_api",
-    "searchableText": "暗殺教室 5 松井優征 集英社 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "OsHKCwAAQBAJ"
-    },
-    "updatedAt": "2026-03-15T23:35:34.362Z"
-  },
-  {
-    "id": "gb-blog-寄生獣",
-    "title": "寄生獣（５）",
-    "authors": [
-      "岩明均"
-    ],
-    "publisher": "講談社",
-    "publishedDate": "1992-08-22",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 219,
-    "estimatedReadingHours": 5.5,
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=CdvCBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73QrUC73DxHPBuwp0LJ8fIal_e0A32RAYgfty-GOm09B-EpBBKf5R1l88J2iylo6N3lsXWakbCkU6YF0FeTHNrJdEAFIt1Bg6BHxIugEdSxIfeim3D19qaLzrtbP8YERwdlT0dP&source=gbs_api",
-    "searchableText": "寄生獣（５） 岩明均 講談社 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "CdvCBQAAQBAJ"
-    },
-    "updatedAt": "2026-03-15T23:35:34.362Z"
-  },
-  {
-    "id": "9784088716152",
-    "title": "スラムダンク",
-    "authors": [
-      "井上雄彦"
-    ],
-    "publishedDate": "1991-10",
-    "isbn10": "4088716159",
-    "isbn13": "9784088716152",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 0,
-    "thumbnailUrl": "https://books.google.com/books/content?id=Wrs7pwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "searchableText": "スラムダンク 井上雄彦 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "Wrs7pwAACAAJ"
-    },
-    "updatedAt": "2026-03-12T10:41:41.689Z"
-  },
-  {
     "id": "9784001156768",
     "title": "星の王子さま",
     "subtitle": "オリジナル版",
@@ -9444,337 +8390,6 @@
       "googleBooksId": "OmUnzwEACAAJ"
     },
     "updatedAt": "2026-03-12T10:41:41.689Z"
-  },
-  {
-    "id": "gb-blog-宇宙兄弟",
-    "title": "宇宙兄弟　オールカラー版（２４）",
-    "authors": [
-      "小山宙哉"
-    ],
-    "publisher": "講談社",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 208,
-    "estimatedReadingHours": 5.2,
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=7meSDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70YKWzzEmYexMMAWvfbkj9QBWxNda4MmWsogj3VQk6E-u6Ry4abuxBk38hXj_D3pkFEnLluq7Apc6g0CiQN79HtYjSbuoUcwoP4o4VDRHQPEwrgBk5XG5c0yrD64no5bsIE6kP3&source=gbs_api",
-    "searchableText": "宇宙兄弟　オールカラー版（２４） 小山宙哉 講談社 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "7meSDwAAQBAJ"
-    },
-    "updatedAt": "2026-03-15T23:35:34.362Z"
-  },
-  {
-    "id": "gb-blog-僕のヒーローアカデミア",
-    "title": "僕のヒーローアカデミア公式キャラクターブック Ultra Archive",
-    "authors": [
-      "堀越耕平"
-    ],
-    "publisher": "集英社",
-    "publishedDate": "2016-05-02",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 217,
-    "estimatedReadingHours": 5.4,
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=K1liDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70AZDAyrxGymhJJ1amkGBH296MAQy_I1H-lab-dlLFy8Z8RMhyhh16_i89UwcpgnmHuF8ztj7tqGJsF6n6Zx4_AdW7NKI8J7NFBGaj6hf7QtDMXE1G68NX1KTomeZqeIJOHJOQ_&source=gbs_api",
-    "searchableText": "僕のヒーローアカデミア公式キャラクターブック Ultra Archive 堀越耕平 集英社 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "K1liDAAAQBAJ"
-    },
-    "updatedAt": "2026-03-15T23:35:34.362Z"
-  },
-  {
-    "id": "gb-blog-drstone",
-    "title": "Dr.STONEの最強自由研究",
-    "authors": [
-      "稲垣理一郎",
-      "Boichi",
-      "くられ"
-    ],
-    "publisher": "集英社",
-    "publishedDate": "2019-08-02",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 84,
-    "estimatedReadingHours": 2.1,
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=_0GoDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70odSx8Kv-_K-KMsb771_PhcN0kUdiNvCKVgLNiEBc5-RG7JBhbXFAAhWI8g4n-MmboKen9A6jhqhCO4zFLxGaQJcJ0oJndVr2PDYD5j-GjYeiTbHGB3vGDTwzeSP2YblcGkzV1&source=gbs_api",
-    "searchableText": "Dr.STONEの最強自由研究 稲垣理一郎 Boichi くられ 集英社 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "_0GoDwAAQBAJ"
-    },
-    "updatedAt": "2026-03-15T23:35:34.362Z"
-  },
-  {
-    "id": "gb-blog-メイドインアビス",
-    "title": "図説 メイドインアビス 探窟記録【電子特典付き】",
-    "authors": [
-      "つくしあきひと",
-      "増山修",
-      "小島正幸"
-    ],
-    "publisher": "竹書房",
-    "publishedDate": "2020-01-17",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 452,
-    "estimatedReadingHours": 11.3,
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=S1fTDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71C9miQuwP8kFnVxwDeYsZ6Ih7Kn7hZqhAafL4V1yqbEPH2seYYEFvGGqZacKYNMWb3U8PAXMgSLfRG3V4CA2U1PqLVbVgwH1Sn70XQDdWyCAo7ItDsy4-OUDrSk-HqoZf8Yv_s&source=gbs_api",
-    "searchableText": "図説 メイドインアビス 探窟記録【電子特典付き】 つくしあきひと 増山修 小島正幸 竹書房 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "S1fTDwAAQBAJ"
-    },
-    "updatedAt": "2026-03-15T23:35:34.362Z"
-  },
-  {
-    "id": "gb-blog-ダンジョン飯",
-    "title": "ダンジョン飯 8巻",
-    "authors": [
-      "九井　諒子"
-    ],
-    "publisher": "KADOKAWA",
-    "publishedDate": "2019-09-14",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 207,
-    "estimatedReadingHours": 5.2,
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=6GKuDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72idMtdxU966ftP9phokKdFCIP00psQGQ8gyp2cqo6K5Xfmv_DcCF3FC1Bm3P9GQGG9UpM_GbJlLBglLDGIRZaue-U4APrQbyww_NiFDlaUmJ1GbvAXeM1BgPegZ_qBfDQsafZl&source=gbs_api",
-    "searchableText": "ダンジョン飯 8巻 九井　諒子 KADOKAWA 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "6GKuDwAAQBAJ"
-    },
-    "updatedAt": "2026-03-15T23:35:34.362Z"
-  },
-  {
-    "id": "gb-blog-deathnote",
-    "title": "DEATH NOTE短編集",
-    "authors": [
-      "大場つぐみ",
-      "小畑健"
-    ],
-    "publisher": "集英社",
-    "publishedDate": "2021-02-04",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 229,
-    "estimatedReadingHours": 5.7,
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=yG4QEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70IVE76-81FQn9CxHaxw09-4_0MT11W66qKWZPCCOyNRJGgvs-4BQ0fMlm4Dwur9OvqDkTGVDg3llxmX7xSmKwtnyFAS-eyJlPt-pBYswRCOm0KyvLfRhxoxKPbQn6aVPQeZ-uw&source=gbs_api",
-    "searchableText": "DEATH NOTE短編集 大場つぐみ 小畑健 集英社 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "yG4QEAAAQBAJ"
-    },
-    "updatedAt": "2026-03-15T23:35:34.362Z"
-  },
-  {
-    "id": "gb-blog-ゴールデンカムイ",
-    "title": "ゴールデンカムイ公式ファンブック 探究者たちの記録",
-    "authors": [
-      "野田サトル"
-    ],
-    "publisher": "集英社",
-    "publishedDate": "2020-11-19",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 241,
-    "estimatedReadingHours": 6,
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=oRgFEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72oTxiSqqEUFtVhJX3b_Xqp_khr2sI0X14CzdotHn5jBpMZdlV700q2hRXs_466BUaXzFDCzeXeADN_SZZLxn3SSDn2_ZSE1TnxaM2df133IO9rrARurKd-zEcILcShIXPnhFIB&source=gbs_api",
-    "searchableText": "ゴールデンカムイ公式ファンブック 探究者たちの記録 野田サトル 集英社 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "oRgFEAAAQBAJ"
-    },
-    "updatedAt": "2026-03-15T23:35:34.362Z"
-  },
-  {
-    "id": "gb-blog-ヴィンランドサガ",
-    "title": "ヴィンランド・サガ（９）",
-    "authors": [
-      "幸村誠"
-    ],
-    "publisher": "講談社",
-    "publishedDate": "2010-06-23",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 211,
-    "estimatedReadingHours": 5.3,
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=tELGBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72a4wq96jSiWaBrznB9ZPC92lJmmJiUVcwwLL44nwO1OuA66S1FI0ngXK-TRbMXUL6B2vCKXr256IrgKHS2sS-jfR_RBkHKnvnUyhwff2U9FTbqx7JJmGn1EdDDFjqL-kLTf3XI&source=gbs_api",
-    "searchableText": "ヴィンランド・サガ（９） 幸村誠 講談社 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "tELGBQAAQBAJ"
-    },
-    "updatedAt": "2026-03-15T23:35:34.362Z"
-  },
-  {
-    "id": "gb-blog-東京卍リベンジャーズ",
-    "title": "東京卍リベンジャーズ（１２）",
-    "authors": [
-      "和久井健"
-    ],
-    "publisher": "講談社",
-    "publishedDate": "2019-06-17",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 211,
-    "estimatedReadingHours": 5.3,
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=W-icDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71uon1xnrzH9_GnRpp6bhImlkrU19rUz2cDGbGpBZ4im8faqyEtrqHeC3NkXIlKx4QjvE8txhbD79K76Hsw8XcEqXk7acetidjxLslA13qrExTHCYONV8JXoxyQdOHY_njYzZ6x&source=gbs_api",
-    "searchableText": "東京卍リベンジャーズ（１２） 和久井健 講談社 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "W-icDwAAQBAJ"
-    },
-    "updatedAt": "2026-03-15T23:35:34.362Z"
-  },
-  {
-    "id": "gb-blog-ハイキュー",
-    "title": "ハイキュー!! カラー版 42",
-    "authors": [
-      "古舘春一"
-    ],
-    "publisher": "集英社",
-    "publishedDate": "2020-03-04",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 205,
-    "estimatedReadingHours": 5.1,
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=hjQJEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73Ay_iJAnTM08w5TDP592sxmdfzstfXOfqmcgBwRfBKJjGTAkfBRcdR3mgPhrvksHFEU6ngETlWOKpcJA063fWLtRu1qrIaA1JQ32xPPYXOkuhw5QhnmbyHtBulaM-bheqzsK16&source=gbs_api",
-    "searchableText": "ハイキュー!! カラー版 42 古舘春一 集英社 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "hjQJEQAAQBAJ"
-    },
-    "updatedAt": "2026-03-15T23:35:34.362Z"
-  },
-  {
-    "id": "gb-blog-鬼滅の刃",
-    "title": "鬼滅の刃 19",
-    "authors": [
-      "吾峠呼世晴"
-    ],
-    "publisher": "集英社",
-    "publishedDate": "2020-02-04",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 201,
-    "estimatedReadingHours": 5,
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=nKXGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70FUnSco2CRUJEvLhA5Hoa250HF0ceu9hghXSdpDgGhpAihxijDVRk0fcH9_0X1dLScxBjvrZ9j-vuu-1oscGhFGoY749sV2h0NzUDcWtrLN26J3Rw9ijByv_e7SdjB19lvU7qP&source=gbs_api",
-    "searchableText": "鬼滅の刃 19 吾峠呼世晴 集英社 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "nKXGDwAAQBAJ"
-    },
-    "updatedAt": "2026-03-15T23:35:34.362Z"
-  },
-  {
-    "id": "9784063769616",
-    "title": "進撃の巨人悔いなき選択 1",
-    "subtitle": "",
-    "authors": [
-      "諫山創",
-      "砂阿久雁"
-    ],
-    "publishedDate": "2014-04",
-    "isbn10": "4063769615",
-    "isbn13": "9784063769616",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 0,
-    "thumbnailUrl": "https://books.google.com/books/content?id=c884oAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "searchableText": "進撃の巨人悔いなき選択 1 諫山創 砂阿久雁 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "c884oAEACAAJ"
-    },
-    "updatedAt": "2026-03-12T10:41:41.689Z"
-  },
-  {
-    "id": "gb-blog-鋼の錬金術師",
-    "title": "荒川弘イラスト集　鋼の錬金術師",
-    "authors": [
-      "荒川弘"
-    ],
-    "publisher": "Square Enix",
-    "publishedDate": "2017-09-15",
-    "language": "ja",
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 292,
-    "estimatedReadingHours": 7.3,
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=ztZUEAAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE7213jAy5533nfNx4KGRM0HZdvuUPOy6TDPcBFc1jxtWr26knd_Siqcjhw-tWHnXIw34Fdbnr02fcPJbo4XB_Oe-nr4VBmSYoc863x-FQMBXEh72FlNhibpd83spZSigJocZeJWm&source=gbs_api",
-    "searchableText": "荒川弘イラスト集　鋼の錬金術師 荒川弘 Square Enix 漫画 漫画 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "ztZUEAAAQBAJ"
-    },
-    "updatedAt": "2026-03-15T23:35:34.362Z"
   },
   {
     "id": "gb-blog-本当の自由を手に入れるお金の大学",
@@ -11167,7 +9782,7 @@
   },
   {
     "id": "gb-blog-葬送のフリーレン",
-    "title": "TVアニメ『葬送のフリーレン』公式ガイドブック ～王都からオイサーストまでの旅路～",
+    "title": "葬送のフリーレン",
     "authors": [
       "山田鐘人",
       "アベツカサ",
@@ -11195,18 +9810,19 @@
       "gb-blog-呪術廻戦",
       "gb-blog-キングダム"
     ],
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=eF0TEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70U8iTrVjp3SorhkQ0TrckTlCkgzv20es7b8E6sactuzapHL24NwGXPK5U8crphahpF2w5Yslhpp16Qd9LMSjKoXFmzBJiFo3hzKAMbEzHfbLMxDLRg8R2pnZJO957bfoyXcS-_&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=jJnjzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "eF0TEQAAQBAJ"
+      "googleBooksId": "jJnjzQEACAAJ"
     },
     "publishedDate": "2024-07-24",
     "publisher": "小学館",
     "pageCount": 144,
-    "estimatedReadingHours": 3.6
+    "estimatedReadingHours": 3.6,
+    "isbn13": "9784098501809"
   },
   {
     "id": "gb-blog-ダンダダン",
-    "title": "ダンダダン 6",
+    "title": "ダンダダン",
     "authors": [
       "龍幸伸"
     ],
@@ -11232,18 +9848,19 @@
       "gb-blog-呪術廻戦",
       "gb-blog-キングダム"
     ],
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=wUl3EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70PspwbISH3jAH3s5l1EwV6kUD9EtRVwKPkh37EXsotFtfYYpom8OIUgG7ROUWPDgEwOiSRxiGUgbc1wLZ1VS0Q_5aoyHehPL0WH36H1F0elz5A0gfwtAeMh15qMeIGYxtjj4Tf&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=IGWLzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "wUl3EAAAQBAJ"
+      "googleBooksId": "IGWLzgEACAAJ"
     },
     "publishedDate": "2022-08-04",
     "publisher": "集英社",
     "pageCount": 199,
-    "estimatedReadingHours": 5
+    "estimatedReadingHours": 5,
+    "isbn13": "9784088825991"
   },
   {
     "id": "gb-blog-怪獣8号",
-    "title": "怪獣８号 9",
+    "title": "怪獣8号",
     "authors": [
       "松本直也"
     ],
@@ -11269,9 +9886,9 @@
       "gb-blog-呪術廻戦",
       "gb-blog-キングダム"
     ],
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=P7mpEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70GgSDzdDa0f_h2jIhDxrNzJoNwaHWwjihkQlODlkw98dp46Bt55UBMnY4HzI4lH1aGycrYJEKB_wUy7LfUPR02YOkVySL0MyMzW-cjpgOCSD78bh4_5ZzGY-5QHbBI1mu-k4Wv&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=jRgFEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "P7mpEAAAQBAJ"
+      "googleBooksId": "jRgFEAAAQBAJ"
     },
     "publishedDate": "2023-03-03",
     "publisher": "集英社",
@@ -11280,7 +9897,7 @@
   },
   {
     "id": "gb-blog-薬屋のひとりごと",
-    "title": "薬屋のひとりごと(14)特装版小冊子付き",
+    "title": "薬屋のひとりごと",
     "authors": [
       "日向夏",
       "ねこクラゲ",
@@ -11308,11 +9925,10 @@
       "gb-blog-呪術廻戦",
       "gb-blog-キングダム"
     ],
-    "thumbnailUrl": "https://books.google.com/books/content?id=3NPS0AEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE723R4PEx6pYMh07vSZHGiLpJATf1_k5sVdQqhectTb3WsQvmGFRkiVID76rB8zIbYOd8fgl2rdpLG_vS5aaCM6swCSo75Xhh5Zd6FNXmzrk-q61gMp7t3q-7GKc6gtqU1Yu_l5G&source=gbs_api",
-    "isbn13": "9784757594401",
+    "thumbnailUrl": "https://books.google.com/books/content?id=7C_GDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "isbn10": "4757594402",
     "sourceIds": {
-      "googleBooksId": "3NPS0AEACAAJ"
+      "googleBooksId": "7C_GDwAAQBAJ"
     },
     "publishedDate": "2024-09",
     "publisher": "スクウェア・エニックス",
@@ -11321,7 +9937,7 @@
   },
   {
     "id": "gb-blog-spyfamily",
-    "title": "SPY×FAMILY 8巻遠藤達哉描き下ろし特製ラバーストラップ(4種)付き同梱版",
+    "title": "SPY×FAMILY",
     "authors": [
       "遠藤達哉"
     ],
@@ -11347,11 +9963,10 @@
       "gb-blog-呪術廻戦",
       "gb-blog-キングダム"
     ],
-    "thumbnailUrl": "https://books.google.com/books/content?id=UFakzgEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70WX1EoXAsch7JjYQ-AHNBnQV72LBZRxi_U2eUrEOQNftkIeKZiXWn_W-h9FL9bwhI9ECjpgCznG95BkVOHkDD-fFOfGKKirZvxzI-98micxFuHMio2hSpX7A_6qgYpZpraktsE&source=gbs_api",
-    "isbn13": "9784089084151",
+    "thumbnailUrl": "https://books.google.com/books/content?id=0dSZDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "isbn10": "4089084156",
     "sourceIds": {
-      "googleBooksId": "UFakzgEACAAJ"
+      "googleBooksId": "0dSZDwAAQBAJ"
     },
     "publishedDate": "2021-11-04",
     "pageCount": 210,
@@ -11359,45 +9974,8 @@
     "publisher": "集英社"
   },
   {
-    "id": "gb-blog-sakamotodays",
-    "title": "『SAKAMOTO DAYS』公式ファンブック 殺し屋ファイル",
-    "authors": [
-      "鈴木祐斗"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "『SAKAMOTO DAYS』公式ファンブック 殺し屋ファイル 鈴木祐斗 集英社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "relatedBookIds": [
-      "gb-blog-葬送のフリーレン",
-      "gb-blog-ダンダダン",
-      "gb-blog-怪獣8号",
-      "gb-blog-薬屋のひとりごと",
-      "gb-blog-spyfamily",
-      "gb-blog-ブルーロック",
-      "gb-blog-チェンソーマン",
-      "gb-blog-推しの子",
-      "gb-blog-呪術廻戦",
-      "gb-blog-キングダム"
-    ],
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=jR89EQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE717bjdyQiDz1udmZQvMsv3gyXwBLq29WOSdIxn6DyF394xo3ptBCVpzgInROm1jBOvl09zHujSn7pFZJpWIQCmEFt9aO3skAaEgPve2o-551MA9l0tBPEKfediRSeuNgymA58vv&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "jR89EQAAQBAJ"
-    },
-    "publishedDate": "2025-02-04",
-    "publisher": "集英社",
-    "pageCount": 215,
-    "estimatedReadingHours": 5.4
-  },
-  {
     "id": "gb-blog-ブルーロック",
-    "title": "ブルーロック（３６）",
+    "title": "ブルーロック",
     "authors": [
       "金城宗幸",
       "ノ村優介"
@@ -11424,9 +10002,9 @@
       "gb-blog-呪術廻戦",
       "gb-blog-キングダム"
     ],
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=BpaUEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70uJpXuTHwPlyZTWF8UsIJu0YIu_6AeOEsgvgZUp8MOihcg7nZ79tIQ6r10REUb5CcycnHd-wOPLRLiwjlozbL00yFFlWf9l8vV_7krDnca9jnJ9wxBHlsy6JhzIxzjpYBq42MV&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=5Ft2DwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "BpaUEQAAQBAJ"
+      "googleBooksId": "5Ft2DwAAQBAJ"
     },
     "publishedDate": "2025-11-17",
     "publisher": "講談社",
@@ -11472,7 +10050,7 @@
   },
   {
     "id": "gb-blog-推しの子",
-    "title": "【推しの子】 5",
+    "title": "【推しの子】",
     "authors": [
       "赤坂アカ × 横槍メンゴ"
     ],
@@ -11498,11 +10076,11 @@
       "gb-blog-呪術廻戦",
       "gb-blog-キングダム"
     ],
-    "thumbnailUrl": "https://books.google.com/books/content?id=E0iMzgEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73jpdCu22yJBCxY4btSprrydA8HyMWwMcl7E_kH8ClhlBfgoEunW46ya8Ug08zMfYmPdZfMrhi2kklB7BmsxNyEYE5aK3uqJNdeH763YzNYpHxxCu3hxobRZy3B95sfkGfhB39G&source=gbs_api",
-    "isbn13": "9784088920566",
+    "thumbnailUrl": "https://books.google.com/books/content?id=fELCzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784088916507",
     "isbn10": "4088920562",
     "sourceIds": {
-      "googleBooksId": "E0iMzgEACAAJ"
+      "googleBooksId": "fELCzQEACAAJ"
     },
     "publishedDate": "2021-08",
     "publisher": "集英社",
@@ -11511,7 +10089,7 @@
   },
   {
     "id": "gb-blog-呪術廻戦",
-    "title": "呪術廻戦 15",
+    "title": "呪術廻戦",
     "authors": [
       "芥見下々"
     ],
@@ -11537,18 +10115,19 @@
       "gb-blog-推しの子",
       "gb-blog-キングダム"
     ],
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=UxoXEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73p1fNqKuZWFJsoCK_ndVioprVtWvUh144qN2HL8ucdinhBgNFWSkjFUbZnPpOmWNt80RMNJBXRGTicZC_jvoEttENudbljqNz_ZjKBtkpJGBXJx92s_pvfLFZ-ornSJRxBF2YD&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=XhvH0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "UxoXEAAAQBAJ"
+      "googleBooksId": "XhvH0QEACAAJ"
     },
     "publishedDate": "2021-03-04",
     "publisher": "集英社",
     "pageCount": 200,
-    "estimatedReadingHours": 5
+    "estimatedReadingHours": 5,
+    "isbn13": "9784081152858"
   },
   {
     "id": "gb-blog-キングダム",
-    "title": "キングダム公式ガイドブック 英傑列紀",
+    "title": "キングダム",
     "authors": [
       "原泰久"
     ],
@@ -11574,9 +10153,9 @@
       "gb-blog-推しの子",
       "gb-blog-呪術廻戦"
     ],
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=w-Z1DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70qOTan6oLvRhIgD0SONQISLTyEkcoOF-qGcWwQlqCjyYflAbLgrFrp9v2vo0IJKjl_UVG2hTkjjk7r2mPkXcMLV0ViPGKxm71dMn_M1k8UvMDGMKun06O0GC4aeiYDPU2hy-0j&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=bCXKCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "w-Z1DwAAQBAJ"
+      "googleBooksId": "bCXKCwAAQBAJ"
     },
     "publishedDate": "2012-08-17",
     "publisher": "集英社",
@@ -11585,7 +10164,7 @@
   },
   {
     "id": "gb-blog-アオのハコ",
-    "title": "アオのハコ 10",
+    "title": "アオのハコ",
     "authors": [
       "三浦糀"
     ],
@@ -11611,9 +10190,9 @@
       "gb-blog-推しの子",
       "gb-blog-呪術廻戦"
     ],
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=znK2EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72fPQt4D69cBlM0x3euKVbUE_UJLjHUYwHjaH2JRMhj5hN5tKVa0i35m7WfUyW8iLYfOaaPl-efMUEoZNiLb2w71Ij_pr5-38icZnxMjc885GUGCfLgEQjv0Z9lJou5_NVR5eoA&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=VDs1EAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "znK2EAAAQBAJ"
+      "googleBooksId": "VDs1EAAAQBAJ"
     },
     "publishedDate": "2023-05-02",
     "publisher": "集英社",
@@ -11622,7 +10201,7 @@
   },
   {
     "id": "gb-blog-その着せ替え人形は恋をする",
-    "title": "その着せ替え人形は恋をする特装版(8)",
+    "title": "その着せ替え人形は恋をする",
     "authors": [
       "福田晋一"
     ],
@@ -11648,11 +10227,10 @@
       "gb-blog-推しの子",
       "gb-blog-呪術廻戦"
     ],
-    "thumbnailUrl": "https://books.google.com/books/content?id=a9aLzgEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72ACVvuroFrXXWEGruVboB_R_uYcjtogSxg3GfZxV29_NvMV3OcrRXdPNOXUKFNlUzmUw8DApR_CAL4UsxcPoQ-PzMAyCYkQzFMZAcYg-ZeTl7waDUYD50GnK7lWk17Jyyyqsni&source=gbs_api",
-    "isbn13": "9784757573451",
+    "thumbnailUrl": "https://books.google.com/books/content?id=CjHGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "isbn10": "4757573456",
     "sourceIds": {
-      "googleBooksId": "a9aLzgEACAAJ"
+      "googleBooksId": "CjHGDwAAQBAJ"
     },
     "publishedDate": "2021-10",
     "publisher": "スクウェア・エニックス",
@@ -11661,7 +10239,7 @@
   },
   {
     "id": "gb-blog-メダリスト",
-    "title": "メダリスト（１２）",
+    "title": "メダリスト",
     "authors": [
       "つるまいかだ"
     ],
@@ -11687,9 +10265,9 @@
       "gb-blog-推しの子",
       "gb-blog-呪術廻戦"
     ],
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=6e88EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE704KakcB2_dUl-uNiEQngLb4l98pJ3lYhI0UU8PuL4YbUtqqlDqCui7Txf4uaJRM12paGXGBLV_UfMGztBQVSL1n5sNz6BVX87CKnpggA8vVy825few2Dd5yR_9CK1SlwB6q1HG&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=cdH8DwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "6e88EQAAQBAJ"
+      "googleBooksId": "cdH8DwAAQBAJ"
     },
     "publishedDate": "2025-01-22",
     "publisher": "講談社",
@@ -11698,7 +10276,7 @@
   },
   {
     "id": "gb-blog-光が死んだ夏",
-    "title": "光が死んだ夏【分冊版】　8",
+    "title": "光が死んだ夏",
     "authors": [
       "モクモク　れん"
     ],
@@ -11724,17 +10302,18 @@
       "gb-blog-推しの子",
       "gb-blog-呪術廻戦"
     ],
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=MXY1EQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73cmc9627mD9vgIPROFftKZIRWGTuNhYjJuh5zzHR5VB2X6mqJzTp_NyVBNdmJeEgN6ldlmvqUj5300bJVn5ijh4hQyvUp8CITjDaKCPPI1Av734gqZ-z2kLhDAjcTHqfGvGcFE&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=4NngzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "MXY1EQAAQBAJ"
+      "googleBooksId": "4NngzgEACAAJ"
     },
     "publisher": "KADOKAWA",
     "pageCount": 17,
-    "estimatedReadingHours": 0.4
+    "estimatedReadingHours": 0.4,
+    "isbn13": "9784041122730"
   },
   {
     "id": "gb-blog-黄泉のツガイ",
-    "title": "黄泉のツガイ(6)特装版小冊子付き",
+    "title": "黄泉のツガイ",
     "authors": [
       "荒川弘"
     ],
@@ -11760,11 +10339,11 @@
       "gb-blog-推しの子",
       "gb-blog-呪術廻戦"
     ],
-    "thumbnailUrl": "https://books.google.com/books/content?id=WGQn0AEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73nWi3C-4EuQSapfTYOgrR3Wo5HW30t7zJNBNi7CiUDvLuVh5uPkP8iZ8F8K990t4hbA1nSR05zoXjC9iBHqBCFMf80OHsYPabPfa34cbrRIrgHnhRd1RjGW3ODHjGzZFNZ3Emz&source=gbs_api",
-    "isbn13": "9784757588783",
+    "thumbnailUrl": "https://books.google.com/books/content?id=U4shzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784757579620",
     "isbn10": "475758878X",
     "sourceIds": {
-      "googleBooksId": "WGQn0AEACAAJ"
+      "googleBooksId": "U4shzwEACAAJ"
     },
     "publishedDate": "2024",
     "subtitle": "6",
@@ -11774,7 +10353,7 @@
   },
   {
     "id": "gb-blog-忘却バッテリー",
-    "title": "忘却バッテリー 12",
+    "title": "忘却バッテリー",
     "authors": [
       "みかわ絵子"
     ],
@@ -11800,14 +10379,15 @@
       "gb-blog-推しの子",
       "gb-blog-呪術廻戦"
     ],
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=IK9REAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE738zwVHoINawlV71wW6sfbE8QkPgKM2PFdfhWngtyVyykv-DHgRQTD0hJFn9sanPb_MWOJaFxtgk9ZSBQA4rLzYBmmjYobET4jrJdbrU9qfp22tMCnMLZ1Yf8zVyWJRAcQgpbWJ&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=5iPivQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "IK9REAAAQBAJ"
+      "googleBooksId": "5iPivQEACAAJ"
     },
     "publishedDate": "2022-01-04",
     "publisher": "集英社",
     "pageCount": 207,
-    "estimatedReadingHours": 5.2
+    "estimatedReadingHours": 5.2,
+    "isbn13": "9784088816036"
   },
   {
     "id": "gb-blog-ワンパンマン",
@@ -11888,7 +10468,7 @@
   },
   {
     "id": "gb-blog-アオアシ",
-    "title": "アオアシ（３４）",
+    "title": "アオアシ",
     "authors": [
       "小林有吾"
     ],
@@ -11914,10 +10494,6 @@
       "gb-blog-推しの子",
       "gb-blog-呪術廻戦"
     ],
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=thDpEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE721rF_fXlxKow4_gce-X16SC9bLXXTiw4L-Ia3xWtkRclHC0um5z0CnU86JYmz6Q0_GwzaQwOkbXDdVgGNbcmPs1bTH7QKyjVeimgPe7z0hdm2tcFMYo4JG3I3T347Cj7GjA22A&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "thDpEAAAQBAJ"
-    },
     "publishedDate": "2023-12-27",
     "publisher": "小学館",
     "pageCount": 208,
