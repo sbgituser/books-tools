@@ -1774,7 +1774,7 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "AKIRA 美しさを求めて Akira ベストブック 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
+    "updatedAt": "2026-03-16T12:31:05.718Z",
     "language": "ja",
     "thumbnailUrl": "https://books.google.com/books/content?id=zBR5QgAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72nKP_ipdGZnNfATh4qi5FVSFdqAneLbGXAM7VEEFVEdTnKb_2QN920R0ZzQ6TC4Jf4mjT9YlBDXCRW4vn_TwfSaCIKY-irdKh8Ds-vAIYZ_hUdBSiuB4zMuKaqlhH-g94i3vek&source=gbs_api",
     "isbn13": "9784831400352",
@@ -1790,12 +1790,9 @@
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "seinen",
-      "l3Id": "general-manga",
+      "l3Id": "social",
       "l4TagIds": [
         "readable"
-      ],
-      "l5TagIds": [
-        "series"
       ]
     }
   },
@@ -1854,7 +1851,7 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "BLAME! 弐瓶勉 講談社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
+    "updatedAt": "2026-03-16T12:31:05.731Z",
     "language": "ja",
     "isbn13": "9784063772036",
     "isbn10": "4063772039",
@@ -1868,12 +1865,9 @@
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "seinen",
-      "l3Id": "general-manga",
+      "l3Id": "social",
       "l4TagIds": [
         "readable"
-      ],
-      "l5TagIds": [
-        "series"
       ]
     }
   },
@@ -1967,7 +1961,7 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "Giant Killing 14 Story by Masaya Tsunamoto Kodansha America LLC 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
+    "updatedAt": "2026-03-16T12:31:05.732Z",
     "language": "en",
     "thumbnailUrl": "https://books.google.com/books/content?id=qDcfKQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "isbn10": "1642124842",
@@ -1982,12 +1976,9 @@
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "seinen",
-      "l3Id": "general-manga",
+      "l3Id": "social",
       "l4TagIds": [
         "readable"
-      ],
-      "l5TagIds": [
-        "series"
       ]
     }
   },
@@ -2079,7 +2070,7 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "MAJOR 2nd（メジャーセカンド）（１） 満田拓也 小学館 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
+    "updatedAt": "2026-03-16T12:31:59.988Z",
     "language": "ja",
     "thumbnailUrl": "https://books.google.com/books/publisher/content?id=7Br7CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71-a2BTXT44044rcJrfrY23Lty4d8RavQlKG0CDGW8TN-lWCPM0pQCYNhRV46f5DmLoRxOmsGF6I2Gz4t1kPXmzOowQRDxYrg45KM7UHCKdFp8IWeniOHztrTwYV5a059lowJ3Q&source=gbs_api",
     "sourceIds": {
@@ -2092,12 +2083,9 @@
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "shonen",
-      "l3Id": "general-manga",
+      "l3Id": "sports",
       "l4TagIds": [
         "readable"
-      ],
-      "l5TagIds": [
-        "series"
       ]
     }
   },
@@ -2595,7 +2583,7 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "3月のライオンダイアリー 2025.12-2027.3 羽海野チカ 白泉社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
+    "updatedAt": "2026-03-16T12:31:05.731Z",
     "language": "ja",
     "isbn10": "4592106423",
     "publisher": "白泉社",
@@ -2605,12 +2593,9 @@
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "seinen",
-      "l3Id": "general-manga",
+      "l3Id": "drama",
       "l4TagIds": [
         "readable"
-      ],
-      "l5TagIds": [
-        "series"
       ]
     }
   },
@@ -6285,20 +6270,20 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "鋼の錬金術師 荒川弘 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
+    "updatedAt": "2026-03-16T12:31:05.717Z",
     "thumbnailUrl": "https://books.google.com/books/content?id=PQ7FDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "PQ7FDwAAQBAJ"
     },
     "manualClassification": {
       "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "general-manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
       "l4TagIds": [
         "readable"
       ],
       "l5TagIds": [
-        "series"
+        "battle-core"
       ]
     }
   },
@@ -6316,7 +6301,7 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "進撃の巨人 諫山創 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
+    "updatedAt": "2026-03-16T12:31:05.717Z",
     "thumbnailUrl": "https://books.google.com/books/content?id=nMjEBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "isbn10": "4063769615",
     "sourceIds": {
@@ -6324,13 +6309,13 @@
     },
     "manualClassification": {
       "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "fantasy",
+      "l2Id": "shonen",
+      "l3Id": "battle",
       "l4TagIds": [
         "readable"
       ],
       "l5TagIds": [
-        "series"
+        "battle-core"
       ]
     }
   },
@@ -6348,7 +6333,7 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "鬼滅の刃 吾峠呼世晴 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
+    "updatedAt": "2026-03-16T12:31:05.716Z",
     "thumbnailUrl": "https://books.google.com/books/content?id=Mj1cDAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "isbn10": "4087900495",
     "sourceIds": {
@@ -6356,13 +6341,13 @@
     },
     "manualClassification": {
       "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "horror",
+      "l2Id": "shonen",
+      "l3Id": "battle",
       "l4TagIds": [
         "readable"
       ],
       "l5TagIds": [
-        "horror-core"
+        "battle-core"
       ]
     }
   },
@@ -6380,20 +6365,17 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "ハイキュー!! 古舘春一 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
+    "updatedAt": "2026-03-16T12:31:05.718Z",
     "thumbnailUrl": "https://books.google.com/books/content?id=wI7LCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "wI7LCwAAQBAJ"
     },
     "manualClassification": {
       "l1Id": "manga",
-      "l2Id": "general",
+      "l2Id": "shonen",
       "l3Id": "sports",
       "l4TagIds": [
         "readable"
-      ],
-      "l5TagIds": [
-        "sports-core"
       ]
     }
   },
@@ -6505,20 +6487,17 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "DEATH NOTE 大場つぐみ 小畑健 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
+    "updatedAt": "2026-03-16T12:31:05.717Z",
     "thumbnailUrl": "https://books.google.com/books/content?id=_ERuCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "_ERuCwAAQBAJ"
     },
     "manualClassification": {
       "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "general-manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
       "l4TagIds": [
         "readable"
-      ],
-      "l5TagIds": [
-        "series"
       ]
     }
   },
@@ -6536,20 +6515,17 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "ダンジョン飯 九井諒子 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
+    "updatedAt": "2026-03-16T12:31:05.731Z",
     "thumbnailUrl": "https://books.google.com/books/content?id=kV9WDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "kV9WDwAAQBAJ"
     },
     "manualClassification": {
       "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "fantasy",
+      "l2Id": "seinen",
+      "l3Id": "drama",
       "l4TagIds": [
         "readable"
-      ],
-      "l5TagIds": [
-        "series"
       ]
     }
   },
@@ -6567,7 +6543,7 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "メイドインアビス つくしあきひと 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
+    "updatedAt": "2026-03-16T12:31:05.731Z",
     "thumbnailUrl": "https://books.google.com/books/content?id=AOvGsgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "AOvGsgEACAAJ"
@@ -6575,13 +6551,10 @@
     "isbn13": "9784812483800",
     "manualClassification": {
       "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "general-manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
       "l4TagIds": [
         "readable"
-      ],
-      "l5TagIds": [
-        "series"
       ]
     }
   },
@@ -6600,20 +6573,17 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "Dr.STONE 稲垣理一郎 Boichi 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
+    "updatedAt": "2026-03-16T12:31:05.731Z",
     "thumbnailUrl": "https://books.google.com/books/content?id=nhUqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "nhUqDwAAQBAJ"
     },
     "manualClassification": {
       "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "general-manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
       "l4TagIds": [
         "readable"
-      ],
-      "l5TagIds": [
-        "series"
       ]
     }
   },
@@ -6662,16 +6632,13 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "宇宙兄弟 小山宙哉 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
+    "updatedAt": "2026-03-16T12:31:05.732Z",
     "manualClassification": {
-      "l1Id": "science",
-      "l2Id": "physics-space",
-      "l3Id": "space",
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
       "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": [
-        "space"
+        "readable"
       ]
     }
   },
@@ -6807,7 +6774,7 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "寄生獣 岩明均 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
+    "updatedAt": "2026-03-16T12:31:05.731Z",
     "thumbnailUrl": "https://books.google.com/books/content?id=h4S_oQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "h4S_oQEACAAJ"
@@ -6815,13 +6782,10 @@
     "isbn13": "9784063770483",
     "manualClassification": {
       "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "horror",
+      "l2Id": "seinen",
+      "l3Id": "social",
       "l4TagIds": [
         "readable"
-      ],
-      "l5TagIds": [
-        "horror-core"
       ]
     }
   },
@@ -6871,20 +6835,17 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "約束のネバーランド 白井カイウ 出水ぽすか 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
+    "updatedAt": "2026-03-16T12:31:05.718Z",
     "thumbnailUrl": "https://books.google.com/books/content?id=9o2yDQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "9o2yDQAAQBAJ"
     },
     "manualClassification": {
       "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "general-manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
       "l4TagIds": [
         "readable"
-      ],
-      "l5TagIds": [
-        "series"
       ]
     }
   },
@@ -6934,20 +6895,17 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "MONSTER 浦沢直樹 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
+    "updatedAt": "2026-03-16T12:31:05.718Z",
     "thumbnailUrl": "https://books.google.com/books/content?id=ZdNeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "ZdNeEAAAQBAJ"
     },
     "manualClassification": {
       "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "general-manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
       "l4TagIds": [
         "readable"
-      ],
-      "l5TagIds": [
-        "series"
       ]
     }
   },
@@ -6965,7 +6923,7 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "20世紀少年 浦沢直樹 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
+    "updatedAt": "2026-03-16T12:31:05.718Z",
     "thumbnailUrl": "https://books.google.com/books/content?id=XDfkjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "isbn13": "9784091875365",
     "isbn10": "409187536X",
@@ -6974,13 +6932,10 @@
     },
     "manualClassification": {
       "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "general-manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
       "l4TagIds": [
         "readable"
-      ],
-      "l5TagIds": [
-        "series"
       ]
     }
   },
@@ -7125,7 +7080,7 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "四月は君の嘘 新川直司 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
+    "updatedAt": "2026-03-16T12:31:05.732Z",
     "thumbnailUrl": "https://books.google.com/books/content?id=n0fKBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "isbn10": "4063713873",
     "sourceIds": {
@@ -7133,13 +7088,10 @@
     },
     "manualClassification": {
       "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "general-manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
       "l4TagIds": [
         "readable"
-      ],
-      "l5TagIds": [
-        "series"
       ]
     }
   },
@@ -7157,7 +7109,7 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "岳 みんなの山 石塚真一 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
+    "updatedAt": "2026-03-16T12:31:05.732Z",
     "isbn13": "9784098608140",
     "isbn10": "4091835279",
     "sourceIds": {
@@ -7166,13 +7118,10 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=9NskzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "manualClassification": {
       "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "general-manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
       "l4TagIds": [
         "readable"
-      ],
-      "l5TagIds": [
-        "series"
       ]
     }
   },
@@ -13800,7 +13749,7 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "ブルーロック（３６） 金城宗幸 ノ村優介 講談社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
+    "updatedAt": "2026-03-16T12:31:05.718Z",
     "language": "ja",
     "relatedBookIds": [
       "gb-blog-葬送のフリーレン",
@@ -13824,13 +13773,10 @@
     "estimatedReadingHours": 5.1,
     "manualClassification": {
       "l1Id": "manga",
-      "l2Id": "general",
+      "l2Id": "shonen",
       "l3Id": "sports",
       "l4TagIds": [
         "readable"
-      ],
-      "l5TagIds": [
-        "sports-core"
       ]
     }
   },
@@ -13848,7 +13794,7 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "チェンソーマン 1 藤本タツキ 集英社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
+    "updatedAt": "2026-03-16T12:31:05.717Z",
     "language": "ja",
     "relatedBookIds": [
       "gb-blog-葬送のフリーレン",
@@ -13873,12 +13819,12 @@
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "shonen",
-      "l3Id": "general-manga",
+      "l3Id": "battle",
       "l4TagIds": [
         "readable"
       ],
       "l5TagIds": [
-        "series"
+        "battle-core"
       ]
     }
   },
@@ -13946,7 +13892,7 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "呪術廻戦 15 芥見下々 集英社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
+    "updatedAt": "2026-03-16T12:31:05.710Z",
     "language": "ja",
     "relatedBookIds": [
       "gb-blog-葬送のフリーレン",
@@ -13971,13 +13917,13 @@
     "isbn13": "9784081152858",
     "manualClassification": {
       "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "horror",
+      "l2Id": "shonen",
+      "l3Id": "battle",
       "l4TagIds": [
         "readable"
       ],
       "l5TagIds": [
-        "horror-core"
+        "battle-core"
       ]
     }
   },
@@ -13995,7 +13941,7 @@
       "ブログ掲載書籍"
     ],
     "searchableText": "キングダム公式ガイドブック 英傑列紀 原泰久 集英社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
+    "updatedAt": "2026-03-16T12:31:05.717Z",
     "language": "ja",
     "relatedBookIds": [
       "gb-blog-葬送のフリーレン",
@@ -14019,13 +13965,13 @@
     "estimatedReadingHours": 5.1,
     "manualClassification": {
       "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "general-manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
       "l4TagIds": [
         "readable"
       ],
       "l5TagIds": [
-        "series"
+        "battle-core"
       ]
     }
   },
@@ -126193,6 +126139,698 @@
         "intro"
       ],
       "l5TagIds": []
+    }
+  },
+  {
+    "id": "gb-eUrHBQAAQBAJ",
+    "title": "金田一少年の事件簿Ｒ（１）",
+    "authors": [
+      "天樹征丸",
+      "さとうふみや"
+    ],
+    "publisher": "講談社",
+    "publishedDate": "2014-03-17",
+    "language": "ja",
+    "pageCount": 193,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "金田一少年の事件簿Ｒ（１） 天樹征丸 さとうふみや 講談社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=eUrHBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "eUrHBQAAQBAJ"
+    },
+    "updatedAt": "2026-03-16T12:22:09.421Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784063823769",
+    "title": "ミュージアム",
+    "authors": [
+      "亮介·巴"
+    ],
+    "publishedDate": "2013",
+    "isbn13": "9784063823769",
+    "language": "ja",
+    "pageCount": 224,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ミュージアム 亮介·巴 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "Vrg-nwEACAAJ"
+    },
+    "updatedAt": "2026-03-16T12:22:10.246Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "gb-gXPj0AEACAAJ",
+    "title": "僕だけがいない街",
+    "authors": [
+      "三部敬"
+    ],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "僕だけがいない街 三部敬 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "gXPj0AEACAAJ"
+    },
+    "updatedAt": "2026-03-16T12:22:11.063Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088818375",
+    "title": "サマータイムレンダ",
+    "authors": [],
+    "publishedDate": "2019",
+    "isbn13": "9784088818375",
+    "language": "ja",
+    "pageCount": 187,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "サマータイムレンダ 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "1GocyAEACAAJ"
+    },
+    "updatedAt": "2026-03-16T12:22:11.998Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "gb-aTtNDAAAQBAJ",
+    "title": "インベスターZ(1)",
+    "authors": [
+      "三田紀房"
+    ],
+    "publisher": "コルク",
+    "publishedDate": "2013-09-20",
+    "language": "ja",
+    "pageCount": 210,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "インベスターZ(1) 三田紀房 コルク 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=aTtNDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "aTtNDAAAQBAJ"
+    },
+    "updatedAt": "2026-03-16T12:22:12.863Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "gb-a6PLCwAAQBAJ",
+    "title": "アイシールド21 1",
+    "authors": [
+      "稲垣理一郎",
+      "村田雄介"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "2002-12-20",
+    "language": "ja",
+    "pageCount": 206,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "アイシールド21 1 稲垣理一郎 村田雄介 集英社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=a6PLCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "a6PLCwAAQBAJ"
+    },
+    "updatedAt": "2026-03-16T12:22:14.357Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784065110324",
+    "title": "ダイヤのA (エース)",
+    "subtitle": "アンコール刊行. 「沢村、試練の時」編",
+    "authors": [],
+    "publishedDate": "2018",
+    "isbn13": "9784065110324",
+    "language": "ja",
+    "pageCount": 331,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ダイヤのA (エース) アンコール刊行. 「沢村、試練の時」編 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "PZQ8zQEACAAJ"
+    },
+    "updatedAt": "2026-03-16T12:22:15.777Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "gb--k3GBQAAQBAJ",
+    "title": "ベイビーステップ（１）",
+    "authors": [
+      "勝木光"
+    ],
+    "publisher": "講談社",
+    "publishedDate": "2008-02-15",
+    "language": "ja",
+    "pageCount": 211,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ベイビーステップ（１） 勝木光 講談社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=-k3GBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "-k3GBQAAQBAJ"
+    },
+    "updatedAt": "2026-03-16T12:22:17.628Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784086197625",
+    "title": "黒子のバスケ",
+    "subtitle": "07",
+    "authors": [
+      "忠俊·藤巻"
+    ],
+    "publishedDate": "2019",
+    "isbn13": "9784086197625",
+    "language": "ja",
+    "pageCount": 366,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "黒子のバスケ 07 忠俊·藤巻 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "TL8fywEACAAJ"
+    },
+    "updatedAt": "2026-03-16T12:22:18.993Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784198100018",
+    "title": "風の谷のナウシカ",
+    "subtitle": "宮崎駿水彩画集",
+    "authors": [
+      "Hayao Miyazaki",
+      "宮崎駿"
+    ],
+    "publishedDate": "1996-07",
+    "isbn13": "9784198100018",
+    "language": "ja",
+    "pageCount": 208,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "風の谷のナウシカ 宮崎駿水彩画集 Hayao Miyazaki 宮崎駿 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "m3lwtgAACAAJ"
+    },
+    "updatedAt": "2026-03-16T12:22:21.207Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784063949735",
+    "title": "聲の形",
+    "authors": [
+      "大今良時"
+    ],
+    "publishedDate": "2013",
+    "isbn13": "9784063949735",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "聲の形 大今良時 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=Jor4zAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Jor4zAEACAAJ"
+    },
+    "updatedAt": "2026-03-16T12:22:23.056Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "gb-ni8yzgEACAAJ",
+    "title": "おやすみプンプン",
+    "authors": [
+      "浅野いにお"
+    ],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "おやすみプンプン 浅野いにお 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "ni8yzgEACAAJ"
+    },
+    "updatedAt": "2026-03-16T12:22:23.970Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "gb-ia_6CgAAQBAJ",
+    "title": "BLUE GIANT（１）",
+    "authors": [
+      "石塚真一"
+    ],
+    "publisher": "小学館",
+    "publishedDate": "2013-11-29",
+    "language": "ja",
+    "pageCount": 227,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "BLUE GIANT（１） 石塚真一 小学館 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=ia_6CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "ia_6CgAAQBAJ"
+    },
+    "updatedAt": "2026-03-16T12:22:24.997Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784098611171",
+    "title": "東京ヒゴロ 1",
+    "authors": [
+      "松本大洋"
+    ],
+    "publishedDate": "2021-09",
+    "isbn13": "9784098611171",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "東京ヒゴロ 1 松本大洋 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=COmMzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "COmMzgEACAAJ"
+    },
+    "updatedAt": "2026-03-16T12:22:25.816Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784091591029",
+    "title": "Sunny",
+    "authors": [],
+    "publishedDate": "2011",
+    "isbn13": "9784091591029",
+    "language": "ja",
+    "pageCount": 216,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "Sunny 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "QkQBzwEACAAJ"
+    },
+    "updatedAt": "2026-03-16T12:22:27.965Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "gb-66j1CgAAQBAJ",
+    "title": "名探偵コナン（１）",
+    "authors": [
+      "青山剛昌"
+    ],
+    "publisher": "小学館",
+    "publishedDate": "1994-06-18",
+    "language": "ja",
+    "pageCount": 192,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "名探偵コナン（１） 青山剛昌 小学館 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=66j1CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70XbZzDF92N__wgmaO45jkzv0Cfx8eP_keSg836jarXYTaPKJ1a7u5bhMaSQG9TOI1Xbb7ZDJUxO_w-ZQwvOnT3wB4r_AqqzTqpIGh1pUQ4AtHwhHqVI6jbeNo_U8hhxWhpTHFD&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "66j1CgAAQBAJ"
+    },
+    "updatedAt": "2026-03-16T12:26:03.133Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784253214513",
+    "title": "弱虫ペダル 1",
+    "authors": [
+      "渡辺航"
+    ],
+    "publisher": "秋田書店",
+    "publishedDate": "2008-07",
+    "isbn13": "9784253214513",
+    "language": "ja",
+    "pageCount": 192,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "弱虫ペダル 1 渡辺航 秋田書店 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "NwDUMwEACAAJ"
+    },
+    "updatedAt": "2026-03-16T12:26:03.830Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784063879063",
+    "title": "宝石の国(1)",
+    "authors": [
+      "市川春子"
+    ],
+    "publisher": "講談社",
+    "publishedDate": "2013-07",
+    "isbn13": "9784063879063",
+    "language": "ja",
+    "pageCount": 196,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "宝石の国(1) 市川春子 講談社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=axDsngEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE71QH5QhpZ_jxSIwTOjattAA7_pLHZJyMSkvnRfZokofu8SEsjR6ltBuTxWgVOE5bTvkm6H8UjdrREF80pPcZ5wGOiNyG8cM5yhEPVpL9_4JAr1HiRbPZVArF9F5p96it63n-oU6&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "axDsngEACAAJ"
+    },
+    "updatedAt": "2026-03-16T12:26:04.409Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "gb-C1BMDwAAQBAJ",
+    "title": "トライガン　1巻",
+    "authors": [
+      "内藤泰弘"
+    ],
+    "publisher": "少年画報社",
+    "publishedDate": "2000-06-01",
+    "language": "ja",
+    "pageCount": 361,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "トライガン　1巻 内藤泰弘 少年画報社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=C1BMDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73JlvDGy4w8IXDvVwz7wZF8biuyaFMFsLEPEZ6b99olMj5zd6bzJ_KEZIpum83IlXBHxwDf5u-c3YzmlOrRoPTBMhDxlxqGAuikf0x7Rgw1CpD5RMDjA9I6zQwk3SWYhfn_cJLC&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "C1BMDwAAQBAJ"
+    },
+    "updatedAt": "2026-03-16T12:26:04.995Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784840224666",
+    "title": "よつばと! 1",
+    "authors": [
+      "あずまきよひこ"
+    ],
+    "publisher": "アスキー・メディアワークス",
+    "publishedDate": "2003-09",
+    "isbn13": "9784840224666",
+    "language": "ja",
+    "pageCount": 226,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "よつばと! 1 あずまきよひこ アスキー・メディアワークス 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "OufUtAEACAAJ"
+    },
+    "updatedAt": "2026-03-16T12:26:05.689Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": "daily",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "gb-spbHCwAAQBAJ",
+    "title": "DRAGON BALL モノクロ版 1",
+    "authors": [
+      "鳥山明"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "1985-09-10",
+    "language": "ja",
+    "pageCount": 188,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "DRAGON BALL モノクロ版 1 鳥山明 集英社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=spbHCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71VQD0zzcgPlX-70wvy7TVV2pmh0-ak3le3uF9_G8OzB3UMEVD3JgOApzUqczf1vE6_FE5Gmvzeoy30WgT_07zLmq0dqugZLNLTCpiGVvNCXAylWDee8UitrKBhAyYwfu2KSlwR&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "spbHCwAAQBAJ"
+    },
+    "updatedAt": "2026-03-16T12:27:24.266Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": [
+        "battle-core"
+      ]
+    }
+  },
+  {
+    "id": "gb-UefyCgAAQBAJ",
+    "title": "MAJOR（１）",
+    "authors": [
+      "満田拓也"
+    ],
+    "publisher": "小学館",
+    "publishedDate": "1995-01-18",
+    "language": "ja",
+    "pageCount": 186,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "MAJOR（１） 満田拓也 小学館 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=UefyCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71bC-wf8kG7tf9Wqw9jpEA4nvL4dz0xG_V3cfM4F1qiYeE6wlS8Cri_TX4IYo-e-QSaLekAY7tCXatBVYfjFQZIAwz8Mkn1sDeN6aX7uFDvtA-Ndh07GxEuWFKRU5eGXK7nigIp&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "UefyCgAAQBAJ"
+    },
+    "updatedAt": "2026-03-16T12:27:24.938Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports",
+      "l4TagIds": [
+        "readable"
+      ]
     }
   }
 ]
