@@ -1105,43 +1105,6 @@
     }
   },
   {
-    "id": "gb-blog-ルリドラゴン",
-    "title": "ルリドラゴン 1",
-    "authors": [
-      "眞藤雅興"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "ルリドラゴン 1 眞藤雅興 集英社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "publisher": "集英社",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=RdqEEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73jVdIztroUHN43rX0AM_furtAYzxUIdmMapdJnWJWIBSklbbUCIf3jiuh08SdblYtw0tH27Y-NOC8ukhktfoXfLL51OKd1kGzw6HzUbToWp8ZSqXo3edTvguK8PEx0DFDsTM9p&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "RdqEEAAAQBAJ"
-    },
-    "isbn13": "9784088845388",
-    "publishedDate": "2022-10-04",
-    "pageCount": 184,
-    "estimatedReadingHours": 4.6,
-    "manualClassification": {
-      "l1Id": "manga",
-      "l2Id": "shonen",
-      "l3Id": "fantasy",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": [
-        "series"
-      ]
-    }
-  },
-  {
     "id": "gb-blog-伊藤潤二傑作集",
     "title": "伊藤潤二傑作集",
     "authors": [
@@ -1686,42 +1649,6 @@
     }
   },
   {
-    "id": "gb-blog-亜人",
-    "title": "亜人",
-    "authors": [
-      "桜井画門"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "亜人（８） 桜井画門 講談社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/content?id=S1DKBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "S1DKBQAAQBAJ"
-    },
-    "publisher": "講談社",
-    "publishedDate": "2016-05-06",
-    "pageCount": 197,
-    "estimatedReadingHours": 4.9,
-    "manualClassification": {
-      "l1Id": "manga",
-      "l2Id": "seinen",
-      "l3Id": "general-manga",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": [
-        "series"
-      ]
-    }
-  },
-  {
     "id": "gb-blog-ひぐらしのなく頃に",
     "title": "ひぐらしのなく頃に",
     "authors": [
@@ -2162,42 +2089,6 @@
     }
   },
   {
-    "id": "gb-blog-ベルセルク",
-    "title": "ベルセルク",
-    "authors": [
-      "三浦建太郎"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "ベルセルク　18巻 三浦建太郎 白泉社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/content?id=OSs2AQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "OSs2AQAAIAAJ"
-    },
-    "publisher": "白泉社",
-    "publishedDate": "1999-10-01",
-    "pageCount": 217,
-    "estimatedReadingHours": 5.4,
-    "manualClassification": {
-      "l1Id": "manga",
-      "l2Id": "seinen",
-      "l3Id": "general-manga",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": [
-        "series"
-      ]
-    }
-  },
-  {
     "id": "gb-blog-魔法使いの嫁",
     "title": "魔法使いの嫁",
     "authors": [
@@ -2346,79 +2237,6 @@
     }
   },
   {
-    "id": "gb-blog-ブラッククローバー",
-    "title": "ブラッククローバー",
-    "authors": [
-      "田畠裕基"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "ブラッククローバー 34 田畠裕基 集英社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/content?id=MS3LCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "MS3LCwAAQBAJ"
-    },
-    "publisher": "集英社",
-    "publishedDate": "2023-03-03",
-    "pageCount": 211,
-    "estimatedReadingHours": 5.3,
-    "manualClassification": {
-      "l1Id": "manga",
-      "l2Id": "shonen",
-      "l3Id": "general-manga",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": [
-        "series"
-      ]
-    }
-  },
-  {
-    "id": "gb-blog-暁のヨナ",
-    "title": "暁のヨナ",
-    "authors": [
-      "草凪みずほ"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "暁のヨナ　41巻 草凪みずほ 白泉社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/content?id=mc6vXwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "mc6vXwAACAAJ"
-    },
-    "publisher": "白泉社",
-    "publishedDate": "2023-05-19",
-    "pageCount": 194,
-    "estimatedReadingHours": 4.9,
-    "isbn13": "9784592190813",
-    "manualClassification": {
-      "l1Id": "manga",
-      "l2Id": "shojo",
-      "l3Id": "general-manga",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": [
-        "series"
-      ]
-    }
-  },
-  {
     "id": "gb-blog-ヴァニタスの手記",
     "title": "ヴァニタスの手記",
     "authors": [
@@ -2452,46 +2270,6 @@
       ],
       "l5TagIds": [
         "series"
-      ]
-    }
-  },
-  {
-    "id": "gb-blog-転生したらスライムだった件",
-    "title": "転生したらスライムだった件",
-    "authors": [
-      "伏瀬",
-      "川上泰樹",
-      "戸野タエ",
-      "柴",
-      "明地雫"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "『転生したらスライムだった件』シリーズまるっと試し読みパック 伏瀬 川上泰樹 戸野タエ 柴 明地雫 講談社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/content?id=YIqWzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "YIqWzQEACAAJ"
-    },
-    "publisher": "講談社",
-    "pageCount": 159,
-    "estimatedReadingHours": 4,
-    "isbn13": "9784063765786",
-    "manualClassification": {
-      "l1Id": "manga",
-      "l2Id": "shonen",
-      "l3Id": "isekai",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": [
-        "isekai"
       ]
     }
   },
@@ -2961,43 +2739,6 @@
         "readable"
       ],
       "l5TagIds": []
-    }
-  },
-  {
-    "id": "gb-blog-すべてがfになる",
-    "title": "すべてがＦになる　－ＴＨＥ　ＰＥＲＦＥＣＴ　ＩＮＳＩＤＥＲ－　分冊版（５）",
-    "authors": [
-      "森博嗣",
-      "霜月かいり"
-    ],
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "すべてがＦになる　－ＴＨＥ　ＰＥＲＦＥＣＴ　ＩＮＳＩＤＥＲ－　分冊版（５） 森博嗣 霜月かいり 講談社 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=hfq8CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE722Eslg_F_Q2oluiGkxCF0iEiRaGfgiyJ1Q18dwNIg3BmNdOSm-T-s66FO5jDaS4UtZ2hXsfqpcfGIiqxjmvV5W4yCgdIzwwKmYvUHAKkRKmFTE4VfbAuMLYfZb6G_np8MUp-TF&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "hfq8CwAAQBAJ"
-    },
-    "publisher": "講談社",
-    "publishedDate": "2016-03-25",
-    "pageCount": 41,
-    "estimatedReadingHours": 1,
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "mystery",
-      "l3Id": "mystery",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": [
-        "plot-twist"
-      ]
     }
   },
   {
@@ -4227,43 +3968,6 @@
     }
   },
   {
-    "id": "gb-blog-dの複合",
-    "title": "ゼロの焦点・Dの複合",
-    "authors": [
-      "松本清張"
-    ],
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "ゼロの焦点・Dの複合 松本清張 文藝春秋 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "isbn13": "9784165090304",
-    "isbn10": "4165090301",
-    "sourceIds": {
-      "googleBooksId": "9smzswEACAAJ"
-    },
-    "publisher": "文藝春秋",
-    "publishedDate": "1971",
-    "pageCount": 464,
-    "estimatedReadingHours": 11.6,
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "mystery",
-      "l3Id": "police",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": [
-        "police"
-      ]
-    }
-  },
-  {
     "id": "gb-blog-けものみち",
     "title": "けものみち",
     "authors": [
@@ -5073,40 +4777,6 @@
     }
   },
   {
-    "id": "gb-blog-スタイルズ荘の怪事件",
-    "title": "スタイルズ荘の怪事件",
-    "authors": [
-      "アガサ・クリスティー"
-    ],
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "スタイルズ荘の怪事件 アガサ・クリスティー 早川書房 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/content?id=kW5QB40w4fQC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72_dtmwoi9ocSgFtmnbC5sfQiyKngtdhZM29z5-qA5IK6Z9Km-9wu90uP-ooowrlLwymsOCSMNHhSOzqtoa1d4Pwhrc4SxSvWjd1hfocXQRHAzvFXKb8--EkusE4a2stYSbV-t9&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "kW5QB40w4fQC"
-    },
-    "publisher": "早川書房",
-    "publishedDate": "2003-10-01",
-    "pageCount": 361,
-    "estimatedReadingHours": 9,
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "mystery",
-      "l3Id": "classic-mystery",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
     "id": "gb-blog-緋色の研究",
     "title": "緋色の研究",
     "authors": [
@@ -5137,44 +4807,6 @@
       "l1Id": "novel",
       "l2Id": "mystery",
       "l3Id": "classic-mystery",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
-    "id": "gb-blog-xの悲劇",
-    "title": "Xの悲劇",
-    "authors": [
-      "エラリー クイーン",
-      "越智道雄",
-      "越智治美"
-    ],
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "Xの悲劇 エラリー クイーン 越智道雄 越智治美 ポプラ社 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/content?id=r8qvQgAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE71URD2LERPWvbdguytpuaPgj_FEhsrwcZDUKNVr73maURn4_1fM_0GtnUmw03h6QuKkx7EZALN_uMSwGnrvmSkHBJvz_cXxinIrhtspWOw4jln0baHBVvCLxyH1KaIvSYqyGkVU&source=gbs_api",
-    "isbn13": "9784591081716",
-    "isbn10": "4591081710",
-    "sourceIds": {
-      "googleBooksId": "r8qvQgAACAAJ"
-    },
-    "publisher": "ポプラ社",
-    "publishedDate": "2004-07",
-    "pageCount": 197,
-    "estimatedReadingHours": 4.9,
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "literary",
-      "l3Id": "modern-literature",
       "l4TagIds": [
         "readable"
       ],
@@ -6411,68 +6043,6 @@
     }
   },
   {
-    "id": "blog-ヴィンランドサガ-幸村誠",
-    "title": "ヴィンランド・サガ",
-    "authors": [
-      "幸村誠"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "ヴィンランド・サガ 幸村誠 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=BVj1CQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "BVj1CQAAQBAJ"
-    },
-    "manualClassification": {
-      "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "general-manga",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": [
-        "series"
-      ]
-    }
-  },
-  {
-    "id": "blog-ゴールデンカムイ-野田サトル",
-    "title": "ゴールデンカムイ",
-    "authors": [
-      "野田サトル"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "ゴールデンカムイ 野田サトル 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=WX7NCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "WX7NCwAAQBAJ"
-    },
-    "manualClassification": {
-      "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "general-manga",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": [
-        "series"
-      ]
-    }
-  },
-  {
     "id": "blog-deathnote-大場つぐみ小畑健",
     "title": "DEATH NOTE",
     "authors": [
@@ -6958,38 +6528,6 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=5dXKCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "5dXKCwAAQBAJ"
-    },
-    "manualClassification": {
-      "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "general-manga",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": [
-        "series"
-      ]
-    }
-  },
-  {
-    "id": "blog-タッチ-あだち充",
-    "title": "タッチ",
-    "authors": [
-      "あだち充"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "タッチ あだち充 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=fvpiDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "isbn10": "4099432270",
-    "sourceIds": {
-      "googleBooksId": "fvpiDwAAQBAJ"
     },
     "manualClassification": {
       "l1Id": "manga",
@@ -10909,78 +10447,6 @@
     }
   },
   {
-    "id": "gb-blog-ロートレック荘事件",
-    "title": "ロートレック荘事件（新潮文庫）",
-    "authors": [
-      "筒井康隆"
-    ],
-    "publisher": "新潮社",
-    "publishedDate": "1995-01-30",
-    "language": "ja",
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 137,
-    "estimatedReadingHours": 3.4,
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=HmFnDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72ged_NSbR8GobXC5RcHR5AQvMYEbp-w4RnQxVDQG8Kph0gvqBhLmkhjM3vx2k6TEKA86KcWIiZGG55BDttrZ6T69UC_LKHLW_AyRW7IDq6iauM2e9_ANTA1QOH9ydqZrepW56N&source=gbs_api",
-    "searchableText": "ロートレック荘事件（新潮文庫） 筒井康隆 新潮社 小説・文学 小説・文学 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "HmFnDwAAQBAJ"
-    },
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "sf",
-      "l3Id": "sf",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": [
-        "space"
-      ]
-    }
-  },
-  {
-    "id": "gb-blog-検察側の罪人",
-    "title": "検察側の罪人（下）",
-    "authors": [
-      "雫井脩介"
-    ],
-    "publisher": "文藝春秋",
-    "publishedDate": "2017-02-10",
-    "language": "ja",
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 320,
-    "estimatedReadingHours": 8,
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=fw7NDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70NkB8frsbNitKTKWzFgWxc0hLITbxuROqcBkKioT5f73KpwZgsOvFhZ0TIP-SIftHNFgCNjUPjC9EALrC5nb1l5tOWRKggirKrOOaKtOMfwDD-XS0SQg_sdzKmAwe0OjVI0IEy&source=gbs_api",
-    "searchableText": "検察側の罪人（下） 雫井脩介 文藝春秋 小説・文学 小説・文学 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "fw7NDwAAQBAJ"
-    },
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "mystery",
-      "l3Id": "mystery",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": [
-        "plot-twist"
-      ]
-    }
-  },
-  {
     "id": "gb-blog-硝子の塔の殺人",
     "title": "硝子の塔の殺人",
     "authors": [
@@ -11303,41 +10769,6 @@
     }
   },
   {
-    "id": "gb-blog-図書館戦争",
-    "title": "図書館戦争　図書館戦争シリーズ(1)",
-    "authors": [
-      "有川　浩"
-    ],
-    "publisher": "KADOKAWA",
-    "language": "ja",
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 273,
-    "estimatedReadingHours": 6.8,
-    "thumbnailUrl": "https://books.google.com/books/content?id=q1imYpx_hbUC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72QN3OKqU4L6mypzSvHPcDi3sV_MZ9HN2aBoBR_5HPLIcl59Ocke5xfGvjpm_M7-oIgI2b3goDpylOGnV91Xq9AyWA5OFp4jjWbDQIXXrlPiwmtbigiACsxiL7xINAz7GKm8Lrm&source=gbs_api",
-    "searchableText": "図書館戦争　図書館戦争シリーズ(1) 有川　浩 KADOKAWA 小説・文学 小説・文学 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "q1imYpx_hbUC"
-    },
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "romance",
-      "l3Id": "romance",
-      "l4TagIds": [
-        "series"
-      ],
-      "l5TagIds": [
-        "war"
-      ]
-    }
-  },
-  {
     "id": "gb-blog-キッチン",
     "title": "キッチン",
     "authors": [
@@ -11543,40 +10974,6 @@
       "l5TagIds": [
         "tearjerker"
       ]
-    }
-  },
-  {
-    "id": "gb-blog-夜は短し歩けよ乙女",
-    "title": "夜は短し歩けよ乙女　映画カバー版",
-    "authors": [
-      "森見　登美彦"
-    ],
-    "publisher": "KADOKAWA",
-    "publishedDate": "2008-12-25",
-    "language": "ja",
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "pageCount": 198,
-    "estimatedReadingHours": 5,
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=DEoxDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70m7X9XXKn0H-3YtvArz_SM69XPBg4T5nD6VTUK_x5yM4ILKZR0F-5DrKJGeTORkGCuapKSebnORPjcEFylEOkEEJsTcZ4DvuFf4D5DO6N1jRbcc76C4rjz520y-dezVx1h-Z3u&source=gbs_api",
-    "searchableText": "夜は短し歩けよ乙女　映画カバー版 森見　登美彦 KADOKAWA 小説・文学 小説・文学 ブログ掲載書籍",
-    "sourceIds": {
-      "googleBooksId": "DEoxDgAAQBAJ"
-    },
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "fantasy",
-      "l3Id": "modern-fantasy",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": []
     }
   },
   {
@@ -12243,478 +11640,6 @@
       "l3Id": "jp-stock",
       "l4TagIds": [
         "intro"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
-    "id": "gb-blog-成瀬は天下を取りにいく",
-    "title": "成瀬は天下を取りにいく（新潮文庫）",
-    "authors": [
-      "宮島未奈"
-    ],
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "成瀬は天下を取りにいく（新潮文庫） 宮島未奈 新潮社 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "relatedBookIds": [
-      "gb-blog-方舟",
-      "gb-blog-かがみの孤城",
-      "gb-blog-コンビニ人間",
-      "gb-blog-容疑者xの献身",
-      "gb-blog-52ヘルツのクジラたち",
-      "gb-blog-火花",
-      "gb-blog-博士の愛した数式",
-      "gb-blog-オリエント急行の殺人",
-      "gb-blog-ツバキ文具店",
-      "gb-blog-流浪の月"
-    ],
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=ujZoEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE737-KzBTsyenOMvmvS_R9eIBaJ4dgpC_ErpG345VaXA94Cq0TjlFwdP03wjV-gA0Sd9VCXJtf_zhiDbggAsCD8x7htcPcCZAPJb1gHMqoa0oRUP6mzn0MgqWi39gHVmhEt1eZbZ&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "ujZoEQAAQBAJ"
-    },
-    "publishedDate": "2025-06-25",
-    "publisher": "新潮社",
-    "pageCount": 165,
-    "estimatedReadingHours": 4.1,
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "literary",
-      "l3Id": "modern-literature",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
-    "id": "gb-blog-方舟",
-    "title": "方舟",
-    "authors": [
-      "夕木春央"
-    ],
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "方舟 夕木春央 講談社 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "relatedBookIds": [
-      "gb-blog-成瀬は天下を取りにいく",
-      "gb-blog-かがみの孤城",
-      "gb-blog-コンビニ人間",
-      "gb-blog-容疑者xの献身",
-      "gb-blog-52ヘルツのクジラたち",
-      "gb-blog-火花",
-      "gb-blog-博士の愛した数式",
-      "gb-blog-オリエント急行の殺人",
-      "gb-blog-ツバキ文具店",
-      "gb-blog-流浪の月"
-    ],
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=-JaFEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70vtgMJxAWgHR4Bo-UpQfMBHCqsCSYDvfSmajG2kB2TtVOSR9Hw2DEERErJmHpwdtF8WxWmf2sTidxBD27-VfpBrrAL8m7dVKPDrudxNXW5tl90LtRNKruuZt05FRXSxBLB7REy&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "-JaFEAAAQBAJ"
-    },
-    "publishedDate": "2022-09-08",
-    "publisher": "講談社",
-    "pageCount": 304,
-    "estimatedReadingHours": 7.6,
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "mystery",
-      "l3Id": "honkaku-mystery",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
-    "id": "gb-blog-かがみの孤城",
-    "title": "かがみの孤城 3",
-    "authors": [
-      "辻村深月",
-      "武富智"
-    ],
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "かがみの孤城 3 辻村深月 武富智 集英社 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "relatedBookIds": [
-      "gb-blog-成瀬は天下を取りにいく",
-      "gb-blog-方舟",
-      "gb-blog-コンビニ人間",
-      "gb-blog-容疑者xの献身",
-      "gb-blog-52ヘルツのクジラたち",
-      "gb-blog-火花",
-      "gb-blog-博士の愛した数式",
-      "gb-blog-オリエント急行の殺人",
-      "gb-blog-ツバキ文具店",
-      "gb-blog-流浪の月"
-    ],
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=fxoXEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70lJLZNWPcwFG20Kw6C338T4ZsgOMqTgJI3zTUjiDxSTO45IpVzPcJH23jwoh3xJdUQ4iQK0I-6YD_77ZQ88_V-x9nnCUdoAUP8wPv657Ch3szARe_IUVHBddv2dpPhHfv4M47_&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "fxoXEAAAQBAJ"
-    },
-    "publishedDate": "2021-02-19",
-    "publisher": "集英社",
-    "pageCount": 227,
-    "estimatedReadingHours": 5.7,
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "literary",
-      "l3Id": "modern-literature",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
-    "id": "gb-blog-コンビニ人間",
-    "title": "コンビニ人間",
-    "authors": [
-      "村田沙耶香"
-    ],
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "コンビニ人間 村田沙耶香 文藝春秋 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "relatedBookIds": [
-      "gb-blog-成瀬は天下を取りにいく",
-      "gb-blog-方舟",
-      "gb-blog-かがみの孤城",
-      "gb-blog-容疑者xの献身",
-      "gb-blog-52ヘルツのクジラたち",
-      "gb-blog-火花",
-      "gb-blog-博士の愛した数式",
-      "gb-blog-オリエント急行の殺人",
-      "gb-blog-ツバキ文具店",
-      "gb-blog-流浪の月"
-    ],
-    "thumbnailUrl": "https://books.google.com/books/content?id=ZgUFvgAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE71MMEYZyY3oTvyzdKDsQR52e37KFtUPw6zkqFeuBKQJW7A_l1qI2MTp3XVVGTsUC-ZlcXoLzIdvrRwHnLP-hsIsMLOWOrVr3u5XT6v_PUCnJh3VkgKMbN4PzzUNvHoDsMvESMPO&source=gbs_api",
-    "isbn13": "9784163906188",
-    "isbn10": "4163906185",
-    "sourceIds": {
-      "googleBooksId": "ZgUFvgAACAAJ"
-    },
-    "publishedDate": "2016-07",
-    "pageCount": 151,
-    "estimatedReadingHours": 3.8,
-    "publisher": "文藝春秋",
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "literary",
-      "l3Id": "modern-literature",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
-    "id": "gb-blog-容疑者xの献身",
-    "title": "容疑者Xの献身",
-    "authors": [
-      "東野圭吾"
-    ],
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "容疑者Xの献身 東野圭吾 文藝春秋 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "relatedBookIds": [
-      "gb-blog-成瀬は天下を取りにいく",
-      "gb-blog-方舟",
-      "gb-blog-かがみの孤城",
-      "gb-blog-コンビニ人間",
-      "gb-blog-52ヘルツのクジラたち",
-      "gb-blog-火花",
-      "gb-blog-博士の愛した数式",
-      "gb-blog-オリエント急行の殺人",
-      "gb-blog-ツバキ文具店",
-      "gb-blog-流浪の月"
-    ],
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=eNjdDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72K7-ywU2BRbablKV-CBSwRe3egeI0tWH8f0x_RCCn2iWmvL2P54XiTuUYyfvuwdYUSwCDFpVo8tQXBI9YBRcKrTMq-bss5Vyjyddx2HXZaBTk3D_pqPQsOjZL2NlWPEVz8PoBN&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "eNjdDwAAQBAJ"
-    },
-    "publishedDate": "2008-08-05",
-    "publisher": "文藝春秋",
-    "pageCount": 400,
-    "estimatedReadingHours": 10,
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "mystery",
-      "l3Id": "mystery",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": [
-        "plot-twist"
-      ]
-    }
-  },
-  {
-    "id": "gb-blog-52ヘルツのクジラたち",
-    "title": "52ヘルツのクジラたち",
-    "authors": [
-      "町田そのこ"
-    ],
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "52ヘルツのクジラたち 町田そのこ 中央公論新社 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "relatedBookIds": [
-      "gb-blog-成瀬は天下を取りにいく",
-      "gb-blog-方舟",
-      "gb-blog-かがみの孤城",
-      "gb-blog-コンビニ人間",
-      "gb-blog-容疑者xの献身",
-      "gb-blog-火花",
-      "gb-blog-博士の愛した数式",
-      "gb-blog-オリエント急行の殺人",
-      "gb-blog-ツバキ文具店",
-      "gb-blog-流浪の月"
-    ],
-    "thumbnailUrl": "https://books.google.com/books/content?id=V5nVzwEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE71ABD5XQvSwMph9AvcfUPiTtwN6aTOm08Ei7vxJAa4KUS2cPiQoFsy_6bppJ6uFT-uAP4SRxDym44em8y0yv6CwvrSWkJquGdDq2WAQVexmmOE_Iqdswr1YPkbWxRpslANYQeqG&source=gbs_api",
-    "isbn13": "9784122073708",
-    "isbn10": "4122073707",
-    "sourceIds": {
-      "googleBooksId": "V5nVzwEACAAJ"
-    },
-    "publishedDate": "2023-05",
-    "publisher": "中央公論新社",
-    "pageCount": 314,
-    "estimatedReadingHours": 7.9,
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "literary",
-      "l3Id": "modern-literature",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
-    "id": "gb-blog-火花",
-    "title": "火花",
-    "authors": [
-      "又吉直樹"
-    ],
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "火花 又吉直樹 文藝春秋 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "relatedBookIds": [
-      "gb-blog-成瀬は天下を取りにいく",
-      "gb-blog-方舟",
-      "gb-blog-かがみの孤城",
-      "gb-blog-コンビニ人間",
-      "gb-blog-容疑者xの献身",
-      "gb-blog-52ヘルツのクジラたち",
-      "gb-blog-博士の愛した数式",
-      "gb-blog-オリエント急行の殺人",
-      "gb-blog-ツバキ文具店",
-      "gb-blog-流浪の月"
-    ],
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=ew7NDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70ilG_rAsYmdTLGA1TQqn-YyP3T-Mch1RMOPtpmeEwICzSFJHNZdRyc1GVWqwIr052oGVYpzuOdOVhoras6IyXY2TouRpjWmgyUXQnXuNPuCNSqXadGQebsSkrAxysy_P8l0kFp&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "ew7NDwAAQBAJ"
-    },
-    "publishedDate": "2017-02-10",
-    "publisher": "文藝春秋",
-    "pageCount": 192,
-    "estimatedReadingHours": 4.8,
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "literary",
-      "l3Id": "modern-literature",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
-    "id": "gb-blog-博士の愛した数式",
-    "title": "博士の愛した数式",
-    "authors": [
-      "小川洋子",
-      "くりた陸"
-    ],
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "博士の愛した数式 小川洋子 くりた陸 講談社 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "relatedBookIds": [
-      "gb-blog-成瀬は天下を取りにいく",
-      "gb-blog-方舟",
-      "gb-blog-かがみの孤城",
-      "gb-blog-コンビニ人間",
-      "gb-blog-容疑者xの献身",
-      "gb-blog-52ヘルツのクジラたち",
-      "gb-blog-火花",
-      "gb-blog-オリエント急行の殺人",
-      "gb-blog-ツバキ文具店",
-      "gb-blog-流浪の月"
-    ],
-    "thumbnailUrl": "https://books.google.com/books/publisher/content?id=vYbDBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71QTJgMILJw8vwOWK7Iyl3vt4FTGfQPEh64WYPLQFZGI3zZxvZMt-en5wwMBomyJGOsc8F92LprF45CAfB9t8gUshQIXGsm1I6CcXQzx2-Hq2dvdXVqtw0tJv_mkPQzcFgF29c2&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "vYbDBQAAQBAJ"
-    },
-    "publishedDate": "2006-02-03",
-    "publisher": "講談社",
-    "pageCount": 193,
-    "estimatedReadingHours": 4.8,
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "literary",
-      "l3Id": "modern-literature",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
-    "id": "gb-blog-オリエント急行の殺人",
-    "title": "オリエント急行の殺人",
-    "authors": [
-      "アガサクリスティー"
-    ],
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "オリエント急行の殺人 アガサクリスティー 早川書房 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "relatedBookIds": [
-      "gb-blog-成瀬は天下を取りにいく",
-      "gb-blog-方舟",
-      "gb-blog-かがみの孤城",
-      "gb-blog-コンビニ人間",
-      "gb-blog-容疑者xの献身",
-      "gb-blog-52ヘルツのクジラたち",
-      "gb-blog-火花",
-      "gb-blog-博士の愛した数式",
-      "gb-blog-ツバキ文具店",
-      "gb-blog-流浪の月"
-    ],
-    "thumbnailUrl": "https://books.google.com/books/content?id=fbmu0AEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72SQTyFl-_56SGEbdpQ9rU2Ln0TN4Ea6DC8MGRo3jcc8d2E2XBiCDiKtntqkUaK8nRLmfo6TuI_4ncWD2sKnIOiv0e7vVvfzEgRkhgBs7w_NrlSST9ziZ1BjznRyCQxQd41tpZL&source=gbs_api",
-    "isbn13": "9784152088826",
-    "isbn10": "4152088826",
-    "sourceIds": {
-      "googleBooksId": "fbmu0AEACAAJ"
-    },
-    "publishedDate": "2007-12",
-    "publisher": "早川書房",
-    "pageCount": 365,
-    "estimatedReadingHours": 9.1,
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "mystery",
-      "l3Id": "classic-mystery",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
-    "id": "gb-blog-ツバキ文具店",
-    "title": "ツバキ文具店",
-    "authors": [
-      "小川糸"
-    ],
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "ツバキ文具店 小川糸 幻冬舎 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "relatedBookIds": [
-      "gb-blog-成瀬は天下を取りにいく",
-      "gb-blog-方舟",
-      "gb-blog-かがみの孤城",
-      "gb-blog-コンビニ人間",
-      "gb-blog-容疑者xの献身",
-      "gb-blog-52ヘルツのクジラたち",
-      "gb-blog-火花",
-      "gb-blog-博士の愛した数式",
-      "gb-blog-オリエント急行の殺人",
-      "gb-blog-流浪の月"
-    ],
-    "thumbnailUrl": "https://books.google.com/books/content?id=yEvvjwEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE71sMc3w89lkhMGHXeg6KY3ECfr0THILuMJ9nO1_qxMGpYOWr7mZongB_r0oPzZ7I-48cspcOns-S1C6Pi70GBo-lbTwfM_TlLQ7KYhDlHQOEp8Oz5zBjC99FiN4w6XuoPoXsNR5&source=gbs_api",
-    "isbn13": "9784344029279",
-    "isbn10": "4344029275",
-    "sourceIds": {
-      "googleBooksId": "yEvvjwEACAAJ"
-    },
-    "publishedDate": "2016-04",
-    "pageCount": 269,
-    "estimatedReadingHours": 6.7,
-    "publisher": "幻冬舎",
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "literary",
-      "l3Id": "modern-literature",
-      "l4TagIds": [
-        "readable"
       ],
       "l5TagIds": []
     }
@@ -14121,54 +13046,6 @@
     }
   },
   {
-    "id": "gb-blog-光が死んだ夏",
-    "title": "光が死んだ夏",
-    "authors": [
-      "モクモク　れん"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "光が死んだ夏【分冊版】　8 モクモク　れん KADOKAWA 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "relatedBookIds": [
-      "gb-blog-葬送のフリーレン",
-      "gb-blog-ダンダダン",
-      "gb-blog-怪獣8号",
-      "gb-blog-薬屋のひとりごと",
-      "gb-blog-spyfamily",
-      "gb-blog-sakamotodays",
-      "gb-blog-ブルーロック",
-      "gb-blog-チェンソーマン",
-      "gb-blog-推しの子",
-      "gb-blog-呪術廻戦"
-    ],
-    "thumbnailUrl": "https://books.google.com/books/content?id=4NngzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "4NngzgEACAAJ"
-    },
-    "publisher": "KADOKAWA",
-    "pageCount": 17,
-    "estimatedReadingHours": 0.4,
-    "isbn13": "9784041122730",
-    "manualClassification": {
-      "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "general-manga",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": [
-        "series"
-      ]
-    }
-  },
-  {
     "id": "gb-blog-黄泉のツガイ",
     "title": "黄泉のツガイ",
     "authors": [
@@ -14355,50 +13232,6 @@
     "publisher": "講談社",
     "pageCount": 128,
     "estimatedReadingHours": 3.2,
-    "manualClassification": {
-      "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "general-manga",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": [
-        "series"
-      ]
-    }
-  },
-  {
-    "id": "gb-blog-アオアシ",
-    "title": "アオアシ",
-    "authors": [
-      "小林有吾"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "アオアシ（３４） 小林有吾 小学館 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "relatedBookIds": [
-      "gb-blog-葬送のフリーレン",
-      "gb-blog-ダンダダン",
-      "gb-blog-怪獣8号",
-      "gb-blog-薬屋のひとりごと",
-      "gb-blog-spyfamily",
-      "gb-blog-sakamotodays",
-      "gb-blog-ブルーロック",
-      "gb-blog-チェンソーマン",
-      "gb-blog-推しの子",
-      "gb-blog-呪術廻戦"
-    ],
-    "publishedDate": "2023-12-27",
-    "publisher": "小学館",
-    "pageCount": 208,
-    "estimatedReadingHours": 5.2,
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "general",
@@ -27834,48 +26667,6 @@
     }
   },
   {
-    "id": "9784798192963",
-    "title": "デジタル時代の基礎知識『SNSマーケティング』 第4版 「つながり」と「共感」で利益を生み出す新しいルール（MarkeZine BOOKS）",
-    "authors": [
-      "長谷川 直紀",
-      "本門 功一郎"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "デジタル時代の基礎知識『SNSマーケティング』 第4版 「つながり」と「共感」で利益を生み出す新しいルール（MarkeZine BOOKS） 長谷川 直紀 本門 功一郎",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publishedDate": "2025-11-10",
-    "isbn10": "4798192961",
-    "isbn13": "9784798192963",
-    "language": "ja",
-    "pageCount": 250,
-    "estimatedReadingHours": 6.3,
-    "sourceIds": {
-      "googleBooksId": "qeWYEQAAQBAJ"
-    },
-    "relatedBookIds": [
-      "9784798193014",
-      "9784798183039",
-      "gb-blog-本当の自由を手に入れるお金の大学",
-      "gb-blog-敗者のゲーム",
-      "gb-blog-ウォール街のランダムウォーカー",
-      "gb-blog-justkeepbuying",
-      "gb-blog-金持ち父さん貧乏父さん",
-      "gb-blog-世界一やさしい株の教科書1年生",
-      "gb-blog-漫画バビロン大富豪の教え",
-      "gb-blog-きみのお金は誰のため"
-    ],
-    "manualClassification": {
-      "l1Id": "business",
-      "l2Id": "marketing",
-      "l3Id": "marketing-general",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
     "id": "9784798166285",
     "title": "デジタル時代の基礎知識『SNSマーケティング』 : 「つながり」と「共感」で利益を生み出す新しいルール",
     "authors": [
@@ -29217,51 +28008,6 @@
     },
     "relatedBookIds": [
       "9784822249939",
-      "9784822288839",
-      "9784822239046",
-      "9784296070978",
-      "gb-blog-本当の自由を手に入れるお金の大学",
-      "gb-blog-敗者のゲーム",
-      "gb-blog-ウォール街のランダムウォーカー",
-      "gb-blog-justkeepbuying",
-      "gb-blog-金持ち父さん貧乏父さん",
-      "gb-blog-世界一やさしい株の教科書1年生"
-    ],
-    "manualClassification": {
-      "l1Id": "business",
-      "l2Id": "startup",
-      "l3Id": "pmf-growth",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
-    "id": "9784822249939",
-    "title": "グロースハッカー : 会社もサービスも劇的に成長させるものの売り方、つくり方",
-    "authors": [
-      "Ryan Holiday",
-      "佐藤由紀子",
-      "ライアンホリデイ"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "グロースハッカー : 会社もサービスも劇的に成長させるものの売り方、つくり方 会社もサービスも劇的に成長させるものの売り方、つくり方 Ryan Holiday 佐藤由紀子 ライアンホリデイ 日経BPマーケティング",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "subtitle": "会社もサービスも劇的に成長させるものの売り方、つくり方",
-    "publisher": "日経BPマーケティング",
-    "publishedDate": "201312",
-    "isbn10": "482224993X",
-    "isbn13": "9784822249939",
-    "language": "ja",
-    "pageCount": 137,
-    "estimatedReadingHours": 3.4,
-    "sourceIds": {
-      "googleBooksId": "xfv3ngEACAAJ"
-    },
-    "relatedBookIds": [
-      "9784822250782",
       "9784822288839",
       "9784822239046",
       "9784296070978",
@@ -31999,55 +30745,6 @@
     }
   },
   {
-    "id": "9784295013815",
-    "title": "データサイエンティスト検定問題集",
-    "authors": [
-      "小縣 信也",
-      "斉藤 翔汰",
-      "山田 弦太朗"
-    ],
-    "categories": [
-      "コンピュータ・IT"
-    ],
-    "keywords": [
-      "コンピュータ・IT"
-    ],
-    "searchableText": "データサイエンティスト検定問題集 小縣 信也 斉藤 翔汰 山田 弦太朗 インプレス コンピュータ・IT コンピュータ・IT",
-    "updatedAt": "2026-03-09T05:28:07.662Z",
-    "publisher": "インプレス",
-    "publishedDate": "202204",
-    "isbn10": "4295013811",
-    "isbn13": "9784295013815",
-    "language": "ja",
-    "pageCount": 320,
-    "estimatedReadingHours": 8,
-    "sourceIds": {
-      "googleBooksId": "FdppEAAAQBAJ"
-    },
-    "relatedBookIds": [
-      "9784295021353",
-      "9784295005018",
-      "9784295012924",
-      "9784295000235",
-      "9784844337058",
-      "9784295015505",
-      "9784295010302",
-      "9784295007791",
-      "9784844339328",
-      "9784295012641"
-    ],
-    "manualClassification": {
-      "l1Id": "tech",
-      "l2Id": "programming",
-      "l3Id": "programming-general",
-      "l4TagIds": [
-        "workbook",
-        "exam"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
     "id": "9784798161440",
     "title": "現場で使える!pandasデータ前処理入門 機械学習・データサイエンスで役立つ前処理手法",
     "authors": [
@@ -34015,60 +32712,6 @@
     }
   },
   {
-    "id": "9784295011248",
-    "title": "スッキリわかるJava入門 実践編",
-    "authors": [
-      "中山清喬",
-      "フレアリンク",
-      "中山清喬",
-      "株式会社フレアリンク"
-    ],
-    "categories": [
-      "コンピュータ・IT"
-    ],
-    "keywords": [
-      "コンピュータ・IT"
-    ],
-    "searchableText": "スッキリわかるJava入門 実践編 中山清喬 フレアリンク 中山 清喬 株式会社フレアリンク インプレス コンピュータ・IT コンピュータ・IT",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "インプレス",
-    "publishedDate": "202104",
-    "isbn10": "429501124X",
-    "isbn13": "9784295011248",
-    "language": "ja",
-    "pageCount": 728,
-    "estimatedReadingHours": 18.2,
-    "sourceIds": {
-      "googleBooksId": "94IqEAAAQBAJ"
-    },
-    "relatedBookIds": [
-      "9784295007807",
-      "9784295017936",
-      "9784295020608",
-      "9784295005094",
-      "9784295018469",
-      "9784295013396",
-      "9784844336778",
-      "9784844333937",
-      "9784295005018",
-      "9784295012924"
-    ],
-    "manualClassification": {
-      "l1Id": "tech",
-      "l2Id": "data",
-      "l3Id": "sql",
-      "l4TagIds": [
-        "intro",
-        "beginner",
-        "readable"
-      ],
-      "l5TagIds": [
-        "non-engineer",
-        "implementation"
-      ]
-    }
-  },
-  {
     "id": "9784798048161",
     "title": "Pythonﾌﾟﾛｸﾞﾗﾐﾝｸﾞﾊﾟｰﾌｪｸﾄﾏｽﾀｰ",
     "authors": [
@@ -35430,53 +34073,6 @@
     }
   },
   {
-    "id": "9784798129709",
-    "title": "アジャイル開発とスクラム = AGILE AND SCRUM : 顧客・技術・経営をつなぐ協調的ソフトウェア開発マネジメント",
-    "authors": [
-      "平鍋健児",
-      "野中郁次郎"
-    ],
-    "categories": [
-      "Reference"
-    ],
-    "keywords": [
-      "Reference"
-    ],
-    "searchableText": "アジャイル開発とスクラム = AGILE AND SCRUM : 顧客・技術・経営をつなぐ協調的ソフトウェア開発マネジメント 平鍋健児 野中郁次郎 翔泳社 Reference Reference",
-    "updatedAt": "2026-03-09T05:28:07.662Z",
-    "publisher": "翔泳社",
-    "publishedDate": "201301",
-    "isbn10": "4798129704",
-    "isbn13": "9784798129709",
-    "language": "ja",
-    "pageCount": 292,
-    "estimatedReadingHours": 7.3,
-    "sourceIds": {
-      "googleBooksId": "JAcfBAAAQBAJ"
-    },
-    "relatedBookIds": [
-      "9784798167466",
-      "9784798158617",
-      "9784798143835",
-      "9784798166056",
-      "9784798156910",
-      "9784798167916",
-      "9784798172569",
-      "9784798170695",
-      "9784798167350",
-      "9784798163963"
-    ],
-    "manualClassification": {
-      "l1Id": "business",
-      "l2Id": "management",
-      "l3Id": "org-management",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
     "id": "9784274230431",
     "title": "実践スクラム = Scrum Practices : スクラム開発プレイヤーのための事例",
     "authors": [
@@ -36461,49 +35057,6 @@
       "l5TagIds": [
         "for-practice"
       ]
-    }
-  },
-  {
-    "id": "9784798184913",
-    "title": "バックエンドエンジニアのためのインフラ・クラウド大全",
-    "authors": [
-      "株式会社X-Tech5",
-      "馬場 俊彰"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "バックエンドエンジニアのためのインフラ・クラウド大全 株式会社X-Tech5 馬場 俊彰 翔泳社",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "翔泳社",
-    "publishedDate": "2025-06-24",
-    "isbn10": "4798184918",
-    "isbn13": "9784798184913",
-    "language": "ja",
-    "pageCount": 546,
-    "estimatedReadingHours": 13.7,
-    "sourceIds": {
-      "googleBooksId": "DVNpEQAAQBAJ"
-    },
-    "relatedBookIds": [
-      "9784798185224",
-      "9784798179209",
-      "9784798184449",
-      "9784798189901",
-      "9784798188942",
-      "9784798189437",
-      "9784798158617",
-      "9784798132761",
-      "9784798143835",
-      "9784798166520"
-    ],
-    "manualClassification": {
-      "l1Id": "tech",
-      "l2Id": "programming",
-      "l3Id": "backend",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": []
     }
   },
   {
@@ -38064,95 +36617,6 @@
         "react",
         "nextjs",
         "non-engineer"
-      ]
-    }
-  },
-  {
-    "id": "9781804611050",
-    "title": "Learn React with TypeScript",
-    "authors": [
-      "Carl Rippon"
-    ],
-    "categories": [
-      "コンピュータ・IT"
-    ],
-    "keywords": [
-      "コンピュータ・IT"
-    ],
-    "searchableText": "Learn React with TypeScript A beginner's guide to reactive web development with React 18 and TypeScript Carl Rippon Packt Publishing Ltd コンピュータ・IT コンピュータ・IT",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "subtitle": "A beginner's guide to reactive web development with React 18 and TypeScript",
-    "publisher": "Packt Publishing Ltd",
-    "publishedDate": "2023-03-03",
-    "isbn10": "1804611050",
-    "isbn13": "9781804611050",
-    "language": "en",
-    "pageCount": 474,
-    "estimatedReadingHours": 9.5,
-    "thumbnailUrl": "https://books.google.com/books/content?id=xbevEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "xbevEAAAQBAJ"
-    },
-    "relatedBookIds": [
-      "9781789618129",
-      "9781836643166",
-      "9781801079877",
-      "9781800569867",
-      "9781835466964",
-      "9781801811415",
-      "9781718503298",
-      "9789349887640",
-      "9789349887190",
-      "9798285356554"
-    ],
-    "manualClassification": {
-      "l1Id": "tech",
-      "l2Id": "programming",
-      "l3Id": "frontend",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": [
-        "typescript",
-        "react"
-      ]
-    }
-  },
-  {
-    "id": "9798320418353",
-    "title": "React, TypeScript and NextJs",
-    "authors": [
-      "Simone Gentili"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "React, TypeScript and NextJs La libreria, il linguaggio ed il framework fullstack Simone Gentili Independently Published",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "subtitle": "La libreria, il linguaggio ed il framework fullstack",
-    "publisher": "Independently Published",
-    "publishedDate": "2024-03-31",
-    "isbn13": "9798320418353",
-    "language": "it",
-    "thumbnailUrl": "https://books.google.com/books/content?id=uH2t0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "uH2t0AEACAAJ"
-    },
-    "relatedBookIds": [
-      "9798386016623",
-      "9798285356554",
-      "9798289288837"
-    ],
-    "manualClassification": {
-      "l1Id": "tech",
-      "l2Id": "programming",
-      "l3Id": "frontend",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": [
-        "typescript",
-        "react",
-        "nextjs"
       ]
     }
   },
@@ -39928,48 +38392,6 @@
       "9784492048061",
       "9784492820889",
       "9784492046364"
-    ],
-    "manualClassification": {
-      "l1Id": "business",
-      "l2Id": "management",
-      "l3Id": "business-strategy",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
-    "id": "9784798189147",
-    "title": "マーケターキャリアパス 10年後も活躍し続けるための成長戦略",
-    "authors": [
-      "勅使川原 晃司"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "マーケターキャリアパス 10年後も活躍し続けるための成長戦略 勅使川原 晃司 翔泳社",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "翔泳社",
-    "publishedDate": "2025-05-19",
-    "isbn10": "4798189146",
-    "isbn13": "9784798189147",
-    "language": "ja",
-    "pageCount": 238,
-    "estimatedReadingHours": 6,
-    "sourceIds": {
-      "googleBooksId": "zv5fEQAAQBAJ"
-    },
-    "relatedBookIds": [
-      "9784798191577",
-      "9784798179209",
-      "9784798184449",
-      "9784798189901",
-      "9784798188942",
-      "9784798189437",
-      "9784798158617",
-      "9784798132761",
-      "9784798143835",
-      "9784798166520"
     ],
     "manualClassification": {
       "l1Id": "business",
@@ -44237,54 +42659,6 @@
     }
   },
   {
-    "id": "9784059139362",
-    "title": "学研・進学情報",
-    "authors": [
-      "学研進学情報編集部"
-    ],
-    "categories": [
-      "教育"
-    ],
-    "keywords": [
-      "教育"
-    ],
-    "searchableText": "学研・進学情報 2014年11月号 学研進学情報編集部 学研アソシエ 教育 教育",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "subtitle": "2014年11月号",
-    "publisher": "学研アソシエ",
-    "publishedDate": "2014-11-01",
-    "isbn10": "405913936X",
-    "isbn13": "9784059139362",
-    "language": "ja",
-    "pageCount": 44,
-    "estimatedReadingHours": 1.1,
-    "thumbnailUrl": "https://books.google.com/books/content?id=fn5MBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "fn5MBQAAQBAJ"
-    },
-    "relatedBookIds": [
-      "9784059107309",
-      "9784059187615",
-      "9784865101584",
-      "9784000094269",
-      "9784059234210",
-      "9788490127391",
-      "9784799112991",
-      "9784295601203",
-      "gb-blog-本当の自由を手に入れるお金の大学",
-      "gb-blog-敗者のゲーム"
-    ],
-    "manualClassification": {
-      "l1Id": "business",
-      "l2Id": "management",
-      "l3Id": "management-general",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
     "id": "9788490127391",
     "title": "Encuentro internacional de profesores de lengua japonesa en el Centro Cultural Hispano-Japonés de la Universidad de Salamanca (España)",
     "authors": [
@@ -46146,44 +44520,6 @@
       "l3Id": "investing-general",
       "l4TagIds": [
         "intro"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
-    "id": "9784478100578",
-    "title": "個人型確定拠出年金iDeCo活用入門 : 一番やさしい!一番くわしい!",
-    "authors": [
-      "竹川美奈子"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "個人型確定拠出年金iDeCo活用入門 : 一番やさしい!一番くわしい! 竹川美奈子 ダイヤモンド社",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "ダイヤモンド社",
-    "publishedDate": "201610",
-    "isbn13": "9784478100578",
-    "language": "ja",
-    "relatedBookIds": [
-      "9784478114865",
-      "9784478115473",
-      "9784478107218",
-      "9784478108574",
-      "9784478104514",
-      "9784478120446",
-      "9784478004968",
-      "9784478013762",
-      "9784478103661",
-      "9784478630693"
-    ],
-    "manualClassification": {
-      "l1Id": "investing",
-      "l2Id": "asset-building",
-      "l3Id": "investing-general",
-      "l4TagIds": [
-        "intro",
-        "beginner",
-        "readable"
       ],
       "l5TagIds": []
     }
@@ -50173,86 +48509,6 @@
     }
   },
   {
-    "id": "9784798125862",
-    "title": "メンタルヘルス・マネジメント検定2種・3種テキスト&問題集",
-    "authors": [
-      "EAPコンサルティング普及協会"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "メンタルヘルス・マネジメント検定2種・3種テキスト&問題集 EAPコンサルティング普及協会 翔泳社",
-    "updatedAt": "2026-03-13T12:52:44.397Z",
-    "publisher": "翔泳社",
-    "publishedDate": "201601",
-    "isbn13": "9784798125862",
-    "language": "ja",
-    "relatedBookIds": [
-      "9784798179209",
-      "9784798184449",
-      "9784798189901",
-      "9784798188942",
-      "9784798189437",
-      "9784798158617",
-      "9784798132761",
-      "9784798143835",
-      "9784798166520",
-      "9784798167213"
-    ],
-    "sourceIds": {
-      "googleBooksId": "11xRCwAAQBAJ"
-    },
-    "manualClassification": {
-      "l1Id": "business",
-      "l2Id": "management",
-      "l3Id": "org-management",
-      "l4TagIds": [
-        "workbook",
-        "exam"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
-    "id": "9784798151465",
-    "title": "メンタルヘルス・マネジメント検定2種・3種テキスト&問題集",
-    "authors": [
-      "一般社団法人EAPコンサルティング普及協会"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "メンタルヘルス・マネジメント検定2種・3種テキスト&問題集 一般社団法人EAPコンサルティング普及協会 翔泳社",
-    "updatedAt": "2026-03-13T12:52:44.397Z",
-    "publisher": "翔泳社",
-    "publishedDate": "201706",
-    "isbn13": "9784798151465",
-    "language": "ja",
-    "relatedBookIds": [
-      "9784798179209",
-      "9784798184449",
-      "9784798189901",
-      "9784798188942",
-      "9784798189437",
-      "9784798158617",
-      "9784798132761",
-      "9784798143835",
-      "9784798166520",
-      "9784798167213"
-    ],
-    "sourceIds": {
-      "googleBooksId": "O-IqDwAAQBAJ"
-    },
-    "manualClassification": {
-      "l1Id": "business",
-      "l2Id": "management",
-      "l3Id": "org-management",
-      "l4TagIds": [
-        "workbook",
-        "exam"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
     "id": "9784904536193",
     "title": "周産期のこころのケア",
     "authors": [
@@ -51625,51 +49881,6 @@
     }
   },
   {
-    "id": "9784253249386",
-    "title": "コミック東野圭吾ミステリー",
-    "authors": [
-      "東野圭吾",
-      "風祭壮太"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "コミック東野圭吾ミステリー アンコール出版 東野圭吾 風祭壮太",
-    "updatedAt": "2026-03-17T13:29:12.389Z",
-    "subtitle": "アンコール出版",
-    "publishedDate": "2018",
-    "isbn10": "4253249388",
-    "isbn13": "9784253249386",
-    "language": "ja",
-    "pageCount": 484,
-    "estimatedReadingHours": 12.1,
-    "sourceIds": {
-      "googleBooksId": "Sp-rwgEACAAJ"
-    },
-    "relatedBookIds": [
-      "gb-blog-本当の自由を手に入れるお金の大学",
-      "gb-blog-敗者のゲーム",
-      "gb-blog-ウォール街のランダムウォーカー",
-      "gb-blog-justkeepbuying",
-      "gb-blog-金持ち父さん貧乏父さん",
-      "gb-blog-世界一やさしい株の教科書1年生",
-      "gb-blog-漫画バビロン大富豪の教え",
-      "gb-blog-きみのお金は誰のため",
-      "gb-blog-新nisa完全攻略投資術",
-      "gb-blog-勝てる日本株forbeginne"
-    ],
-    "manualClassification": {
-      "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "mystery",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": [
-        "detective"
-      ]
-    }
-  },
-  {
     "id": "9784862485748",
     "title": "東野圭吾というミステリー : 無限に広がる国民的人気作家の世界を解読する！",
     "authors": [],
@@ -52290,44 +50501,6 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=H5hQvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
-    "id": "9784562045761",
-    "title": "アガサ・クリスティー",
-    "authors": [
-      "Dick Riley",
-      "Pam McAllister",
-      "森英俊"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "アガサ・クリスティー Dick Riley Pam McAllister 森英俊 原書房",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "原書房",
-    "publishedDate": "201005",
-    "isbn13": "9784562045761",
-    "language": "ja",
-    "relatedBookIds": [
-      "9784562060443",
-      "gb-blog-本当の自由を手に入れるお金の大学",
-      "gb-blog-敗者のゲーム",
-      "gb-blog-ウォール街のランダムウォーカー",
-      "gb-blog-justkeepbuying",
-      "gb-blog-金持ち父さん貧乏父さん",
-      "gb-blog-世界一やさしい株の教科書1年生",
-      "gb-blog-漫画バビロン大富豪の教え",
-      "gb-blog-きみのお金は誰のため",
-      "gb-blog-新nisa完全攻略投資術"
-    ],
-    "manualClassification": {
-      "l1Id": "business",
-      "l2Id": "management",
-      "l3Id": "management-general",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
     "id": "9784265049318",
     "title": "ABC殺人事件上",
     "authors": [
@@ -52500,44 +50673,6 @@
       "l5TagIds": [
         "non-engineer"
       ]
-    }
-  },
-  {
-    "id": "9784591081709",
-    "title": "ABC殺人事件",
-    "authors": [
-      "Agatha Christie",
-      "百々佑利子",
-      "照井葉月"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "ABC殺人事件 Agatha Christie 百々佑利子 照井葉月 ポプラ社",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "ポプラ社",
-    "publishedDate": "200407",
-    "isbn13": "9784591081709",
-    "language": "ja",
-    "relatedBookIds": [
-      "gb-blog-本当の自由を手に入れるお金の大学",
-      "gb-blog-敗者のゲーム",
-      "gb-blog-ウォール街のランダムウォーカー",
-      "gb-blog-justkeepbuying",
-      "gb-blog-金持ち父さん貧乏父さん",
-      "gb-blog-世界一やさしい株の教科書1年生",
-      "gb-blog-漫画バビロン大富豪の教え",
-      "gb-blog-きみのお金は誰のため",
-      "gb-blog-新nisa完全攻略投資術",
-      "gb-blog-勝てる日本株forbeginne"
-    ],
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "mystery",
-      "l3Id": "classic-mystery",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": []
     }
   },
   {
@@ -59777,42 +57912,6 @@
     }
   },
   {
-    "id": "9784007306648",
-    "title": "量子力学入門",
-    "authors": [
-      "阿部龍蔵"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "量子力学入門 阿部龍蔵 岩波書店",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "岩波書店",
-    "publishedDate": "201709",
-    "isbn13": "9784007306648",
-    "language": "ja",
-    "relatedBookIds": [
-      "9784000261289",
-      "9784000094269",
-      "9784004319351",
-      "9784000012003",
-      "9784000107013",
-      "9784000069649",
-      "9784004317135",
-      "9784000108874",
-      "9784004316961",
-      "9784003361542"
-    ],
-    "manualClassification": {
-      "l1Id": "science",
-      "l2Id": "physics-space",
-      "l3Id": "quantum",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
     "id": "9784563022099",
     "title": "量子力学入門 : MIT物理 1",
     "authors": [
@@ -59868,41 +57967,6 @@
       "9784785324148",
       "9784785322540",
       "9784785324155",
-      "9784785352424",
-      "9784785352370",
-      "9784785352400",
-      "9784785351298",
-      "9784785315672",
-      "9784785335090",
-      "9784785321208"
-    ],
-    "manualClassification": {
-      "l1Id": "science",
-      "l2Id": "physics-space",
-      "l3Id": "quantum",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
-    "id": "9784785324155",
-    "title": "素粒子物理学",
-    "authors": [
-      "川村　嘉春"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "素粒子物理学 川村　嘉春 裳華房",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "裳華房",
-    "isbn13": "9784785324155",
-    "language": "ja",
-    "relatedBookIds": [
-      "9784785324148",
-      "9784785322540",
-      "9784785322793",
       "9784785352424",
       "9784785352370",
       "9784785352400",
@@ -60449,50 +58513,6 @@
       "gb-blog-金持ち父さん貧乏父さん",
       "gb-blog-世界一やさしい株の教科書1年生",
       "gb-blog-漫画バビロン大富豪の教え"
-    ],
-    "manualClassification": {
-      "l1Id": "science",
-      "l2Id": "physics-space",
-      "l3Id": "quantum",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
-    "id": "9784431707103",
-    "title": "素粒子・原子核物理入門",
-    "authors": [
-      "B. ポッフ",
-      "K. リーツ",
-      "C. ショルツ",
-      "F. サッチャ"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "素粒子・原子核物理入門 B. ポッフ K. リーツ C. ショルツ F. サッチャ",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publishedDate": "1997-01-20",
-    "isbn10": "4431707107",
-    "isbn13": "9784431707103",
-    "language": "ja",
-    "pageCount": 347,
-    "estimatedReadingHours": 8.7,
-    "sourceIds": {
-      "googleBooksId": "gwb4PQAACAAJ"
-    },
-    "relatedBookIds": [
-      "gb-blog-本当の自由を手に入れるお金の大学",
-      "gb-blog-敗者のゲーム",
-      "gb-blog-ウォール街のランダムウォーカー",
-      "gb-blog-justkeepbuying",
-      "gb-blog-金持ち父さん貧乏父さん",
-      "gb-blog-世界一やさしい株の教科書1年生",
-      "gb-blog-漫画バビロン大富豪の教え",
-      "gb-blog-きみのお金は誰のため",
-      "gb-blog-新nisa完全攻略投資術",
-      "gb-blog-勝てる日本株forbeginne"
     ],
     "manualClassification": {
       "l1Id": "science",
@@ -65668,50 +63688,6 @@
       "9784798132761",
       "9784798143835",
       "9784798166520"
-    ],
-    "manualClassification": {
-      "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "general-manga",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": [
-        "series"
-      ]
-    }
-  },
-  {
-    "id": "9784843328293",
-    "title": "マンガ研究",
-    "authors": [
-      "日本マンガ学会"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "マンガ研究 日本マンガ学会",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publishedDate": "2002",
-    "isbn10": "4843328294",
-    "isbn13": "9784843328293",
-    "language": "ja",
-    "pageCount": 156,
-    "estimatedReadingHours": 3.9,
-    "thumbnailUrl": "https://books.google.com/books/content?id=tMhNAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "tMhNAQAAIAAJ"
-    },
-    "relatedBookIds": [
-      "9784843325025",
-      "9784843323526",
-      "gb-blog-本当の自由を手に入れるお金の大学",
-      "gb-blog-敗者のゲーム",
-      "gb-blog-ウォール街のランダムウォーカー",
-      "gb-blog-justkeepbuying",
-      "gb-blog-金持ち父さん貧乏父さん",
-      "gb-blog-世界一やさしい株の教科書1年生",
-      "gb-blog-漫画バビロン大富豪の教え",
-      "gb-blog-きみのお金は誰のため"
     ],
     "manualClassification": {
       "l1Id": "manga",
@@ -72009,49 +69985,6 @@
     }
   },
   {
-    "id": "9784866671819",
-    "title": "図解3ステップでできる!小さな会社の人を育てる人事評価制度のつくり方",
-    "authors": [
-      "山元浩二"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "図解3ステップでできる!小さな会社の人を育てる人事評価制度のつくり方 図解 3ステップでできる! 山元浩二 あさ出版",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "subtitle": "図解 3ステップでできる!",
-    "publisher": "あさ出版",
-    "publishedDate": "202002",
-    "isbn10": "4866671815",
-    "isbn13": "9784866671819",
-    "language": "ja",
-    "pageCount": 224,
-    "estimatedReadingHours": 5.6,
-    "sourceIds": {
-      "googleBooksId": "Y6RTzQEACAAJ"
-    },
-    "relatedBookIds": [
-      "9784860637699",
-      "9784860636982",
-      "9784860632205",
-      "9784860636081",
-      "9784860638016",
-      "9784860637958",
-      "9784860638597",
-      "gb-blog-本当の自由を手に入れるお金の大学",
-      "gb-blog-敗者のゲーム",
-      "gb-blog-ウォール街のランダムウォーカー"
-    ],
-    "manualClassification": {
-      "l1Id": "business",
-      "l2Id": "management",
-      "l3Id": "hr-system",
-      "l4TagIds": [
-        "diagram"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
     "id": "9784798024073",
     "title": "「経営戦略の基本」がすべてわかる本",
     "authors": [
@@ -73879,52 +71812,6 @@
       "l1Id": "business",
       "l2Id": "thinking",
       "l3Id": "hypothesis",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
-    "id": "9784059107309",
-    "title": "学研・進学情報",
-    "authors": [
-      "学研進学情報編集部"
-    ],
-    "categories": [
-      "教育"
-    ],
-    "keywords": [
-      "教育"
-    ],
-    "searchableText": "学研・進学情報 2012年10月号 学研進学情報編集部 学研アソシエ 教育 教育",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "subtitle": "2012年10月号",
-    "publisher": "学研アソシエ",
-    "publishedDate": "2012-09-01",
-    "isbn10": "4059107301",
-    "isbn13": "9784059107309",
-    "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/content?id=a_JVBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "a_JVBAAAQBAJ"
-    },
-    "relatedBookIds": [
-      "9784059139362",
-      "9784059187615",
-      "9784865101584",
-      "9784000094269",
-      "9784059234210",
-      "9788490127391",
-      "9784799112991",
-      "9784295601203",
-      "gb-blog-本当の自由を手に入れるお金の大学",
-      "gb-blog-敗者のゲーム"
-    ],
-    "manualClassification": {
-      "l1Id": "business",
-      "l2Id": "management",
-      "l3Id": "management-general",
       "l4TagIds": [
         "intro"
       ],
@@ -84768,103 +82655,6 @@
     }
   },
   {
-    "id": "9781013271663",
-    "title": "Automated Machine Learning",
-    "authors": [
-      "Joaquin Vanschoren",
-      "Lars Kotthoff",
-      "Frank Hutter"
-    ],
-    "categories": [
-      "コンピュータ・IT"
-    ],
-    "keywords": [
-      "コンピュータ・IT"
-    ],
-    "searchableText": "Automated Machine Learning Joaquin Vanschoren Lars Kotthoff Frank Hutter コンピュータ・IT コンピュータ・IT",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publishedDate": "2020-10-08",
-    "isbn10": "1013271661",
-    "isbn13": "9781013271663",
-    "language": "en",
-    "pageCount": 222,
-    "estimatedReadingHours": 4.4,
-    "thumbnailUrl": "https://books.google.com/books/content?id=J7n2zQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "J7n2zQEACAAJ"
-    },
-    "relatedBookIds": [
-      "9783030053185",
-      "9783030053192",
-      "9781718503298",
-      "9781789618129",
-      "9781836643166",
-      "9789349887640",
-      "9781804611050",
-      "9789349887190",
-      "9798285356554",
-      "9789355517241"
-    ],
-    "manualClassification": {
-      "l1Id": "tech",
-      "l2Id": "programming",
-      "l3Id": "programming-general",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
-    "id": "9783030053192",
-    "title": "Automated Machine Learning",
-    "authors": [
-      "Frank Hutter",
-      "Lars Kotthoff",
-      "Joaquin Vanschoren"
-    ],
-    "categories": [
-      "Machine learning"
-    ],
-    "keywords": [
-      "Machine learning"
-    ],
-    "searchableText": "Automated Machine Learning Methods, Systems, Challenges Frank Hutter Lars Kotthoff Joaquin Vanschoren Machine learning Machine learning",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "subtitle": "Methods, Systems, Challenges",
-    "publishedDate": "2019",
-    "isbn10": "3030053199",
-    "isbn13": "9783030053192",
-    "language": "en",
-    "pageCount": 219,
-    "estimatedReadingHours": 4.4,
-    "thumbnailUrl": "https://books.google.com/books/content?id=AQssygEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "AQssygEACAAJ"
-    },
-    "relatedBookIds": [
-      "9783030053185",
-      "9781013271663",
-      "9781718503298",
-      "9781789618129",
-      "9781836643166",
-      "9789349887640",
-      "9781804611050",
-      "9789349887190",
-      "9798285356554",
-      "9789355517241"
-    ],
-    "manualClassification": {
-      "l1Id": "business",
-      "l2Id": "management",
-      "l3Id": "management-general",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
     "id": "9784815628758",
     "title": "画像・動画生成AI ComfyUIマスターガイド = Mastering ComfyUI AI Image & Video Generation",
     "authors": [
@@ -86969,60 +84759,6 @@
     }
   },
   {
-    "id": "9784295017936",
-    "title": "スッキリわかるJava入門",
-    "authors": [
-      "中山清喬",
-      "国本 大悟",
-      "フレアリンク",
-      "中山清喬",
-      "国本 大悟"
-    ],
-    "categories": [
-      "コンピュータ・IT"
-    ],
-    "keywords": [
-      "コンピュータ・IT"
-    ],
-    "searchableText": "スッキリわかるJava入門 中山清喬 国本大悟 フレアリンク 中山 清喬 国本 大悟 インプレス コンピュータ・IT コンピュータ・IT",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "インプレス",
-    "publishedDate": "202311",
-    "isbn10": "4295017930",
-    "isbn13": "9784295017936",
-    "language": "ja",
-    "pageCount": 760,
-    "estimatedReadingHours": 19,
-    "sourceIds": {
-      "googleBooksId": "NpbgEAAAQBAJ"
-    },
-    "relatedBookIds": [
-      "9784295007807",
-      "9784295011248",
-      "9784295005094",
-      "9784295018469",
-      "9784295013396",
-      "9784295020608",
-      "9784844336778",
-      "9784844333937",
-      "9784295005018",
-      "9784295012924"
-    ],
-    "manualClassification": {
-      "l1Id": "tech",
-      "l2Id": "data",
-      "l3Id": "sql",
-      "l4TagIds": [
-        "intro",
-        "beginner",
-        "readable"
-      ],
-      "l5TagIds": [
-        "non-engineer"
-      ]
-    }
-  },
-  {
     "id": "9784295010333",
     "title": "いちばんやさしいJavaの教本 : 人気講師が教えるプログラミングの基礎",
     "authors": [
@@ -87140,51 +84876,6 @@
     "estimatedReadingHours": 5.3,
     "sourceIds": {
       "googleBooksId": "crEVAgAACAAJ"
-    },
-    "relatedBookIds": [
-      "gb-blog-本当の自由を手に入れるお金の大学",
-      "gb-blog-敗者のゲーム",
-      "gb-blog-ウォール街のランダムウォーカー",
-      "gb-blog-justkeepbuying",
-      "gb-blog-金持ち父さん貧乏父さん",
-      "gb-blog-世界一やさしい株の教科書1年生",
-      "gb-blog-漫画バビロン大富豪の教え",
-      "gb-blog-きみのお金は誰のため",
-      "gb-blog-新nisa完全攻略投資術",
-      "gb-blog-勝てる日本株forbeginne"
-    ],
-    "manualClassification": {
-      "l1Id": "tech",
-      "l2Id": "programming",
-      "l3Id": "programming-general",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": [
-        "non-engineer"
-      ]
-    }
-  },
-  {
-    "id": "9784766501773",
-    "title": "C言語プログラミング入門",
-    "authors": [
-      "親生·西田",
-      "健治·五月女"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "C言語プログラミング入門 UNIX版 親生·西田 健治·五月女",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "subtitle": "UNIX版",
-    "publishedDate": "1985",
-    "isbn10": "4766501772",
-    "isbn13": "9784766501773",
-    "language": "ja",
-    "pageCount": 242,
-    "estimatedReadingHours": 6.1,
-    "sourceIds": {
-      "googleBooksId": "BCoRAgAACAAJ"
     },
     "relatedBookIds": [
       "gb-blog-本当の自由を手に入れるお金の大学",
@@ -88050,53 +85741,6 @@
     }
   },
   {
-    "id": "9784274801686",
-    "title": "Railsによるアジャイル Webアプリケーション開発",
-    "authors": [
-      "Sam Ruby",
-      "David Thomas",
-      "David Heinemeier Hansson"
-    ],
-    "categories": [
-      "Agile software development"
-    ],
-    "keywords": [
-      "Agile software development"
-    ],
-    "searchableText": "Railsによるアジャイル Webアプリケーション開発 Sam Ruby David Thomas David Heinemeier Hansson Agile software development Agile software development",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publishedDate": "2011",
-    "isbn10": "4274801683",
-    "isbn13": "9784274801686",
-    "language": "ja",
-    "pageCount": 415,
-    "estimatedReadingHours": 10.4,
-    "sourceIds": {
-      "googleBooksId": "9jAXDQEACAAJ"
-    },
-    "relatedBookIds": [
-      "9784274801341",
-      "9784274068669",
-      "gb-blog-本当の自由を手に入れるお金の大学",
-      "gb-blog-敗者のゲーム",
-      "gb-blog-ウォール街のランダムウォーカー",
-      "gb-blog-justkeepbuying",
-      "gb-blog-金持ち父さん貧乏父さん",
-      "gb-blog-世界一やさしい株の教科書1年生",
-      "gb-blog-漫画バビロン大富豪の教え",
-      "gb-blog-きみのお金は誰のため"
-    ],
-    "manualClassification": {
-      "l1Id": "tech",
-      "l2Id": "programming",
-      "l3Id": "backend",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
     "id": "9784295016465",
     "title": "1週間でJavaScriptの基礎が学べる本",
     "authors": [
@@ -88143,53 +85787,6 @@
       "l5TagIds": [
         "javascript"
       ]
-    }
-  },
-  {
-    "id": "9784274801341",
-    "title": "Railsによるアジャイル Webアプリケーション開発",
-    "authors": [
-      "Sam Ruby",
-      "David Thomas",
-      "David Heinemeier Hansson"
-    ],
-    "categories": [
-      "Agile software development"
-    ],
-    "keywords": [
-      "Agile software development"
-    ],
-    "searchableText": "Railsによるアジャイル Webアプリケーション開発 Sam Ruby David Thomas David Heinemeier Hansson Agile software development Agile software development",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publishedDate": "2009",
-    "isbn10": "4274801349",
-    "isbn13": "9784274801341",
-    "language": "ja",
-    "pageCount": 675,
-    "estimatedReadingHours": 16.9,
-    "sourceIds": {
-      "googleBooksId": "FzuKDAEACAAJ"
-    },
-    "relatedBookIds": [
-      "9784274801686",
-      "9784274068669",
-      "gb-blog-本当の自由を手に入れるお金の大学",
-      "gb-blog-敗者のゲーム",
-      "gb-blog-ウォール街のランダムウォーカー",
-      "gb-blog-justkeepbuying",
-      "gb-blog-金持ち父さん貧乏父さん",
-      "gb-blog-世界一やさしい株の教科書1年生",
-      "gb-blog-漫画バビロン大富豪の教え",
-      "gb-blog-きみのお金は誰のため"
-    ],
-    "manualClassification": {
-      "l1Id": "tech",
-      "l2Id": "programming",
-      "l3Id": "backend",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": []
     }
   },
   {
@@ -88326,52 +85923,6 @@
       "l5TagIds": [
         "non-engineer"
       ]
-    }
-  },
-  {
-    "id": "9784798142418",
-    "title": "スターティングGo言語",
-    "authors": [
-      "松尾愛賀"
-    ],
-    "categories": [
-      "Reference"
-    ],
-    "keywords": [
-      "Reference"
-    ],
-    "searchableText": "スターティングGo言語 松尾愛賀 翔泳社 Reference Reference",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "翔泳社",
-    "publishedDate": "201604",
-    "isbn10": "4798142417",
-    "isbn13": "9784798142418",
-    "language": "ja",
-    "pageCount": 434,
-    "estimatedReadingHours": 10.9,
-    "sourceIds": {
-      "googleBooksId": "o-gJDAAAQBAJ"
-    },
-    "relatedBookIds": [
-      "9784798158617",
-      "9784798143835",
-      "9784798166056",
-      "9784798156910",
-      "9784798167916",
-      "9784798172569",
-      "9784798167466",
-      "9784798170695",
-      "9784798167350",
-      "9784798163963"
-    ],
-    "manualClassification": {
-      "l1Id": "tech",
-      "l2Id": "programming",
-      "l3Id": "backend",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": []
     }
   },
   {
@@ -89361,53 +86912,6 @@
     }
   },
   {
-    "id": "9784798052588",
-    "title": "PHPフレームワークLaravel入門",
-    "authors": [
-      "掌田津耶乃"
-    ],
-    "categories": [
-      "Reference"
-    ],
-    "keywords": [
-      "Reference"
-    ],
-    "searchableText": "PHPフレームワークLaravel入門 掌田津耶乃 秀和システム Reference Reference",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "秀和システム",
-    "publishedDate": "201709",
-    "isbn10": "4798052582",
-    "isbn13": "9784798052588",
-    "language": "ja",
-    "pageCount": 357,
-    "estimatedReadingHours": 8.9,
-    "sourceIds": {
-      "googleBooksId": "Pw5NDwAAQBAJ"
-    },
-    "relatedBookIds": [
-      "9784798036892",
-      "9784798056920",
-      "9784798011769",
-      "9784798018089",
-      "9784798038872",
-      "9784798041650",
-      "9784798027210",
-      "9784798060996",
-      "9784798059075",
-      "9784798048574"
-    ],
-    "manualClassification": {
-      "l1Id": "business",
-      "l2Id": "management",
-      "l3Id": "management-general",
-      "l4TagIds": [
-        "intro",
-        "workbook"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
     "id": "9784863544178",
     "title": "基礎から学ぶLaravel",
     "authors": [
@@ -90054,60 +87558,6 @@
       "9784844335917",
       "9784844335207",
       "9784844335269"
-    ],
-    "manualClassification": {
-      "l1Id": "tech",
-      "l2Id": "data",
-      "l3Id": "sql",
-      "l4TagIds": [
-        "intro",
-        "beginner",
-        "workbook",
-        "readable"
-      ],
-      "l5TagIds": [
-        "sql",
-        "non-engineer"
-      ]
-    }
-  },
-  {
-    "id": "9784295013396",
-    "title": "スッキリわかるSQL入門 : ドリル256問付き!",
-    "authors": [
-      "中山清喬",
-      "飯田理恵子",
-      "フレアリンク"
-    ],
-    "categories": [
-      "コンピュータ・IT"
-    ],
-    "keywords": [
-      "コンピュータ・IT"
-    ],
-    "searchableText": "スッキリわかるSQL入門 : ドリル256問付き! 中山清喬 飯田理恵子 フレアリンク インプレス コンピュータ・IT コンピュータ・IT",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "インプレス",
-    "publishedDate": "202204",
-    "isbn10": "4295013390",
-    "isbn13": "9784295013396",
-    "language": "ja",
-    "pageCount": 512,
-    "estimatedReadingHours": 12.8,
-    "sourceIds": {
-      "googleBooksId": "-btmEAAAQBAJ"
-    },
-    "relatedBookIds": [
-      "9784295005094",
-      "9784295018469",
-      "9784295011248",
-      "9784295007807",
-      "9784295017936",
-      "9784844333937",
-      "9784295020608",
-      "9784844336778",
-      "9784295005018",
-      "9784295012924"
     ],
     "manualClassification": {
       "l1Id": "tech",
@@ -91621,105 +89071,6 @@
     }
   },
   {
-    "id": "9784815617929",
-    "title": "AWS認定ソリューションアーキテクト〈プロフェッショナル〉",
-    "authors": [
-      "山下光洋"
-    ],
-    "categories": [
-      "コンピュータ・IT"
-    ],
-    "keywords": [
-      "コンピュータ・IT"
-    ],
-    "searchableText": "AWS認定ソリューションアーキテクト〈プロフェッショナル〉 （AWS認定資格試験テキスト） 山下光洋 SBクリエイティブ コンピュータ・IT コンピュータ・IT",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "subtitle": "（AWS認定資格試験テキスト）",
-    "publisher": "SBクリエイティブ",
-    "publishedDate": "202306",
-    "isbn10": "4815617929",
-    "isbn13": "9784815617929",
-    "language": "ja",
-    "pageCount": 483,
-    "estimatedReadingHours": 12.1,
-    "sourceIds": {
-      "googleBooksId": "ecfAEAAAQBAJ"
-    },
-    "relatedBookIds": [
-      "9784815622749",
-      "9784815625382",
-      "9784797397406",
-      "9784815629120",
-      "9784815613891",
-      "9784815603205",
-      "9784815606381",
-      "9784797388084",
-      "9784815617271",
-      "9784815609528"
-    ],
-    "manualClassification": {
-      "l1Id": "tech",
-      "l2Id": "cert",
-      "l3Id": "aws-cert",
-      "l4TagIds": [
-        "exam"
-      ],
-      "l5TagIds": [
-        "aws"
-      ]
-    }
-  },
-  {
-    "id": "9784815625382",
-    "title": "AWS認定クラウドプラクティショナー",
-    "authors": [
-      "山下光洋",
-      "海老原寛之"
-    ],
-    "categories": [
-      "コンピュータ・IT"
-    ],
-    "keywords": [
-      "コンピュータ・IT"
-    ],
-    "searchableText": "AWS認定クラウドプラクティショナー （AWS認定資格試験テキスト） 山下光洋 海老原寛之 SBクリエイティブ コンピュータ・IT コンピュータ・IT",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "subtitle": "（AWS認定資格試験テキスト）",
-    "publisher": "SBクリエイティブ",
-    "publishedDate": "202404",
-    "isbn10": "4815625387",
-    "isbn13": "9784815625382",
-    "language": "ja",
-    "pageCount": 439,
-    "estimatedReadingHours": 11,
-    "sourceIds": {
-      "googleBooksId": "8HT8EAAAQBAJ"
-    },
-    "relatedBookIds": [
-      "9784815622749",
-      "9784797397406",
-      "9784815617929",
-      "9784815629120",
-      "9784815613891",
-      "9784815603205",
-      "9784815606381",
-      "9784797388084",
-      "9784815617271",
-      "9784815609528"
-    ],
-    "manualClassification": {
-      "l1Id": "tech",
-      "l2Id": "cert",
-      "l3Id": "aws-cert",
-      "l4TagIds": [
-        "exam"
-      ],
-      "l5TagIds": [
-        "aws"
-      ]
-    }
-  },
-  {
     "id": "9784501551803",
     "title": "テスト駆動開発",
     "authors": [
@@ -91818,53 +89169,6 @@
       "l5TagIds": [
         "implementation"
       ]
-    }
-  },
-  {
-    "id": "9784274217883",
-    "title": "テスト駆動開発",
-    "authors": [
-      "Kent Beck",
-      "和田卓人"
-    ],
-    "categories": [
-      "コンピュータ・IT"
-    ],
-    "keywords": [
-      "コンピュータ・IT"
-    ],
-    "searchableText": "テスト駆動開発 Kent Beck 和田卓人 オーム社 コンピュータ・IT コンピュータ・IT",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "オーム社",
-    "publishedDate": "201710",
-    "isbn10": "4274217884",
-    "isbn13": "9784274217883",
-    "language": "ja",
-    "pageCount": 343,
-    "estimatedReadingHours": 8.6,
-    "sourceIds": {
-      "googleBooksId": "HHA9DwAAQBAJ"
-    },
-    "relatedBookIds": [
-      "9784274802089",
-      "9780137585236",
-      "9784274227943",
-      "9784274230448",
-      "9784274505218",
-      "9784274230431",
-      "9784274219375",
-      "9784274224546",
-      "9784274227004",
-      "9784274228179"
-    ],
-    "manualClassification": {
-      "l1Id": "tech",
-      "l2Id": "programming",
-      "l3Id": "dev-process",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": []
     }
   },
   {
@@ -92697,50 +90001,6 @@
     }
   },
   {
-    "id": "9784890527977",
-    "title": "オブジェクト指向における再利用のためのデザインパターン",
-    "authors": [
-      "Erich Gamma",
-      "本位田真一",
-      "吉田和樹"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "オブジェクト指向における再利用のためのデザインパターン Erich Gamma 本位田真一 吉田和樹 ソフトバンク出版事業部",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "ソフトバンク出版事業部",
-    "publishedDate": "199510",
-    "isbn10": "4890527974",
-    "isbn13": "9784890527977",
-    "language": "ja",
-    "pageCount": 414,
-    "estimatedReadingHours": 10.4,
-    "sourceIds": {
-      "googleBooksId": "IVzKAQAACAAJ"
-    },
-    "relatedBookIds": [
-      "9784797311129",
-      "gb-blog-本当の自由を手に入れるお金の大学",
-      "gb-blog-敗者のゲーム",
-      "gb-blog-ウォール街のランダムウォーカー",
-      "gb-blog-justkeepbuying",
-      "gb-blog-金持ち父さん貧乏父さん",
-      "gb-blog-世界一やさしい株の教科書1年生",
-      "gb-blog-漫画バビロン大富豪の教え",
-      "gb-blog-きみのお金は誰のため",
-      "gb-blog-新nisa完全攻略投資術"
-    ],
-    "manualClassification": {
-      "l1Id": "business",
-      "l2Id": "management",
-      "l3Id": "management-general",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
     "id": "9784798126135",
     "title": "10日でおぼえるLinuxサーバー入門教室",
     "authors": [
@@ -93449,57 +90709,6 @@
       "9784274227004",
       "9784274228179",
       "9784274223716"
-    ],
-    "manualClassification": {
-      "l1Id": "tech",
-      "l2Id": "infra-cloud",
-      "l3Id": "network",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": [
-        "non-engineer"
-      ]
-    }
-  },
-  {
-    "id": "9784274068768",
-    "title": "マスタリングTCP/IP 入門編",
-    "authors": [
-      "竹下降史",
-      "村山公保",
-      "荒井透",
-      "竹下隆史"
-    ],
-    "categories": [
-      "Reference"
-    ],
-    "keywords": [
-      "Reference"
-    ],
-    "searchableText": "マスタリングTCP/IP 入門編 竹下降史 村山公保 荒井透 竹下隆史 オーム社 Reference Reference",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "オーム社",
-    "publishedDate": "201202",
-    "isbn10": "4274068765",
-    "isbn13": "9784274068768",
-    "language": "ja",
-    "pageCount": 376,
-    "estimatedReadingHours": 9.4,
-    "sourceIds": {
-      "googleBooksId": "KgyByBXNObUC"
-    },
-    "relatedBookIds": [
-      "9784274067525",
-      "9784873113647",
-      "9784274068669",
-      "9784873112497",
-      "9784873111780",
-      "9784274065354",
-      "9784274224478",
-      "9784798035451",
-      "9784798032412",
-      "9784054066977"
     ],
     "manualClassification": {
       "l1Id": "tech",
@@ -97115,53 +94324,6 @@
     }
   },
   {
-    "id": "9784798174976",
-    "title": "行政情報システム受託・開発の教科書",
-    "authors": [
-      "根本 直樹",
-      "根本 直樹"
-    ],
-    "categories": [
-      "Reference"
-    ],
-    "keywords": [
-      "Reference"
-    ],
-    "searchableText": "行政情報システム受託・開発の教科書 根本直樹 根本 直樹 翔泳社 Reference Reference",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "翔泳社",
-    "publishedDate": "202211",
-    "isbn10": "4798174971",
-    "isbn13": "9784798174976",
-    "language": "ja",
-    "pageCount": 210,
-    "estimatedReadingHours": 5.3,
-    "sourceIds": {
-      "googleBooksId": "vfujEAAAQBAJ"
-    },
-    "relatedBookIds": [
-      "9784798158617",
-      "9784798143835",
-      "9784798166056",
-      "9784798156910",
-      "9784798167916",
-      "9784798172569",
-      "9784798167466",
-      "9784798170695",
-      "9784798167350",
-      "9784798163963"
-    ],
-    "manualClassification": {
-      "l1Id": "tech",
-      "l2Id": "programming",
-      "l3Id": "programming-general",
-      "l4TagIds": [
-        "exam"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
     "id": "9784295018698",
     "title": "ITパスポート教科書+模擬問題. 令和6年度",
     "authors": [
@@ -98421,48 +95583,6 @@
     }
   },
   {
-    "id": "9784865753448",
-    "title": "ITパスポート試験対策書",
-    "authors": [
-      "アイテックIT人材教育研究部"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "ITパスポート試験対策書 アイテックIT人材教育研究部 アイテック",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "アイテック",
-    "publishedDate": "202502",
-    "isbn10": "4865753443",
-    "isbn13": "9784865753448",
-    "language": "ja",
-    "sourceIds": {
-      "googleBooksId": "pScI0QEACAAJ"
-    },
-    "relatedBookIds": [
-      "9784865752878",
-      "9784865752663",
-      "9784865751437",
-      "9784865750225",
-      "gb-blog-本当の自由を手に入れるお金の大学",
-      "gb-blog-敗者のゲーム",
-      "gb-blog-ウォール街のランダムウォーカー",
-      "gb-blog-justkeepbuying",
-      "gb-blog-金持ち父さん貧乏父さん",
-      "gb-blog-世界一やさしい株の教科書1年生"
-    ],
-    "manualClassification": {
-      "l1Id": "tech",
-      "l2Id": "cert",
-      "l3Id": "fe",
-      "l4TagIds": [
-        "exam"
-      ],
-      "l5TagIds": [
-        "exam-freq"
-      ]
-    }
-  },
-  {
     "id": "9784872688764",
     "title": "ITパスポート試験対策書",
     "authors": [
@@ -98597,51 +95717,6 @@
       "l4TagIds": [
         "exam",
         "workbook"
-      ],
-      "l5TagIds": [
-        "exam-freq"
-      ]
-    }
-  },
-  {
-    "id": "9784865751437",
-    "title": "ITパスポート試験対策書",
-    "authors": [
-      "アイテックIT人材教育研究部"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "ITパスポート試験対策書 iパス4.0対応 アイテックIT人材教育研究部",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "subtitle": "iパス4.0対応",
-    "publishedDate": "2019-03-22",
-    "isbn10": "4865751432",
-    "isbn13": "9784865751437",
-    "language": "ja",
-    "pageCount": 627,
-    "estimatedReadingHours": 15.7,
-    "thumbnailUrl": "https://books.google.com/books/content?id=LnNiwwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "LnNiwwEACAAJ"
-    },
-    "relatedBookIds": [
-      "9784865753448",
-      "9784865752878",
-      "9784865752663",
-      "gb-blog-本当の自由を手に入れるお金の大学",
-      "gb-blog-敗者のゲーム",
-      "gb-blog-ウォール街のランダムウォーカー",
-      "gb-blog-justkeepbuying",
-      "gb-blog-金持ち父さん貧乏父さん",
-      "gb-blog-世界一やさしい株の教科書1年生",
-      "gb-blog-漫画バビロン大富豪の教え"
-    ],
-    "manualClassification": {
-      "l1Id": "tech",
-      "l2Id": "cert",
-      "l3Id": "fe",
-      "l4TagIds": [
-        "exam"
       ],
       "l5TagIds": [
         "exam-freq"
@@ -98937,50 +96012,6 @@
     }
   },
   {
-    "id": "9784865752878",
-    "title": "ITパスポート試験対策書",
-    "authors": [
-      "アイテックIT人材教育研究部"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "ITパスポート試験対策書 アイテックIT人材教育研究部 アイテック",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "アイテック",
-    "publishedDate": "202206",
-    "isbn10": "4865752870",
-    "isbn13": "9784865752878",
-    "language": "ja",
-    "pageCount": 535,
-    "estimatedReadingHours": 13.4,
-    "sourceIds": {
-      "googleBooksId": "ef8yzwEACAAJ"
-    },
-    "relatedBookIds": [
-      "9784865753448",
-      "9784865752663",
-      "9784865751437",
-      "9784865750225",
-      "gb-blog-本当の自由を手に入れるお金の大学",
-      "gb-blog-敗者のゲーム",
-      "gb-blog-ウォール街のランダムウォーカー",
-      "gb-blog-justkeepbuying",
-      "gb-blog-金持ち父さん貧乏父さん",
-      "gb-blog-世界一やさしい株の教科書1年生"
-    ],
-    "manualClassification": {
-      "l1Id": "tech",
-      "l2Id": "cert",
-      "l3Id": "fe",
-      "l4TagIds": [
-        "exam"
-      ],
-      "l5TagIds": [
-        "exam-freq"
-      ]
-    }
-  },
-  {
     "id": "9784893118691",
     "title": "よくわかるマスター Microsoft Office Specialist Excel 2007 完全マスターⅡ 模擬問題集",
     "authors": [
@@ -99022,51 +96053,6 @@
         "exam"
       ],
       "l5TagIds": []
-    }
-  },
-  {
-    "id": "9784865752663",
-    "title": "ITパスポート試験対策書 : 教科書と問題集をこの1冊に!",
-    "authors": [
-      "アイテックIT人材教育研究部"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "ITパスポート試験対策書 : 教科書と問題集をこの1冊に! アイテックIT人材教育研究部 アイテック",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "アイテック",
-    "publishedDate": "202104",
-    "isbn10": "4865752668",
-    "isbn13": "9784865752663",
-    "language": "ja",
-    "pageCount": 533,
-    "estimatedReadingHours": 13.3,
-    "sourceIds": {
-      "googleBooksId": "bTFkzgEACAAJ"
-    },
-    "relatedBookIds": [
-      "9784865753448",
-      "9784865752878",
-      "9784865751437",
-      "9784865750225",
-      "gb-blog-本当の自由を手に入れるお金の大学",
-      "gb-blog-敗者のゲーム",
-      "gb-blog-ウォール街のランダムウォーカー",
-      "gb-blog-justkeepbuying",
-      "gb-blog-金持ち父さん貧乏父さん",
-      "gb-blog-世界一やさしい株の教科書1年生"
-    ],
-    "manualClassification": {
-      "l1Id": "tech",
-      "l2Id": "cert",
-      "l3Id": "fe",
-      "l4TagIds": [
-        "exam",
-        "workbook"
-      ],
-      "l5TagIds": [
-        "exam-freq"
-      ]
     }
   },
   {
@@ -100374,56 +97360,6 @@
       "l4TagIds": [
         "workbook",
         "exam"
-      ],
-      "l5TagIds": [
-        "exam-freq"
-      ]
-    }
-  },
-  {
-    "id": "9784798026299",
-    "title": "過去問CD付基本情報技術者スーパー合格本過去問題集",
-    "authors": [
-      "三輪幸市"
-    ],
-    "categories": [
-      "Reference"
-    ],
-    "keywords": [
-      "Reference"
-    ],
-    "searchableText": "過去問CD付基本情報技術者スーパー合格本過去問題集 三輪幸市 秀和システム Reference Reference",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "秀和システム",
-    "publishedDate": "2010-06-05",
-    "isbn10": "4798026298",
-    "isbn13": "9784798026299",
-    "language": "ja",
-    "pageCount": 536,
-    "estimatedReadingHours": 13.4,
-    "thumbnailUrl": "https://books.google.com/books/content?id=XYIPSLU2erMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "XYIPSLU2erMC"
-    },
-    "relatedBookIds": [
-      "9784798024691",
-      "9784798021980",
-      "9784798027937",
-      "9784798027944",
-      "9784798035451",
-      "9784798032412",
-      "9784798028422",
-      "9784798060255",
-      "9784798031538",
-      "9784798060781"
-    ],
-    "manualClassification": {
-      "l1Id": "tech",
-      "l2Id": "cert",
-      "l3Id": "fe",
-      "l4TagIds": [
-        "exam",
-        "workbook"
       ],
       "l5TagIds": [
         "exam-freq"
@@ -102167,57 +99103,6 @@
     }
   },
   {
-    "id": "9784815617943",
-    "title": "AWS認定ソリューションアーキテクト〈アソシエイト〉",
-    "authors": [
-      "佐々木拓郎",
-      "林晋一郎",
-      "金澤圭",
-      "小西秀和"
-    ],
-    "categories": [
-      "コンピュータ・IT"
-    ],
-    "keywords": [
-      "コンピュータ・IT"
-    ],
-    "searchableText": "AWS認定ソリューションアーキテクト〈アソシエイト〉 佐々木拓郎 林晋一郎 金澤圭 小西秀和 SBクリエイティブ コンピュータ・IT コンピュータ・IT",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "SBクリエイティブ",
-    "publishedDate": "202310",
-    "isbn10": "4815617945",
-    "isbn13": "9784815617943",
-    "language": "ja",
-    "pageCount": 403,
-    "estimatedReadingHours": 10.1,
-    "sourceIds": {
-      "googleBooksId": "C4rYEAAAQBAJ"
-    },
-    "relatedBookIds": [
-      "9784797382570",
-      "9784797386318",
-      "9784815607388",
-      "9784815629120",
-      "9784815613891",
-      "9784815603205",
-      "9784815606381",
-      "9784797388084",
-      "9784815617271",
-      "9784815609528"
-    ],
-    "manualClassification": {
-      "l1Id": "tech",
-      "l2Id": "cert",
-      "l3Id": "aws-cert",
-      "l4TagIds": [
-        "exam"
-      ],
-      "l5TagIds": [
-        "aws"
-      ]
-    }
-  },
-  {
     "id": "9784865943474",
     "title": "AWS認定ソリューションアーキテクト-アソシエイト問題集",
     "authors": [
@@ -102309,55 +99194,6 @@
       "l5TagIds": [
         "aws",
         "exam-freq"
-      ]
-    }
-  },
-  {
-    "id": "9784797397406",
-    "title": "AWS認定クラウドプラクティショナー",
-    "authors": [
-      "山下光洋",
-      "海老原寛之"
-    ],
-    "categories": [
-      "コンピュータ・IT"
-    ],
-    "keywords": [
-      "コンピュータ・IT"
-    ],
-    "searchableText": "AWS認定クラウドプラクティショナー 山下光洋 海老原寛之 SBクリエイティブ コンピュータ・IT コンピュータ・IT",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "SBクリエイティブ",
-    "publishedDate": "201905",
-    "isbn10": "4797397403",
-    "isbn13": "9784797397406",
-    "language": "ja",
-    "pageCount": 291,
-    "estimatedReadingHours": 7.3,
-    "sourceIds": {
-      "googleBooksId": "MkuTDwAAQBAJ"
-    },
-    "relatedBookIds": [
-      "9784815622749",
-      "9784815625382",
-      "9784815617929",
-      "9784815629120",
-      "9784815613891",
-      "9784815603205",
-      "9784815606381",
-      "9784797388084",
-      "9784815617271",
-      "9784815609528"
-    ],
-    "manualClassification": {
-      "l1Id": "tech",
-      "l2Id": "cert",
-      "l3Id": "aws-cert",
-      "l4TagIds": [
-        "exam"
-      ],
-      "l5TagIds": [
-        "aws"
       ]
     }
   },
@@ -106051,48 +102887,6 @@
     }
   },
   {
-    "id": "9784798151236",
-    "title": "LPICレベル2スピードマスター問題集 : Linux技術者認定試験学習書",
-    "authors": [
-      "大竹龍史"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "LPICレベル2スピードマスター問題集 : Linux技術者認定試験学習書 大竹龍史 翔泳社",
-    "updatedAt": "2026-03-13T12:52:44.397Z",
-    "publisher": "翔泳社",
-    "publishedDate": "201710",
-    "isbn13": "9784798151236",
-    "language": "ja",
-    "relatedBookIds": [
-      "9784798179209",
-      "9784798184449",
-      "9784798189901",
-      "9784798188942",
-      "9784798189437",
-      "9784798158617",
-      "9784798132761",
-      "9784798143835",
-      "9784798166520",
-      "9784798167213"
-    ],
-    "sourceIds": {
-      "googleBooksId": "_lw6DwAAQBAJ"
-    },
-    "manualClassification": {
-      "l1Id": "tech",
-      "l2Id": "cert",
-      "l3Id": "cert-general",
-      "l4TagIds": [
-        "workbook",
-        "exam"
-      ],
-      "l5TagIds": [
-        "exam-freq"
-      ]
-    }
-  },
-  {
     "id": "9784295023982",
     "title": "はじめての統計検定2級テキスト&問題集 : ゼロからでも、合格できる!",
     "authors": [
@@ -108640,49 +105434,6 @@
     }
   },
   {
-    "id": "9784295009221",
-    "title": "できるMicrosoft 365",
-    "authors": [
-      "株式会社 インサイトイメージ",
-      "できるシリーズ編集部"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "できるMicrosoft 365 株式会社インサイトイメージ できるシリーズ編集部 インプレス",
-    "updatedAt": "2026-03-13T12:52:44.397Z",
-    "publisher": "インプレス",
-    "publishedDate": "202007",
-    "isbn13": "9784295009221",
-    "language": "ja",
-    "relatedBookIds": [
-      "9784295005018",
-      "9784295012924",
-      "9784295000235",
-      "9784844337058",
-      "9784295015505",
-      "9784295010302",
-      "9784295007791",
-      "9784844339328",
-      "9784295017813",
-      "9784295005377"
-    ],
-    "sourceIds": {
-      "googleBooksId": "BYH1DwAAQBAJ"
-    },
-    "manualClassification": {
-      "l1Id": "investing",
-      "l2Id": "stock",
-      "l3Id": "investing-general",
-      "l4TagIds": [
-        "intro",
-        "series"
-      ],
-      "l5TagIds": [
-        "series"
-      ]
-    }
-  },
-  {
     "id": "9784799111437",
     "title": "任せるコツ : 自分も相手もラクになる正しい\"丸投げ\"",
     "authors": [
@@ -109461,43 +106212,6 @@
       "gb-blog-漫画バビロン大富豪の教え",
       "gb-blog-きみのお金は誰のため",
       "gb-blog-新nisa完全攻略投資術"
-    ],
-    "manualClassification": {
-      "l1Id": "investing",
-      "l2Id": "stock",
-      "l3Id": "investing-general",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
-    "id": "9784532358235",
-    "title": "ウォール街のランダム・ウォーカー : 株式投資の不滅の真理",
-    "authors": [
-      "Burton Gordon Malkiel",
-      "井手正介"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "ウォール街のランダム・ウォーカー : 株式投資の不滅の真理 Burton Gordon Malkiel 井手正介 日本経済新聞出版社",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "日本経済新聞出版社",
-    "publishedDate": "201907",
-    "isbn13": "9784532358235",
-    "language": "ja",
-    "relatedBookIds": [
-      "9784532350970",
-      "9784532317614",
-      "gb-blog-本当の自由を手に入れるお金の大学",
-      "gb-blog-敗者のゲーム",
-      "gb-blog-ウォール街のランダムウォーカー",
-      "gb-blog-justkeepbuying",
-      "gb-blog-金持ち父さん貧乏父さん",
-      "gb-blog-世界一やさしい株の教科書1年生",
-      "gb-blog-漫画バビロン大富豪の教え",
-      "gb-blog-きみのお金は誰のため"
     ],
     "manualClassification": {
       "l1Id": "investing",
@@ -116732,43 +113446,6 @@
     }
   },
   {
-    "id": "9784000072786",
-    "title": "エチカ : 倫理学 上",
-    "authors": [
-      "Benedictus de Spinoza",
-      "畠中尚志"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "エチカ : 倫理学 上 Benedictus de Spinoza 畠中尚志 岩波書店",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "岩波書店",
-    "publishedDate": "200612",
-    "isbn13": "9784000072786",
-    "language": "ja",
-    "relatedBookIds": [
-      "9784003361542",
-      "9784000261289",
-      "9784000094269",
-      "9784004319351",
-      "9784000012003",
-      "9784000107013",
-      "9784007306648",
-      "9784000069649",
-      "9784004317135",
-      "9784000108874"
-    ],
-    "manualClassification": {
-      "l1Id": "philosophy",
-      "l2Id": "ethics-life",
-      "l3Id": "philosophy-general",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
     "id": "9784000258180",
     "title": "ロールズ政治哲学史講義. 1",
     "authors": [
@@ -122821,42 +119498,6 @@
     }
   },
   {
-    "id": "9784873612294",
-    "title": "微分積分入門",
-    "authors": [
-      "榊真"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "微分積分入門 榊真 学術図書出版社",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "学術図書出版社",
-    "publishedDate": "200004",
-    "isbn13": "9784873612294",
-    "language": "ja",
-    "relatedBookIds": [
-      "gb-blog-本当の自由を手に入れるお金の大学",
-      "gb-blog-敗者のゲーム",
-      "gb-blog-ウォール街のランダムウォーカー",
-      "gb-blog-justkeepbuying",
-      "gb-blog-金持ち父さん貧乏父さん",
-      "gb-blog-世界一やさしい株の教科書1年生",
-      "gb-blog-漫画バビロン大富豪の教え",
-      "gb-blog-きみのお金は誰のため",
-      "gb-blog-新nisa完全攻略投資術",
-      "gb-blog-勝てる日本株forbeginne"
-    ],
-    "manualClassification": {
-      "l1Id": "business",
-      "l2Id": "management",
-      "l3Id": "management-general",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
     "id": "9784563002695",
     "title": "基礎数学入門 : 微分積分/線形代数",
     "authors": [
@@ -123020,44 +119661,6 @@
     "language": "ja",
     "relatedBookIds": [
       "9784798155067",
-      "9784798179209",
-      "9784798184449",
-      "9784798189901",
-      "9784798188942",
-      "9784798189437",
-      "9784798158617",
-      "9784798132761",
-      "9784798143835",
-      "9784798166520"
-    ],
-    "manualClassification": {
-      "l1Id": "tech",
-      "l2Id": "data",
-      "l3Id": "stats-basic",
-      "l4TagIds": [
-        "exam"
-      ],
-      "l5TagIds": [
-        "python"
-      ]
-    }
-  },
-  {
-    "id": "9784798155067",
-    "title": "Pythonで学ぶあたらしい統計学の教科書",
-    "authors": [
-      "馬場真哉"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "Pythonで学ぶあたらしい統計学の教科書 馬場真哉 翔泳社",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "翔泳社",
-    "publishedDate": "201804",
-    "isbn13": "9784798155067",
-    "language": "ja",
-    "relatedBookIds": [
-      "9784798171944",
       "9784798179209",
       "9784798184449",
       "9784798189901",
@@ -123941,42 +120544,6 @@
       "l1Id": "science",
       "l2Id": "physics-space",
       "l3Id": "quantum",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
-    "id": "9784764906716",
-    "title": "代数トポロジーの基礎 : 基本群とホモロジー群",
-    "authors": [
-      "和久井道久"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "代数トポロジーの基礎 : 基本群とホモロジー群 和久井道久 近代科学社",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "近代科学社",
-    "publishedDate": "202311",
-    "isbn13": "9784764906716",
-    "language": "ja",
-    "relatedBookIds": [
-      "9784764960183",
-      "9784764906518",
-      "9784764906129",
-      "9784764907676",
-      "9784764904903",
-      "9784764907072",
-      "9784764906204",
-      "9784764907515",
-      "9784764906006",
-      "9784764907553"
-    ],
-    "manualClassification": {
-      "l1Id": "science",
-      "l2Id": "general-education",
-      "l3Id": "science-general",
       "l4TagIds": [
         "intro"
       ],
@@ -125782,42 +122349,6 @@
     }
   },
   {
-    "id": "9784091871442",
-    "title": "アオアシ. 2",
-    "authors": [
-      "小林有吾"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "アオアシ. 2 小林有吾 小学館",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "小学館",
-    "publishedDate": "201508",
-    "isbn13": "9784091871442",
-    "language": "ja",
-    "relatedBookIds": [
-      "9784098510900",
-      "gb-blog-アオアシ",
-      "9784091285690",
-      "9784098730452",
-      "9784091844811",
-      "gb-blog-本当の自由を手に入れるお金の大学",
-      "gb-blog-敗者のゲーム",
-      "gb-blog-ウォール街のランダムウォーカー",
-      "gb-blog-justkeepbuying",
-      "gb-blog-金持ち父さん貧乏父さん"
-    ],
-    "manualClassification": {
-      "l1Id": "business",
-      "l2Id": "management",
-      "l3Id": "management-general",
-      "l4TagIds": [
-        "intro"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
     "id": "9784063807882",
     "title": "昭和元禄落語心中. 8",
     "authors": [
@@ -127541,39 +124072,6 @@
       "googleBooksId": "LxdfrgEACAAJ"
     },
     "updatedAt": "2026-03-17T12:44:16.683Z",
-    "manualClassification": {
-      "l1Id": "manga",
-      "l2Id": "seinen",
-      "l3Id": "social",
-      "l4TagIds": [
-        "readable"
-      ]
-    }
-  },
-  {
-    "id": "9784063883395",
-    "title": "インベスターZ(1)",
-    "authors": [
-      "三田紀房"
-    ],
-    "publisher": "コルク",
-    "publishedDate": "2013-09-20",
-    "isbn13": "9784063883395",
-    "language": "ja",
-    "pageCount": 210,
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "コミック"
-    ],
-    "searchableText": "インベスターZ(1) 三田紀房 コルク 漫画 コミック",
-    "thumbnailUrl": "https://books.google.com/books/content?id=aTtNDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "aTtNDAAAQBAJ"
-    },
-    "updatedAt": "2026-03-17T12:44:19.215Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "seinen",
