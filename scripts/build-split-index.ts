@@ -16,6 +16,20 @@ import { resolveBookClassification } from "../src/lib/categoryClassifier";
 
 // ── 型定義 ───────────────────────────────────────────────────────
 
+// ムードタグ型（books.index.json から引き継ぐ）
+interface MoodTags {
+  emotionalTags?: string[];
+  purposeTags?: string[];
+  atmosphereTags?: string[];
+  paceTag?: string;
+  depthTag?: string;
+  readingEaseTag?: string;
+  completionStatus?: string;
+  estimatedReadingTimeCategory?: string;
+  recommendationCatch?: string;
+  recommendedFor?: string[];
+}
+
 interface SourceBookIndex {
   id: string;
   title: string;
@@ -35,6 +49,7 @@ interface SourceBookIndex {
   sourceIds?: {
     googleBooksId?: string;
   };
+  moodTags?: MoodTags;
 }
 
 interface SplitBookIndex {
@@ -66,6 +81,7 @@ interface SplitBookIndex {
     l3: number;
   };
   reasons: string[];
+  moodTags?: MoodTags;
 }
 
 // ── パス別インデックス構築 ────────────────────────────────────────
@@ -143,6 +159,7 @@ for (const raw of rawData) {
   if (raw.sourceIds?.googleBooksId) {
     splitBook.sourceIds = { googleBooksId: raw.sourceIds.googleBooksId };
   }
+  if (raw.moodTags) splitBook.moodTags = raw.moodTags;
 
   if (!l1Groups.has(l1.id)) l1Groups.set(l1.id, []);
   l1Groups.get(l1.id)!.push(splitBook);

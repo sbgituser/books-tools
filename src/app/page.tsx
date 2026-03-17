@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { PRESET_SEARCHES } from "@/constants/bookTags";
 
 export const metadata: Metadata = {
   title: "Books Tools | カテゴリと類似度で本を探す",
@@ -140,6 +141,55 @@ export default function HomePage() {
                 </button>
               </div>
             </form>
+          </div>
+        </section>
+
+        {/* 気分・目的から漫画を探す（新機能） */}
+        <section className="max-w-5xl mx-auto px-4 py-12">
+          <div className="bg-gradient-to-br from-rose-50 to-stone-50 border border-rose-200 rounded-3xl p-6 sm:p-8">
+            {/* ヘッダー */}
+            <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-6">
+              <div>
+                <p className="text-rose-500 text-xs font-bold uppercase tracking-widest mb-2">New Feature</p>
+                <h2 className="text-xl sm:text-2xl font-bold text-stone-900 mb-1">
+                  気分・目的から漫画を探す
+                </h2>
+                <p className="text-stone-500 text-sm">
+                  「泣きたい」「頭を使いたい」など、<strong className="text-stone-700">読みたい体験</strong>から逆引きできます
+                </p>
+              </div>
+              <Link
+                href="/manga/mood"
+                className="inline-flex items-center gap-2 bg-rose-500 hover:bg-rose-600 text-white text-sm font-semibold px-5 py-2.5 rounded-xl transition-colors whitespace-nowrap"
+              >
+                すべての気分で探す →
+              </Link>
+            </div>
+
+            {/* プリセットタグ一覧 */}
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2">
+              {PRESET_SEARCHES.slice(0, 10).map(preset => (
+                <Link
+                  key={preset.slug}
+                  href={`/manga/by-mood/${preset.slug}`}
+                  className="flex items-center gap-2 bg-white rounded-xl px-3 py-3 border border-stone-200 hover:border-rose-400 hover:shadow-sm transition-all group"
+                >
+                  <span className="text-xl shrink-0" aria-hidden="true">{preset.icon}</span>
+                  <div className="min-w-0">
+                    <p className="text-sm font-bold text-stone-800 group-hover:text-rose-700 transition-colors truncate">
+                      {preset.label}
+                    </p>
+                    <p className="text-xs text-stone-400 truncate">{preset.description}</p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+
+            {/* Amazonとの比較テキスト */}
+            <p className="mt-5 text-xs text-stone-400 text-center">
+              タイトルが分からなくても探せます —
+              <span className="text-stone-500 font-semibold ml-1">Amazonでは見つかりにくい「読みたい体験」で絞り込む新しい検索体験</span>
+            </p>
           </div>
         </section>
 
