@@ -35762,11 +35762,13 @@
   {
     "id": "9784774152615",
     "title": "プログラマー\"まだまだ\"現役続行",
-    "authors": [],
+    "authors": [
+      "柴田芳樹"
+    ],
     "categories": [],
     "keywords": [],
-    "searchableText": "プログラマー\"まだまだ\"現役続行 株式会社 技術評論社",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
+    "searchableText": "プログラマー\"まだまだ\"現役続行 柴田芳樹 株式会社 技術評論社",
+    "updatedAt": "2026-03-17T13:29:36.338Z",
     "publisher": "株式会社 技術評論社",
     "isbn10": "4774152617",
     "isbn13": "9784774152615",
@@ -35797,7 +35799,8 @@
         "intro"
       ],
       "l5TagIds": []
-    }
+    },
+    "publishedDate": "2010-10-10"
   },
   {
     "id": "9784274219375",
@@ -35898,11 +35901,13 @@
   {
     "id": "9784774152769",
     "title": "ソフトウェア開発の名著を読む【第二版】",
-    "authors": [],
+    "authors": [
+      "柴田芳樹"
+    ],
     "categories": [],
     "keywords": [],
-    "searchableText": "ソフトウェア開発の名著を読む【第二版】 株式会社 技術評論社",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
+    "searchableText": "ソフトウェア開発の名著を読む【第二版】 柴田芳樹 株式会社 技術評論社",
+    "updatedAt": "2026-03-17T13:29:37.028Z",
     "publisher": "株式会社 技術評論社",
     "isbn10": "4774152765",
     "isbn13": "9784774152769",
@@ -35933,7 +35938,8 @@
         "intro"
       ],
       "l5TagIds": []
-    }
+    },
+    "publishedDate": "2009-11"
   },
   {
     "id": "9784814400973",
@@ -48572,8 +48578,8 @@
     "keywords": [
       "ドイツ文学"
     ],
-    "searchableText": "節約家計ノート２０１９ 学研プラス ドイツ文学 ドイツ文学",
-    "updatedAt": "2026-03-09T05:28:07.662Z",
+    "searchableText": "節約家計ノート２０１９ 学研プラス ドイツ文学",
+    "updatedAt": "2026-03-17T13:29:43.037Z",
     "publisher": "学研プラス",
     "publishedDate": "2018-10-01",
     "isbn13": "9784056113877",
@@ -48598,7 +48604,9 @@
         "intro"
       ],
       "l5TagIds": []
-    }
+    },
+    "pageCount": 162,
+    "thumbnailUrl": "https://books.google.com/books/content?id=AAlfc4IXP1IC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784799112281",
@@ -48718,8 +48726,8 @@
     "keywords": [
       "歴史"
     ],
-    "searchableText": "やさしくわかる！ 文系のための東大の先生が教える バイアスの心理学 : はじめて学ぶ人でも、どんどん楽しく読める！ ニュートンプレス 歴史 歴史",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
+    "searchableText": "やさしくわかる！ 文系のための東大の先生が教える バイアスの心理学 : はじめて学ぶ人でも、どんどん楽しく読める！ ニュートンプレス 歴史",
+    "updatedAt": "2026-03-17T13:29:43.631Z",
     "publisher": "ニュートンプレス",
     "publishedDate": "2023-10-11",
     "isbn13": "9784315527476",
@@ -48744,7 +48752,8 @@
         "intro"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=iyUl0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784815617240",
@@ -49702,7 +49711,7 @@
     "categories": [],
     "keywords": [],
     "searchableText": "脳が活性化する大人の国語力脳ドリル : 常識日本語・慣用句・故事成語 : 毎日楽しい!140日分 学研プラス",
-    "updatedAt": "2026-03-09T05:28:07.662Z",
+    "updatedAt": "2026-03-17T13:29:45.656Z",
     "publisher": "学研プラス",
     "publishedDate": "201607",
     "isbn13": "9784058006528",
@@ -49727,7 +49736,9 @@
         "workbook"
       ],
       "l5TagIds": []
-    }
+    },
+    "pageCount": 160,
+    "thumbnailUrl": "https://books.google.com/books/content?id=NqVU0ZnWJEkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784058007051",
@@ -49736,7 +49747,7 @@
     "categories": [],
     "keywords": [],
     "searchableText": "脳が活性化する思い出し大人の教養脳ドリル : 社会・文化・歴史・日本語140日分 学研プラス",
-    "updatedAt": "2026-03-09T05:28:07.662Z",
+    "updatedAt": "2026-03-17T13:29:46.887Z",
     "publisher": "学研プラス",
     "publishedDate": "201612",
     "isbn13": "9784058007051",
@@ -49761,7 +49772,9 @@
         "workbook"
       ],
       "l5TagIds": []
-    }
+    },
+    "pageCount": 160,
+    "thumbnailUrl": "https://books.google.com/books/content?id=IT1d6YdImWsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784058006535",
@@ -49770,7 +49783,7 @@
     "categories": [],
     "keywords": [],
     "searchableText": "脳が活性化する大人の漢字脳ドリル : 常識&教養漢字・四字熟語 : 毎日楽しい!140日分 学研プラス",
-    "updatedAt": "2026-03-09T05:28:07.662Z",
+    "updatedAt": "2026-03-17T13:29:48.496Z",
     "publisher": "学研プラス",
     "publishedDate": "201607",
     "isbn13": "9784058006535",
@@ -49795,7 +49808,9 @@
         "workbook"
       ],
       "l5TagIds": []
-    }
+    },
+    "pageCount": 162,
+    "thumbnailUrl": "https://books.google.com/books/content?id=OVCh_8UMzcsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784058007624",
@@ -49804,7 +49819,7 @@
     "categories": [],
     "keywords": [],
     "searchableText": "脳が活性化する大人のおもしろ算数脳ドリル : 65日2500問 学研プラス",
-    "updatedAt": "2026-03-09T05:28:07.662Z",
+    "updatedAt": "2026-03-17T13:29:49.249Z",
     "publisher": "学研プラス",
     "publishedDate": "201704",
     "isbn13": "9784058007624",
@@ -49829,7 +49844,9 @@
         "workbook"
       ],
       "l5TagIds": []
-    }
+    },
+    "pageCount": 152,
+    "thumbnailUrl": "https://books.google.com/books/content?id=-Zr1ywEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784058009451",
@@ -49838,7 +49855,7 @@
     "categories": [],
     "keywords": [],
     "searchableText": "脳が活性化する大人のおもしろ計算脳ドリル : 62日1850問 学研プラス",
-    "updatedAt": "2026-03-09T05:28:07.662Z",
+    "updatedAt": "2026-03-17T13:29:49.863Z",
     "publisher": "学研プラス",
     "publishedDate": "201807",
     "isbn13": "9784058009451",
@@ -49863,7 +49880,8 @@
         "workbook"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=cgzYzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784058008089",
@@ -49872,7 +49890,7 @@
     "categories": [],
     "keywords": [],
     "searchableText": "脳が活性化する大人の漢字脳ドリル 実用編 学研プラス",
-    "updatedAt": "2026-03-09T05:28:07.662Z",
+    "updatedAt": "2026-03-17T13:29:50.494Z",
     "publisher": "学研プラス",
     "publishedDate": "201708",
     "isbn13": "9784058008089",
@@ -49897,7 +49915,9 @@
         "workbook"
       ],
       "l5TagIds": []
-    }
+    },
+    "pageCount": 158,
+    "thumbnailUrl": "https://books.google.com/books/content?id=DUnubwVRpiwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784058006641",
@@ -49906,7 +49926,7 @@
     "categories": [],
     "keywords": [],
     "searchableText": "脳が活性化する大人の日本地図脳ドリル : 60日1000問 学研プラス",
-    "updatedAt": "2026-03-09T05:28:07.662Z",
+    "updatedAt": "2026-03-17T13:29:51.397Z",
     "publisher": "学研プラス",
     "publishedDate": "201609",
     "isbn13": "9784058006641",
@@ -49931,7 +49951,9 @@
         "workbook"
       ],
       "l5TagIds": []
-    }
+    },
+    "pageCount": 144,
+    "thumbnailUrl": "https://books.google.com/books/content?id=_3VVzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784058009819",
@@ -49940,7 +49962,7 @@
     "categories": [],
     "keywords": [],
     "searchableText": "脳が活性化する大人のおもしろ算数脳ドリル : 62日1880問 計算クイズ・数の迷路編 学研プラス",
-    "updatedAt": "2026-03-09T05:28:07.662Z",
+    "updatedAt": "2026-03-17T13:29:52.210Z",
     "publisher": "学研プラス",
     "publishedDate": "201812",
     "isbn13": "9784058009819",
@@ -49965,7 +49987,9 @@
         "workbook"
       ],
       "l5TagIds": []
-    }
+    },
+    "pageCount": 154,
+    "thumbnailUrl": "https://books.google.com/books/content?id=jAlZbQL5SyIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784799102398",
@@ -51603,11 +51627,14 @@
   {
     "id": "9784253249386",
     "title": "コミック東野圭吾ミステリー",
-    "authors": [],
+    "authors": [
+      "東野圭吾",
+      "風祭壮太"
+    ],
     "categories": [],
     "keywords": [],
-    "searchableText": "コミック東野圭吾ミステリー アンコール出版",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
+    "searchableText": "コミック東野圭吾ミステリー アンコール出版 東野圭吾 風祭壮太",
+    "updatedAt": "2026-03-17T13:29:12.389Z",
     "subtitle": "アンコール出版",
     "publishedDate": "2018",
     "isbn10": "4253249388",
@@ -51649,7 +51676,7 @@
     "categories": [],
     "keywords": [],
     "searchableText": "東野圭吾というミステリー : 無限に広がる国民的人気作家の世界を解読する！ 洋泉社",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
+    "updatedAt": "2026-03-17T13:29:52.773Z",
     "publisher": "洋泉社",
     "publishedDate": "201007",
     "isbn13": "9784862485748",
@@ -51676,7 +51703,8 @@
       "l5TagIds": [
         "plot-twist"
       ]
-    }
+    },
+    "pageCount": 127
   },
   {
     "id": "9784253241755",
@@ -52218,15 +52246,17 @@
   {
     "id": "9784082400330",
     "title": "アガサ・クリスティー",
-    "authors": [],
+    "authors": [
+      "キャサリン・ハーカップ"
+    ],
     "categories": [
       "Authors, English"
     ],
     "keywords": [
       "Authors, English"
     ],
-    "searchableText": "アガサ・クリスティー 名探偵ポアロを生んだ「ミステリーの女王」 Authors, English Authors, English",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
+    "searchableText": "アガサ・クリスティー 名探偵ポアロを生んだ「ミステリーの女王」 キャサリン・ハーカップ Authors, English",
+    "updatedAt": "2026-03-17T13:29:53.548Z",
     "subtitle": "名探偵ポアロを生んだ「ミステリーの女王」",
     "publishedDate": "1995",
     "isbn10": "4082400338",
@@ -52255,7 +52285,9 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "pageCount": 320,
+    "thumbnailUrl": "https://books.google.com/books/content?id=H5hQvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784562045761",
@@ -55935,7 +55967,7 @@
     "categories": [],
     "keywords": [],
     "searchableText": "マインドフルネス : 仏教瞑想と近代科学が生み出す、心の科学の現在形 サンガ",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
+    "updatedAt": "2026-03-17T13:29:58.381Z",
     "publisher": "サンガ",
     "publishedDate": "201612",
     "isbn13": "9784865640700",
@@ -55960,7 +55992,8 @@
         "intro"
       ],
       "l5TagIds": []
-    }
+    },
+    "pageCount": 373
   },
   {
     "id": "9784150505622",
@@ -57056,15 +57089,17 @@
   {
     "id": "9784791617227",
     "title": "図解　世界の宗教",
-    "authors": [],
+    "authors": [
+      "渡辺和子"
+    ],
     "categories": [
       "歴史"
     ],
     "keywords": [
       "歴史"
     ],
-    "searchableText": "図解　世界の宗教 西東社 歴史 歴史",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
+    "searchableText": "図解　世界の宗教 渡辺和子 西東社 歴史",
+    "updatedAt": "2026-03-17T13:30:01.335Z",
     "publisher": "西東社",
     "publishedDate": "2010-05-10",
     "isbn10": "4791617223",
@@ -58274,11 +58309,13 @@
   {
     "id": "9784771021358",
     "title": "社会文化研究",
-    "authors": [],
+    "authors": [
+      "社会文化学会"
+    ],
     "categories": [],
     "keywords": [],
-    "searchableText": "社会文化研究 第12号",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
+    "searchableText": "社会文化研究 第12号 社会文化学会",
+    "updatedAt": "2026-03-17T13:30:02.247Z",
     "subtitle": "第12号",
     "publishedDate": "2010",
     "isbn10": "477102135X",
@@ -59152,7 +59189,7 @@
     "categories": [],
     "keywords": [],
     "searchableText": "サステナビリティ経営が切り拓く日本の未来 : 「自社らしさ」が新たな価値を創り出す 東洋経済新報社",
-    "updatedAt": "2026-03-09T05:28:07.662Z",
+    "updatedAt": "2026-03-17T13:30:02.961Z",
     "publisher": "東洋経済新報社",
     "publishedDate": "202404",
     "isbn13": "9784492962343",
@@ -59177,7 +59214,9 @@
         "intro"
       ],
       "l5TagIds": []
-    }
+    },
+    "pageCount": 127,
+    "thumbnailUrl": "https://books.google.com/books/content?id=XU__EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784492962299",
@@ -61347,11 +61386,13 @@
   {
     "id": "9784759807684",
     "title": "生命科学",
-    "authors": [],
+    "authors": [
+      "中村運"
+    ],
     "categories": [],
     "keywords": [],
-    "searchableText": "生命科学 Kagaku-Dojin Publishing Co",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
+    "searchableText": "生命科学 中村運 Kagaku-Dojin Publishing Co",
+    "updatedAt": "2026-03-17T13:30:03.818Z",
     "publisher": "Kagaku-Dojin Publishing Co",
     "publishedDate": "1996",
     "isbn10": "4759807683",
@@ -63428,15 +63469,19 @@
   {
     "id": "9784501538606",
     "title": "詳解 独立成分分析",
-    "authors": [],
+    "authors": [
+      "许韦里宁",
+      "卡尔胡宁",
+      "奥亚"
+    ],
     "categories": [
       "社会科学"
     ],
     "keywords": [
       "社会科学"
     ],
-    "searchableText": "詳解 独立成分分析 東京電機大学出版局 社会科学 社会科学",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
+    "searchableText": "詳解 独立成分分析 许韦里宁 卡尔胡宁 奥亚 東京電機大学出版局 社会科学",
+    "updatedAt": "2026-03-17T13:30:05.229Z",
     "publisher": "東京電機大学出版局",
     "publishedDate": "2005-02-10",
     "isbn13": "9784501538606",
@@ -63462,7 +63507,8 @@
         "intro"
       ],
       "l5TagIds": []
-    }
+    },
+    "pageCount": 354
   },
   {
     "id": "9784410155093",
@@ -66358,7 +66404,7 @@
     "categories": [],
     "keywords": [],
     "searchableText": "いますぐできるマネーのお得ワザ 学研マーケティング",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
+    "updatedAt": "2026-03-17T13:30:09.315Z",
     "publisher": "学研マーケティング",
     "publishedDate": "201404",
     "isbn10": "4056104301",
@@ -66389,7 +66435,8 @@
         "intro"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=aztwcpsfL-QC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784569603193",
@@ -71480,8 +71527,8 @@
       "総記",
       "永岡書店　心理的安全性 生産性向上 モチベーションアップ 管理職 リーダー リーダーシップ  チームリーダー 声かけ やる気 モチベーション 30分 スッキリ モヤモヤ 初心者 キホン 基礎知識 今さら聞けない 学び直し"
     ],
-    "searchableText": "そうだったんだ！！　心理的安全性 : 30分でスッキリ！ 30分でスッキリ! 永岡書店 総記 永岡書店　心理的安全性 生産性向上 モチベーションアップ 管理職 リーダー リーダーシップ  チームリーダー 声かけ やる気 モチベーション 30分 スッキリ モヤモヤ 初心者 キホン 基礎知識 今さら聞けない 学び直し 永岡書店　心理的安全性 生産性向上 モチベーションアップ 管理職 リーダー リーダーシップ  チームリーダー 声かけ やる気 モチベーション 30分 スッキリ モヤモヤ 初心者 キホン 基礎知識 今さら聞けない 学び直し 総記 永岡書店　心理的安全性 生産性向上 モチベーションアップ 管理職 リーダー リーダーシップ  チームリーダー 声かけ やる気 モチベーション 30分 スッキリ モヤモヤ 初心者 キホン 基礎知識 今さら聞けない 学び直し",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
+    "searchableText": "そうだったんだ！！　心理的安全性 : 30分でスッキリ！ 30分でスッキリ! 永岡書店 総記 永岡書店　心理的安全性 生産性向上 モチベーションアップ 管理職 リーダー リーダーシップ  チームリーダー 声かけ やる気 モチベーション 30分 スッキリ モヤモヤ 初心者 キホン 基礎知識 今さら聞けない 学び直し",
+    "updatedAt": "2026-03-17T13:30:10.031Z",
     "subtitle": "30分でスッキリ!",
     "publisher": "永岡書店",
     "publishedDate": "2023-09-11",
@@ -71514,7 +71561,8 @@
         "intro"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=nUYX0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784845214846",
@@ -77272,11 +77320,13 @@
   {
     "id": "9784537026528",
     "title": "決算書の読み方",
-    "authors": [],
+    "authors": [
+      "南伸一"
+    ],
     "categories": [],
     "keywords": [],
-    "searchableText": "決算書の読み方 貸借対照表と損益計算書のしくみと分析法をマスターしよう",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
+    "searchableText": "決算書の読み方 貸借対照表と損益計算書のしくみと分析法をマスターしよう 南伸一 西東社",
+    "updatedAt": "2026-03-17T13:30:14.437Z",
     "subtitle": "貸借対照表と損益計算書のしくみと分析法をマスターしよう",
     "publishedDate": "1998-09-25",
     "isbn10": "4537026529",
@@ -77308,7 +77358,8 @@
         "intro"
       ],
       "l5TagIds": []
-    }
+    },
+    "publisher": "西東社"
   },
   {
     "id": "9784419042561",
@@ -78950,8 +79001,8 @@
       "モデリング;MBA;外資系金融;グロービス;コーポレートファイナンス",
       "Reference"
     ],
-    "searchableText": "Investment Banking 投資銀行業務の実践ガイド 翔泳社 社会科学 モデリング;MBA;外資系金融;グロービス;コーポレートファイナンス Reference モデリング;MBA;外資系金融;グロービス;コーポレートファイナンス 社会科学 モデリング;MBA;外資系金融;グロービス;コーポレートファイナンス Reference",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
+    "searchableText": "Investment Banking 投資銀行業務の実践ガイド 翔泳社 社会科学 モデリング;MBA;外資系金融;グロービス;コーポレートファイナンス Reference",
+    "updatedAt": "2026-03-17T13:30:16.376Z",
     "publisher": "翔泳社",
     "publishedDate": "2023-08-31",
     "isbn10": "4798179779",
@@ -78986,7 +79037,8 @@
         "practical"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=jxHUEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784828325019",
@@ -106088,7 +106140,7 @@
     "categories": [],
     "keywords": [],
     "searchableText": "統計検定統計調査士試験対策コンテンツ 三恵社",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
+    "updatedAt": "2026-03-17T13:30:25.298Z",
     "publisher": "三恵社",
     "publishedDate": "201709",
     "isbn13": "9784864877398",
@@ -106114,7 +106166,8 @@
         "exam"
       ],
       "l5TagIds": []
-    }
+    },
+    "pageCount": 74
   },
   {
     "id": "9784798162805",
@@ -106726,7 +106779,7 @@
     "categories": [],
     "keywords": [],
     "searchableText": "医者が教える正しいスマホ習慣 : 依存症 物忘れ 意欲低下から身を守る 宝島社",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
+    "updatedAt": "2026-03-17T13:30:25.939Z",
     "publisher": "宝島社",
     "publishedDate": "202108",
     "isbn13": "9784299018564",
@@ -106751,7 +106804,8 @@
         "intro"
       ],
       "l5TagIds": []
-    }
+    },
+    "pageCount": 80
   },
   {
     "id": "9784274050510",
@@ -109895,7 +109949,7 @@
     "categories": [],
     "keywords": [],
     "searchableText": "図解10万円から始める!誰でもラクラク株投資生活 辰巳出版",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
+    "updatedAt": "2026-03-17T13:30:27.948Z",
     "publisher": "辰巳出版",
     "publishedDate": "201810",
     "isbn13": "9784777821723",
@@ -109920,7 +109974,9 @@
         "diagram"
       ],
       "l5TagIds": []
-    }
+    },
+    "pageCount": 98,
+    "thumbnailUrl": "https://books.google.com/books/content?id=IbCSDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784815602512",
@@ -111318,7 +111374,7 @@
     "categories": [],
     "keywords": [],
     "searchableText": "バイアスの心理学 : 「認知」のメカニズムと心のクセに迫る ニュートンプレス",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
+    "updatedAt": "2026-03-17T13:30:28.666Z",
     "publisher": "ニュートンプレス",
     "publishedDate": "202305",
     "isbn13": "9784315527018",
@@ -111343,7 +111399,8 @@
         "intro"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=gATYzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784315527933",
@@ -113021,7 +113078,7 @@
     "categories": [],
     "keywords": [],
     "searchableText": "自律神経の乱れによる不安・不調を改善する食生活 : 新型ウイルス流行による不安&ストレスにも! 辰巳出版",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
+    "updatedAt": "2026-03-17T13:30:30.129Z",
     "publisher": "辰巳出版",
     "publishedDate": "202006",
     "isbn13": "9784777825516",
@@ -113048,7 +113105,9 @@
       "l5TagIds": [
         "mental-recovery"
       ]
-    }
+    },
+    "pageCount": 82,
+    "thumbnailUrl": "https://books.google.com/books/content?id=GHrrDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784908925337",
@@ -115154,7 +115213,7 @@
     "categories": [],
     "keywords": [],
     "searchableText": "ファンタジー映画大解剖 : ハリー・ポッター大特集 三栄書房",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
+    "updatedAt": "2026-03-17T13:30:30.924Z",
     "publisher": "三栄書房",
     "publishedDate": "201901",
     "isbn13": "9784779637582",
@@ -115179,7 +115238,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "pageCount": 127
   },
   {
     "id": "9784756120038",
@@ -117338,15 +117398,19 @@
   {
     "id": "9784594095680",
     "title": "まんが！100分de名著 マルクス・アウレリウス 自省録（まんが!100分de名著）",
-    "authors": [],
+    "authors": [
+      "岸見一郎",
+      "NHK「100分de名著」制作班",
+      "佐々木昭后"
+    ],
     "categories": [
       "総記"
     ],
     "keywords": [
       "総記"
     ],
-    "searchableText": "まんが！100分de名著 マルクス・アウレリウス 自省録（まんが!100分de名著） 扶桑社 総記 総記",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
+    "searchableText": "まんが！100分de名著 マルクス・アウレリウス 自省録（まんが!100分de名著） 岸見一郎 NHK「100分de名著」制作班 佐々木昭后 扶桑社 総記",
+    "updatedAt": "2026-03-17T13:30:31.739Z",
     "publisher": "扶桑社",
     "publishedDate": "2023-09-27",
     "isbn13": "9784594095680",
@@ -117371,7 +117435,9 @@
         "intro"
       ],
       "l5TagIds": []
-    }
+    },
+    "pageCount": 168,
+    "thumbnailUrl": "https://books.google.com/books/content?id=wGTZEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784140819326",
@@ -120662,7 +120728,7 @@
     "categories": [],
     "keywords": [],
     "searchableText": "Newton別冊　超ひも理論とは何か ニュートンプレス",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
+    "updatedAt": "2026-03-17T13:30:32.663Z",
     "publisher": "ニュートンプレス",
     "isbn13": "9784315529210",
     "language": "ja",
@@ -120686,7 +120752,9 @@
         "intro"
       ],
       "l5TagIds": []
-    }
+    },
+    "publishedDate": "2025-05-15",
+    "thumbnailUrl": "https://books.google.com/books/content?id=lWk_0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784315524604",
@@ -120877,7 +120945,7 @@
     "categories": [],
     "keywords": [],
     "searchableText": "半導体産業会社録 2009年度版 産業タイムズ社",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
+    "updatedAt": "2026-03-17T13:30:35.014Z",
     "publisher": "産業タイムズ社",
     "publishedDate": "200903",
     "isbn13": "9784883531639",
@@ -120902,7 +120970,8 @@
         "intro"
       ],
       "l5TagIds": []
-    }
+    },
+    "pageCount": 596
   },
   {
     "id": "9784861240614",
@@ -122347,11 +122416,14 @@
   {
     "id": "9784022741042",
     "title": "生物学がわかる。",
-    "authors": [],
+    "authors": [
+      "上野直人",
+      "野地澄晴"
+    ],
     "categories": [],
     "keywords": [],
-    "searchableText": "生物学がわかる。 朝日新聞社",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
+    "searchableText": "生物学がわかる。 上野直人 野地澄晴 朝日新聞社",
+    "updatedAt": "2026-03-17T13:30:36.300Z",
     "publisher": "朝日新聞社",
     "publishedDate": "199911",
     "isbn13": "9784022741042",
@@ -122376,7 +122448,9 @@
         "intro"
       ],
       "l5TagIds": []
-    }
+    },
+    "pageCount": 189,
+    "thumbnailUrl": "https://books.google.com/books/content?id=PcmVGQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784478028230",
@@ -126331,7 +126405,9 @@
     "id": "9784065110324",
     "title": "ダイヤのA (エース)",
     "subtitle": "アンコール刊行. 「沢村、試練の時」編",
-    "authors": [],
+    "authors": [
+      "寺嶋裕二"
+    ],
     "publishedDate": "2018",
     "isbn13": "9784065110324",
     "language": "ja",
@@ -126343,11 +126419,11 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "ダイヤのA (エース) アンコール刊行. 「沢村、試練の時」編 漫画 コミック",
+    "searchableText": "ダイヤのA (エース) アンコール刊行. 「沢村、試練の時」編 寺嶋裕二 漫画 コミック",
     "sourceIds": {
       "googleBooksId": "PZQ8zQEACAAJ"
     },
-    "updatedAt": "2026-03-16T12:22:15.777Z",
+    "updatedAt": "2026-03-17T13:29:15.263Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "shonen",
@@ -126579,7 +126655,10 @@
   {
     "id": "9784091591029",
     "title": "Sunny",
-    "authors": [],
+    "authors": [
+      "カノウリョウマ",
+      "蓼沼優衣"
+    ],
     "publishedDate": "2011",
     "isbn13": "9784091591029",
     "language": "ja",
@@ -126591,11 +126670,11 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "Sunny 漫画 コミック",
+    "searchableText": "Sunny カノウリョウマ 蓼沼優衣 双葉社 漫画 コミック",
     "sourceIds": {
       "googleBooksId": "QkQBzwEACAAJ"
     },
-    "updatedAt": "2026-03-16T12:22:27.965Z",
+    "updatedAt": "2026-03-17T13:29:16.081Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "seinen",
@@ -126603,7 +126682,9 @@
       "l4TagIds": [
         "readable"
       ]
-    }
+    },
+    "publisher": "双葉社",
+    "thumbnailUrl": "https://books.google.com/books/content?id=9MrGEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "gb-66j1CgAAQBAJ",
@@ -126867,7 +126948,9 @@
   {
     "id": "9784089082881",
     "title": "ブラッククローバー",
-    "authors": [],
+    "authors": [
+      "田畠裕基"
+    ],
     "publishedDate": "2017",
     "isbn13": "9784089082881",
     "language": "ja",
@@ -126878,11 +126961,11 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "ブラッククローバー 漫画 コミック",
+    "searchableText": "ブラッククローバー 田畠裕基 集英社 漫画 コミック",
     "sourceIds": {
       "googleBooksId": "CRhXswEACAAJ"
     },
-    "updatedAt": "2026-03-17T12:43:50.217Z",
+    "updatedAt": "2026-03-17T13:29:16.744Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "shonen",
@@ -126890,7 +126973,10 @@
       "l4TagIds": [
         "readable"
       ]
-    }
+    },
+    "publisher": "集英社",
+    "pageCount": 193,
+    "thumbnailUrl": "https://books.google.com/books/content?id=M4phEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784063955672",
@@ -126926,7 +127012,10 @@
   {
     "id": "9784088804729",
     "title": "終わりのセラフ",
-    "authors": [],
+    "authors": [
+      "降矢大輔",
+      "鏡貴也"
+    ],
     "publishedDate": "2015",
     "isbn13": "9784088804729",
     "language": "ja",
@@ -126937,11 +127026,11 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "終わりのセラフ 漫画 コミック",
+    "searchableText": "終わりのセラフ 降矢大輔 鏡貴也 漫画 コミック",
     "sourceIds": {
       "googleBooksId": "tRDSjgEACAAJ"
     },
-    "updatedAt": "2026-03-17T12:43:52.075Z",
+    "updatedAt": "2026-03-17T13:29:17.490Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "shonen",
@@ -126949,7 +127038,8 @@
       "l4TagIds": [
         "readable"
       ]
-    }
+    },
+    "pageCount": 204
   },
   {
     "id": "9784088706177",
@@ -127306,7 +127396,9 @@
   {
     "id": "9784088901929",
     "title": "ゴールデンカムイ",
-    "authors": [],
+    "authors": [
+      "野田サトル"
+    ],
     "publishedDate": "2015",
     "isbn13": "9784088901929",
     "language": "ja",
@@ -127317,11 +127409,11 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "ゴールデンカムイ 漫画 コミック",
+    "searchableText": "ゴールデンカムイ 野田サトル 集英社 漫画 コミック",
     "sourceIds": {
       "googleBooksId": "twoNswEACAAJ"
     },
-    "updatedAt": "2026-03-17T12:44:10.428Z",
+    "updatedAt": "2026-03-17T13:29:18.214Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "seinen",
@@ -127329,7 +127421,10 @@
       "l4TagIds": [
         "readable"
       ]
-    }
+    },
+    "publisher": "集英社",
+    "pageCount": 198,
+    "thumbnailUrl": "https://books.google.com/books/content?id=8K5REAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784091882611",
@@ -128461,7 +128556,9 @@
   {
     "id": "9784088818665",
     "title": "ぼくたちは勉強ができない",
-    "authors": [],
+    "authors": [
+      "筒井大志"
+    ],
     "publishedDate": "2019",
     "isbn13": "9784088818665",
     "language": "ja",
@@ -128473,11 +128570,11 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "ぼくたちは勉強ができない 漫画 コミック",
+    "searchableText": "ぼくたちは勉強ができない 筒井大志 漫画 コミック",
     "sourceIds": {
       "googleBooksId": "MForyAEACAAJ"
     },
-    "updatedAt": "2026-03-17T12:45:05.421Z",
+    "updatedAt": "2026-03-17T13:29:20.676Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "shojo",
@@ -128651,7 +128748,9 @@
     "id": "9784757548305",
     "title": "月刊少女野崎くん",
     "subtitle": "7",
-    "authors": [],
+    "authors": [
+      "椿いづみ"
+    ],
     "publishedDate": "2015",
     "isbn13": "9784757548305",
     "language": "ja",
@@ -128663,11 +128762,11 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "月刊少女野崎くん 7 漫画 コミック",
+    "searchableText": "月刊少女野崎くん 7 椿いづみ 漫画 コミック",
     "sourceIds": {
       "googleBooksId": "tgMvjwEACAAJ"
     },
-    "updatedAt": "2026-03-17T12:45:11.659Z",
+    "updatedAt": "2026-03-17T13:29:21.282Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "general",
@@ -128961,7 +129060,10 @@
   {
     "id": "9784063827092",
     "title": "僕たちがやりました",
-    "authors": [],
+    "authors": [
+      "金城宗幸",
+      "荒木光"
+    ],
     "isbn13": "9784063827092",
     "language": "ja",
     "categories": [
@@ -128971,11 +129073,11 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "僕たちがやりました 漫画 コミック",
+    "searchableText": "僕たちがやりました 金城宗幸 荒木光 講談社 漫画 コミック",
     "sourceIds": {
       "googleBooksId": "ejO30AEACAAJ"
     },
-    "updatedAt": "2026-03-17T12:45:24.565Z",
+    "updatedAt": "2026-03-17T13:29:21.937Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "seinen",
@@ -128983,13 +129085,19 @@
       "l4TagIds": [
         "readable"
       ]
-    }
+    },
+    "publisher": "講談社",
+    "publishedDate": "2017-03-06",
+    "pageCount": 195,
+    "thumbnailUrl": "https://books.google.com/books/content?id=pKQ6DgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784065108581",
     "title": "デビルズライン",
     "subtitle": "11",
-    "authors": [],
+    "authors": [
+      "花田陵"
+    ],
     "publishedDate": "2018",
     "isbn13": "9784065108581",
     "language": "ja",
@@ -129001,11 +129109,11 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "デビルズライン 11 漫画 コミック",
+    "searchableText": "デビルズライン 11 花田陵 講談社 漫画 コミック",
     "sourceIds": {
       "googleBooksId": "svArxQEACAAJ"
     },
-    "updatedAt": "2026-03-17T12:45:25.889Z",
+    "updatedAt": "2026-03-17T13:29:22.619Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "seinen",
@@ -129013,7 +129121,9 @@
       "l4TagIds": [
         "readable"
       ]
-    }
+    },
+    "publisher": "講談社",
+    "thumbnailUrl": "https://books.google.com/books/content?id=VyfyCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784063871927",
@@ -129178,7 +129288,10 @@
   {
     "id": "9784063906339",
     "title": "転生したらスライムだった件",
-    "authors": [],
+    "authors": [
+      "伏瀬",
+      "みっつばー"
+    ],
     "publishedDate": "2015",
     "isbn13": "9784063906339",
     "language": "ja",
@@ -129189,11 +129302,11 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "転生したらスライムだった件 漫画 コミック",
+    "searchableText": "転生したらスライムだった件 伏瀬 みっつばー マイクロマガジン社 漫画 コミック",
     "sourceIds": {
       "googleBooksId": "_Vd70QEACAAJ"
     },
-    "updatedAt": "2026-03-17T12:45:35.012Z",
+    "updatedAt": "2026-03-17T13:29:24.146Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "shonen",
@@ -129201,7 +129314,10 @@
       "l4TagIds": [
         "readable"
       ]
-    }
+    },
+    "publisher": "マイクロマガジン社",
+    "pageCount": 170,
+    "thumbnailUrl": "https://books.google.com/books/content?id=ZRrjEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784040705392",
@@ -130849,7 +130965,9 @@
   {
     "id": "9784063287643",
     "title": "ヒストリエ",
-    "authors": [],
+    "authors": [
+      "岩明均"
+    ],
     "publishedDate": "2004",
     "isbn13": "9784063287643",
     "language": "ja",
@@ -130860,11 +130978,11 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "ヒストリエ 漫画 コミック",
+    "searchableText": "ヒストリエ 岩明均 講談社 漫画 コミック",
     "sourceIds": {
       "googleBooksId": "DhoKyAEACAAJ"
     },
-    "updatedAt": "2026-03-17T13:08:35.943Z",
+    "updatedAt": "2026-03-17T13:29:25.337Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "seinen",
@@ -130872,7 +130990,10 @@
       "l4TagIds": [
         "readable"
       ]
-    }
+    },
+    "publisher": "講談社",
+    "pageCount": 218,
+    "thumbnailUrl": "https://books.google.com/books/content?id=mJjFBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784098530960",
@@ -131007,7 +131128,10 @@
   {
     "id": "9784022740106",
     "title": "サイコの世界",
-    "authors": [],
+    "authors": [
+      "井龍一",
+      "大羽隆廣"
+    ],
     "publishedDate": "1993",
     "isbn13": "9784022740106",
     "language": "ja",
@@ -131019,11 +131143,11 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "サイコの世界 漫画 コミック",
+    "searchableText": "サイコの世界 井龍一 大羽隆廣 講談社 漫画 コミック",
     "sourceIds": {
       "googleBooksId": "i8ZPYAAACAAJ"
     },
-    "updatedAt": "2026-03-17T13:08:43.247Z",
+    "updatedAt": "2026-03-17T13:29:26.637Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "seinen",
@@ -131031,7 +131155,9 @@
       "l4TagIds": [
         "readable"
       ]
-    }
+    },
+    "publisher": "講談社",
+    "thumbnailUrl": "https://books.google.com/books/content?id=3vdTEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784098543519",
@@ -131291,7 +131417,9 @@
   {
     "id": "9784832236714",
     "title": "妻、小学生になる。",
-    "authors": [],
+    "authors": [
+      "村田椰融"
+    ],
     "publishedDate": "2019",
     "isbn13": "9784832236714",
     "language": "ja",
@@ -131303,11 +131431,11 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "妻、小学生になる。 漫画 コミック",
+    "searchableText": "妻、小学生になる。 村田椰融 芳文社 漫画 コミック",
     "sourceIds": {
       "googleBooksId": "StdPzQEACAAJ"
     },
-    "updatedAt": "2026-03-17T13:08:54.303Z",
+    "updatedAt": "2026-03-17T13:29:28.447Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "seinen",
@@ -131315,7 +131443,9 @@
       "l4TagIds": [
         "readable"
       ]
-    }
+    },
+    "publisher": "芳文社",
+    "thumbnailUrl": "https://books.google.com/books/content?id=Q_iRDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784065226834",
@@ -131512,7 +131642,10 @@
   {
     "id": "9784098513819",
     "title": "異世界ありがとう",
-    "authors": [],
+    "authors": [
+      "荒井小豆",
+      "ジアナズ"
+    ],
     "publishedDate": "2022-10-19",
     "isbn13": "9784098513819",
     "language": "ja",
@@ -131523,12 +131656,12 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "異世界ありがとう 漫画 コミック",
+    "searchableText": "異世界ありがとう 荒井小豆 ジアナズ 小学館 漫画 コミック",
     "thumbnailUrl": "https://books.google.com/books/content?id=Xt5wzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "Xt5wzwEACAAJ"
     },
-    "updatedAt": "2026-03-17T13:09:04.528Z",
+    "updatedAt": "2026-03-17T13:29:29.026Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "general",
@@ -131536,7 +131669,9 @@
       "l4TagIds": [
         "readable"
       ]
-    }
+    },
+    "publisher": "小学館",
+    "pageCount": 200
   },
   {
     "id": "9784065180624",
@@ -131669,7 +131804,9 @@
   {
     "id": "9784757561663",
     "title": "氷属性男子とクールな同僚女子",
-    "authors": [],
+    "authors": [
+      "殿ヶ谷美由記"
+    ],
     "publishedDate": "2019",
     "isbn13": "9784757561663",
     "language": "ja",
@@ -131681,11 +131818,11 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "氷属性男子とクールな同僚女子 漫画 コミック",
+    "searchableText": "氷属性男子とクールな同僚女子 殿ヶ谷美由記 漫画 コミック",
     "sourceIds": {
       "googleBooksId": "4HY9zAEACAAJ"
     },
-    "updatedAt": "2026-03-17T13:09:11.299Z",
+    "updatedAt": "2026-03-17T13:29:30.501Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "shojo",
@@ -131693,7 +131830,8 @@
       "l4TagIds": [
         "readable"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=GsLXzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784088445683",
@@ -131955,7 +132093,9 @@
     "id": "gb-ykZNzwEACAAJ",
     "title": "サラリーマン金太郎",
     "subtitle": "1巻",
-    "authors": [],
+    "authors": [
+      "本宮ひろ志"
+    ],
     "publishedDate": "2014",
     "language": "ja",
     "categories": [
@@ -131965,11 +132105,11 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "サラリーマン金太郎 1巻 漫画 コミック",
+    "searchableText": "サラリーマン金太郎 1巻 本宮ひろ志 サード・ライン 漫画 コミック",
     "sourceIds": {
       "googleBooksId": "ykZNzwEACAAJ"
     },
-    "updatedAt": "2026-03-17T13:10:59.191Z",
+    "updatedAt": "2026-03-17T13:29:31.214Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "seinen",
@@ -131977,7 +132117,10 @@
       "l4TagIds": [
         "readable"
       ]
-    }
+    },
+    "publisher": "サード・ライン",
+    "pageCount": 33,
+    "thumbnailUrl": "https://books.google.com/books/content?id=8AhBEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784757557130",
