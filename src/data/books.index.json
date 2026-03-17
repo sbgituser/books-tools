@@ -129493,5 +129493,2650 @@
         "readable"
       ]
     }
+  },
+  {
+    "id": "9784088825991",
+    "title": "ダンダダン 1",
+    "authors": [
+      "龍幸伸"
+    ],
+    "publishedDate": "2021-08-04",
+    "isbn13": "9784088825991",
+    "language": "ja",
+    "pageCount": 210,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ダンダダン 1 龍幸伸 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "IGWLzgEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:07:25.808Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784757550314",
+    "title": "薬屋のひとりごと 1巻",
+    "authors": [
+      "日向夏（ヒーロー文庫／イマジカインフォス）",
+      "ねこクラゲ",
+      "七緒一綺",
+      "しのとうこ"
+    ],
+    "publisher": "Square Enix",
+    "publishedDate": "2017-09-25",
+    "isbn13": "9784757550314",
+    "language": "ja",
+    "pageCount": 184,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "薬屋のひとりごと 1巻 日向夏（ヒーロー文庫／イマジカインフォス） ねこクラゲ 七緒一綺 しのとうこ Square Enix 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=7C_GDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "7C_GDwAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:07:27.638Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "adventure",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088822828",
+    "title": "逃げ上手の若君 1",
+    "authors": [
+      "松井優征"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "2021-07-02",
+    "isbn13": "9784088822828",
+    "language": "ja",
+    "pageCount": 209,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "逃げ上手の若君 1 松井優征 集英社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=lD4wEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "lD4wEAAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:07:30.204Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088830533",
+    "title": "あかね噺",
+    "authors": [
+      "末永裕樹"
+    ],
+    "publishedDate": "2022",
+    "isbn13": "9784088830533",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "あかね噺 末永裕樹 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "aE990QEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:07:32.691Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088840181",
+    "title": "カグラバチ 1",
+    "authors": [
+      "外薗健"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "2024-02-02",
+    "isbn13": "9784088840181",
+    "language": "ja",
+    "pageCount": 225,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "カグラバチ 1 外薗健 集英社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=UgnrEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "UgnrEAAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:07:34.402Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088838751",
+    "title": "アイスヘッドギル 1",
+    "authors": [
+      "蜂矢育生"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "2023-11-02",
+    "isbn13": "9784088838751",
+    "language": "ja",
+    "pageCount": 219,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "アイスヘッドギル 1 蜂矢育生 集英社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=U_XYEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "U_XYEAAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:07:35.526Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088823102",
+    "title": "アンデッドアンラック 1",
+    "authors": [
+      "戸塚慶文"
+    ],
+    "publishedDate": "2020-04",
+    "isbn13": "9784088823102",
+    "language": "ja",
+    "pageCount": 192,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "アンデッドアンラック 1 戸塚慶文 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "nYWrzQEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:07:36.744Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9786260206833",
+    "title": "PPPPPP (1)",
+    "authors": [
+      "MAPOLLO3號"
+    ],
+    "publisher": "東立出版社",
+    "isbn13": "9786260206833",
+    "language": "zh-CN",
+    "pageCount": 200,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "PPPPPP (1) MAPOLLO3號 東立出版社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=Y5nxEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Y5nxEAAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:07:39.183Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784063635826",
+    "title": "夜桜四重奏～ヨザクラカルテット～（１）",
+    "authors": [
+      "ヤスダスズヒト"
+    ],
+    "publisher": "講談社",
+    "publishedDate": "2006-09-22",
+    "isbn13": "9784063635826",
+    "language": "ja",
+    "pageCount": 211,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "夜桜四重奏～ヨザクラカルテット～（１） ヤスダスズヒト 講談社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=vg7EBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "vg7EBQAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:07:41.022Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088812157",
+    "title": "怪物事変 1",
+    "authors": [
+      "藍本松"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "2017-03-03",
+    "isbn13": "9784088812157",
+    "language": "ja",
+    "pageCount": 196,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "怪物事変 1 藍本松 集英社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=u-tLDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "u-tLDgAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:07:42.833Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784065275303",
+    "title": "ガチアクタ（１）",
+    "authors": [
+      "裏那圭",
+      "晏童秀吉"
+    ],
+    "publisher": "講談社",
+    "publishedDate": "2022-05-17",
+    "isbn13": "9784065275303",
+    "language": "ja",
+    "pageCount": 196,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ガチアクタ（１） 裏那圭 晏童秀吉 講談社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=CiltEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "CiltEAAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:07:45.061Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088817866",
+    "title": "魔都精兵のスレイブ 1",
+    "authors": [
+      "竹村洋平",
+      "タカヒロ"
+    ],
+    "publishedDate": "2019-03",
+    "isbn13": "9784088817866",
+    "language": "ja",
+    "pageCount": 202,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "魔都精兵のスレイブ 1 竹村洋平 タカヒロ 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "004wxQEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:07:46.986Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784065212325",
+    "title": "シャングリラ・フロンティア(1) ~クソゲーハンター、神ゲーに挑まんとす~",
+    "authors": [
+      "不二涼介"
+    ],
+    "publishedDate": "2020-10",
+    "isbn13": "9784065212325",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "シャングリラ・フロンティア(1) ~クソゲーハンター、神ゲーに挑まんとす~ 不二涼介 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=9_x6zgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "9_x6zgEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:07:47.817Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "adventure",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784253224617",
+    "title": "魔入りました！入間くん　1",
+    "authors": [
+      "西修"
+    ],
+    "publisher": "秋田書店",
+    "publishedDate": "2017-07-07",
+    "isbn13": "9784253224617",
+    "language": "ja",
+    "pageCount": 198,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "魔入りました！入間くん　1 西修 秋田書店 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=tNoqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "tNoqDwAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:07:49.590Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "adventure",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088838263",
+    "title": "少女Null 1",
+    "authors": [
+      "中西鼎",
+      "あきま"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "2023-12-04",
+    "isbn13": "9784088838263",
+    "language": "ja",
+    "pageCount": 203,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "少女Null 1 中西鼎 あきま 集英社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=kvDfEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "kvDfEAAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:07:52.728Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "adventure",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088835354",
+    "title": "テンマクキネマ 1",
+    "authors": [
+      "附田祐斗",
+      "佐伯俊"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "2023-08-04",
+    "isbn13": "9784088835354",
+    "language": "ja",
+    "pageCount": 217,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "テンマクキネマ 1 附田祐斗 佐伯俊 集英社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=mMTHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "mMTHEAAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:07:53.821Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "adventure",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088837303",
+    "title": "ふつうの軽音部 1",
+    "authors": [
+      "クワハリ",
+      "出内テツオ"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "2024-04-04",
+    "isbn13": "9784088837303",
+    "language": "ja",
+    "pageCount": 213,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ふつうの軽音部 1 クワハリ 出内テツオ 集英社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=w1b3EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "w1b3EAAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:07:55.891Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "adventure",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088836238",
+    "title": "ダイヤモンドの功罪 1",
+    "authors": [
+      "平井大橋"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "2023-06-19",
+    "isbn13": "9784088836238",
+    "language": "ja",
+    "pageCount": 223,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ダイヤモンドの功罪 1 平井大橋 集英社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=t4S7EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "t4S7EAAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:07:57.121Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088826017",
+    "title": "アオのハコ 1",
+    "authors": [
+      "三浦糀"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "2021-08-04",
+    "isbn13": "9784088826017",
+    "language": "ja",
+    "pageCount": 200,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "アオのハコ 1 三浦糀 集英社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=VDs1EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "VDs1EAAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:07:59.135Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088834302",
+    "title": "ドリトライ 1",
+    "authors": [
+      "雲母坂盾",
+      "成田龍一"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "2023-09-04",
+    "isbn13": "9784088834302",
+    "language": "ja",
+    "pageCount": 201,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ドリトライ 1 雲母坂盾 成田龍一 集英社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=Jl7NEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Jl7NEAAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:00.907Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088839864",
+    "title": "ツーオンアイス 1",
+    "authors": [
+      "逸茂エルク"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "2024-02-02",
+    "isbn13": "9784088839864",
+    "language": "ja",
+    "pageCount": 209,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ツーオンアイス 1 逸茂エルク 集英社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=TgnrEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "TgnrEAAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:01.980Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784098511235",
+    "title": "レッドブルー",
+    "authors": [
+      "波切敦"
+    ],
+    "publishedDate": "2022-04-18",
+    "isbn13": "9784098511235",
+    "language": "ja",
+    "pageCount": 192,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "レッドブルー 波切敦 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=clcAzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "clcAzwEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:03.165Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088826967",
+    "title": "ウィッチウォッチ 1",
+    "authors": [
+      "篠原健太"
+    ],
+    "publishedDate": "2021-06",
+    "isbn13": "9784088826967",
+    "language": "ja",
+    "pageCount": 192,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ウィッチウォッチ 1 篠原健太 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "5bWCzgEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:04.799Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": "gag",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088825090",
+    "title": "僕とロボコ 1",
+    "authors": [
+      "宮崎周平"
+    ],
+    "publishedDate": "2020-11",
+    "isbn13": "9784088825090",
+    "language": "ja",
+    "pageCount": 184,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "僕とロボコ 1 宮崎周平 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "hbQhzgEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:05.930Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": "gag",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784098505241",
+    "title": "クジマ歌えば家ほろろ（１）",
+    "authors": [
+      "紺野アキラ"
+    ],
+    "publisher": "小学館",
+    "publishedDate": "2022-04-12",
+    "isbn13": "9784098505241",
+    "language": "ja",
+    "pageCount": 170,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "クジマ歌えば家ほろろ（１） 紺野アキラ 小学館 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=a61mEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "a61mEAAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:07.677Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": "gag",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088821788",
+    "title": "夜桜さんちの大作戦 1",
+    "authors": [
+      "権平ひつじ"
+    ],
+    "publishedDate": "2020-02",
+    "isbn13": "9784088821788",
+    "language": "ja",
+    "pageCount": 192,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "夜桜さんちの大作戦 1 権平ひつじ 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "YPFzzQEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:09.006Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": "gag",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088826165",
+    "title": "高校生家族 1",
+    "authors": [
+      "仲間りょう"
+    ],
+    "publishedDate": "2021-02",
+    "isbn13": "9784088826165",
+    "language": "ja",
+    "pageCount": 192,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "高校生家族 1 仲間りょう 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "yjFbzgEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:11.504Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": "gag",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088832852",
+    "title": "ルリドラゴン 1",
+    "authors": [
+      "眞藤雅興"
+    ],
+    "publishedDate": "2022-10",
+    "isbn13": "9784088832852",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ルリドラゴン 1 眞藤雅興 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=0AdPzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "0AdPzwEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:12.929Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": "daily",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784098528479",
+    "title": "舞妓さんちのまかないさん",
+    "authors": [
+      "小山愛子"
+    ],
+    "publishedDate": "2023-09-12",
+    "isbn13": "9784098528479",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "舞妓さんちのまかないさん 小山愛子 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=KSQZ0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "KSQZ0AEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:14.774Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": "daily",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088823443",
+    "title": "あやかしトライアングル 1",
+    "authors": [
+      "矢吹健太朗"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "2020-10-02",
+    "isbn13": "9784088823443",
+    "language": "ja",
+    "pageCount": 199,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "あやかしトライアングル 1 矢吹健太朗 集英社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=KrL4DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "KrL4DwAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:16.000Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romcom",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784065119761",
+    "title": "天国大魔境(1)",
+    "authors": [
+      "石黒正数"
+    ],
+    "publishedDate": "2018-07",
+    "isbn13": "9784065119761",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "天国大魔境(1) 石黒正数 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=UGXvvQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "UGXvvQEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:18.425Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784065318703",
+    "title": "地雷グリコ　1巻",
+    "authors": [
+      "暁月あきら",
+      "青崎有吾"
+    ],
+    "publisher": "白泉社",
+    "publishedDate": "2025-02-28",
+    "isbn13": "9784065318703",
+    "language": "ja",
+    "pageCount": 180,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "地雷グリコ　1巻 暁月あきら 青崎有吾 白泉社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=SwBBEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "SwBBEQAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:19.536Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784065287023",
+    "title": "平和の国の島崎へ（１）",
+    "authors": [
+      "瀬下猛",
+      "濱田轟天"
+    ],
+    "publisher": "講談社",
+    "publishedDate": "2022-12-22",
+    "isbn13": "9784065287023",
+    "language": "ja",
+    "pageCount": 257,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "平和の国の島崎へ（１） 瀬下猛 濱田轟天 講談社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=SS6hEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "SS6hEAAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:20.798Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784040750859",
+    "title": "光が死んだ夏",
+    "authors": [
+      "額賀澪"
+    ],
+    "publishedDate": "2023-12-04",
+    "isbn13": "9784040750859",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "光が死んだ夏 額賀澪 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=Hl8n0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Hl8n0AEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:22.614Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784098626915",
+    "title": "トリリオンゲーム",
+    "authors": [
+      "稲垣理一郎",
+      "池上遼一"
+    ],
+    "publishedDate": "2024-04-30",
+    "isbn13": "9784098626915",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "トリリオンゲーム 稲垣理一郎 池上遼一 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=H92p0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "H92p0AEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:23.855Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784065113575",
+    "title": "アンダーニンジャ",
+    "authors": [
+      "花沢健吾"
+    ],
+    "publishedDate": "2019",
+    "isbn13": "9784065113575",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "アンダーニンジャ 花沢健吾 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "T3SA0QEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:25.191Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784065290740",
+    "title": "ザ・ファブル（１）",
+    "authors": [
+      "南勝久"
+    ],
+    "publisher": "講談社",
+    "publishedDate": "2015-03-06",
+    "isbn13": "9784065290740",
+    "language": "ja",
+    "pageCount": 212,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ザ・ファブル（１） 南勝久 講談社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=Cxd2BwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Cxd2BwAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:27.855Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784065174279",
+    "title": "忍者と極道（１）",
+    "authors": [
+      "近藤信輔"
+    ],
+    "publisher": "講談社",
+    "publishedDate": "2020-04-08",
+    "isbn13": "9784065174279",
+    "language": "ja",
+    "pageCount": 196,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "忍者と極道（１） 近藤信輔 講談社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=wPXZDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "wPXZDwAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:29.744Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784098535279",
+    "title": "ケンガンオメガ",
+    "authors": [],
+    "publishedDate": "2024-08-19",
+    "isbn13": "9784098535279",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ケンガンオメガ 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=P5fb0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "P5fb0AEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:30.920Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088808192",
+    "title": "終末のハーレム 1",
+    "authors": [
+      "LINK"
+    ],
+    "publishedDate": "2016-09",
+    "isbn13": "9784088808192",
+    "language": "ja",
+    "pageCount": 180,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "終末のハーレム 1 LINK 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "pmGcAQAACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:32.158Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784063140903",
+    "title": "無限の住人",
+    "authors": [
+      "沙村広明"
+    ],
+    "publishedDate": "1994",
+    "isbn13": "9784063140903",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "無限の住人 沙村広明 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "rJr1zAEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:33.479Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784065149390",
+    "title": "望郷太郎",
+    "authors": [
+      "山田芳裕"
+    ],
+    "publishedDate": "2019",
+    "isbn13": "9784065149390",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "望郷太郎 山田芳裕 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "n_620AEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:34.695Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784063287643",
+    "title": "ヒストリエ",
+    "authors": [],
+    "publishedDate": "2004",
+    "isbn13": "9784063287643",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ヒストリエ 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "DhoKyAEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:35.943Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784098530960",
+    "title": "大ダーク",
+    "authors": [
+      "林田球"
+    ],
+    "publishedDate": "2024-01-12",
+    "isbn13": "9784098530960",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "大ダーク 林田球 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=zCBj0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "zCBj0AEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:37.158Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784098614318",
+    "title": "スーパーボールガールズ（１）",
+    "authors": [
+      "金城宗幸",
+      "平本アキラ"
+    ],
+    "publisher": "小学館",
+    "publishedDate": "2023-02-28",
+    "isbn13": "9784098614318",
+    "language": "ja",
+    "pageCount": 248,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "スーパーボールガールズ（１） 金城宗幸 平本アキラ 小学館 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=ow2uEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "ow2uEAAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:38.503Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784063886082",
+    "title": "バトルスタディーズ（１）",
+    "authors": [
+      "なきぼくろ"
+    ],
+    "publisher": "講談社",
+    "publishedDate": "2015-04-23",
+    "isbn13": "9784063886082",
+    "language": "ja",
+    "pageCount": 217,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "バトルスタディーズ（１） なきぼくろ 講談社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=bmgaCAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "bmgaCAAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:40.874Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784065199053",
+    "title": "リエゾン ―こどものこころ診療所― 1",
+    "authors": [
+      "ヨンチャン",
+      "竹村優作"
+    ],
+    "publishedDate": "2020-06",
+    "isbn13": "9784065199053",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "リエゾン ―こどものこころ診療所― 1 ヨンチャン 竹村優作 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=VcPjzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "VcPjzQEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:42.087Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784022740106",
+    "title": "サイコの世界",
+    "authors": [],
+    "publishedDate": "1993",
+    "isbn13": "9784022740106",
+    "language": "ja",
+    "pageCount": 249,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "サイコの世界 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "i8ZPYAAACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:43.247Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784098543519",
+    "title": "ミハルの戦場",
+    "authors": [],
+    "publishedDate": "2025-12-19",
+    "isbn13": "9784098543519",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ミハルの戦場 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=5_qr0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "5_qr0QEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:44.443Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784047284081",
+    "title": "九井諒子作品集竜のかわいい七つの子",
+    "subtitle": "kui ryōko sakuhinshū",
+    "authors": [
+      "九井諒子"
+    ],
+    "publishedDate": "2012-10",
+    "isbn13": "9784047284081",
+    "language": "ja",
+    "pageCount": 256,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "九井諒子作品集竜のかわいい七つの子 kui ryōko sakuhinshū 九井諒子 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "QpjpMgEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:45.468Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784065142097",
+    "title": "スキップとローファー(1)",
+    "authors": [
+      "高松美咲"
+    ],
+    "publishedDate": "2019",
+    "isbn13": "9784065142097",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "スキップとローファー(1) 高松美咲 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=x-LVwQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "x-LVwQEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:46.596Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784065294137",
+    "title": "君と宇宙を歩くために",
+    "authors": [
+      "泥ノ田犬彦"
+    ],
+    "publishedDate": "2023",
+    "isbn13": "9784065294137",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "君と宇宙を歩くために 泥ノ田犬彦 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "m3d-0QEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:47.815Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784065355428",
+    "title": "魔女と傭兵(1)",
+    "authors": [
+      "宮木真人",
+      "超法規的かえる",
+      "叶世べんち"
+    ],
+    "publishedDate": "2024-05",
+    "isbn13": "9784065355428",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "魔女と傭兵(1) 宮木真人 超法規的かえる 叶世べんち 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=KCOu0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "KCOu0AEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:49.179Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784867204467",
+    "title": "終末のワルキューレ",
+    "authors": [
+      "アジチカ",
+      "梅村真也",
+      "フクイタクミ"
+    ],
+    "publishedDate": "2022-12-20",
+    "isbn13": "9784867204467",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "終末のワルキューレ アジチカ 梅村真也 フクイタクミ 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=lCh0zwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "lCh0zwEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:50.142Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784098603534",
+    "title": "異世界失格（１）",
+    "authors": [
+      "野田宏",
+      "若松卓宏"
+    ],
+    "publisher": "小学館",
+    "publishedDate": "2020-04-10",
+    "isbn13": "9784098603534",
+    "language": "ja",
+    "pageCount": 163,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "異世界失格（１） 野田宏 若松卓宏 小学館 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=hN3ZDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "hN3ZDwAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:52.009Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784065206140",
+    "title": "焼いてるふたり（１）",
+    "authors": [
+      "ハナツカシオリ"
+    ],
+    "publisher": "講談社",
+    "publishedDate": "2020-12-23",
+    "isbn13": "9784065206140",
+    "language": "ja",
+    "pageCount": 164,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "焼いてるふたり（１） ハナツカシオリ 講談社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=z8cPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "z8cPEAAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:53.190Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784832236714",
+    "title": "妻、小学生になる。",
+    "authors": [],
+    "publishedDate": "2019",
+    "isbn13": "9784832236714",
+    "language": "ja",
+    "pageCount": 168,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "妻、小学生になる。 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "StdPzQEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:54.303Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784065226834",
+    "title": "おとなりに銀河（１）",
+    "authors": [
+      "雨隠ギド"
+    ],
+    "publisher": "講談社",
+    "publishedDate": "2020-11-06",
+    "isbn13": "9784065226834",
+    "language": "ja",
+    "pageCount": 218,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "おとなりに銀河（１） 雨隠ギド 講談社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=biEGEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "biEGEAAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:55.456Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784065207833",
+    "title": "メダリスト 1",
+    "authors": [
+      "つるまいかだ"
+    ],
+    "publishedDate": "2020-09",
+    "isbn13": "9784065207833",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "メダリスト 1 つるまいかだ 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=vT_1zQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "vT_1zQEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:56.507Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784832270725",
+    "title": "ぼっち・ざ・ろっく! 1",
+    "authors": [
+      "はまじあき"
+    ],
+    "publishedDate": "2019-02",
+    "isbn13": "9784832270725",
+    "language": "ja",
+    "pageCount": 118,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ぼっち・ざ・ろっく! 1 はまじあき 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "AsJMzQEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:08:58.203Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784065116729",
+    "title": "図書館の大魔術師（１）",
+    "authors": [
+      "泉光"
+    ],
+    "publisher": "講談社",
+    "publishedDate": "2018-04-06",
+    "isbn13": "9784065116729",
+    "language": "ja",
+    "pageCount": 235,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "図書館の大魔術師（１） 泉光 講談社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=rmxTDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "rmxTDwAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:09:00.558Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784065295462",
+    "title": "サチ録～サチの黙示録～ 1",
+    "authors": [
+      "茶んた"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "2023-11-02",
+    "isbn13": "9784065295462",
+    "language": "ja",
+    "pageCount": 199,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "サチ録～サチの黙示録～ 1 茶んた 集英社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=UfXYEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "UfXYEAAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:09:01.975Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": "gag",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784040657073",
+    "title": "異世界おじさん",
+    "subtitle": "2",
+    "authors": [
+      "殆ど死んでいる"
+    ],
+    "publishedDate": "2019",
+    "isbn13": "9784040657073",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "異世界おじさん 2 殆ど死んでいる 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "3CMdxQEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:09:03.279Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": "gag",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784098513819",
+    "title": "異世界ありがとう",
+    "authors": [],
+    "publishedDate": "2022-10-19",
+    "isbn13": "9784098513819",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "異世界ありがとう 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=Xt5wzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Xt5wzwEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:09:04.528Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": "gag",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784065180624",
+    "title": "ゆびさきと恋々(1)",
+    "authors": [
+      "森下 suu"
+    ],
+    "publishedDate": "2019-12",
+    "isbn13": "9784065180624",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ゆびさきと恋々(1) 森下 suu 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=qFiEzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "qFiEzQEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:09:06.344Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784040640625",
+    "title": "山田くんとLv999の恋をする（１）",
+    "authors": [
+      "ましろ"
+    ],
+    "publisher": "KADOKAWA",
+    "publishedDate": "2020-02-21",
+    "isbn13": "9784040640625",
+    "language": "ja",
+    "pageCount": 201,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "山田くんとLv999の恋をする（１） ましろ KADOKAWA 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=6rLODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "6rLODwAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:09:07.786Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784592223528",
+    "title": "顔だけじゃ好きになりません 1",
+    "authors": [
+      "安斎かりん"
+    ],
+    "publishedDate": "2020-12",
+    "isbn13": "9784592223528",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "顔だけじゃ好きになりません 1 安斎かりん 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=HH5JzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "HH5JzgEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:09:08.904Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784065312398",
+    "title": "恋せよまやかし天使ども（１）",
+    "authors": [
+      "卯月ココ"
+    ],
+    "publisher": "講談社",
+    "publishedDate": "2023-09-13",
+    "isbn13": "9784065312398",
+    "language": "ja",
+    "pageCount": 190,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "恋せよまやかし天使ども（１） 卯月ココ 講談社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=9WnVEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "9WnVEAAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:09:10.040Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784757561663",
+    "title": "氷属性男子とクールな同僚女子",
+    "authors": [],
+    "publishedDate": "2019",
+    "isbn13": "9784757561663",
+    "language": "ja",
+    "pageCount": 126,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "氷属性男子とクールな同僚女子 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "4HY9zAEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:09:11.299Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088445683",
+    "title": "お姉ちゃんの翠くん 1",
+    "authors": [
+      "目黒あむ"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "2022-07-25",
+    "isbn13": "9784088445683",
+    "language": "ja",
+    "pageCount": 211,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "お姉ちゃんの翠くん 1 目黒あむ 集英社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=G0p3EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "G0p3EAAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:09:12.459Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784065265205",
+    "title": "運命の人に出会う話（１）",
+    "authors": [
+      "あなしん"
+    ],
+    "publisher": "講談社",
+    "publishedDate": "2022-01-13",
+    "isbn13": "9784065265205",
+    "language": "ja",
+    "pageCount": 212,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "運命の人に出会う話（１） あなしん 講談社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=ku1VEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "ku1VEAAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:09:13.827Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784065268213",
+    "title": "どうせ、恋してしまうんだ。（１）",
+    "authors": [
+      "満井春香"
+    ],
+    "publisher": "講談社",
+    "publishedDate": "2021-03-12",
+    "isbn13": "9784065268213",
+    "language": "ja",
+    "pageCount": 176,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "どうせ、恋してしまうんだ。（１） 満井春香 講談社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=ilkhEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "ilkhEAAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:09:15.167Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088443184",
+    "title": "初×婚 1",
+    "authors": [
+      "黒崎みのり"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "2019-09-25",
+    "isbn13": "9784088443184",
+    "language": "ja",
+    "pageCount": 195,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "初×婚 1 黒崎みのり 集英社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=iiyrDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "iiyrDwAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:09:16.387Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088442723",
+    "title": "消えた初恋 1",
+    "authors": [
+      "アルコ",
+      "ひねくれ渡"
+    ],
+    "publishedDate": "2019-11",
+    "isbn13": "9784088442723",
+    "language": "ja",
+    "pageCount": 176,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "消えた初恋 1 アルコ ひねくれ渡 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "h9w8zQEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:09:17.618Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784592216551",
+    "title": "墜落JKと廃人教師",
+    "subtitle": "4",
+    "authors": [
+      "Sora"
+    ],
+    "publishedDate": "2019",
+    "isbn13": "9784592216551",
+    "language": "ja",
+    "pageCount": 166,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "墜落JKと廃人教師 4 Sora 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "6LsWxQEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:09:19.692Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784098702688",
+    "title": "プロミス・シンデレラ",
+    "authors": [
+      "橘オレコ"
+    ],
+    "isbn13": "9784098702688",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "プロミス・シンデレラ 橘オレコ 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "nOF_0QEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:09:21.609Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784098542505",
+    "title": "ホタルの嫁入り",
+    "authors": [
+      "橘オレコ"
+    ],
+    "publishedDate": "2025-09-19",
+    "isbn13": "9784098542505",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ホタルの嫁入り 橘オレコ 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=cqaL0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "cqaL0QEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:09:23.553Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "gb-ykZNzwEACAAJ",
+    "title": "サラリーマン金太郎",
+    "subtitle": "1巻",
+    "authors": [],
+    "publishedDate": "2014",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "サラリーマン金太郎 1巻 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "ykZNzwEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:10:59.191Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784757557130",
+    "title": "弱キャラ友崎くん 1",
+    "authors": [
+      "屋久ユウキ",
+      "フライ"
+    ],
+    "publishedDate": "2018-05",
+    "isbn13": "9784757557130",
+    "language": "ja",
+    "pageCount": 176,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "弱キャラ友崎くん 1 屋久ユウキ フライ 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "GC_gvQEACAAJ"
+    },
+    "updatedAt": "2026-03-17T13:11:00.163Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "adventure",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "gb-OPJQEQAAQBAJ",
+    "title": "マッシュル-MASHLE- 1",
+    "authors": [
+      "甲本一"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "2020-06-04",
+    "language": "ja",
+    "pageCount": 222,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "マッシュル-MASHLE- 1 甲本一 集英社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=OPJQEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "OPJQEQAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:11:02.553Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": "gag",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "gb-qoWHDwAAQBAJ",
+    "title": "恋と弾丸（１）",
+    "authors": [
+      "箕野希望"
+    ],
+    "publisher": "小学館",
+    "publishedDate": "2019-02-26",
+    "language": "ja",
+    "pageCount": 195,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "恋と弾丸（１） 箕野希望 小学館 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=qoWHDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "qoWHDwAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:11:03.718Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "gb-Jmy6DQAAQBAJ",
+    "title": "不滅のあなたへ（１）",
+    "authors": [
+      "大今良時"
+    ],
+    "publisher": "講談社",
+    "publishedDate": "2017-01-17",
+    "language": "ja",
+    "pageCount": 195,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "不滅のあなたへ（１） 大今良時 講談社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=Jmy6DQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Jmy6DQAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:11:04.747Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "adventure",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "gb-yPWSEAAAQBAJ",
+    "title": "サンダー３（１）",
+    "authors": [
+      "池田祐輝"
+    ],
+    "publisher": "講談社",
+    "publishedDate": "2022-10-17",
+    "language": "ja",
+    "pageCount": 240,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "サンダー３（１） 池田祐輝 講談社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=yPWSEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "yPWSEAAAQBAJ"
+    },
+    "updatedAt": "2026-03-17T13:12:12.783Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
   }
 ]
