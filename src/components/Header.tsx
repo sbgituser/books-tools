@@ -3,13 +3,11 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const tools = [
-  { href: "/search",                        label: "検索" },
-  { href: "/similar-books",                 label: "書籍ブラウザ" },
-  { href: "/tools/book-compare",            label: "条件一致で本を探す" },
-  { href: "/tools/adaptation-originals",    label: "映像化作品 原作検索" },
-  { href: "/tools/original-reverse-lookup", label: "原作本から映像化" },
-  { href: "/blog",                          label: "ブログ" },
+const navItems = [
+  { href: "/discover",    label: "発見する" },
+  { href: "/manga/mood",  label: "漫画×気分" },
+  { href: "/blog",        label: "ブログ" },
+  { href: "/search",      label: "検索" },
 ];
 
 export default function Header() {
@@ -18,34 +16,39 @@ export default function Header() {
   return (
     <header className="bg-stone-900 text-white sticky top-0 z-50 shadow-md">
       <div className="max-w-5xl mx-auto px-4 flex items-center justify-between h-14">
+        {/* ロゴ */}
         <Link
           href="/"
           className="flex items-center gap-2 text-white no-underline hover:opacity-90 transition-opacity"
         >
           <span className="text-xl">📚</span>
           <span className="font-bold text-base tracking-tight">
-            Books Tools
+            Books Discover
             <span className="hidden sm:inline text-stone-400 font-normal text-xs ml-1">
               kuras-plus
             </span>
           </span>
         </Link>
 
+        {/* ナビゲーション */}
         <nav className="flex gap-1" aria-label="メインナビゲーション">
-          {tools.map(({ href, label }) => (
-            <Link
-              key={href}
-              href={href}
-              className={`text-sm px-3 py-1.5 rounded transition-colors ${
-                pathname === href
-                  ? "bg-white/15 text-white"
-                  : "text-stone-300 hover:text-white hover:bg-white/10"
-              }`}
-              aria-current={pathname === href ? "page" : undefined}
-            >
-              {label}
-            </Link>
-          ))}
+          {navItems.map(({ href, label }) => {
+            const isActive = pathname === href || pathname.startsWith(href + "/");
+            return (
+              <Link
+                key={href}
+                href={href}
+                className={`text-sm px-3 py-1.5 rounded transition-colors ${
+                  isActive
+                    ? "bg-white/15 text-white"
+                    : "text-stone-300 hover:text-white hover:bg-white/10"
+                }`}
+                aria-current={isActive ? "page" : undefined}
+              >
+                {label}
+              </Link>
+            );
+          })}
         </nav>
       </div>
     </header>
