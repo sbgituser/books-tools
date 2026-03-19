@@ -68,7 +68,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ─── 気分タグショートカット ────────────────────────────── */}
+        {/* ─── 気分・ジャンルショートカット ──────────────────────── */}
         <section className="max-w-4xl mx-auto px-4 py-12">
           <div className="text-center mb-8">
             <h2 className="text-xl sm:text-2xl font-bold text-stone-900 mb-2">
@@ -77,7 +77,8 @@ export default function HomePage() {
             <p className="text-stone-500 text-sm">タグを選ぶと、その雰囲気の作品一覧が見られます</p>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          {/* 気分タグ */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
             {MOOD_TAGS.map(({ tag, icon, href }) => (
               <Link
                 key={tag}
@@ -92,62 +93,41 @@ export default function HomePage() {
             ))}
           </div>
 
-          <div className="text-center mt-6">
+          {/* ジャンル */}
+          <div className="grid sm:grid-cols-2 gap-3 mb-6">
+            <Link
+              href="/discover?type=manga"
+              className="group relative overflow-hidden bg-gradient-to-br from-rose-500 to-rose-700 rounded-xl px-6 py-5 text-white hover:shadow-lg transition-all hover:-translate-y-0.5 flex items-center gap-4"
+            >
+              <span className="text-4xl opacity-80" aria-hidden="true">📖</span>
+              <div>
+                <p className="text-rose-200 text-xs font-bold uppercase tracking-wider mb-0.5">Manga</p>
+                <p className="font-bold text-lg leading-tight">漫画を発見する</p>
+                <p className="text-rose-100 text-xs mt-0.5">少年・少女・青年・SF・ホラー</p>
+              </div>
+              <span className="ml-auto font-bold text-sm group-hover:translate-x-1 transition-transform">→</span>
+            </Link>
+            <Link
+              href="/discover?type=novel"
+              className="group relative overflow-hidden bg-gradient-to-br from-sky-500 to-sky-700 rounded-xl px-6 py-5 text-white hover:shadow-lg transition-all hover:-translate-y-0.5 flex items-center gap-4"
+            >
+              <span className="text-4xl opacity-80" aria-hidden="true">📕</span>
+              <div>
+                <p className="text-sky-200 text-xs font-bold uppercase tracking-wider mb-0.5">Novel</p>
+                <p className="font-bold text-lg leading-tight">小説を発見する</p>
+                <p className="text-sky-100 text-xs mt-0.5">ミステリ・恋愛・SF・純文学</p>
+              </div>
+              <span className="ml-auto font-bold text-sm group-hover:translate-x-1 transition-transform">→</span>
+            </Link>
+          </div>
+
+          <div className="text-center">
             <Link
               href="/discover"
               className="text-sm text-rose-600 hover:text-rose-700 font-semibold hover:underline"
             >
               すべてのタグで探す →
             </Link>
-          </div>
-        </section>
-
-        {/* ─── 漫画・小説 セクション ──────────────────────────────── */}
-        <section className="bg-white py-12 sm:py-16">
-          <div className="max-w-4xl mx-auto px-4">
-            <h2 className="text-xl sm:text-2xl font-bold text-stone-900 text-center mb-8">
-              ジャンルから探す
-            </h2>
-            <div className="grid sm:grid-cols-2 gap-4">
-
-              {/* 漫画 */}
-              <Link
-                href="/discover?type=manga"
-                className="group relative overflow-hidden bg-gradient-to-br from-rose-500 to-rose-700 rounded-2xl p-8 text-white hover:shadow-xl transition-all hover:-translate-y-0.5"
-              >
-                <div className="relative z-10">
-                  <p className="text-rose-200 text-xs font-bold uppercase tracking-widest mb-3">Manga</p>
-                  <h3 className="text-2xl font-bold mb-2">漫画を発見する</h3>
-                  <p className="text-rose-100 text-sm leading-relaxed">
-                    少年・少女・青年・SF・ホラー——<br />
-                    気分で絞り込んで次の一冊を。
-                  </p>
-                  <span className="mt-6 inline-block font-bold text-sm group-hover:translate-x-1 transition-transform">
-                    漫画を探す →
-                  </span>
-                </div>
-                <span className="absolute right-6 bottom-4 text-7xl opacity-20" aria-hidden="true">📖</span>
-              </Link>
-
-              {/* 小説 */}
-              <Link
-                href="/discover?type=novel"
-                className="group relative overflow-hidden bg-gradient-to-br from-sky-500 to-sky-700 rounded-2xl p-8 text-white hover:shadow-xl transition-all hover:-translate-y-0.5"
-              >
-                <div className="relative z-10">
-                  <p className="text-sky-200 text-xs font-bold uppercase tracking-widest mb-3">Novel</p>
-                  <h3 className="text-2xl font-bold mb-2">小説を発見する</h3>
-                  <p className="text-sky-100 text-sm leading-relaxed">
-                    ミステリ・恋愛・SF・純文学——<br />
-                    雰囲気タグで直感的に探せます。
-                  </p>
-                  <span className="mt-6 inline-block font-bold text-sm group-hover:translate-x-1 transition-transform">
-                    小説を探す →
-                  </span>
-                </div>
-                <span className="absolute right-6 bottom-4 text-7xl opacity-20" aria-hidden="true">📕</span>
-              </Link>
-            </div>
           </div>
         </section>
 

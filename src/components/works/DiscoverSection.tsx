@@ -53,6 +53,15 @@ export default function DiscoverSection({ defaultType }: Props) {
   );
   const [page, setPage] = useState(1);
 
+  // URL クエリパラメータ（?tag=xxx&type=manga）を初期値に反映
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const tag = params.get("tag");
+    const type = params.get("type") as "manga" | "novel" | null;
+    if (tag) setSelectedTag(tag);
+    if (type === "manga" || type === "novel") setTypeFilter(type);
+  }, []);
+
   // discovery-index.json をフェッチ
   useEffect(() => {
     fetch("/data/discovery-index.json")

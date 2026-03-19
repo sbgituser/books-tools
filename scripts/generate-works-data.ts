@@ -101,12 +101,12 @@ const availableTags = [...tagCounts.entries()]
   .sort((a, b) => b[1] - a[1])
   .map(([tag]) => tag);
 
-// タグ → workId[] インデックス
+// タグ → fileId[] インデックス（フロントの works マップキーと統一）
 const tagIndex: Record<string, string[]> = {};
 for (const tag of availableTags) {
   tagIndex[tag] = works
     .filter((w) => w.discoveryTags.includes(tag))
-    .map((w) => w.workId);
+    .map((w) => workFileIds.get(w.workId)!);
 }
 
 // 発見機能用 workId → WorkListItem マップ
