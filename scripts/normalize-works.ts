@@ -14,9 +14,16 @@
  *   data/normalized/volumes.json - Volume[]
  */
 
-import { readFileSync, writeFileSync, mkdirSync } from "fs";
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from "fs";
 import { join } from "path";
 import type { Work, Volume, WorkType, WorkStatus, LegacyBookEntry } from "../src/types/work";
+
+// ── サマリー補完データ ─────────────────────────────────────────────
+// data/summaries-supplement.json から workId → summaryShort のマッピングを読み込む
+const supplementPath = join(process.cwd(), "data", "summaries-supplement.json");
+const summariesSupplement: Record<string, string> = existsSync(supplementPath)
+  ? JSON.parse(readFileSync(supplementPath, "utf-8"))
+  : {};
 
 // ── ユーティリティ ────────────────────────────────────────────────
 
@@ -376,7 +383,7 @@ for (const [workId, entries] of groups.entries()) {
     authorDisplay: representative.authors.join(" / "),
     authors: representative.authors,
     publisherMain: representative.publisher,
-    summaryShort: moodRep?.recommendationCatch,
+    summaryShort: summariesSupplement[workId] ?? moodRep?.recommendationCatch,
     status,
     volumeCount: workVolumes.length,
     firstPublishedDate: dates[0],
