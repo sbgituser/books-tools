@@ -19170,7 +19170,8 @@
       "l5TagIds": [
         "series"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=bTMHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784758069182",
@@ -25754,6 +25755,661 @@
       "l1Id": "manga",
       "l2Id": "seinen",
       "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784081138326",
+    "title": "食戟のソーマ",
+    "authors": [],
+    "publishedDate": "2019",
+    "isbn13": "9784081138326",
+    "language": "ja",
+    "pageCount": 516,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "食戟のソーマ 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "HdxBzQEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:02:51.147Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=pRoKDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784081137916",
+    "title": "彼方のアストラ",
+    "authors": [],
+    "publishedDate": "2019",
+    "isbn13": "9784081137916",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "彼方のアストラ 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "AxNPyQEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:02:53.180Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "adventure",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=t-EuDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784592163213",
+    "title": "平穏世代の韋駄天達 1",
+    "authors": [
+      "クール教信者"
+    ],
+    "publishedDate": "2019",
+    "isbn13": "9784592163213",
+    "language": "ja",
+    "pageCount": 176,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "平穏世代の韋駄天達 1 クール教信者 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "5gyXwgEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:02:56.160Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=bbQ8EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784088801995",
+    "title": "東京喰種:re",
+    "authors": [
+      "石田スイ"
+    ],
+    "publishedDate": "2014",
+    "isbn13": "9784088801995",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "東京喰種:re 石田スイ 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "a_dm0QEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:02:58.306Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=X_ZGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784088802916",
+    "title": "カラダ探し",
+    "authors": [
+      "克俊·村瀬"
+    ],
+    "publishedDate": "2015",
+    "isbn13": "9784088802916",
+    "language": "ja",
+    "pageCount": 186,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "カラダ探し 克俊·村瀬 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "_l-JrgEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:03:00.255Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=-kFDDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784063712940",
+    "title": "ノラガミ 1",
+    "authors": [
+      "あだちとか"
+    ],
+    "publishedDate": "2011-07",
+    "isbn13": "9784063712940",
+    "language": "ja",
+    "pageCount": 193,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ノラガミ 1 あだちとか 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "ZtiPtgAACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:03:02.415Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=I7vJBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784091279286",
+    "title": "幼稚園WARS 1",
+    "authors": [
+      "千葉侑生"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "2023-03-03",
+    "isbn13": "9784091279286",
+    "language": "ja",
+    "pageCount": 211,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "幼稚園WARS 1 千葉侑生 集英社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=o7mpEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "o7mpEAAAQBAJ"
+    },
+    "updatedAt": "2026-03-19T08:03:04.210Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784065101308",
+    "title": "ランウェイで笑って(1)",
+    "authors": [
+      "猪ノ谷言葉"
+    ],
+    "publishedDate": "2017-09",
+    "isbn13": "9784065101308",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ランウェイで笑って(1) 猪ノ谷言葉 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=U3nbtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "U3nbtAEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:03:05.541Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784063713398",
+    "title": "ボールルームへようこそ",
+    "subtitle": "2",
+    "authors": [
+      "友·竹内"
+    ],
+    "publishedDate": "2012",
+    "isbn13": "9784063713398",
+    "language": "ja",
+    "pageCount": 109,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ボールルームへようこそ 2 友·竹内 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "8F1uswEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:03:07.006Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=XLmYEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784063954623",
+    "title": "ドメスティックな彼女",
+    "authors": [],
+    "publishedDate": "2015",
+    "isbn13": "9784063954623",
+    "language": "ja",
+    "pageCount": 183,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ドメスティックな彼女 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "3KgTjwEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:03:08.961Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "romance",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=tYbIBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784758020190",
+    "title": "ヲタクに恋は難しい",
+    "subtitle": "7",
+    "authors": [],
+    "publishedDate": "2019",
+    "isbn13": "9784758020190",
+    "language": "ja",
+    "pageCount": 127,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ヲタクに恋は難しい 7 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "uesvxQEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:03:10.278Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": "romcom",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=HhDCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784065105863",
+    "title": "ブルーピリオド(1)",
+    "authors": [
+      "山口つばさ"
+    ],
+    "publishedDate": "2017-12",
+    "isbn13": "9784065105863",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ブルーピリオド(1) 山口つばさ 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=W8qGswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "W8qGswEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:03:11.539Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784107718303",
+    "title": "少女終末旅行",
+    "authors": [],
+    "publishedDate": "2015",
+    "isbn13": "9784107718303",
+    "language": "ja",
+    "pageCount": 154,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "少女終末旅行 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "ZqYIjwEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:03:13.665Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=OdczDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784592141877",
+    "title": "ペリリュー ―楽園のゲルニカ― 1",
+    "authors": [
+      "武田一義",
+      "平塚柾緒"
+    ],
+    "publishedDate": "2016-07",
+    "isbn13": "9784592141877",
+    "language": "ja",
+    "pageCount": 208,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ペリリュー ―楽園のゲルニカ― 1 武田一義 平塚柾緒 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "yk9GAQAACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:03:18.019Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=MqGADwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784757562509",
+    "title": "ラグナクリムゾン 1巻",
+    "authors": [
+      "小林大樹"
+    ],
+    "publisher": "Square Enix",
+    "publishedDate": "2017-10-21",
+    "isbn13": "9784757562509",
+    "language": "ja",
+    "pageCount": 266,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ラグナクリムゾン 1巻 小林大樹 Square Enix 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=KC_GDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "KC_GDwAAQBAJ"
+    },
+    "updatedAt": "2026-03-19T08:03:19.611Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784047344761",
+    "title": "乙嫁語り",
+    "subtitle": "【乙嫁と聟花】編",
+    "authors": [],
+    "publishedDate": "2016",
+    "isbn13": "9784047344761",
+    "language": "ja",
+    "pageCount": 250,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "乙嫁語り 【乙嫁と聟花】編 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "x6ftzgEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:03:21.916Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=KlVWDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784832270923",
+    "title": "ゆるキャン△",
+    "authors": [],
+    "publishedDate": "2019",
+    "isbn13": "9784832270923",
+    "language": "ja",
+    "pageCount": 176,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ゆるキャン△ 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "iE5LzQEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:03:23.159Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": "daily",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=gVfuEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784832246393",
+    "title": "まちカドまぞく",
+    "authors": [],
+    "publishedDate": "2015",
+    "isbn13": "9784832246393",
+    "language": "ja",
+    "pageCount": 119,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "まちカドまぞく 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "bW2YjwEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:03:25.135Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": "gag",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=wlkuDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784592184621",
+    "title": "夏目友人帳",
+    "authors": [
+      "緑川ゆき"
+    ],
+    "publishedDate": "2005",
+    "isbn13": "9784592184621",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "夏目友人帳 緑川ゆき 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "8fhAzgEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:03:26.565Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "fantasy",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=SZVnDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784253233880",
+    "title": "絢爛たるグランドセーヌ",
+    "authors": [
+      "Cuvie"
+    ],
+    "publishedDate": "2014",
+    "isbn13": "9784253233880",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "絢爛たるグランドセーヌ Cuvie 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "nsLcoQEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:03:27.923Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "sports",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=9YE5EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784065114698",
+    "title": "花野井くんと恋の病(1)",
+    "authors": [
+      "森野萌"
+    ],
+    "publishedDate": "2018-05",
+    "isbn13": "9784065114698",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "花野井くんと恋の病(1) 森野萌 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=nx34zQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "nx34zQEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:03:31.071Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance",
       "l4TagIds": [
         "readable"
       ]
