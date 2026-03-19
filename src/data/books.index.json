@@ -27758,5 +27758,258 @@
       ]
     },
     "thumbnailUrl": "https://books.google.com/books/content?id=P6HHCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784199802072",
+    "title": "北斗の拳",
+    "subtitle": "究極版",
+    "authors": [
+      "武論尊"
+    ],
+    "publishedDate": "2013",
+    "isbn13": "9784199802072",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "北斗の拳 究極版 武論尊 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "_ZfJswEACAAJ"
+    },
+    "updatedAt": "2026-03-19T09:10:46.057Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=IMk60AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  },
+  {
+    "id": "9784834214024",
+    "title": "聖闘士星矢",
+    "subtitle": "アニメコミックス",
+    "authors": [
+      "週刊少年ジャンプ編集部"
+    ],
+    "publishedDate": "1995",
+    "isbn13": "9784834214024",
+    "language": "ja",
+    "pageCount": 152,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "聖闘士星矢 アニメコミックス 週刊少年ジャンプ編集部 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "iaY1YAAACAAJ"
+    },
+    "updatedAt": "2026-03-19T09:10:47.896Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=puJuDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784088818559",
+    "title": "キン肉マン",
+    "authors": [],
+    "publishedDate": "2019",
+    "isbn13": "9784088818559",
+    "language": "ja",
+    "pageCount": 184,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "キン肉マン 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "OPXhxgEACAAJ"
+    },
+    "updatedAt": "2026-03-19T09:10:49.622Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=DtynDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784087821758",
+    "title": "BASTARD!!",
+    "subtitle": "暗黒の破壊神完全版",
+    "authors": [
+      "萩原一至"
+    ],
+    "publishedDate": "2008-06",
+    "isbn13": "9784087821758",
+    "language": "ja",
+    "pageCount": 352,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "BASTARD!! 暗黒の破壊神完全版 萩原一至 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "eM0vOwAACAAJ"
+    },
+    "updatedAt": "2026-03-19T09:10:52.568Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=BuHKCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784088510064",
+    "title": "Dr.スランプ 1",
+    "authors": [
+      "鳥山明"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "1995-07-18",
+    "isbn13": "9784088510064",
+    "language": "ja",
+    "pageCount": 382,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "Dr.スランプ 1 鳥山明 集英社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=TUPHCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "TUPHCwAAQBAJ"
+    },
+    "updatedAt": "2026-03-19T09:10:55.099Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": "gag",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784776747260",
+    "title": "ハイスクール!奇面組",
+    "authors": [],
+    "publishedDate": "2018",
+    "isbn13": "9784776747260",
+    "language": "ja",
+    "pageCount": 386,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ハイスクール!奇面組 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "Jjy8vQEACAAJ"
+    },
+    "updatedAt": "2026-03-19T09:10:57.114Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": "gag",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=cxwkDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784091214805",
+    "title": "めぞん一刻",
+    "authors": [
+      "高橋留美子"
+    ],
+    "publishedDate": "1982",
+    "isbn13": "9784091214805",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "めぞん一刻 高橋留美子 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "gOnezAEACAAJ"
+    },
+    "updatedAt": "2026-03-19T09:10:58.554Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=-Vn2CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784592880011",
+    "title": "ガラスの仮面 1",
+    "authors": [
+      "美内すずえ"
+    ],
+    "publishedDate": "1994",
+    "isbn13": "9784592880011",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ガラスの仮面 1 美内すずえ 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "LWbLAAAACAAJ"
+    },
+    "updatedAt": "2026-03-19T09:16:22.779Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=EyROEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   }
 ]
