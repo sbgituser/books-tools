@@ -27406,5 +27406,357 @@
       ]
     },
     "thumbnailUrl": "https://books.google.com/books/content?id=Opj3CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784088721545",
+    "title": "るろうに剣心",
+    "subtitle": "明治剣客浪漫譚",
+    "authors": [
+      "和月伸宏"
+    ],
+    "isbn13": "9784088721545",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "るろうに剣心 明治剣客浪漫譚 和月伸宏 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "8v5YzgEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:37:29.885Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=JGPKCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784088736266",
+    "title": "遊戯王",
+    "subtitle": "カプセル·モンスター·チェス!. 3",
+    "authors": [],
+    "publishedDate": "2009",
+    "isbn13": "9784088736266",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "遊戯王 カプセル·モンスター·チェス!. 3 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "QhTSwQEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:37:33.028Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=RnpHU-DFsUEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784088730592",
+    "title": "封神演義",
+    "subtitle": "導なき道へ.... 第23部",
+    "authors": [
+      "竜·藤崎"
+    ],
+    "publishedDate": "2000",
+    "isbn13": "9784088730592",
+    "language": "ja",
+    "pageCount": 189,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "封神演義 導なき道へ.... 第23部 竜·藤崎 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "yffvMQAACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:37:35.109Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=J1xnDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784091932228",
+    "title": "ARMS",
+    "subtitle": "7",
+    "authors": [
+      "皆川亮二",
+      "七月鏡一"
+    ],
+    "publishedDate": "2014-10",
+    "isbn13": "9784091932228",
+    "language": "ja",
+    "pageCount": 304,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ARMS 7 皆川亮二 七月鏡一 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "D8X5oQEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:37:36.332Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=Y9H1CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784088514536",
+    "title": "シティーハンター",
+    "authors": [
+      "北条司"
+    ],
+    "isbn13": "9784088514536",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "シティーハンター 北条司 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "a7e20AEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:37:38.142Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=HCYtDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784086193719",
+    "title": "I”s(アイズ)1",
+    "authors": [
+      "桂正和"
+    ],
+    "publishedDate": "2012-08",
+    "isbn13": "9784086193719",
+    "language": "ja",
+    "pageCount": 336,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "I”s(アイズ)1 桂正和 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "G1DIMgEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:37:39.941Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "romcom",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=sQvGCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784088718088",
+    "title": "電影少女",
+    "authors": [
+      "桂正和"
+    ],
+    "publishedDate": "1990",
+    "isbn13": "9784088718088",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "電影少女 桂正和 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "WxsBtAEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:37:41.144Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "romcom",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=GErHCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784088732329",
+    "title": "SAND LAND",
+    "authors": [
+      "鳥山明"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "2000-11-02",
+    "isbn13": "9784088732329",
+    "language": "ja",
+    "pageCount": 218,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "SAND LAND 鳥山明 集英社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=wcnKCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "wcnKCwAAQBAJ"
+    },
+    "updatedAt": "2026-03-19T08:37:43.695Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "adventure",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784063127300",
+    "title": "金田一少年の事件簿",
+    "authors": [
+      "ふみや・さとう",
+      "天樹征丸"
+    ],
+    "publishedDate": "1999",
+    "isbn13": "9784063127300",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "金田一少年の事件簿 ふみや・さとう 天樹征丸 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "boz6OwAACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:37:45.032Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=Kw00DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784063283839",
+    "title": "YAWARA！ 完全版 デジタル Ver.（１）",
+    "authors": [
+      "浦沢直樹"
+    ],
+    "publisher": "小学館",
+    "publishedDate": "1987-04-30",
+    "isbn13": "9784063283839",
+    "language": "ja",
+    "pageCount": 279,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "YAWARA！ 完全版 デジタル Ver.（１） 浦沢直樹 小学館 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=n75WEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "n75WEAAAQBAJ"
+    },
+    "updatedAt": "2026-03-19T08:37:47.500Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784087821246",
+    "title": "ちびまる子ちゃん",
+    "subtitle": "わたしの好きな歌",
+    "authors": [
+      "ももこ・さくら"
+    ],
+    "publishedDate": "1992",
+    "isbn13": "9784087821246",
+    "language": "ja",
+    "pageCount": 166,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ちびまる子ちゃん わたしの好きな歌 ももこ・さくら 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "SQnGGgAACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:37:52.104Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": "daily",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=P6HHCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   }
 ]
