@@ -1,9 +1,10 @@
-import { readFileSync } from "fs";
+import { readFileSync, readdirSync } from "fs";
 import { join } from "path";
 import type { MetadataRoute } from "next";
 import { getAllBlogMeta } from "@/lib/blog";
 import { SITE_URL } from "@/lib/site";
 import { READING_SCENES } from "@/constants/readingScenes";
+import { PRESET_SEARCHES } from "@/constants/bookTags";
 
 export const dynamic = "force-static";
 
@@ -11,6 +12,17 @@ function getAllBookIds(): string[] {
   const path = join(process.cwd(), "src/data/books.index.json");
   const books = JSON.parse(readFileSync(path, "utf-8")) as { id: string }[];
   return books.map((b) => b.id);
+}
+
+function getAllWorkFileIds(): string[] {
+  try {
+    const dir = join(process.cwd(), "public", "data", "works");
+    return readdirSync(dir)
+      .filter((f) => f.endsWith(".json"))
+      .map((f) => f.replace(/\.json$/, ""));
+  } catch {
+    return [];
+  }
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -29,6 +41,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${SITE_URL}/discover`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
       url: `${SITE_URL}/similar-books`,
       lastModified: now,
       changeFrequency: "weekly",
@@ -36,6 +54,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${SITE_URL}/tools/book-compare`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${SITE_URL}/manga/mood`,
       lastModified: now,
       changeFrequency: "weekly",
       priority: 0.8,
@@ -53,7 +77,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${SITE_URL}/books/${encodeURIComponent(id)}`,
     lastModified: now,
     changeFrequency: "monthly",
-    priority: 0.6,
+    priority: 0.5,
+  }));
+
+  const workRoutes: MetadataRoute.Sitemap = getAllWorkFileIds().map((fileId) => ({
+    url: `${SITE_URL}/works/${fileId}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.7,
   }));
 
   const sceneRoutes: MetadataRoute.Sitemap = [
@@ -71,6 +102,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
-  return [...staticRoutes, ...sceneRoutes, ...blogRoutes, ...bookRoutes];
+  const mangaMoodRoutes: MetadataRoute.Sitemap = PRESET_SEARCHES.map((p) => ({
+    url: `${SITE_URL}/manga/by-mood/${p.slug}`,
+    lastModified: now,
+    changeFrequency: "weekly" as const,
+    priority: 0.75,
+  }));
+
+  return [
+    ...staticRoutes,
+    ...sceneRoutes,
+    ...mangaMoodRoutes,
+    ...workRoutes,
+    ...blogRoutes,
+    ...bookRoutes,
+  ];
 }
 
