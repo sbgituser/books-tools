@@ -3,6 +3,7 @@ import { join } from "path";
 import type { MetadataRoute } from "next";
 import { getAllBlogMeta } from "@/lib/blog";
 import { SITE_URL } from "@/lib/site";
+import { READING_SCENES } from "@/constants/readingScenes";
 
 export const dynamic = "force-static";
 
@@ -55,6 +56,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticRoutes, ...blogRoutes, ...bookRoutes];
+  const sceneRoutes: MetadataRoute.Sitemap = [
+    {
+      url: `${SITE_URL}/scene`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
+    ...READING_SCENES.map((s) => ({
+      url: `${SITE_URL}/scene/${s.slug}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    })),
+  ];
+
+  return [...staticRoutes, ...sceneRoutes, ...blogRoutes, ...bookRoutes];
 }
 

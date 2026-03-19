@@ -22,8 +22,9 @@
     "build:all": "tsx scripts/search-books.ts && tsx scripts/fetch-books.ts && tsx scripts/build-related.ts && tsx scripts/build-split-index.ts",
     "normalize:works": "tsx scripts/normalize-works.ts",
     "generate:works": "tsx scripts/generate-works-data.ts",
-    "collect:works": "npm run normalize:works && npm run generate:works",
-    "prebuild": "tsx scripts/normalize-works.ts && tsx scripts/generate-works-data.ts && tsx scripts/build-split-index.ts && tsx scripts/build-search-index.ts && tsx scripts/generate-feeds.ts"
+    "generate:scenes": "tsx scripts/generate-scenes-data.ts",
+    "collect:works": "npm run normalize:works && npm run generate:works && npm run generate:scenes",
+    "prebuild": "tsx scripts/normalize-works.ts && tsx scripts/generate-works-data.ts && tsx scripts/generate-scenes-data.ts && tsx scripts/build-split-index.ts && tsx scripts/build-search-index.ts && tsx scripts/generate-feeds.ts"
   },
   "dependencies": {
     "feed": "^4.2.2",

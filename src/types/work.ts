@@ -120,6 +120,36 @@ export interface DiscoveryIndex {
   generatedAt: string;
 }
 
+// ── 読書シーン型 ──────────────────────────────────────────────────
+
+/**
+ * シーン別作品一覧。/public/data/scenes/{slug}.json として生成。
+ */
+export interface SceneWorksData {
+  slug: string;
+  label: string;
+  icon: string;
+  description: string;
+  works: WorkListItem[];
+  totalCount: number;
+  generatedAt: string;
+}
+
+/**
+ * 全シーンのメタ情報。/public/data/scenes/index.json として生成。
+ * シーン選択UIで作品数バッジを表示するために使う。
+ */
+export interface SceneIndexMeta {
+  scenes: Array<{
+    slug: string;
+    label: string;
+    icon: string;
+    description: string;
+    count: number;
+  }>;
+  generatedAt: string;
+}
+
 // ── 既存型との互換ブリッジ ────────────────────────────────────────
 
 /**

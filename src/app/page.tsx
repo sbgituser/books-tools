@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { READING_SCENES } from "@/constants/readingScenes";
 
 export const metadata: Metadata = {
   title: "Books Discover | 気分から漫画・小説を発見する",
@@ -128,6 +129,47 @@ export default function HomePage() {
             >
               すべてのタグで探す →
             </Link>
+          </div>
+        </section>
+
+        {/* ─── 読書シーン ────────────────────────────────────────── */}
+        <section className="bg-white border-t border-stone-100 py-12 sm:py-16">
+          <div className="max-w-4xl mx-auto px-4">
+            <div className="text-center mb-8">
+              <h2 className="text-xl sm:text-2xl font-bold text-stone-900 mb-2">
+                今の状況で探す
+              </h2>
+              <p className="text-stone-500 text-sm">
+                読書シーンを選ぶだけで、ぴったりの作品が見つかります
+              </p>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+              {READING_SCENES.map((scene) => (
+                <Link
+                  key={scene.slug}
+                  href={`/scene/${scene.slug}`}
+                  className="group flex items-center gap-3 bg-stone-50 border border-stone-200 hover:border-violet-400 hover:bg-violet-50 rounded-xl px-4 py-3.5 transition-all"
+                >
+                  <span className="text-2xl shrink-0" aria-hidden="true">{scene.icon}</span>
+                  <div className="min-w-0">
+                    <p className="font-bold text-stone-800 group-hover:text-violet-700 transition-colors text-sm leading-snug">
+                      {scene.label}
+                    </p>
+                    <p className="text-xs text-stone-400 leading-tight mt-0.5 line-clamp-1">
+                      {scene.description}
+                    </p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+            <div className="text-center mt-6">
+              <Link
+                href="/scene"
+                className="text-sm text-violet-600 hover:text-violet-700 font-semibold hover:underline"
+              >
+                すべての読書シーンを見る →
+              </Link>
+            </div>
           </div>
         </section>
 
