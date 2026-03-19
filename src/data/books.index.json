@@ -26414,5 +26414,513 @@
         "readable"
       ]
     }
+  },
+  {
+    "id": "9784088737140",
+    "title": "家庭教師ヒットマンREBORN! モノクロ版 1",
+    "authors": [
+      "天野明"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "2004-10-04",
+    "isbn13": "9784088737140",
+    "language": "ja",
+    "pageCount": 191,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "家庭教師ヒットマンREBORN! モノクロ版 1 天野明 集英社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=3qTLCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "3qTLCwAAQBAJ"
+    },
+    "updatedAt": "2026-03-19T08:11:19.793Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088747767",
+    "title": "めだかボックス 1",
+    "subtitle": "生徒会を執行する",
+    "authors": [
+      "暁月あきら",
+      "西尾維新"
+    ],
+    "publishedDate": "2009-10",
+    "isbn13": "9784088747767",
+    "language": "ja",
+    "pageCount": 200,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "めだかボックス 1 生徒会を執行する 暁月あきら 西尾維新 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "5kzmMwEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:11:25.116Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=UaN2DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784081137565",
+    "title": "ぬらりひょんの孫",
+    "authors": [],
+    "publishedDate": "2018",
+    "isbn13": "9784081137565",
+    "language": "ja",
+    "pageCount": 423,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ぬらりひょんの孫 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "O7JVwAEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:11:27.176Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=Q_XYEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784757560314",
+    "title": "黒執事",
+    "authors": [],
+    "publishedDate": "2019",
+    "isbn13": "9784757560314",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "黒執事 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "eg8KyAEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:11:29.106Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=OdUSEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784088743677",
+    "title": "テガミバチ 1",
+    "authors": [
+      "浅田弘幸"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "2007-01-04",
+    "isbn13": "9784088743677",
+    "language": "ja",
+    "pageCount": 196,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "テガミバチ 1 浅田弘幸 集英社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=eOLKCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "eOLKCwAAQBAJ"
+    },
+    "updatedAt": "2026-03-19T08:11:31.164Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "adventure",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784087031119",
+    "title": "テニスの王子様",
+    "authors": [
+      "許斐剛",
+      "影山由美"
+    ],
+    "publishedDate": "2002-05",
+    "isbn13": "9784087031119",
+    "language": "ja",
+    "pageCount": 212,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "テニスの王子様 許斐剛 影山由美 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=OsOTswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "OsOTswEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:11:34.117Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784091632319",
+    "title": "クロスゲーム",
+    "subtitle": "第4卷 (デートなんだから)",
+    "authors": [],
+    "publishedDate": "2015",
+    "isbn13": "9784091632319",
+    "language": "ja",
+    "pageCount": 387,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "クロスゲーム 第4卷 (デートなんだから) 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "x6wKjwEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:11:36.166Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=7jLzDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784099418021",
+    "title": "神のみぞ知るセカイ",
+    "authors": [],
+    "publishedDate": "2012",
+    "isbn13": "9784099418021",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "神のみぞ知るセカイ 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "g8HStAEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:11:38.785Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "romcom",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=GOn1CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784087033786",
+    "title": "バクマン。",
+    "authors": [
+      "大場つぐみ",
+      "小畑健"
+    ],
+    "publishedDate": "2015-09-23",
+    "isbn13": "9784087033786",
+    "language": "ja",
+    "pageCount": 190,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "バクマン。 大場つぐみ 小畑健 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=rhcljgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "rhcljgEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:11:42.005Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "daily",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784063805147",
+    "title": "昭和元禄落語心中",
+    "authors": [],
+    "isbn13": "9784063805147",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "昭和元禄落語心中 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "3cPqzAEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:11:44.875Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=Z2bGBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784063289992",
+    "title": "働きマン",
+    "authors": [
+      "安野モヨコ"
+    ],
+    "publishedDate": "2004",
+    "isbn13": "9784063289992",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "働きマン 安野モヨコ 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "GZCN0QEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:11:46.924Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=FHAOEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784091877277",
+    "title": "土竜の唄（１）",
+    "authors": [
+      "高橋のぼる"
+    ],
+    "publisher": "小学館",
+    "publishedDate": "2006-01-05",
+    "isbn13": "9784091877277",
+    "language": "ja",
+    "pageCount": 220,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "土竜の唄（１） 高橋のぼる 小学館 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=LgP4CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "LgP4CgAAQBAJ"
+    },
+    "updatedAt": "2026-03-19T08:11:48.359Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784592193005",
+    "title": "神様はじめました",
+    "subtitle": "20",
+    "authors": [
+      "ジュリエッタ・鈴木"
+    ],
+    "publishedDate": "2014",
+    "isbn13": "9784592193005",
+    "language": "ja",
+    "pageCount": 179,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "神様はじめました 20 ジュリエッタ・鈴木 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "lxMurgEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:11:49.912Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "fantasy",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=hIJ_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784592194927",
+    "title": "スキップ・ビート!",
+    "subtitle": "32",
+    "authors": [
+      "仲村佳樹"
+    ],
+    "publishedDate": "2013",
+    "isbn13": "9784592194927",
+    "language": "ja",
+    "pageCount": 162,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "スキップ・ビート! 32 仲村佳樹 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "wBhwmwEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:11:51.839Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=aO19DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784091356505",
+    "title": "電撃デイジー",
+    "subtitle": "15",
+    "authors": [
+      "キョウスケ・最富"
+    ],
+    "publishedDate": "2013",
+    "isbn13": "9784091356505",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "電撃デイジー 15 キョウスケ・最富 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "4vJJswEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:11:53.711Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=t6P1CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784088477091",
+    "title": "ラブ★コン カラー版 1",
+    "authors": [
+      "中原アヤ"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "2002-03-25",
+    "isbn13": "9784088477091",
+    "language": "ja",
+    "pageCount": 183,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ラブ★コン カラー版 1 中原アヤ 集英社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=SS1yCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "SS1yCwAAQBAJ"
+    },
+    "updatedAt": "2026-03-19T08:11:55.118Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romcom",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
   }
 ]
