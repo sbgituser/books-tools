@@ -26922,5 +26922,489 @@
         "readable"
       ]
     }
+  },
+  {
+    "id": "9784087031164",
+    "title": "シャーマンキング",
+    "authors": [
+      "武井宏之",
+      "三井秀樹"
+    ],
+    "publishedDate": "2002-08",
+    "isbn13": "9784087031164",
+    "language": "ja",
+    "pageCount": 224,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "シャーマンキング 武井宏之 三井秀樹 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=al2ttAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "al2ttAEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:24:00.679Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088738345",
+    "title": "魔人探偵脳噛ネウロ",
+    "authors": [
+      "松井優征"
+    ],
+    "publishedDate": "2005",
+    "isbn13": "9784088738345",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "魔人探偵脳噛ネウロ 松井優征 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "R4J60QEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:24:04.063Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=5eluCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784088733555",
+    "title": "武装錬金 1",
+    "authors": [
+      "和月伸宏"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "2004-01-05",
+    "isbn13": "9784088733555",
+    "language": "ja",
+    "pageCount": 190,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "武装錬金 1 和月伸宏 集英社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=MTDMCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "MTDMCwAAQBAJ"
+    },
+    "updatedAt": "2026-03-19T08:24:06.509Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784063843941",
+    "title": "エア・ギア",
+    "subtitle": "30",
+    "authors": [
+      "暮維人·大"
+    ],
+    "publishedDate": "2010",
+    "isbn13": "9784063843941",
+    "language": "ja",
+    "pageCount": 183,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "エア・ギア 30 暮維人·大 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "JLE6uQEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:24:07.920Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=wX9vswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  },
+  {
+    "id": "9784065102954",
+    "title": "はじめの一歩 1",
+    "authors": [
+      "森川ジョージ"
+    ],
+    "publishedDate": "2017-11",
+    "isbn13": "9784065102954",
+    "language": "ja",
+    "pageCount": 384,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "はじめの一歩 1 森川ジョージ 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "9xa_swEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:24:09.180Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=Dno0EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784091272713",
+    "title": "ハヤテのごとく! 1",
+    "authors": [
+      "畑健二郎"
+    ],
+    "publishedDate": "2005-03",
+    "isbn13": "9784091272713",
+    "language": "ja",
+    "pageCount": 192,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ハヤテのごとく! 1 畑健二郎 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "8oGqMwEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:24:10.625Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "romcom",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=WBr7CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784063726657",
+    "title": "新装版　魔法先生ネギま！（１）",
+    "authors": [
+      "赤松健"
+    ],
+    "publisher": "講談社",
+    "publishedDate": "2016-12-09",
+    "isbn13": "9784063726657",
+    "language": "ja",
+    "pageCount": 363,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "新装版　魔法先生ネギま！（１） 赤松健 講談社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=nXtCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "nXtCDwAAQBAJ"
+    },
+    "updatedAt": "2026-03-19T08:24:12.757Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "romcom",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784086193993",
+    "title": "いちご100%",
+    "subtitle": "6",
+    "authors": [
+      "水希·河下"
+    ],
+    "publishedDate": "2013",
+    "isbn13": "9784086193993",
+    "language": "ja",
+    "pageCount": 347,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "いちご100% 6 水希·河下 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "JPN-ngEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:24:15.428Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "romcom",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=vehuCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784063849899",
+    "title": "ラブひな",
+    "subtitle": "6",
+    "authors": [
+      "健·赤松"
+    ],
+    "publishedDate": "2014",
+    "isbn13": "9784063849899",
+    "language": "ja",
+    "pageCount": 352,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ラブひな 6 健·赤松 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "qyzSrQEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:24:17.478Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "romcom",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=nggQDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784063367393",
+    "title": "ツバサ（１）",
+    "authors": [
+      "ＣＬＡＭＰ"
+    ],
+    "publisher": "講談社",
+    "publishedDate": "2003-08-09",
+    "isbn13": "9784063367393",
+    "language": "ja",
+    "pageCount": 197,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ツバサ（１） ＣＬＡＭＰ 講談社 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=vqXFBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "vqXFBQAAQBAJ"
+    },
+    "updatedAt": "2026-03-19T08:24:18.852Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "adventure",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784063285505",
+    "title": "バガボンド",
+    "authors": [
+      "井上雄彦"
+    ],
+    "publishedDate": "1999",
+    "isbn13": "9784063285505",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "バガボンド 井上雄彦 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "p832zAEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:24:20.229Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=BSI2AQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+  },
+  {
+    "id": "9784063144314",
+    "title": "ピアノの森",
+    "authors": [
+      "一色まこと"
+    ],
+    "publishedDate": "2005",
+    "isbn13": "9784063144314",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ピアノの森 一色まこと 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "uptZzgEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:24:22.193Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=vzw-EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784063849653",
+    "title": "BECK",
+    "subtitle": "3",
+    "authors": [
+      "ハロルド作石"
+    ],
+    "publishedDate": "2014",
+    "isbn13": "9784063849653",
+    "language": "ja",
+    "pageCount": 381,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "BECK 3 ハロルド作石 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "U5S_ngEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:24:25.455Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784048690263",
+    "title": "あずまんが大王(1)",
+    "authors": [
+      "あずまきよひこ"
+    ],
+    "publishedDate": "2000-02",
+    "isbn13": "9784048690263",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "あずまんが大王(1) あずまきよひこ 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "-C-UzwEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:24:26.750Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": "gag",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=PmOtEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784091590220",
+    "title": "かってに改蔵",
+    "subtitle": "地丹フィギュア携帯ストラップ",
+    "authors": [
+      "久米田康治"
+    ],
+    "publishedDate": "2004-01",
+    "isbn13": "9784091590220",
+    "language": "ja",
+    "pageCount": 192,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "かってに改蔵 地丹フィギュア携帯ストラップ 久米田康治 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "XfhUMwEACAAJ"
+    },
+    "updatedAt": "2026-03-19T08:24:28.940Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": "gag",
+      "l4TagIds": [
+        "readable"
+      ]
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=Opj3CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   }
 ]
