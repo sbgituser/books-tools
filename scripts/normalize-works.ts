@@ -99,54 +99,163 @@ function makeVolumeId(workId: string, legacyId: string): string {
 function buildDiscoveryTags(entry: LegacyBookEntry): string[] {
   const tags: string[] = [];
   const mood = entry.moodTags;
-  if (!mood) return tags;
 
-  const emotionalMap: Record<string, string> = {
-    cry: "泣ける",
-    emotional: "感動",
-    sad: "切ない",
-    hot: "熱い",
-    refreshing: "爽快",
-    funny: "笑える",
-    healing: "癒やし",
-    scary: "怖い",
-    hopeless: "絶望",
-    positive: "前向き",
-    heartwarming: "心温まる",
-  };
-  const purposeMap: Record<string, string> = {
-    thinking: "考えさせられる",
-    intellectual: "知的",
-    learning: "学べる",
-    binge: "一気読み",
-    easy: "読みやすい",
-    short: "短編",
-    immersive: "世界観重視",
-    motivated: "やる気が出る",
-  };
-  const atmosphereMap: Record<string, string> = {
-    dark: "ダーク",
-    bright: "明るい",
-    calm: "穏やか",
-    daily: "日常系",
-    fantasy: "ファンタジー",
-    tense: "バトル",
-    gentle: "優しい",
-    profound: "深い",
-  };
+  // ── moodTags ベースのマッピング ──────────────────────────────────
+  if (mood) {
+    const emotionalMap: Record<string, string> = {
+      cry: "泣ける",
+      emotional: "感動",
+      sad: "切ない",
+      hot: "熱い",
+      refreshing: "爽快",
+      funny: "笑える",
+      healing: "癒やし",
+      scary: "怖い",
+      hopeless: "絶望",
+      positive: "前向き",
+      heartwarming: "心温まる",
+    };
+    const purposeMap: Record<string, string> = {
+      thinking: "考えさせられる",
+      intellectual: "知的",
+      learning: "学べる",
+      binge: "一気読み",
+      easy: "読みやすい",
+      short: "短編",
+      immersive: "世界観重視",
+      motivated: "やる気が出る",
+    };
+    const atmosphereMap: Record<string, string> = {
+      dark: "ダーク",
+      bright: "明るい",
+      calm: "穏やか",
+      daily: "日常系",
+      fantasy: "ファンタジー",
+      tense: "バトル",
+      gentle: "優しい",
+      profound: "深い",
+    };
 
-  for (const t of mood.emotionalTags ?? []) {
-    if (emotionalMap[t]) tags.push(emotionalMap[t]);
+    for (const t of mood.emotionalTags ?? []) {
+      if (emotionalMap[t]) tags.push(emotionalMap[t]);
+    }
+    for (const t of mood.purposeTags ?? []) {
+      if (purposeMap[t]) tags.push(purposeMap[t]);
+    }
+    for (const t of mood.atmosphereTags ?? []) {
+      if (atmosphereMap[t]) tags.push(atmosphereMap[t]);
+    }
+    if (mood.completionStatus === "完結") tags.push("完結");
   }
-  for (const t of mood.purposeTags ?? []) {
-    if (purposeMap[t]) tags.push(purposeMap[t]);
+
+  // ── 小説: l2/l3 + タイトルキーワードからのルールベースタグ ──────
+  // moodTags がない場合でも小説には自動的にタグを付与する
+  if (entry.manualClassification?.l1Id === "novel") {
+    tags.push(...buildNovelDiscoveryTags(entry));
   }
-  for (const t of mood.atmosphereTags ?? []) {
-    if (atmosphereMap[t]) tags.push(atmosphereMap[t]);
-  }
-  if (mood.completionStatus === "完結") tags.push("完結");
 
   return [...new Set(tags)];
+}
+
+/**
+ * 小説向けルールベースの discoveryTags 生成。
+ * l2Id / l3Id / タイトルキーワードを組み合わせて判定する。
+ */
+function buildNovelDiscoveryTags(entry: LegacyBookEntry): string[] {
+  const tags: string[] = [];
+  const l2 = entry.manualClassification?.l2Id ?? "";
+  const l3 = entry.manualClassification?.l3Id ?? "";
+  const title = entry.title ?? "";
+
+  // ── L3ベースの精細マッピング ──────────────────────────────────────
+  const l3Tags: Record<string, string[]> = {
+    "mystery":           ["考えさせられる", "深い", "一気読み"],
+    "honkaku-mystery":   ["考えさせられる", "深い"],
+    "classic-mystery":   ["考えさせられる", "深い"],
+    "suspense":          ["考えさせられる", "怖い", "一気読み"],
+    "police":            ["考えさせられる", "深い"],
+    "modern-literature": ["感動", "考えさせられる"],
+    "literary":          ["感動", "考えさせられる", "深い"],
+    "jp-literature":     ["感動", "考えさせられる", "深い"],
+    "tearjerker":        ["泣ける", "感動", "切ない"],
+    "literary-criticism":["考えさせられる", "学べる"],
+    "sf":                ["世界観重視", "考えさせられる"],
+    "hard-sf":           ["世界観重視", "考えさせられる", "深い"],
+    "space-sf":          ["世界観重視"],
+    "ai-tech-sf":        ["考えさせられる", "世界観重視"],
+    "near-future":       ["考えさせられる", "世界観重視"],
+    "fantasy":           ["ファンタジー", "世界観重視"],
+    "modern-fantasy":    ["ファンタジー"],
+    "adventure-fantasy": ["ファンタジー", "世界観重視", "熱い"],
+    "myth":              ["世界観重視"],
+    "romance":           ["泣ける", "感動", "心温まる", "切ない"],
+    "horror":            ["怖い", "ダーク"],
+  };
+
+  // ── L2ベースのフォールバックマッピング ──────────────────────────
+  const l2Tags: Record<string, string[]> = {
+    "mystery":           ["考えさせられる", "深い"],
+    "literary":          ["感動", "考えさせられる"],
+    "sf":                ["世界観重視"],
+    "fantasy":           ["ファンタジー", "世界観重視"],
+    "romance":           ["泣ける", "感動", "心温まる"],
+    "entertainment":     ["読みやすい", "一気読み"],
+    "horror":            ["怖い", "ダーク"],
+  };
+
+  // L3タグを優先、なければL2タグを使用
+  const baseTags = l3Tags[l3] ?? l2Tags[l2] ?? [];
+  tags.push(...baseTags);
+
+  // ── タイトルキーワードによる補強 ────────────────────────────────
+  // ミステリ系
+  if (/ミステリ|推理|探偵|殺人|密室|謎解き|事件|犯人|刑事/.test(title)) {
+    if (!tags.includes("考えさせられる")) tags.push("考えさせられる");
+    if (!tags.includes("深い")) tags.push("深い");
+  }
+  // SF系
+  if (/SF|宇宙|未来|ロボット|AI|人工知能|量子|タイムトラベル|時間跳躍/.test(title)) {
+    if (!tags.includes("世界観重視")) tags.push("世界観重視");
+  }
+  // ファンタジー系
+  if (/ファンタジー|魔法|魔王|ドラゴン|異世界|転生|勇者/.test(title)) {
+    if (!tags.includes("ファンタジー")) tags.push("ファンタジー");
+    if (!tags.includes("世界観重視")) tags.push("世界観重視");
+  }
+  // 恋愛・青春系
+  if (/恋愛|恋する|青春|ラブ|初恋|片思い|両思い/.test(title)) {
+    if (!tags.includes("心温まる")) tags.push("心温まる");
+    if (!tags.includes("泣ける")) tags.push("泣ける");
+  }
+  // 感動・泣き系
+  if (/感動|泣ける|涙|切ない|ひとりぼっち/.test(title)) {
+    if (!tags.includes("感動")) tags.push("感動");
+    if (!tags.includes("泣ける")) tags.push("泣ける");
+  }
+  // ホラー・怖い系
+  if (/ホラー|怖い|恐怖|恐ろしい|呪い|幽霊|心霊/.test(title)) {
+    if (!tags.includes("怖い")) tags.push("怖い");
+    if (!tags.includes("ダーク")) tags.push("ダーク");
+  }
+  // 日常・ほのぼの系
+  if (/日常|ほのぼの|ゆったり|穏やか|のんびり/.test(title)) {
+    if (!tags.includes("日常系")) tags.push("日常系");
+    if (!tags.includes("癒やし")) tags.push("癒やし");
+  }
+  // 笑える系
+  if (/コメディ|笑え|ユーモア|おかしな|おもしろ/.test(title)) {
+    if (!tags.includes("笑える")) tags.push("笑える");
+  }
+  // 冒険・熱い系
+  if (/冒険|旅|探検|チャレンジ|熱い|情熱/.test(title)) {
+    if (!tags.includes("熱い")) tags.push("熱い");
+  }
+
+  // ── 完結判定（単巻小説は基本完結） ──────────────────────────────
+  // volumeCount は Work 生成後にしか分からないが、ここでは
+  // moodTags の completionStatus がある場合のみ反映（単独ではここで判断不可）
+
+  return tags;
 }
 
 /**
