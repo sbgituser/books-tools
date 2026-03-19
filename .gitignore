@@ -45,3 +45,6 @@ next-env.d.ts
 
 # classification CSV (local work file)
 scripts/classifications.csv
+
+# normalized intermediate data (rebuilt by normalize-works.ts)
+/data/normalized/
