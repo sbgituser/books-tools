@@ -1,5 +1,643 @@
 [
   {
+    "id": "9784059150480",
+    "title": "どみなんと　track01　おためし版",
+    "authors": [
+      "小鐘博子"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "どみなんと　track01　おためし版 ガールズバンド４コマ漫画 小鐘博子 学研プラス Comics & Graphic Novels Comics & Graphic Novels",
+    "updatedAt": "2026-03-19T01:51:00.148Z",
+    "subtitle": "ガールズバンド４コマ漫画",
+    "publisher": "学研プラス",
+    "isbn10": "4059150487",
+    "isbn13": "9784059150480",
+    "language": "ja",
+    "pageCount": 9,
+    "estimatedReadingHours": 0.2,
+    "thumbnailUrl": "https://books.google.com/books/content?id=-1QZCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "-1QZCwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": ""
+    }
+  },
+  {
+    "id": "9784815608590",
+    "title": "ＧＡ文庫１５周年　人気作品増量試読合本",
+    "authors": [
+      "佐伯さん",
+      "海空りく",
+      "徳山銀次郎",
+      "望公太",
+      "蝸牛くも"
+    ],
+    "categories": [
+      "小説・フィクション"
+    ],
+    "keywords": [
+      "小説・フィクション"
+    ],
+    "searchableText": "ＧＡ文庫１５周年　人気作品増量試読合本 （GA文庫） 佐伯さん 海空りく 徳山銀次郎 望公太 蝸牛くも SBクリエイティブ 小説・フィクション 小説・フィクション",
+    "updatedAt": "2026-03-19T01:51:14.331Z",
+    "subtitle": "（GA文庫）",
+    "publisher": "SBクリエイティブ",
+    "publishedDate": "2021-01-29",
+    "isbn10": "4815608598",
+    "isbn13": "9784815608590",
+    "language": "ja",
+    "pageCount": 2598,
+    "estimatedReadingHours": 65,
+    "thumbnailUrl": "https://books.google.com/books/content?id=Bg8VEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Bg8VEAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": ""
+    }
+  },
+  {
+    "id": "9784815608279",
+    "title": "お隣の天使様にいつの間にか駄目人間にされていた件 4",
+    "authors": [
+      "佐伯さん"
+    ],
+    "categories": [
+      "小説・フィクション"
+    ],
+    "keywords": [
+      "小説・フィクション"
+    ],
+    "searchableText": "お隣の天使様にいつの間にか駄目人間にされていた件 4 （GA文庫） 佐伯さん SBクリエイティブ 小説・フィクション 小説・フィクション",
+    "updatedAt": "2026-03-19T01:51:16.858Z",
+    "subtitle": "（GA文庫）",
+    "publisher": "SBクリエイティブ",
+    "publishedDate": "202103",
+    "isbn10": "481560827X",
+    "isbn13": "9784815608279",
+    "language": "ja",
+    "pageCount": 191,
+    "estimatedReadingHours": 4.8,
+    "sourceIds": {
+      "googleBooksId": "YnkhEAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": ""
+    }
+  },
+  {
+    "id": "9784815628055",
+    "title": "お隣の天使様にいつの間にか駄目人間にされていた件11",
+    "authors": [
+      "佐伯さん",
+      "はねこと"
+    ],
+    "categories": [
+      "小説・フィクション"
+    ],
+    "keywords": [
+      "小説・フィクション"
+    ],
+    "searchableText": "お隣の天使様にいつの間にか駄目人間にされていた件11 （GA文庫） 佐伯さん はねこと ＳＢクリエイティブ 小説・フィクション 小説・フィクション",
+    "updatedAt": "2026-03-19T01:51:19.988Z",
+    "subtitle": "（GA文庫）",
+    "publisher": "ＳＢクリエイティブ",
+    "publishedDate": "2025-03-15",
+    "isbn10": "481562805X",
+    "isbn13": "9784815628055",
+    "language": "ja",
+    "pageCount": 181,
+    "estimatedReadingHours": 4.5,
+    "sourceIds": {
+      "googleBooksId": "VHtNEQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": ""
+    }
+  },
+  {
+    "id": "9784059225805",
+    "title": "勇気爆発バーンブレイバーンアンソロジーコミックBRAVE",
+    "authors": [
+      "Cygames"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "勇気爆発バーンブレイバーンアンソロジーコミックBRAVE Cygames Gakken Comics & Graphic Novels Comics & Graphic Novels",
+    "updatedAt": "2026-03-19T01:51:57.362Z",
+    "publisher": "Gakken",
+    "publishedDate": "2024-11-18",
+    "isbn10": "4059225800",
+    "isbn13": "9784059225805",
+    "language": "ja",
+    "pageCount": 151,
+    "estimatedReadingHours": 3.8,
+    "thumbnailUrl": "https://books.google.com/books/content?id=d2AwEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "d2AwEQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": ""
+    }
+  },
+  {
+    "id": "9784537145793",
+    "title": "ガンニバル１～３巻スペシャルプライスパック",
+    "authors": [
+      "二宮 正明",
+      "二宮正明"
+    ],
+    "categories": [
+      "外国文学",
+      "ガンニバル;漫画ゴラク;ゴラク;二宮正明"
+    ],
+    "keywords": [
+      "外国文学",
+      "ガンニバル;漫画ゴラク;ゴラク;二宮正明"
+    ],
+    "searchableText": "ガンニバル１～３巻スペシャルプライスパック 二宮 正明 二宮正明 日本文芸社 外国文学 ガンニバル;漫画ゴラク;ゴラク;二宮正明 ガンニバル;漫画ゴラク;ゴラク;二宮正明 外国文学 ガンニバル;漫画ゴラク;ゴラク;二宮正明",
+    "updatedAt": "2026-03-19T01:51:58.937Z",
+    "publisher": "日本文芸社",
+    "publishedDate": "2022-12-19",
+    "isbn10": "453714579X",
+    "isbn13": "9784537145793",
+    "language": "ja",
+    "subjects": [
+      "ガンニバル;漫画ゴラク;ゴラク;二宮正明"
+    ],
+    "sourceIds": {
+      "googleBooksId": "rjV4zwEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": ""
+    }
+  },
+  {
+    "id": "9784834233063",
+    "title": "銀魂THE FINAL : アニメコミックス",
+    "authors": [
+      "空知英秋"
+    ],
+    "categories": [],
+    "keywords": [],
+    "searchableText": "銀魂THE FINAL : アニメコミックス 空知英秋 集英社 (発売)",
+    "updatedAt": "2026-03-19T01:52:03.918Z",
+    "publisher": "集英社 (発売)",
+    "publishedDate": "202109",
+    "isbn10": "4834233065",
+    "isbn13": "9784834233063",
+    "language": "ja",
+    "pageCount": 368,
+    "estimatedReadingHours": 9.2,
+    "sourceIds": {
+      "googleBooksId": "gXmKzgEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": ""
+    }
+  },
+  {
+    "id": "blog-岳みんなの山-石塚真一",
+    "title": "岳 みんなの山",
+    "authors": [
+      "石塚真一"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "岳 みんなの山 石塚真一 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-16T12:31:05.732Z",
+    "isbn13": "9784098608140",
+    "isbn10": "4091835279",
+    "sourceIds": {
+      "googleBooksId": "9NskzgEACAAJ"
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=9NskzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784488029067",
+    "title": "明智恭介の奔走 = The Efforts of Akechi Kyosuke",
+    "authors": [
+      "今村昌弘"
+    ],
+    "categories": [
+      "小説・フィクション"
+    ],
+    "keywords": [
+      "小説・フィクション"
+    ],
+    "searchableText": "明智恭介の奔走 = The Efforts of Akechi Kyosuke 今村昌弘 東京創元社 小説・フィクション 小説・フィクション",
+    "updatedAt": "2026-03-19T01:52:28.438Z",
+    "publisher": "東京創元社",
+    "publishedDate": "202406",
+    "isbn10": "448802906X",
+    "isbn13": "9784488029067",
+    "language": "ja",
+    "pageCount": 219,
+    "estimatedReadingHours": 5.5,
+    "sourceIds": {
+      "googleBooksId": "DzoPEQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": ""
+    }
+  },
+  {
+    "id": "9784488466138",
+    "title": "兇人邸の殺人",
+    "authors": [
+      "今村 昌弘",
+      "今村昌弘"
+    ],
+    "categories": [
+      "小説・フィクション"
+    ],
+    "keywords": [
+      "小説・フィクション"
+    ],
+    "searchableText": "兇人邸の殺人 今村 昌弘 今村昌弘 東京創元社 小説・フィクション 小説・フィクション",
+    "updatedAt": "2026-03-19T01:52:30.321Z",
+    "publisher": "東京創元社",
+    "publishedDate": "2025-10-10",
+    "isbn10": "4488466133",
+    "isbn13": "9784488466138",
+    "language": "ja",
+    "pageCount": 310,
+    "estimatedReadingHours": 7.8,
+    "sourceIds": {
+      "googleBooksId": "H8OLEQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": ""
+    }
+  },
+  {
+    "id": "9784488466121",
+    "title": "魔眼の匣の殺人",
+    "authors": [
+      "今村昌弘"
+    ],
+    "categories": [
+      "小説・フィクション"
+    ],
+    "keywords": [
+      "小説・フィクション"
+    ],
+    "searchableText": "魔眼の匣の殺人 今村昌弘 東京創元社 小説・フィクション 小説・フィクション",
+    "updatedAt": "2026-03-19T01:52:32.509Z",
+    "publisher": "東京創元社",
+    "publishedDate": "202208",
+    "isbn10": "4488466125",
+    "isbn13": "9784488466121",
+    "language": "ja",
+    "pageCount": 285,
+    "estimatedReadingHours": 7.1,
+    "sourceIds": {
+      "googleBooksId": "N0J_EAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": ""
+    }
+  },
+  {
+    "id": "9784488400668",
+    "title": "あなたも名探偵",
+    "authors": [
+      "市川憂人",
+      "米澤穂信",
+      "東川篤哉",
+      "麻耶雄嵩",
+      "法月綸太郎"
+    ],
+    "categories": [
+      "小説・フィクション"
+    ],
+    "keywords": [
+      "小説・フィクション"
+    ],
+    "searchableText": "あなたも名探偵 市川憂人 米澤穂信 東川篤哉 麻耶雄嵩 法月綸太郎 小説・フィクション 小説・フィクション",
+    "updatedAt": "2026-03-19T01:52:37.842Z",
+    "publishedDate": "2025-01-10",
+    "isbn10": "4488400663",
+    "isbn13": "9784488400668",
+    "language": "ja",
+    "pageCount": 270,
+    "estimatedReadingHours": 6.8,
+    "sourceIds": {
+      "googleBooksId": "8Pk5EQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": ""
+    }
+  },
+  {
+    "id": "9784074617708",
+    "title": "怪盗うみねこの事件簿",
+    "authors": [
+      "阿津川辰海",
+      "阿津川 辰海"
+    ],
+    "categories": [
+      "小説・フィクション"
+    ],
+    "keywords": [
+      "小説・フィクション"
+    ],
+    "searchableText": "怪盗うみねこの事件簿 阿津川辰海 阿津川 辰海 小説・フィクション 小説・フィクション",
+    "updatedAt": "2026-03-19T01:52:42.715Z",
+    "publishedDate": "2025-10-29",
+    "isbn10": "4074617706",
+    "isbn13": "9784074617708",
+    "language": "ja",
+    "pageCount": 269,
+    "estimatedReadingHours": 6.7,
+    "sourceIds": {
+      "googleBooksId": "GBSIEQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": ""
+    }
+  },
+  {
+    "id": "9784074598793",
+    "title": "やらなくてもいい宿題",
+    "authors": [
+      "結城／真一郎",
+      "結城 真一郎"
+    ],
+    "categories": [
+      "小説・フィクション"
+    ],
+    "keywords": [
+      "小説・フィクション"
+    ],
+    "searchableText": "やらなくてもいい宿題 算数バトル編　謎の転校生 結城／真一郎 結城 真一郎 主婦の友社 小説・フィクション 小説・フィクション",
+    "updatedAt": "2026-03-19T01:52:52.013Z",
+    "subtitle": "算数バトル編　謎の転校生",
+    "publisher": "主婦の友社",
+    "publishedDate": "2024-07-18",
+    "isbn10": "4074598795",
+    "isbn13": "9784074598793",
+    "language": "ja",
+    "pageCount": 125,
+    "estimatedReadingHours": 3.1,
+    "sourceIds": {
+      "googleBooksId": "wskTEQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": ""
+    }
+  },
+  {
+    "id": "9784074625741",
+    "title": "ばんざい！ぼくらのフシギ島",
+    "authors": [
+      "辻堂／ゆめ",
+      "辻堂 ゆめ"
+    ],
+    "categories": [
+      "小説・フィクション"
+    ],
+    "keywords": [
+      "小説・フィクション"
+    ],
+    "searchableText": "ばんざい！ぼくらのフシギ島 悩んだら、いつでも来んね！ 辻堂／ゆめ 辻堂 ゆめ 主婦の友社 小説・フィクション 小説・フィクション",
+    "updatedAt": "2026-03-19T01:52:52.825Z",
+    "subtitle": "悩んだら、いつでも来んね！",
+    "publisher": "主婦の友社",
+    "publishedDate": "2026-02-26",
+    "isbn10": "4074625741",
+    "isbn13": "9784074625741",
+    "language": "ja",
+    "pageCount": 164,
+    "estimatedReadingHours": 4.1,
+    "sourceIds": {
+      "googleBooksId": "GFHCEQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": ""
+    }
+  },
+  {
+    "id": "9784488797010",
+    "title": "七十四秒の旋律と孤独",
+    "authors": [
+      "久永実木彦"
+    ],
+    "categories": [
+      "小説・フィクション"
+    ],
+    "keywords": [
+      "小説・フィクション"
+    ],
+    "searchableText": "七十四秒の旋律と孤独 久永実木彦 東京創元社 小説・フィクション 小説・フィクション",
+    "updatedAt": "2026-03-19T01:53:04.624Z",
+    "publisher": "東京創元社",
+    "publishedDate": "202312",
+    "isbn10": "4488797016",
+    "isbn13": "9784488797010",
+    "language": "ja",
+    "pageCount": 211,
+    "estimatedReadingHours": 5.3,
+    "sourceIds": {
+      "googleBooksId": "0SvnEAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": ""
+    }
+  },
+  {
+    "id": "9784815611699",
+    "title": "お隣の天使様にいつの間にか駄目人間にされていた件. 5",
+    "authors": [
+      "佐伯さん"
+    ],
+    "categories": [
+      "小説・フィクション"
+    ],
+    "keywords": [
+      "小説・フィクション"
+    ],
+    "searchableText": "お隣の天使様にいつの間にか駄目人間にされていた件. 5 （GA文庫） 佐伯さん SBクリエイティブ 小説・フィクション 小説・フィクション",
+    "updatedAt": "2026-03-19T01:53:14.770Z",
+    "subtitle": "（GA文庫）",
+    "publisher": "SBクリエイティブ",
+    "publishedDate": "202107",
+    "isbn10": "4815611696",
+    "isbn13": "9784815611699",
+    "language": "ja",
+    "pageCount": 194,
+    "estimatedReadingHours": 4.9,
+    "sourceIds": {
+      "googleBooksId": "jBM3EAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": ""
+    }
+  },
+  {
+    "id": "9784815603465",
+    "title": "ＧＡ文庫＆ＧＡノベル２０２０年２月の新刊　全作品立読み（合本版）",
+    "authors": [
+      "あわむら赤光",
+      "みかみてれん",
+      "ケンノジ",
+      "葉月双",
+      "中村ヒロ"
+    ],
+    "categories": [
+      "小説・フィクション"
+    ],
+    "keywords": [
+      "小説・フィクション"
+    ],
+    "searchableText": "ＧＡ文庫＆ＧＡノベル２０２０年２月の新刊　全作品立読み（合本版） （GA文庫） あわむら赤光 みかみてれん ケンノジ 葉月双 中村ヒロ SBクリエイティブ 小説・フィクション 小説・フィクション",
+    "updatedAt": "2026-03-19T01:53:16.614Z",
+    "subtitle": "（GA文庫）",
+    "publisher": "SBクリエイティブ",
+    "publishedDate": "2020-02-14",
+    "isbn10": "4815603464",
+    "isbn13": "9784815603465",
+    "language": "ja",
+    "pageCount": 752,
+    "estimatedReadingHours": 18.8,
+    "thumbnailUrl": "https://books.google.com/books/content?id=IYzPDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "IYzPDwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": ""
+    }
+  },
+  {
+    "id": "9784815603472",
+    "title": "ＧＡ文庫＆ＧＡノベル２０２０年３月の新刊　全作品立読み（合本版）",
+    "authors": [
+      "明月千里",
+      "三門鉄狼",
+      "九頭七尾",
+      "三木なずな",
+      "三河ごーすと"
+    ],
+    "categories": [
+      "小説・フィクション"
+    ],
+    "keywords": [
+      "小説・フィクション"
+    ],
+    "searchableText": "ＧＡ文庫＆ＧＡノベル２０２０年３月の新刊　全作品立読み（合本版） （GA文庫） 明月千里 三門鉄狼 九頭七尾 三木なずな 三河ごーすと SBクリエイティブ 小説・フィクション 小説・フィクション",
+    "updatedAt": "2026-03-19T01:53:17.527Z",
+    "subtitle": "（GA文庫）",
+    "publisher": "SBクリエイティブ",
+    "publishedDate": "2020-03-13",
+    "isbn10": "4815603472",
+    "isbn13": "9784815603472",
+    "language": "ja",
+    "pageCount": 530,
+    "estimatedReadingHours": 13.3,
+    "thumbnailUrl": "https://books.google.com/books/content?id=KorUDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "KorUDwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": ""
+    }
+  },
+  {
+    "id": "9784815605803",
+    "title": "ＧＡ文庫＆ＧＡノベル２０２０年９月の新刊　全作品立読み（合本版）",
+    "authors": [
+      "進行諸島",
+      "あわむら赤光",
+      "佐伯さん",
+      "裕時悠示",
+      "海空りく"
+    ],
+    "categories": [
+      "小説・フィクション"
+    ],
+    "keywords": [
+      "小説・フィクション"
+    ],
+    "searchableText": "ＧＡ文庫＆ＧＡノベル２０２０年９月の新刊　全作品立読み（合本版） （GA文庫） 進行諸島 あわむら赤光 佐伯さん 裕時悠示 海空りく SBクリエイティブ 小説・フィクション 小説・フィクション",
+    "updatedAt": "2026-03-19T01:53:18.440Z",
+    "subtitle": "（GA文庫）",
+    "publisher": "SBクリエイティブ",
+    "publishedDate": "2020-09-11",
+    "isbn10": "4815605807",
+    "isbn13": "9784815605803",
+    "language": "ja",
+    "pageCount": 679,
+    "estimatedReadingHours": 17,
+    "thumbnailUrl": "https://books.google.com/books/content?id=qPn6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "qPn6DwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": ""
+    }
+  },
+  {
     "id": "gb-blog-少数報告",
     "title": "少数報告",
     "subtitle": "マイノリティ・レポート",
@@ -7176,36 +7814,6 @@
     "sourceIds": {
       "googleBooksId": "n0fKBQAAQBAJ"
     },
-    "manualClassification": {
-      "l1Id": "manga",
-      "l2Id": "seinen",
-      "l3Id": "drama",
-      "l4TagIds": [
-        "readable"
-      ]
-    }
-  },
-  {
-    "id": "blog-岳みんなの山-石塚真一",
-    "title": "岳 みんなの山",
-    "authors": [
-      "石塚真一"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "岳 みんなの山 石塚真一 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-16T12:31:05.732Z",
-    "isbn13": "9784098608140",
-    "isbn10": "4091835279",
-    "sourceIds": {
-      "googleBooksId": "9NskzgEACAAJ"
-    },
-    "thumbnailUrl": "https://books.google.com/books/content?id=9NskzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "seinen",
