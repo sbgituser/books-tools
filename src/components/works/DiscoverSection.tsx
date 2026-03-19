@@ -149,7 +149,10 @@ export default function DiscoverSection({ defaultType }: Props) {
         </p>
         <div className="flex flex-wrap gap-2">
           {orderedTags.map((tag) => {
-            const count = (index.tagIndex[tag] ?? []).length;
+            const tagIds = index.tagIndex[tag] ?? [];
+            const count = typeFilter === "all"
+              ? tagIds.length
+              : tagIds.filter((id) => index.works[id]?.type === typeFilter).length;
             const isSelected = selectedTag === tag;
             return (
               <button

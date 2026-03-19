@@ -95,7 +95,8 @@
       "l1Id": "novel",
       "l2Id": "entertainment",
       "l3Id": ""
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=YnkhEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784815628055",
@@ -127,7 +128,8 @@
       "l1Id": "novel",
       "l2Id": "entertainment",
       "l3Id": ""
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=VHtNEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784059225805",
@@ -192,7 +194,8 @@
       "l1Id": "manga",
       "l2Id": "general",
       "l3Id": ""
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=rjV4zwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784834233063",
@@ -218,7 +221,8 @@
       "l1Id": "manga",
       "l2Id": "general",
       "l3Id": ""
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=gXmKzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "blog-岳みんなの山-石塚真一",
@@ -278,7 +282,8 @@
       "l1Id": "novel",
       "l2Id": "entertainment",
       "l3Id": ""
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=DzoPEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784488466138",
@@ -309,7 +314,8 @@
       "l1Id": "novel",
       "l2Id": "entertainment",
       "l3Id": ""
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=H8OLEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784488466121",
@@ -339,7 +345,8 @@
       "l1Id": "novel",
       "l2Id": "entertainment",
       "l3Id": ""
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=N0J_EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784488400668",
@@ -372,7 +379,8 @@
       "l1Id": "novel",
       "l2Id": "entertainment",
       "l3Id": ""
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=8Pk5EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784074617708",
@@ -402,7 +410,8 @@
       "l1Id": "novel",
       "l2Id": "entertainment",
       "l3Id": ""
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=GBSIEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784074598793",
@@ -434,7 +443,8 @@
       "l1Id": "novel",
       "l2Id": "entertainment",
       "l3Id": ""
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=wskTEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784074625741",
@@ -466,7 +476,8 @@
       "l1Id": "novel",
       "l2Id": "entertainment",
       "l3Id": ""
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=GFHCEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784488797010",
@@ -496,7 +507,8 @@
       "l1Id": "novel",
       "l2Id": "entertainment",
       "l3Id": ""
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=0SvnEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784815611699",
@@ -527,7 +539,8 @@
       "l1Id": "novel",
       "l2Id": "entertainment",
       "l3Id": ""
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=jBM3EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784815603465",
@@ -2631,7 +2644,7 @@
     "id": "gb-blog-akira",
     "title": "AKIRA",
     "authors": [
-      "Akira"
+      "大友克洋"
     ],
     "categories": [
       "漫画"
@@ -2643,7 +2656,7 @@
     "searchableText": "AKIRA 美しさを求めて Akira ベストブック 漫画 漫画 ブログ掲載書籍",
     "updatedAt": "2026-03-16T12:31:05.718Z",
     "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/content?id=zBR5QgAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72nKP_ipdGZnNfATh4qi5FVSFdqAneLbGXAM7VEEFVEdTnKb_2QN920R0ZzQ6TC4Jf4mjT9YlBDXCRW4vn_TwfSaCIKY-irdKh8Ds-vAIYZ_hUdBSiuB4zMuKaqlhH-g94i3vek&source=gbs_api",
+    "thumbnailUrl": "https://covers.openlibrary.org/b/isbn/9784831400352-L.jpg",
     "isbn13": "9784831400352",
     "isbn10": "4831400351",
     "sourceIds": {
@@ -3874,7 +3887,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=MbLI0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784334923013",
@@ -11459,7 +11473,8 @@
       "l5TagIds": [
         "dark-aftertaste"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=e7rQMgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784488466114",
@@ -14271,7 +14286,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=hv7tEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784488400637",
@@ -14318,7 +14334,8 @@
       "l5TagIds": [
         "plot-twist"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=ypOv0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784798137483",
@@ -14368,7 +14385,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=q9vSBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784295410157",
@@ -14416,7 +14434,8 @@
       "l5TagIds": [
         "series"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=PvchEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784877120436",
@@ -14557,7 +14576,8 @@
       "l5TagIds": [
         "space"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=MU5gEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784759811605",
@@ -14604,7 +14624,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=kCCs_GZ0QBAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784797390636",
@@ -14642,7 +14663,8 @@
       "l5TagIds": [
         "ai-theme"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=oCX9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784324087589",
@@ -14681,7 +14703,8 @@
       "l5TagIds": [
         "series"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=Pm5LAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784799107874",
@@ -14719,7 +14742,8 @@
       "l5TagIds": [
         "series"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=-JaLDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784774167428",
@@ -14846,7 +14870,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=i-HdEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784865651034",
@@ -15298,7 +15323,8 @@
       "l5TagIds": [
         "detective"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=TVlWDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784897847122",
@@ -15382,7 +15408,8 @@
       "l5TagIds": [
         "plot-twist"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=Iz3fzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784120055461",
@@ -15420,7 +15447,8 @@
       "l5TagIds": [
         "police"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=Cn04zwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784334775292",
@@ -15458,7 +15486,8 @@
       "l5TagIds": [
         "police"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=2a6wswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784488499044",
@@ -15496,7 +15525,8 @@
       "l5TagIds": [
         "detective"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=wI27DgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784860293475",
@@ -15533,7 +15563,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=oWZFYgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784082400330",
@@ -15969,7 +16000,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=9sf2zgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784150314415",
@@ -16008,7 +16040,8 @@
       "l5TagIds": [
         "space"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=2eyszQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784488772048",
@@ -16047,7 +16080,8 @@
       "l5TagIds": [
         "space"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=1GFzEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784150304096",
@@ -16121,7 +16155,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=UKFctAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784569673189",
@@ -16204,7 +16239,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=buoqAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784881645932",
@@ -16276,7 +16312,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=UP3ncQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784800301765",
@@ -16312,7 +16349,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=_QXfnAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784846012212",
@@ -16482,7 +16520,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=zPBbvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784757605824",
@@ -16518,7 +16557,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=QdufuAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784864541565",
@@ -16679,7 +16719,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=fBP5d5cpV-UC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9789577866387",
@@ -16765,7 +16806,8 @@
       "l5TagIds": [
         "series"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=DzlOQwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784000107013",
@@ -16801,7 +16843,8 @@
       "l5TagIds": [
         "series"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=KLgLAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784860640996",
@@ -17030,7 +17073,8 @@
       "l5TagIds": [
         "series"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=-uYZAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784316801582",
@@ -17069,7 +17113,8 @@
       "l5TagIds": [
         "series"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=zj2NAwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784759812053",
@@ -17155,7 +17200,8 @@
       "l5TagIds": [
         "horror-core"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=ttaXEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784757141773",
@@ -17193,7 +17239,8 @@
       "l5TagIds": [
         "series"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=mFea8Oe54yUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784843325025",
@@ -17324,7 +17371,8 @@
       "l5TagIds": [
         "series"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=ZLQvAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784798143903",
@@ -17362,7 +17410,8 @@
       "l5TagIds": [
         "series"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=EukJDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784596961112",
@@ -17456,7 +17505,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=lnaieNLnDwYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784596717290",
@@ -17590,7 +17640,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=OWMszgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784798158501",
@@ -17628,7 +17679,8 @@
       "l5TagIds": [
         "series"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=B4-nDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784488414085",
@@ -17667,7 +17719,8 @@
       "l5TagIds": [
         "locked-room"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=TeyMDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784041913062",
@@ -17703,7 +17756,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=lJb4AAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784344001084",
@@ -17739,7 +17793,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=9MdCAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784041879672",
@@ -17777,7 +17832,8 @@
       "l5TagIds": [
         "plot-twist"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=6d8-a2cBpJgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784065225141",
@@ -17813,7 +17869,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=xfFyzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784065201640",
@@ -17849,7 +17906,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=9nsbzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784488400699",
@@ -17885,7 +17943,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=rt3BEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784065335437",
@@ -17921,7 +17980,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=EQta0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784488488116",
@@ -17957,7 +18017,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=eWP2EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784800208712",
@@ -17995,7 +18056,8 @@
       "l5TagIds": [
         "series"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=A6K4mgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784043870103",
@@ -18033,7 +18095,8 @@
       "l5TagIds": [
         "plot-twist"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=Ol-pL6lYBygC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784041879597",
@@ -18071,7 +18134,8 @@
       "l5TagIds": [
         "plot-twist"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=27S64XD1PTQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784909474650",
@@ -18152,7 +18216,8 @@
       "l5TagIds": [
         "detective"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=QIaZEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784488070861",
@@ -18191,7 +18256,8 @@
       "l5TagIds": [
         "detective"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=QVCuEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784488400606",
@@ -18231,7 +18297,8 @@
       "l5TagIds": [
         "plot-twist"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=VCW6DQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784041879962",
@@ -18269,7 +18336,8 @@
       "l5TagIds": [
         "plot-twist"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=uZtWsmo3iGAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784488451035",
@@ -18307,7 +18375,8 @@
       "l5TagIds": [
         "plot-twist"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=E0PcCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784488451059",
@@ -18345,7 +18414,8 @@
       "l5TagIds": [
         "plot-twist"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=qkTcCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784488003999",
@@ -18383,7 +18453,8 @@
       "l5TagIds": [
         "space"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=La7pEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784883751617",
@@ -18421,7 +18492,8 @@
       "l5TagIds": [
         "space"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=lxwmEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784153350472",
@@ -18462,7 +18534,8 @@
       "l5TagIds": [
         "space"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=ZWp8zQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784150122539",
@@ -18501,7 +18574,8 @@
       "l5TagIds": [
         "space"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=IO4rywEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784150124014",
@@ -18540,7 +18614,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=362czwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784152100214",
@@ -18580,7 +18655,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=BZV9zgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784152098993",
@@ -18617,7 +18693,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=mvJQzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784327481483",
@@ -18653,7 +18730,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=L_XUNsbgcl8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784779637582",
@@ -18726,7 +18804,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=D5JgmwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784309728988",
@@ -18762,7 +18841,8 @@
         "readable"
       ],
       "l5TagIds": []
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=U5Q5tAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784791622870",
@@ -18802,7 +18882,8 @@
       "l5TagIds": [
         "series"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=EnWZAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784528023390",
@@ -18840,7 +18921,8 @@
       "l5TagIds": [
         "series"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=9AIsEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784274226137",
@@ -18879,7 +18961,8 @@
       "l5TagIds": [
         "space"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=QDAHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "9784088726724",
@@ -18917,7 +19000,8 @@
       "l5TagIds": [
         "battle-core"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=agRqtwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784592190813",
@@ -19102,7 +19186,8 @@
       "l5TagIds": [
         "isekai"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=9un_0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784867943328",
@@ -20549,7 +20634,8 @@
       "l4TagIds": [
         "readable"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=-W-EtwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784091868589",
@@ -22158,7 +22244,8 @@
       "l4TagIds": [
         "readable"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=ANlEAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784063827092",
@@ -22892,7 +22979,8 @@
       "l4TagIds": [
         "readable"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=ONLezgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784088840181",
@@ -24486,7 +24574,8 @@
       "l4TagIds": [
         "readable"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=Q41gzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784065355428",
@@ -25263,7 +25352,8 @@
       "l4TagIds": [
         "readable"
       ]
-    }
+    },
+    "thumbnailUrl": "https://books.google.com/books/content?id=BCJowAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784098542505",
