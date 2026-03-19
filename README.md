@@ -134,7 +134,13 @@ npm run generate:works
 # 読書シーン別JSON生成（public/data/scenes/）
 npm run generate:scenes
 
-# 上記3つをまとめて実行
+# 類似作品データ生成（data/similar-works/）
+npm run generate:similar
+
+# 特定作品のみ再生成する場合
+npx tsx scripts/generate-similar-works.ts --work manga__bleach__久保帯人
+
+# 上記4つをまとめて実行（normalize + works + scenes + similar）
 npm run collect:works
 
 # ── AI選書パイプライン ──────────────────────────────────────
@@ -171,8 +177,10 @@ npm run build:related
 **対応漏れが出ないよう、このフローをそのまま実行すること。**
 
 ```bash
-# Step 1: 書籍データを正規化・生成（既存フロー）
+# Step 1: 書籍データを正規化・生成（既存フロー + 類似作品生成も含む）
 npm run collect:works
+# ※ collect:works は内部で以下を順に実行する:
+#   normalize:works → generate:works → generate:scenes → generate:similar
 
 # Step 2: シーン候補を再生成（新書籍が候補に含まれるようになる）
 npm run generate:candidates
@@ -189,6 +197,9 @@ npm run build
 # Step 5: デプロイ
 git add . && git commit -m "feat: ..." && git push origin master
 ```
+
+> **Note:** 類似作品データ（`data/similar-works/`）は `npm run collect:works` に含まれるため、
+> 書籍追加後に別途コマンドを実行する必要はない。
 
 > **Note:** AI選書の再実行は Anthropic API キーが必要。
 > `scripts/.env` に `ANTHROPIC_API_KEY=sk-ant-...` を設定すること。
@@ -291,7 +302,58 @@ git push origin master
 > AI選書結果は `data/scene-curated/` に保存済みのため、
 > 通常のビルド・閲覧には不要。書籍追加後の再生成時にのみ必要。
 
-## 今回追加した機能の概要（AI選書型読書シーン）
+## 追加した機能の概要（類似作品探索）
+
+### 概要
+作品詳細ページ（`/works/{fileId}`）に「似た作品」セクションを追加し、
+作品起点で類似作品を探せる機能を実装。
+
+従来の「似た作品を探す」ボタンは `/discover`（気分タグ検索）への汎用遷移だったが、
+「この作品から自然に広げて探せる」体験へ置き換えた。
+
+### 類似作品の生成ロジック（ルールベース・バッチ生成）
+
+| グループ | 選定基準 | 上限 |
+|--------|---------|------|
+| 同じ作者の作品 | `authors` 配列の重複 | 6件 |
+| 同じ出版社・レーベルから探す | `publisherMain` 一致 + 同タイプ | 5件 |
+| 読み味が近い作品 | `discoveryTags` の共通数（2タグ以上） | 6件 |
+
+- **本番でAIを呼ばない**: ルールベースで生成、静的JSONを配信
+- **既存データ構造は変更しない**: works/volumes には手を加えていない
+- **補助生成物として追加**: `data/similar-works/` に per-work JSON を保存
+
+### 生成カバレッジ（757作品）
+- 同一著者グループあり: 337作品
+- 同一出版社グループあり: 374作品
+- 読み味グループあり: 386作品
+- 類似なし（表示なし）: 163作品
+
+### 追加ファイル
+
+| ファイル | 役割 |
+|--------|------|
+| `src/types/similar-works.ts` | 類似作品データの型定義 |
+| `scripts/generate-similar-works.ts` | 類似作品バッチ生成 |
+| `src/components/works/SimilarWorksSection.tsx` | 類似作品表示コンポーネント |
+| `data/similar-works/{fileId}.json` | per-work 類似作品データ（git管理・ビルド時に参照） |
+
+### 設計原則
+- **既存データ構造は変更しない**: works/volumes/scenes は一切手を加えていない
+- **本番でAIを呼ばない**: ルールベースで生成した静的JSONを読み込むだけ
+- **補助生成物として外付け**: `data/similar-works/` に保存、`prebuild` で自動再生成
+- **フォールバック**: 類似データが存在しない作品は「似た作品」セクションを非表示
+
+### 保守上の注意
+- `publisherMain` が未設定の作品（約291件）は同一出版社グループが出ない
+- `discoveryTags` が未設定の作品は読み味グループが出ない
+- 著者データ・タグデータが充実するほど類似精度が上がる
+- 新しいグループ軸を追加する場合は `generate-similar-works.ts` に関数を追加し、
+  `SimilarGroupType`（`src/types/similar-works.ts`）に型を追記する
+
+---
+
+## 追加した機能の概要（AI選書型読書シーン）
 
 ### 変更内容
 - 読書シーン画面（`/scene/{slug}`）を「大量一覧」から「AI選書結果」中心に変更

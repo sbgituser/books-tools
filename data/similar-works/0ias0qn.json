@@ -1,0 +1,139 @@
+{
+  "workId": "novel__火花__又吉直樹",
+  "groups": [
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "novel__鍵のない夢を見る__辻村深月",
+          "fileId": "0hbcs6d",
+          "title": "鍵のない夢を見る",
+          "authorDisplay": "辻村深月",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=fQzNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70dqe8rLCHG0j6k3D4YNQmoDKLONss9Cknebn11-NYnbGSDoq7DA9kfPDcRi6JCVjjj9SOiFlk9xD7AtRTVniKkjEWZlc6HzAejMqbhJGr68u90Cs2GWDhNDg8BVYdpV7Tg5LuP&source=gbs_api",
+          "reason": "文藝春秋の小説"
+        },
+        {
+          "workId": "novel__朝が来る__辻村深月",
+          "fileId": "1qk9so3",
+          "title": "朝が来る",
+          "authorDisplay": "辻村深月",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=NxLNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "文藝春秋の小説"
+        },
+        {
+          "workId": "novel__琥珀の夏__辻村深月",
+          "fileId": "1o9zscs",
+          "title": "琥珀の夏",
+          "authorDisplay": "辻村深月",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=GgDVEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "文藝春秋の小説"
+        },
+        {
+          "workId": "novel__葉桜の季節に君を想うということ__歌野晶午",
+          "fileId": "0fgybo1",
+          "title": "葉桜の季節に君を想うということ",
+          "authorDisplay": "歌野晶午",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=rxLNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72aM1qKm-iy09oZ6ZghM3OuamBgOrweoQn2d6hI9S61WfBaztnn2YCBtu9Js_hOP-1CjMlA-S_SEKMihLHynb8byo3c1OJdAe42M7lgUBd5R18wr4hSehw0NNLU8xKZMnuWOM3b&source=gbs_api",
+          "reason": "文藝春秋の小説"
+        },
+        {
+          "workId": "novel__そして_バトンは渡された__瀬尾まいこ",
+          "fileId": "0kcnvtk",
+          "title": "そして、バトンは渡された",
+          "authorDisplay": "瀬尾まいこ",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=RxL6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73_20UnVqj4e6UPRZev0Xlu3CGthEEoO5HxBjLkCuoRRXkc6O7rkmn8_388Wf6f6Oy8SN96OcSFWkGK5a93oQfDyv3NKh79nMmut7ksPHnxu5V_5IFOa3yf1Upnz1EOQ0LTpG3R&source=gbs_api",
+          "reason": "文藝春秋の小説"
+        }
+      ]
+    },
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "manga__鋼の錬金術師__荒川弘",
+          "fileId": "0zref9t",
+          "title": "鋼の錬金術師",
+          "authorDisplay": "荒川弘",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=PQ7FDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__進撃の巨人__諫山創",
+          "fileId": "0zni0pn",
+          "title": "進撃の巨人",
+          "authorDisplay": "諫山創",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=nMjEBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__monster__浦沢直樹",
+          "fileId": "1f66m5e",
+          "title": "MONSTER",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ZdNeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__20世紀少年__浦沢直樹",
+          "fileId": "0cibc53",
+          "title": "20世紀少年",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=XDfkjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__hunter_hunter__冨樫義博",
+          "fileId": "1leh8hy",
+          "title": "HUNTER×HUNTER",
+          "authorDisplay": "冨樫義博",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ze_JCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__ジョジョの奇妙な冒険_第9部_ザジョジョランズ__荒木飛呂彦",
+          "fileId": "1e97puh",
+          "title": "ジョジョの奇妙な冒険 第9部 ザ・ジョジョランズ",
+          "authorDisplay": "荒木飛呂彦",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=osTHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73m-Xpv26rBTjQaUeFEpP45GuPxnlkoBLJAc__XSGgtGIlhp9n7rjNb79iQ8YgQSPj97cckXatJI91SgXYb5Muh-DBYehP-Hub9N37VALpFRFzHzDHY5eNxOU9FIHij6HjwCzuj&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.892Z"
+}

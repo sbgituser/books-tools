@@ -1,0 +1,23 @@
+{
+  "workId": "manga__ガンニバル13巻スペシャルプライスパック__二宮正明",
+  "groups": [
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "manga__モンキーピーク__志名坂高次",
+          "fileId": "0gnrggx",
+          "title": "モンキーピーク",
+          "authorDisplay": "志名坂高次 / 粂田晃宏",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=AKKBDgAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "日本文芸社の漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.647Z"
+}

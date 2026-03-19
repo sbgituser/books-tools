@@ -1,0 +1,45 @@
+{
+  "workId": "manga__月刊少女野崎くん__椿いづみ",
+  "groups": [
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "manga__魔法陣グルグル__衛藤ヒロユキ",
+          "fileId": "138ati0",
+          "title": "魔法陣グルグル",
+          "authorDisplay": "衛藤ヒロユキ",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=GybFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "Square Enixの漫画"
+        },
+        {
+          "workId": "manga__薬屋のひとりごと__日向夏ヒーロー文庫イ",
+          "fileId": "0g6vt24",
+          "title": "薬屋のひとりごと",
+          "authorDisplay": "日向夏（ヒーロー文庫／イマジカインフォス） / ねこクラゲ / 七緒一綺 / しのとうこ",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=7C_GDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "Square Enixの漫画"
+        },
+        {
+          "workId": "manga__ラグナクリムゾン__小林大樹",
+          "fileId": "1akwct4",
+          "title": "ラグナクリムゾン",
+          "authorDisplay": "小林大樹",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=KC_GDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "Square Enixの漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.675Z"
+}

@@ -23,12 +23,13 @@
     "normalize:works": "tsx scripts/normalize-works.ts",
     "generate:works": "tsx scripts/generate-works-data.ts",
     "generate:scenes": "tsx scripts/generate-scenes-data.ts",
+    "generate:similar": "tsx scripts/generate-similar-works.ts",
     "generate:candidates": "tsx scripts/generate-scene-candidates.ts",
     "generate:curated": "tsx scripts/generate-scene-curated.ts",
-    "collect:works": "npm run normalize:works && npm run generate:works && npm run generate:scenes",
+    "collect:works": "npm run normalize:works && npm run generate:works && npm run generate:scenes && npm run generate:similar",
     "collect:curated": "npm run generate:candidates && npm run generate:curated",
     "collect:all": "npm run collect:works && npm run collect:curated",
-    "prebuild": "tsx scripts/normalize-works.ts && tsx scripts/generate-works-data.ts && tsx scripts/generate-scenes-data.ts && tsx scripts/build-split-index.ts && tsx scripts/build-search-index.ts && tsx scripts/generate-feeds.ts"
+    "prebuild": "tsx scripts/normalize-works.ts && tsx scripts/generate-works-data.ts && tsx scripts/generate-scenes-data.ts && tsx scripts/generate-similar-works.ts && tsx scripts/build-split-index.ts && tsx scripts/build-search-index.ts && tsx scripts/generate-feeds.ts"
   },
   "dependencies": {
     "feed": "^4.2.2",

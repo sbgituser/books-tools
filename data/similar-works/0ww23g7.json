@@ -1,0 +1,78 @@
+{
+  "workId": "manga__アオアシ__小林有吾",
+  "groups": [
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "manga__僕のヒーローアカデミア__堀越耕平",
+          "fileId": "032sc3q",
+          "title": "僕のヒーローアカデミア",
+          "authorDisplay": "堀越耕平",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=7iLLCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「熱い」「感動」など読み味が近い"
+        },
+        {
+          "workId": "manga__ハイキュー__古舘春一",
+          "fileId": "1d7xco7",
+          "title": "ハイキュー!!",
+          "authorDisplay": "古舘春一",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=wI7LCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「熱い」「感動」など読み味が近い"
+        },
+        {
+          "workId": "manga__ダイヤのa_エース__寺嶋裕二",
+          "fileId": "0ongav2",
+          "title": "ダイヤのA (エース)",
+          "authorDisplay": "寺嶋裕二",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=UeicDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「熱い」「感動」など読み味が近い"
+        },
+        {
+          "workId": "manga__naruto_ナルト__岸本斉史",
+          "fileId": "17otkk9",
+          "title": "NARUTO―ナルト―",
+          "authorDisplay": "岸本斉史",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ji3NCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「熱い」「感動」など読み味が近い"
+        },
+        {
+          "workId": "manga__ゴールデンカムイ__野田サトル",
+          "fileId": "0yobr5b",
+          "title": "ゴールデンカムイ",
+          "authorDisplay": "野田サトル",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=8K5REAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「熱い」「感動」など読み味が近い"
+        },
+        {
+          "workId": "manga__one_piece__尾田栄一郎",
+          "fileId": "0cb8t8s",
+          "title": "ONE PIECE",
+          "authorDisplay": "尾田栄一郎",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=9ca7CwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「熱い」「感動」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:56.068Z"
+}

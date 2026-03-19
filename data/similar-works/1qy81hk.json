@@ -1,0 +1,167 @@
+{
+  "workId": "manga__ヒストリエ__岩明均",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "manga__寄生獣__岩明均",
+          "fileId": "1k8u22x",
+          "title": "寄生獣",
+          "authorDisplay": "岩明均",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=h4S_oQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "岩明均による漫画"
+        },
+        {
+          "workId": "manga__寄生獣リバーシ__岩明均",
+          "fileId": "0n1iel2",
+          "title": "寄生獣リバーシ",
+          "authorDisplay": "岩明均 / 太田モアレ",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=bkbMvQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "岩明均による漫画"
+        }
+      ]
+    },
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "manga__炎炎ノ消防隊__大久保篤",
+          "fileId": "0flwohs",
+          "title": "炎炎ノ消防隊",
+          "authorDisplay": "大久保篤",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 2,
+          "coverImageUrl": "https://books.google.com/books/content?id=833yjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "講談社の漫画"
+        },
+        {
+          "workId": "manga__デビルズライン__花田陵",
+          "fileId": "0zr22d6",
+          "title": "デビルズライン",
+          "authorDisplay": "花田陵",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=VyfyCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "講談社の漫画"
+        },
+        {
+          "workId": "manga__聖_おにいさん__中村光",
+          "fileId": "1ggvkxu",
+          "title": "聖☆おにいさん",
+          "authorDisplay": "中村光",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=YaXDBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72TUwk-gQ28U52RHsxIgbpPGm5mB1PCU4LX5q4MuknXzlEVk2bxpG-ZqiZ9_Oj0j8gytg3vmwiNoGxB44ajpALJyRBQrqZ7bUWsESCda8KS4o_0tCaHrRgj_Nt7SmdBJ1anBk4m&source=gbs_api",
+          "reason": "講談社の漫画"
+        },
+        {
+          "workId": "manga__ぐらんぶる__井上堅二",
+          "fileId": "1nw7h6q",
+          "title": "ぐらんぶる",
+          "authorDisplay": "井上堅二 / 吉岡公威",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=0YDHBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72N-tooukWbZ4mNJkk3q_z0W-dAkkAvd9myf_xAWUofCs-uVlpys_ngfwLSu9VuUhhS6baAuLi00ZVc6Pz9AHWk9nxU_fkvtSnDCkXjXVpJGLxdrwYW8v-3iduEhU9kwHF5k6Ra&source=gbs_api",
+          "reason": "講談社の漫画"
+        },
+        {
+          "workId": "manga__とんがり帽子のアトリエ__白浜鴎",
+          "fileId": "0crxgfo",
+          "title": "とんがり帽子のアトリエ",
+          "authorDisplay": "白浜鴎",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 2,
+          "coverImageUrl": "https://books.google.com/books/content?id=viOsswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "講談社の漫画"
+        }
+      ]
+    },
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "manga__ヴィンランドサガ__幸村誠",
+          "fileId": "1g79vwe",
+          "title": "ヴィンランド・サガ",
+          "authorDisplay": "幸村誠",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=tELGBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「感動」「学べる」など読み味が近い"
+        },
+        {
+          "workId": "manga__進撃の巨人__諫山創",
+          "fileId": "0zni0pn",
+          "title": "進撃の巨人",
+          "authorDisplay": "諫山創",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=nMjEBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「世界観重視」など読み味が近い"
+        },
+        {
+          "workId": "manga__monster__浦沢直樹",
+          "fileId": "1f66m5e",
+          "title": "MONSTER",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ZdNeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「世界観重視」など読み味が近い"
+        },
+        {
+          "workId": "manga__20世紀少年__浦沢直樹",
+          "fileId": "0cibc53",
+          "title": "20世紀少年",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=XDfkjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「世界観重視」など読み味が近い"
+        },
+        {
+          "workId": "manga__ジョジョの奇妙な冒険_第9部_ザジョジョランズ__荒木飛呂彦",
+          "fileId": "1e97puh",
+          "title": "ジョジョの奇妙な冒険 第9部 ザ・ジョジョランズ",
+          "authorDisplay": "荒木飛呂彦",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=osTHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73m-Xpv26rBTjQaUeFEpP45GuPxnlkoBLJAc__XSGgtGIlhp9n7rjNb79iQ8YgQSPj97cckXatJI91SgXYb5Muh-DBYehP-Hub9N37VALpFRFzHzDHY5eNxOU9FIHij6HjwCzuj&source=gbs_api",
+          "reason": "「感動」「世界観重視」など読み味が近い"
+        },
+        {
+          "workId": "manga__ベルセルク__三浦建太郎",
+          "fileId": "0dzyojj",
+          "title": "ベルセルク",
+          "authorDisplay": "三浦建太郎",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=QON9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「感動」「世界観重視」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:56.128Z"
+}

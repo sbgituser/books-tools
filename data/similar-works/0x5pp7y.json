@@ -1,0 +1,23 @@
+{
+  "workId": "manga__アオハライド__阿部暁子",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "manga__ストロボエッジ__阿部暁子",
+          "fileId": "05nzvbe",
+          "title": "ストロボ・エッジ",
+          "authorDisplay": "阿部暁子 / 咲坂伊緒",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=Pqg3KQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "阿部暁子による漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:56.077Z"
+}

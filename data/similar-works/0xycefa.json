@@ -1,0 +1,178 @@
+{
+  "workId": "novel__シャーロックホームズ最後の挨拶__コナン・ドイル",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "novel__四つの署名__コナン・ドイル",
+          "fileId": "04uswes",
+          "title": "四つの署名",
+          "authorDisplay": "コナン・ドイル / 延原謙",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=DkiSCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "コナン・ドイルによる小説"
+        },
+        {
+          "workId": "novel__シャーロックホームズの冒険__コナン・ドイル",
+          "fileId": "1q7jp60",
+          "title": "シャーロック・ホームズの冒険",
+          "authorDisplay": "コナン・ドイル",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=crGcBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "コナン・ドイルによる小説"
+        },
+        {
+          "workId": "novel__シャーロックホームズの帰還__コナン・ドイル",
+          "fileId": "0vc26c0",
+          "title": "シャーロック・ホームズの帰還",
+          "authorDisplay": "コナン・ドイル",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=t-qwDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "コナン・ドイルによる小説"
+        }
+      ]
+    },
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "novel__向日葵の咲かない夏__道尾秀介",
+          "fileId": "0n5atro",
+          "title": "向日葵の咲かない夏",
+          "authorDisplay": "道尾秀介",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=s89RPwAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70dttyNE5KKYFRVMeF5ZLtL4A_TW-7AfDUJtk2SWkP6KSRrRw78j16y4ytnxojdhe8AJuTJUXMCo7vbCDRxwjncB67kyGMdEUWgPHCckwBUdfWy3nj2vrIPg87K_92QU8ddEnj5&source=gbs_api",
+          "reason": "新潮社の小説"
+        },
+        {
+          "workId": "novel__龍神の雨__道尾秀介",
+          "fileId": "0x7agwy",
+          "title": "龍神の雨",
+          "authorDisplay": "道尾秀介",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=8cRaEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70dwc5WwsaHgXKRU-h9c5yQLcPjs5OECLsBWG-tFcqTdjriz2ePFGv8RdhQTqOTlf3BtO9V_45KjKmkKgr38S8usW4ZTedXWzD35bKM52ZVOmkAMYxHoEF0drVR45QzzRZfkj6w&source=gbs_api",
+          "reason": "新潮社の小説"
+        },
+        {
+          "workId": "novel__満願__米澤穂信",
+          "fileId": "1vvze9j",
+          "title": "満願",
+          "authorDisplay": "米澤穂信",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=qBFIBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70gyDeO401oLxOpkYwDtAS7vZYwDmZBh6HQZJGlok0NctDsMpllsG4pgCnWdrPzSx49uX0eTmp1ulXaD5Solto1utXOvipaFwzTyoGLxnocoBHjg5X2VOs61mPTmDiZp4f6WjIw&source=gbs_api",
+          "reason": "新潮社の小説"
+        },
+        {
+          "workId": "novel__ソロモンの偽証__宮部みゆき",
+          "fileId": "1eyzdgz",
+          "title": "ソロモンの偽証",
+          "authorDisplay": "宮部みゆき",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=sMbhwQEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70zHJf4PHYudIIOWfFlh6ldHaYYHr-CmdlVaZqvXfIm_OzeZPRRIq-h-fZMlXlIrYKPuzInFQJpeCaMrEYmLgldCP8NJ1aqqJ6IRn8IwlSYBeTPfg4XoN2TFEEBgglA5tKHXUMG&source=gbs_api",
+          "reason": "新潮社の小説"
+        },
+        {
+          "workId": "novel__レベル__宮部みゆき",
+          "fileId": "1p8k18d",
+          "title": "レベル",
+          "authorDisplay": "宮部みゆき",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=9yRxDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "新潮社の小説"
+        }
+      ]
+    },
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "manga__進撃の巨人__諫山創",
+          "fileId": "0zni0pn",
+          "title": "進撃の巨人",
+          "authorDisplay": "諫山創",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=nMjEBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__monster__浦沢直樹",
+          "fileId": "1f66m5e",
+          "title": "MONSTER",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ZdNeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__20世紀少年__浦沢直樹",
+          "fileId": "0cibc53",
+          "title": "20世紀少年",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=XDfkjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__ジョジョの奇妙な冒険_第9部_ザジョジョランズ__荒木飛呂彦",
+          "fileId": "1e97puh",
+          "title": "ジョジョの奇妙な冒険 第9部 ザ・ジョジョランズ",
+          "authorDisplay": "荒木飛呂彦",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=osTHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73m-Xpv26rBTjQaUeFEpP45GuPxnlkoBLJAc__XSGgtGIlhp9n7rjNb79iQ8YgQSPj97cckXatJI91SgXYb5Muh-DBYehP-Hub9N37VALpFRFzHzDHY5eNxOU9FIHij6HjwCzuj&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__ベルセルク__三浦建太郎",
+          "fileId": "0dzyojj",
+          "title": "ベルセルク",
+          "authorDisplay": "三浦建太郎",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=QON9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__ヴィンランドサガ__幸村誠",
+          "fileId": "1g79vwe",
+          "title": "ヴィンランド・サガ",
+          "authorDisplay": "幸村誠",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=tELGBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.789Z"
+}

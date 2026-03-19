@@ -1,0 +1,139 @@
+{
+  "workId": "novel__七十四秒の旋律と孤独__久永実木彦",
+  "groups": [
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "novel__明智恭介の奔走_the_efforts_of_akechi_kyosuke__今村昌弘",
+          "fileId": "09xky8g",
+          "title": "明智恭介の奔走 = The Efforts of Akechi Kyosuke",
+          "authorDisplay": "今村昌弘",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=DzoPEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "東京創元社の小説"
+        },
+        {
+          "workId": "novel__兇人邸の殺人__今村昌弘",
+          "fileId": "18a0gxr",
+          "title": "兇人邸の殺人",
+          "authorDisplay": "今村 昌弘 / 今村昌弘",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=H8OLEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "東京創元社の小説"
+        },
+        {
+          "workId": "novel__魔眼の匣の殺人__今村昌弘",
+          "fileId": "07s4qbr",
+          "title": "魔眼の匣の殺人",
+          "authorDisplay": "今村昌弘",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=N0J_EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "東京創元社の小説"
+        },
+        {
+          "workId": "novel__シャドウ__道尾秀介",
+          "fileId": "00zqpu2",
+          "title": "シャドウ",
+          "authorDisplay": "道尾秀介",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=J466Pf9pmk4C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70HbEPTamNI97J0kyRpgL2VSppeqDwoxmjGDAVfdPmKUt7AFeteGJgLXQJVRv70zCkYl7qx-c1wXULQD-d9fmBILURdonQloqEPMne0Cb4scfZXt0-XxLQUntWkfL4e8WHKxpR9&source=gbs_api",
+          "reason": "東京創元社の小説"
+        },
+        {
+          "workId": "novel__王とサーカス__米澤穂信",
+          "fileId": "0uc5ubr",
+          "title": "王とサーカス",
+          "authorDisplay": "米澤穂信",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=mX5oDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71hYlaDx_nb3SqfPp-0rF4CtTeS3GdwoyNN9Ahrgo3XRsIg6TjjzyllcpHGZ3l5B0flhvgNd7hyMsLKMX6R9R0wAfV72WDOVi1dqJI6jhp7zicYy1qdbscRkpmrbxn_alsq50_e&source=gbs_api",
+          "reason": "東京創元社の小説"
+        }
+      ]
+    },
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "manga__ぐらんぶる__井上堅二",
+          "fileId": "1nw7h6q",
+          "title": "ぐらんぶる",
+          "authorDisplay": "井上堅二 / 吉岡公威",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=0YDHBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72N-tooukWbZ4mNJkk3q_z0W-dAkkAvd9myf_xAWUofCs-uVlpys_ngfwLSu9VuUhhS6baAuLi00ZVc6Pz9AHWk9nxU_fkvtSnDCkXjXVpJGLxdrwYW8v-3iduEhU9kwHF5k6Ra&source=gbs_api",
+          "reason": "「読みやすい」「一気読み」など読み味が近い"
+        },
+        {
+          "workId": "manga__花より男子__神尾葉子",
+          "fileId": "1v5wh1g",
+          "title": "花より男子",
+          "authorDisplay": "神尾葉子",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=oaQUAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「読みやすい」「一気読み」など読み味が近い"
+        },
+        {
+          "workId": "manga__君に届け__軽穂椎名",
+          "fileId": "1d6gduo",
+          "title": "君に届け",
+          "authorDisplay": "軽穂·椎名",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=b88vAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「読みやすい」「一気読み」など読み味が近い"
+        },
+        {
+          "workId": "manga__マッシュルmashle__甲本一",
+          "fileId": "1pfgqp1",
+          "title": "マッシュル-MASHLE-",
+          "authorDisplay": "甲本一",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=OPJQEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「読みやすい」「一気読み」など読み味が近い"
+        },
+        {
+          "workId": "manga__転生したらスライムだった件__伏瀬",
+          "fileId": "1aakpum",
+          "title": "転生したらスライムだった件",
+          "authorDisplay": "伏瀬 / みっつばー",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ZRrjEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「読みやすい」「一気読み」など読み味が近い"
+        },
+        {
+          "workId": "novel__ga文庫15周年_人気作品増量試読合本__佐伯さん",
+          "fileId": "0n3gig2",
+          "title": "ＧＡ文庫１５周年　人気作品増量試読合本",
+          "authorDisplay": "佐伯さん / 海空りく / 徳山銀次郎 / 望公太 / 蝸牛くも",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=Bg8VEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「読みやすい」「一気読み」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.659Z"
+}

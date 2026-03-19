@@ -1,0 +1,23 @@
+{
+  "workId": "manga__コミック東野圭吾ミステリー_白銀ジャック__高柳衣良",
+  "groups": [
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "manga__コミック東野圭吾ミステリー_ウインクで乾杯__松枝尚嗣",
+          "fileId": "0zdydn2",
+          "title": "コミック東野圭吾ミステリー : ウインクで乾杯",
+          "authorDisplay": "松枝尚嗣",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=Uwb_DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "実業之日本社の漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.976Z"
+}

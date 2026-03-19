@@ -1,0 +1,106 @@
+{
+  "workId": "manga__death_note__大場つぐみ",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "manga__バクマン__大場つぐみ",
+          "fileId": "1hmxear",
+          "title": "バクマン。",
+          "authorDisplay": "大場つぐみ / 小畑健",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=rhcljgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "大場つぐみによる漫画"
+        },
+        {
+          "workId": "manga__ヒカルの碁__ほったゆみ",
+          "fileId": "0gvhrj2",
+          "title": "ヒカルの碁",
+          "authorDisplay": "ほったゆみ / 小畑健",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=5dXKCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "小畑健による漫画"
+        }
+      ]
+    },
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "manga__gantz_カラー版_ゆびわ星人編_小島多恵編__奥浩哉",
+          "fileId": "1luxqnu",
+          "title": "GANTZ カラー版 ゆびわ星人編＆小島多恵編",
+          "authorDisplay": "奥浩哉",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=MgI8DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「怖い」「絶望」など読み味が近い"
+        },
+        {
+          "workId": "manga__monster__浦沢直樹",
+          "fileId": "1f66m5e",
+          "title": "MONSTER",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ZdNeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「怖い」「絶望」など読み味が近い"
+        },
+        {
+          "workId": "manga__進撃の巨人__諫山創",
+          "fileId": "0zni0pn",
+          "title": "進撃の巨人",
+          "authorDisplay": "諫山創",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=nMjEBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「絶望」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__20世紀少年__浦沢直樹",
+          "fileId": "0cibc53",
+          "title": "20世紀少年",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=XDfkjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「絶望」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__鋼の錬金術師__荒川弘",
+          "fileId": "0zref9t",
+          "title": "鋼の錬金術師",
+          "authorDisplay": "荒川弘",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=PQ7FDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「一気読み」など読み味が近い"
+        },
+        {
+          "workId": "manga__ベルセルク__三浦建太郎",
+          "fileId": "0dzyojj",
+          "title": "ベルセルク",
+          "authorDisplay": "三浦建太郎",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=QON9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「絶望」「考えさせられる」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.803Z"
+}

@@ -1,0 +1,200 @@
+{
+  "workId": "novel__往復書簡__湊かなえ",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "novel__贖罪__湊かなえ",
+          "fileId": "031vv7w",
+          "title": "贖罪",
+          "authorDisplay": "湊かなえ",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=FttUEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "湊かなえによる小説"
+        },
+        {
+          "workId": "novel__夜行観覧車__木村まるみ",
+          "fileId": "00t2c6q",
+          "title": "夜行観覧車",
+          "authorDisplay": "木村まるみ / 湊かなえ",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=Qb3uCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "湊かなえによる小説"
+        },
+        {
+          "workId": "novel__落日__湊かなえ",
+          "fileId": "0kp85vy",
+          "title": "落日",
+          "authorDisplay": "湊かなえ",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=eXuaEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "湊かなえによる小説"
+        },
+        {
+          "workId": "novel__nのために__湊かなえ",
+          "fileId": "0evrm43",
+          "title": "Nのために",
+          "authorDisplay": "湊かなえ",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=n7bnDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "湊かなえによる小説"
+        },
+        {
+          "workId": "novel__白ゆき姫殺人事件__湊かなえ",
+          "fileId": "1gihmak",
+          "title": "白ゆき姫殺人事件",
+          "authorDisplay": "湊かなえ",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=PnQ1EAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "湊かなえによる小説"
+        },
+        {
+          "workId": "manga__コミック版夜行観覧車__木村まるみ",
+          "fileId": "0r10mim",
+          "title": "コミック版夜行観覧車",
+          "authorDisplay": "木村まるみ / 湊かなえ",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=C_ZKmgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "湊かなえによる漫画"
+        }
+      ]
+    },
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "novel__かもめ食堂__群ようこ",
+          "fileId": "0eipjp5",
+          "title": "かもめ食堂",
+          "authorDisplay": "群ようこ",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=HNTKDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70-xLXgnAN2sRARN9BSG68QSBMRGmuOWIMuw6-BG0PYe62lKn152LcylA6PlPyO4KZMh2uMDx74unOFOXjVW40xdGRWDnFQbEgnvc5evn3SwWKNdMX98iaD1udD5nYcHgu9Yb3Z&source=gbs_api",
+          "reason": "幻冬舎の小説"
+        },
+        {
+          "workId": "novel__キッチン__吉本ばなな",
+          "fileId": "1tppszm",
+          "title": "キッチン",
+          "authorDisplay": "吉本ばなな",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=QYC5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73qbLIjFEyegTFvEQQh3Mb30aLIWUk3xyTNacdpvdEm65NhZj1NdjFx3EphpALl6jcwdDjpxpDKF_kzRROw5H_zcOby4nuvUnKw3YcvJUi5ouxzNJNTuEIrx-pW6op5aa8mWUJq&source=gbs_api",
+          "reason": "幻冬舎の小説"
+        },
+        {
+          "workId": "novel__作家小説__有栖川有栖",
+          "fileId": "1qy7jn1",
+          "title": "作家小説",
+          "authorDisplay": "有栖川有栖",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=9MdCAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "幻冬舎の小説"
+        },
+        {
+          "workId": "novel__阪急電車__有川浩",
+          "fileId": "08byc3s",
+          "title": "阪急電車",
+          "authorDisplay": "有川浩",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=mWC5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70LD2oanXrKtkQrrhYcmjhy5SDohCl8N9J3eHWGgd7XI-CdyYJg1KFULvsLX_aFDVr3j9W3d57myokMgDgjyZFIIXGjrXekcXD4kjS5XwWj9feVWCqcE-rvnWNlwZDjUPfEpBlv&source=gbs_api",
+          "reason": "幻冬舎の小説"
+        }
+      ]
+    },
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "manga__death_note__大場つぐみ",
+          "fileId": "1m22mge",
+          "title": "DEATH NOTE",
+          "authorDisplay": "大場つぐみ / 小畑健",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=_ERuCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「怖い」など読み味が近い"
+        },
+        {
+          "workId": "novel__グラスホッパー__伊坂幸太郎",
+          "fileId": "0c28mf2",
+          "title": "グラスホッパー",
+          "authorDisplay": "伊坂幸太郎",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=JJleMPIiZuEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「怖い」など読み味が近い"
+        },
+        {
+          "workId": "novel__あるキング__伊坂幸太郎",
+          "fileId": "1rvx8la",
+          "title": "あるキング",
+          "authorDisplay": "伊坂幸太郎",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=-jpKQwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「怖い」など読み味が近い"
+        },
+        {
+          "workId": "novel__ゴールデンスランバー__伊坂幸太郎",
+          "fileId": "0ndf647",
+          "title": "ゴールデンスランバー",
+          "authorDisplay": "伊坂幸太郎",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=XdNYewAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「怖い」など読み味が近い"
+        },
+        {
+          "workId": "novel__重力ピエロ__伊坂幸太郎",
+          "fileId": "08qfpoy",
+          "title": "重力ピエロ",
+          "authorDisplay": "伊坂幸太郎",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=YbxaEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「怖い」など読み味が近い"
+        },
+        {
+          "workId": "novel__マリアビートル__伊坂幸太郎",
+          "fileId": "1c2c3v1",
+          "title": "マリアビートル",
+          "authorDisplay": "伊坂幸太郎",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=2WM7AQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「怖い」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.873Z"
+}

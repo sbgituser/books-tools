@@ -1,0 +1,23 @@
+{
+  "workId": "manga__火の鳥_黎明編__手塚治虫",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "manga__ブラックジャック_1_少年チャンピオンコミックス__手塚治虫",
+          "fileId": "05wfjxj",
+          "title": "ブラック・ジャック　1（少年チャンピオン・コミックス）",
+          "authorDisplay": "手塚治虫",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=OmWhDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "手塚治虫による漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:56.190Z"
+}

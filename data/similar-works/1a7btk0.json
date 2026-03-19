@@ -1,0 +1,23 @@
+{
+  "workId": "manga__gantz__奥浩哉",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "manga__gantz_カラー版_ゆびわ星人編_小島多恵編__奥浩哉",
+          "fileId": "1luxqnu",
+          "title": "GANTZ カラー版 ゆびわ星人編＆小島多恵編",
+          "authorDisplay": "奥浩哉",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=MgI8DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "奥浩哉による漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:56.058Z"
+}

@@ -1,0 +1,211 @@
+{
+  "workId": "novel__球形の荒野下__松本清張",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "novel__点と線__松本清張",
+          "fileId": "1okq6qs",
+          "title": "点と線",
+          "authorDisplay": "松本清張",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=sj1ZPgAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72uaXMpolRwRkpXMxy0fiYBf1u_jxOaUUR1FhHpdR3NPY-OcgQh7eMfbSRD58ycUdJX0QelK8f670YW4uJDOOedAIDrzeA5udcvsBHJ5s_s460kll1BbWRPOhLEbHf_h0ItDNdZ&source=gbs_api",
+          "reason": "松本清張による小説"
+        },
+        {
+          "workId": "novel__松本清張全集第5巻砂の器__松本清張",
+          "fileId": "1dem5jj",
+          "title": "松本清張全集第5巻砂の器",
+          "authorDisplay": "松本清張",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=1WAsAQAAIAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE706MT_6rwnodk1OVZqKqAsHJGS0wFu7pd2M1pWFKZqsULVGcj0bxG8kdZNdqj7XHFnzgMO9-00GE-Vpi0E_Si9tXmeadllWEIKcmKzgPDEeDuuplrBT4v1n1cVKsc_K-xQIvQr1&source=gbs_api",
+          "reason": "松本清張による小説"
+        },
+        {
+          "workId": "novel__ゼロの焦点dの複合__松本清張",
+          "fileId": "07cz1j4",
+          "title": "ゼロの焦点・Dの複合",
+          "authorDisplay": "松本清張",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=Unl5EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "松本清張による小説"
+        },
+        {
+          "workId": "novel__松本淸張全集_眼の壁絢爛たる流離__松本清張",
+          "fileId": "0cmvn5u",
+          "title": "松本淸張全集: 眼の壁絢爛たる流離",
+          "authorDisplay": "松本清張",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=_vtJAAAAMAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72AmiA3Aep7UxRB1SmpPW7qgPGXHx9KaEYxir_QoQGxtpNveo_iK5b_IU5KKNRERvBTFtUnaG4_UpdEoGG3Xfue03-vGtx4JnSync64b8uQ8a6F_LxEXxRmGj1OB0R-Jm1bJbJY&source=gbs_api",
+          "reason": "松本清張による小説"
+        },
+        {
+          "workId": "novel__松本清張推理評論集_seicho_matsumoto_s_essays_on_d__松本清張",
+          "fileId": "1dkb4ly",
+          "title": "松本清張推理評論集 = SEICHO MATSUMOTO'S ESSAYS ON DETECTIVE FICTION : 1957-1988",
+          "authorDisplay": "松本清張",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=Cn04zwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "松本清張による小説"
+        },
+        {
+          "workId": "novel__弱気の蟲_二大長編推理小説_松本清張プレミアムミステリー__松本清張",
+          "fileId": "1ax8t3q",
+          "title": "弱気の蟲 : 二大長編推理小説 : 松本清張プレミアム・ミステリー",
+          "authorDisplay": "松本清張",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=2a6wswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "松本清張による小説"
+        }
+      ]
+    },
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "novel__ソロモンの犬__道尾秀介",
+          "fileId": "12toa9m",
+          "title": "ソロモンの犬",
+          "authorDisplay": "道尾秀介",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=KRPNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73kTg4bf2jtJ8e9tv4HAC4t3s_eGDeaOT6c7sh_Jy7xZguwkvzZ21EGwsxPzLyELwr5jDS7rzh6GpDAgoaVWLFP8H90ZYulPrqqF_jrNFzBabsa-0T3lLwP9_ohFUn5SCHzafDZ&source=gbs_api",
+          "reason": "文藝春秋の小説"
+        },
+        {
+          "workId": "novel__北の夕鶴2_3の殺人__島田荘司",
+          "fileId": "0akssun",
+          "title": "北の夕鶴2/3の殺人",
+          "authorDisplay": "島田荘司",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=CRbNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "文藝春秋の小説"
+        },
+        {
+          "workId": "novel__定本百鬼夜行陰__京極夏彦",
+          "fileId": "112h4dv",
+          "title": "定本百鬼夜行陰",
+          "authorDisplay": "京極夏彦",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=u0mZtgAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE71jY4Je3h5LQsoGV0hntynVwMePpBCA3tWhgUdw_v82H_ZlIUigLzfLP6SO27IBN41uh9mbwnxnyX6BrvxzGu6DVg_IUV_3zspTMoCW5NjTSFIerh-3vzWGhF70v2Zp9NElDnJa&source=gbs_api",
+          "reason": "文藝春秋の小説"
+        },
+        {
+          "workId": "novel__容疑者xの献身__東野圭吾",
+          "fileId": "0bkks71",
+          "title": "容疑者Xの献身",
+          "authorDisplay": "東野圭吾",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=eNjdDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "文藝春秋の小説"
+        },
+        {
+          "workId": "novel__検察側の罪人_下__雫井脩介",
+          "fileId": "1ma8sec",
+          "title": "検察側の罪人（下）",
+          "authorDisplay": "雫井脩介",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=fw7NDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "文藝春秋の小説"
+        }
+      ]
+    },
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "manga__進撃の巨人__諫山創",
+          "fileId": "0zni0pn",
+          "title": "進撃の巨人",
+          "authorDisplay": "諫山創",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=nMjEBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__monster__浦沢直樹",
+          "fileId": "1f66m5e",
+          "title": "MONSTER",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ZdNeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__20世紀少年__浦沢直樹",
+          "fileId": "0cibc53",
+          "title": "20世紀少年",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=XDfkjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__ジョジョの奇妙な冒険_第9部_ザジョジョランズ__荒木飛呂彦",
+          "fileId": "1e97puh",
+          "title": "ジョジョの奇妙な冒険 第9部 ザ・ジョジョランズ",
+          "authorDisplay": "荒木飛呂彦",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=osTHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73m-Xpv26rBTjQaUeFEpP45GuPxnlkoBLJAc__XSGgtGIlhp9n7rjNb79iQ8YgQSPj97cckXatJI91SgXYb5Muh-DBYehP-Hub9N37VALpFRFzHzDHY5eNxOU9FIHij6HjwCzuj&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__ベルセルク__三浦建太郎",
+          "fileId": "0dzyojj",
+          "title": "ベルセルク",
+          "authorDisplay": "三浦建太郎",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=QON9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__ヴィンランドサガ__幸村誠",
+          "fileId": "1g79vwe",
+          "title": "ヴィンランド・サガ",
+          "authorDisplay": "幸村誠",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=tELGBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.745Z"
+}

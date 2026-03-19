@@ -1,0 +1,167 @@
+{
+  "workId": "novel__検察側の罪人_下__雫井脩介",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "novel__検察側の罪人__雫井脩介",
+          "fileId": "1vh454q",
+          "title": "検察側の罪人",
+          "authorDisplay": "雫井脩介",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=fw7NDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "雫井脩介による小説"
+        },
+        {
+          "workId": "novel__犯人に告ぐ__雫井脩介",
+          "fileId": "1fcu3wn",
+          "title": "犯人に告ぐ",
+          "authorDisplay": "雫井脩介",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=DSkhNwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "雫井脩介による小説"
+        }
+      ]
+    },
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "novel__ソロモンの犬__道尾秀介",
+          "fileId": "12toa9m",
+          "title": "ソロモンの犬",
+          "authorDisplay": "道尾秀介",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=KRPNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73kTg4bf2jtJ8e9tv4HAC4t3s_eGDeaOT6c7sh_Jy7xZguwkvzZ21EGwsxPzLyELwr5jDS7rzh6GpDAgoaVWLFP8H90ZYulPrqqF_jrNFzBabsa-0T3lLwP9_ohFUn5SCHzafDZ&source=gbs_api",
+          "reason": "文藝春秋の小説"
+        },
+        {
+          "workId": "novel__定本百鬼夜行陰__京極夏彦",
+          "fileId": "112h4dv",
+          "title": "定本百鬼夜行陰",
+          "authorDisplay": "京極夏彦",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=u0mZtgAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE71jY4Je3h5LQsoGV0hntynVwMePpBCA3tWhgUdw_v82H_ZlIUigLzfLP6SO27IBN41uh9mbwnxnyX6BrvxzGu6DVg_IUV_3zspTMoCW5NjTSFIerh-3vzWGhF70v2Zp9NElDnJa&source=gbs_api",
+          "reason": "文藝春秋の小説"
+        },
+        {
+          "workId": "novel__容疑者xの献身__東野圭吾",
+          "fileId": "0bkks71",
+          "title": "容疑者Xの献身",
+          "authorDisplay": "東野圭吾",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=eNjdDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "文藝春秋の小説"
+        },
+        {
+          "workId": "novel__北の夕鶴2_3の殺人__島田荘司",
+          "fileId": "0akssun",
+          "title": "北の夕鶴2/3の殺人",
+          "authorDisplay": "島田荘司",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=CRbNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "文藝春秋の小説"
+        },
+        {
+          "workId": "novel__点と線__松本清張",
+          "fileId": "1okq6qs",
+          "title": "点と線",
+          "authorDisplay": "松本清張",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=sj1ZPgAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72uaXMpolRwRkpXMxy0fiYBf1u_jxOaUUR1FhHpdR3NPY-OcgQh7eMfbSRD58ycUdJX0QelK8f670YW4uJDOOedAIDrzeA5udcvsBHJ5s_s460kll1BbWRPOhLEbHf_h0ItDNdZ&source=gbs_api",
+          "reason": "文藝春秋の小説"
+        }
+      ]
+    },
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "novel__兇人邸の殺人__今村昌弘",
+          "fileId": "18a0gxr",
+          "title": "兇人邸の殺人",
+          "authorDisplay": "今村 昌弘 / 今村昌弘",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=H8OLEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "novel__魔眼の匣の殺人__今村昌弘",
+          "fileId": "07s4qbr",
+          "title": "魔眼の匣の殺人",
+          "authorDisplay": "今村昌弘",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=N0J_EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "novel__あなたも名探偵__市川憂人",
+          "fileId": "1gpu435",
+          "title": "あなたも名探偵",
+          "authorDisplay": "市川憂人 / 米澤穂信 / 東川篤哉 / 麻耶雄嵩 / 法月綸太郎",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=8Pk5EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "novel__怪盗うみねこの事件簿__阿津川辰海",
+          "fileId": "0ujf4ap",
+          "title": "怪盗うみねこの事件簿",
+          "authorDisplay": "阿津川辰海 / 阿津川 辰海",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=GBSIEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "novel__カラスの親指_シリーズ_合本版__道尾秀介",
+          "fileId": "13kaj6m",
+          "title": "「カラスの親指」シリーズ　合本版",
+          "authorDisplay": "道尾秀介",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=szKUEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70XdMdDvBF_d-LuLkCLhG_pM64Okt9-znB-Dic-hdLaKVSa-ekjtrZ81TnOH5fPdHdTjeRViurD9DkUGHU85wYqJ2vRycsiJfgRJs9PweH1m8FWVBFBtRQBiYvzCfV0QC05ZCed&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "novel__向日葵の咲かない夏__道尾秀介",
+          "fileId": "0n5atro",
+          "title": "向日葵の咲かない夏",
+          "authorDisplay": "道尾秀介",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=s89RPwAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70dttyNE5KKYFRVMeF5ZLtL4A_TW-7AfDUJtk2SWkP6KSRrRw78j16y4ytnxojdhe8AJuTJUXMCo7vbCDRxwjncB67kyGMdEUWgPHCckwBUdfWy3nj2vrIPg87K_92QU8ddEnj5&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.890Z"
+}

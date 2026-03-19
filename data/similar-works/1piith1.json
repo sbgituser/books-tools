@@ -1,0 +1,95 @@
+{
+  "workId": "novel__東野圭吾というミステリー_無限に広がる国民的人気作家の世界を解読する__unknown",
+  "groups": [
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "novel__村上春樹全小説ガイドブック__洋泉社",
+          "fileId": "0r5yi50",
+          "title": "村上春樹全小説ガイドブック",
+          "authorDisplay": "洋泉社",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=_QXfnAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "洋泉社の小説"
+        }
+      ]
+    },
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "novel__兇人邸の殺人__今村昌弘",
+          "fileId": "18a0gxr",
+          "title": "兇人邸の殺人",
+          "authorDisplay": "今村 昌弘 / 今村昌弘",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=H8OLEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "novel__魔眼の匣の殺人__今村昌弘",
+          "fileId": "07s4qbr",
+          "title": "魔眼の匣の殺人",
+          "authorDisplay": "今村昌弘",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=N0J_EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "novel__あなたも名探偵__市川憂人",
+          "fileId": "1gpu435",
+          "title": "あなたも名探偵",
+          "authorDisplay": "市川憂人 / 米澤穂信 / 東川篤哉 / 麻耶雄嵩 / 法月綸太郎",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=8Pk5EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "novel__怪盗うみねこの事件簿__阿津川辰海",
+          "fileId": "0ujf4ap",
+          "title": "怪盗うみねこの事件簿",
+          "authorDisplay": "阿津川辰海 / 阿津川 辰海",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=GBSIEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "novel__カラスの親指_シリーズ_合本版__道尾秀介",
+          "fileId": "13kaj6m",
+          "title": "「カラスの親指」シリーズ　合本版",
+          "authorDisplay": "道尾秀介",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=szKUEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70XdMdDvBF_d-LuLkCLhG_pM64Okt9-znB-Dic-hdLaKVSa-ekjtrZ81TnOH5fPdHdTjeRViurD9DkUGHU85wYqJ2vRycsiJfgRJs9PweH1m8FWVBFBtRQBiYvzCfV0QC05ZCed&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "novel__向日葵の咲かない夏__道尾秀介",
+          "fileId": "0n5atro",
+          "title": "向日葵の咲かない夏",
+          "authorDisplay": "道尾秀介",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=s89RPwAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70dttyNE5KKYFRVMeF5ZLtL4A_TW-7AfDUJtk2SWkP6KSRrRw78j16y4ytnxojdhe8AJuTJUXMCo7vbCDRxwjncB67kyGMdEUWgPHCckwBUdfWy3nj2vrIPg87K_92QU8ddEnj5&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.974Z"
+}

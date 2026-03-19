@@ -1,0 +1,211 @@
+{
+  "workId": "novel__オリエント急行の殺人__アガサ・クリスティー",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "novel__アクロイド殺し__アガサ・クリスティー",
+          "fileId": "070sdfa",
+          "title": "アクロイド殺し",
+          "authorDisplay": "アガサ・クリスティー",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=svmySWdxwTkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "アガサ・クリスティーによる小説"
+        },
+        {
+          "workId": "novel__abc殺人事件__アガサ・クリスティー",
+          "fileId": "1odgs5x",
+          "title": "ABC殺人事件",
+          "authorDisplay": "アガサ・クリスティー",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=EIu8oQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "アガサ・クリスティーによる小説"
+        },
+        {
+          "workId": "novel__ナイルに死す__アガサ・クリスティー",
+          "fileId": "1eqf11u",
+          "title": "ナイルに死す",
+          "authorDisplay": "アガサ・クリスティー",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=K7VWDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "アガサ・クリスティーによる小説"
+        },
+        {
+          "workId": "novel__予告殺人__アガサ・クリスティー",
+          "fileId": "1n39lq8",
+          "title": "予告殺人",
+          "authorDisplay": "アガサ・クリスティー",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=qzuRzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "アガサ・クリスティーによる小説"
+        },
+        {
+          "workId": "novel__チムニーズ館の秘密__榛野なな恵",
+          "fileId": "0miqez1",
+          "title": "チムニーズ館の秘密",
+          "authorDisplay": "榛野なな恵 / アガサ・クリスティー",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=zPhIDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "アガサ・クリスティーによる小説"
+        },
+        {
+          "workId": "novel__そして誰もいなくなった_コミック版_3__アガサ・クリスティー",
+          "fileId": "1toedt8",
+          "title": "そして誰もいなくなった〔コミック版〕3",
+          "authorDisplay": "アガサ・クリスティー / 二階堂彩",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=YroB0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "アガサ・クリスティーによる小説"
+        }
+      ]
+    },
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "novel__プロジェクトヘイルメアリー_上__アンディウィアー",
+          "fileId": "06mczwe",
+          "title": "プロジェクト・ヘイル・メアリー　上",
+          "authorDisplay": "アンディ ウィアー",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=OCWuEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71VIl4sdoWaBu6fYvbJMTMZSFZDgQpTFhHXZ1ZpcQ7oY3FKN5qxSWyO7ZqmNIonFS1Q1tAXbbNCOwixxz9DU2U8ERzcodNd02nQGPy_WS_DmheCY4wUruCsYKwebf2WwEcUyTPN&source=gbs_api",
+          "reason": "早川書房の小説"
+        },
+        {
+          "workId": "novel__同志少女よ_敵を撃て__逢坂冬馬",
+          "fileId": "1xilnrz",
+          "title": "同志少女よ、敵を撃て",
+          "authorDisplay": "逢坂冬馬",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=PFp6f0Qhb1UC&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73S1Xh_NPY6xQddhNJ0D-QMyEhMxxIURsDhMa0rbKYABIGutnOJfx576FJJ03DRx5zdixre7ld1fD8mmZdvs6RcboLphfj9ltveKED0qloFY25ko42OMmbuKKOvMzUtngaJWEdF&source=gbs_api",
+          "reason": "早川書房の小説"
+        },
+        {
+          "workId": "novel__日本sf短篇50_日本sf作家クラブ創立50周年記念アンソロジー__日本sf作家クラブ",
+          "fileId": "19md0jg",
+          "title": "日本SF短篇50 : 日本SF作家クラブ創立50周年記念アンソロジー",
+          "authorDisplay": "日本SF作家クラブ",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=Y79rAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "早川書房の小説"
+        },
+        {
+          "workId": "novel__2084年のsf__日本sf作家クラブ",
+          "fileId": "08o5d6g",
+          "title": "2084年のSF",
+          "authorDisplay": "日本SF作家クラブ",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=9sf2zgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "早川書房の小説"
+        },
+        {
+          "workId": "novel__日本sfの臨界点_怪奇篇__伴名練",
+          "fileId": "1y0jyom",
+          "title": "日本SFの臨界点. 怪奇篇",
+          "authorDisplay": "伴名練 / 石黒達昌",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=2eyszQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "早川書房の小説"
+        }
+      ]
+    },
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "manga__進撃の巨人__諫山創",
+          "fileId": "0zni0pn",
+          "title": "進撃の巨人",
+          "authorDisplay": "諫山創",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=nMjEBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__monster__浦沢直樹",
+          "fileId": "1f66m5e",
+          "title": "MONSTER",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ZdNeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__20世紀少年__浦沢直樹",
+          "fileId": "0cibc53",
+          "title": "20世紀少年",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=XDfkjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__ジョジョの奇妙な冒険_第9部_ザジョジョランズ__荒木飛呂彦",
+          "fileId": "1e97puh",
+          "title": "ジョジョの奇妙な冒険 第9部 ザ・ジョジョランズ",
+          "authorDisplay": "荒木飛呂彦",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=osTHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73m-Xpv26rBTjQaUeFEpP45GuPxnlkoBLJAc__XSGgtGIlhp9n7rjNb79iQ8YgQSPj97cckXatJI91SgXYb5Muh-DBYehP-Hub9N37VALpFRFzHzDHY5eNxOU9FIHij6HjwCzuj&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__ベルセルク__三浦建太郎",
+          "fileId": "0dzyojj",
+          "title": "ベルセルク",
+          "authorDisplay": "三浦建太郎",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=QON9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__ヴィンランドサガ__幸村誠",
+          "fileId": "1g79vwe",
+          "title": "ヴィンランド・サガ",
+          "authorDisplay": "幸村誠",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=tELGBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.893Z"
+}

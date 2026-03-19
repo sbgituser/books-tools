@@ -1,0 +1,23 @@
+{
+  "workId": "manga__ウィッチウォッチ__篠原健太",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "manga__sket_dance_モノクロ版__篠原健太",
+          "fileId": "0vdbxdj",
+          "title": "SKET DANCE モノクロ版",
+          "authorDisplay": "篠原健太",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=-nbNCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "篠原健太による漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:56.115Z"
+}

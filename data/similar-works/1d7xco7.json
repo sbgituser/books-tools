@@ -1,0 +1,78 @@
+{
+  "workId": "manga__ハイキュー__古舘春一",
+  "groups": [
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "manga__naruto_ナルト__岸本斉史",
+          "fileId": "17otkk9",
+          "title": "NARUTO―ナルト―",
+          "authorDisplay": "岸本斉史",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ji3NCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「熱い」「感動」など読み味が近い"
+        },
+        {
+          "workId": "manga__僕のヒーローアカデミア__堀越耕平",
+          "fileId": "032sc3q",
+          "title": "僕のヒーローアカデミア",
+          "authorDisplay": "堀越耕平",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=7iLLCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「熱い」「感動」など読み味が近い"
+        },
+        {
+          "workId": "manga__鋼の錬金術師__荒川弘",
+          "fileId": "0zref9t",
+          "title": "鋼の錬金術師",
+          "authorDisplay": "荒川弘",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=PQ7FDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「熱い」「感動」など読み味が近い"
+        },
+        {
+          "workId": "manga__鬼滅の刃__吾峠呼世晴",
+          "fileId": "0iuwa8r",
+          "title": "鬼滅の刃",
+          "authorDisplay": "吾峠呼世晴",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=Mj1cDAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「熱い」「感動」など読み味が近い"
+        },
+        {
+          "workId": "manga__one_piece__尾田栄一郎",
+          "fileId": "0cb8t8s",
+          "title": "ONE PIECE",
+          "authorDisplay": "尾田栄一郎",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=9ca7CwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「熱い」「感動」など読み味が近い"
+        },
+        {
+          "workId": "manga__炎炎ノ消防隊__大久保篤",
+          "fileId": "0flwohs",
+          "title": "炎炎ノ消防隊",
+          "authorDisplay": "大久保篤",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 2,
+          "coverImageUrl": "https://books.google.com/books/content?id=833yjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「熱い」「感動」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.801Z"
+}

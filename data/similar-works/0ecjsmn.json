@@ -1,0 +1,23 @@
+{
+  "workId": "manga__ダンジョンに出会いを求めるのは間違っているだろうか__大森藤ノ",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "manga__夜桜四重奏ヨザクラカルテット__ヤスダスズヒト",
+          "fileId": "1ewxvq3",
+          "title": "夜桜四重奏～ヨザクラカルテット～",
+          "authorDisplay": "ヤスダスズヒト",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=vg7EBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "ヤスダスズヒトによる漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:56.095Z"
+}

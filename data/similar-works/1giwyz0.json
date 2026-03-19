@@ -1,0 +1,139 @@
+{
+  "workId": "novel__君の人生に勇気はいらない_グズで臆病な僕の人生を変えた口の悪いメンターとの物語__daigo",
+  "groups": [
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "novel__お隣の天使様にいつの間にか駄目人間にされていた件__佐伯さん",
+          "fileId": "0fthrvf",
+          "title": "お隣の天使様にいつの間にか駄目人間にされていた件",
+          "authorDisplay": "佐伯さん",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 2,
+          "coverImageUrl": "https://books.google.com/books/content?id=YnkhEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "SBクリエイティブの小説"
+        },
+        {
+          "workId": "novel__ga文庫15周年_人気作品増量試読合本__佐伯さん",
+          "fileId": "0n3gig2",
+          "title": "ＧＡ文庫１５周年　人気作品増量試読合本",
+          "authorDisplay": "佐伯さん / 海空りく / 徳山銀次郎 / 望公太 / 蝸牛くも",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=Bg8VEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "SBクリエイティブの小説"
+        },
+        {
+          "workId": "novel__ga文庫_gaノベル2020年2月の新刊_全作品立読み_合本版__あわむら赤光",
+          "fileId": "1apy1lb",
+          "title": "ＧＡ文庫＆ＧＡノベル２０２０年２月の新刊　全作品立読み（合本版）",
+          "authorDisplay": "あわむら赤光 / みかみてれん / ケンノジ / 葉月双 / 中村ヒロ",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=IYzPDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "SBクリエイティブの小説"
+        },
+        {
+          "workId": "novel__ga文庫_gaノベル2020年3月の新刊_全作品立読み_合本版__明月千里",
+          "fileId": "1iwuvou",
+          "title": "ＧＡ文庫＆ＧＡノベル２０２０年３月の新刊　全作品立読み（合本版）",
+          "authorDisplay": "明月千里 / 三門鉄狼 / 九頭七尾 / 三木なずな / 三河ごーすと",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=KorUDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "SBクリエイティブの小説"
+        },
+        {
+          "workId": "novel__ga文庫_gaノベル2020年9月の新刊_全作品立読み_合本版__進行諸島",
+          "fileId": "13ar4t7",
+          "title": "ＧＡ文庫＆ＧＡノベル２０２０年９月の新刊　全作品立読み（合本版）",
+          "authorDisplay": "進行諸島 / あわむら赤光 / 佐伯さん / 裕時悠示 / 海空りく",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=qPn6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "SBクリエイティブの小説"
+        }
+      ]
+    },
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "manga__鋼の錬金術師__荒川弘",
+          "fileId": "0zref9t",
+          "title": "鋼の錬金術師",
+          "authorDisplay": "荒川弘",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=PQ7FDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「世界観重視」など読み味が近い"
+        },
+        {
+          "workId": "manga__進撃の巨人__諫山創",
+          "fileId": "0zni0pn",
+          "title": "進撃の巨人",
+          "authorDisplay": "諫山創",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=nMjEBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「世界観重視」など読み味が近い"
+        },
+        {
+          "workId": "manga__monster__浦沢直樹",
+          "fileId": "1f66m5e",
+          "title": "MONSTER",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ZdNeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「世界観重視」など読み味が近い"
+        },
+        {
+          "workId": "manga__20世紀少年__浦沢直樹",
+          "fileId": "0cibc53",
+          "title": "20世紀少年",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=XDfkjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「世界観重視」など読み味が近い"
+        },
+        {
+          "workId": "manga__ジョジョの奇妙な冒険_第9部_ザジョジョランズ__荒木飛呂彦",
+          "fileId": "1e97puh",
+          "title": "ジョジョの奇妙な冒険 第9部 ザ・ジョジョランズ",
+          "authorDisplay": "荒木飛呂彦",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=osTHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73m-Xpv26rBTjQaUeFEpP45GuPxnlkoBLJAc__XSGgtGIlhp9n7rjNb79iQ8YgQSPj97cckXatJI91SgXYb5Muh-DBYehP-Hub9N37VALpFRFzHzDHY5eNxOU9FIHij6HjwCzuj&source=gbs_api",
+          "reason": "「考えさせられる」「世界観重視」など読み味が近い"
+        },
+        {
+          "workId": "manga__ベルセルク__三浦建太郎",
+          "fileId": "0dzyojj",
+          "title": "ベルセルク",
+          "authorDisplay": "三浦建太郎",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=QON9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「世界観重視」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.965Z"
+}

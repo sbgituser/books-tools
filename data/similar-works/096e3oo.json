@@ -1,0 +1,128 @@
+{
+  "workId": "novel__悪魔の手毬唄__横溝正史",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "novel__犬神家の一族__横溝正史",
+          "fileId": "0xsp7cu",
+          "title": "犬神家の一族",
+          "authorDisplay": "横溝正史",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=q2R50QEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73kZKQHNWAynVIL1ElvZ3Ktnv6xUbTQs8PkuCrnSzj0hm2FaC1C1kEOo98mOWmszXz1gbU-AgWWagGRMhMTua4TPl8ybWnAdsKcmAMCoKC0K9dS5k2JPdOy5qXeZ76kpi5Y-jhh&source=gbs_api",
+          "reason": "横溝正史による小説"
+        },
+        {
+          "workId": "novel__八つ墓村__横溝正史",
+          "fileId": "1wain1w",
+          "title": "八つ墓村",
+          "authorDisplay": "横溝正史",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=lZl60QEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72ntLx2Whk6LyYomZqmWRH0N0X6hrROFVqpmYnGJmYcL6860vqFS4mer8nbF3VDJkJG_d_No0qEhlnsiGP6aWqNeqXZlgMqDFNXS5gQWd1mTqCDa1WDNi5d8irGOJEUMCcDlKKD&source=gbs_api",
+          "reason": "横溝正史による小説"
+        },
+        {
+          "workId": "novel__獄門島__横溝正史",
+          "fileId": "0pthpnf",
+          "title": "獄門島",
+          "authorDisplay": "横溝正史",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=U-iA0QEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73y7zzS9rruY6Mvtcmw5qwLxeFnz87eRzFWT4gxF8K4Ng_iJX2PHvf1YSJIj_hYnwhM2bfu7-taKnlyw4S6cOl9U2iMQFLYjvICEfurVFu86rs8DYpxaRVWdQv98b0T0OTarbUe&source=gbs_api",
+          "reason": "横溝正史による小説"
+        },
+        {
+          "workId": "novel__横溝正史自選集__横溝正史",
+          "fileId": "0h42dqd",
+          "title": "横溝正史自選集",
+          "authorDisplay": "横溝正史",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=iuppQgAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72wt-BM4UZWe-KPRbNoRxzfz80nhLRsibvOAs-m6ZR2VjbpwA_-_nt-UKIrX6JsH3ToZ4ieflXIuE0ORVLETvtd5V-YOgAeEve9zIEhq0U2vdnvDESOmhl9wotJITLqj46I4sFN&source=gbs_api",
+          "reason": "横溝正史による小説"
+        }
+      ]
+    },
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "manga__進撃の巨人__諫山創",
+          "fileId": "0zni0pn",
+          "title": "進撃の巨人",
+          "authorDisplay": "諫山創",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=nMjEBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__monster__浦沢直樹",
+          "fileId": "1f66m5e",
+          "title": "MONSTER",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ZdNeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__20世紀少年__浦沢直樹",
+          "fileId": "0cibc53",
+          "title": "20世紀少年",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=XDfkjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__ジョジョの奇妙な冒険_第9部_ザジョジョランズ__荒木飛呂彦",
+          "fileId": "1e97puh",
+          "title": "ジョジョの奇妙な冒険 第9部 ザ・ジョジョランズ",
+          "authorDisplay": "荒木飛呂彦",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=osTHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73m-Xpv26rBTjQaUeFEpP45GuPxnlkoBLJAc__XSGgtGIlhp9n7rjNb79iQ8YgQSPj97cckXatJI91SgXYb5Muh-DBYehP-Hub9N37VALpFRFzHzDHY5eNxOU9FIHij6HjwCzuj&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__ベルセルク__三浦建太郎",
+          "fileId": "0dzyojj",
+          "title": "ベルセルク",
+          "authorDisplay": "三浦建太郎",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=QON9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__ヴィンランドサガ__幸村誠",
+          "fileId": "1g79vwe",
+          "title": "ヴィンランド・サガ",
+          "authorDisplay": "幸村誠",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=tELGBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.775Z"
+}

@@ -1,0 +1,23 @@
+{
+  "workId": "manga__よつばと__あずまきよひこ",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "manga__あずまんが大王__あずまきよひこ",
+          "fileId": "1p77bes",
+          "title": "あずまんが大王",
+          "authorDisplay": "あずまきよひこ",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=PmOtEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "あずまきよひこによる漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:56.053Z"
+}

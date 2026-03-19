@@ -1,0 +1,34 @@
+{
+  "workId": "manga__ひぐらしのなく頃に__竜騎士07",
+  "groups": [
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "manga__sunny__カノウリョウマ",
+          "fileId": "13i1mza",
+          "title": "Sunny",
+          "authorDisplay": "カノウリョウマ / 蓼沼優衣",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=9MrGEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "双葉社の漫画"
+        },
+        {
+          "workId": "manga__orange_スターターブック__高野苺",
+          "fileId": "0570a0n",
+          "title": "orange　スターターブック ：",
+          "authorDisplay": "高野苺",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=JSNXCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "双葉社の漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.695Z"
+}

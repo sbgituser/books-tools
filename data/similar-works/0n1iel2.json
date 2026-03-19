@@ -1,0 +1,45 @@
+{
+  "workId": "manga__寄生獣リバーシ__岩明均",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "manga__ヒストリエ__岩明均",
+          "fileId": "1qy81hk",
+          "title": "ヒストリエ",
+          "authorDisplay": "岩明均",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=mJjFBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "岩明均による漫画"
+        },
+        {
+          "workId": "manga__寄生獣__岩明均",
+          "fileId": "1k8u22x",
+          "title": "寄生獣",
+          "authorDisplay": "岩明均",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=h4S_oQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "岩明均による漫画"
+        },
+        {
+          "workId": "manga__寄生獣リバーシ__太田モアレ",
+          "fileId": "03dtz36",
+          "title": "寄生獣リバーシ",
+          "authorDisplay": "太田モアレ / 原作 岩明均",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=bkbMvQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "太田モアレによる漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:56.094Z"
+}

@@ -1,0 +1,23 @@
+{
+  "workId": "manga__聲の形__大今良時",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "manga__不滅のあなたへ__大今良時",
+          "fileId": "1jsq7ze",
+          "title": "不滅のあなたへ",
+          "authorDisplay": "大今良時",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=Jmy6DQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "大今良時による漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:56.048Z"
+}

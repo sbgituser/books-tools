@@ -1,0 +1,211 @@
+{
+  "workId": "novel__向日葵の咲かない夏__道尾秀介",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "novel__カラスの親指_シリーズ_合本版__道尾秀介",
+          "fileId": "13kaj6m",
+          "title": "「カラスの親指」シリーズ　合本版",
+          "authorDisplay": "道尾秀介",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=szKUEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70XdMdDvBF_d-LuLkCLhG_pM64Okt9-znB-Dic-hdLaKVSa-ekjtrZ81TnOH5fPdHdTjeRViurD9DkUGHU85wYqJ2vRycsiJfgRJs9PweH1m8FWVBFBtRQBiYvzCfV0QC05ZCed&source=gbs_api",
+          "reason": "道尾秀介による小説"
+        },
+        {
+          "workId": "novel__シャドウ__道尾秀介",
+          "fileId": "00zqpu2",
+          "title": "シャドウ",
+          "authorDisplay": "道尾秀介",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=J466Pf9pmk4C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70HbEPTamNI97J0kyRpgL2VSppeqDwoxmjGDAVfdPmKUt7AFeteGJgLXQJVRv70zCkYl7qx-c1wXULQD-d9fmBILURdonQloqEPMne0Cb4scfZXt0-XxLQUntWkfL4e8WHKxpR9&source=gbs_api",
+          "reason": "道尾秀介による小説"
+        },
+        {
+          "workId": "novel__ソロモンの犬__道尾秀介",
+          "fileId": "12toa9m",
+          "title": "ソロモンの犬",
+          "authorDisplay": "道尾秀介",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=KRPNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73kTg4bf2jtJ8e9tv4HAC4t3s_eGDeaOT6c7sh_Jy7xZguwkvzZ21EGwsxPzLyELwr5jDS7rzh6GpDAgoaVWLFP8H90ZYulPrqqF_jrNFzBabsa-0T3lLwP9_ohFUn5SCHzafDZ&source=gbs_api",
+          "reason": "道尾秀介による小説"
+        },
+        {
+          "workId": "novel__龍神の雨__道尾秀介",
+          "fileId": "0x7agwy",
+          "title": "龍神の雨",
+          "authorDisplay": "道尾秀介",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=8cRaEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70dwc5WwsaHgXKRU-h9c5yQLcPjs5OECLsBWG-tFcqTdjriz2ePFGv8RdhQTqOTlf3BtO9V_45KjKmkKgr38S8usW4ZTedXWzD35bKM52ZVOmkAMYxHoEF0drVR45QzzRZfkj6w&source=gbs_api",
+          "reason": "道尾秀介による小説"
+        },
+        {
+          "workId": "novel__光媒の花__斉藤倫",
+          "fileId": "0t915g7",
+          "title": "光媒の花",
+          "authorDisplay": "斉藤倫 / 道尾秀介",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=a9knDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71Hc0EZxa9JeNRcvKPBAmdIHT3BXnIMJoxenWCjBwUJhBd5vWIGms2c3p5VvAxpBCdAHnTEwLjJMnVZBE_qFuyoP_G_msziIiztgGZ40xgrPRgxQkVrPQ15reJlvnYcxmq51G2t&source=gbs_api",
+          "reason": "道尾秀介による小説"
+        },
+        {
+          "workId": "novel__ラットマン__道尾秀介",
+          "fileId": "15maxxi",
+          "title": "ラットマン",
+          "authorDisplay": "道尾秀介",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=J--zlBa9XgwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "道尾秀介による小説"
+        }
+      ]
+    },
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "novel__満願__米澤穂信",
+          "fileId": "1vvze9j",
+          "title": "満願",
+          "authorDisplay": "米澤穂信",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=qBFIBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70gyDeO401oLxOpkYwDtAS7vZYwDmZBh6HQZJGlok0NctDsMpllsG4pgCnWdrPzSx49uX0eTmp1ulXaD5Solto1utXOvipaFwzTyoGLxnocoBHjg5X2VOs61mPTmDiZp4f6WjIw&source=gbs_api",
+          "reason": "新潮社の小説"
+        },
+        {
+          "workId": "novel__ソロモンの偽証__宮部みゆき",
+          "fileId": "1eyzdgz",
+          "title": "ソロモンの偽証",
+          "authorDisplay": "宮部みゆき",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=sMbhwQEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70zHJf4PHYudIIOWfFlh6ldHaYYHr-CmdlVaZqvXfIm_OzeZPRRIq-h-fZMlXlIrYKPuzInFQJpeCaMrEYmLgldCP8NJ1aqqJ6IRn8IwlSYBeTPfg4XoN2TFEEBgglA5tKHXUMG&source=gbs_api",
+          "reason": "新潮社の小説"
+        },
+        {
+          "workId": "novel__レベル__宮部みゆき",
+          "fileId": "1p8k18d",
+          "title": "レベル",
+          "authorDisplay": "宮部みゆき",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=9yRxDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "新潮社の小説"
+        },
+        {
+          "workId": "novel__龍は眠る__宮部みゆき",
+          "fileId": "0276vg4",
+          "title": "龍は眠る",
+          "authorDisplay": "宮部みゆき",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=AQjNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "新潮社の小説"
+        },
+        {
+          "workId": "novel__火車__宮部みゆき",
+          "fileId": "0oee7b6",
+          "title": "火車",
+          "authorDisplay": "宮部みゆき",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=bc0rAQAAIAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73VKelNGWcBAHoQZm_9DqbViYL4OclEAc2iVfmhcmIm9Xv1S--YcAOlucXx8sZ84hKaHTsdgCfVx1QNEmGClMWa9nGfNPuV4V3T1b6NMpi7vbHf8sURUPhJ1zYLBQxb2-hivlKG&source=gbs_api",
+          "reason": "新潮社の小説"
+        }
+      ]
+    },
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "novel__兇人邸の殺人__今村昌弘",
+          "fileId": "18a0gxr",
+          "title": "兇人邸の殺人",
+          "authorDisplay": "今村 昌弘 / 今村昌弘",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=H8OLEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "novel__魔眼の匣の殺人__今村昌弘",
+          "fileId": "07s4qbr",
+          "title": "魔眼の匣の殺人",
+          "authorDisplay": "今村昌弘",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=N0J_EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "novel__あなたも名探偵__市川憂人",
+          "fileId": "1gpu435",
+          "title": "あなたも名探偵",
+          "authorDisplay": "市川憂人 / 米澤穂信 / 東川篤哉 / 麻耶雄嵩 / 法月綸太郎",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=8Pk5EQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "novel__怪盗うみねこの事件簿__阿津川辰海",
+          "fileId": "0ujf4ap",
+          "title": "怪盗うみねこの事件簿",
+          "authorDisplay": "阿津川辰海 / 阿津川 辰海",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=GBSIEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "novel__詩的私的ジャック__森博嗣",
+          "fileId": "01qi2j3",
+          "title": "詩的私的ジャック",
+          "authorDisplay": "森博嗣",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=OZ-qPAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "novel__さよならドビュッシー__中山七里",
+          "fileId": "0ofzvi1",
+          "title": "さよならドビュッシー",
+          "authorDisplay": "中山七里",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=6cXFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE732OKrEgqmCdcPqhYN5DWeVWR7jdpWLeAWNMxKkaP73oJliiuqGHW1ZUOW-1Lo76yunTytmYl8U9-HYflpIvBzw7jBX6kejpFtlRoPg1OMyNYYfP1waw14a6oYkh1ZUJshT0erL&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.709Z"
+}

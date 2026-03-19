@@ -1,0 +1,34 @@
+{
+  "workId": "manga__暗殺教室__松井優征",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "manga__逃げ上手の若君__松井優征",
+          "fileId": "04cvbmj",
+          "title": "逃げ上手の若君",
+          "authorDisplay": "松井優征",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=lD4wEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "松井優征による漫画"
+        },
+        {
+          "workId": "manga__魔人探偵脳噛ネウロ__松井優征",
+          "fileId": "11w9ec6",
+          "title": "魔人探偵脳噛ネウロ",
+          "authorDisplay": "松井優征",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=5eluCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "松井優征による漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.810Z"
+}

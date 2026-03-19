@@ -1,0 +1,23 @@
+{
+  "workId": "manga__ホムンクルス__山本英夫",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "manga__殺し屋1_イチ_1__山本英夫",
+          "fileId": "08jbjen",
+          "title": "殺し屋1(イチ)1",
+          "authorDisplay": "山本英夫",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=1eTfDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "山本英夫による漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:56.065Z"
+}

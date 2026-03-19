@@ -1,0 +1,150 @@
+{
+  "workId": "novel__海辺のカフカ__村上春樹",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "novel__ダンスダンスダンス__村上春樹",
+          "fileId": "14e7y6a",
+          "title": "ダンス・ダンス・ダンス",
+          "authorDisplay": "村上春樹",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=7_5REQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "村上春樹による小説"
+        },
+        {
+          "workId": "novel__風の歌を聴け__村上春樹",
+          "fileId": "0m4ehpz",
+          "title": "風の歌を聴け",
+          "authorDisplay": "村上春樹",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=pWyQMimQFuAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "村上春樹による小説"
+        },
+        {
+          "workId": "novel__色彩を持たない多崎つくると_彼の巡礼の年__村上春樹",
+          "fileId": "1no0eun",
+          "title": "色彩を持たない多崎つくると、彼の巡礼の年",
+          "authorDisplay": "村上春樹",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=SLo_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "村上春樹による小説"
+        },
+        {
+          "workId": "novel__ねじまき鳥クロニクル__村上春樹",
+          "fileId": "0z3o6lw",
+          "title": "ねじまき鳥クロニクル",
+          "authorDisplay": "村上春樹",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=UrszQwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "村上春樹による小説"
+        },
+        {
+          "workId": "novel__世界の終りとハードボイルドワンダーランド__村上春樹",
+          "fileId": "0hprdv1",
+          "title": "世界の終りとハードボイルド・ワンダーランド",
+          "authorDisplay": "村上春樹",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=DdPNPQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "村上春樹による小説"
+        },
+        {
+          "workId": "novel__羊をめぐる冒険__村上春樹",
+          "fileId": "0ouiwv6",
+          "title": "羊をめぐる冒険",
+          "authorDisplay": "村上春樹",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=LiUMAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "村上春樹による小説"
+        }
+      ]
+    },
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "manga__鋼の錬金術師__荒川弘",
+          "fileId": "0zref9t",
+          "title": "鋼の錬金術師",
+          "authorDisplay": "荒川弘",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=PQ7FDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__進撃の巨人__諫山創",
+          "fileId": "0zni0pn",
+          "title": "進撃の巨人",
+          "authorDisplay": "諫山創",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=nMjEBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__monster__浦沢直樹",
+          "fileId": "1f66m5e",
+          "title": "MONSTER",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ZdNeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__20世紀少年__浦沢直樹",
+          "fileId": "0cibc53",
+          "title": "20世紀少年",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=XDfkjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__hunter_hunter__冨樫義博",
+          "fileId": "1leh8hy",
+          "title": "HUNTER×HUNTER",
+          "authorDisplay": "冨樫義博",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ze_JCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__ジョジョの奇妙な冒険_第9部_ザジョジョランズ__荒木飛呂彦",
+          "fileId": "1e97puh",
+          "title": "ジョジョの奇妙な冒険 第9部 ザ・ジョジョランズ",
+          "authorDisplay": "荒木飛呂彦",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=osTHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73m-Xpv26rBTjQaUeFEpP45GuPxnlkoBLJAc__XSGgtGIlhp9n7rjNb79iQ8YgQSPj97cckXatJI91SgXYb5Muh-DBYehP-Hub9N37VALpFRFzHzDHY5eNxOU9FIHij6HjwCzuj&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.878Z"
+}

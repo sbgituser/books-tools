@@ -1,0 +1,178 @@
+{
+  "workId": "novel__シャーロックホームズの帰還__コナン・ドイル",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "novel__シャーロックホームズの冒険__コナン・ドイル",
+          "fileId": "1q7jp60",
+          "title": "シャーロック・ホームズの冒険",
+          "authorDisplay": "コナン・ドイル",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=crGcBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "コナン・ドイルによる小説"
+        },
+        {
+          "workId": "novel__四つの署名__コナン・ドイル",
+          "fileId": "04uswes",
+          "title": "四つの署名",
+          "authorDisplay": "コナン・ドイル / 延原謙",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=DkiSCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "コナン・ドイルによる小説"
+        },
+        {
+          "workId": "novel__シャーロックホームズ最後の挨拶__コナン・ドイル",
+          "fileId": "0xycefa",
+          "title": "シャーロック・ホームズ最後の挨拶",
+          "authorDisplay": "コナン・ドイル / 延原謙",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=M0iSCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "コナン・ドイルによる小説"
+        }
+      ]
+    },
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "novel__狂骨の夢__京極夏彦",
+          "fileId": "1os5fud",
+          "title": "狂骨の夢",
+          "authorDisplay": "京極夏彦",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=PdvW6K9ikaAC&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70xmTnStQ2nmeUVaH4WdEO1B9twgCZ6he_uq4bKcfYN1EF6OAK4yS_NDBEfmBpWSl24AWPe-UWYbMuiWkMS6R69ih7RxDFSKTHk_Y2rfRTeO9uz6IiPfrXhNjfATBgCpWX-JAql&source=gbs_api",
+          "reason": "KADOKAWAの小説"
+        },
+        {
+          "workId": "novel__いまさら翼といわれても__米澤穂信",
+          "fileId": "1gefbm2",
+          "title": "いまさら翼といわれても",
+          "authorDisplay": "米澤穂信",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=Upm8xgEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE71ZZ3Rvc-bz9PFKWXA_3E896wbzW-aGaVOdCfCanBAaceFp18dQKBgWIKhdiWXUZu6UIhpJ0ehYzzfk9dbk0BKusZI1jhVon2itP0XzZb5E_O6cphj7od4_GFd1B8JpiN6MV_2k&source=gbs_api",
+          "reason": "KADOKAWAの小説"
+        },
+        {
+          "workId": "novel__黒牢城__米澤穂信",
+          "fileId": "0mh5q9t",
+          "title": "黒牢城",
+          "authorDisplay": "米澤穂信",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=-lap0AEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72MwsPqDYc3rG_XKTn6EaXMN_M6os_yRf41VxihuXFsjhcUwaFohxdhj6VSykZLmLMZNddjHhpvILG6kIFXkmx1-ZeQSe8y_VaJqhmGt7dxweh-4XkKUmcnx1BZL6Ia5_nRyzfe&source=gbs_api",
+          "reason": "KADOKAWAの小説"
+        },
+        {
+          "workId": "novel__霧越邸殺人事件__綾辻行人",
+          "fileId": "1bghtk2",
+          "title": "霧越邸殺人事件",
+          "authorDisplay": "綾辻行人",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=_bbZoAEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72Gc3vwTXV0WgUQaPR-5uPAgtp519YrZseq8hvClF1CMJ5xYALUJVnErL6H9d-Ynbh24cnxnGSo0P5VqTjdiXFjXIfCwJVfrBnmdtA3Pj4LZnrHvdqarmXUq5cQU4yjrNOg7nBU&source=gbs_api",
+          "reason": "KADOKAWAの小説"
+        },
+        {
+          "workId": "novel__ノーブルチルドレンの残酷__著者不明",
+          "fileId": "17mnibv",
+          "title": "ノーブルチルドレンの残酷",
+          "authorDisplay": "著者不明",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=xuWeAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "KADOKAWAの小説"
+        }
+      ]
+    },
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "manga__進撃の巨人__諫山創",
+          "fileId": "0zni0pn",
+          "title": "進撃の巨人",
+          "authorDisplay": "諫山創",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=nMjEBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__monster__浦沢直樹",
+          "fileId": "1f66m5e",
+          "title": "MONSTER",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ZdNeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__20世紀少年__浦沢直樹",
+          "fileId": "0cibc53",
+          "title": "20世紀少年",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=XDfkjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__ジョジョの奇妙な冒険_第9部_ザジョジョランズ__荒木飛呂彦",
+          "fileId": "1e97puh",
+          "title": "ジョジョの奇妙な冒険 第9部 ザ・ジョジョランズ",
+          "authorDisplay": "荒木飛呂彦",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=osTHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73m-Xpv26rBTjQaUeFEpP45GuPxnlkoBLJAc__XSGgtGIlhp9n7rjNb79iQ8YgQSPj97cckXatJI91SgXYb5Muh-DBYehP-Hub9N37VALpFRFzHzDHY5eNxOU9FIHij6HjwCzuj&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__ベルセルク__三浦建太郎",
+          "fileId": "0dzyojj",
+          "title": "ベルセルク",
+          "authorDisplay": "三浦建太郎",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=QON9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__ヴィンランドサガ__幸村誠",
+          "fileId": "1g79vwe",
+          "title": "ヴィンランド・サガ",
+          "authorDisplay": "幸村誠",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=tELGBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.788Z"
+}

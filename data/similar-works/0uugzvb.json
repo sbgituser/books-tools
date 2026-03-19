@@ -1,0 +1,139 @@
+{
+  "workId": "novel__スペースオペラの書き方_宇宙sf冒険大活劇への試み__野田昌宏",
+  "groups": [
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "novel__三体x_観想之宙__宝樹",
+          "fileId": "121zggo",
+          "title": "三体Ｘ　観想之宙",
+          "authorDisplay": "宝樹",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=JbxkEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE7261kbW8FkC-lass66QFjdgh-w-VHgWj0dgFiSRlBZts-wnzGw6q7N-dThVO_8MSyMtR_fufRqADhSoRePpW1HXLKc_QRDZEVRq7PVUAKjw9fvYqwzjhwZ5cLajp4JK4MCBNLTJ&source=gbs_api",
+          "reason": "早川書房の小説"
+        },
+        {
+          "workId": "novel__プロジェクトヘイルメアリー_上__アンディウィアー",
+          "fileId": "06mczwe",
+          "title": "プロジェクト・ヘイル・メアリー　上",
+          "authorDisplay": "アンディ ウィアー",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=OCWuEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71VIl4sdoWaBu6fYvbJMTMZSFZDgQpTFhHXZ1ZpcQ7oY3FKN5qxSWyO7ZqmNIonFS1Q1tAXbbNCOwixxz9DU2U8ERzcodNd02nQGPy_WS_DmheCY4wUruCsYKwebf2WwEcUyTPN&source=gbs_api",
+          "reason": "早川書房の小説"
+        },
+        {
+          "workId": "novel__日本sf短篇50_日本sf作家クラブ創立50周年記念アンソロジー__日本sf作家クラブ",
+          "fileId": "19md0jg",
+          "title": "日本SF短篇50 : 日本SF作家クラブ創立50周年記念アンソロジー",
+          "authorDisplay": "日本SF作家クラブ",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=Y79rAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "早川書房の小説"
+        },
+        {
+          "workId": "novel__2084年のsf__日本sf作家クラブ",
+          "fileId": "08o5d6g",
+          "title": "2084年のSF",
+          "authorDisplay": "日本SF作家クラブ",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=9sf2zgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "早川書房の小説"
+        },
+        {
+          "workId": "novel__日本sfの臨界点_怪奇篇__伴名練",
+          "fileId": "1y0jyom",
+          "title": "日本SFの臨界点. 怪奇篇",
+          "authorDisplay": "伴名練 / 石黒達昌",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=2eyszQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "早川書房の小説"
+        }
+      ]
+    },
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "manga__naruto_ナルト__岸本斉史",
+          "fileId": "17otkk9",
+          "title": "NARUTO―ナルト―",
+          "authorDisplay": "岸本斉史",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ji3NCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「世界観重視」「熱い」など読み味が近い"
+        },
+        {
+          "workId": "manga__鋼の錬金術師__荒川弘",
+          "fileId": "0zref9t",
+          "title": "鋼の錬金術師",
+          "authorDisplay": "荒川弘",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=PQ7FDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「世界観重視」「熱い」など読み味が近い"
+        },
+        {
+          "workId": "manga__進撃の巨人__諫山創",
+          "fileId": "0zni0pn",
+          "title": "進撃の巨人",
+          "authorDisplay": "諫山創",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=nMjEBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「世界観重視」「熱い」など読み味が近い"
+        },
+        {
+          "workId": "manga__鬼滅の刃__吾峠呼世晴",
+          "fileId": "0iuwa8r",
+          "title": "鬼滅の刃",
+          "authorDisplay": "吾峠呼世晴",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=Mj1cDAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「世界観重視」「熱い」など読み味が近い"
+        },
+        {
+          "workId": "manga__ハイキュー__古舘春一",
+          "fileId": "1d7xco7",
+          "title": "ハイキュー!!",
+          "authorDisplay": "古舘春一",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=wI7LCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「世界観重視」「熱い」など読み味が近い"
+        },
+        {
+          "workId": "manga__僕のヒーローアカデミア__堀越耕平",
+          "fileId": "032sc3q",
+          "title": "僕のヒーローアカデミア",
+          "authorDisplay": "堀越耕平",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=7iLLCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「世界観重視」「熱い」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.990Z"
+}

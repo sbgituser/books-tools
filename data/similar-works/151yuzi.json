@@ -1,0 +1,67 @@
+{
+  "workId": "manga__少女null__中西鼎",
+  "groups": [
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "manga__gantz_カラー版_ゆびわ星人編_小島多恵編__奥浩哉",
+          "fileId": "1luxqnu",
+          "title": "GANTZ カラー版 ゆびわ星人編＆小島多恵編",
+          "authorDisplay": "奥浩哉",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=MgI8DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "集英社の漫画"
+        },
+        {
+          "workId": "manga__naruto_ナルト__岸本斉史",
+          "fileId": "17otkk9",
+          "title": "NARUTO―ナルト―",
+          "authorDisplay": "岸本斉史",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ji3NCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "集英社の漫画"
+        },
+        {
+          "workId": "manga__ゴールデンカムイ__野田サトル",
+          "fileId": "0yobr5b",
+          "title": "ゴールデンカムイ",
+          "authorDisplay": "野田サトル",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=8K5REAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "集英社の漫画"
+        },
+        {
+          "workId": "manga__マッシュルmashle__甲本一",
+          "fileId": "1pfgqp1",
+          "title": "マッシュル-MASHLE-",
+          "authorDisplay": "甲本一",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=OPJQEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "集英社の漫画"
+        },
+        {
+          "workId": "manga__one_piece__尾田栄一郎",
+          "fileId": "0cb8t8s",
+          "title": "ONE PIECE",
+          "authorDisplay": "尾田栄一郎",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=9ca7CwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "集英社の漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:56.110Z"
+}

@@ -1,0 +1,34 @@
+{
+  "workId": "manga__本格ミステリ漫画ゼミ__福井健太",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "novel__意外な犯人_犯人当て小説傑作選__綾辻行人",
+          "fileId": "1oui8jh",
+          "title": "意外な犯人 : 犯人当て小説傑作選",
+          "authorDisplay": "綾辻行人 / 福井／健太",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=rt3BEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "福井／健太による小説"
+        },
+        {
+          "workId": "novel__横丁の名探偵_犯人当て小説傑作選__仁木悦子",
+          "fileId": "0jnj2de",
+          "title": "横丁の名探偵 : 犯人当て小説傑作選",
+          "authorDisplay": "仁木／悦子 / 福井／健太",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=QIaZEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "福井／健太による小説"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.977Z"
+}

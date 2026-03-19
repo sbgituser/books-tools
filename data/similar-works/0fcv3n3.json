@@ -1,0 +1,23 @@
+{
+  "workId": "manga__るろうに剣心__和月伸宏",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "manga__武装錬金__和月伸宏",
+          "fileId": "0dizyqw",
+          "title": "武装錬金",
+          "authorDisplay": "和月伸宏",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=MTDMCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "和月伸宏による漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:56.179Z"
+}

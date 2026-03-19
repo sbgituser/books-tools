@@ -1,0 +1,45 @@
+{
+  "workId": "manga__その着せ替え人形は恋をする__福田晋一",
+  "groups": [
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "manga__ヴァニタスの手記__望月淳",
+          "fileId": "04yi550",
+          "title": "ヴァニタスの手記",
+          "authorDisplay": "望月淳",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=iirGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "スクウェア・エニックスの漫画"
+        },
+        {
+          "workId": "manga__薬屋のひとりごと__日向夏",
+          "fileId": "18m32mn",
+          "title": "薬屋のひとりごと",
+          "authorDisplay": "日向夏 / ねこクラゲ / 七緒一綺",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=7C_GDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "スクウェア・エニックスの漫画"
+        },
+        {
+          "workId": "manga__黄泉のツガイ__荒川弘",
+          "fileId": "070uee3",
+          "title": "黄泉のツガイ",
+          "authorDisplay": "荒川弘",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=U4shzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "スクウェア・エニックスの漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.952Z"
+}

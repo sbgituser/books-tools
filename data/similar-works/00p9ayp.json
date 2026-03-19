@@ -1,0 +1,23 @@
+{
+  "workId": "manga__九井諒子作品集竜のかわいい七つの子__九井諒子",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "manga__ダンジョン飯__九井諒子",
+          "fileId": "1kdicvh",
+          "title": "ダンジョン飯",
+          "authorDisplay": "九井　諒子",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=kV9WDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "九井　諒子による漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:56.131Z"
+}

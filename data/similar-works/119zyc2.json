@@ -1,0 +1,95 @@
+{
+  "workId": "novel__黄金の人工太陽_巨大宇宙sf傑作選__johnjoseph",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "novel__月の光_現代中国sfアンソロジー__kenliu",
+          "fileId": "0n91f2a",
+          "title": "月の光 : 現代中国SFアンソロジー",
+          "authorDisplay": "Ken Liu / 劉慈欣 / 大森望 / 中原尚哉",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ZWp8zQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "中原尚哉による小説"
+        },
+        {
+          "workId": "novel__折りたたみ北京_現代中国sfアンソロジー__kenliu",
+          "fileId": "0tcrvyd",
+          "title": "折りたたみ北京 : 現代中国SFアンソロジー",
+          "authorDisplay": "Ken Liu / 中原尚哉",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=IO4rywEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "中原尚哉による小説"
+        }
+      ]
+    },
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "novel__創元sf文庫総解説__東京創元社",
+          "fileId": "1qzf68p",
+          "title": "創元SF文庫総解説",
+          "authorDisplay": "東京創元社",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=La7pEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "東京創元社の小説"
+        },
+        {
+          "workId": "novel__明智恭介の奔走_the_efforts_of_akechi_kyosuke__今村昌弘",
+          "fileId": "09xky8g",
+          "title": "明智恭介の奔走 = The Efforts of Akechi Kyosuke",
+          "authorDisplay": "今村昌弘",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=DzoPEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "東京創元社の小説"
+        },
+        {
+          "workId": "novel__兇人邸の殺人__今村昌弘",
+          "fileId": "18a0gxr",
+          "title": "兇人邸の殺人",
+          "authorDisplay": "今村 昌弘 / 今村昌弘",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=H8OLEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "東京創元社の小説"
+        },
+        {
+          "workId": "novel__魔眼の匣の殺人__今村昌弘",
+          "fileId": "07s4qbr",
+          "title": "魔眼の匣の殺人",
+          "authorDisplay": "今村昌弘",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=N0J_EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "東京創元社の小説"
+        },
+        {
+          "workId": "novel__七十四秒の旋律と孤独__久永実木彦",
+          "fileId": "0o308qk",
+          "title": "七十四秒の旋律と孤独",
+          "authorDisplay": "久永実木彦",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=0SvnEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "東京創元社の小説"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.989Z"
+}

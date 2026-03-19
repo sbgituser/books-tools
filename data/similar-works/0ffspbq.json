@@ -1,0 +1,167 @@
+{
+  "workId": "novel__村上春樹_色彩を持たない多崎つくると_彼の巡礼の年_メッタ斬り__大森望",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "novel__騎士団長殺し__大森望",
+          "fileId": "1w6csbd",
+          "title": "騎士団長殺し",
+          "authorDisplay": "大森望 / 豊崎由美",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=tcU_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "大森望による小説"
+        },
+        {
+          "workId": "novel__村上春樹_騎士団長殺し_メッタ斬り__大森望",
+          "fileId": "1lc7xex",
+          "title": "村上春樹「騎士団長殺し」メッタ斬り！",
+          "authorDisplay": "大森望 / 豊崎由美",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=tcU_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "大森望による小説"
+        },
+        {
+          "workId": "novel__月の光_現代中国sfアンソロジー__kenliu",
+          "fileId": "0n91f2a",
+          "title": "月の光 : 現代中国SFアンソロジー",
+          "authorDisplay": "Ken Liu / 劉慈欣 / 大森望 / 中原尚哉",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ZWp8zQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "大森望による小説"
+        },
+        {
+          "workId": "novel__円_劉慈欣短篇集__劉慈欣",
+          "fileId": "10ksc18",
+          "title": "円 : 劉慈欣短篇集",
+          "authorDisplay": "劉慈欣 / 大森望 / 泊功 / 齊藤正高",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=362czwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "大森望による小説"
+        },
+        {
+          "workId": "novel__三体_3_下__劉慈欣",
+          "fileId": "0w8wdw1",
+          "title": "三体. 3[下]",
+          "authorDisplay": "劉慈欣 / 大森望 / 光吉さくら / ワンチャイ / 泊功",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=BZV9zgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "大森望による小説"
+        },
+        {
+          "workId": "novel__息吹__tedchiang",
+          "fileId": "0hzci2c",
+          "title": "息吹",
+          "authorDisplay": "Ted Chiang / 大森望",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=mvJQzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "大森望による小説"
+        }
+      ]
+    },
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "novel__日本文学全集__池沢夏樹",
+          "fileId": "0nfoahn",
+          "title": "日本文学全集.",
+          "authorDisplay": "池沢夏樹",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=U5Q5tAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "河出書房新社の小説"
+        }
+      ]
+    },
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "manga__進撃の巨人__諫山創",
+          "fileId": "0zni0pn",
+          "title": "進撃の巨人",
+          "authorDisplay": "諫山創",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=nMjEBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__monster__浦沢直樹",
+          "fileId": "1f66m5e",
+          "title": "MONSTER",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ZdNeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__20世紀少年__浦沢直樹",
+          "fileId": "0cibc53",
+          "title": "20世紀少年",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=XDfkjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__ジョジョの奇妙な冒険_第9部_ザジョジョランズ__荒木飛呂彦",
+          "fileId": "1e97puh",
+          "title": "ジョジョの奇妙な冒険 第9部 ザ・ジョジョランズ",
+          "authorDisplay": "荒木飛呂彦",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=osTHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73m-Xpv26rBTjQaUeFEpP45GuPxnlkoBLJAc__XSGgtGIlhp9n7rjNb79iQ8YgQSPj97cckXatJI91SgXYb5Muh-DBYehP-Hub9N37VALpFRFzHzDHY5eNxOU9FIHij6HjwCzuj&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__ベルセルク__三浦建太郎",
+          "fileId": "0dzyojj",
+          "title": "ベルセルク",
+          "authorDisplay": "三浦建太郎",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=QON9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__ヴィンランドサガ__幸村誠",
+          "fileId": "1g79vwe",
+          "title": "ヴィンランド・サガ",
+          "authorDisplay": "幸村誠",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=tELGBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.886Z"
+}

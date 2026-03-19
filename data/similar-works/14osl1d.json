@@ -1,0 +1,23 @@
+{
+  "workId": "manga__大ダーク__林田球",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "manga__ドロヘドロ__林田球",
+          "fileId": "1qdawmr",
+          "title": "ドロヘドロ",
+          "authorDisplay": "林田球",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=4qZ2DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "林田球による漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:56.128Z"
+}

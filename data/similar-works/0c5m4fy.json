@@ -1,0 +1,23 @@
+{
+  "workId": "manga__かぐや様は告らせたい_天才たちの恋愛頭脳戦__赤坂アカ",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "manga__かぐや様は告らせたい_同人版__赤坂アカ",
+          "fileId": "1m39vj0",
+          "title": "かぐや様は告らせたい 同人版",
+          "authorDisplay": "赤坂アカ / 茶菓山しん太",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=GdN-DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72YjX9HP620FfmAT_IcfoPc1Wfe3Vb2PX583Ww-De26dEPL9K5nuTBkE6gzl76mwZIsp7uWqg6wbGl_zqu4tin8z51DN6ezVCfiPeFIu2If2V-xN8dayFrWqaS_AMWV7MUZK1cp&source=gbs_api",
+          "reason": "赤坂アカによる漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:56.085Z"
+}

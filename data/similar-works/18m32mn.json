@@ -1,0 +1,62 @@
+{
+  "workId": "manga__薬屋のひとりごと__日向夏",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "manga__薬屋のひとりごと__日向夏ヒーロー文庫イ",
+          "fileId": "0g6vt24",
+          "title": "薬屋のひとりごと",
+          "authorDisplay": "日向夏（ヒーロー文庫／イマジカインフォス） / ねこクラゲ / 七緒一綺 / しのとうこ",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=7C_GDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "ねこクラゲによる漫画"
+        }
+      ]
+    },
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "manga__ヴァニタスの手記__望月淳",
+          "fileId": "04yi550",
+          "title": "ヴァニタスの手記",
+          "authorDisplay": "望月淳",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=iirGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "スクウェア・エニックスの漫画"
+        },
+        {
+          "workId": "manga__その着せ替え人形は恋をする__福田晋一",
+          "fileId": "0hiqxyg",
+          "title": "その着せ替え人形は恋をする",
+          "authorDisplay": "福田晋一",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=CjHGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "スクウェア・エニックスの漫画"
+        },
+        {
+          "workId": "manga__黄泉のツガイ__荒川弘",
+          "fileId": "070uee3",
+          "title": "黄泉のツガイ",
+          "authorDisplay": "荒川弘",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=U4shzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "スクウェア・エニックスの漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.945Z"
+}

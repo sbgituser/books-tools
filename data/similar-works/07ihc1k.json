@@ -1,0 +1,23 @@
+{
+  "workId": "manga__うしおととら__藤田和日郎",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "manga__からくりサーカス__藤田和日郎",
+          "fileId": "0jk0j0a",
+          "title": "からくりサーカス",
+          "authorDisplay": "藤田和日郎",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=xcGUMwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "藤田和日郎による漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.811Z"
+}

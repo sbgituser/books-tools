@@ -1,0 +1,23 @@
+{
+  "workId": "manga__タッチ__あだち充",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "manga__ラフ__あだち充",
+          "fileId": "1wsbmnf",
+          "title": "ラフ",
+          "authorDisplay": "あだち充",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=fzLzDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "あだち充による漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:56.071Z"
+}

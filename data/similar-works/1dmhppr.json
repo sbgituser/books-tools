@@ -1,0 +1,23 @@
+{
+  "workId": "manga__金田一少年の事件簿__ふみや・さとう",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "manga__金田一少年の事件簿r__天樹征丸",
+          "fileId": "1tv8vgm",
+          "title": "金田一少年の事件簿Ｒ",
+          "authorDisplay": "天樹征丸 / さとうふみや",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=eUrHBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "天樹征丸による漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:56.183Z"
+}

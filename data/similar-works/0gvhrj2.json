@@ -1,0 +1,34 @@
+{
+  "workId": "manga__ヒカルの碁__ほったゆみ",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "manga__death_note__大場つぐみ",
+          "fileId": "1m22mge",
+          "title": "DEATH NOTE",
+          "authorDisplay": "大場つぐみ / 小畑健",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=_ERuCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "小畑健による漫画"
+        },
+        {
+          "workId": "manga__バクマン__大場つぐみ",
+          "fileId": "1hmxear",
+          "title": "バクマン。",
+          "authorDisplay": "大場つぐみ / 小畑健",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=rhcljgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "小畑健による漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.814Z"
+}

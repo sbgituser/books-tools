@@ -1,0 +1,139 @@
+{
+  "workId": "manga__ぐらんぶる__井上堅二",
+  "groups": [
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "manga__聖_おにいさん__中村光",
+          "fileId": "1ggvkxu",
+          "title": "聖☆おにいさん",
+          "authorDisplay": "中村光",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=YaXDBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72TUwk-gQ28U52RHsxIgbpPGm5mB1PCU4LX5q4MuknXzlEVk2bxpG-ZqiZ9_Oj0j8gytg3vmwiNoGxB44ajpALJyRBQrqZ7bUWsESCda8KS4o_0tCaHrRgj_Nt7SmdBJ1anBk4m&source=gbs_api",
+          "reason": "講談社の漫画"
+        },
+        {
+          "workId": "manga__炎炎ノ消防隊__大久保篤",
+          "fileId": "0flwohs",
+          "title": "炎炎ノ消防隊",
+          "authorDisplay": "大久保篤",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 2,
+          "coverImageUrl": "https://books.google.com/books/content?id=833yjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "講談社の漫画"
+        },
+        {
+          "workId": "manga__デビルズライン__花田陵",
+          "fileId": "0zr22d6",
+          "title": "デビルズライン",
+          "authorDisplay": "花田陵",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=VyfyCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "講談社の漫画"
+        },
+        {
+          "workId": "manga__ヒストリエ__岩明均",
+          "fileId": "1qy81hk",
+          "title": "ヒストリエ",
+          "authorDisplay": "岩明均",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=mJjFBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "講談社の漫画"
+        },
+        {
+          "workId": "manga__とんがり帽子のアトリエ__白浜鴎",
+          "fileId": "0crxgfo",
+          "title": "とんがり帽子のアトリエ",
+          "authorDisplay": "白浜鴎",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 2,
+          "coverImageUrl": "https://books.google.com/books/content?id=viOsswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "講談社の漫画"
+        }
+      ]
+    },
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "manga__あそびあそばせ__涼川りん",
+          "fileId": "1w14txz",
+          "title": "あそびあそばせ",
+          "authorDisplay": "涼川りん",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=wp-ADwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE704Lv0BfcLVzmjVRDNk5WTccZnOCpbELbIFkf2BH5gmOCK0D646yWhFnTep0cWv1OcaQUVogmm0cclzWS_IgIjLyfbjIPnpdHgn0YhEq2FewHXJGvMuUX15AYf3v3m9iGC_lhwn&source=gbs_api",
+          "reason": "「笑える」「読みやすい」など読み味が近い"
+        },
+        {
+          "workId": "manga__日常__あらゐけいいち",
+          "fileId": "0w6d41j",
+          "title": "日常",
+          "authorDisplay": "あらゐ　けいいち",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=0v8xVa8xlP0C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「笑える」「読みやすい」など読み味が近い"
+        },
+        {
+          "workId": "manga__女子高生の無駄づかい__ビーノ",
+          "fileId": "1ommpj7",
+          "title": "女子高生の無駄づかい",
+          "authorDisplay": "ビーノ",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=Wg7dCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73t7msAHGfSJfo0jNGvHX09MwYl8xx-Ir11tQkOEUYhVcOQuoKOyC7lFYwQ5LLlzR9xY9F5-D0-SnMnX7PxUt3YFB-2X7nF96ppPQZhugMnF9r0dKXtmVaQX149OR_N0PFaSOh_&source=gbs_api",
+          "reason": "「笑える」「読みやすい」など読み味が近い"
+        },
+        {
+          "workId": "manga__坂本ですが__佐野菜見",
+          "fileId": "1hij0bo",
+          "title": "坂本ですが?",
+          "authorDisplay": "佐野菜見",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=2WrQlwEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE7041LS4uBXLkuxPIMY-KzyswSInI98aaY98zCbrBA5kAGAW9I9-o2d6qOiAm-LSKmq9Gn0r42ROKIP_h4n4A3ghEX2Ncat4WK3CKELgHuqX7GA_CGbigXpM4gppGtZh1VGGanbG&source=gbs_api",
+          "reason": "「笑える」「読みやすい」など読み味が近い"
+        },
+        {
+          "workId": "manga__花より男子__神尾葉子",
+          "fileId": "1v5wh1g",
+          "title": "花より男子",
+          "authorDisplay": "神尾葉子",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=oaQUAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「笑える」「読みやすい」など読み味が近い"
+        },
+        {
+          "workId": "manga__君に届け__軽穂椎名",
+          "fileId": "1d6gduo",
+          "title": "君に届け",
+          "authorDisplay": "軽穂·椎名",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=b88vAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「読みやすい」「一気読み」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.679Z"
+}

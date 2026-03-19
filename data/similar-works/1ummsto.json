@@ -1,0 +1,23 @@
+{
+  "workId": "manga__北村薫と日常の謎__北村薫",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "novel__ミステリ_22_推理小説ベストエッセイ__北村薫",
+          "fileId": "0m31u33",
+          "title": "ミステリ＝２２ : 推理小説ベスト・エッセイ",
+          "authorDisplay": "北村薫 / 坂口 安吾ほか / 小森 収 / 北村薫 / 坂口 安吾ほか",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ypOv0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "北村薫による小説"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:56.022Z"
+}

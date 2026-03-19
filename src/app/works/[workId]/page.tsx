@@ -5,7 +5,7 @@
  * public/data/works/{fileId}.json から WorkDetail を読み込んで表示する。
  */
 
-import { readFileSync, readdirSync } from "fs";
+import { readFileSync, readdirSync, existsSync } from "fs";
 import { join } from "path";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -13,8 +13,10 @@ import Link from "next/link";
 import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import SimilarWorksSection from "@/components/works/SimilarWorksSection";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 import type { WorkDetail, Volume } from "@/types/work";
+import type { SimilarWorks } from "@/types/similar-works";
 
 // ── データアクセス ────────────────────────────────────────────────
 
@@ -26,6 +28,16 @@ function getWork(fileId: string): WorkDetail | null {
   try {
     const path = join(getWorksDir(), `${fileId}.json`);
     return JSON.parse(readFileSync(path, "utf-8")) as WorkDetail;
+  } catch {
+    return null;
+  }
+}
+
+function getSimilarWorks(fileId: string): SimilarWorks | null {
+  try {
+    const path = join(process.cwd(), "data", "similar-works", `${fileId}.json`);
+    if (!existsSync(path)) return null;
+    return JSON.parse(readFileSync(path, "utf-8")) as SimilarWorks;
   } catch {
     return null;
   }
@@ -159,6 +171,8 @@ export default async function WorkDetailPage({
   const work = getWork(fileId);
   if (!work) notFound();
 
+  const similar = getSimilarWorks(fileId);
+
   const typeLabel = TYPE_LABEL[work.type] ?? "書籍";
   const typeColor = TYPE_COLOR[work.type] ?? TYPE_COLOR.other;
   const statusLabel = STATUS_LABEL[work.status];
@@ -281,12 +295,14 @@ export default async function WorkDetailPage({
                   >
                     Amazonで探す →
                   </a>
-                  <Link
-                    href="/discover"
-                    className="inline-flex items-center gap-1.5 border border-stone-300 hover:border-rose-400 text-stone-600 hover:text-rose-700 font-semibold text-xs sm:text-sm px-4 py-2.5 rounded-xl transition-colors"
-                  >
-                    似た作品を探す
-                  </Link>
+                  {similar && similar.groups.length > 0 && (
+                    <a
+                      href="#similar-works"
+                      className="inline-flex items-center gap-1.5 border border-violet-300 hover:border-violet-500 text-violet-600 hover:text-violet-800 font-semibold text-xs sm:text-sm px-4 py-2.5 rounded-xl transition-colors"
+                    >
+                      似た作品を見る ↓
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
@@ -305,6 +321,11 @@ export default async function WorkDetailPage({
                 ))}
               </div>
             </section>
+          )}
+
+          {/* 似た作品セクション */}
+          {similar && similar.groups.length > 0 && (
+            <SimilarWorksSection similar={similar} />
           )}
 
           {/* ナビゲーション */}

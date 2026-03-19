@@ -1,0 +1,189 @@
+{
+  "workId": "novel__奇想_天を動かす__島田荘司",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "novel__占星術殺人事件__島田荘司",
+          "fileId": "1xdx89u",
+          "title": "占星術殺人事件",
+          "authorDisplay": "島田荘司",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=rR8EnwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "島田荘司による小説"
+        },
+        {
+          "workId": "novel__斜め屋敷の犯罪__島田荘司",
+          "fileId": "0qng78h",
+          "title": "斜め屋敷の犯罪",
+          "authorDisplay": "島田荘司",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=Lg6vBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "島田荘司による小説"
+        },
+        {
+          "workId": "novel__異邦の騎士__島田荘司",
+          "fileId": "1xe4uc8",
+          "title": "異邦の騎士",
+          "authorDisplay": "島田荘司",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=jUeNPgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "島田荘司による小説"
+        },
+        {
+          "workId": "novel__北の夕鶴2_3の殺人__島田荘司",
+          "fileId": "0akssun",
+          "title": "北の夕鶴2/3の殺人",
+          "authorDisplay": "島田荘司",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=CRbNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "島田荘司による小説"
+        },
+        {
+          "workId": "novel__完全改訂版奇想_天を動かす__島田荘司",
+          "fileId": "1q81f0f",
+          "title": "完全改訂版奇想、天を動かす",
+          "authorDisplay": "島田荘司",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=MbLI0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "島田荘司による小説"
+        },
+        {
+          "workId": "novel__龍臥亭事件__島田荘司",
+          "fileId": "0j1gjnf",
+          "title": "龍臥亭事件",
+          "authorDisplay": "島田荘司",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=VfSaEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "島田荘司による小説"
+        }
+      ]
+    },
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "novel__ラットマン__道尾秀介",
+          "fileId": "15maxxi",
+          "title": "ラットマン",
+          "authorDisplay": "道尾秀介",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=J--zlBa9XgwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "光文社の小説"
+        },
+        {
+          "workId": "novel__弱気の蟲_二大長編推理小説_松本清張プレミアムミステリー__松本清張",
+          "fileId": "1ax8t3q",
+          "title": "弱気の蟲 : 二大長編推理小説 : 松本清張プレミアム・ミステリー",
+          "authorDisplay": "松本清張",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=2a6wswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "光文社の小説"
+        },
+        {
+          "workId": "novel__舟を編む__三浦しをん",
+          "fileId": "0zz63zd",
+          "title": "舟を編む",
+          "authorDisplay": "三浦しをん",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=EMUPrgEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70NT17-ktZP0AmqvWl7INBvUWur2tjnqQwsXdwvq5aUAUuIoqpZ9OqrpUs58ab9VJvsx9mCMMPUr84GSj-qgBj2HBeopVokExIWfXW_1f-7F3FGoR1a8yzASFiMPRhbyq9YQpF5&source=gbs_api",
+          "reason": "光文社の小説"
+        }
+      ]
+    },
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "manga__進撃の巨人__諫山創",
+          "fileId": "0zni0pn",
+          "title": "進撃の巨人",
+          "authorDisplay": "諫山創",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=nMjEBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__monster__浦沢直樹",
+          "fileId": "1f66m5e",
+          "title": "MONSTER",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ZdNeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__20世紀少年__浦沢直樹",
+          "fileId": "0cibc53",
+          "title": "20世紀少年",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=XDfkjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__ジョジョの奇妙な冒険_第9部_ザジョジョランズ__荒木飛呂彦",
+          "fileId": "1e97puh",
+          "title": "ジョジョの奇妙な冒険 第9部 ザ・ジョジョランズ",
+          "authorDisplay": "荒木飛呂彦",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=osTHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73m-Xpv26rBTjQaUeFEpP45GuPxnlkoBLJAc__XSGgtGIlhp9n7rjNb79iQ8YgQSPj97cckXatJI91SgXYb5Muh-DBYehP-Hub9N37VALpFRFzHzDHY5eNxOU9FIHij6HjwCzuj&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__ベルセルク__三浦建太郎",
+          "fileId": "0dzyojj",
+          "title": "ベルセルク",
+          "authorDisplay": "三浦建太郎",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=QON9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        },
+        {
+          "workId": "manga__ヴィンランドサガ__幸村誠",
+          "fileId": "1g79vwe",
+          "title": "ヴィンランド・サガ",
+          "authorDisplay": "幸村誠",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=tELGBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「深い」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.715Z"
+}

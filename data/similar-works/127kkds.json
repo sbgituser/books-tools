@@ -1,0 +1,211 @@
+{
+  "workId": "novel__名前探しの放課後_上__辻村深月",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "novel__かがみの孤城__辻村深月",
+          "fileId": "0wafq68",
+          "title": "かがみの孤城",
+          "authorDisplay": "辻村深月 / 武富智",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 2,
+          "coverImageUrl": "https://books.google.com/books/content?id=fxoXEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "辻村深月による小説"
+        },
+        {
+          "workId": "novel__スロウハイツの神様__辻村深月",
+          "fileId": "1k2xitt",
+          "title": "スロウハイツの神様",
+          "authorDisplay": "辻村深月",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=Tr6aDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "辻村深月による小説"
+        },
+        {
+          "workId": "novel__名前探しの放課後__辻村深月",
+          "fileId": "0rk010n",
+          "title": "名前探しの放課後",
+          "authorDisplay": "辻村深月",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=jktxDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "辻村深月による小説"
+        },
+        {
+          "workId": "novel__ツナグ__辻村深月",
+          "fileId": "0r0geso",
+          "title": "ツナグ",
+          "authorDisplay": "辻村深月",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=U_X_ygEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "辻村深月による小説"
+        },
+        {
+          "workId": "novel__凍りのくじら__辻村深月",
+          "fileId": "171kqcf",
+          "title": "凍りのくじら",
+          "authorDisplay": "辻村深月",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=m2qtBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "辻村深月による小説"
+        },
+        {
+          "workId": "novel__ぼくのメジャースプーン__辻村深月",
+          "fileId": "09o34nu",
+          "title": "ぼくのメジャースプーン",
+          "authorDisplay": "辻村深月",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=R9yrBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "辻村深月による小説"
+        }
+      ]
+    },
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "novel__博士の愛した数式__小川洋子",
+          "fileId": "004w4z3",
+          "title": "博士の愛した数式",
+          "authorDisplay": "小川洋子 / くりた陸",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=vYbDBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "講談社の小説"
+        },
+        {
+          "workId": "novel__実例_大人の基本_手紙書き方大全__中川越",
+          "fileId": "0uq8tif",
+          "title": "実例　大人の基本　手紙書き方大全",
+          "authorDisplay": "中川越",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=xpJBCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "講談社の小説"
+        },
+        {
+          "workId": "novel__スプートニクの恋人__村上春樹",
+          "fileId": "12lt7gf",
+          "title": "スプートニクの恋人",
+          "authorDisplay": "村上春樹",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=pTq4DQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "講談社の小説"
+        },
+        {
+          "workId": "novel__アフターダーク__村上春樹",
+          "fileId": "1xcqtuj",
+          "title": "アフターダーク",
+          "authorDisplay": "村上春樹",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=V88nDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "講談社の小説"
+        },
+        {
+          "workId": "novel__スロウハイツの神様__桂明日香",
+          "fileId": "1e2hdq2",
+          "title": "スロウハイツの神様",
+          "authorDisplay": "桂明日香 / 辻村深月",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=Tr6aDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "講談社の小説"
+        }
+      ]
+    },
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "manga__鋼の錬金術師__荒川弘",
+          "fileId": "0zref9t",
+          "title": "鋼の錬金術師",
+          "authorDisplay": "荒川弘",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=PQ7FDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__進撃の巨人__諫山創",
+          "fileId": "0zni0pn",
+          "title": "進撃の巨人",
+          "authorDisplay": "諫山創",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=nMjEBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__monster__浦沢直樹",
+          "fileId": "1f66m5e",
+          "title": "MONSTER",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ZdNeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__20世紀少年__浦沢直樹",
+          "fileId": "0cibc53",
+          "title": "20世紀少年",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=XDfkjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__hunter_hunter__冨樫義博",
+          "fileId": "1leh8hy",
+          "title": "HUNTER×HUNTER",
+          "authorDisplay": "冨樫義博",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ze_JCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__ジョジョの奇妙な冒険_第9部_ザジョジョランズ__荒木飛呂彦",
+          "fileId": "1e97puh",
+          "title": "ジョジョの奇妙な冒険 第9部 ザ・ジョジョランズ",
+          "authorDisplay": "荒木飛呂彦",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=osTHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73m-Xpv26rBTjQaUeFEpP45GuPxnlkoBLJAc__XSGgtGIlhp9n7rjNb79iQ8YgQSPj97cckXatJI91SgXYb5Muh-DBYehP-Hub9N37VALpFRFzHzDHY5eNxOU9FIHij6HjwCzuj&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.897Z"
+}

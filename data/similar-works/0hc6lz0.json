@@ -1,0 +1,34 @@
+{
+  "workId": "manga__日常が学びに変わる_経済学の本_ど素人でもわかる__崔真淑",
+  "groups": [
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "manga__魅力的な人物を作る_マンガキャラクター講座__田中裕久",
+          "fileId": "1j9oepz",
+          "title": "魅力的な人物を作る!マンガキャラクター講座",
+          "authorDisplay": "田中裕久",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=i4QDDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "翔泳社の漫画"
+        },
+        {
+          "workId": "manga__マンガキャラクター講座_魅力的な人物を作る_キャラクター作りの新しい解説書__田中裕久",
+          "fileId": "0q4emhb",
+          "title": "マンガキャラクター講座 : 魅力的な人物を作る! : キャラクター作りの新しい解説書!",
+          "authorDisplay": "田中裕久",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=EukJDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "翔泳社の漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:56.014Z"
+}

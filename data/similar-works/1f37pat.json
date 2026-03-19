@@ -1,0 +1,34 @@
+{
+  "workId": "manga__トリリオンゲーム__稲垣理一郎",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "manga__dr_stone__稲垣理一郎",
+          "fileId": "0jxndl8",
+          "title": "Dr.STONE",
+          "authorDisplay": "稲垣理一郎 / Boichi",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=nhUqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "稲垣理一郎による漫画"
+        },
+        {
+          "workId": "manga__アイシールド21__稲垣理一郎",
+          "fileId": "0hoocm6",
+          "title": "アイシールド21",
+          "authorDisplay": "稲垣理一郎 / 村田雄介",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=a6PLCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "稲垣理一郎による漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:56.122Z"
+}

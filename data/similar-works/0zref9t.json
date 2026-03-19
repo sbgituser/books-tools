@@ -1,0 +1,106 @@
+{
+  "workId": "manga__鋼の錬金術師__荒川弘",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "manga__黄泉のツガイ__荒川弘",
+          "fileId": "070uee3",
+          "title": "黄泉のツガイ",
+          "authorDisplay": "荒川弘",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=U4shzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "荒川弘による漫画"
+        },
+        {
+          "workId": "manga__銀の匙__荒川弘",
+          "fileId": "0c50s6r",
+          "title": "銀の匙",
+          "authorDisplay": "荒川弘",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=WqeDzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "荒川弘による漫画"
+        }
+      ]
+    },
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "manga__進撃の巨人__諫山創",
+          "fileId": "0zni0pn",
+          "title": "進撃の巨人",
+          "authorDisplay": "諫山創",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=nMjEBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「泣ける」など読み味が近い"
+        },
+        {
+          "workId": "manga__鬼滅の刃__吾峠呼世晴",
+          "fileId": "0iuwa8r",
+          "title": "鬼滅の刃",
+          "authorDisplay": "吾峠呼世晴",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=Mj1cDAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「泣ける」など読み味が近い"
+        },
+        {
+          "workId": "manga__ハイキュー__古舘春一",
+          "fileId": "1d7xco7",
+          "title": "ハイキュー!!",
+          "authorDisplay": "古舘春一",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=wI7LCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「泣ける」など読み味が近い"
+        },
+        {
+          "workId": "manga__naruto_ナルト__岸本斉史",
+          "fileId": "17otkk9",
+          "title": "NARUTO―ナルト―",
+          "authorDisplay": "岸本斉史",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ji3NCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「泣ける」など読み味が近い"
+        },
+        {
+          "workId": "manga__僕のヒーローアカデミア__堀越耕平",
+          "fileId": "032sc3q",
+          "title": "僕のヒーローアカデミア",
+          "authorDisplay": "堀越耕平",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=7iLLCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「熱い」など読み味が近い"
+        },
+        {
+          "workId": "manga__20世紀少年__浦沢直樹",
+          "fileId": "0cibc53",
+          "title": "20世紀少年",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=XDfkjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「泣ける」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.799Z"
+}

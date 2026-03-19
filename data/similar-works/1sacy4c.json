@@ -1,0 +1,211 @@
+{
+  "workId": "novel__オーダーメイド殺人クラブ__辻村深月",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "novel__かがみの孤城__辻村深月",
+          "fileId": "0wafq68",
+          "title": "かがみの孤城",
+          "authorDisplay": "辻村深月 / 武富智",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 2,
+          "coverImageUrl": "https://books.google.com/books/content?id=fxoXEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "辻村深月による小説"
+        },
+        {
+          "workId": "novel__スロウハイツの神様__辻村深月",
+          "fileId": "1k2xitt",
+          "title": "スロウハイツの神様",
+          "authorDisplay": "辻村深月",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=Tr6aDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "辻村深月による小説"
+        },
+        {
+          "workId": "novel__名前探しの放課後__辻村深月",
+          "fileId": "0rk010n",
+          "title": "名前探しの放課後",
+          "authorDisplay": "辻村深月",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=jktxDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "辻村深月による小説"
+        },
+        {
+          "workId": "novel__ツナグ__辻村深月",
+          "fileId": "0r0geso",
+          "title": "ツナグ",
+          "authorDisplay": "辻村深月",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=U_X_ygEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "辻村深月による小説"
+        },
+        {
+          "workId": "novel__凍りのくじら__辻村深月",
+          "fileId": "171kqcf",
+          "title": "凍りのくじら",
+          "authorDisplay": "辻村深月",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=m2qtBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "辻村深月による小説"
+        },
+        {
+          "workId": "novel__ぼくのメジャースプーン__辻村深月",
+          "fileId": "09o34nu",
+          "title": "ぼくのメジャースプーン",
+          "authorDisplay": "辻村深月",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=R9yrBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "辻村深月による小説"
+        }
+      ]
+    },
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "novel__光媒の花__斉藤倫",
+          "fileId": "0t915g7",
+          "title": "光媒の花",
+          "authorDisplay": "斉藤倫 / 道尾秀介",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=a9knDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71Hc0EZxa9JeNRcvKPBAmdIHT3BXnIMJoxenWCjBwUJhBd5vWIGms2c3p5VvAxpBCdAHnTEwLjJMnVZBE_qFuyoP_G_msziIiztgGZ40xgrPRgxQkVrPQ15reJlvnYcxmq51G2t&source=gbs_api",
+          "reason": "集英社の小説"
+        },
+        {
+          "workId": "novel__追想五断章__米澤穂信",
+          "fileId": "041bjkg",
+          "title": "追想五断章",
+          "authorDisplay": "米澤穂信",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=9O-GQgAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73_c6a61RaMUAH8MVfjyVpKqU-uX6jmUq0Fbt5txzVWHZfeMeTGPjj1W2lCkCoyf94TPJFUQjFBeSjZdKUeFJCnO_4V5cmqABTWw8HygsVSbBXSVLc1UmRZOEGf5HayFpOZN097&source=gbs_api",
+          "reason": "集英社の小説"
+        },
+        {
+          "workId": "novel__チムニーズ館の秘密__榛野なな恵",
+          "fileId": "0miqez1",
+          "title": "チムニーズ館の秘密",
+          "authorDisplay": "榛野なな恵 / アガサ・クリスティー",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=zPhIDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "集英社の小説"
+        },
+        {
+          "workId": "novel__白ゆき姫殺人事件__湊かなえ",
+          "fileId": "1gihmak",
+          "title": "白ゆき姫殺人事件",
+          "authorDisplay": "湊かなえ",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=PnQ1EAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "集英社の小説"
+        },
+        {
+          "workId": "novel__マスカレードホテル__東野圭吾",
+          "fileId": "069g6xa",
+          "title": "マスカレード・ホテル",
+          "authorDisplay": "東野圭吾",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=Uo7toAEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72mZj0W2yBEDLCsICscw_WhimvO8k4J2UHltkkz6gwNpsfjSIz1Gxrjaf2hrMm7iLWAdb_86Xw_0E8uqhtWmrzJbgYmrSsxB24RpPBolVkf87kxVoGtWBiIbmaXckMPKRjLDItN&source=gbs_api",
+          "reason": "集英社の小説"
+        }
+      ]
+    },
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "manga__進撃の巨人__諫山創",
+          "fileId": "0zni0pn",
+          "title": "進撃の巨人",
+          "authorDisplay": "諫山創",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=nMjEBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__20世紀少年__浦沢直樹",
+          "fileId": "0cibc53",
+          "title": "20世紀少年",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=XDfkjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__ヴィンランドサガ__幸村誠",
+          "fileId": "1g79vwe",
+          "title": "ヴィンランド・サガ",
+          "authorDisplay": "幸村誠",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=tELGBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__鋼の錬金術師__荒川弘",
+          "fileId": "0zref9t",
+          "title": "鋼の錬金術師",
+          "authorDisplay": "荒川弘",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=PQ7FDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__monster__浦沢直樹",
+          "fileId": "1f66m5e",
+          "title": "MONSTER",
+          "authorDisplay": "浦沢直樹",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ZdNeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「考えさせられる」など読み味が近い"
+        },
+        {
+          "workId": "manga__君に届け__軽穂椎名",
+          "fileId": "1d6gduo",
+          "title": "君に届け",
+          "authorDisplay": "軽穂·椎名",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=b88vAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「感動」「心温まる」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.898Z"
+}

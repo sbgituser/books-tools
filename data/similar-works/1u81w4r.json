@@ -1,0 +1,40 @@
+{
+  "workId": "manga__それでも町は廻っている__石黒正数",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "manga__天国大魔境__石黒正数",
+          "fileId": "0yl0qu9",
+          "title": "天国大魔境",
+          "authorDisplay": "石黒正数",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=UGXvvQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "石黒正数による漫画"
+        }
+      ]
+    },
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "manga__トライガン__内藤泰弘",
+          "fileId": "1fibusq",
+          "title": "トライガン",
+          "authorDisplay": "内藤泰弘",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=C1BMDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73JlvDGy4w8IXDvVwz7wZF8biuyaFMFsLEPEZ6b99olMj5zd6bzJ_KEZIpum83IlXBHxwDf5u-c3YzmlOrRoPTBMhDxlxqGAuikf0x7Rgw1CpD5RMDjA9I6zQwk3SWYhfn_cJLC&source=gbs_api",
+          "reason": "少年画報社の漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.681Z"
+}

@@ -1,0 +1,156 @@
+{
+  "workId": "novel__ga文庫_gaノベル2020年9月の新刊_全作品立読み_合本版__進行諸島",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "novel__ga文庫15周年_人気作品増量試読合本__佐伯さん",
+          "fileId": "0n3gig2",
+          "title": "ＧＡ文庫１５周年　人気作品増量試読合本",
+          "authorDisplay": "佐伯さん / 海空りく / 徳山銀次郎 / 望公太 / 蝸牛くも",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=Bg8VEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "佐伯さんによる小説"
+        },
+        {
+          "workId": "novel__お隣の天使様にいつの間にか駄目人間にされていた件__佐伯さん",
+          "fileId": "0fthrvf",
+          "title": "お隣の天使様にいつの間にか駄目人間にされていた件",
+          "authorDisplay": "佐伯さん",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 2,
+          "coverImageUrl": "https://books.google.com/books/content?id=YnkhEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "佐伯さんによる小説"
+        },
+        {
+          "workId": "novel__お隣の天使様にいつの間にか駄目人間にされていた件11__佐伯さん",
+          "fileId": "16pbpb1",
+          "title": "お隣の天使様にいつの間にか駄目人間にされていた件11",
+          "authorDisplay": "佐伯さん / はねこと",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=VHtNEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "佐伯さんによる小説"
+        },
+        {
+          "workId": "novel__ga文庫_gaノベル2020年2月の新刊_全作品立読み_合本版__あわむら赤光",
+          "fileId": "1apy1lb",
+          "title": "ＧＡ文庫＆ＧＡノベル２０２０年２月の新刊　全作品立読み（合本版）",
+          "authorDisplay": "あわむら赤光 / みかみてれん / ケンノジ / 葉月双 / 中村ヒロ",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=IYzPDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "あわむら赤光による小説"
+        }
+      ]
+    },
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "novel__ga文庫_gaノベル2020年3月の新刊_全作品立読み_合本版__明月千里",
+          "fileId": "1iwuvou",
+          "title": "ＧＡ文庫＆ＧＡノベル２０２０年３月の新刊　全作品立読み（合本版）",
+          "authorDisplay": "明月千里 / 三門鉄狼 / 九頭七尾 / 三木なずな / 三河ごーすと",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=KorUDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "SBクリエイティブの小説"
+        },
+        {
+          "workId": "novel__君の人生に勇気はいらない_グズで臆病な僕の人生を変えた口の悪いメンターとの物語__daigo",
+          "fileId": "1giwyz0",
+          "title": "君の人生に勇気はいらない : グズで臆病な僕の人生を変えた口の悪いメンターとの物語",
+          "authorDisplay": "DaiGo",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=oCX9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "SBクリエイティブの小説"
+        }
+      ]
+    },
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "manga__ぐらんぶる__井上堅二",
+          "fileId": "1nw7h6q",
+          "title": "ぐらんぶる",
+          "authorDisplay": "井上堅二 / 吉岡公威",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=0YDHBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72N-tooukWbZ4mNJkk3q_z0W-dAkkAvd9myf_xAWUofCs-uVlpys_ngfwLSu9VuUhhS6baAuLi00ZVc6Pz9AHWk9nxU_fkvtSnDCkXjXVpJGLxdrwYW8v-3iduEhU9kwHF5k6Ra&source=gbs_api",
+          "reason": "「読みやすい」「一気読み」など読み味が近い"
+        },
+        {
+          "workId": "manga__花より男子__神尾葉子",
+          "fileId": "1v5wh1g",
+          "title": "花より男子",
+          "authorDisplay": "神尾葉子",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=oaQUAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「読みやすい」「一気読み」など読み味が近い"
+        },
+        {
+          "workId": "manga__君に届け__軽穂椎名",
+          "fileId": "1d6gduo",
+          "title": "君に届け",
+          "authorDisplay": "軽穂·椎名",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=b88vAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「読みやすい」「一気読み」など読み味が近い"
+        },
+        {
+          "workId": "manga__マッシュルmashle__甲本一",
+          "fileId": "1pfgqp1",
+          "title": "マッシュル-MASHLE-",
+          "authorDisplay": "甲本一",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=OPJQEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「読みやすい」「一気読み」など読み味が近い"
+        },
+        {
+          "workId": "manga__転生したらスライムだった件__伏瀬",
+          "fileId": "1aakpum",
+          "title": "転生したらスライムだった件",
+          "authorDisplay": "伏瀬 / みっつばー",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ZRrjEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「読みやすい」「一気読み」など読み味が近い"
+        },
+        {
+          "workId": "novel__明智恭介の奔走_the_efforts_of_akechi_kyosuke__今村昌弘",
+          "fileId": "09xky8g",
+          "title": "明智恭介の奔走 = The Efforts of Akechi Kyosuke",
+          "authorDisplay": "今村昌弘",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=DzoPEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「読みやすい」「一気読み」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.661Z"
+}

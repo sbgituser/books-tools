@@ -1,0 +1,117 @@
+{
+  "workId": "manga__暁のヨナ__草凪みずほ",
+  "groups": [
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "manga__あそびあそばせ__涼川りん",
+          "fileId": "1w14txz",
+          "title": "あそびあそばせ",
+          "authorDisplay": "涼川りん",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=wp-ADwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE704Lv0BfcLVzmjVRDNk5WTccZnOCpbELbIFkf2BH5gmOCK0D646yWhFnTep0cWv1OcaQUVogmm0cclzWS_IgIjLyfbjIPnpdHgn0YhEq2FewHXJGvMuUX15AYf3v3m9iGC_lhwn&source=gbs_api",
+          "reason": "白泉社の漫画"
+        },
+        {
+          "workId": "manga__3月のライオン__羽海野チカ",
+          "fileId": "0le0pd2",
+          "title": "3月のライオン",
+          "authorDisplay": "羽海野チカ",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=iimo0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "白泉社の漫画"
+        },
+        {
+          "workId": "manga__地雷グリコ__暁月あきら",
+          "fileId": "1tiyla2",
+          "title": "地雷グリコ",
+          "authorDisplay": "暁月あきら / 青崎有吾",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=SwBBEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "白泉社の漫画"
+        }
+      ]
+    },
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "manga__naruto_ナルト__岸本斉史",
+          "fileId": "17otkk9",
+          "title": "NARUTO―ナルト―",
+          "authorDisplay": "岸本斉史",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=ji3NCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「熱い」「感動」など読み味が近い"
+        },
+        {
+          "workId": "manga__鋼の錬金術師__荒川弘",
+          "fileId": "0zref9t",
+          "title": "鋼の錬金術師",
+          "authorDisplay": "荒川弘",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=PQ7FDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「熱い」「感動」など読み味が近い"
+        },
+        {
+          "workId": "manga__鬼滅の刃__吾峠呼世晴",
+          "fileId": "0iuwa8r",
+          "title": "鬼滅の刃",
+          "authorDisplay": "吾峠呼世晴",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=Mj1cDAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「熱い」「感動」など読み味が近い"
+        },
+        {
+          "workId": "manga__ハイキュー__古舘春一",
+          "fileId": "1d7xco7",
+          "title": "ハイキュー!!",
+          "authorDisplay": "古舘春一",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=wI7LCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「熱い」「感動」など読み味が近い"
+        },
+        {
+          "workId": "manga__僕のヒーローアカデミア__堀越耕平",
+          "fileId": "032sc3q",
+          "title": "僕のヒーローアカデミア",
+          "authorDisplay": "堀越耕平",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=7iLLCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「熱い」「感動」など読み味が近い"
+        },
+        {
+          "workId": "manga__ゴールデンカムイ__野田サトル",
+          "fileId": "0yobr5b",
+          "title": "ゴールデンカムイ",
+          "authorDisplay": "野田サトル",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=8K5REAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「熱い」「感動」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:56.041Z"
+}

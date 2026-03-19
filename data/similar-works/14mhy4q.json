@@ -1,0 +1,23 @@
+{
+  "workId": "manga__ぼくらの__鬼頭莫宏",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "manga__なるたる__鬼頭莫宏",
+          "fileId": "12y9hbb",
+          "title": "なるたる",
+          "authorDisplay": "鬼頭莫宏",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=iqDBBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "鬼頭莫宏による漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.816Z"
+}

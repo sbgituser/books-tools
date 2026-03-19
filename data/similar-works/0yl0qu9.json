@@ -1,0 +1,23 @@
+{
+  "workId": "manga__天国大魔境__石黒正数",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "manga__それでも町は廻っている__石黒正数",
+          "fileId": "1u81w4r",
+          "title": "それでも町は廻っている",
+          "authorDisplay": "石黒正数",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=Y09MDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE701VW_Dq_lRlrRW42YRT3r8Rkt40RWm_VCK_2mBO0ydyeYorOoX_h6C6yioQtDczDZgI71pr77j0Adip0EaWj3wFfEltzRlH8cW79knCo6DWG-5z6XSkyTUQP-vDxeA4xXJ4-uh&source=gbs_api",
+          "reason": "石黒正数による漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:56.119Z"
+}

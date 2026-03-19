@@ -1,0 +1,23 @@
+{
+  "workId": "manga__日常業務をrpaで楽しく自動化_winactor実践ガイド_winactor_v__株式会社インサイトイ",
+  "groups": [
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "manga__漫画ビジネス__菊池健",
+          "fileId": "0zjxbyj",
+          "title": "漫画ビジネス",
+          "authorDisplay": "菊池健",
+          "type": "manga",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=PvchEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "インプレスの漫画"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:56.012Z"
+}

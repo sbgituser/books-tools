@@ -1,0 +1,211 @@
+{
+  "workId": "novel__ラッシュライフ__伊坂幸太郎",
+  "groups": [
+    {
+      "type": "same_author",
+      "title": "同じ作者の作品",
+      "items": [
+        {
+          "workId": "novel__グラスホッパー__伊坂幸太郎",
+          "fileId": "0c28mf2",
+          "title": "グラスホッパー",
+          "authorDisplay": "伊坂幸太郎",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=JJleMPIiZuEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "伊坂幸太郎による小説"
+        },
+        {
+          "workId": "novel__あるキング__伊坂幸太郎",
+          "fileId": "1rvx8la",
+          "title": "あるキング",
+          "authorDisplay": "伊坂幸太郎",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=-jpKQwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "伊坂幸太郎による小説"
+        },
+        {
+          "workId": "novel__ゴールデンスランバー__伊坂幸太郎",
+          "fileId": "0ndf647",
+          "title": "ゴールデンスランバー",
+          "authorDisplay": "伊坂幸太郎",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=XdNYewAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "伊坂幸太郎による小説"
+        },
+        {
+          "workId": "novel__重力ピエロ__伊坂幸太郎",
+          "fileId": "08qfpoy",
+          "title": "重力ピエロ",
+          "authorDisplay": "伊坂幸太郎",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=YbxaEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "伊坂幸太郎による小説"
+        },
+        {
+          "workId": "novel__マリアビートル__伊坂幸太郎",
+          "fileId": "1c2c3v1",
+          "title": "マリアビートル",
+          "authorDisplay": "伊坂幸太郎",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=2WM7AQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "伊坂幸太郎による小説"
+        },
+        {
+          "workId": "novel__ax_アックス__伊坂幸太郎",
+          "fileId": "0aq2mva",
+          "title": "ＡＸ アックス",
+          "authorDisplay": "伊坂幸太郎",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=9APQDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "伊坂幸太郎による小説"
+        }
+      ]
+    },
+    {
+      "type": "same_publisher",
+      "title": "同じ出版社・レーベルから探す",
+      "items": [
+        {
+          "workId": "novel__オーデュボンの祈り__伊坂幸太郎",
+          "fileId": "0l2a476",
+          "title": "オーデュボンの祈り",
+          "authorDisplay": "伊坂幸太郎",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=X7xaEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "新潮社の小説"
+        },
+        {
+          "workId": "novel__向日葵の咲かない夏__道尾秀介",
+          "fileId": "0n5atro",
+          "title": "向日葵の咲かない夏",
+          "authorDisplay": "道尾秀介",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=s89RPwAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70dttyNE5KKYFRVMeF5ZLtL4A_TW-7AfDUJtk2SWkP6KSRrRw78j16y4ytnxojdhe8AJuTJUXMCo7vbCDRxwjncB67kyGMdEUWgPHCckwBUdfWy3nj2vrIPg87K_92QU8ddEnj5&source=gbs_api",
+          "reason": "新潮社の小説"
+        },
+        {
+          "workId": "novel__龍神の雨__道尾秀介",
+          "fileId": "0x7agwy",
+          "title": "龍神の雨",
+          "authorDisplay": "道尾秀介",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=8cRaEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70dwc5WwsaHgXKRU-h9c5yQLcPjs5OECLsBWG-tFcqTdjriz2ePFGv8RdhQTqOTlf3BtO9V_45KjKmkKgr38S8usW4ZTedXWzD35bKM52ZVOmkAMYxHoEF0drVR45QzzRZfkj6w&source=gbs_api",
+          "reason": "新潮社の小説"
+        },
+        {
+          "workId": "novel__満願__米澤穂信",
+          "fileId": "1vvze9j",
+          "title": "満願",
+          "authorDisplay": "米澤穂信",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=qBFIBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70gyDeO401oLxOpkYwDtAS7vZYwDmZBh6HQZJGlok0NctDsMpllsG4pgCnWdrPzSx49uX0eTmp1ulXaD5Solto1utXOvipaFwzTyoGLxnocoBHjg5X2VOs61mPTmDiZp4f6WjIw&source=gbs_api",
+          "reason": "新潮社の小説"
+        },
+        {
+          "workId": "novel__ソロモンの偽証__宮部みゆき",
+          "fileId": "1eyzdgz",
+          "title": "ソロモンの偽証",
+          "authorDisplay": "宮部みゆき",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=sMbhwQEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70zHJf4PHYudIIOWfFlh6ldHaYYHr-CmdlVaZqvXfIm_OzeZPRRIq-h-fZMlXlIrYKPuzInFQJpeCaMrEYmLgldCP8NJ1aqqJ6IRn8IwlSYBeTPfg4XoN2TFEEBgglA5tKHXUMG&source=gbs_api",
+          "reason": "新潮社の小説"
+        }
+      ]
+    },
+    {
+      "type": "similar_taste",
+      "title": "読み味が近い作品",
+      "items": [
+        {
+          "workId": "manga__death_note__大場つぐみ",
+          "fileId": "1m22mge",
+          "title": "DEATH NOTE",
+          "authorDisplay": "大場つぐみ / 小畑健",
+          "type": "manga",
+          "status": "completed",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=_ERuCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「怖い」など読み味が近い"
+        },
+        {
+          "workId": "novel__贖罪__湊かなえ",
+          "fileId": "031vv7w",
+          "title": "贖罪",
+          "authorDisplay": "湊かなえ",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=FttUEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「怖い」など読み味が近い"
+        },
+        {
+          "workId": "novel__落日__湊かなえ",
+          "fileId": "0kp85vy",
+          "title": "落日",
+          "authorDisplay": "湊かなえ",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=eXuaEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「怖い」など読み味が近い"
+        },
+        {
+          "workId": "novel__死神の精度__伊坂幸太郎",
+          "fileId": "0m989n0",
+          "title": "死神の精度",
+          "authorDisplay": "伊坂幸太郎",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=pZ9DEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「考えさせられる」「怖い」など読み味が近い"
+        },
+        {
+          "workId": "novel__モダンタイムス__伊坂幸太郎",
+          "fileId": "02nniaa",
+          "title": "モダンタイムス",
+          "authorDisplay": "伊坂幸太郎",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=O8JTzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「怖い」など読み味が近い"
+        },
+        {
+          "workId": "novel__首折り男のための協奏曲__伊坂幸太郎",
+          "fileId": "19k010h",
+          "title": "首折り男のための協奏曲",
+          "authorDisplay": "伊坂幸太郎",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=t8YDMQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "reason": "「考えさせられる」「怖い」など読み味が近い"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-19T12:56:55.858Z"
+}
