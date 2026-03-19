@@ -86,7 +86,27 @@ generate-works-data.ts          generate-scenes-data.ts
 public/data/works-list.json     public/data/scenes/{slug}.json
 public/data/discovery-index.json public/data/scenes/index.json
 public/data/works/{fileId}.json
+       ↓
+generate-scene-candidates.ts         (★ AI選書パイプライン)
+       ↓
+data/scene-candidates/{slug}.json    (内部用・候補集合)
+       ↓
+generate-scene-curated.ts  ← 生成AI（Claude）が選書・推薦理由を生成
+       ↓
+data/scene-curated/{slug}.json  (git管理・ビルド時に参照)
 ```
+
+### AI選書の仕組み（ハイブリッド方式）
+
+| フェーズ | 役割 | 使用技術 |
+|--------|------|---------|
+| 候補抽出 | タグ・属性スコアリングで30〜70件に絞り込む | ルールベース（既存ロジック） |
+| 最終選書 | 候補から10〜15件を厳選・理由を生成 | 生成AI（Claude API） |
+| 本番配信 | 生成済みJSONを静的に配信 | Next.js SSG |
+
+- **本番ではリアルタイムにAIへ問い合わせない**
+- AI選書はバッチ生成時にのみ実行し、成果物として保存する
+- 既存の works/volumes データ構造は一切変更していない
 
 ## セットアップ
 
@@ -117,12 +137,63 @@ npm run generate:scenes
 # 上記3つをまとめて実行
 npm run collect:works
 
+# ── AI選書パイプライン ──────────────────────────────────────
+
+# シーン候補集合を生成（data/scene-candidates/）
+# ※ collect:works を先に実行しておく必要がある
+npm run generate:candidates
+
+# AI選書バッチを実行（data/scene-curated/）
+# ※ ANTHROPIC_API_KEY が必要（scripts/.env に設定）
+npm run generate:curated
+
+# 特定シーンのみ再生成する場合
+npx tsx scripts/generate-scene-curated.ts --scene commute
+
+# 候補生成 + AI選書を一括実行
+npm run collect:curated
+
+# 書籍追加から選書まで全工程を一括実行
+npm run collect:all
+
+# ── その他 ──────────────────────────────────────────────────
+
 # 既存の書籍メタデータ補完（Google Books API 使用）
 npm run fetch:books
 
 # 関連書籍グラフ生成
 npm run build:related
 ```
+
+## 書籍情報追加時の更新フロー
+
+新しい書籍を `src/data/books.index.json` に追加した後は、以下の順で更新する。
+**対応漏れが出ないよう、このフローをそのまま実行すること。**
+
+```bash
+# Step 1: 書籍データを正規化・生成（既存フロー）
+npm run collect:works
+
+# Step 2: シーン候補を再生成（新書籍が候補に含まれるようになる）
+npm run generate:candidates
+
+# Step 3: AI選書を再実行（新書籍が適切なシーンに追加される可能性あり）
+#   全シーン再生成する場合:
+npm run generate:curated
+#   特定シーンだけ更新する場合（例: 通勤・通学シーンのみ）:
+npx tsx scripts/generate-scene-curated.ts --scene commute
+
+# Step 4: ビルドして確認
+npm run build
+
+# Step 5: デプロイ
+git add . && git commit -m "feat: ..." && git push origin master
+```
+
+> **Note:** AI選書の再実行は Anthropic API キーが必要。
+> `scripts/.env` に `ANTHROPIC_API_KEY=sk-ant-...` を設定すること。
+> curated JSON は `data/scene-curated/` に保存されるため、
+> ビルド時には自動的にバンドルされる。
 
 ## 読書シーンの追加方法
 
@@ -143,7 +214,17 @@ npm run build:related
 ```
 
 2. `npm run collect:works` でJSON再生成
-3. `npm run build` でビルド確認
+3. `npm run generate:candidates` で候補データを生成（新シーン含む）
+4. `npx tsx scripts/generate-scene-curated.ts --scene new-scene-slug` でAI選書
+5. `npm run build` でビルド確認
+
+> **候補抽出ルールの追加箇所:**
+> `scripts/generate-scene-candidates.ts` の `structuralScore()` 関数に
+> 新シーン向けのヒューリスティックを追加できる（任意）。
+>
+> **AI選書のシーン観点（プロンプト）の追加箇所:**
+> `scripts/generate-scene-curated.ts` の `SCENE_CRITERIA` オブジェクトに
+> `slug: "評価観点の文字列"` を追加すること。
 
 ## ローカル起動
 
@@ -201,5 +282,35 @@ git push origin master
 | `NEXT_PUBLIC_SITE_URL` | サイトURL | 推奨 |
 | `NEXT_PUBLIC_GA_ID` | Google Analytics 4 | 任意 |
 | `GOOGLE_BOOKS_API_KEY` | Google Books APIキー | スクリプト実行時 |
+| `ANTHROPIC_API_KEY` | AI選書バッチ（generate-scene-curated.ts） | AI選書実行時 |
 | `OPENAI_API_KEY` | ブログ自動生成 | 任意 |
 | `YOUTUBE_API_KEY` | ブログ自動生成 | 任意 |
+
+> `ANTHROPIC_API_KEY` は `scripts/.env` に設定するか、OS の環境変数として設定する。
+> [Anthropic Console](https://console.anthropic.com/) から取得できる。
+> AI選書結果は `data/scene-curated/` に保存済みのため、
+> 通常のビルド・閲覧には不要。書籍追加後の再生成時にのみ必要。
+
+## 今回追加した機能の概要（AI選書型読書シーン）
+
+### 変更内容
+- 読書シーン画面（`/scene/{slug}`）を「大量一覧」から「AI選書結果」中心に変更
+- 各作品に短い推薦理由を表示（選書・提案のトーン）
+- ランキングではなく、2〜3セクションに分けた選書棚スタイルの表示
+- 全作品一覧は折りたたみ（`<details>`）で補助的に残す
+
+### 追加ファイル
+| ファイル | 役割 |
+|--------|------|
+| `src/types/scene-curated.ts` | AI選書結果の型定義 |
+| `scripts/generate-scene-candidates.ts` | シーン候補集合の生成 |
+| `scripts/generate-scene-curated.ts` | AI選書バッチ（Anthropic API使用） |
+| `src/components/works/CuratedSceneView.tsx` | 選書結果表示コンポーネント |
+| `data/scene-candidates/{slug}.json` | 候補集合（内部用・gitignore推奨） |
+| `data/scene-curated/{slug}.json` | AI選書結果（git管理・ビルド時に参照） |
+
+### 設計原則
+- **既存データ構造は変更しない**: works/volumes/scenes は一切手を加えていない
+- **本番でAIを呼ばない**: 生成済みJSONを静的に配信する
+- **AI選書はバッチ実行**: `npm run generate:curated` で手動または定期実行
+- **フォールバック**: curated JSONが存在しないシーンは既存の全件グリッドを表示
