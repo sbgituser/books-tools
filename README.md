@@ -40,13 +40,16 @@ books-tools/
 │   │   │   ├── WorkCard.tsx          # 作品カード
 │   │   │   └── DiscoverSection.tsx   # 発見UIセクション（クライアント）
 │   │   └── ...（既存コンポーネント）
+│   ├── constants/
+│   │   └── readingScenes.ts          # 読書シーン定義（9シーン）
 │   ├── types/
-│   │   ├── work.ts                   # Work / Volume / DiscoveryIndex 型
+│   │   ├── work.ts                   # Work / Volume / DiscoveryIndex / SceneWorksData 型
 │   │   └── book.ts                   # 既存 Mood タグ型
 │   └── ...
 ├── scripts/
-│   ├── normalize-works.ts            # [NEW] books.index.json → works / volumes
-│   ├── generate-works-data.ts        # [NEW] normalized → public/data/
+│   ├── normalize-works.ts            # books.index.json → works / volumes
+│   ├── generate-works-data.ts        # normalized → public/data/
+│   ├── generate-scenes-data.ts       # [NEW] 読書シーン別作品JSON生成
 │   ├── build-split-index.ts          # カテゴリ別分割インデックス（既存）
 │   ├── build-search-index.ts         # テキスト検索インデックス（既存）
 │   └── ...（その他既存スクリプト）
@@ -60,6 +63,11 @@ books-tools/
 │   ├── discovery-index.json         # タグ → 作品IDマップ（発見機能用）
 │   ├── work-id-map.json             # workId → fileId マッピング
 │   ├── works/                       # per-work 詳細JSON（巻情報含む）
+│   ├── scenes/                      # [NEW] 読書シーン別JSON
+│   │   ├── index.json               # 全シーンのメタ情報（件数付き）
+│   │   ├── commute.json             # 通勤・通学
+│   │   ├── before-sleep.json        # 寝る前
+│   │   └── ...（その他7シーン）
 │   └── ...（既存の books-*.json, meta.json 等）
 └── content/blog/                    # ブログ記事（MDX）
 ```
@@ -73,11 +81,11 @@ normalize-works.ts
        ↓
 data/normalized/works.json + volumes.json
        ↓
-generate-works-data.ts
-       ↓
-public/data/works-list.json
-public/data/discovery-index.json
-public/data/works/{fileId}.json  ← per-work 詳細（巻情報含む）
+generate-works-data.ts          generate-scenes-data.ts
+       ↓                               ↓
+public/data/works-list.json     public/data/scenes/{slug}.json
+public/data/discovery-index.json public/data/scenes/index.json
+public/data/works/{fileId}.json
 ```
 
 ## セットアップ
@@ -103,7 +111,10 @@ npm run normalize:works
 # 生成物作成（data/normalized/ → public/data/）
 npm run generate:works
 
-# 上記をまとめて実行
+# 読書シーン別JSON生成（public/data/scenes/）
+npm run generate:scenes
+
+# 上記3つをまとめて実行
 npm run collect:works
 
 # 既存の書籍メタデータ補完（Google Books API 使用）
@@ -112,6 +123,27 @@ npm run fetch:books
 # 関連書籍グラフ生成
 npm run build:related
 ```
+
+## 読書シーンの追加方法
+
+1. `src/constants/readingScenes.ts` の `READING_SCENES` 配列に新しいシーンを追加する：
+
+```typescript
+{
+  slug: "new-scene-slug",      // URL: /scene/new-scene-slug
+  label: "シーン名",
+  icon: "🎯",
+  description: "短い説明文",
+  seoTitle: "SEOタイトル",
+  seoDescription: "メタディスクリプション",
+  primaryTags: ["タグ1", "タグ2"],  // マッチで+3点
+  bonusTags: ["タグ3"],              // マッチで+1点
+  excludeTags: ["除外タグ"],
+}
+```
+
+2. `npm run collect:works` でJSON再生成
+3. `npm run build` でビルド確認
 
 ## ローカル起動
 
@@ -124,7 +156,7 @@ npm run dev
 
 ```bash
 npm run build
-# prebuild: normalize-works → generate-works → build-split-index → build-search-index → generate-feeds
+# prebuild: normalize-works → generate-works → generate-scenes → build-split-index → build-search-index → generate-feeds
 # → out/ に静的ファイルが生成される
 ```
 
@@ -143,8 +175,10 @@ git push origin master
 
 | URL | 概要 |
 |-----|------|
-| `/` | トップページ（気分タグ導線・発見ファーストUI） |
+| `/` | トップページ（気分タグ・読書シーン導線） |
 | `/discover` | 発見機能（タグフィルタ + 作品グリッド） |
+| `/scene` | 読書シーン一覧（9シーン） |
+| `/scene/{slug}` | 読書シーン別作品一覧（静的SSGページ） |
 | `/works/{fileId}` | 作品詳細 + 巻一覧 |
 | `/manga/mood` | 漫画×気分タグ（インタラクティブ） |
 | `/manga/by-mood/{slug}` | 漫画×ムードカテゴリ（静的SEOページ） |
