@@ -28011,5 +28011,349 @@
       ]
     },
     "thumbnailUrl": "https://books.google.com/books/content?id=EyROEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
+    "id": "9784778033156",
+    "title": "デビルマン",
+    "subtitle": "ザ・ファースト",
+    "authors": [
+      "永井豪とダイナミックプロ"
+    ],
+    "publishedDate": "2018",
+    "isbn13": "9784778033156",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "デビルマン ザ・ファースト 永井豪とダイナミックプロ 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=rXo6swEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "rXo6swEACAAJ"
+    },
+    "updatedAt": "2026-03-19T09:39:49.781Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784062606493",
+    "title": "マジンガーZ オリジナル版 1",
+    "authors": [
+      "永井豪"
+    ],
+    "publishedDate": "1999-12",
+    "isbn13": "9784062606493",
+    "language": "ja",
+    "pageCount": 431,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "マジンガーZ オリジナル版 1 永井豪 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "LDPpMgEACAAJ"
+    },
+    "updatedAt": "2026-03-19T09:39:50.526Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784834282016",
+    "title": "あしたのジョー 1",
+    "subtitle": "コミック",
+    "authors": [
+      "ちばてつや",
+      "高森朝雄"
+    ],
+    "publishedDate": "1994",
+    "isbn13": "9784834282016",
+    "language": "ja",
+    "pageCount": 314,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "あしたのジョー 1 コミック ちばてつや 高森朝雄 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=iBY2AQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "iBY2AQAAIAAJ"
+    },
+    "updatedAt": "2026-03-19T09:39:51.232Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784253170413",
+    "title": "ドカベン",
+    "authors": [
+      "水島新司"
+    ],
+    "publishedDate": "1994",
+    "isbn13": "9784253170413",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ドカベン 水島新司 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "IYXnzAEACAAJ"
+    },
+    "updatedAt": "2026-03-19T09:39:51.966Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784061735811",
+    "title": "釣りキチ三平",
+    "authors": [],
+    "publishedDate": "1981",
+    "isbn13": "9784061735811",
+    "language": "ja",
+    "pageCount": 177,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "釣りキチ三平 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "hWKVtAEACAAJ"
+    },
+    "updatedAt": "2026-03-19T09:39:52.672Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "daily",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784061732025",
+    "title": "火の鳥: 黎明編",
+    "authors": [
+      "手塚治虫"
+    ],
+    "publishedDate": "1978",
+    "isbn13": "9784061732025",
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "火の鳥: 黎明編 手塚治虫 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "7jhr0QEACAAJ"
+    },
+    "updatedAt": "2026-03-19T09:39:53.395Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784120018213",
+    "title": "ルパン三世",
+    "subtitle": "第3卷",
+    "authors": [
+      "モンキー・パンチ"
+    ],
+    "publishedDate": "1989",
+    "isbn13": "9784120018213",
+    "language": "ja",
+    "pageCount": 802,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ルパン三世 第3卷 モンキー・パンチ 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "e50tpwAACAAJ"
+    },
+    "updatedAt": "2026-03-19T09:39:55.172Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784884752934",
+    "title": "天才バカボン 1",
+    "authors": [
+      "赤塚不二夫"
+    ],
+    "publishedDate": "1994",
+    "isbn13": "9784884752934",
+    "language": "ja",
+    "pageCount": 272,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "天才バカボン 1 赤塚不二夫 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "BqaBNAEACAAJ"
+    },
+    "updatedAt": "2026-03-19T09:39:55.808Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": "gag",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784091793331",
+    "title": "ドラえもん",
+    "authors": [
+      "F. 不二雄·藤子"
+    ],
+    "publishedDate": "2020",
+    "isbn13": "9784091793331",
+    "language": "ja",
+    "pageCount": 191,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ドラえもん F. 不二雄·藤子 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "mKg2zgEACAAJ"
+    },
+    "updatedAt": "2026-03-19T09:39:56.466Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": "daily",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784088551333",
+    "title": "ベルサイユのばら(完全版)1",
+    "authors": [
+      "池田理代子"
+    ],
+    "publishedDate": "2005-12",
+    "isbn13": "9784088551333",
+    "language": "ja",
+    "pageCount": 242,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ベルサイユのばら(完全版)1 池田理代子 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "KwB9tgAACAAJ"
+    },
+    "updatedAt": "2026-03-19T09:39:57.698Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
+  },
+  {
+    "id": "9784253031608",
+    "title": "ブラック・ジャック　1（少年チャンピオン・コミックス）",
+    "authors": [
+      "手塚治虫"
+    ],
+    "publisher": "手塚プロダクション",
+    "publishedDate": "2019-07-01",
+    "isbn13": "9784253031608",
+    "language": "ja",
+    "pageCount": 214,
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ブラック・ジャック　1（少年チャンピオン・コミックス） 手塚治虫 手塚プロダクション 漫画 コミック",
+    "thumbnailUrl": "https://books.google.com/books/content?id=OmWhDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "OmWhDwAAQBAJ"
+    },
+    "updatedAt": "2026-03-19T09:40:18.606Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama",
+      "l4TagIds": [
+        "readable"
+      ]
+    }
   }
 ]
