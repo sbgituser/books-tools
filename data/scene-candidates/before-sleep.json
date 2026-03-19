@@ -1,0 +1,1265 @@
+{
+  "slug": "before-sleep",
+  "label": "寝る前",
+  "icon": "🌙",
+  "description": "就寝前にほっこり・癒やされる作品",
+  "candidates": [
+    {
+      "workId": "14n79l0",
+      "type": "manga",
+      "title": "魔法使いの嫁",
+      "authorDisplay": "ヤマザキコレ",
+      "status": "ongoing",
+      "volumeCount": 2,
+      "discoveryTags": [
+        "癒やし",
+        "感動",
+        "切ない",
+        "世界観重視",
+        "ファンタジー",
+        "穏やか",
+        "優しい"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "遅い",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "ファンタジー好き",
+          "幻想的な雰囲気が好きな人",
+          "癒やされたい人"
+        ]
+      },
+      "_score": 12
+    },
+    {
+      "workId": "1d6gduo",
+      "type": "manga",
+      "title": "君に届け",
+      "authorDisplay": "軽穂·椎名",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "心温まる",
+        "泣ける",
+        "感動",
+        "読みやすい",
+        "一気読み",
+        "明るい",
+        "優しい",
+        "日常系",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "普通",
+        "depthTag": "軽い",
+        "readingEaseTag": "初心者向け",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "恋愛好き",
+          "癒やされたい人",
+          "完結作品を求める人"
+        ]
+      },
+      "_score": 12
+    },
+    {
+      "workId": "1ggvkxu",
+      "type": "manga",
+      "title": "聖☆おにいさん",
+      "authorDisplay": "中村光",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "笑える",
+        "癒やし",
+        "読みやすい",
+        "短編",
+        "学べる",
+        "明るい",
+        "日常系",
+        "優しい"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "普通",
+        "depthTag": "軽い",
+        "readingEaseTag": "初心者向け",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "宗教・歴史に興味がある人",
+          "気軽に読みたい人",
+          "初心者"
+        ]
+      },
+      "_score": 11
+    },
+    {
+      "workId": "0w6d41j",
+      "type": "manga",
+      "title": "日常",
+      "authorDisplay": "あらゐ　けいいち",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "笑える",
+        "癒やし",
+        "読みやすい",
+        "短編",
+        "明るい",
+        "日常系",
+        "優しい",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "普通",
+        "depthTag": "軽い",
+        "readingEaseTag": "初心者向け",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "笑いたい人",
+          "シュール系が好きな人",
+          "気軽に読みたい人"
+        ]
+      },
+      "_score": 11
+    },
+    {
+      "workId": "0ilmrkf",
+      "type": "novel",
+      "title": "旅猫リポート",
+      "authorDisplay": "有川　浩",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "泣ける",
+        "感動",
+        "心温まる",
+        "切ない",
+        "熱い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 6
+    },
+    {
+      "workId": "08byc3s",
+      "type": "novel",
+      "title": "阪急電車",
+      "authorDisplay": "有川浩",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "泣ける",
+        "感動",
+        "心温まる",
+        "切ない"
+      ],
+      "discoveryAttributes": {},
+      "_score": 6
+    },
+    {
+      "workId": "0pl4bim",
+      "type": "novel",
+      "title": "植物図鑑",
+      "authorDisplay": "有川　浩",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "泣ける",
+        "感動",
+        "心温まる",
+        "切ない"
+      ],
+      "discoveryAttributes": {},
+      "_score": 6
+    },
+    {
+      "workId": "0272f7a",
+      "type": "novel",
+      "title": "イニシエーション・ラブ",
+      "authorDisplay": "乾くるみ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "泣ける",
+        "感動",
+        "心温まる",
+        "切ない"
+      ],
+      "discoveryAttributes": {},
+      "_score": 6
+    },
+    {
+      "workId": "0bcc9h2",
+      "type": "novel",
+      "title": "図書館戦争",
+      "authorDisplay": "有川　浩",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "泣ける",
+        "感動",
+        "心温まる",
+        "切ない"
+      ],
+      "discoveryAttributes": {},
+      "_score": 6
+    },
+    {
+      "workId": "05vxbou",
+      "type": "novel",
+      "title": "図書館戦争　図書館戦争シリーズ",
+      "authorDisplay": "有川　浩",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "泣ける",
+        "感動",
+        "心温まる",
+        "切ない"
+      ],
+      "discoveryAttributes": {},
+      "_score": 6
+    },
+    {
+      "workId": "1ommpj7",
+      "type": "manga",
+      "title": "女子高生の無駄づかい",
+      "authorDisplay": "ビーノ",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "笑える",
+        "読みやすい",
+        "短編",
+        "明るい",
+        "日常系",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "軽い",
+        "readingEaseTag": "初心者向け",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "笑いたい人",
+          "気軽に読みたい人"
+        ]
+      },
+      "_score": 5
+    },
+    {
+      "workId": "1w14txz",
+      "type": "manga",
+      "title": "あそびあそばせ",
+      "authorDisplay": "涼川りん",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "笑える",
+        "読みやすい",
+        "短編",
+        "明るい",
+        "日常系",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "軽い",
+        "readingEaseTag": "初心者向け",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "笑いたい人",
+          "気軽に読みたい人"
+        ]
+      },
+      "_score": 5
+    },
+    {
+      "workId": "1sacy4c",
+      "type": "novel",
+      "title": "オーダーメイド殺人クラブ",
+      "authorDisplay": "辻村深月",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる",
+        "深い",
+        "心温まる",
+        "泣ける"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1aakpum",
+      "type": "manga",
+      "title": "転生したらスライムだった件",
+      "authorDisplay": "伏瀬 / みっつばー",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "癒やし",
+        "笑える",
+        "爽快",
+        "読みやすい",
+        "世界観重視",
+        "一気読み",
+        "明るい",
+        "ファンタジー"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "軽い",
+        "readingEaseTag": "初心者向け",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "ファンタジー好き",
+          "異世界もの入門",
+          "気軽に読みたい人"
+        ]
+      },
+      "_score": 5
+    },
+    {
+      "workId": "1nw7h6q",
+      "type": "manga",
+      "title": "ぐらんぶる",
+      "authorDisplay": "井上堅二 / 吉岡公威",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "笑える",
+        "読みやすい",
+        "一気読み",
+        "明るい",
+        "日常系",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "軽い",
+        "readingEaseTag": "初心者向け",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "笑いたい人",
+          "気軽に読みたい人",
+          "完結作品を求める人"
+        ]
+      },
+      "_score": 5
+    },
+    {
+      "workId": "1hij0bo",
+      "type": "manga",
+      "title": "坂本ですが?",
+      "authorDisplay": "佐野菜見",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "笑える",
+        "読みやすい",
+        "明るい",
+        "日常系",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "軽い",
+        "readingEaseTag": "初心者向け",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "笑いたい人",
+          "気軽に読みたい人"
+        ]
+      },
+      "_score": 5
+    },
+    {
+      "workId": "1lb4rxp",
+      "type": "manga",
+      "title": "暁のヨナ.",
+      "authorDisplay": "草凪みずほ",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "熱い",
+        "感動",
+        "心温まる",
+        "世界観重視",
+        "一気読み"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "恋愛好き",
+          "ファンタジー好き",
+          "成長物語が好きな人"
+        ]
+      },
+      "_score": 5
+    },
+    {
+      "workId": "0xg4crk",
+      "type": "manga",
+      "title": "NANA―ナナ―",
+      "authorDisplay": "矢沢あい",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "切ない",
+        "泣ける",
+        "心温まる",
+        "世界観重視"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "普通",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "恋愛好き",
+          "大人の恋愛漫画を求める人",
+          "切ない話が好きな人"
+        ]
+      },
+      "_score": 5
+    },
+    {
+      "workId": "1v5wh1g",
+      "type": "manga",
+      "title": "花より男子",
+      "authorDisplay": "神尾葉子",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "心温まる",
+        "熱い",
+        "笑える",
+        "一気読み",
+        "読みやすい",
+        "明るい",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "軽い",
+        "readingEaseTag": "初心者向け",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "恋愛好き",
+          "少女漫画入門",
+          "完結作品を求める人"
+        ]
+      },
+      "_score": 5
+    },
+    {
+      "workId": "19md0jg",
+      "type": "novel",
+      "title": "日本SF短篇50 : 日本SF作家クラブ創立50周年記念アンソロジー",
+      "authorDisplay": "日本SF作家クラブ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "学べる",
+        "世界観重視",
+        "心温まる",
+        "泣ける"
+      ],
+      "discoveryAttributes": {},
+      "_score": 4
+    },
+    {
+      "workId": "1qy81hk",
+      "type": "manga",
+      "title": "ヒストリエ",
+      "authorDisplay": "岩明均",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "学べる",
+        "世界観重視",
+        "考えさせられる",
+        "穏やか",
+        "深い"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "遅い",
+        "depthTag": "重い",
+        "readingEaseTag": "読みごたえあり",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "歴史好き",
+          "考察好き",
+          "大人向け漫画を求める人"
+        ]
+      },
+      "_score": 4
+    },
+    {
+      "workId": "1yw1biv",
+      "type": "novel",
+      "title": "1日1話 366日の感動物語 ②7月1日～9月30日",
+      "authorDisplay": "Gakken",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "泣ける",
+        "感動",
+        "切ない"
+      ],
+      "discoveryAttributes": {},
+      "_score": 3
+    },
+    {
+      "workId": "0cb8t8s",
+      "type": "manga",
+      "title": "ONE PIECE",
+      "authorDisplay": "尾田栄一郎",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "熱い",
+        "爽快",
+        "感動",
+        "笑える",
+        "一気読み",
+        "世界観重視",
+        "やる気が出る",
+        "明るい"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "バトル好き",
+          "友情テーマが好きな人",
+          "長期連載OK"
+        ]
+      },
+      "_score": 3
+    },
+    {
+      "workId": "0yobr5b",
+      "type": "manga",
+      "title": "ゴールデンカムイ",
+      "authorDisplay": "野田サトル",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "笑える",
+        "熱い",
+        "感動",
+        "学べる",
+        "世界観重視",
+        "一気読み",
+        "明るい",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "学びながら楽しみたい人",
+          "バトル好き",
+          "完結作品を求める人"
+        ]
+      },
+      "_score": 3
+    },
+    {
+      "workId": "17otkk9",
+      "type": "manga",
+      "title": "NARUTO―ナルト―",
+      "authorDisplay": "岸本斉史",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "熱い",
+        "泣ける",
+        "やる気が出る",
+        "世界観重視",
+        "一気読み",
+        "明るい",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "友情テーマが好きな人",
+          "成長物語が好きな人",
+          "完結作品を求める人"
+        ]
+      },
+      "_score": 3
+    },
+    {
+      "workId": "162n661",
+      "type": "novel",
+      "title": "成瀬は天下を取りにいく（新潮文庫）",
+      "authorDisplay": "宮島未奈",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1sh7ocs",
+      "type": "novel",
+      "title": "冒険小説論 : 近代ヒーロー像一〇〇年の変遷",
+      "authorDisplay": "北上次郎",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる",
+        "熱い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1mq8rzx",
+      "type": "novel",
+      "title": "ギャップ、時々、溺愛 クールな社長が私だけに見せてくれる本当の顔 (ルネッタブックス)",
+      "authorDisplay": "麻生ミカリ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1nyke2k",
+      "type": "novel",
+      "title": "贖罪の花嫁はいつわりの婚姻に溺れる１",
+      "authorDisplay": "蜂谷ナナオ / マチバリ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1o9zscs",
+      "type": "novel",
+      "title": "琥珀の夏",
+      "authorDisplay": "辻村深月",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1lcv41m",
+      "type": "novel",
+      "title": "劇的！　小説術",
+      "authorDisplay": "柏田 道夫",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1o7vhs2",
+      "type": "novel",
+      "title": "六人の嘘つきな大学生",
+      "authorDisplay": "浅倉　秋成",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1io2g3d",
+      "type": "novel",
+      "title": "52ヘルツのクジラたち",
+      "authorDisplay": "町田そのこ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0hou9i1",
+      "type": "novel",
+      "title": "傲慢と善良",
+      "authorDisplay": "辻村深月",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0skn3fv",
+      "type": "novel",
+      "title": "流浪の月",
+      "authorDisplay": "凪良ゆう",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0wk2z32",
+      "type": "novel",
+      "title": "航路を守れ : バンガードとインデックス革命の物語",
+      "authorDisplay": "John C. Bogle / 石塚順子",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1xilnrz",
+      "type": "novel",
+      "title": "同志少女よ、敵を撃て",
+      "authorDisplay": "逢坂冬馬",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1axyvs3",
+      "type": "novel",
+      "title": "正欲",
+      "authorDisplay": "朝井リョウ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0wafq68",
+      "type": "novel",
+      "title": "かがみの孤城",
+      "authorDisplay": "辻村深月 / 武富智",
+      "status": "unknown",
+      "volumeCount": 2,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "11zhy3t",
+      "type": "novel",
+      "title": "こんなにスゴイ！ 未来のせかい",
+      "authorDisplay": "増田まもる",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる",
+        "世界観重視"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "15h33mf",
+      "type": "novel",
+      "title": "村上春樹が英語で楽しく読める本",
+      "authorDisplay": "村上春樹が英語で楽しく読める本",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0kcnvtk",
+      "type": "novel",
+      "title": "そして、バトンは渡された",
+      "authorDisplay": "瀬尾まいこ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0kx5041",
+      "type": "novel",
+      "title": "ミヒャエル・エンデ『モモ』 2020年8月",
+      "authorDisplay": "河合俊雄",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1pfgqp1",
+      "type": "manga",
+      "title": "マッシュル-MASHLE-",
+      "authorDisplay": "甲本一",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "笑える",
+        "爽快",
+        "熱い",
+        "読みやすい",
+        "一気読み",
+        "明るい",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "軽い",
+        "readingEaseTag": "初心者向け",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "笑いたい人",
+          "バトル好き",
+          "気軽に読みたい人"
+        ]
+      },
+      "_score": 2
+    },
+    {
+      "workId": "0eipjp5",
+      "type": "novel",
+      "title": "かもめ食堂",
+      "authorDisplay": "群ようこ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0hzci2c",
+      "type": "novel",
+      "title": "息吹",
+      "authorDisplay": "Ted Chiang / 大森望",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0r0geso",
+      "type": "novel",
+      "title": "ツナグ",
+      "authorDisplay": "辻村深月",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0mbk7f7",
+      "type": "novel",
+      "title": "蜜蜂と遠雷",
+      "authorDisplay": "恩田陸",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1e2hdq2",
+      "type": "novel",
+      "title": "スロウハイツの神様",
+      "authorDisplay": "桂明日香 / 辻村深月",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0lsm8k4",
+      "type": "novel",
+      "title": "学研の日本文学 太宰治",
+      "authorDisplay": "太宰治",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1qk9so3",
+      "type": "novel",
+      "title": "朝が来る",
+      "authorDisplay": "辻村深月",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0nfoahn",
+      "type": "novel",
+      "title": "日本文学全集.",
+      "authorDisplay": "池沢夏樹",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1xw50s3",
+      "type": "novel",
+      "title": "君の膵臓をたべたい",
+      "authorDisplay": "住野よる",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1lc7xex",
+      "type": "novel",
+      "title": "村上春樹「騎士団長殺し」メッタ斬り！",
+      "authorDisplay": "大森望 / 豊崎由美",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "13wamed",
+      "type": "novel",
+      "title": "西の魔女が死んだ",
+      "authorDisplay": "梨木香歩",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0ias0qn",
+      "type": "novel",
+      "title": "火花",
+      "authorDisplay": "又吉直樹",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0rg3mdi",
+      "type": "novel",
+      "title": "職業としての小説家",
+      "authorDisplay": "村上春樹",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "042lwrh",
+      "type": "novel",
+      "title": "ミハスの落日",
+      "authorDisplay": "貫井徳郎",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "032msvb",
+      "type": "novel",
+      "title": "エジプト十字架の謎",
+      "authorDisplay": "エラリー クイーン",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1qwpben",
+      "type": "novel",
+      "title": "コンビニ人間",
+      "authorDisplay": "村田沙耶香",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0emxg31",
+      "type": "novel",
+      "title": "Ａｎｏｔｈｅｒ　エピソードＳ（角川文庫版）",
+      "authorDisplay": "綾辻　行人",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "00t90sf",
+      "type": "novel",
+      "title": "ツバキ文具店",
+      "authorDisplay": "小川糸",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0hbcs6d",
+      "type": "novel",
+      "title": "鍵のない夢を見る",
+      "authorDisplay": "辻村深月",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0uq8tif",
+      "type": "novel",
+      "title": "実例　大人の基本　手紙書き方大全",
+      "authorDisplay": "中川越",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "10ynw51",
+      "type": "novel",
+      "title": "柔らかい時計",
+      "authorDisplay": "荒巻　義雄",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0wxwwnk",
+      "type": "novel",
+      "title": "たべあるキングが選んだ！東京トレンドグルメ",
+      "authorDisplay": "著者不明",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0zz63zd",
+      "type": "novel",
+      "title": "舟を編む",
+      "authorDisplay": "三浦しをん",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0t1og0z",
+      "type": "novel",
+      "title": "家族シアター",
+      "authorDisplay": "辻村深月",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1ybzqix",
+      "type": "novel",
+      "title": "今すぐ使えるかんたん文庫　ラクして儲ける　ネット副業",
+      "authorDisplay": "リンクアップ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0rwci5n",
+      "type": "novel",
+      "title": "ハケンアニメ！",
+      "authorDisplay": "辻村深月 / ＣＬＡＭＰ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    }
+  ],
+  "candidateCount": 70,
+  "generatedAt": "2026-03-19T10:07:12.442Z"
+}

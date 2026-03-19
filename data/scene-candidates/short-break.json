@@ -1,0 +1,1052 @@
+{
+  "slug": "short-break",
+  "label": "すきま時間",
+  "icon": "⏱️",
+  "description": "5〜15分の合間にサッと読める",
+  "candidates": [
+    {
+      "workId": "1ommpj7",
+      "type": "manga",
+      "title": "女子高生の無駄づかい",
+      "authorDisplay": "ビーノ",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "笑える",
+        "読みやすい",
+        "短編",
+        "明るい",
+        "日常系",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "軽い",
+        "readingEaseTag": "初心者向け",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "笑いたい人",
+          "気軽に読みたい人"
+        ]
+      },
+      "_score": 16
+    },
+    {
+      "workId": "1w14txz",
+      "type": "manga",
+      "title": "あそびあそばせ",
+      "authorDisplay": "涼川りん",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "笑える",
+        "読みやすい",
+        "短編",
+        "明るい",
+        "日常系",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "軽い",
+        "readingEaseTag": "初心者向け",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "笑いたい人",
+          "気軽に読みたい人"
+        ]
+      },
+      "_score": 16
+    },
+    {
+      "workId": "1ggvkxu",
+      "type": "manga",
+      "title": "聖☆おにいさん",
+      "authorDisplay": "中村光",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "笑える",
+        "癒やし",
+        "読みやすい",
+        "短編",
+        "学べる",
+        "明るい",
+        "日常系",
+        "優しい"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "普通",
+        "depthTag": "軽い",
+        "readingEaseTag": "初心者向け",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "宗教・歴史に興味がある人",
+          "気軽に読みたい人",
+          "初心者"
+        ]
+      },
+      "_score": 16
+    },
+    {
+      "workId": "0w6d41j",
+      "type": "manga",
+      "title": "日常",
+      "authorDisplay": "あらゐ　けいいち",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "笑える",
+        "癒やし",
+        "読みやすい",
+        "短編",
+        "明るい",
+        "日常系",
+        "優しい",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "普通",
+        "depthTag": "軽い",
+        "readingEaseTag": "初心者向け",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "笑いたい人",
+          "シュール系が好きな人",
+          "気軽に読みたい人"
+        ]
+      },
+      "_score": 16
+    },
+    {
+      "workId": "1nw7h6q",
+      "type": "manga",
+      "title": "ぐらんぶる",
+      "authorDisplay": "井上堅二 / 吉岡公威",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "笑える",
+        "読みやすい",
+        "一気読み",
+        "明るい",
+        "日常系",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "軽い",
+        "readingEaseTag": "初心者向け",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "笑いたい人",
+          "気軽に読みたい人",
+          "完結作品を求める人"
+        ]
+      },
+      "_score": 13
+    },
+    {
+      "workId": "1hij0bo",
+      "type": "manga",
+      "title": "坂本ですが?",
+      "authorDisplay": "佐野菜見",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "笑える",
+        "読みやすい",
+        "明るい",
+        "日常系",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "軽い",
+        "readingEaseTag": "初心者向け",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "笑いたい人",
+          "気軽に読みたい人"
+        ]
+      },
+      "_score": 13
+    },
+    {
+      "workId": "1pfgqp1",
+      "type": "manga",
+      "title": "マッシュル-MASHLE-",
+      "authorDisplay": "甲本一",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "笑える",
+        "爽快",
+        "熱い",
+        "読みやすい",
+        "一気読み",
+        "明るい",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "軽い",
+        "readingEaseTag": "初心者向け",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "笑いたい人",
+          "バトル好き",
+          "気軽に読みたい人"
+        ]
+      },
+      "_score": 11
+    },
+    {
+      "workId": "1v5wh1g",
+      "type": "manga",
+      "title": "花より男子",
+      "authorDisplay": "神尾葉子",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "心温まる",
+        "熱い",
+        "笑える",
+        "一気読み",
+        "読みやすい",
+        "明るい",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "軽い",
+        "readingEaseTag": "初心者向け",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "恋愛好き",
+          "少女漫画入門",
+          "完結作品を求める人"
+        ]
+      },
+      "_score": 10
+    },
+    {
+      "workId": "1d6gduo",
+      "type": "manga",
+      "title": "君に届け",
+      "authorDisplay": "軽穂·椎名",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "心温まる",
+        "泣ける",
+        "感動",
+        "読みやすい",
+        "一気読み",
+        "明るい",
+        "優しい",
+        "日常系",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "普通",
+        "depthTag": "軽い",
+        "readingEaseTag": "初心者向け",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "恋愛好き",
+          "癒やされたい人",
+          "完結作品を求める人"
+        ]
+      },
+      "_score": 9
+    },
+    {
+      "workId": "0y4fhjr",
+      "type": "novel",
+      "title": "ばんざい！ぼくらのフシギ島",
+      "authorDisplay": "辻堂／ゆめ / 辻堂 ゆめ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "読みやすい",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 4
+    },
+    {
+      "workId": "16pbpb1",
+      "type": "novel",
+      "title": "お隣の天使様にいつの間にか駄目人間にされていた件11",
+      "authorDisplay": "佐伯さん / はねこと",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "読みやすい",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 4
+    },
+    {
+      "workId": "09xky8g",
+      "type": "novel",
+      "title": "明智恭介の奔走 = The Efforts of Akechi Kyosuke",
+      "authorDisplay": "今村昌弘",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "読みやすい",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 4
+    },
+    {
+      "workId": "1leh8hy",
+      "type": "manga",
+      "title": "HUNTER×HUNTER",
+      "authorDisplay": "冨樫義博",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "熱い",
+        "笑える",
+        "感動",
+        "考えさせられる",
+        "一気読み",
+        "バトル"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "普通",
+        "depthTag": "重い",
+        "readingEaseTag": "読みごたえあり",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "考察好き",
+          "頭脳戦が好きな人",
+          "バトル好き"
+        ]
+      },
+      "_score": 4
+    },
+    {
+      "workId": "04nspgx",
+      "type": "novel",
+      "title": "やらなくてもいい宿題",
+      "authorDisplay": "結城／真一郎 / 結城 真一郎",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "読みやすい",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 4
+    },
+    {
+      "workId": "0o308qk",
+      "type": "novel",
+      "title": "七十四秒の旋律と孤独",
+      "authorDisplay": "久永実木彦",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "読みやすい",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 4
+    },
+    {
+      "workId": "0fthrvf",
+      "type": "novel",
+      "title": "お隣の天使様にいつの間にか駄目人間にされていた件",
+      "authorDisplay": "佐伯さん",
+      "status": "unknown",
+      "volumeCount": 2,
+      "discoveryTags": [
+        "読みやすい",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 4
+    },
+    {
+      "workId": "0n3gig2",
+      "type": "novel",
+      "title": "ＧＡ文庫１５周年　人気作品増量試読合本",
+      "authorDisplay": "佐伯さん / 海空りく / 徳山銀次郎 / 望公太 / 蝸牛くも",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "読みやすい",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 4
+    },
+    {
+      "workId": "13ar4t7",
+      "type": "novel",
+      "title": "ＧＡ文庫＆ＧＡノベル２０２０年９月の新刊　全作品立読み（合本版）",
+      "authorDisplay": "進行諸島 / あわむら赤光 / 佐伯さん / 裕時悠示 / 海空りく",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "読みやすい",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 4
+    },
+    {
+      "workId": "1iwuvou",
+      "type": "novel",
+      "title": "ＧＡ文庫＆ＧＡノベル２０２０年３月の新刊　全作品立読み（合本版）",
+      "authorDisplay": "明月千里 / 三門鉄狼 / 九頭七尾 / 三木なずな / 三河ごーすと",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "読みやすい",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 4
+    },
+    {
+      "workId": "1apy1lb",
+      "type": "novel",
+      "title": "ＧＡ文庫＆ＧＡノベル２０２０年２月の新刊　全作品立読み（合本版）",
+      "authorDisplay": "あわむら赤光 / みかみてれん / ケンノジ / 葉月双 / 中村ヒロ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "読みやすい",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 4
+    },
+    {
+      "workId": "0h7jr83",
+      "type": "manga",
+      "title": "サラリーマン金太郎",
+      "authorDisplay": "本宮ひろ志",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "熱い",
+        "爽快",
+        "前向き",
+        "やる気が出る",
+        "明るい",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "仕事に役立つ漫画が好きな人",
+          "熱い物語が好きな人"
+        ]
+      },
+      "_score": 4
+    },
+    {
+      "workId": "0flwohs",
+      "type": "manga",
+      "title": "炎炎ノ消防隊",
+      "authorDisplay": "大久保篤",
+      "status": "completed",
+      "volumeCount": 2,
+      "discoveryTags": [
+        "熱い",
+        "爽快",
+        "感動",
+        "一気読み",
+        "バトル",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "バトル好き",
+          "完結作品を求める人"
+        ]
+      },
+      "_score": 3
+    },
+    {
+      "workId": "0ww23g7",
+      "type": "manga",
+      "title": "アオアシ",
+      "authorDisplay": "小林有吾",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "熱い",
+        "感動",
+        "前向き",
+        "やる気が出る",
+        "学べる",
+        "一気読み",
+        "明るい",
+        "バトル"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "スポーツ漫画好き",
+          "成長物語が好きな人",
+          "サッカーに興味ある人"
+        ]
+      },
+      "_score": 3
+    },
+    {
+      "workId": "0ongav2",
+      "type": "manga",
+      "title": "ダイヤのA (エース)",
+      "authorDisplay": "寺嶋裕二",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "熱い",
+        "感動",
+        "やる気が出る",
+        "一気読み",
+        "明るい",
+        "バトル"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "スポーツ漫画好き",
+          "熱い物語が好きな人"
+        ]
+      },
+      "_score": 3
+    },
+    {
+      "workId": "1g80cfq",
+      "type": "manga",
+      "title": "ミハルの戦場",
+      "authorDisplay": "",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0le0pd2",
+      "type": "manga",
+      "title": "3月のライオン",
+      "authorDisplay": "羽海野チカ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "156varz",
+      "type": "manga",
+      "title": "ブルーロック",
+      "authorDisplay": "金城宗幸 / ノ村優介",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "04xy653",
+      "type": "manga",
+      "title": "SAKAMOTO DAYS",
+      "authorDisplay": "鈴木祐斗",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1ex4mx5",
+      "type": "manga",
+      "title": "ホタルの嫁入り",
+      "authorDisplay": "橘オレコ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "04yqn9l",
+      "type": "manga",
+      "title": "見える子ちゃん",
+      "authorDisplay": "泉　朝樹",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1tiyla2",
+      "type": "manga",
+      "title": "地雷グリコ",
+      "authorDisplay": "暁月あきら / 青崎有吾",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0jrh2b1",
+      "type": "manga",
+      "title": "メダリスト",
+      "authorDisplay": "つるまいかだ",
+      "status": "unknown",
+      "volumeCount": 2,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0buddm6",
+      "type": "manga",
+      "title": "推しに執着されすぎて困ってます! = I'm in trouble because my oshi is attached to me too much! : ～異世界転生のち、ハッピーエンド!～アンソロジーコミック",
+      "authorDisplay": "七尾美緒 / 菊乃杏 / 朱音りか",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1ns9zdj",
+      "type": "manga",
+      "title": "勇気爆発バーンブレイバーンアンソロジーコミックBRAVE",
+      "authorDisplay": "Cygames",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0zjxbyj",
+      "type": "manga",
+      "title": "漫画ビジネス",
+      "authorDisplay": "菊池健",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "18m32mn",
+      "type": "manga",
+      "title": "薬屋のひとりごと",
+      "authorDisplay": "日向夏 / ねこクラゲ / 七緒一綺",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "03w73fz",
+      "type": "manga",
+      "title": "ケンガンオメガ",
+      "authorDisplay": "",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "154nqi5",
+      "type": "manga",
+      "title": "葬送のフリーレン",
+      "authorDisplay": "山田鐘人 / アベツカサ / 「葬送のフリーレン」製作委員会",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "083nzfp",
+      "type": "manga",
+      "title": "魔女と傭兵",
+      "authorDisplay": "宮木真人 / 超法規的かえる / 叶世べんち",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1f37pat",
+      "type": "manga",
+      "title": "トリリオンゲーム",
+      "authorDisplay": "稲垣理一郎 / 池上遼一",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0ohwdup",
+      "type": "manga",
+      "title": "ふつうの軽音部",
+      "authorDisplay": "クワハリ / 出内テツオ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "02u9d70",
+      "type": "manga",
+      "title": "カグラバチ",
+      "authorDisplay": "外薗健",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1g5pkhp",
+      "type": "manga",
+      "title": "ツーオンアイス",
+      "authorDisplay": "逸茂エルク",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "14osl1d",
+      "type": "manga",
+      "title": "大ダーク",
+      "authorDisplay": "林田球",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "070uee3",
+      "type": "manga",
+      "title": "黄泉のツガイ",
+      "authorDisplay": "荒川弘",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1rzlmf4",
+      "type": "manga",
+      "title": "お兄ちゃんはおしまい!公式アンソロジーコミック",
+      "authorDisplay": "アンソロジー",
+      "status": "unknown",
+      "volumeCount": 2,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "151yuzi",
+      "type": "manga",
+      "title": "少女Null",
+      "authorDisplay": "中西鼎 / あきま",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0w0v2za",
+      "type": "manga",
+      "title": "アイスヘッドギル",
+      "authorDisplay": "蜂矢育生",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1j08mn2",
+      "type": "manga",
+      "title": "サチ録～サチの黙示録～",
+      "authorDisplay": "茶んた",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0cglj9j",
+      "type": "manga",
+      "title": "恋せよまやかし天使ども",
+      "authorDisplay": "卯月ココ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "17wx65z",
+      "type": "manga",
+      "title": "舞妓さんちのまかないさん",
+      "authorDisplay": "小山愛子",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1dj054h",
+      "type": "manga",
+      "title": "マイホームヒーロー　１～３巻お買い得パック",
+      "authorDisplay": "山川直輝 / 朝基まさし",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0nhekvg",
+      "type": "manga",
+      "title": "ドリトライ",
+      "authorDisplay": "雲母坂盾 / 成田龍一",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1gbb0ny",
+      "type": "manga",
+      "title": "テンマクキネマ",
+      "authorDisplay": "附田祐斗 / 佐伯俊",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0qcm524",
+      "type": "manga",
+      "title": "青の祓魔師",
+      "authorDisplay": "加藤和恵",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "17xlqsc",
+      "type": "manga",
+      "title": "ダイヤモンドの功罪",
+      "authorDisplay": "平井大橋",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0crxgfo",
+      "type": "manga",
+      "title": "とんがり帽子のアトリエ",
+      "authorDisplay": "白浜鴎",
+      "status": "unknown",
+      "volumeCount": 2,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0fy8yk0",
+      "type": "manga",
+      "title": "アオのハコ",
+      "authorDisplay": "三浦糀",
+      "status": "unknown",
+      "volumeCount": 2,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "08tvese",
+      "type": "manga",
+      "title": "怪獣8号",
+      "authorDisplay": "松本直也",
+      "status": "unknown",
+      "volumeCount": 2,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0gkuqva",
+      "type": "manga",
+      "title": "幼稚園WARS",
+      "authorDisplay": "千葉侑生",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0cpz753",
+      "type": "manga",
+      "title": "魔実子さんが許さない",
+      "authorDisplay": "高橋葉介",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0cw9obp",
+      "type": "manga",
+      "title": "スーパーボールガールズ",
+      "authorDisplay": "金城宗幸 / 平本アキラ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0vglb3m",
+      "type": "manga",
+      "title": "君と宇宙を歩くために",
+      "authorDisplay": "泥ノ田犬彦",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1pf3a0b",
+      "type": "manga",
+      "title": "平和の国の島崎へ",
+      "authorDisplay": "瀬下猛 / 濱田轟天",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1mij6pm",
+      "type": "manga",
+      "title": "終末のワルキューレ",
+      "authorDisplay": "アジチカ / 梅村真也 / フクイタクミ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1dyn2vg",
+      "type": "manga",
+      "title": "ガンニバル１～３巻スペシャルプライスパック",
+      "authorDisplay": "二宮 正明 / 二宮正明",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1scemxl",
+      "type": "manga",
+      "title": "異世界ありがとう",
+      "authorDisplay": "荒井小豆 / ジアナズ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1w6o1h5",
+      "type": "manga",
+      "title": "サンダー３",
+      "authorDisplay": "池田祐輝",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1yyuoci",
+      "type": "manga",
+      "title": "ルリドラゴン",
+      "authorDisplay": "眞藤雅興",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1bisyg8",
+      "type": "manga",
+      "title": "ダンダダン",
+      "authorDisplay": "龍幸伸",
+      "status": "unknown",
+      "volumeCount": 2,
+      "discoveryTags": [],
+      "discoveryAttributes": {},
+      "_score": 2
+    }
+  ],
+  "candidateCount": 70,
+  "generatedAt": "2026-03-19T10:07:12.451Z"
+}
