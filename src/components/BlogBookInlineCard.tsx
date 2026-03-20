@@ -12,6 +12,7 @@ type BlogLinkedBook = {
   sourceIds?: {
     googleBooksId?: string;
   };
+  workId?: string;
 };
 
 export default function BlogBookInlineCard({ book }: { book: BlogLinkedBook }) {
@@ -64,14 +65,16 @@ export default function BlogBookInlineCard({ book }: { book: BlogLinkedBook }) {
           </div>
         </div>
 
-        <div className="flex flex-col gap-2 shrink-0">
-          <Link
-            href={`/books/${encodeURIComponent(book.id)}`}
-            className="inline-flex items-center justify-center rounded-lg bg-amber-500 px-3 py-2 text-xs font-semibold text-white hover:bg-amber-600 transition-colors whitespace-nowrap"
-          >
-            詳細を見る
-          </Link>
-        </div>
+        {book.workId && (
+          <div className="flex flex-col gap-2 shrink-0">
+            <Link
+              href={`/works/${book.workId}`}
+              className="inline-flex items-center justify-center rounded-lg bg-amber-500 px-3 py-2 text-xs font-semibold text-white hover:bg-amber-600 transition-colors whitespace-nowrap"
+            >
+              詳細を見る
+            </Link>
+          </div>
+        )}
       </div>
     </div>
   );

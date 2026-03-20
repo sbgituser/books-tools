@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync } from "fs";
+import { readdirSync } from "fs";
 import { join } from "path";
 import type { MetadataRoute } from "next";
 import { getAllBlogMeta } from "@/lib/blog";
@@ -8,11 +8,6 @@ import { PRESET_SEARCHES } from "@/constants/bookTags";
 
 export const dynamic = "force-static";
 
-function getAllBookIds(): string[] {
-  const path = join(process.cwd(), "src/data/books.index.json");
-  const books = JSON.parse(readFileSync(path, "utf-8")) as { id: string }[];
-  return books.map((b) => b.id);
-}
 
 function getAllWorkFileIds(): string[] {
   try {
@@ -73,14 +68,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  const bookRoutes: MetadataRoute.Sitemap = getAllBookIds().map((id) => ({
-    url: `${SITE_URL}/books/${encodeURIComponent(id)}`,
-    lastModified: now,
-    changeFrequency: "monthly",
-    priority: 0.5,
-  }));
-
-  const workRoutes: MetadataRoute.Sitemap = getAllWorkFileIds().map((fileId) => ({
+const workRoutes: MetadataRoute.Sitemap = getAllWorkFileIds().map((fileId) => ({
     url: `${SITE_URL}/works/${fileId}`,
     lastModified: now,
     changeFrequency: "monthly",
@@ -115,7 +103,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...mangaMoodRoutes,
     ...workRoutes,
     ...blogRoutes,
-    ...bookRoutes,
   ];
 }
 

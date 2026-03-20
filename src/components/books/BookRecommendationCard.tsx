@@ -222,12 +222,6 @@ export default function BookRecommendationCard({
 
         {/* CTA */}
         <div className="flex flex-wrap items-center gap-3 mt-auto">
-          <Link
-            href={`/books/${book.id}`}
-            className="text-xs text-rose-600 font-semibold hover:underline"
-          >
-            詳細を見る →
-          </Link>
           <a
             href={amazonUrl}
             target="_blank"

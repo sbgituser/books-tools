@@ -153,18 +153,6 @@ function SearchResultCard({
           >
             条件一致で探す →
           </button>
-          <Link
-            href="/tools/adaptation-originals"
-            onClick={() => trackRelatedToolClicked({
-              tool: "adaptation_originals",
-              bookId: entry.id,
-              bookTitle: entry.title,
-              source: "search_result",
-            })}
-            className="text-xs text-stone-500 hover:text-amber-700 hover:underline"
-          >
-            映像化を調べる
-          </Link>
         </div>
       </div>
     </article>
@@ -708,9 +696,6 @@ function SearchPageInner() {
                   </Link>
                   <Link href="/tools/book-compare" className="text-sm text-amber-700 font-semibold hover:underline">
                     条件一致で探す →
-                  </Link>
-                  <Link href="/tools/adaptation-originals" className="text-sm text-amber-700 font-semibold hover:underline">
-                    映像化作品から探す →
                   </Link>
                 </div>
               </div>

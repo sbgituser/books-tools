@@ -10,17 +10,41 @@ type IndexedBook = {
   sourceIds?: {
     googleBooksId?: string;
   };
+  workId?: string;
+};
+
+type WorkListEntry = {
+  workId: string;
+  title: string;
+  authorDisplay: string;
 };
 
 type BookLookupCache = {
   byNormalizedTitle: Map<string, IndexedBook[]>;
   allBooks: IndexedBook[];
+  worksByNormalizedTitle: Map<string, string>; // normalizedTitle -> workId
 };
 
 const BOOK_INDEX_PATH = path.join(process.cwd(), "src", "data", "books.index.json");
+const WORKS_LIST_PATH = path.join(process.cwd(), "public", "data", "works-list.json");
 
 let cache: BookLookupCache | null = null;
 let cacheMtimeMs = -1;
+
+function loadWorksIndex(): Map<string, string> {
+  try {
+    const raw = fs.readFileSync(WORKS_LIST_PATH, "utf-8");
+    const works = JSON.parse(raw) as WorkListEntry[];
+    const map = new Map<string, string>();
+    for (const w of works) {
+      const key = normalizeText(w.title ?? "");
+      if (key && !map.has(key)) map.set(key, w.workId);
+    }
+    return map;
+  } catch {
+    return new Map();
+  }
+}
 
 function normalizeText(value: string): string {
   return value
@@ -77,7 +101,7 @@ function getCache(): BookLookupCache {
     byNormalizedTitle.set(key, list);
   }
 
-  cache = { byNormalizedTitle, allBooks: books };
+  cache = { byNormalizedTitle, allBooks: books, worksByNormalizedTitle: loadWorksIndex() };
   cacheMtimeMs = stat.mtimeMs;
   return cache;
 }
@@ -124,8 +148,23 @@ function fallbackFindBySimilarTitle(
   return best?.book ?? null;
 }
 
+function attachWorkId(book: IndexedBook, worksByNormalizedTitle: Map<string, string>): IndexedBook {
+  const key = normalizeText(book.title ?? "");
+  const workId = worksByNormalizedTitle.get(key) ?? undefined;
+  if (!workId) {
+    // partial match fallback
+    for (const [wKey, wId] of worksByNormalizedTitle) {
+      if (key && wKey && (key.includes(wKey) || wKey.includes(key))) {
+        return { ...book, workId: wId };
+      }
+    }
+    return book;
+  }
+  return { ...book, workId };
+}
+
 export function findBookByHeadingText(headingText: string): IndexedBook | null {
-  const { byNormalizedTitle, allBooks } = getCache();
+  const { byNormalizedTitle, allBooks, worksByNormalizedTitle } = getCache();
   const { title, author } = extractHeadingParts(headingText);
   if (!title) return null;
 
@@ -134,10 +173,11 @@ export function findBookByHeadingText(headingText: string): IndexedBook | null {
 
   const matches = byNormalizedTitle.get(titleKey) ?? [];
   if (matches.length === 0) {
-    return fallbackFindBySimilarTitle(allBooks, title, author);
+    const found = fallbackFindBySimilarTitle(allBooks, title, author);
+    return found ? attachWorkId(found, worksByNormalizedTitle) : null;
   }
 
-  if (!author) return matches[0] ?? null;
+  if (!author) return attachWorkId(matches[0] ?? null!, worksByNormalizedTitle);
 
   const authorTokens = splitAuthorTokens(author);
   const authorMatched = matches.find((book) => {
@@ -148,7 +188,8 @@ export function findBookByHeadingText(headingText: string): IndexedBook | null {
     );
   });
 
-  return authorMatched ?? matches[0] ?? fallbackFindBySimilarTitle(allBooks, title, author);
+  const book = authorMatched ?? matches[0] ?? fallbackFindBySimilarTitle(allBooks, title, author);
+  return book ? attachWorkId(book, worksByNormalizedTitle) : null;
 }
 
 export function resolveBlogBookThumbnail(book: IndexedBook): string | null {
