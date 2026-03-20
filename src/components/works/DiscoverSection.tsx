@@ -1,250 +1,219 @@
 "use client";
 
+/**
+ * DiscoverSection.tsx
+ *
+ * 「発見する」ページのメインUI。
+ *
+ * 流れ:
+ *   1. ムード選択（8つの読書気分カード）
+ *   2. AI選書（curated）表示 ← 主役
+ *   3. 「全作品を見る」— 補助導線
+ *
+ * curated データは選択時に /data/discover-curated/{slug}.json を fetch する。
+ * curated が未生成のムードは全件一覧で表示する。
+ */
+
 import { useState, useEffect, useCallback } from "react";
 import WorkCard from "./WorkCard";
+import CuratedDiscoverView from "./CuratedDiscoverView";
+import { DISCOVER_MOODS } from "@/constants/discoverMoods";
 import type { WorkListItem, DiscoveryIndex } from "@/types/work";
+import type { DiscoverCurated } from "@/types/discover-curated";
 
-// ── 表示順序つきタグ定義 ─────────────────────────────────────────
+// ── 型 ────────────────────────────────────────────────────────────
 
-const TAG_DISPLAY_ORDER = [
-  { tag: "泣ける", icon: "😢" },
-  { tag: "感動", icon: "🥺" },
-  { tag: "切ない", icon: "💔" },
-  { tag: "熱い", icon: "🔥" },
-  { tag: "爽快", icon: "⚡" },
-  { tag: "笑える", icon: "😄" },
-  { tag: "癒やし", icon: "🌿" },
-  { tag: "怖い", icon: "👻" },
-  { tag: "ダーク", icon: "🌑" },
-  { tag: "前向き", icon: "☀️" },
-  { tag: "心温まる", icon: "💕" },
-  { tag: "考えさせられる", icon: "🧠" },
-  { tag: "知的", icon: "🔬" },
-  { tag: "一気読み", icon: "📖" },
-  { tag: "読みやすい", icon: "😌" },
-  { tag: "世界観重視", icon: "🌍" },
-  { tag: "やる気が出る", icon: "🚀" },
-  { tag: "日常系", icon: "🏡" },
-  { tag: "ファンタジー", icon: "🦄" },
-  { tag: "バトル", icon: "⚔️" },
-  { tag: "深い", icon: "🗿" },
-  { tag: "明るい", icon: "🌟" },
-  { tag: "穏やか", icon: "🍃" },
-  { tag: "完結", icon: "✅" },
-];
+type LoadState = "idle" | "loading" | "loaded" | "error";
 
-function getTagIcon(tag: string): string {
-  return TAG_DISPLAY_ORDER.find((t) => t.tag === tag)?.icon ?? "✦";
-}
+// ── メインコンポーネント ──────────────────────────────────────────
 
-const PAGE_SIZE = 12;
+export default function DiscoverSection() {
+  // 選択中のムード slug
+  const [selectedSlug, setSelectedSlug] = useState<string | null>(null);
 
-interface Props {
-  /** 絞り込むタイプ。undefined = 全て */
-  defaultType?: "manga" | "novel";
-}
-
-export default function DiscoverSection({ defaultType }: Props) {
+  // discovery-index (全件一覧 + タグ → workIds)
   const [index, setIndex] = useState<DiscoveryIndex | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [selectedTag, setSelectedTag] = useState<string | null>(null);
-  const [typeFilter, setTypeFilter] = useState<"all" | "manga" | "novel">(
-    defaultType ?? "all"
-  );
-  const [page, setPage] = useState(1);
 
-  // URL クエリパラメータ（?tag=xxx&type=manga）を初期値に反映
+  // AI選書データ (slug → DiscoverCurated)
+  const [curatedCache, setCuratedCache] = useState<Map<string, DiscoverCurated | null>>(new Map());
+  const [curatedState, setCuratedState] = useState<LoadState>("idle");
+
+  // 全件一覧表示フラグ
+  const [showAll, setShowAll] = useState(false);
+
+  // URL クエリ初期値
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
-    const tag = params.get("tag");
-    const type = params.get("type") as "manga" | "novel" | null;
-    if (tag) setSelectedTag(tag);
-    if (type === "manga" || type === "novel") setTypeFilter(type);
+    const mood = params.get("mood");
+    if (mood && DISCOVER_MOODS.some((m) => m.slug === mood)) {
+      setSelectedSlug(mood);
+    }
   }, []);
 
-  // discovery-index.json をフェッチ
+  // discovery-index fetch（全件一覧用）
   useEffect(() => {
     fetch("/data/discovery-index.json")
       .then((r) => r.json())
-      .then((data: DiscoveryIndex) => {
-        setIndex(data);
-        setLoading(false);
-      })
-      .catch(() => setLoading(false));
+      .then((data: DiscoveryIndex) => setIndex(data))
+      .catch(() => {/* silently fail — curated view works without it */});
   }, []);
 
-  // フィルタリングされた作品一覧
-  const filtered: WorkListItem[] = (() => {
-    if (!index) return [];
-    let works = Object.values(index.works);
-    if (typeFilter !== "all") works = works.filter((w) => w.type === typeFilter);
-    if (selectedTag) {
-      const ids = new Set(index.tagIndex[selectedTag] ?? []);
-      works = works.filter((w) => ids.has(w.workId));
+  // ムード選択時に curated JSON を fetch
+  useEffect(() => {
+    if (!selectedSlug) return;
+    if (curatedCache.has(selectedSlug)) return; // キャッシュ済み
+
+    setCuratedState("loading");
+    fetch(`/data/discover-curated/${selectedSlug}.json`)
+      .then((r) => {
+        if (!r.ok) throw new Error("not found");
+        return r.json() as Promise<DiscoverCurated>;
+      })
+      .then((data) => {
+        setCuratedCache((prev) => new Map(prev).set(selectedSlug, data));
+        setCuratedState("loaded");
+      })
+      .catch(() => {
+        // curated データなし → null をキャッシュして全件一覧にフォールバック
+        setCuratedCache((prev) => new Map(prev).set(selectedSlug, null));
+        setCuratedState("error");
+      });
+  }, [selectedSlug, curatedCache]);
+
+  // ムード選択ハンドラー
+  const handleSelectMood = useCallback((slug: string) => {
+    if (selectedSlug === slug) {
+      // 同じムードを再クリック → 解除
+      setSelectedSlug(null);
+      setShowAll(false);
+      return;
     }
-    return works;
+    setSelectedSlug(slug);
+    setShowAll(false);
+  }, [selectedSlug]);
+
+  // 選択中ムードのデータ
+  const selectedMood = DISCOVER_MOODS.find((m) => m.slug === selectedSlug) ?? null;
+  const curatedData = selectedSlug ? (curatedCache.get(selectedSlug) ?? null) : null;
+
+  // 全件一覧: 選択ムードのタグに合致する作品
+  const allFiltered: WorkListItem[] = (() => {
+    if (!index || !selectedMood) return [];
+    const matchedIds = new Set<string>();
+    for (const tag of selectedMood.tags) {
+      for (const id of index.tagIndex[tag] ?? []) {
+        matchedIds.add(id);
+      }
+    }
+    return Object.values(index.works).filter((w) => matchedIds.has(w.workId));
   })();
 
-  const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
-  const currentPage = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
-
-  const handleTagClick = useCallback(
-    (tag: string) => {
-      setSelectedTag((prev) => (prev === tag ? null : tag));
-      setPage(1);
-    },
-    []
+  // curated 用 workMap
+  const workMap = new Map<string, WorkListItem>(
+    allFiltered.map((w) => [w.workId, w])
   );
-
-  const handleTypeChange = useCallback((type: "all" | "manga" | "novel") => {
-    setTypeFilter(type);
-    setPage(1);
-  }, []);
-
-  if (loading) {
-    return (
-      <div className="flex items-center justify-center py-16">
-        <div className="text-stone-400 text-sm">読み込み中...</div>
-      </div>
-    );
-  }
-
-  if (!index) {
-    return (
-      <div className="text-center py-12 text-stone-400 text-sm">
-        データを読み込めませんでした
-      </div>
-    );
-  }
-
-  // 表示するタグ：定義順 → それ以外のタグ（カウント降順）
-  const orderedTags: string[] = [
-    ...TAG_DISPLAY_ORDER.map((t) => t.tag).filter((t) => index.availableTags.includes(t)),
-    ...index.availableTags.filter((t) => !TAG_DISPLAY_ORDER.some((d) => d.tag === t)),
-  ];
 
   return (
     <div>
-      {/* タイプ切り替え */}
-      <div className="flex gap-2 mb-6">
-        {(["all", "manga", "novel"] as const).map((t) => (
-          <button
-            key={t}
-            onClick={() => handleTypeChange(t)}
-            className={`px-4 py-2 rounded-full text-sm font-bold transition-all ${
-              typeFilter === t
-                ? "bg-rose-500 text-white shadow-sm"
-                : "bg-stone-100 text-stone-600 hover:bg-stone-200"
-            }`}
-          >
-            {t === "all" ? "すべて" : t === "manga" ? "📖 漫画" : "📕 小説"}
-          </button>
-        ))}
-      </div>
-
-      {/* タグパネル */}
+      {/* ── ムード選択グリッド ── */}
       <div className="mb-8">
-        <p className="text-xs font-semibold text-stone-400 uppercase tracking-wider mb-3">
-          気分・雰囲気で絞り込む
+        <p className="text-xs font-semibold text-stone-400 uppercase tracking-wider mb-4">
+          今の気分を選ぶ
         </p>
-        <div className="flex flex-wrap gap-2">
-          {orderedTags.map((tag) => {
-            const tagIds = index.tagIndex[tag] ?? [];
-            const count = typeFilter === "all"
-              ? tagIds.length
-              : tagIds.filter((id) => index.works[id]?.type === typeFilter).length;
-            const isSelected = selectedTag === tag;
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          {DISCOVER_MOODS.map((mood) => {
+            const isSelected = selectedSlug === mood.slug;
             return (
               <button
-                key={tag}
-                onClick={() => handleTagClick(tag)}
-                className={`flex items-center gap-1.5 px-3 py-2 rounded-full text-sm font-semibold transition-all ${
+                key={mood.slug}
+                onClick={() => handleSelectMood(mood.slug)}
+                className={`flex flex-col items-center gap-2 px-3 py-4 rounded-2xl text-center transition-all ${
                   isSelected
                     ? "bg-rose-500 text-white shadow-md scale-105"
-                    : "bg-white border border-stone-200 text-stone-700 hover:border-rose-400 hover:text-rose-700 hover:shadow-sm"
+                    : "bg-white border border-stone-200 text-stone-700 hover:border-rose-300 hover:shadow-sm hover:scale-102"
                 }`}
               >
-                <span aria-hidden="true">{getTagIcon(tag)}</span>
-                <span>{tag}</span>
-                <span
-                  className={`text-xs px-1.5 py-0.5 rounded-full ${
-                    isSelected ? "bg-white/30 text-white" : "bg-stone-100 text-stone-400"
-                  }`}
-                >
-                  {count}
+                <span className="text-2xl" aria-hidden="true">{mood.icon}</span>
+                <span className="text-sm font-bold leading-tight">{mood.label}</span>
+                <span className={`text-xs leading-tight ${isSelected ? "text-rose-100" : "text-stone-400"}`}>
+                  {mood.description}
                 </span>
               </button>
             );
           })}
         </div>
 
-        {selectedTag && (
-          <div className="mt-3 flex items-center gap-3">
-            <span className="text-sm text-stone-600">
-              <span className="font-bold text-rose-600">「{selectedTag}」</span>
-              の作品{" "}
-              <span className="font-bold">{filtered.length}件</span>
-            </span>
+        {selectedMood && (
+          <div className="mt-3 flex justify-center">
             <button
-              onClick={() => { setSelectedTag(null); setPage(1); }}
+              onClick={() => { setSelectedSlug(null); setShowAll(false); }}
               className="text-xs text-stone-400 hover:text-stone-600 underline"
             >
-              絞り込みをクリア
+              選択を解除する
             </button>
           </div>
         )}
       </div>
 
-      {/* 作品グリッド */}
-      {currentPage.length === 0 ? (
+      {/* ── 選択なし: ガイドテキスト ── */}
+      {!selectedSlug && (
         <div className="text-center py-16 text-stone-400">
-          <p className="text-4xl mb-3">🔍</p>
-          <p className="text-sm">条件に合う作品が見つかりませんでした</p>
-          {selectedTag && (
-            <button
-              onClick={() => setSelectedTag(null)}
-              className="mt-3 text-sm text-rose-500 hover:underline"
-            >
-              絞り込みをクリア
-            </button>
+          <p className="text-4xl mb-4">📚</p>
+          <p className="text-base font-medium text-stone-500 mb-2">
+            今の気分を選ぶと、おすすめの本を手渡しします。
+          </p>
+          <p className="text-sm">
+            ランキングではなく、「こんな人に」という選書です。
+          </p>
+        </div>
+      )}
+
+      {/* ── 選択済み: curated / ローディング / 全件 ── */}
+      {selectedSlug && (
+        <div>
+          {curatedState === "loading" ? (
+            <div className="flex items-center justify-center py-16">
+              <div className="text-stone-400 text-sm">選書中...</div>
+            </div>
+          ) : curatedData !== null && !showAll ? (
+            /* ── AI選書ビュー（主役） ── */
+            <CuratedDiscoverView
+              curated={curatedData}
+              workMap={workMap}
+              allCount={allFiltered.length}
+              onShowAll={() => setShowAll(true)}
+            />
+          ) : (
+            /* ── 全件一覧（補助 or curated未生成時のフォールバック） ── */
+            <>
+              {curatedData !== null && (
+                <div className="mb-6 flex items-center justify-between">
+                  <p className="text-sm text-stone-500">
+                    <span className="font-bold text-stone-700">{allFiltered.length}件</span> の候補作品
+                  </p>
+                  <button
+                    onClick={() => setShowAll(false)}
+                    className="text-xs text-rose-500 hover:underline"
+                  >
+                    ← 選書に戻る
+                  </button>
+                </div>
+              )}
+              {allFiltered.length === 0 ? (
+                <div className="text-center py-16 text-stone-400">
+                  <p className="text-4xl mb-3">🔍</p>
+                  <p className="text-sm">この気分に合う作品は準備中です</p>
+                </div>
+              ) : (
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+                  {allFiltered.map((work) => (
+                    <WorkCard key={work.workId} work={work} />
+                  ))}
+                </div>
+              )}
+            </>
           )}
         </div>
-      ) : (
-        <>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
-            {currentPage.map((work) => (
-              <WorkCard
-                key={work.workId}
-                work={work}
-                highlightTags={selectedTag ? [selectedTag] : []}
-              />
-            ))}
-          </div>
-
-          {/* ページネーション */}
-          {totalPages > 1 && (
-            <div className="mt-10 flex items-center justify-center gap-2">
-              <button
-                onClick={() => setPage((p) => Math.max(1, p - 1))}
-                disabled={page === 1}
-                className="px-4 py-2 rounded-lg text-sm border border-stone-200 text-stone-600 hover:border-rose-400 hover:text-rose-600 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
-              >
-                ← 前へ
-              </button>
-              <span className="text-sm text-stone-500">
-                {page} / {totalPages}
-                <span className="ml-2 text-stone-400">({filtered.length}件)</span>
-              </span>
-              <button
-                onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
-                disabled={page === totalPages}
-                className="px-4 py-2 rounded-lg text-sm border border-stone-200 text-stone-600 hover:border-rose-400 hover:text-rose-600 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
-              >
-                次へ →
-              </button>
-            </div>
-          )}
-        </>
       )}
     </div>
   );

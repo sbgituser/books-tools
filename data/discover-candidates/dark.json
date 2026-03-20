@@ -1,0 +1,1054 @@
+{
+  "axis": "mood",
+  "slug": "dark",
+  "label": "ダークな世界を覗きたい",
+  "icon": "🌑",
+  "description": "重く・暗く・ぞくりとする作品を",
+  "matchingTags": [
+    "ダーク",
+    "怖い",
+    "絶望",
+    "深い"
+  ],
+  "candidates": [
+    {
+      "workId": "1f66m5e",
+      "type": "manga",
+      "title": "MONSTER",
+      "authorDisplay": "浦沢直樹",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "絶望",
+        "怖い",
+        "感動",
+        "世界観重視",
+        "考えさせられる",
+        "ダーク",
+        "バトル",
+        "深い",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "遅い",
+        "depthTag": "重い",
+        "readingEaseTag": "読みごたえあり",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "重い物語が好きな人",
+          "考察好き",
+          "大人向け漫画を求める人"
+        ]
+      },
+      "_score": 8
+    },
+    {
+      "workId": "1m22mge",
+      "type": "manga",
+      "title": "DEATH NOTE",
+      "authorDisplay": "大場つぐみ / 小畑健",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "怖い",
+        "絶望",
+        "考えさせられる",
+        "一気読み",
+        "ダーク",
+        "バトル",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "普通",
+        "depthTag": "重い",
+        "readingEaseTag": "普通",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "考察好き",
+          "頭脳戦が好きな人",
+          "完結作品を求める人"
+        ]
+      },
+      "_score": 7
+    },
+    {
+      "workId": "1luxqnu",
+      "type": "manga",
+      "title": "GANTZ カラー版 ゆびわ星人編＆小島多恵編",
+      "authorDisplay": "奥浩哉",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "絶望",
+        "怖い",
+        "一気読み",
+        "ダーク",
+        "バトル",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "ダーク系OK",
+          "バトル好き",
+          "完結作品を求める人"
+        ]
+      },
+      "_score": 7
+    },
+    {
+      "workId": "0cibc53",
+      "type": "manga",
+      "title": "20世紀少年",
+      "authorDisplay": "浦沢直樹",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "泣ける",
+        "絶望",
+        "世界観重視",
+        "考えさせられる",
+        "ダーク",
+        "バトル",
+        "深い",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "遅い",
+        "depthTag": "重い",
+        "readingEaseTag": "読みごたえあり",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "大人向け漫画を求める人",
+          "考察好き",
+          "SF好き"
+        ]
+      },
+      "_score": 6
+    },
+    {
+      "workId": "0dzyojj",
+      "type": "manga",
+      "title": "ベルセルク",
+      "authorDisplay": "三浦建太郎",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "絶望",
+        "熱い",
+        "感動",
+        "世界観重視",
+        "考えさせられる",
+        "ダーク",
+        "深い",
+        "バトル"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "遅い",
+        "depthTag": "重い",
+        "readingEaseTag": "読みごたえあり",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "ダーク系OK",
+          "大人向け漫画を求める人",
+          "重い物語が好きな人"
+        ]
+      },
+      "_score": 6
+    },
+    {
+      "workId": "0zni0pn",
+      "type": "manga",
+      "title": "進撃の巨人",
+      "authorDisplay": "諫山創",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "絶望",
+        "泣ける",
+        "熱い",
+        "感動",
+        "考えさせられる",
+        "世界観重視",
+        "ダーク",
+        "バトル",
+        "深い",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "普通",
+        "depthTag": "重い",
+        "readingEaseTag": "読みごたえあり",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "考察好き",
+          "重い物語が好きな人",
+          "完結作品を求める人"
+        ]
+      },
+      "_score": 6
+    },
+    {
+      "workId": "0yx8ham",
+      "type": "manga",
+      "title": "光が死んだ夏",
+      "authorDisplay": "額賀澪",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "怖い",
+        "切ない",
+        "世界観重視",
+        "考えさせられる",
+        "ダーク",
+        "バトル"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "普通",
+        "depthTag": "重い",
+        "readingEaseTag": "普通",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "ホラー好き",
+          "考察好き",
+          "ダーク系OK"
+        ]
+      },
+      "_score": 5
+    },
+    {
+      "workId": "0pkk4q3",
+      "type": "novel",
+      "title": "十二国記 月の影 影の海",
+      "authorDisplay": "小野不由美",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "怖い",
+        "ダーク"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1h1wk59",
+      "type": "novel",
+      "title": "サスペンス作家が殺人を邪魔するには",
+      "authorDisplay": "エル・コシマノ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "怖い",
+        "一気読み",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 3
+    },
+    {
+      "workId": "0zr22d6",
+      "type": "manga",
+      "title": "デビルズライン",
+      "authorDisplay": "花田陵",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "心温まる",
+        "切ない",
+        "世界観重視",
+        "ダーク",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "普通",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "恋愛好き",
+          "ダーク系OK"
+        ]
+      },
+      "_score": 3
+    },
+    {
+      "workId": "1er2ue6",
+      "type": "manga",
+      "title": "呪術廻戦",
+      "authorDisplay": "芥見下々",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "熱い",
+        "爽快",
+        "感動",
+        "一気読み",
+        "世界観重視",
+        "ダーク",
+        "バトル"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "バトル好き",
+          "ダーク系OK",
+          "テンポ重視の人"
+        ]
+      },
+      "_score": 3
+    },
+    {
+      "workId": "1gihmak",
+      "type": "novel",
+      "title": "白ゆき姫殺人事件",
+      "authorDisplay": "湊かなえ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "怖い",
+        "一気読み",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 3
+    },
+    {
+      "workId": "0aq2mva",
+      "type": "novel",
+      "title": "ＡＸ アックス",
+      "authorDisplay": "伊坂幸太郎",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "怖い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0evrm43",
+      "type": "novel",
+      "title": "Nのために",
+      "authorDisplay": "湊かなえ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "怖い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0vemvun",
+      "type": "novel",
+      "title": "アヒルと鴨のコインロッカー",
+      "authorDisplay": "伊坂幸太郎",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "怖い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1rvx8la",
+      "type": "novel",
+      "title": "あるキング",
+      "authorDisplay": "伊坂幸太郎",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "怖い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0l2a476",
+      "type": "novel",
+      "title": "オーデュボンの祈り",
+      "authorDisplay": "伊坂幸太郎",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "怖い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0c28mf2",
+      "type": "novel",
+      "title": "グラスホッパー",
+      "authorDisplay": "伊坂幸太郎",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "怖い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0ndf647",
+      "type": "novel",
+      "title": "ゴールデンスランバー",
+      "authorDisplay": "伊坂幸太郎",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "怖い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0bonz2z",
+      "type": "novel",
+      "title": "フーガはユーガ",
+      "authorDisplay": "伊坂幸太郎",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "怖い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1h3ss3a",
+      "type": "novel",
+      "title": "ペッパーズ・ゴースト",
+      "authorDisplay": "伊坂幸太郎",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "怖い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1c2c3v1",
+      "type": "novel",
+      "title": "マリアビートル",
+      "authorDisplay": "伊坂幸太郎",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "怖い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "02nniaa",
+      "type": "novel",
+      "title": "モダンタイムス",
+      "authorDisplay": "伊坂幸太郎",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "怖い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "12aydez",
+      "type": "novel",
+      "title": "ラッシュライフ",
+      "authorDisplay": "伊坂幸太郎",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "怖い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "1qci2ij",
+      "type": "novel",
+      "title": "リバース",
+      "authorDisplay": "湊かなえ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "怖い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "01ovvbi",
+      "type": "novel",
+      "title": "往復書簡",
+      "authorDisplay": "湊かなえ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "怖い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0kn9l8z",
+      "type": "novel",
+      "title": "告白",
+      "authorDisplay": "湊かなえ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "怖い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0ppt1gt",
+      "type": "novel",
+      "title": "山女日記",
+      "authorDisplay": "湊かなえ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "怖い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0m989n0",
+      "type": "novel",
+      "title": "死神の精度",
+      "authorDisplay": "伊坂幸太郎",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "怖い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "19k010h",
+      "type": "novel",
+      "title": "首折り男のための協奏曲",
+      "authorDisplay": "伊坂幸太郎",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "怖い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "08qfpoy",
+      "type": "novel",
+      "title": "重力ピエロ",
+      "authorDisplay": "伊坂幸太郎",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "怖い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "0kp85vy",
+      "type": "novel",
+      "title": "落日",
+      "authorDisplay": "湊かなえ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "怖い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "031vv7w",
+      "type": "novel",
+      "title": "贖罪",
+      "authorDisplay": "湊かなえ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "怖い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "13kaj6m",
+      "type": "novel",
+      "title": "「カラスの親指」シリーズ　合本版",
+      "authorDisplay": "道尾秀介",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "0pwg1ph",
+      "type": "novel",
+      "title": "『このミステリーがすごい！』　中山七里「連続殺人鬼カエル男　完結編」vol.2",
+      "authorDisplay": "中山七里",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "1q416ce",
+      "type": "novel",
+      "title": "<縁切り荘>の花嫁",
+      "authorDisplay": "赤川次郎",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "1xik2fu",
+      "type": "novel",
+      "title": "46番目の密室",
+      "authorDisplay": "有栖川有栖",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "1qznmx7",
+      "type": "novel",
+      "title": "64(ロクヨン)",
+      "authorDisplay": "横山秀夫",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "1odgs5x",
+      "type": "novel",
+      "title": "ABC殺人事件",
+      "authorDisplay": "アガサ・クリスティー",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "1nmzu1r",
+      "type": "novel",
+      "title": "ABC殺人事件上",
+      "authorDisplay": "アガサ・クリスティー",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "0wegimo",
+      "type": "novel",
+      "title": "DETECTIVE X CASE FILE #1　御仏の殺人",
+      "authorDisplay": "道尾秀介",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "1sx4drk",
+      "type": "novel",
+      "title": "ｍｅｄｉｕｍ　霊媒探偵城塚翡翠",
+      "authorDisplay": "相沢沙呼",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "070sdfa",
+      "type": "novel",
+      "title": "アクロイド殺し",
+      "authorDisplay": "アガサ・クリスティー",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "1gpu435",
+      "type": "novel",
+      "title": "あなたも名探偵",
+      "authorDisplay": "市川憂人 / 米澤穂信 / 東川篤哉 / 麻耶雄嵩 / 法月綸太郎",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "読みやすい",
+        "一気読み",
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "0or6yfq",
+      "type": "novel",
+      "title": "アルテミス",
+      "authorDisplay": "アンディ ウィアー",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "世界観重視",
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "1gefbm2",
+      "type": "novel",
+      "title": "いまさら翼といわれても",
+      "authorDisplay": "米澤穂信",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "1g79vwe",
+      "type": "manga",
+      "title": "ヴィンランド・サガ",
+      "authorDisplay": "幸村誠",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "熱い",
+        "泣ける",
+        "世界観重視",
+        "学べる",
+        "考えさせられる",
+        "バトル",
+        "深い"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "普通",
+        "depthTag": "重い",
+        "readingEaseTag": "読みごたえあり",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "歴史好き",
+          "重い物語が好きな人",
+          "大人向け漫画を求める人"
+        ]
+      },
+      "_score": 1
+    },
+    {
+      "workId": "1sacy4c",
+      "type": "novel",
+      "title": "オーダーメイド殺人クラブ",
+      "authorDisplay": "辻村深月",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる",
+        "深い",
+        "心温まる",
+        "泣ける"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "0u1dbhe",
+      "type": "novel",
+      "title": "おやすみラフマニノフ",
+      "authorDisplay": "中山七里",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "0ky9rt0",
+      "type": "novel",
+      "title": "オリエント急行の殺人",
+      "authorDisplay": "アガサ・クリスティー",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "1rf0jnk",
+      "type": "novel",
+      "title": "オリエント急行殺人事件",
+      "authorDisplay": "アガサクリスティ / 神鳥統夫",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "0tesfb5",
+      "type": "novel",
+      "title": "ギリシャ棺の謎",
+      "authorDisplay": "エラリー・クイーン",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "0yrpvlu",
+      "type": "novel",
+      "title": "クドリャフカの順番",
+      "authorDisplay": "米澤穂信",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "1i5g059",
+      "type": "novel",
+      "title": "けものみち",
+      "authorDisplay": "松本淸張",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "1ib7m5d",
+      "type": "novel",
+      "title": "コミック東野圭吾ミステリー",
+      "authorDisplay": "東野圭吾",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "059m1wm",
+      "type": "novel",
+      "title": "コミック東野圭吾ミステリー傑作選",
+      "authorDisplay": "東野圭吾 / 風祭壮太",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "0ofzvi1",
+      "type": "novel",
+      "title": "さよならドビュッシー",
+      "authorDisplay": "中山七里",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "1148i3n",
+      "type": "novel",
+      "title": "さよなら妖精",
+      "authorDisplay": "米澤穂信",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "0hnqg2i",
+      "type": "novel",
+      "title": "シャーロック・ホームズの回想",
+      "authorDisplay": "コナン / ドイル",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "0vc26c0",
+      "type": "novel",
+      "title": "シャーロック・ホームズの帰還",
+      "authorDisplay": "コナン・ドイル",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    }
+  ],
+  "candidateCount": 60,
+  "generatedAt": "2026-03-20T10:02:07.471Z"
+}

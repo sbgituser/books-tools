@@ -376,3 +376,96 @@ git push origin master
 - **本番でAIを呼ばない**: 生成済みJSONを静的に配信する
 - **AI選書はバッチ実行**: `npm run generate:curated` で手動または定期実行
 - **フォールバック**: curated JSONが存在しないシーンは既存の全件グリッドを表示
+
+---
+
+## 発見機能のcurated化（discover-curated）
+
+### 変更内容
+- 「発見する」ページ（`/discover`）を「条件選択 → 大量一覧」から「気分選択 → AI選書 → 補助一覧」へ改修
+- ユーザーが技術的タグではなく「今の気分」（感動したい、深く考えたい等）を選ぶUI
+- 選択後は10〜15作品に厳選されたAI選書を表示（ランキングなし・理由付き・セクション分割）
+- 全作品は「全作品を見る」ボタンで補助的にアクセス可能
+
+### 追加ファイル
+
+| ファイル | 役割 |
+|--------|------|
+| `src/constants/discoverMoods.ts` | ムード（読書気分）定義（8種） |
+| `src/types/discover-curated.ts` | AI選書結果の型定義 |
+| `scripts/generate-discover-candidates.ts` | ムード候補集合の生成 |
+| `scripts/generate-discover-curated.ts` | AI選書バッチ（Anthropic API使用） |
+| `scripts/copy-discover-curated.ts` | `data/discover-curated/` → `public/data/discover-curated/` コピー（prebuild時） |
+| `src/components/works/CuratedDiscoverView.tsx` | AI選書結果表示コンポーネント |
+| `data/discover-candidates/{slug}.json` | 候補集合（内部用） |
+| `data/discover-curated/{slug}.json` | AI選書結果（git管理・prebuildでpublicにコピー） |
+
+### ムード一覧
+
+| slug | ラベル | 対応タグ |
+|------|--------|----------|
+| emotional | 感動したい | 感動, 泣ける, 切ない, 心温まる |
+| think | 深く考えたい | 考えさせられる, 深い, 学べる |
+| binge | 一気読みしたい | 一気読み, 世界観重視 |
+| excited | 熱くなりたい | 熱い, 爽快, バトル, やる気が出る, 前向き |
+| laugh | 笑いたい | 笑える, 明るい, 日常系 |
+| dark | ダークな世界を覗きたい | ダーク, 怖い, 絶望, 深い |
+| immerse | 世界観に浸りたい | 世界観重視, ファンタジー, 深い |
+| easy | 気軽に読みたい | 読みやすい, 明るい, 日常系, 短編 |
+
+### 設計原則
+- **既存データ構造は変更しない**: works/volumes/scenes は一切手を加えていない
+- **本番でAIを呼ばない**: 生成済みJSONを静的に配信する
+- **AI選書はバッチ実行**: `npm run generate:discover-curated` で手動実行
+- **フォールバック**: curated JSONが存在しないムードは全件一覧を表示
+
+### 更新手順
+
+書籍データ更新後に発見機能を更新する場合：
+
+```bash
+# 1. 書籍データ更新・正規化
+npm run normalize:works
+
+# 2. works / シーンデータ再生成
+npm run generate:works
+npm run generate:scenes
+
+# 3. 候補データ再生成（discover用）
+npm run generate:discover-candidates
+
+# 4. AI選書再生成（ANTHROPIC_API_KEY が必要）
+#    scripts/.env に ANTHROPIC_API_KEY=sk-ant-... を追加してから実行
+npm run generate:discover-curated
+
+# 5. ビルド & デプロイ
+npm run build
+# → Cloudflare Pages に自動デプロイ（git push）
+
+# ムードを特定して更新する場合
+npm run generate:discover-candidates -- --mood emotional
+npm run generate:discover-curated -- --mood emotional
+```
+
+### 新しいムードを追加する手順
+
+1. `src/constants/discoverMoods.ts` に `DISCOVER_MOODS` エントリを追加
+2. `scripts/generate-discover-curated.ts` の `MOOD_CRITERIA` に選書観点を追記
+3. `npm run generate:discover-candidates -- --mood {新slug}` で候補生成
+4. `npm run generate:discover-curated -- --mood {新slug}` でAI選書
+5. `npm run build` でビルド
+
+### コマンド一覧
+
+| コマンド | 説明 |
+|--------|------|
+| `npm run generate:discover-candidates` | 全ムードの候補データ生成 |
+| `npm run generate:discover-candidates -- --mood {slug}` | 特定ムードのみ |
+| `npm run generate:discover-curated` | 全ムードのAI選書（API Key必要） |
+| `npm run generate:discover-curated -- --mood {slug}` | 特定ムードのみ |
+| `npm run collect:discover` | candidates + curated を連続実行 |
+| `npm run generate:candidates` | シーン候補データ生成 |
+| `npm run generate:curated` | シーンAI選書（API Key必要） |
+| `npm run collect:curated` | シーン candidates + curated |
+| `npm run collect:all` | 全データ再生成 |
+| `npm run build` | 本番ビルド（prebuildで全コピー込み） |

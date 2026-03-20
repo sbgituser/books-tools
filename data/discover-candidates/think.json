@@ -1,0 +1,987 @@
+{
+  "axis": "mood",
+  "slug": "think",
+  "label": "深く考えたい",
+  "icon": "🧠",
+  "description": "読後も頭に残るテーマ・思考の作品を",
+  "matchingTags": [
+    "考えさせられる",
+    "深い",
+    "学べる"
+  ],
+  "candidates": [
+    {
+      "workId": "1g79vwe",
+      "type": "manga",
+      "title": "ヴィンランド・サガ",
+      "authorDisplay": "幸村誠",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "熱い",
+        "泣ける",
+        "世界観重視",
+        "学べる",
+        "考えさせられる",
+        "バトル",
+        "深い"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "普通",
+        "depthTag": "重い",
+        "readingEaseTag": "読みごたえあり",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "歴史好き",
+          "重い物語が好きな人",
+          "大人向け漫画を求める人"
+        ]
+      },
+      "_score": 6
+    },
+    {
+      "workId": "1qy81hk",
+      "type": "manga",
+      "title": "ヒストリエ",
+      "authorDisplay": "岩明均",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "学べる",
+        "世界観重視",
+        "考えさせられる",
+        "穏やか",
+        "深い"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "遅い",
+        "depthTag": "重い",
+        "readingEaseTag": "読みごたえあり",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "歴史好き",
+          "考察好き",
+          "大人向け漫画を求める人"
+        ]
+      },
+      "_score": 6
+    },
+    {
+      "workId": "13kaj6m",
+      "type": "novel",
+      "title": "「カラスの親指」シリーズ　合本版",
+      "authorDisplay": "道尾秀介",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "0pwg1ph",
+      "type": "novel",
+      "title": "『このミステリーがすごい！』　中山七里「連続殺人鬼カエル男　完結編」vol.2",
+      "authorDisplay": "中山七里",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1q416ce",
+      "type": "novel",
+      "title": "<縁切り荘>の花嫁",
+      "authorDisplay": "赤川次郎",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "0cibc53",
+      "type": "manga",
+      "title": "20世紀少年",
+      "authorDisplay": "浦沢直樹",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "泣ける",
+        "絶望",
+        "世界観重視",
+        "考えさせられる",
+        "ダーク",
+        "バトル",
+        "深い",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "遅い",
+        "depthTag": "重い",
+        "readingEaseTag": "読みごたえあり",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "大人向け漫画を求める人",
+          "考察好き",
+          "SF好き"
+        ]
+      },
+      "_score": 5
+    },
+    {
+      "workId": "1xik2fu",
+      "type": "novel",
+      "title": "46番目の密室",
+      "authorDisplay": "有栖川有栖",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1qznmx7",
+      "type": "novel",
+      "title": "64(ロクヨン)",
+      "authorDisplay": "横山秀夫",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1odgs5x",
+      "type": "novel",
+      "title": "ABC殺人事件",
+      "authorDisplay": "アガサ・クリスティー",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1nmzu1r",
+      "type": "novel",
+      "title": "ABC殺人事件上",
+      "authorDisplay": "アガサ・クリスティー",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "0wegimo",
+      "type": "novel",
+      "title": "DETECTIVE X CASE FILE #1　御仏の殺人",
+      "authorDisplay": "道尾秀介",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1sx4drk",
+      "type": "novel",
+      "title": "ｍｅｄｉｕｍ　霊媒探偵城塚翡翠",
+      "authorDisplay": "相沢沙呼",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1f66m5e",
+      "type": "manga",
+      "title": "MONSTER",
+      "authorDisplay": "浦沢直樹",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "絶望",
+        "怖い",
+        "感動",
+        "世界観重視",
+        "考えさせられる",
+        "ダーク",
+        "バトル",
+        "深い",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "遅い",
+        "depthTag": "重い",
+        "readingEaseTag": "読みごたえあり",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "重い物語が好きな人",
+          "考察好き",
+          "大人向け漫画を求める人"
+        ]
+      },
+      "_score": 5
+    },
+    {
+      "workId": "070sdfa",
+      "type": "novel",
+      "title": "アクロイド殺し",
+      "authorDisplay": "アガサ・クリスティー",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1gpu435",
+      "type": "novel",
+      "title": "あなたも名探偵",
+      "authorDisplay": "市川憂人 / 米澤穂信 / 東川篤哉 / 麻耶雄嵩 / 法月綸太郎",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "読みやすい",
+        "一気読み",
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "0or6yfq",
+      "type": "novel",
+      "title": "アルテミス",
+      "authorDisplay": "アンディ ウィアー",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "世界観重視",
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1gefbm2",
+      "type": "novel",
+      "title": "いまさら翼といわれても",
+      "authorDisplay": "米澤穂信",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1sacy4c",
+      "type": "novel",
+      "title": "オーダーメイド殺人クラブ",
+      "authorDisplay": "辻村深月",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる",
+        "深い",
+        "心温まる",
+        "泣ける"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "0u1dbhe",
+      "type": "novel",
+      "title": "おやすみラフマニノフ",
+      "authorDisplay": "中山七里",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "0ky9rt0",
+      "type": "novel",
+      "title": "オリエント急行の殺人",
+      "authorDisplay": "アガサ・クリスティー",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1rf0jnk",
+      "type": "novel",
+      "title": "オリエント急行殺人事件",
+      "authorDisplay": "アガサクリスティ / 神鳥統夫",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "0tesfb5",
+      "type": "novel",
+      "title": "ギリシャ棺の謎",
+      "authorDisplay": "エラリー・クイーン",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "0yrpvlu",
+      "type": "novel",
+      "title": "クドリャフカの順番",
+      "authorDisplay": "米澤穂信",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1i5g059",
+      "type": "novel",
+      "title": "けものみち",
+      "authorDisplay": "松本淸張",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1ib7m5d",
+      "type": "novel",
+      "title": "コミック東野圭吾ミステリー",
+      "authorDisplay": "東野圭吾",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "059m1wm",
+      "type": "novel",
+      "title": "コミック東野圭吾ミステリー傑作選",
+      "authorDisplay": "東野圭吾 / 風祭壮太",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1h1wk59",
+      "type": "novel",
+      "title": "サスペンス作家が殺人を邪魔するには",
+      "authorDisplay": "エル・コシマノ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "怖い",
+        "一気読み",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "0ofzvi1",
+      "type": "novel",
+      "title": "さよならドビュッシー",
+      "authorDisplay": "中山七里",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1148i3n",
+      "type": "novel",
+      "title": "さよなら妖精",
+      "authorDisplay": "米澤穂信",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "0hnqg2i",
+      "type": "novel",
+      "title": "シャーロック・ホームズの回想",
+      "authorDisplay": "コナン / ドイル",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "0vc26c0",
+      "type": "novel",
+      "title": "シャーロック・ホームズの帰還",
+      "authorDisplay": "コナン・ドイル",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "0zae469",
+      "type": "novel",
+      "title": "シャーロック・ホームズの誤謬 : 『バスカヴィル家の犬』再考",
+      "authorDisplay": "Pierre Bayard / 平岡敦",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1q7jp60",
+      "type": "novel",
+      "title": "シャーロック・ホームズの冒険",
+      "authorDisplay": "コナン・ドイル",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "熱い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "0xycefa",
+      "type": "novel",
+      "title": "シャーロック・ホームズ最後の挨拶",
+      "authorDisplay": "コナン・ドイル / 延原謙",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "00zqpu2",
+      "type": "novel",
+      "title": "シャドウ",
+      "authorDisplay": "道尾秀介",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1e97puh",
+      "type": "manga",
+      "title": "ジョジョの奇妙な冒険 第9部 ザ・ジョジョランズ",
+      "authorDisplay": "荒木飛呂彦",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "熱い",
+        "笑える",
+        "感動",
+        "世界観重視",
+        "考えさせられる",
+        "バトル",
+        "深い"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "普通",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "バトル好き",
+          "個性的な世界観が好きな人"
+        ]
+      },
+      "_score": 5
+    },
+    {
+      "workId": "11nbdgt",
+      "type": "novel",
+      "title": "スタイルズ荘の怪事件",
+      "authorDisplay": "アガサ・クリスティ／能島武文訳",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1cm7vmu",
+      "type": "novel",
+      "title": "すべてがＦになる　－ＴＨＥ　ＰＥＲＦＥＣＴ　ＩＮＳＩＤＥＲ－　分冊版",
+      "authorDisplay": "森博嗣 / 霜月かいり",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "0cnufj3",
+      "type": "novel",
+      "title": "セーラー服と機関銃・その後 ──卒業──",
+      "authorDisplay": "赤川次郎",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "07cz1j4",
+      "type": "novel",
+      "title": "ゼロの焦点・Dの複合",
+      "authorDisplay": "松本清張",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1xx98n1",
+      "type": "novel",
+      "title": "そして誰もいなくなった",
+      "authorDisplay": "アガサ / クリスティー",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1toedt8",
+      "type": "novel",
+      "title": "そして誰もいなくなった〔コミック版〕3",
+      "authorDisplay": "アガサ・クリスティー / 二階堂彩",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1eyzdgz",
+      "type": "novel",
+      "title": "ソロモンの偽証",
+      "authorDisplay": "宮部みゆき",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "12toa9m",
+      "type": "novel",
+      "title": "ソロモンの犬",
+      "authorDisplay": "道尾秀介",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "0wxwwnk",
+      "type": "novel",
+      "title": "たべあるキングが選んだ！東京トレンドグルメ",
+      "authorDisplay": "著者不明",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "0miqez1",
+      "type": "novel",
+      "title": "チムニーズ館の秘密",
+      "authorDisplay": "榛野なな恵 / アガサ・クリスティー",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "0sex3xd",
+      "type": "novel",
+      "title": "テミスの剣",
+      "authorDisplay": "中山七里",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1eqf11u",
+      "type": "novel",
+      "title": "ナイルに死す",
+      "authorDisplay": "アガサ・クリスティー",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1kkchz4",
+      "type": "novel",
+      "title": "ナミヤ雑貨店の奇蹟",
+      "authorDisplay": "東野圭吾",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "17mnibv",
+      "type": "novel",
+      "title": "ノーブルチルドレンの残酷",
+      "authorDisplay": "著者不明",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1hvg4af",
+      "type": "novel",
+      "title": "ハサミ男",
+      "authorDisplay": "殊能将之",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "06mczwe",
+      "type": "novel",
+      "title": "プロジェクト・ヘイル・メアリー　上",
+      "authorDisplay": "アンディ ウィアー",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "世界観重視",
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "0dzyojj",
+      "type": "manga",
+      "title": "ベルセルク",
+      "authorDisplay": "三浦建太郎",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "絶望",
+        "熱い",
+        "感動",
+        "世界観重視",
+        "考えさせられる",
+        "ダーク",
+        "深い",
+        "バトル"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "遅い",
+        "depthTag": "重い",
+        "readingEaseTag": "読みごたえあり",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "ダーク系OK",
+          "大人向け漫画を求める人",
+          "重い物語が好きな人"
+        ]
+      },
+      "_score": 5
+    },
+    {
+      "workId": "069g6xa",
+      "type": "novel",
+      "title": "マスカレード・ホテル",
+      "authorDisplay": "東野圭吾",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "01f4x2x",
+      "type": "novel",
+      "title": "マレー鉄道の謎",
+      "authorDisplay": "有栖川有栖",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1l9wdde",
+      "type": "novel",
+      "title": "マンガ東野圭吾ミステリースペシャル",
+      "authorDisplay": "東野圭吾",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "0m31u33",
+      "type": "novel",
+      "title": "ミステリ＝２２ : 推理小説ベスト・エッセイ",
+      "authorDisplay": "北村薫 / 坂口 安吾ほか / 小森 収 / 北村薫 / 坂口 安吾ほか",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1moj2he",
+      "type": "novel",
+      "title": "ミステリーの書き方",
+      "authorDisplay": "柏田 道夫",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "15maxxi",
+      "type": "novel",
+      "title": "ラットマン",
+      "authorDisplay": "道尾秀介",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "0rza7za",
+      "type": "novel",
+      "title": "ラプラスの魔女",
+      "authorDisplay": "東野圭吾",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    }
+  ],
+  "candidateCount": 60,
+  "generatedAt": "2026-03-20T10:02:07.466Z"
+}

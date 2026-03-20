@@ -1,0 +1,1190 @@
+{
+  "axis": "mood",
+  "slug": "immerse",
+  "label": "世界観に浸りたい",
+  "icon": "🌍",
+  "description": "独自の世界観・設定に引き込まれる作品を",
+  "matchingTags": [
+    "世界観重視",
+    "ファンタジー",
+    "深い"
+  ],
+  "candidates": [
+    {
+      "workId": "0z6ul35",
+      "type": "novel",
+      "title": "ファンタジー映画大解剖 : ハリー・ポッター大特集",
+      "authorDisplay": "",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "ファンタジー",
+        "世界観重視"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1s67sav",
+      "type": "novel",
+      "title": "ファンタジー万華鏡",
+      "authorDisplay": "井辻朱美",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "ファンタジー",
+        "世界観重視"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1prjthp",
+      "type": "novel",
+      "title": "獣の奏者",
+      "authorDisplay": "上橋菜穂子 / 武本糸会",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "ファンタジー",
+        "世界観重視",
+        "熱い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "0xw38i2",
+      "type": "novel",
+      "title": "精霊の守り人",
+      "authorDisplay": "上橋菜穂子",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "ファンタジー",
+        "世界観重視",
+        "熱い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 5
+    },
+    {
+      "workId": "1aakpum",
+      "type": "manga",
+      "title": "転生したらスライムだった件",
+      "authorDisplay": "伏瀬 / みっつばー",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "癒やし",
+        "笑える",
+        "爽快",
+        "読みやすい",
+        "世界観重視",
+        "一気読み",
+        "明るい",
+        "ファンタジー"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "軽い",
+        "readingEaseTag": "初心者向け",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "ファンタジー好き",
+          "異世界もの入門",
+          "気軽に読みたい人"
+        ]
+      },
+      "_score": 5
+    },
+    {
+      "workId": "14n79l0",
+      "type": "manga",
+      "title": "魔法使いの嫁",
+      "authorDisplay": "ヤマザキコレ",
+      "status": "ongoing",
+      "volumeCount": 2,
+      "discoveryTags": [
+        "癒やし",
+        "感動",
+        "切ない",
+        "世界観重視",
+        "ファンタジー",
+        "穏やか",
+        "優しい"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "遅い",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "ファンタジー好き",
+          "幻想的な雰囲気が好きな人",
+          "癒やされたい人"
+        ]
+      },
+      "_score": 5
+    },
+    {
+      "workId": "0cibc53",
+      "type": "manga",
+      "title": "20世紀少年",
+      "authorDisplay": "浦沢直樹",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "泣ける",
+        "絶望",
+        "世界観重視",
+        "考えさせられる",
+        "ダーク",
+        "バトル",
+        "深い",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "遅い",
+        "depthTag": "重い",
+        "readingEaseTag": "読みごたえあり",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "大人向け漫画を求める人",
+          "考察好き",
+          "SF好き"
+        ]
+      },
+      "_score": 4
+    },
+    {
+      "workId": "1f66m5e",
+      "type": "manga",
+      "title": "MONSTER",
+      "authorDisplay": "浦沢直樹",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "絶望",
+        "怖い",
+        "感動",
+        "世界観重視",
+        "考えさせられる",
+        "ダーク",
+        "バトル",
+        "深い",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "遅い",
+        "depthTag": "重い",
+        "readingEaseTag": "読みごたえあり",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "重い物語が好きな人",
+          "考察好き",
+          "大人向け漫画を求める人"
+        ]
+      },
+      "_score": 4
+    },
+    {
+      "workId": "0or6yfq",
+      "type": "novel",
+      "title": "アルテミス",
+      "authorDisplay": "アンディ ウィアー",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "世界観重視",
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 4
+    },
+    {
+      "workId": "1g79vwe",
+      "type": "manga",
+      "title": "ヴィンランド・サガ",
+      "authorDisplay": "幸村誠",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "熱い",
+        "泣ける",
+        "世界観重視",
+        "学べる",
+        "考えさせられる",
+        "バトル",
+        "深い"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "普通",
+        "depthTag": "重い",
+        "readingEaseTag": "読みごたえあり",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "歴史好き",
+          "重い物語が好きな人",
+          "大人向け漫画を求める人"
+        ]
+      },
+      "_score": 4
+    },
+    {
+      "workId": "1e97puh",
+      "type": "manga",
+      "title": "ジョジョの奇妙な冒険 第9部 ザ・ジョジョランズ",
+      "authorDisplay": "荒木飛呂彦",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "熱い",
+        "笑える",
+        "感動",
+        "世界観重視",
+        "考えさせられる",
+        "バトル",
+        "深い"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "普通",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "バトル好き",
+          "個性的な世界観が好きな人"
+        ]
+      },
+      "_score": 4
+    },
+    {
+      "workId": "1qy81hk",
+      "type": "manga",
+      "title": "ヒストリエ",
+      "authorDisplay": "岩明均",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "学べる",
+        "世界観重視",
+        "考えさせられる",
+        "穏やか",
+        "深い"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "遅い",
+        "depthTag": "重い",
+        "readingEaseTag": "読みごたえあり",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "歴史好き",
+          "考察好き",
+          "大人向け漫画を求める人"
+        ]
+      },
+      "_score": 4
+    },
+    {
+      "workId": "06mczwe",
+      "type": "novel",
+      "title": "プロジェクト・ヘイル・メアリー　上",
+      "authorDisplay": "アンディ ウィアー",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "世界観重視",
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 4
+    },
+    {
+      "workId": "0dzyojj",
+      "type": "manga",
+      "title": "ベルセルク",
+      "authorDisplay": "三浦建太郎",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "絶望",
+        "熱い",
+        "感動",
+        "世界観重視",
+        "考えさせられる",
+        "ダーク",
+        "深い",
+        "バトル"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "遅い",
+        "depthTag": "重い",
+        "readingEaseTag": "読みごたえあり",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "ダーク系OK",
+          "大人向け漫画を求める人",
+          "重い物語が好きな人"
+        ]
+      },
+      "_score": 4
+    },
+    {
+      "workId": "1fc09ht",
+      "type": "novel",
+      "title": "ロートレック荘事件",
+      "authorDisplay": "筒井康隆",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "世界観重視",
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 4
+    },
+    {
+      "workId": "0e5v5ts",
+      "type": "novel",
+      "title": "ロートレック荘事件（新潮文庫）",
+      "authorDisplay": "筒井康隆",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "世界観重視",
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 4
+    },
+    {
+      "workId": "0k5qbvh",
+      "type": "novel",
+      "title": "火星の人",
+      "authorDisplay": "アンディ ウィアー",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "世界観重視",
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 4
+    },
+    {
+      "workId": "0zni0pn",
+      "type": "manga",
+      "title": "進撃の巨人",
+      "authorDisplay": "諫山創",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "絶望",
+        "泣ける",
+        "熱い",
+        "感動",
+        "考えさせられる",
+        "世界観重視",
+        "ダーク",
+        "バトル",
+        "深い",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "普通",
+        "depthTag": "重い",
+        "readingEaseTag": "読みごたえあり",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "考察好き",
+          "重い物語が好きな人",
+          "完結作品を求める人"
+        ]
+      },
+      "_score": 4
+    },
+    {
+      "workId": "1pdv5r1",
+      "type": "novel",
+      "title": "「世界内戦」とわずかな希望 : 伊藤計劃・SF・現代文学",
+      "authorDisplay": "岡和田晃",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "世界観重視",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 3
+    },
+    {
+      "workId": "08o5d6g",
+      "type": "novel",
+      "title": "2084年のSF",
+      "authorDisplay": "日本SF作家クラブ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "学べる",
+        "世界観重視"
+      ],
+      "discoveryAttributes": {},
+      "_score": 3
+    },
+    {
+      "workId": "0xg4crk",
+      "type": "manga",
+      "title": "NANA―ナナ―",
+      "authorDisplay": "矢沢あい",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "切ない",
+        "泣ける",
+        "心温まる",
+        "世界観重視"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "普通",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "恋愛好き",
+          "大人の恋愛漫画を求める人",
+          "切ない話が好きな人"
+        ]
+      },
+      "_score": 3
+    },
+    {
+      "workId": "17otkk9",
+      "type": "manga",
+      "title": "NARUTO―ナルト―",
+      "authorDisplay": "岸本斉史",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "熱い",
+        "泣ける",
+        "やる気が出る",
+        "世界観重視",
+        "一気読み",
+        "明るい",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "友情テーマが好きな人",
+          "成長物語が好きな人",
+          "完結作品を求める人"
+        ]
+      },
+      "_score": 3
+    },
+    {
+      "workId": "0cb8t8s",
+      "type": "manga",
+      "title": "ONE PIECE",
+      "authorDisplay": "尾田栄一郎",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "熱い",
+        "爽快",
+        "感動",
+        "笑える",
+        "一気読み",
+        "世界観重視",
+        "やる気が出る",
+        "明るい"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "バトル好き",
+          "友情テーマが好きな人",
+          "長期連載OK"
+        ]
+      },
+      "_score": 3
+    },
+    {
+      "workId": "1ys9kr9",
+      "type": "novel",
+      "title": "SF・近未来イラストメイキング講座",
+      "authorDisplay": "TOKIYA SAKBA / TREIZE / タカハシヒロユキ / あさぎり / ユーコラビット",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "世界観重視"
+      ],
+      "discoveryAttributes": {},
+      "_score": 3
+    },
+    {
+      "workId": "0yobr5b",
+      "type": "manga",
+      "title": "ゴールデンカムイ",
+      "authorDisplay": "野田サトル",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "笑える",
+        "熱い",
+        "感動",
+        "学べる",
+        "世界観重視",
+        "一気読み",
+        "明るい",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "学びながら楽しみたい人",
+          "バトル好き",
+          "完結作品を求める人"
+        ]
+      },
+      "_score": 3
+    },
+    {
+      "workId": "11zhy3t",
+      "type": "novel",
+      "title": "こんなにスゴイ！ 未来のせかい",
+      "authorDisplay": "増田まもる",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる",
+        "世界観重視"
+      ],
+      "discoveryAttributes": {},
+      "_score": 3
+    },
+    {
+      "workId": "0uugzvb",
+      "type": "novel",
+      "title": "スペース・オペラの書き方 : 宇宙SF冒険大活劇への試み",
+      "authorDisplay": "野田昌宏",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "世界観重視",
+        "熱い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 3
+    },
+    {
+      "workId": "00juypj",
+      "type": "novel",
+      "title": "デジタルトランスフォーメーション・ジャーニー = DIGITAL TRANSFORMATION JOURNEY : 組織のデジタル化から、分断を乗り越えて組織変革にたどりつくまで",
+      "authorDisplay": "市谷 聡啓 / 市谷 聡啓",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "世界観重視",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 3
+    },
+    {
+      "workId": "0zr22d6",
+      "type": "manga",
+      "title": "デビルズライン",
+      "authorDisplay": "花田陵",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "心温まる",
+        "切ない",
+        "世界観重視",
+        "ダーク",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "普通",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "恋愛好き",
+          "ダーク系OK"
+        ]
+      },
+      "_score": 3
+    },
+    {
+      "workId": "1d7xco7",
+      "type": "manga",
+      "title": "ハイキュー!!",
+      "authorDisplay": "古舘春一",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "熱い",
+        "感動",
+        "爽快",
+        "泣ける",
+        "やる気が出る",
+        "一気読み",
+        "世界観重視",
+        "明るい",
+        "バトル",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "スポーツ漫画入門",
+          "熱い物語が好きな人",
+          "完結作品を求める人"
+        ]
+      },
+      "_score": 3
+    },
+    {
+      "workId": "10ksc18",
+      "type": "novel",
+      "title": "円 : 劉慈欣短篇集",
+      "authorDisplay": "劉慈欣 / 大森望 / 泊功 / 齊藤正高",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "世界観重視"
+      ],
+      "discoveryAttributes": {},
+      "_score": 3
+    },
+    {
+      "workId": "119zyc2",
+      "type": "novel",
+      "title": "黄金の人工太陽 : 巨大宇宙SF傑作選",
+      "authorDisplay": "John Joseph Adams / 中原尚哉",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "世界観重視"
+      ],
+      "discoveryAttributes": {},
+      "_score": 3
+    },
+    {
+      "workId": "0iuwa8r",
+      "type": "manga",
+      "title": "鬼滅の刃",
+      "authorDisplay": "吾峠呼世晴",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "熱い",
+        "感動",
+        "泣ける",
+        "一気読み",
+        "世界観重視",
+        "バトル",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "感動したい人",
+          "バトル好き",
+          "完結作品を求める人"
+        ]
+      },
+      "_score": 3
+    },
+    {
+      "workId": "1lb4rxp",
+      "type": "manga",
+      "title": "暁のヨナ.",
+      "authorDisplay": "草凪みずほ",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "熱い",
+        "感動",
+        "心温まる",
+        "世界観重視",
+        "一気読み"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "恋愛好き",
+          "ファンタジー好き",
+          "成長物語が好きな人"
+        ]
+      },
+      "_score": 3
+    },
+    {
+      "workId": "1giwyz0",
+      "type": "novel",
+      "title": "君の人生に勇気はいらない : グズで臆病な僕の人生を変えた口の悪いメンターとの物語",
+      "authorDisplay": "DaiGo",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "世界観重視"
+      ],
+      "discoveryAttributes": {},
+      "_score": 3
+    },
+    {
+      "workId": "0n91f2a",
+      "type": "novel",
+      "title": "月の光 : 現代中国SFアンソロジー",
+      "authorDisplay": "Ken Liu / 劉慈欣 / 大森望 / 中原尚哉",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "世界観重視",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 3
+    },
+    {
+      "workId": "0yx8ham",
+      "type": "manga",
+      "title": "光が死んだ夏",
+      "authorDisplay": "額賀澪",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "怖い",
+        "切ない",
+        "世界観重視",
+        "考えさせられる",
+        "ダーク",
+        "バトル"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "普通",
+        "depthTag": "重い",
+        "readingEaseTag": "普通",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "ホラー好き",
+          "考察好き",
+          "ダーク系OK"
+        ]
+      },
+      "_score": 3
+    },
+    {
+      "workId": "0zref9t",
+      "type": "manga",
+      "title": "鋼の錬金術師",
+      "authorDisplay": "荒川弘",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "泣ける",
+        "熱い",
+        "世界観重視",
+        "考えさせられる",
+        "一気読み",
+        "バトル",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "完結作品を求める人",
+          "感動したい人",
+          "SF・ファンタジー好き"
+        ]
+      },
+      "_score": 3
+    },
+    {
+      "workId": "1v91t2c",
+      "type": "novel",
+      "title": "婚約破棄後、追放された悪役令嬢は隣国の英雄王子に溺愛される (ヴァニラ文庫)",
+      "authorDisplay": "猫屋ちゃき",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "世界観重視"
+      ],
+      "discoveryAttributes": {},
+      "_score": 3
+    },
+    {
+      "workId": "0w8wdw1",
+      "type": "novel",
+      "title": "三体. 3[下]",
+      "authorDisplay": "劉慈欣 / 大森望 / 光吉さくら / ワンチャイ / 泊功",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "世界観重視"
+      ],
+      "discoveryAttributes": {},
+      "_score": 3
+    },
+    {
+      "workId": "121zggo",
+      "type": "novel",
+      "title": "三体Ｘ　観想之宙",
+      "authorDisplay": "宝樹",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "世界観重視"
+      ],
+      "discoveryAttributes": {},
+      "_score": 3
+    },
+    {
+      "workId": "1er2ue6",
+      "type": "manga",
+      "title": "呪術廻戦",
+      "authorDisplay": "芥見下々",
+      "status": "ongoing",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "熱い",
+        "爽快",
+        "感動",
+        "一気読み",
+        "世界観重視",
+        "ダーク",
+        "バトル"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "連載中",
+        "recommendedFor": [
+          "バトル好き",
+          "ダーク系OK",
+          "テンポ重視の人"
+        ]
+      },
+      "_score": 3
+    },
+    {
+      "workId": "08kaavc",
+      "type": "novel",
+      "title": "少数報告",
+      "authorDisplay": "フィリップ・K・ディック",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "世界観重視"
+      ],
+      "discoveryAttributes": {},
+      "_score": 3
+    },
+    {
+      "workId": "077y9hh",
+      "type": "novel",
+      "title": "生成AI小説創作入門",
+      "authorDisplay": "田近 葵",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "世界観重視"
+      ],
+      "discoveryAttributes": {},
+      "_score": 3
+    },
+    {
+      "workId": "0tcrvyd",
+      "type": "novel",
+      "title": "折りたたみ北京 : 現代中国SFアンソロジー",
+      "authorDisplay": "Ken Liu / 中原尚哉",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "世界観重視",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 3
+    },
+    {
+      "workId": "1qzf68p",
+      "type": "novel",
+      "title": "創元SF文庫総解説",
+      "authorDisplay": "東京創元社",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "世界観重視",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 3
+    },
+    {
+      "workId": "1y0jyom",
+      "type": "novel",
+      "title": "日本SFの臨界点. 怪奇篇",
+      "authorDisplay": "伴名練 / 石黒達昌",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "世界観重視",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 3
+    },
+    {
+      "workId": "19md0jg",
+      "type": "novel",
+      "title": "日本SF短篇50 : 日本SF作家クラブ創立50周年記念アンソロジー",
+      "authorDisplay": "日本SF作家クラブ",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "学べる",
+        "世界観重視",
+        "心温まる",
+        "泣ける"
+      ],
+      "discoveryAttributes": {},
+      "_score": 3
+    },
+    {
+      "workId": "1g8dldh",
+      "type": "novel",
+      "title": "微分方程式・ラプラス変換・フーリエ解析 = Differential Equation,Laplace Transform and Fourier Analysis",
+      "authorDisplay": "一色秀夫 / 塩川高雄",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "世界観重視",
+        "考えさせられる"
+      ],
+      "discoveryAttributes": {},
+      "_score": 3
+    },
+    {
+      "workId": "032sc3q",
+      "type": "manga",
+      "title": "僕のヒーローアカデミア",
+      "authorDisplay": "堀越耕平",
+      "status": "completed",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "熱い",
+        "感動",
+        "前向き",
+        "やる気が出る",
+        "一気読み",
+        "世界観重視",
+        "明るい",
+        "バトル",
+        "完結"
+      ],
+      "discoveryAttributes": {
+        "paceTag": "早い",
+        "depthTag": "中程度",
+        "readingEaseTag": "普通",
+        "completionStatus": "完結",
+        "recommendedFor": [
+          "スーパーヒーロー好き",
+          "バトル好き",
+          "完結作品を求める人"
+        ]
+      },
+      "_score": 3
+    },
+    {
+      "workId": "1cvxmhx",
+      "type": "novel",
+      "title": "未来",
+      "authorDisplay": "Theo Colborn / Dianne Dumanoski / John Peterson Myers",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "感動",
+        "考えさせられる",
+        "世界観重視"
+      ],
+      "discoveryAttributes": {},
+      "_score": 3
+    },
+    {
+      "workId": "0xjd7r7",
+      "type": "novel",
+      "title": "夜は短し歩けよ乙女　映画カバー版",
+      "authorDisplay": "森見　登美彦",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "ファンタジー"
+      ],
+      "discoveryAttributes": {},
+      "_score": 2
+    },
+    {
+      "workId": "13kaj6m",
+      "type": "novel",
+      "title": "「カラスの親指」シリーズ　合本版",
+      "authorDisplay": "道尾秀介",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "0pwg1ph",
+      "type": "novel",
+      "title": "『このミステリーがすごい！』　中山七里「連続殺人鬼カエル男　完結編」vol.2",
+      "authorDisplay": "中山七里",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "1q416ce",
+      "type": "novel",
+      "title": "<縁切り荘>の花嫁",
+      "authorDisplay": "赤川次郎",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "1xik2fu",
+      "type": "novel",
+      "title": "46番目の密室",
+      "authorDisplay": "有栖川有栖",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "1qznmx7",
+      "type": "novel",
+      "title": "64(ロクヨン)",
+      "authorDisplay": "横山秀夫",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "1odgs5x",
+      "type": "novel",
+      "title": "ABC殺人事件",
+      "authorDisplay": "アガサ・クリスティー",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "1nmzu1r",
+      "type": "novel",
+      "title": "ABC殺人事件上",
+      "authorDisplay": "アガサ・クリスティー",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    },
+    {
+      "workId": "0wegimo",
+      "type": "novel",
+      "title": "DETECTIVE X CASE FILE #1　御仏の殺人",
+      "authorDisplay": "道尾秀介",
+      "status": "unknown",
+      "volumeCount": 1,
+      "discoveryTags": [
+        "考えさせられる",
+        "深い",
+        "一気読み"
+      ],
+      "discoveryAttributes": {},
+      "_score": 1
+    }
+  ],
+  "candidateCount": 60,
+  "generatedAt": "2026-03-20T10:02:07.472Z"
+}

@@ -28,9 +28,12 @@
     "generate:curated": "tsx scripts/generate-scene-curated.ts",
     "collect:works": "npm run normalize:works && npm run generate:works && npm run generate:scenes && npm run generate:similar",
     "collect:curated": "npm run generate:candidates && npm run generate:curated",
-    "collect:all": "npm run collect:works && npm run collect:curated",
+    "collect:all": "npm run collect:works && npm run collect:curated && npm run collect:discover",
     "sync:blog-books": "tsx scripts/sync-blog-books.ts",
-    "prebuild": "tsx scripts/normalize-works.ts && tsx scripts/generate-works-data.ts && tsx scripts/generate-scenes-data.ts && tsx scripts/generate-similar-works.ts && tsx scripts/build-split-index.ts && tsx scripts/build-search-index.ts && tsx scripts/generate-feeds.ts"
+    "prebuild": "tsx scripts/normalize-works.ts && tsx scripts/generate-works-data.ts && tsx scripts/generate-scenes-data.ts && tsx scripts/generate-similar-works.ts && tsx scripts/build-split-index.ts && tsx scripts/build-search-index.ts && tsx scripts/generate-feeds.ts && tsx scripts/copy-discover-curated.ts",
+    "generate:discover-candidates": "tsx scripts/generate-discover-candidates.ts",
+    "generate:discover-curated": "tsx scripts/generate-discover-curated.ts",
+    "collect:discover": "npm run generate:discover-candidates && npm run generate:discover-curated"
   },
   "dependencies": {
     "feed": "^4.2.2",
