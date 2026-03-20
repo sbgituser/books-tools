@@ -6,17 +6,6 @@
       "title": "同じ作者の作品",
       "items": [
         {
-          "workId": "novel__十角館の殺人__綾辻行人",
-          "fileId": "0vtd16p",
-          "title": "十角館の殺人",
-          "authorDisplay": "綾辻行人 / 清原紘",
-          "type": "novel",
-          "status": "unknown",
-          "volumeCount": 2,
-          "coverImageUrl": "https://books.google.com/books/content?id=OmUnzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-          "reason": "綾辻行人による小説"
-        },
-        {
           "workId": "novel__時計館の殺人_新装改訂版_下__綾辻行人",
           "fileId": "0aj1l4p",
           "title": "時計館の殺人〈新装改訂版〉（下）",
@@ -69,6 +58,17 @@
           "status": "unknown",
           "volumeCount": 1,
           "coverImageUrl": "https://books.google.com/books/publisher/content?id=OsiuBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73TjqTzpfEITrilenx8UOUnKgwy8HgLPO2QxbMqDLQnMROFbbBPs_mYBuaT4SuxqjYxtNTsdy-4mTBHukpHEo5Zt5qLCiJhLPYJ3uieJ1rCLzetxY0irurGcr9fhi4FpgiAB0er&source=gbs_api",
+          "reason": "綾辻行人による小説"
+        },
+        {
+          "workId": "novel__十角館の殺人__綾辻行人",
+          "fileId": "0vtd16p",
+          "title": "十角館の殺人",
+          "authorDisplay": "綾辻行人 / 清原紘",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=OmUnzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
           "reason": "綾辻行人による小説"
         }
       ]
@@ -207,5 +207,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-03-19T12:56:55.780Z"
+  "generatedAt": "2026-03-20T07:30:06.326Z"
 }

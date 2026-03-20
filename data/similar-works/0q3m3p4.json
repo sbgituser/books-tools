@@ -13,7 +13,7 @@
           "type": "manga",
           "status": "unknown",
           "volumeCount": 1,
-          "coverImageUrl": "https://books.google.com/books/content?id=9MrGEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "coverImageUrl": "https://books.google.com/books/content?id=QkQBzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
           "reason": "双葉社の漫画"
         },
         {
@@ -30,5 +30,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-03-19T12:56:55.695Z"
+  "generatedAt": "2026-03-20T07:30:06.234Z"
 }

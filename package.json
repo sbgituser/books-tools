@@ -29,6 +29,7 @@
     "collect:works": "npm run normalize:works && npm run generate:works && npm run generate:scenes && npm run generate:similar",
     "collect:curated": "npm run generate:candidates && npm run generate:curated",
     "collect:all": "npm run collect:works && npm run collect:curated",
+    "sync:blog-books": "tsx scripts/sync-blog-books.ts",
     "prebuild": "tsx scripts/normalize-works.ts && tsx scripts/generate-works-data.ts && tsx scripts/generate-scenes-data.ts && tsx scripts/generate-similar-works.ts && tsx scripts/build-split-index.ts && tsx scripts/build-search-index.ts && tsx scripts/generate-feeds.ts"
   },
   "dependencies": {

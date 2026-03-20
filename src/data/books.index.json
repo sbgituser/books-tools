@@ -1,5 +1,179 @@
 [
   {
+    "id": "9784001141276",
+    "title": "モモ",
+    "authors": [
+      "ミヒャエル・エンデ"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "モモ 時間どろぼうと、ぬすまれた時間を人間にとりかえしてくれた女の子のふしぎな物語 ミヒャエル・エンデ Iwanami Shoten/Tsai Fong Books 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-20T07:26:19.056Z",
+    "subtitle": "時間どろぼうと、ぬすまれた時間を人間にとりかえしてくれた女の子のふしぎな物語",
+    "publisher": "Iwanami Shoten/Tsai Fong Books",
+    "publishedDate": "2005-06",
+    "isbn10": "4001141272",
+    "isbn13": "9784001141276",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=RnSWAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "RnSWAAAACAAJ"
+    }
+  },
+  {
+    "id": "9784088716152",
+    "title": "スラムダンク",
+    "authors": [
+      "井上雄彦"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "スラムダンク 井上雄彦 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-20T07:26:19.056Z",
+    "publishedDate": "1991-10",
+    "isbn10": "4088716159",
+    "isbn13": "9784088716152",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=Wrs7pwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Wrs7pwAACAAJ"
+    }
+  },
+  {
+    "id": "gb-Ep4yEQAAQBAJ",
+    "title": "光が死んだ夏　6",
+    "authors": [
+      "モクモク　れん"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "光が死んだ夏　6 モクモク　れん KADOKAWA 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-20T07:26:19.056Z",
+    "publisher": "KADOKAWA",
+    "publishedDate": "2024-12-04",
+    "language": "ja",
+    "pageCount": 203,
+    "estimatedReadingHours": 5.1,
+    "thumbnailUrl": "https://books.google.com/books/content?id=Ep4yEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Ep4yEQAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-KcZRDwAAQBAJ",
+    "title": "新装版　バキ　1",
+    "authors": [
+      "板垣恵介"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "新装版　バキ　1 板垣恵介 秋田書店 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-20T07:26:19.056Z",
+    "publisher": "秋田書店",
+    "publishedDate": "2018-04-06",
+    "language": "ja",
+    "pageCount": 338,
+    "estimatedReadingHours": 8.5,
+    "thumbnailUrl": "https://books.google.com/books/content?id=KcZRDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "KcZRDwAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-xzW8EAAAQBAJ",
+    "title": "暁のヨナ　41巻",
+    "authors": [
+      "草凪みずほ"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "暁のヨナ　41巻 草凪みずほ 白泉社 漫画 漫画 ブログ掲載書籍",
+    "updatedAt": "2026-03-20T07:26:19.056Z",
+    "publisher": "白泉社",
+    "publishedDate": "2023-05-19",
+    "language": "ja",
+    "pageCount": 194,
+    "estimatedReadingHours": 4.9,
+    "thumbnailUrl": "https://books.google.com/books/content?id=xzW8EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "xzW8EAAAQBAJ"
+    }
+  },
+  {
+    "id": "gb-goO7Y2TJsoYC",
+    "title": "魍魎の匣(4)",
+    "authors": [
+      "志水　アキ"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "魍魎の匣(4) 志水　アキ KADOKAWA 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-20T07:26:19.056Z",
+    "publisher": "KADOKAWA",
+    "publishedDate": "1999-09",
+    "language": "ja",
+    "pageCount": 187,
+    "estimatedReadingHours": 4.7,
+    "thumbnailUrl": "https://books.google.com/books/content?id=goO7Y2TJsoYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "goO7Y2TJsoYC"
+    }
+  },
+  {
+    "id": "gb-zvxJAAAAMAAJ",
+    "title": "松本淸張全集: けものみち",
+    "authors": [
+      "松本清張"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "松本淸張全集: けものみち 松本清張 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-03-20T07:26:19.056Z",
+    "publishedDate": "1971",
+    "language": "ja",
+    "pageCount": 532,
+    "estimatedReadingHours": 13.3,
+    "thumbnailUrl": "https://books.google.com/books/content?id=zvxJAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "zvxJAAAAMAAJ"
+    }
+  },
+  {
     "id": "9784059150480",
     "title": "どみなんと　track01　おためし版",
     "authors": [
@@ -225,7 +399,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=gXmKzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
-    "id": "blog-岳みんなの山-石塚真一",
+    "id": "9784098608140",
     "title": "岳 みんなの山",
     "authors": [
       "石塚真一"
@@ -651,7 +825,7 @@
     }
   },
   {
-    "id": "gb-blog-少数報告",
+    "id": "gb-talkEQAAQBAJ",
     "title": "少数報告",
     "subtitle": "マイノリティ・レポート",
     "authors": [
@@ -682,7 +856,10 @@
       ],
       "l5TagIds": []
     },
-    "thumbnailUrl": "https://books.google.com/books/content?id=talkEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    "thumbnailUrl": "https://books.google.com/books/content?id=talkEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "talkEQAAQBAJ"
+    }
   },
   {
     "id": "gb-fVsxDwAAQBAJ",
@@ -885,7 +1062,7 @@
     }
   },
   {
-    "id": "gb-blog-ドラゴンボール",
+    "id": "gb-dND-CwAAQBAJ",
     "title": "ドラゴンボール超",
     "authors": [
       "とよたろう",
@@ -985,7 +1162,7 @@
     }
   },
   {
-    "id": "gb-blog-narutoナルト",
+    "id": "gb-ji3NCwAAQBAJ",
     "title": "NARUTO―ナルト―",
     "authors": [
       "岸本斉史"
@@ -1048,7 +1225,7 @@
     }
   },
   {
-    "id": "gb-blog-炎炎ノ消防隊",
+    "id": "9784063955675",
     "title": "炎炎ノ消防隊",
     "authors": [
       "大久保篤"
@@ -1109,7 +1286,7 @@
     }
   },
   {
-    "id": "gb-blog-ジョジョの奇妙な冒険",
+    "id": "gb-osTHEAAAQBAJ",
     "title": "ジョジョの奇妙な冒険 第9部 ザ・ジョジョランズ 1",
     "authors": [
       "荒木飛呂彦"
@@ -1171,7 +1348,7 @@
     }
   },
   {
-    "id": "gb-blog-バキ",
+    "id": "9784253186612",
     "title": "グラップラー刃牙",
     "authors": [
       "夢枕獏"
@@ -1209,7 +1386,7 @@
     }
   },
   {
-    "id": "gb-blog-ケンガンアシュラ",
+    "id": "gb-W4UIEAAAQBAJ",
     "title": "ケンガンアシュラ",
     "authors": [
       "サンドロビッチ・ヤバ子",
@@ -1246,7 +1423,7 @@
     }
   },
   {
-    "id": "gb-blog-銀魂",
+    "id": "9784088706825",
     "title": "銀魂 モノクロ版 1",
     "authors": [
       "空知英秋"
@@ -1284,7 +1461,7 @@
     }
   },
   {
-    "id": "gb-blog-斉木楠雄のψ難",
+    "id": "9784088705040",
     "title": "斉木楠雄のΨ難 1",
     "authors": [
       "麻生周一"
@@ -1321,7 +1498,7 @@
     }
   },
   {
-    "id": "gb-blog-月刊少女野崎くん",
+    "id": "9784757573963",
     "title": "月刊少女野崎くん 1巻",
     "authors": [
       "椿いづみ"
@@ -1358,7 +1535,7 @@
     }
   },
   {
-    "id": "gb-blog-こちら葛飾区亀有公園前派出所",
+    "id": "9784086180382",
     "title": "こちら葛飾区亀有公園前派出所 1",
     "authors": [
       "秋本治"
@@ -1395,7 +1572,7 @@
     }
   },
   {
-    "id": "gb-blog-聖おにいさん",
+    "id": "9784065400333",
     "title": "聖☆おにいさん（１）",
     "authors": [
       "中村光"
@@ -1459,7 +1636,7 @@
     }
   },
   {
-    "id": "gb-blog-あそびあそばせ",
+    "id": "9784592161981",
     "title": "あそびあそばせ　1巻",
     "authors": [
       "涼川りん"
@@ -1519,7 +1696,7 @@
     }
   },
   {
-    "id": "gb-blog-日常",
+    "id": "gb-0v8xVa8xlP0C",
     "title": "日常",
     "authors": [
       "あらゐ　けいいち"
@@ -1580,7 +1757,7 @@
     }
   },
   {
-    "id": "gb-blog-女子高生の無駄づかい",
+    "id": "9784041171189",
     "title": "女子高生の無駄づかい(1)",
     "authors": [
       "ビーノ"
@@ -1640,7 +1817,7 @@
     }
   },
   {
-    "id": "gb-blog-ぐらんぶる",
+    "id": "9784065162385",
     "title": "ぐらんぶる（１）",
     "authors": [
       "井上堅二",
@@ -1702,7 +1879,7 @@
     }
   },
   {
-    "id": "gb-blog-坂本ですが",
+    "id": "9784047286337",
     "title": "坂本ですが? 1",
     "authors": [
       "佐野菜見"
@@ -1762,7 +1939,7 @@
     }
   },
   {
-    "id": "gb-blog-であいもん",
+    "id": "9784041166987",
     "title": "であいもん(1)",
     "authors": [
       "浅野りん"
@@ -1799,7 +1976,7 @@
     }
   },
   {
-    "id": "gb-blog-それでも町は廻っている",
+    "id": "9784785926045",
     "title": "それでも町は廻っている　1巻",
     "authors": [
       "石黒正数"
@@ -1836,7 +2013,7 @@
     }
   },
   {
-    "id": "gb-blog-かぐや様は告らせたい",
+    "id": "9784088911793",
     "title": "かぐや様は告らせたい 同人版 1",
     "authors": [
       "赤坂アカ",
@@ -1874,7 +2051,7 @@
     }
   },
   {
-    "id": "gb-blog-ヒナまつり",
+    "id": "9784047273818",
     "title": "ヒナまつり 1",
     "authors": [
       "大武　政夫"
@@ -1911,7 +2088,7 @@
     }
   },
   {
-    "id": "gb-blog-みなみけ",
+    "id": "9784063584066",
     "title": "みなみけ（１）",
     "authors": [
       "桜場コハル"
@@ -1948,7 +2125,7 @@
     }
   },
   {
-    "id": "gb-blog-らんま12",
+    "id": "9784091234681",
     "title": "らんま1/2〔新装版〕（１）",
     "authors": [
       "高橋留美子"
@@ -1985,7 +2162,7 @@
     }
   },
   {
-    "id": "gb-blog-うる星やつら",
+    "id": "9784098515172",
     "title": "うる星やつら〔新装版〕（１）",
     "authors": [
       "高橋留美子"
@@ -2022,7 +2199,7 @@
     }
   },
   {
-    "id": "gb-blog-ボボボーボボーボボ",
+    "id": "9784088732589",
     "title": "真説ボボボーボ・ボーボボ 1",
     "authors": [
       "澤井啓夫"
@@ -2059,7 +2236,7 @@
     }
   },
   {
-    "id": "gb-blog-伊藤潤二傑作集",
+    "id": "gb-Od9R0QEACAAJ",
     "title": "伊藤潤二傑作集",
     "authors": [
       "伊藤潤二"
@@ -2092,7 +2269,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=g5CEzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
-    "id": "gb-blog-地獄先生ぬべ",
+    "id": "gb-TDaEDwAAQBAJ",
     "title": "地獄先生ぬ～べ～S 1",
     "authors": [
       "真倉翔",
@@ -2129,7 +2306,7 @@
     }
   },
   {
-    "id": "gb-blog-彼岸島",
+    "id": "9784063611267",
     "title": "彼岸島",
     "authors": [
       "松本光司"
@@ -2167,7 +2344,7 @@
     }
   },
   {
-    "id": "gb-blog-ハカイジュウ",
+    "id": "gb-ru3XDAAAQBAJ",
     "title": "ハカイジュウ(14)",
     "authors": [
       "本田真吾"
@@ -2203,7 +2380,7 @@
     }
   },
   {
-    "id": "gb-blog-なるたる",
+    "id": "gb-iqDBBQAAQBAJ",
     "title": "なるたる",
     "authors": [
       "鬼頭莫宏"
@@ -2239,7 +2416,7 @@
     }
   },
   {
-    "id": "gb-blog-ミスミソウ",
+    "id": "gb-4PglDwAAQBAJ",
     "title": "ミスミソウ　1巻",
     "authors": [
       "押切蓮介"
@@ -2275,7 +2452,7 @@
     }
   },
   {
-    "id": "gb-blog-漂流教室",
+    "id": "9784091931719",
     "title": "漂流教室",
     "authors": [
       "楳図かずお"
@@ -2312,7 +2489,7 @@
     }
   },
   {
-    "id": "gb-blog-神の左手悪魔の右手",
+    "id": "gb-MKU-DwAAQBAJ",
     "title": "神の左手悪魔の右手（１）",
     "authors": [
       "楳図かずお"
@@ -2348,7 +2525,7 @@
     }
   },
   {
-    "id": "gb-blog-不安の種",
+    "id": "gb-ySTbDAAAQBAJ",
     "title": "不安の種",
     "authors": [
       "中山昌亮"
@@ -2384,7 +2561,7 @@
     }
   },
   {
-    "id": "gb-blog-モンキーピーク",
+    "id": "gb-AKKBDgAAQBAJ",
     "title": "モンキーピーク",
     "authors": [
       "志名坂高次",
@@ -2420,7 +2597,7 @@
     }
   },
   {
-    "id": "gb-blog-食糧人類starvinganon",
+    "id": "gb-_aYRDQAAQBAJ",
     "title": "食糧人類－Ｓｔａｒｖｉｎｇ　Ａｎｏｎｙｍｏｕｓ－（１）",
     "authors": [
       "蔵石ユウ",
@@ -2458,7 +2635,7 @@
     }
   },
   {
-    "id": "gb-blog-さんかれあ",
+    "id": "gb--PbFBQAAQBAJ",
     "title": "さんかれあ",
     "authors": [
       "はっとりみつる"
@@ -2494,7 +2671,7 @@
     }
   },
   {
-    "id": "gb-blog-学校怪談",
+    "id": "gb-mCDbDAAAQBAJ",
     "title": "学校怪談",
     "authors": [
       "高橋葉介"
@@ -2530,7 +2707,7 @@
     }
   },
   {
-    "id": "gb-blog-魔実子さんが許さない",
+    "id": "9784041117231",
     "title": "魔実子さんが許さない",
     "authors": [
       "高橋葉介"
@@ -2568,7 +2745,7 @@
     }
   },
   {
-    "id": "gb-blog-見える子ちゃん",
+    "id": "gb-1a6SDwAAQBAJ",
     "title": "見える子ちゃん",
     "authors": [
       "泉　朝樹"
@@ -2604,7 +2781,7 @@
     }
   },
   {
-    "id": "gb-blog-ひぐらしのなく頃に",
+    "id": "9784575243000",
     "title": "ひぐらしのなく頃に",
     "authors": [
       "竜騎士07"
@@ -3046,7 +3223,7 @@
     }
   },
   {
-    "id": "gb-blog-魔法使いの嫁",
+    "id": "gb-P3T1EAAAQBAJ",
     "title": "魔法使いの嫁",
     "authors": [
       "ヤマザキコレ"
@@ -3109,7 +3286,7 @@
     }
   },
   {
-    "id": "gb-blog-マギ",
+    "id": "gb-kLv1CgAAQBAJ",
     "title": "マギ（１）",
     "authors": [
       "大高忍"
@@ -3145,7 +3322,7 @@
     }
   },
   {
-    "id": "gb-blog-七つの大罪",
+    "id": "9784063957303",
     "title": "七つの大罪",
     "authors": [
       "鈴木央",
@@ -3220,7 +3397,7 @@
     }
   },
   {
-    "id": "gb-blog-ヴァニタスの手記",
+    "id": "gb-iirGDwAAQBAJ",
     "title": "ヴァニタスの手記",
     "authors": [
       "望月淳"
@@ -3257,81 +3434,7 @@
     }
   },
   {
-    "id": "gb-blog-オーバーロード",
-    "title": "オーバーロード",
-    "authors": [
-      "丸山　くがね"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "オーバーロード9　破軍の魔法詠唱者 丸山　くがね KADOKAWA 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/content?id=Pj__CQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "Pj__CQAAQBAJ"
-    },
-    "publisher": "KADOKAWA",
-    "publishedDate": "2015-06-29",
-    "pageCount": 296,
-    "estimatedReadingHours": 7.4,
-    "manualClassification": {
-      "l1Id": "manga",
-      "l2Id": "seinen",
-      "l3Id": "general-manga",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": [
-        "series"
-      ]
-    }
-  },
-  {
-    "id": "gb-blog-とんがり帽子のアトリエ",
-    "title": "とんがり帽子のアトリエ",
-    "authors": [
-      "白浜鴎"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "とんがり帽子のアトリエ(12) 白浜鴎 講談社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "thumbnailUrl": "https://books.google.com/books/content?id=viOsswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "isbn13": "9784063886900",
-    "isbn10": "4065319692",
-    "sourceIds": {
-      "googleBooksId": "viOsswEACAAJ"
-    },
-    "publisher": "講談社",
-    "publishedDate": "2023-06",
-    "pageCount": 184,
-    "estimatedReadingHours": 4.6,
-    "manualClassification": {
-      "l1Id": "manga",
-      "l2Id": "seinen",
-      "l3Id": "general-manga",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": [
-        "series"
-      ]
-    }
-  },
-  {
-    "id": "gb-blog-3月のライオン",
+    "id": "gb-iimo0QEACAAJ",
     "title": "3月のライオン",
     "authors": [
       "羽海野チカ"
@@ -3359,10 +3462,13 @@
         "readable"
       ]
     },
-    "thumbnailUrl": "https://books.google.com/books/content?id=iimo0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    "thumbnailUrl": "https://books.google.com/books/content?id=iimo0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "iimo0QEACAAJ"
+    }
   },
   {
-    "id": "gb-blog-灰と幻想のグリムガル",
+    "id": "gb-XdnFDwAAQBAJ",
     "title": "灰と幻想のグリムガル",
     "authors": [
       "十文字青",
@@ -3399,7 +3505,7 @@
     }
   },
   {
-    "id": "gb-blog-魔法陣グルグル",
+    "id": "gb-GybFDwAAQBAJ",
     "title": "魔法陣グルグル",
     "authors": [
       "衛藤ヒロユキ"
@@ -3435,7 +3541,7 @@
     }
   },
   {
-    "id": "gb-blog-カラスの親指",
+    "id": "gb-szKUEAAAQBAJ",
     "title": "「カラスの親指」シリーズ　合本版",
     "authors": [
       "道尾秀介"
@@ -3470,7 +3576,7 @@
     }
   },
   {
-    "id": "gb-blog-向日葵の咲かない夏",
+    "id": "9784101355511",
     "title": "向日葵の咲かない夏",
     "authors": [
       "道尾秀介"
@@ -3508,7 +3614,7 @@
     }
   },
   {
-    "id": "gb-blog-シャドウ",
+    "id": "9784488496012",
     "title": "シャドウ",
     "authors": [
       "道尾秀介"
@@ -3546,7 +3652,7 @@
     }
   },
   {
-    "id": "gb-blog-ソロモンの犬",
+    "id": "gb-KRPNDwAAQBAJ",
     "title": "ソロモンの犬",
     "authors": [
       "道尾秀介"
@@ -3582,7 +3688,7 @@
     }
   },
   {
-    "id": "gb-blog-龍神の雨",
+    "id": "gb-8cRaEAAAQBAJ",
     "title": "龍神の雨",
     "authors": [
       "道尾秀介"
@@ -3618,7 +3724,7 @@
     }
   },
   {
-    "id": "gb-blog-光媒の花",
+    "id": "gb-a9knDAAAQBAJ",
     "title": "光媒の花 1",
     "authors": [
       "斉藤倫",
@@ -3653,7 +3759,7 @@
     }
   },
   {
-    "id": "gb-blog-ラットマン",
+    "id": "9784334925932",
     "title": "ラットマン",
     "authors": [
       "道尾秀介"
@@ -3691,7 +3797,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=J--zlBa9XgwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
-    "id": "gb-blog-奇想天を動かす",
+    "id": "9784334716622",
     "title": "奇想、天を動かす",
     "authors": [
       "島田荘司"
@@ -4004,7 +4110,7 @@
     }
   },
   {
-    "id": "gb-blog-さよならドビュッシー",
+    "id": "gb-6cXFDwAAQBAJ",
     "title": "さよならドビュッシー",
     "authors": [
       "中山七里"
@@ -4112,7 +4218,7 @@
     }
   },
   {
-    "id": "gb-blog-テミスの剣",
+    "id": "9784163901497",
     "title": "テミスの剣",
     "authors": [
       "中山七里"
@@ -4150,7 +4256,7 @@
     }
   },
   {
-    "id": "gb-blog-連続殺人鬼カエル男",
+    "id": "gb-Axb7EAAAQBAJ",
     "title": "『このミステリーがすごい！』　中山七里「連続殺人鬼カエル男　完結編」vol.2",
     "authors": [
       "中山七里"
@@ -4442,7 +4548,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=53wUEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
-    "id": "gb-blog-幻惑の死と使途",
+    "id": "9784061819870",
     "title": "幻惑の死と使途",
     "authors": [
       "森博嗣"
@@ -4518,7 +4624,7 @@
     }
   },
   {
-    "id": "gb-blog-月光ゲーム",
+    "id": "9784488414016",
     "title": "月光ゲーム",
     "authors": [
       "有栖川有栖"
@@ -4554,7 +4660,7 @@
     }
   },
   {
-    "id": "gb-blog-孤島パズル",
+    "id": "9784488414023",
     "title": "孤島パズル",
     "authors": [
       "有栖川有栖"
@@ -4590,7 +4696,7 @@
     }
   },
   {
-    "id": "gb-blog-双頭の悪魔",
+    "id": "9784488414030",
     "title": "双頭の悪魔",
     "authors": [
       "有栖川有栖"
@@ -4626,7 +4732,7 @@
     }
   },
   {
-    "id": "gb-blog-46番目の密室",
+    "id": "9784062764278",
     "title": "46番目の密室",
     "authors": [
       "有栖川有栖"
@@ -4664,7 +4770,7 @@
     }
   },
   {
-    "id": "gb-blog-ロシア紅茶の謎",
+    "id": "gb-t0ivBQAAQBAJ",
     "title": "ロシア紅茶の謎",
     "authors": [
       "有栖川有栖"
@@ -4698,7 +4804,7 @@
     }
   },
   {
-    "id": "gb-blog-マレー鉄道の謎",
+    "id": "9784061820272",
     "title": "マレー鉄道の謎",
     "authors": [
       "有栖川有栖"
@@ -4734,7 +4840,7 @@
     }
   },
   {
-    "id": "gb-blog-女王国の城",
+    "id": "9784488012274",
     "title": "女王国の城",
     "authors": [
       "有栖川有栖"
@@ -4770,7 +4876,7 @@
     }
   },
   {
-    "id": "gb-blog-点と線",
+    "id": "9784167697143",
     "title": "点と線",
     "authors": [
       "松本清張"
@@ -4809,7 +4915,7 @@
     }
   },
   {
-    "id": "gb-blog-砂の器",
+    "id": "9784165090502",
     "title": "松本清張全集第5巻砂の器",
     "authors": [
       "松本清張"
@@ -4847,7 +4953,7 @@
     }
   },
   {
-    "id": "gb-blog-ゼロの焦点",
+    "id": "9784165090304",
     "title": "ゼロの焦点・Dの複合",
     "authors": [
       "松本清張"
@@ -4885,7 +4991,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=Unl5EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
-    "id": "gb-blog-眼の壁",
+    "id": "gb-_vtJAAAAMAAJ",
     "title": "松本淸張全集: 眼の壁絢爛たる流離",
     "authors": [
       "松本清張"
@@ -4921,7 +5027,7 @@
     }
   },
   {
-    "id": "gb-blog-球形の荒野",
+    "id": "9784167697297",
     "title": "球形の荒野下",
     "authors": [
       "松本清張"
@@ -4960,7 +5066,7 @@
     }
   },
   {
-    "id": "gb-blog-けものみち",
+    "id": "gb-6BLsAAAAMAAJ",
     "title": "けものみち",
     "authors": [
       "松本淸張"
@@ -4996,7 +5102,7 @@
     }
   },
   {
-    "id": "gb-blog-姑獲鳥の夏",
+    "id": "gb-2I6qBQAAQBAJ",
     "title": "姑獲鳥の夏(2)【電子百鬼夜行】",
     "authors": [
       "京極夏彦"
@@ -5031,7 +5137,7 @@
     }
   },
   {
-    "id": "gb-blog-魍魎の匣",
+    "id": "gb-VMO7ukjaFkIC",
     "title": "魍魎の匣(5)",
     "authors": [
       "志水　アキ"
@@ -5065,7 +5171,7 @@
     }
   },
   {
-    "id": "gb-blog-狂骨の夢",
+    "id": "gb-PdvW6K9ikaAC",
     "title": "狂骨の夢(4)",
     "authors": [
       "京極夏彦"
@@ -5101,7 +5207,7 @@
     }
   },
   {
-    "id": "gb-blog-鉄鼠の檻",
+    "id": "9784063932560",
     "title": "鉄鼠の檻 1",
     "authors": [
       "京極夏彦"
@@ -5139,7 +5245,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=KfwZEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
-    "id": "gb-blog-絡新婦の理",
+    "id": "9784062753166",
     "title": "分冊文庫版絡新婦の理",
     "authors": [
       "京極夏彦"
@@ -5178,7 +5284,7 @@
     }
   },
   {
-    "id": "gb-blog-陰摩羅鬼の瑕",
+    "id": "gb-iLGqBQAAQBAJ",
     "title": "陰摩羅鬼の瑕(3)【電子百鬼夜行】",
     "authors": [
       "京極夏彦"
@@ -5213,7 +5319,7 @@
     }
   },
   {
-    "id": "gb-blog-百鬼夜行陰",
+    "id": "9784163812403",
     "title": "定本百鬼夜行陰",
     "authors": [
       "京極夏彦"
@@ -5251,7 +5357,7 @@
     }
   },
   {
-    "id": "gb-blog-氷菓",
+    "id": "gb-SsgOMK9uQWUC",
     "title": "氷菓(1)",
     "authors": [
       "タスクオーナ"
@@ -5284,7 +5390,7 @@
     }
   },
   {
-    "id": "gb-blog-愚者のエンドロール",
+    "id": "gb-Mv_Ef8J6ohQC",
     "title": "愚者のエンドロール",
     "authors": [
       "米澤　穂信"
@@ -5318,7 +5424,7 @@
     }
   },
   {
-    "id": "gb-blog-クドリャフカの順番",
+    "id": "9784048736183",
     "title": "クドリャフカの順番",
     "authors": [
       "米澤穂信"
@@ -5357,7 +5463,7 @@
     }
   },
   {
-    "id": "gb-blog-満願",
+    "id": "gb-qBFIBQAAQBAJ",
     "title": "満願",
     "authors": [
       "米澤穂信"
@@ -5393,7 +5499,7 @@
     }
   },
   {
-    "id": "gb-blog-王とサーカス",
+    "id": "9784488451103",
     "title": "王とサーカス",
     "authors": [
       "米澤穂信"
@@ -5431,7 +5537,7 @@
     }
   },
   {
-    "id": "gb-blog-追想五断章",
+    "id": "9784087713046",
     "title": "追想五断章",
     "authors": [
       "米澤穂信"
@@ -5469,7 +5575,7 @@
     }
   },
   {
-    "id": "gb-blog-いまさら翼といわれても",
+    "id": "9784041081648",
     "title": "いまさら翼といわれても",
     "authors": [
       "米澤穂信"
@@ -5507,7 +5613,7 @@
     }
   },
   {
-    "id": "gb-blog-黒牢城",
+    "id": "9784041147221",
     "title": "黒牢城",
     "authors": [
       "米澤穂信"
@@ -5545,7 +5651,7 @@
     }
   },
   {
-    "id": "gb-blog-理由",
+    "id": "9784022572448",
     "title": "理由",
     "authors": [
       "宮部みゆき"
@@ -5583,7 +5689,7 @@
     }
   },
   {
-    "id": "gb-blog-模倣犯",
+    "id": "9784093792653",
     "title": "模倣犯",
     "authors": [
       "宮部みゆき"
@@ -5621,7 +5727,7 @@
     }
   },
   {
-    "id": "gb-blog-ソロモンの偽証",
+    "id": "9784101369358",
     "title": "ソロモンの偽証",
     "authors": [
       "宮部みゆき"
@@ -5660,7 +5766,7 @@
     }
   },
   {
-    "id": "gb-blog-レベル7",
+    "id": "9784106027222",
     "title": "レベル 7",
     "authors": [
       "宮部みゆき"
@@ -5698,7 +5804,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=9yRxDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
-    "id": "gb-blog-龍は眠る",
+    "id": "gb-0mWEzwEACAAJ",
     "title": "龍は眠る",
     "authors": [
       "宮部みゆき"
@@ -5734,7 +5840,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=AQjNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
-    "id": "gb-blog-蒲生邸事件",
+    "id": "9784860550189",
     "title": "蒲生邸事件",
     "authors": [
       "宮部みゆき"
@@ -5772,7 +5878,7 @@
     }
   },
   {
-    "id": "gb-blog-緋色の研究",
+    "id": "9784770025555",
     "title": "緋色の研究",
     "authors": [
       "コナンドイル"
@@ -5809,7 +5915,7 @@
     }
   },
   {
-    "id": "gb-blog-犬神家の一族",
+    "id": "9784882933090",
     "title": "犬神家の一族",
     "authors": [
       "横溝正史"
@@ -5845,7 +5951,7 @@
     }
   },
   {
-    "id": "gb-blog-八つ墓村",
+    "id": "9784882933168",
     "title": "八つ墓村",
     "authors": [
       "横溝正史"
@@ -5881,7 +5987,7 @@
     }
   },
   {
-    "id": "gb-blog-獄門島",
+    "id": "9784882933137",
     "title": "獄門島",
     "authors": [
       "横溝正史"
@@ -5917,8 +6023,8 @@
     }
   },
   {
-    "id": "gb-blog-本陣殺人事件",
-    "title": "横溝正史自選集",
+    "id": "9784882933083",
+    "title": "本陣殺人事件",
     "authors": [
       "横溝正史"
     ],
@@ -5929,7 +6035,7 @@
       "小説・文学",
       "ブログ掲載書籍"
     ],
-    "searchableText": "横溝正史自選集 本陣殺人事件/蝶々殺人事件 横溝正史 出版芸術社 小説・文学 小説・文学 ブログ掲載書籍",
+    "searchableText": "本陣殺人事件 本陣殺人事件/蝶々殺人事件 横溝正史 出版芸術社 小説・文学 小説・文学 ブログ掲載書籍",
     "updatedAt": "2026-03-15T23:35:34.362Z",
     "language": "ja",
     "thumbnailUrl": "https://books.google.com/books/content?id=iuppQgAACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72wt-BM4UZWe-KPRbNoRxzfz80nhLRsibvOAs-m6ZR2VjbpwA_-_nt-UKIrX6JsH3ToZ4ieflXIuE0ORVLETvtd5V-YOgAeEve9zIEhq0U2vdnvDESOmhl9wotJITLqj46I4sFN&source=gbs_api",
@@ -5954,7 +6060,7 @@
     }
   },
   {
-    "id": "gb-blog-悪魔の手毬唄",
+    "id": "9784882933236",
     "title": "悪魔の手毬唄",
     "authors": [
       "横溝正史"
@@ -5990,7 +6096,7 @@
     }
   },
   {
-    "id": "gb-blog-時計館の殺人",
+    "id": "gb-45GuBQAAQBAJ",
     "title": "時計館の殺人〈新装改訂版〉（下）",
     "authors": [
       "綾辻行人"
@@ -6024,7 +6130,7 @@
     }
   },
   {
-    "id": "gb-blog-水車館の殺人",
+    "id": "9784061813458",
     "title": "水車館の殺人",
     "authors": [
       "綾辻行人"
@@ -6060,7 +6166,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=cCGuBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
-    "id": "gb-blog-迷路館の殺人",
+    "id": "gb-cCGuBQAAQBAJ",
     "title": "迷路館の殺人〈新装改訂版〉",
     "authors": [
       "綾辻行人"
@@ -6094,7 +6200,7 @@
     }
   },
   {
-    "id": "gb-blog-霧越邸殺人事件",
+    "id": "9784041008478",
     "title": "霧越邸殺人事件",
     "authors": [
       "綾辻行人"
@@ -6164,7 +6270,7 @@
     }
   },
   {
-    "id": "gb-blog-人形館の殺人",
+    "id": "gb-OsiuBQAAQBAJ",
     "title": "人形館の殺人〈新装改訂版〉",
     "authors": [
       "綾辻行人"
@@ -6888,7 +6994,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=JFOxDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
-    "id": "blog-鋼の錬金術師-荒川弘",
+    "id": "gb-PQ7FDwAAQBAJ",
     "title": "鋼の錬金術師",
     "authors": [
       "荒川弘"
@@ -6946,7 +7052,7 @@
     }
   },
   {
-    "id": "blog-進撃の巨人-諫山創",
+    "id": "gb-nMjEBQAAQBAJ",
     "title": "進撃の巨人",
     "authors": [
       "諫山創"
@@ -7008,7 +7114,7 @@
     }
   },
   {
-    "id": "blog-鬼滅の刃-吾峠呼世晴",
+    "id": "gb-Mj1cDAAAQBAJ",
     "title": "鬼滅の刃",
     "authors": [
       "吾峠呼世晴"
@@ -7066,7 +7172,7 @@
     }
   },
   {
-    "id": "blog-ハイキュー-古舘春一",
+    "id": "gb-wI7LCwAAQBAJ",
     "title": "ハイキュー!!",
     "authors": [
       "古舘春一"
@@ -7122,7 +7228,7 @@
     }
   },
   {
-    "id": "blog-東京卍リベンジャーズ-和久井健",
+    "id": "gb-0dvPDgAAQBAJ",
     "title": "東京卍リベンジャーズ",
     "authors": [
       "和久井健"
@@ -7153,7 +7259,7 @@
     }
   },
   {
-    "id": "blog-deathnote-大場つぐみ小畑健",
+    "id": "gb-_ERuCwAAQBAJ",
     "title": "DEATH NOTE",
     "authors": [
       "大場つぐみ",
@@ -7209,7 +7315,7 @@
     }
   },
   {
-    "id": "blog-ダンジョン飯-九井諒子",
+    "id": "gb-kV9WDwAAQBAJ",
     "title": "ダンジョン飯",
     "authors": [
       "九井　諒子"
@@ -7237,7 +7343,7 @@
     }
   },
   {
-    "id": "blog-メイドインアビス-つくしあきひと",
+    "id": "9784812483800",
     "title": "メイドインアビス",
     "authors": [
       "つくしあきひと"
@@ -7266,7 +7372,7 @@
     }
   },
   {
-    "id": "blog-drstone-稲垣理一郎boichi",
+    "id": "gb-nhUqDwAAQBAJ",
     "title": "Dr.STONE",
     "authors": [
       "稲垣理一郎",
@@ -7295,7 +7401,7 @@
     }
   },
   {
-    "id": "blog-僕のヒーローアカデミア-堀越耕平",
+    "id": "gb-7iLLCwAAQBAJ",
     "title": "僕のヒーローアカデミア",
     "authors": [
       "堀越耕平"
@@ -7354,7 +7460,7 @@
     }
   },
   {
-    "id": "blog-宇宙兄弟-小山宙哉",
+    "id": "gb-KrtxEQAAQBAJ",
     "title": "宇宙兄弟",
     "authors": [
       "小山宙哉"
@@ -7376,128 +7482,13 @@
         "readable"
       ]
     },
-    "thumbnailUrl": "https://books.google.com/books/content?id=KrtxEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-  },
-  {
-    "id": "blog-図書館戦争-有川浩",
-    "title": "図書館戦争",
-    "authors": [
-      "有川　浩"
-    ],
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "図書館戦争 有川浩 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=q1imYpx_hbUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "thumbnailUrl": "https://books.google.com/books/content?id=KrtxEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
-      "googleBooksId": "q1imYpx_hbUC"
-    },
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "romance",
-      "l3Id": "romance",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": [
-        "war"
-      ]
+      "googleBooksId": "KrtxEQAAQBAJ"
     }
   },
   {
-    "id": "blog-かがみの孤城-辻村深月",
-    "title": "かがみの孤城",
-    "authors": [
-      "辻村深月"
-    ],
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "かがみの孤城 辻村深月 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=fxoXEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "fxoXEAAAQBAJ"
-    },
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "literary",
-      "l3Id": "modern-literature",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
-    "id": "blog-成瀬は天下を取りにいく-宮島未奈",
-    "title": "成瀬は天下を取りにいく",
-    "authors": [
-      "宮島未奈"
-    ],
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "成瀬は天下を取りにいく 宮島未奈 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=ujZoEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "ujZoEQAAQBAJ"
-    },
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "literary",
-      "l3Id": "modern-literature",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
-    "id": "blog-夜は短し歩けよ乙女-森見登美彦",
-    "title": "夜は短し歩けよ乙女",
-    "authors": [
-      "森見　登美彦"
-    ],
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "夜は短し歩けよ乙女 森見登美彦 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=DEoxDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "DEoxDgAAQBAJ"
-    },
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "fantasy",
-      "l3Id": "modern-fantasy",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
-    "id": "blog-寄生獣-岩明均",
+    "id": "9784063770483",
     "title": "寄生獣",
     "authors": [
       "岩明均"
@@ -7526,7 +7517,7 @@
     }
   },
   {
-    "id": "blog-暗殺教室-松井優征",
+    "id": "gb-xZ_MCwAAQBAJ",
     "title": "暗殺教室",
     "authors": [
       "松井優征"
@@ -7557,7 +7548,7 @@
     }
   },
   {
-    "id": "blog-約束のネバーランド-白井カイウ出水ぽすか",
+    "id": "gb-9o2yDQAAQBAJ",
     "title": "約束のネバーランド",
     "authors": [
       "白井カイウ",
@@ -7586,7 +7577,7 @@
     }
   },
   {
-    "id": "blog-うしおととら-藤田和日郎",
+    "id": "9784091935113",
     "title": "うしおととら",
     "authors": [
       "藤田和日郎"
@@ -7618,7 +7609,7 @@
     }
   },
   {
-    "id": "blog-monster-浦沢直樹",
+    "id": "gb-ZdNeEAAAQBAJ",
     "title": "MONSTER",
     "authors": [
       "浦沢直樹"
@@ -7675,7 +7666,7 @@
     }
   },
   {
-    "id": "blog-20世紀少年-浦沢直樹",
+    "id": "9784091875365",
     "title": "20世紀少年",
     "authors": [
       "浦沢直樹"
@@ -7734,7 +7725,7 @@
     }
   },
   {
-    "id": "blog-ヒカルの碁-ほったゆみ小畑健",
+    "id": "gb-5dXKCwAAQBAJ",
     "title": "ヒカルの碁",
     "authors": [
       "ほったゆみ",
@@ -7766,7 +7757,7 @@
     }
   },
   {
-    "id": "blog-からくりサーカス-藤田和日郎",
+    "id": "9784091230287",
     "title": "からくりサーカス",
     "authors": [
       "藤田和日郎"
@@ -7798,7 +7789,7 @@
     }
   },
   {
-    "id": "blog-ピンポン-松本大洋",
+    "id": "gb-HQfzCgAAQBAJ",
     "title": "ピンポン",
     "authors": [
       "松本大洋"
@@ -7829,7 +7820,7 @@
     }
   },
   {
-    "id": "blog-四月は君の嘘-新川直司",
+    "id": "gb-n0fKBQAAQBAJ",
     "title": "四月は君の嘘",
     "authors": [
       "新川直司"
@@ -7858,7 +7849,7 @@
     }
   },
   {
-    "id": "blog-ぼくらの-鬼頭莫宏",
+    "id": "gb-mbNUEAAAQBAJ",
     "title": "ぼくらの",
     "authors": [
       "鬼頭莫宏"
@@ -7890,40 +7881,7 @@
     }
   },
   {
-    "id": "blog-寄生獣リバーシ-太田モアレ原作岩明均",
-    "title": "寄生獣リバーシ",
-    "authors": [
-      "太田モアレ",
-      "原作 岩明均"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "寄生獣リバーシ 太田モアレ 原作 岩明均 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=bkbMvQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "bkbMvQEACAAJ"
-    },
-    "isbn13": "9784065124284",
-    "manualClassification": {
-      "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "horror",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": [
-        "horror-core"
-      ]
-    }
-  },
-  {
-    "id": "blog-秘密-na",
+    "id": "9784151300479",
     "title": "秘密",
     "authors": [
       "アガサクリスティー"
@@ -7954,7 +7912,7 @@
     }
   },
   {
-    "id": "blog-手紙-na",
+    "id": "gb-s5oqAQAAIAAJ",
     "title": "手紙",
     "authors": [
       "関口安義"
@@ -7983,7 +7941,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=EnsEAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
-    "id": "blog-悪意-na",
+    "id": "gb-mXd8QgAACAAJ",
     "title": "悪意",
     "authors": [
       "東野圭吾"
@@ -8014,7 +7972,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=mXd8QgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
-    "id": "blog-卒業-na",
+    "id": "gb-7OiL7rc0hjAC",
     "title": "卒業",
     "authors": [
       "赤川次郎"
@@ -8045,7 +8003,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=vs0TlvQWfccC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
-    "id": "blog-グラスホッパー-na",
+    "id": "gb-53QlzQEACAAJ",
     "title": "グラスホッパー",
     "authors": [
       "伊坂幸太郎"
@@ -8074,7 +8032,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=JJleMPIiZuEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
-    "id": "blog-チルドレン-na",
+    "id": "gb-dMT3CgAAQBAJ",
     "title": "チルドレン",
     "authors": [
       "椎名高志"
@@ -8103,7 +8061,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=nybzCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
-    "id": "blog-あるキング-na",
+    "id": "gb--jpKQwAACAAJ",
     "title": "あるキング",
     "authors": [
       "伊坂幸太郎"
@@ -8132,7 +8090,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=-jpKQwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
-    "id": "blog-贖罪-na",
+    "id": "gb-m7bnDwAAQBAJ",
     "title": "贖罪",
     "authors": [
       "湊かなえ"
@@ -8161,7 +8119,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=FttUEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
-    "id": "blog-母性-na",
+    "id": "gb-QXvtoAEACAAJ",
     "title": "母性",
     "authors": [
       "湊佳苗"
@@ -8190,36 +8148,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=xzRbhSA_CuMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
-    "id": "blog-少女-na",
-    "title": "少女",
-    "authors": [
-      "沼田笠峰"
-    ],
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "少女 沼田笠峰 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T23:47:25.673Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=owmS_TJaucIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "owmS_TJaucIC"
-    },
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "literary",
-      "l3Id": "modern-literature",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
-    "id": "blog-夜行観覧車-na",
+    "id": "gb-C_ZKmgEACAAJ",
     "title": "夜行観覧車",
     "authors": [
       "木村まるみ",
@@ -8249,7 +8178,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=Qb3uCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
-    "id": "blog-未来-na",
+    "id": "gb-_DwrJXuf3uIC",
     "title": "未来",
     "authors": [
       "Theo Colborn",
@@ -8280,7 +8209,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=_DwrJXuf3uIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
-    "id": "blog-落日-na",
+    "id": "gb-eXuaEAAAQBAJ",
     "title": "落日",
     "authors": [
       "湊かなえ"
@@ -8309,7 +8238,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=eXuaEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
-    "id": "blog-サファイア-na",
+    "id": "gb-_LGYAAAACAAJ",
     "title": "サファイア",
     "authors": [
       "ジルベールシヌエ"
@@ -8338,7 +8267,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=_LGYAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
-    "id": "blog-ダンスダンスダンス-na",
+    "id": "gb-52tmDwAAQBAJ",
     "title": "ダンス・ダンス・ダンス",
     "authors": [
       "村上春樹"
@@ -8367,7 +8296,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=7_5REQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
-    "id": "blog-風の歌を聴け-na",
+    "id": "gb-2CNFDAAAQBAJ",
     "title": "風の歌を聴け",
     "authors": [
       "村上春樹"
@@ -8396,7 +8325,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=pWyQMimQFuAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
-    "id": "blog-色彩を持たない多崎つくると彼の巡礼の年-na",
+    "id": "gb-eQJ7mwEACAAJ",
     "title": "色彩を持たない多崎つくると、彼の巡礼の年",
     "authors": [
       "村上春樹"
@@ -8423,36 +8352,6 @@
       "l5TagIds": []
     },
     "thumbnailUrl": "https://books.google.com/books/content?id=SLo_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-  },
-  {
-    "id": "blog-騎士団長殺し-na",
-    "title": "騎士団長殺し",
-    "authors": [
-      "大森望",
-      "豊崎由美"
-    ],
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "騎士団長殺し 大森望 豊崎由美 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T12:52:44.397Z",
-    "sourceIds": {
-      "googleBooksId": "tcU_DwAAQBAJ"
-    },
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "literary",
-      "l3Id": "literary",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": []
-    },
-    "thumbnailUrl": "https://books.google.com/books/content?id=tcU_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "blog-1q84-na",
@@ -8484,69 +8383,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=Pc8rAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
-    "id": "blog-十角館の殺人-綾辻行人",
-    "title": "十角館の殺人",
-    "authors": [
-      "綾辻行人"
-    ],
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "十角館の殺人 綾辻行人 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=OmUnzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "isbn13": "9784065278543",
-    "isbn10": "4065278546",
-    "sourceIds": {
-      "googleBooksId": "OmUnzwEACAAJ"
-    },
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "mystery",
-      "l3Id": "honkaku-mystery",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": []
-    }
-  },
-  {
-    "id": "blog-検察側の罪人-雫井脩介",
-    "title": "検察側の罪人",
-    "authors": [
-      "雫井脩介"
-    ],
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "検察側の罪人 雫井脩介 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T13:12:21.565Z",
-    "thumbnailUrl": "https://books.google.com/books/content?id=fw7NDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "fw7NDwAAQBAJ"
-    },
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "mystery",
-      "l3Id": "mystery",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": [
-        "plot-twist"
-      ]
-    }
-  },
-  {
-    "id": "blog-ロートレック荘事件-筒井康隆",
+    "id": "9784101171333",
     "title": "ロートレック荘事件",
     "authors": [
       "筒井康隆"
@@ -8579,7 +8416,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=HmFnDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
-    "id": "blog-スロウハイツの神様-na",
+    "id": "gb-ubWqBQAAQBAJ",
     "title": "スロウハイツの神様",
     "authors": [
       "辻村深月"
@@ -8606,35 +8443,6 @@
       "l5TagIds": []
     },
     "thumbnailUrl": "https://books.google.com/books/content?id=Tr6aDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-  },
-  {
-    "id": "blog-名前探しの放課後-na",
-    "title": "名前探しの放課後",
-    "authors": [
-      "辻村深月"
-    ],
-    "categories": [
-      "小説・文学"
-    ],
-    "keywords": [
-      "小説・文学",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "名前探しの放課後 辻村深月 小説・文学 小説・文学 ブログ掲載書籍",
-    "updatedAt": "2026-03-13T12:52:44.397Z",
-    "sourceIds": {
-      "googleBooksId": "trSqBQAAQBAJ"
-    },
-    "manualClassification": {
-      "l1Id": "novel",
-      "l2Id": "literary",
-      "l3Id": "modern-literature",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": []
-    },
-    "thumbnailUrl": "https://books.google.com/books/content?id=jktxDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "gb-WHO2CgAAQBAJ",
@@ -9261,7 +9069,7 @@
     }
   },
   {
-    "id": "gb-blog-分身",
+    "id": "9784087740318",
     "title": "分身",
     "authors": [
       "圭吾·東野"
@@ -11219,7 +11027,7 @@
     }
   },
   {
-    "id": "gb-blog-鍵のない夢を見る",
+    "id": "gb-fQzNDwAAQBAJ",
     "title": "鍵のない夢を見る",
     "authors": [
       "辻村深月"
@@ -11597,7 +11405,7 @@
     }
   },
   {
-    "id": "gb-blog-medium霊媒探偵城塚翡翠",
+    "id": "gb-qE5BEAAAQBAJ",
     "title": "ｍｅｄｉｕｍ　霊媒探偵城塚翡翠",
     "authors": [
       "相沢沙呼"
@@ -11670,7 +11478,7 @@
     }
   },
   {
-    "id": "gb-blog-硝子の塔の殺人",
+    "id": "gb-yqY5EAAAQBAJ",
     "title": "硝子の塔の殺人",
     "authors": [
       "知念実希人"
@@ -11706,7 +11514,7 @@
     }
   },
   {
-    "id": "gb-blog-火車",
+    "id": "9784101369181",
     "title": "火車",
     "subtitle": "",
     "authors": [
@@ -11817,7 +11625,7 @@
     }
   },
   {
-    "id": "gb-blog-イニシエーションラブ",
+    "id": "gb--wfNDwAAQBAJ",
     "title": "イニシエーション・ラブ",
     "authors": [
       "乾くるみ"
@@ -11853,7 +11661,7 @@
     }
   },
   {
-    "id": "gb-blog-葉桜の季節に君を想うということ",
+    "id": "gb-rxLNDwAAQBAJ",
     "title": "葉桜の季節に君を想うということ",
     "authors": [
       "歌野晶午"
@@ -11958,7 +11766,7 @@
     }
   },
   {
-    "id": "gb-blog-かもめ食堂",
+    "id": "gb-HNTKDwAAQBAJ",
     "title": "かもめ食堂",
     "authors": [
       "群ようこ"
@@ -11992,7 +11800,7 @@
     }
   },
   {
-    "id": "gb-blog-キッチン",
+    "id": "gb-QYC5DwAAQBAJ",
     "title": "キッチン",
     "authors": [
       "吉本ばなな"
@@ -12061,7 +11869,7 @@
     }
   },
   {
-    "id": "gb-blog-新世界より",
+    "id": "gb-SNrHBQAAQBAJ",
     "title": "新世界より（４）",
     "authors": [
       "貴志祐介",
@@ -12096,7 +11904,7 @@
     }
   },
   {
-    "id": "gb-blog-三体",
+    "id": "gb-JbxkEQAAQBAJ",
     "title": "三体Ｘ　観想之宙",
     "authors": [
       "宝樹"
@@ -12130,7 +11938,7 @@
     }
   },
   {
-    "id": "gb-blog-時をかける少女",
+    "id": "gb-RaqkZZlI7CAC",
     "title": "時をかける少女　〈新装版〉",
     "authors": [
       "筒井　康隆"
@@ -12164,7 +11972,7 @@
     }
   },
   {
-    "id": "gb-blog-植物図鑑",
+    "id": "gb-U5pTHSxxf40C",
     "title": "植物図鑑",
     "authors": [
       "有川　浩"
@@ -12271,7 +12079,7 @@
     }
   },
   {
-    "id": "gb-blog-獣の奏者",
+    "id": "gb-lVDKBQAAQBAJ",
     "title": "獣の奏者（１）",
     "authors": [
       "上橋菜穂子",
@@ -12379,7 +12187,7 @@
     }
   },
   {
-    "id": "gb-blog-漫画バビロン大富豪の教え",
+    "id": "9784866511245",
     "title": "漫画バビロン大富豪の教え",
     "authors": [
       "ジョージ・S・クレイソン"
@@ -12430,7 +12238,7 @@
     }
   },
   {
-    "id": "gb-blog-流浪の月",
+    "id": "9784488803018",
     "title": "流浪の月",
     "authors": [
       "凪良ゆう"
@@ -12478,7 +12286,7 @@
     }
   },
   {
-    "id": "gb-blog-告白",
+    "id": "9784575245929",
     "title": "告白",
     "authors": [
       "湊かなえ"
@@ -12526,7 +12334,7 @@
     }
   },
   {
-    "id": "gb-blog-罪の声",
+    "id": "gb-Ld0IDgAAQBAJ",
     "title": "『罪の声』試し読み小冊子",
     "authors": [
       "講談社"
@@ -12571,7 +12379,7 @@
     }
   },
   {
-    "id": "gb-blog-ナミヤ雑貨店の奇蹟",
+    "id": "9784046317445",
     "title": "ナミヤ雑貨店の奇蹟",
     "authors": [
       "東野圭吾"
@@ -12621,7 +12429,7 @@
     }
   },
   {
-    "id": "gb-blog-マスカレードホテル",
+    "id": "9784087452068",
     "title": "マスカレード・ホテル",
     "authors": [
       "東野圭吾"
@@ -12671,7 +12479,7 @@
     }
   },
   {
-    "id": "gb-blog-ぼくは明日昨日のきみとデートする",
+    "id": "9784800226105",
     "title": "ぼくは明日、昨日のきみとデートする",
     "authors": [
       "七月隆文"
@@ -12719,7 +12527,7 @@
     }
   },
   {
-    "id": "gb-blog-阪急電車",
+    "id": "gb-mWC5DwAAQBAJ",
     "title": "阪急電車",
     "authors": [
       "有川浩"
@@ -12767,7 +12575,7 @@
     }
   },
   {
-    "id": "gb-blog-舟を編む",
+    "id": "9784334768805",
     "title": "舟を編む",
     "authors": [
       "三浦しをん"
@@ -12815,7 +12623,7 @@
     }
   },
   {
-    "id": "gb-blog-蜜蜂と遠雷",
+    "id": "9784344845183",
     "title": "蜜蜂と遠雷",
     "authors": [
       "恩田陸"
@@ -12863,7 +12671,7 @@
     }
   },
   {
-    "id": "gb-blog-そしてバトンは渡された",
+    "id": "gb-RxL6DwAAQBAJ",
     "title": "そして、バトンは渡された",
     "authors": [
       "瀬尾まいこ"
@@ -12909,7 +12717,7 @@
     }
   },
   {
-    "id": "gb-blog-正欲",
+    "id": "9784103330639",
     "title": "正欲",
     "authors": [
       "朝井リョウ"
@@ -12957,7 +12765,7 @@
     }
   },
   {
-    "id": "gb-blog-六人の嘘つきな大学生",
+    "id": "gb-Tn7BEAAAQBAJ",
     "title": "六人の嘘つきな大学生",
     "authors": [
       "浅倉　秋成"
@@ -13003,7 +12811,7 @@
     }
   },
   {
-    "id": "gb-blog-オリエント急行殺人事件",
+    "id": "9784591082621",
     "title": "オリエント急行殺人事件",
     "authors": [
       "アガサクリスティ",
@@ -13052,7 +12860,7 @@
     }
   },
   {
-    "id": "gb-blog-ゴーンガール",
+    "id": "gb-0DeCDAAAQBAJ",
     "title": "ゴーン・ガール 下",
     "authors": [
       "ギリアン・フリン",
@@ -13099,7 +12907,7 @@
     }
   },
   {
-    "id": "gb-blog-ラプラスの魔女",
+    "id": "9784041029893",
     "title": "ラプラスの魔女",
     "authors": [
       "東野圭吾"
@@ -13149,7 +12957,7 @@
     }
   },
   {
-    "id": "gb-blog-ハリーポッターと賢者の石",
+    "id": "9784915512377",
     "title": "ハリー・ポッターと賢者の石",
     "authors": [
       "J.K.ローリング"
@@ -13197,7 +13005,7 @@
     }
   },
   {
-    "id": "gb-blog-葬送のフリーレン",
+    "id": "9784098501809",
     "title": "葬送のフリーレン",
     "authors": [
       "山田鐘人",
@@ -13248,56 +13056,7 @@
     }
   },
   {
-    "id": "gb-blog-ダンダダン",
-    "title": "ダンダダン",
-    "authors": [
-      "龍幸伸"
-    ],
-    "categories": [
-      "漫画"
-    ],
-    "keywords": [
-      "漫画",
-      "ブログ掲載書籍"
-    ],
-    "searchableText": "ダンダダン 6 龍幸伸 集英社 漫画 漫画 ブログ掲載書籍",
-    "updatedAt": "2026-03-15T23:35:34.362Z",
-    "language": "ja",
-    "relatedBookIds": [
-      "gb-blog-葬送のフリーレン",
-      "gb-blog-怪獣8号",
-      "gb-blog-薬屋のひとりごと",
-      "gb-blog-spyfamily",
-      "gb-blog-sakamotodays",
-      "gb-blog-ブルーロック",
-      "gb-blog-チェンソーマン",
-      "gb-blog-推しの子",
-      "gb-blog-呪術廻戦",
-      "gb-blog-キングダム"
-    ],
-    "thumbnailUrl": "https://books.google.com/books/content?id=IGWLzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "IGWLzgEACAAJ"
-    },
-    "publishedDate": "2022-08-04",
-    "publisher": "集英社",
-    "pageCount": 199,
-    "estimatedReadingHours": 5,
-    "isbn13": "9784088825991",
-    "manualClassification": {
-      "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "general-manga",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": [
-        "series"
-      ]
-    }
-  },
-  {
-    "id": "gb-blog-怪獣8号",
+    "id": "gb-jRgFEAAAQBAJ",
     "title": "怪獣8号",
     "authors": [
       "松本直也"
@@ -13345,7 +13104,7 @@
     }
   },
   {
-    "id": "gb-blog-薬屋のひとりごと",
+    "id": "gb-7C_GDwAAQBAJ",
     "title": "薬屋のひとりごと",
     "authors": [
       "日向夏",
@@ -13445,7 +13204,7 @@
     }
   },
   {
-    "id": "gb-blog-ブルーロック",
+    "id": "gb-5Ft2DwAAQBAJ",
     "title": "ブルーロック",
     "authors": [
       "金城宗幸",
@@ -13491,7 +13250,7 @@
     }
   },
   {
-    "id": "gb-blog-チェンソーマン",
+    "id": "gb-NyOEDwAAQBAJ",
     "title": "チェンソーマン 1",
     "authors": [
       "藤本タツキ"
@@ -13539,7 +13298,7 @@
     }
   },
   {
-    "id": "gb-blog-推しの子",
+    "id": "9784088916507",
     "title": "【推しの子】",
     "authors": [
       "赤坂アカ × 横槍メンゴ"
@@ -13589,7 +13348,7 @@
     }
   },
   {
-    "id": "gb-blog-呪術廻戦",
+    "id": "9784081152858",
     "title": "呪術廻戦",
     "authors": [
       "芥見下々"
@@ -13665,7 +13424,7 @@
     }
   },
   {
-    "id": "gb-blog-キングダム",
+    "id": "gb-bCXKCwAAQBAJ",
     "title": "キングダム",
     "authors": [
       "原泰久"
@@ -13713,7 +13472,7 @@
     }
   },
   {
-    "id": "gb-blog-アオのハコ",
+    "id": "gb-VDs1EAAAQBAJ",
     "title": "アオのハコ",
     "authors": [
       "三浦糀"
@@ -13761,7 +13520,7 @@
     }
   },
   {
-    "id": "gb-blog-その着せ替え人形は恋をする",
+    "id": "gb-CjHGDwAAQBAJ",
     "title": "その着せ替え人形は恋をする",
     "authors": [
       "福田晋一"
@@ -13810,7 +13569,7 @@
     }
   },
   {
-    "id": "gb-blog-メダリスト",
+    "id": "gb-cdH8DwAAQBAJ",
     "title": "メダリスト",
     "authors": [
       "つるまいかだ"
@@ -13858,7 +13617,7 @@
     }
   },
   {
-    "id": "gb-blog-黄泉のツガイ",
+    "id": "9784757579620",
     "title": "黄泉のツガイ",
     "authors": [
       "荒川弘"
@@ -13909,7 +13668,7 @@
     }
   },
   {
-    "id": "gb-blog-忘却バッテリー",
+    "id": "9784088816036",
     "title": "忘却バッテリー",
     "authors": [
       "みかわ絵子"
@@ -13958,7 +13717,7 @@
     }
   },
   {
-    "id": "gb-blog-ワンパンマン",
+    "id": "gb-q9UvDAAAQBAJ",
     "title": "ワンパンマン 1",
     "authors": [
       "ONE",
@@ -14007,7 +13766,7 @@
     }
   },
   {
-    "id": "gb-blog-ちいかわなんか小さくてかわいいや",
+    "id": "9784065223963",
     "title": "ちいかわなんか小さくてかわいいやつ 1",
     "authors": [
       "ナガノ"
@@ -14057,7 +13816,7 @@
     }
   },
   {
-    "id": "gb-blog-同志少女よ敵を撃て",
+    "id": "9784152100641",
     "title": "同志少女よ、敵を撃て",
     "authors": [
       "逢坂冬馬"
@@ -14105,7 +13864,7 @@
     }
   },
   {
-    "id": "gb-blog-プロジェクトヘイルメアリー",
+    "id": "gb-OCWuEQAAQBAJ",
     "title": "プロジェクト・ヘイル・メアリー　上",
     "authors": [
       "アンディ ウィアー"
@@ -14151,7 +13910,7 @@
     }
   },
   {
-    "id": "gb-blog-白夜行",
+    "id": "9789869572422",
     "title": "白夜行",
     "authors": [
       "東野圭吾"
@@ -14199,7 +13958,7 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=KZgLEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
-    "id": "gb-blog-こころ",
+    "id": "gb-XcJaEAAAQBAJ",
     "title": "こころ",
     "authors": [
       "夏目漱石"
@@ -14245,7 +14004,7 @@
     }
   },
   {
-    "id": "gb-blog-ノルウェイの森",
+    "id": "gb-UjDSrQEACAAJ",
     "title": "ノルウェイの森",
     "authors": [
       "村上春樹"

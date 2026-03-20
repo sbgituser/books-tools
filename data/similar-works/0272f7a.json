@@ -67,17 +67,6 @@
       "title": "読み味が近い作品",
       "items": [
         {
-          "workId": "novel__図書館戦争__有川浩",
-          "fileId": "0bcc9h2",
-          "title": "図書館戦争",
-          "authorDisplay": "有川　浩",
-          "type": "novel",
-          "status": "unknown",
-          "volumeCount": 1,
-          "coverImageUrl": "https://books.google.com/books/content?id=q1imYpx_hbUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-          "reason": "「泣ける」「感動」など読み味が近い"
-        },
-        {
           "workId": "novel__図書館戦争_図書館戦争シリーズ__有川浩",
           "fileId": "05vxbou",
           "title": "図書館戦争　図書館戦争シリーズ",
@@ -131,9 +120,20 @@
           "volumeCount": 1,
           "coverImageUrl": "https://books.google.com/books/content?id=b88vAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
           "reason": "「泣ける」「感動」など読み味が近い"
+        },
+        {
+          "workId": "manga__nana_ナナ__矢沢あい",
+          "fileId": "0xg4crk",
+          "title": "NANA―ナナ―",
+          "authorDisplay": "矢沢あい",
+          "type": "manga",
+          "status": "ongoing",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=eNzICwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "「泣ける」「心温まる」など読み味が近い"
         }
       ]
     }
   ],
-  "generatedAt": "2026-03-19T12:56:55.912Z"
+  "generatedAt": "2026-03-20T07:30:06.472Z"
 }

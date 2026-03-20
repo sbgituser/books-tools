@@ -6,17 +6,6 @@
       "title": "同じ作者の作品",
       "items": [
         {
-          "workId": "novel__かがみの孤城__辻村深月",
-          "fileId": "0wafq68",
-          "title": "かがみの孤城",
-          "authorDisplay": "辻村深月 / 武富智",
-          "type": "novel",
-          "status": "unknown",
-          "volumeCount": 2,
-          "coverImageUrl": "https://books.google.com/books/content?id=fxoXEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-          "reason": "辻村深月による小説"
-        },
-        {
           "workId": "novel__スロウハイツの神様__辻村深月",
           "fileId": "1k2xitt",
           "title": "スロウハイツの神様",
@@ -28,14 +17,14 @@
           "reason": "辻村深月による小説"
         },
         {
-          "workId": "novel__名前探しの放課後__辻村深月",
-          "fileId": "0rk010n",
-          "title": "名前探しの放課後",
-          "authorDisplay": "辻村深月",
+          "workId": "novel__かがみの孤城__辻村深月",
+          "fileId": "0wafq68",
+          "title": "かがみの孤城",
+          "authorDisplay": "辻村深月 / 武富智",
           "type": "novel",
           "status": "unknown",
           "volumeCount": 1,
-          "coverImageUrl": "https://books.google.com/books/content?id=jktxDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "coverImageUrl": "https://books.google.com/books/content?id=fxoXEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
           "reason": "辻村深月による小説"
         },
         {
@@ -69,6 +58,17 @@
           "status": "unknown",
           "volumeCount": 1,
           "coverImageUrl": "https://books.google.com/books/content?id=R9yrBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "辻村深月による小説"
+        },
+        {
+          "workId": "novel__スロウハイツの神様__桂明日香",
+          "fileId": "1e2hdq2",
+          "title": "スロウハイツの神様",
+          "authorDisplay": "桂明日香 / 辻村深月",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=Tr6aDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
           "reason": "辻村深月による小説"
         }
       ]
@@ -146,5 +146,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-03-19T12:56:55.900Z"
+  "generatedAt": "2026-03-20T07:30:06.458Z"
 }

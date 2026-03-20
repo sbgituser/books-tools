@@ -78,14 +78,14 @@
           "reason": "講談社の漫画"
         },
         {
-          "workId": "manga__とんがり帽子のアトリエ__白浜鴎",
-          "fileId": "0crxgfo",
-          "title": "とんがり帽子のアトリエ",
-          "authorDisplay": "白浜鴎",
+          "workId": "manga__メダリスト__つるまいかだ",
+          "fileId": "0jrh2b1",
+          "title": "メダリスト",
+          "authorDisplay": "つるまいかだ",
           "type": "manga",
           "status": "unknown",
           "volumeCount": 2,
-          "coverImageUrl": "https://books.google.com/books/content?id=viOsswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+          "coverImageUrl": "https://books.google.com/books/content?id=cdH8DwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
           "reason": "講談社の漫画"
         }
       ]
@@ -163,5 +163,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-03-19T12:56:56.128Z"
+  "generatedAt": "2026-03-20T07:30:06.715Z"
 }

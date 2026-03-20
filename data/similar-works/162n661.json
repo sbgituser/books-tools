@@ -2,23 +2,6 @@
   "workId": "novel__成瀬は天下を取りにいく_新潮文庫__宮島未奈",
   "groups": [
     {
-      "type": "same_author",
-      "title": "同じ作者の作品",
-      "items": [
-        {
-          "workId": "novel__成瀬は天下を取りにいく__宮島未奈",
-          "fileId": "0wy47e2",
-          "title": "成瀬は天下を取りにいく",
-          "authorDisplay": "宮島未奈",
-          "type": "novel",
-          "status": "unknown",
-          "volumeCount": 1,
-          "coverImageUrl": "https://books.google.com/books/content?id=ujZoEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-          "reason": "宮島未奈による小説"
-        }
-      ]
-    },
-    {
       "type": "same_publisher",
       "title": "同じ出版社・レーベルから探す",
       "items": [
@@ -152,5 +135,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-03-19T12:56:55.839Z"
+  "generatedAt": "2026-03-20T07:30:06.389Z"
 }

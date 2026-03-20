@@ -6,17 +6,6 @@
       "title": "同じ作者の作品",
       "items": [
         {
-          "workId": "novel__図書館戦争__有川浩",
-          "fileId": "0bcc9h2",
-          "title": "図書館戦争",
-          "authorDisplay": "有川　浩",
-          "type": "novel",
-          "status": "unknown",
-          "volumeCount": 1,
-          "coverImageUrl": "https://books.google.com/books/content?id=q1imYpx_hbUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-          "reason": "有川　浩による小説"
-        },
-        {
           "workId": "novel__図書館戦争_図書館戦争シリーズ__有川浩",
           "fileId": "05vxbou",
           "title": "図書館戦争　図書館戦争シリーズ",
@@ -185,5 +174,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-03-19T12:56:55.920Z"
+  "generatedAt": "2026-03-20T07:30:06.481Z"
 }

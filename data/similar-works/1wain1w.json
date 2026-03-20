@@ -28,9 +28,9 @@
           "reason": "横溝正史による小説"
         },
         {
-          "workId": "novel__横溝正史自選集__横溝正史",
-          "fileId": "0h42dqd",
-          "title": "横溝正史自選集",
+          "workId": "novel__本陣殺人事件__横溝正史",
+          "fileId": "04iodk5",
+          "title": "本陣殺人事件",
           "authorDisplay": "横溝正史",
           "type": "novel",
           "status": "unknown",
@@ -124,5 +124,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-03-19T12:56:55.772Z"
+  "generatedAt": "2026-03-20T07:30:06.318Z"
 }

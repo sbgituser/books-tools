@@ -6,17 +6,6 @@
       "title": "同じ作者の作品",
       "items": [
         {
-          "workId": "novel__検察側の罪人__雫井脩介",
-          "fileId": "1vh454q",
-          "title": "検察側の罪人",
-          "authorDisplay": "雫井脩介",
-          "type": "novel",
-          "status": "unknown",
-          "volumeCount": 1,
-          "coverImageUrl": "https://books.google.com/books/content?id=fw7NDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-          "reason": "雫井脩介による小説"
-        },
-        {
           "workId": "novel__検察側の罪人_下__雫井脩介",
           "fileId": "1ma8sec",
           "title": "検察側の罪人（下）",
@@ -102,5 +91,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-03-19T12:56:55.908Z"
+  "generatedAt": "2026-03-20T07:30:06.468Z"
 }

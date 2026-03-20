@@ -12,19 +12,8 @@
           "authorDisplay": "辻村深月 / 武富智",
           "type": "novel",
           "status": "unknown",
-          "volumeCount": 2,
-          "coverImageUrl": "https://books.google.com/books/content?id=fxoXEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-          "reason": "辻村深月による小説"
-        },
-        {
-          "workId": "novel__名前探しの放課後__辻村深月",
-          "fileId": "0rk010n",
-          "title": "名前探しの放課後",
-          "authorDisplay": "辻村深月",
-          "type": "novel",
-          "status": "unknown",
           "volumeCount": 1,
-          "coverImageUrl": "https://books.google.com/books/content?id=jktxDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "coverImageUrl": "https://books.google.com/books/content?id=fxoXEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
           "reason": "辻村深月による小説"
         },
         {
@@ -69,6 +58,17 @@
           "status": "unknown",
           "volumeCount": 1,
           "coverImageUrl": "https://books.google.com/books/content?id=Tr6aDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "reason": "辻村深月による小説"
+        },
+        {
+          "workId": "novel__名前探しの放課後_上__辻村深月",
+          "fileId": "127kkds",
+          "title": "名前探しの放課後（上）",
+          "authorDisplay": "辻村深月",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/content?id=trSqBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
           "reason": "辻村深月による小説"
         }
       ]
@@ -146,5 +146,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-03-19T12:56:55.834Z"
+  "generatedAt": "2026-03-20T07:30:06.382Z"
 }

@@ -153,6 +153,33 @@ function chooseBestCandidate(candidates: GBItem[], targetTitle: string, targetAu
   return null;
 }
 
+const NON_BOOK_TITLES = [
+  "あらすじ",
+  "関連記事",
+  "内部リンク",
+  "注意",
+  "まとめ",
+  "FAQ",
+  "目次",
+  "特徴",
+  "どんな人",
+  "ポイント",
+  "雰囲気",
+  "映画",
+];
+
+function fallbackFindBySimilarTitle(
+  byNormalizedTitle: Map<string, BookIndex[]>,
+  titleKey: string,
+): BookIndex[] {
+  for (const [key, books] of byNormalizedTitle) {
+    if (key.includes(titleKey) || titleKey.includes(key)) {
+      return books;
+    }
+  }
+  return [];
+}
+
 function findMissingHeadings(indexBooks: BookIndex[]): MissingHeading[] {
   const byNormalizedTitle = new Map<string, BookIndex[]>();
   for (const book of indexBooks) {
@@ -169,24 +196,35 @@ function findMissingHeadings(indexBooks: BookIndex[]): MissingHeading[] {
   for (const file of files) {
     const lines = fs.readFileSync(path.join(BLOG_DIR, file), "utf-8").split(/\r?\n/);
     for (let i = 0; i < lines.length; i++) {
-      const m = lines[i].match(/^###\s+(\d+\s*位\s+.+)$/);
+      // Match ALL ### headings
+      const m = lines[i].match(/^###\s+(.+)$/);
       if (!m) continue;
-      const { title, author } = extractHeadingParts(m[1]);
+      const raw = m[1];
+
+      // Only process headings that have an author in parentheses
+      if (!/[（(].+[）)]/.test(raw)) continue;
+
+      const { title, author } = extractHeadingParts(raw);
+
+      // Skip obvious non-book headings
+      const titleNorm = normalizeText(title);
+      const isNonBook = NON_BOOK_TITLES.some((kw) => {
+        const kwNorm = normalizeText(kw);
+        return titleNorm.startsWith(kwNorm) || kwNorm === titleNorm;
+      });
+      if (isNonBook) continue;
+
       const titleKey = normalizeText(title);
-      const matches = byNormalizedTitle.get(titleKey) ?? [];
+
+      // Exact match first, then fallback includes() match
+      let matches = byNormalizedTitle.get(titleKey) ?? [];
       if (!matches.length) {
-        missing.push({ file, line: i + 1, title, author });
-        continue;
+        matches = fallbackFindBySimilarTitle(byNormalizedTitle, titleKey);
       }
-      if (!author) continue;
-      const authorKey = normalizeText(author);
-      const authorMatched = matches.some((book) =>
-        (book.authors ?? []).some((name) => {
-          const n = normalizeText(name);
-          return n.includes(authorKey) || authorKey.includes(n);
-        }),
-      );
-      if (!authorMatched) {
+
+      // If any title match exists, the card will show (findBookByHeadingText fallback)
+      // Only mark as missing when NO title match exists at all
+      if (!matches.length) {
         missing.push({ file, line: i + 1, title, author });
       }
     }

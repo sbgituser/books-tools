@@ -28,17 +28,6 @@
           "reason": "劉慈欣による小説"
         },
         {
-          "workId": "novel__騎士団長殺し__大森望",
-          "fileId": "1w6csbd",
-          "title": "騎士団長殺し",
-          "authorDisplay": "大森望 / 豊崎由美",
-          "type": "novel",
-          "status": "unknown",
-          "volumeCount": 1,
-          "coverImageUrl": "https://books.google.com/books/content?id=tcU_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-          "reason": "大森望による小説"
-        },
-        {
           "workId": "novel__村上春樹_色彩を持たない多崎つくると_彼の巡礼の年_メッタ斬り__大森望",
           "fileId": "0ffspbq",
           "title": "村上春樹『色彩を持たない多崎つくると、彼の巡礼の年』メッタ斬り！",
@@ -135,5 +124,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-03-19T12:56:56.034Z"
+  "generatedAt": "2026-03-20T07:30:06.614Z"
 }

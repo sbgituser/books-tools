@@ -122,14 +122,14 @@
           "reason": "集英社の小説"
         },
         {
-          "workId": "novel__かがみの孤城__辻村深月",
-          "fileId": "0wafq68",
-          "title": "かがみの孤城",
-          "authorDisplay": "辻村深月 / 武富智",
+          "workId": "novel__光媒の花__斉藤倫",
+          "fileId": "0t915g7",
+          "title": "光媒の花",
+          "authorDisplay": "斉藤倫 / 道尾秀介",
           "type": "novel",
           "status": "unknown",
-          "volumeCount": 2,
-          "coverImageUrl": "https://books.google.com/books/content?id=fxoXEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=a9knDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE71Hc0EZxa9JeNRcvKPBAmdIHT3BXnIMJoxenWCjBwUJhBd5vWIGms2c3p5VvAxpBCdAHnTEwLjJMnVZBE_qFuyoP_G_msziIiztgGZ40xgrPRgxQkVrPQ15reJlvnYcxmq51G2t&source=gbs_api",
           "reason": "集英社の小説"
         }
       ]
@@ -207,5 +207,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-03-19T12:56:55.932Z"
+  "generatedAt": "2026-03-20T07:30:06.491Z"
 }

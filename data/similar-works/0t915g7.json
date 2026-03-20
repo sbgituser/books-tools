@@ -84,7 +84,7 @@
           "authorDisplay": "辻村深月 / 武富智",
           "type": "novel",
           "status": "unknown",
-          "volumeCount": 2,
+          "volumeCount": 1,
           "coverImageUrl": "https://books.google.com/books/content?id=fxoXEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
           "reason": "集英社の小説"
         },
@@ -207,5 +207,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-03-19T12:56:55.713Z"
+  "generatedAt": "2026-03-20T07:30:06.254Z"
 }

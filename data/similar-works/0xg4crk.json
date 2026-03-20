@@ -78,17 +78,6 @@
           "reason": "「切ない」「心温まる」など読み味が近い"
         },
         {
-          "workId": "novel__図書館戦争__有川浩",
-          "fileId": "0bcc9h2",
-          "title": "図書館戦争",
-          "authorDisplay": "有川　浩",
-          "type": "novel",
-          "status": "unknown",
-          "volumeCount": 1,
-          "coverImageUrl": "https://books.google.com/books/content?id=q1imYpx_hbUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-          "reason": "「切ない」「泣ける」など読み味が近い"
-        },
-        {
           "workId": "novel__図書館戦争_図書館戦争シリーズ__有川浩",
           "fileId": "05vxbou",
           "title": "図書館戦争　図書館戦争シリーズ",
@@ -131,9 +120,20 @@
           "volumeCount": 1,
           "coverImageUrl": "https://books.google.com/books/content?id=aFXzrQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
           "reason": "「切ない」「泣ける」など読み味が近い"
+        },
+        {
+          "workId": "novel__阪急電車__有川浩",
+          "fileId": "08byc3s",
+          "title": "阪急電車",
+          "authorDisplay": "有川浩",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=mWC5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE70LD2oanXrKtkQrrhYcmjhy5SDohCl8N9J3eHWGgd7XI-CdyYJg1KFULvsLX_aFDVr3j9W3d57myokMgDgjyZFIIXGjrXekcXD4kjS5XwWj9feVWCqcE-rvnWNlwZDjUPfEpBlv&source=gbs_api",
+          "reason": "「切ない」「泣ける」など読み味が近い"
         }
       ]
     }
   ],
-  "generatedAt": "2026-03-19T12:56:56.075Z"
+  "generatedAt": "2026-03-20T07:30:06.659Z"
 }

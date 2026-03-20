@@ -6,17 +6,6 @@
       "title": "同じ作者の作品",
       "items": [
         {
-          "workId": "novel__十角館の殺人__綾辻行人",
-          "fileId": "0vtd16p",
-          "title": "十角館の殺人",
-          "authorDisplay": "綾辻行人 / 清原紘",
-          "type": "novel",
-          "status": "unknown",
-          "volumeCount": 2,
-          "coverImageUrl": "https://books.google.com/books/content?id=OmUnzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-          "reason": "綾辻行人による小説"
-        },
-        {
           "workId": "novel__時計館の殺人_新装改訂版_下__綾辻行人",
           "fileId": "0aj1l4p",
           "title": "時計館の殺人〈新装改訂版〉（下）",
@@ -70,6 +59,17 @@
           "volumeCount": 1,
           "coverImageUrl": "https://books.google.com/books/publisher/content?id=maBdDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72WIJwLbxg5EdiPcMj9Xe-qz3ztGXdELKoOmhvT1qN7ALsH8pff9ViT3BVgF1jpHnCZLLTubNGjJB6Ru1uv4-tIW3e3ZnF0LYODNtHpufLEGeUcM3O0HLtBACzlvgf5zjwLdsw8&source=gbs_api",
           "reason": "綾辻　行人による小説"
+        },
+        {
+          "workId": "novel__人形館の殺人_新装改訂版__綾辻行人",
+          "fileId": "1ohd0w1",
+          "title": "人形館の殺人〈新装改訂版〉",
+          "authorDisplay": "綾辻行人",
+          "type": "novel",
+          "status": "unknown",
+          "volumeCount": 1,
+          "coverImageUrl": "https://books.google.com/books/publisher/content?id=OsiuBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73TjqTzpfEITrilenx8UOUnKgwy8HgLPO2QxbMqDLQnMROFbbBPs_mYBuaT4SuxqjYxtNTsdy-4mTBHukpHEo5Zt5qLCiJhLPYJ3uieJ1rCLzetxY0irurGcr9fhi4FpgiAB0er&source=gbs_api",
+          "reason": "綾辻行人による小説"
         }
       ]
     },
@@ -207,5 +207,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-03-19T12:56:56.020Z"
+  "generatedAt": "2026-03-20T07:30:06.595Z"
 }

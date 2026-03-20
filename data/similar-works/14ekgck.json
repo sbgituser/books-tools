@@ -2,23 +2,6 @@
   "workId": "novel__現代少女とその教育__沼田笠峰",
   "groups": [
     {
-      "type": "same_author",
-      "title": "同じ作者の作品",
-      "items": [
-        {
-          "workId": "novel__少女__沼田笠峰",
-          "fileId": "0rrno9x",
-          "title": "少女",
-          "authorDisplay": "沼田笠峰",
-          "type": "novel",
-          "status": "unknown",
-          "volumeCount": 1,
-          "coverImageUrl": "https://books.google.com/books/content?id=owmS_TJaucIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-          "reason": "沼田笠峰による小説"
-        }
-      ]
-    },
-    {
       "type": "similar_taste",
       "title": "読み味が近い作品",
       "items": [
@@ -91,5 +74,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-03-19T12:56:55.869Z"
+  "generatedAt": "2026-03-20T07:30:06.421Z"
 }
