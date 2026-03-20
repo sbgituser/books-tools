@@ -3434,7 +3434,7 @@
     }
   },
   {
-    "id": "gb-iimo0QEACAAJ",
+    "id": "9784592141105",
     "title": "3月のライオン",
     "authors": [
       "羽海野チカ"
@@ -3462,10 +3462,8 @@
         "readable"
       ]
     },
-    "thumbnailUrl": "https://books.google.com/books/content?id=iimo0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "sourceIds": {
-      "googleBooksId": "iimo0QEACAAJ"
-    }
+    "thumbnailUrl": "https://books.google.com/books/content?vid=ISBN9784592141105&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "isbn13": "9784592141105"
   },
   {
     "id": "gb-XdnFDwAAQBAJ",
@@ -14476,46 +14474,6 @@
       ]
     },
     "thumbnailUrl": "https://books.google.com/books/content?id=oCX9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-  },
-  {
-    "id": "9784324087589",
-    "title": "「日常型心の傷」に悩む人々",
-    "authors": [
-      "丸野　俊一",
-      "小田部　貴子"
-    ],
-    "categories": [],
-    "keywords": [],
-    "searchableText": "「日常型心の傷」に悩む人々 丸野　俊一 小田部　貴子 ぎょうせい",
-    "updatedAt": "2026-03-12T01:37:49.987Z",
-    "publisher": "ぎょうせい",
-    "publishedDate": "2010-02",
-    "isbn13": "9784324087589",
-    "language": "ja",
-    "relatedBookIds": [
-      "9784324087657",
-      "9784324066102",
-      "9784324073681",
-      "gb-blog-本当の自由を手に入れるお金の大学",
-      "gb-blog-敗者のゲーム",
-      "gb-blog-ウォール街のランダムウォーカー",
-      "gb-blog-justkeepbuying",
-      "gb-blog-金持ち父さん貧乏父さん",
-      "gb-blog-世界一やさしい株の教科書1年生",
-      "gb-blog-漫画バビロン大富豪の教え"
-    ],
-    "manualClassification": {
-      "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "daily-life",
-      "l4TagIds": [
-        "readable"
-      ],
-      "l5TagIds": [
-        "series"
-      ]
-    },
-    "thumbnailUrl": "https://books.google.com/books/content?id=Pm5LAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "9784799107874",

@@ -295,14 +295,6 @@ export default async function WorkDetailPage({
                   >
                     Amazonで探す →
                   </a>
-                  {similar && similar.groups.length > 0 && (
-                    <a
-                      href="#similar-works"
-                      className="inline-flex items-center gap-1.5 border border-violet-300 hover:border-violet-500 text-violet-600 hover:text-violet-800 font-semibold text-xs sm:text-sm px-4 py-2.5 rounded-xl transition-colors"
-                    >
-                      似た作品を見る ↓
-                    </a>
-                  )}
                 </div>
               </div>
             </div>
