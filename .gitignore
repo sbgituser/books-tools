@@ -48,3 +48,6 @@ scripts/classifications.csv
 
 # normalized intermediate data (rebuilt by normalize-works.ts)
 /data/normalized/
+
+# similar-works (rebuilt on every build; generatedAt timestamp changes only)
+/data/similar-works/
