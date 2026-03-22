@@ -3,15 +3,13 @@
 /**
  * DiscoverSection.tsx
  *
- * 「発見する」ページのメインUI。
+ * 「気分で選ぶ」ページのメインUI。
  *
  * 流れ:
- *   1. ムード選択（8つの読書気分カード）
- *   2. AI選書（curated）表示 ← 主役
- *   3. 「全作品を見る」— 補助導線
- *
- * curated データは選択時に /data/discover-curated/{slug}.json を fetch する。
- * curated が未生成のムードは全件一覧で表示する。
+ *   1. 漫画/小説/すべてタブ
+ *   2. ムード選択（8つの読書気分カード）
+ *   3. AI選書（curated）表示 ← 主役
+ *   4. 「全作品を見る」— 補助導線
  */
 
 import { useState, useEffect, useCallback } from "react";
@@ -21,100 +19,111 @@ import { DISCOVER_MOODS } from "@/constants/discoverMoods";
 import type { WorkListItem, DiscoveryIndex } from "@/types/work";
 import type { DiscoverCurated } from "@/types/discover-curated";
 
-// ── 型 ────────────────────────────────────────────────────────────
-
 type LoadState = "idle" | "loading" | "loaded" | "error";
+type TypeFilter = "all" | "manga" | "novel";
 
-// ── メインコンポーネント ──────────────────────────────────────────
+const TYPE_TABS: { value: TypeFilter; label: string }[] = [
+  { value: "all",   label: "すべて" },
+  { value: "manga", label: "📖 漫画" },
+  { value: "novel", label: "📕 小説" },
+];
 
 export default function DiscoverSection() {
-  // 選択中のムード slug
   const [selectedSlug, setSelectedSlug] = useState<string | null>(null);
-
-  // discovery-index (全件一覧 + タグ → workIds)
+  const [typeFilter, setTypeFilter] = useState<TypeFilter>("all");
   const [index, setIndex] = useState<DiscoveryIndex | null>(null);
-
-  // AI選書データ (slug → DiscoverCurated)
   const [curatedCache, setCuratedCache] = useState<Map<string, DiscoverCurated | null>>(new Map());
   const [curatedState, setCuratedState] = useState<LoadState>("idle");
-
-  // 全件一覧表示フラグ
   const [showAll, setShowAll] = useState(false);
 
   // URL クエリ初期値
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const mood = params.get("mood");
-    if (mood && DISCOVER_MOODS.some((m) => m.slug === mood)) {
-      setSelectedSlug(mood);
-    }
+    if (mood && DISCOVER_MOODS.some((m) => m.slug === mood)) setSelectedSlug(mood);
+    const type = params.get("type") as TypeFilter | null;
+    if (type === "manga" || type === "novel") setTypeFilter(type);
   }, []);
 
-  // discovery-index fetch（全件一覧用）
+  // discovery-index fetch
   useEffect(() => {
     fetch("/data/discovery-index.json")
       .then((r) => r.json())
       .then((data: DiscoveryIndex) => setIndex(data))
-      .catch(() => {/* silently fail — curated view works without it */});
+      .catch(() => {});
   }, []);
 
   // ムード選択時に curated JSON を fetch
   useEffect(() => {
     if (!selectedSlug) return;
-    if (curatedCache.has(selectedSlug)) return; // キャッシュ済み
+    if (curatedCache.has(selectedSlug)) return;
 
     setCuratedState("loading");
     fetch(`/data/discover-curated/${selectedSlug}.json`)
-      .then((r) => {
-        if (!r.ok) throw new Error("not found");
-        return r.json() as Promise<DiscoverCurated>;
-      })
+      .then((r) => { if (!r.ok) throw new Error("not found"); return r.json() as Promise<DiscoverCurated>; })
       .then((data) => {
         setCuratedCache((prev) => new Map(prev).set(selectedSlug, data));
         setCuratedState("loaded");
       })
       .catch(() => {
-        // curated データなし → null をキャッシュして全件一覧にフォールバック
         setCuratedCache((prev) => new Map(prev).set(selectedSlug, null));
         setCuratedState("error");
       });
   }, [selectedSlug, curatedCache]);
 
-  // ムード選択ハンドラー
   const handleSelectMood = useCallback((slug: string) => {
-    if (selectedSlug === slug) {
-      // 同じムードを再クリック → 解除
-      setSelectedSlug(null);
-      setShowAll(false);
-      return;
-    }
+    if (selectedSlug === slug) { setSelectedSlug(null); setShowAll(false); return; }
     setSelectedSlug(slug);
     setShowAll(false);
   }, [selectedSlug]);
 
-  // 選択中ムードのデータ
+  const handleTypeChange = useCallback((t: TypeFilter) => {
+    setTypeFilter(t);
+    setShowAll(false);
+  }, []);
+
   const selectedMood = DISCOVER_MOODS.find((m) => m.slug === selectedSlug) ?? null;
   const curatedData = selectedSlug ? (curatedCache.get(selectedSlug) ?? null) : null;
 
-  // 全件一覧: 選択ムードのタグに合致する作品
-  const allFiltered: WorkListItem[] = (() => {
+  // ムードに合致する全作品（タイプフィルタ前）
+  const moodFiltered: WorkListItem[] = (() => {
     if (!index || !selectedMood) return [];
     const matchedIds = new Set<string>();
     for (const tag of selectedMood.tags) {
-      for (const id of index.tagIndex[tag] ?? []) {
-        matchedIds.add(id);
-      }
+      for (const id of index.tagIndex[tag] ?? []) matchedIds.add(id);
     }
     return Object.values(index.works).filter((w) => matchedIds.has(w.workId));
   })();
 
-  // curated 用 workMap
+  // タイプフィルタ適用後
+  const allFiltered = typeFilter === "all"
+    ? moodFiltered
+    : moodFiltered.filter((w) => w.type === typeFilter);
+
+  // curated 用 workMap（タイプフィルタ適用済み）
   const workMap = new Map<string, WorkListItem>(
     allFiltered.map((w) => [w.workId, w])
   );
 
   return (
     <div>
+      {/* ── タイプタブ ── */}
+      <div className="flex gap-2 mb-7">
+        {TYPE_TABS.map((tab) => (
+          <button
+            key={tab.value}
+            onClick={() => handleTypeChange(tab.value)}
+            className={`px-4 py-2 rounded-full text-sm font-bold transition-all ${
+              typeFilter === tab.value
+                ? "bg-rose-500 text-white shadow-sm"
+                : "bg-stone-100 text-stone-600 hover:bg-stone-200"
+            }`}
+          >
+            {tab.label}
+          </button>
+        ))}
+      </div>
+
       {/* ── ムード選択グリッド ── */}
       <div className="mb-8">
         <p className="text-xs font-semibold text-stone-400 uppercase tracking-wider mb-4">
@@ -130,7 +139,7 @@ export default function DiscoverSection() {
                 className={`flex flex-col items-center gap-2 px-3 py-4 rounded-2xl text-center transition-all ${
                   isSelected
                     ? "bg-rose-500 text-white shadow-md scale-105"
-                    : "bg-white border border-stone-200 text-stone-700 hover:border-rose-300 hover:shadow-sm hover:scale-102"
+                    : "bg-white border border-stone-200 text-stone-700 hover:border-rose-300 hover:shadow-sm"
                 }`}
               >
                 <span className="text-2xl" aria-hidden="true">{mood.icon}</span>
@@ -155,20 +164,18 @@ export default function DiscoverSection() {
         )}
       </div>
 
-      {/* ── 選択なし: ガイドテキスト ── */}
+      {/* ── 選択なし ── */}
       {!selectedSlug && (
         <div className="text-center py-16 text-stone-400">
           <p className="text-4xl mb-4">📚</p>
           <p className="text-base font-medium text-stone-500 mb-2">
             今の気分を選ぶと、おすすめの本を手渡しします。
           </p>
-          <p className="text-sm">
-            ランキングではなく、「こんな人に」という選書です。
-          </p>
+          <p className="text-sm">ランキングではなく、「こんな人に」という選書です。</p>
         </div>
       )}
 
-      {/* ── 選択済み: curated / ローディング / 全件 ── */}
+      {/* ── 選択済み ── */}
       {selectedSlug && (
         <div>
           {curatedState === "loading" ? (
@@ -177,14 +184,21 @@ export default function DiscoverSection() {
             </div>
           ) : curatedData !== null && !showAll ? (
             /* ── AI選書ビュー（主役） ── */
-            <CuratedDiscoverView
-              curated={curatedData}
-              workMap={workMap}
-              allCount={allFiltered.length}
-              onShowAll={() => setShowAll(true)}
-            />
+            <>
+              {allFiltered.length === 0 && typeFilter !== "all" && (
+                <p className="text-sm text-stone-400 text-center mb-6">
+                  {typeFilter === "manga" ? "漫画" : "小説"}の選書結果がありません。「すべて」タブでご覧ください。
+                </p>
+              )}
+              <CuratedDiscoverView
+                curated={curatedData}
+                workMap={workMap}
+                allCount={allFiltered.length}
+                onShowAll={() => setShowAll(true)}
+              />
+            </>
           ) : (
-            /* ── 全件一覧（補助 or curated未生成時のフォールバック） ── */
+            /* ── 全件一覧 ── */
             <>
               {curatedData !== null && (
                 <div className="mb-6 flex items-center justify-between">
@@ -202,7 +216,7 @@ export default function DiscoverSection() {
               {allFiltered.length === 0 ? (
                 <div className="text-center py-16 text-stone-400">
                   <p className="text-4xl mb-3">🔍</p>
-                  <p className="text-sm">この気分に合う作品は準備中です</p>
+                  <p className="text-sm">この条件に合う作品は見つかりませんでした</p>
                 </div>
               ) : (
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">

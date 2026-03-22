@@ -3,7 +3,7 @@
  *
  * AI選書結果（scene-curated）が存在すればそれを主役に表示する。
  * 選書結果がない場合はフォールバックとして全件グリッドを表示する。
- * また "このシーンの全作品を見る" として全件グリッドを下部に折りたたみ表示する。
+ * 漫画/小説/すべてタブによるフィルタリングは SceneContentClient が担当する。
  */
 
 import { readFileSync, existsSync } from "fs";
@@ -13,11 +13,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import WorkCard from "@/components/works/WorkCard";
-import CuratedSceneView from "@/components/works/CuratedSceneView";
+import SceneContentClient from "@/components/works/SceneContentClient";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 import { READING_SCENES } from "@/constants/readingScenes";
-import type { SceneWorksData, WorkListItem } from "@/types/work";
+import type { SceneWorksData } from "@/types/work";
 import type { SceneCurated } from "@/types/scene-curated";
 
 // ── データアクセス ────────────────────────────────────────────────
@@ -32,7 +31,6 @@ function getSceneData(slug: string): SceneWorksData | null {
 }
 
 function getCuratedData(slug: string): SceneCurated | null {
-  // AI選書結果は data/scene-curated/ に格納（git管理対象）
   try {
     const path = join(process.cwd(), "data", "scene-curated", `${slug}.json`);
     if (!existsSync(path)) return null;
@@ -84,13 +82,8 @@ export default async function ScenePage({
   if (!data) notFound();
 
   const curated = getCuratedData(slug);
-
   const otherScenes = READING_SCENES.filter((s) => s.slug !== slug);
-
-  // CuratedSceneView 用: workId → WorkListItem マップ
-  const workMap = new Map<string, WorkListItem>(
-    data.works.map((w) => [w.workId, w])
-  );
+  const hasCurated = curated !== null && curated.sections.length > 0;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -99,8 +92,6 @@ export default async function ScenePage({
     description: data.description,
     url: `${SITE_URL}/scene/${slug}`,
   };
-
-  const hasCurated = curated !== null && curated.sections.length > 0;
 
   return (
     <>
@@ -119,7 +110,7 @@ export default async function ScenePage({
               <ol className="flex items-center gap-1.5 flex-wrap">
                 <li><Link href="/" className="hover:text-violet-400">ホーム</Link></li>
                 <li>/</li>
-                <li><Link href="/scene" className="hover:text-violet-400">シーンから探す</Link></li>
+                <li><Link href="/scene" className="hover:text-violet-400">シーンで選ぶ</Link></li>
                 <li>/</li>
                 <li className="text-stone-300 font-medium">{data.label}</li>
               </ol>
@@ -149,57 +140,10 @@ export default async function ScenePage({
           </div>
         </section>
 
-        {/* メインコンテンツ */}
+        {/* メインコンテンツ（タブ付きクライアントコンポーネント） */}
         <section className="max-w-4xl mx-auto px-4 py-10 sm:py-14">
-          {hasCurated ? (
-            /* ── AI選書ビュー（主役） ── */
-            <CuratedSceneView curated={curated!} workMap={workMap} />
-          ) : (
-            /* ── フォールバック: 全件グリッド ── */
-            data.works.length === 0 ? (
-              <div className="text-center py-20 text-stone-400">
-                <p className="text-4xl mb-4">🔍</p>
-                <p className="text-sm mb-4">このシーンに合う作品は現在準備中です</p>
-                <Link
-                  href="/discover"
-                  className="text-sm text-violet-600 hover:underline"
-                >
-                  気分タグから探してみる →
-                </Link>
-              </div>
-            ) : (
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
-                {data.works.map((work) => (
-                  <WorkCard key={work.workId} work={work} />
-                ))}
-              </div>
-            )
-          )}
+          <SceneContentClient curated={curated} works={data.works} />
         </section>
-
-        {/* 全作品セクション（AI選書があるときのみ表示） */}
-        {hasCurated && data.works.length > 0 && (
-          <section className="max-w-7xl mx-auto px-4 pb-12">
-            <details className="group">
-              <summary className="cursor-pointer list-none">
-                <div className="flex items-center justify-center gap-2 py-3 px-5 bg-white border border-stone-200 rounded-full text-sm text-stone-500 hover:text-violet-600 hover:border-violet-300 transition-colors w-fit mx-auto">
-                  <span>このシーンの全作品を見る（{data.totalCount}件）</span>
-                  <span className="group-open:rotate-180 transition-transform duration-200" aria-hidden="true">↓</span>
-                </div>
-              </summary>
-              <div className="mt-6">
-                <p className="text-xs text-stone-400 text-center mb-4">
-                  以下はルールベースで抽出した全候補作品です（選書とは評価基準が異なります）
-                </p>
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
-                  {data.works.map((work) => (
-                    <WorkCard key={work.workId} work={work} />
-                  ))}
-                </div>
-              </div>
-            </details>
-          </section>
-        )}
 
         {/* 他のシーン */}
         <section className="border-t border-stone-200 bg-white py-10 px-4">
