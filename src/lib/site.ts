@@ -18,6 +18,11 @@ export const TOOL_LINKS = [
     description: "条件を指定して次に読む本を比較検討する",
   },
   {
+    href: "/tools/media-originals",
+    title: "映像から原作を探す",
+    description: "映画・ドラマ・アニメから原作となった本を逆引き",
+  },
+  {
     href: "/blog",
     title: "ブログ一覧",
     description: "読書・比較ノウハウをまとめて確認する",
