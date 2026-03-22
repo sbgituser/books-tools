@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 const navItems = [
   { href: "/discover",    label: "気分で選ぶ" },
   { href: "/scene",       label: "シーンで選ぶ" },
+  { href: "/tools",       label: "ツール" },
   { href: "/blog",        label: "ブログ" },
   { href: "/search",      label: "検索" },
 ];
