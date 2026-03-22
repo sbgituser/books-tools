@@ -7,6 +7,10 @@ import Link from "next/link";
 import type { ReactNode, ComponentPropsWithoutRef } from "react";
 import { findBookByHeadingText } from "@/lib/blogBookLookup";
 import BlogBookInlineCard from "@/components/BlogBookInlineCard";
+import BlogFAQ from "@/components/blog/BlogFAQ";
+import BlogCTA from "@/components/blog/BlogCTA";
+import BlogQuickPick from "@/components/blog/BlogQuickPick";
+import BlogRelatedArticles from "@/components/blog/BlogRelatedArticles";
 
 type BlogBookCardProps = {
   id: string;
@@ -70,6 +74,10 @@ export async function renderBlogMdx(source: string) {
     components: {
       h3: BlogBookHeading,
       BlogBookCard,
+      BlogFAQ,
+      BlogCTA,
+      BlogQuickPick,
+      BlogRelatedArticles,
     },
     options: {
       parseFrontmatter: false,
