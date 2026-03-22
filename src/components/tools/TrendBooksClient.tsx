@@ -280,42 +280,20 @@ function BookDetailModal({
             </div>
           )}
 
-          {/* ツール導線 */}
-          <div className="rounded-xl border border-stone-200 bg-white p-4 space-y-2">
-            <h3 className="text-xs font-bold text-stone-500 uppercase tracking-wider mb-3">
-              この本をきっかけに探す
-            </h3>
-            <Link
-              href="/similar-books"
-              className="flex items-center gap-3 rounded-lg border border-stone-200 px-4 py-3 hover:border-teal-300 hover:bg-teal-50 transition-all"
-            >
-              <span className="text-lg" aria-hidden="true">🔍</span>
-              <div className="min-w-0">
-                <p className="text-sm font-semibold text-stone-800">
-                  類似書籍を探す
-                </p>
-                <p className="text-xs text-stone-500 truncate">
-                  「{book.title}」に似た本を見つける
-                </p>
-              </div>
-              <span className="ml-auto text-stone-300 text-sm shrink-0">→</span>
-            </Link>
-            <Link
-              href="/tools/book-compare"
-              className="flex items-center gap-3 rounded-lg border border-stone-200 px-4 py-3 hover:border-teal-300 hover:bg-teal-50 transition-all"
-            >
-              <span className="text-lg" aria-hidden="true">⚖️</span>
-              <div>
-                <p className="text-sm font-semibold text-stone-800">
-                  本を比較して選ぶ
-                </p>
-                <p className="text-xs text-stone-500">
-                  同テーマの候補を条件で絞り込む
-                </p>
-              </div>
-              <span className="ml-auto text-stone-300 text-sm shrink-0">→</span>
-            </Link>
-          </div>
+          {/* 書籍詳細ページへ */}
+          <Link
+            href={`/search?q=${encodeURIComponent(book.title)}`}
+            className="flex items-center gap-3 rounded-xl border border-teal-200 bg-teal-50 px-4 py-3 hover:bg-teal-100 transition-all"
+          >
+            <span className="text-lg" aria-hidden="true">📖</span>
+            <div className="min-w-0">
+              <p className="text-sm font-semibold text-stone-800">書籍の詳細を調べる</p>
+              <p className="text-xs text-stone-500 truncate">
+                「{book.title}」をサイト内で検索
+              </p>
+            </div>
+            <span className="ml-auto text-stone-300 text-sm shrink-0">→</span>
+          </Link>
         </div>
       </div>
     </div>
@@ -565,35 +543,7 @@ export default function TrendBooksClient() {
             <h2 className="text-sm font-bold text-stone-500 uppercase tracking-wider mb-6 text-center">
               関連ツール
             </h2>
-            <div className="grid sm:grid-cols-3 gap-4">
-              <Link
-                href="/similar-books"
-                className="flex flex-col gap-2 rounded-xl border border-stone-200 p-4 hover:border-teal-300 hover:bg-teal-50 transition-all"
-              >
-                <span className="text-2xl" aria-hidden="true">🔍</span>
-                <div>
-                  <p className="text-sm font-bold text-stone-800">
-                    類似書籍を探す
-                  </p>
-                  <p className="text-xs text-stone-500 mt-0.5">
-                    気に入った本から似た本を発見
-                  </p>
-                </div>
-              </Link>
-              <Link
-                href="/tools/book-compare"
-                className="flex flex-col gap-2 rounded-xl border border-stone-200 p-4 hover:border-teal-300 hover:bg-teal-50 transition-all"
-              >
-                <span className="text-2xl" aria-hidden="true">⚖️</span>
-                <div>
-                  <p className="text-sm font-bold text-stone-800">
-                    本を比較して選ぶ
-                  </p>
-                  <p className="text-xs text-stone-500 mt-0.5">
-                    複数候補を条件で絞り込む
-                  </p>
-                </div>
-              </Link>
+            <div className="grid sm:grid-cols-2 gap-4">
               <Link
                 href="/tools/media-originals"
                 className="flex flex-col gap-2 rounded-xl border border-stone-200 p-4 hover:border-teal-300 hover:bg-teal-50 transition-all"
@@ -605,6 +555,20 @@ export default function TrendBooksClient() {
                   </p>
                   <p className="text-xs text-stone-500 mt-0.5">
                     映画・ドラマ・アニメの原作逆引き
+                  </p>
+                </div>
+              </Link>
+              <Link
+                href="/discover"
+                className="flex flex-col gap-2 rounded-xl border border-stone-200 p-4 hover:border-teal-300 hover:bg-teal-50 transition-all"
+              >
+                <span className="text-2xl" aria-hidden="true">💡</span>
+                <div>
+                  <p className="text-sm font-bold text-stone-800">
+                    気分で本を選ぶ
+                  </p>
+                  <p className="text-xs text-stone-500 mt-0.5">
+                    読みたい体験から本を逆引き
                   </p>
                 </div>
               </Link>

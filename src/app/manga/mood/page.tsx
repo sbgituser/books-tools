@@ -71,8 +71,8 @@ export default function MangaMoodPage() {
         <section className="max-w-2xl mx-auto px-4 pb-16 text-center">
           <p className="text-stone-400 text-sm leading-relaxed">
             ※ タグは主要漫画作品に対して付与しています。タグのない作品は表示されませんが、
-            <Link href="/similar-books" className="text-amber-600 hover:underline ml-1">書籍ブラウザ</Link>
-            でカテゴリ別に全作品を閲覧できます。
+            <Link href="/discover?type=manga" className="text-amber-600 hover:underline ml-1">気分で探す</Link>
+            でも作品を探せます。
           </p>
         </section>
       </main>

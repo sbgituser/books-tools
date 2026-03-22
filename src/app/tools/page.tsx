@@ -30,24 +30,6 @@ const TOOLS = [
     badgeClass: "bg-teal-100 text-teal-700",
     cardClass: "hover:border-teal-300 hover:bg-teal-50",
   },
-  {
-    href: "/similar-books",
-    icon: "🔍",
-    label: "類似書籍を探す",
-    description: "気に入った1冊から、似た雰囲気・テーマの本を見つけます。",
-    badge: null,
-    badgeClass: "",
-    cardClass: "hover:border-rose-300 hover:bg-rose-50",
-  },
-  {
-    href: "/tools/book-compare",
-    icon: "⚖️",
-    label: "書籍を比較して選ぶ",
-    description: "条件を指定して複数の候補を比較し、次に読む本を決められます。",
-    badge: null,
-    badgeClass: "",
-    cardClass: "hover:border-amber-300 hover:bg-amber-50",
-  },
 ] as const;
 
 export default function ToolsPage() {

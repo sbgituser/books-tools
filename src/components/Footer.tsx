@@ -19,8 +19,8 @@ export default function Footer() {
             <Link href="/" className="text-stone-400 hover:text-white text-xs transition-colors">
               ホーム
             </Link>
-            <Link href="/similar-books" className="text-stone-400 hover:text-white text-xs transition-colors">
-              類似本検索
+            <Link href="/tools" className="text-stone-400 hover:text-white text-xs transition-colors">
+              ツール一覧
             </Link>
           </nav>
         </div>

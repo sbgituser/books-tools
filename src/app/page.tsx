@@ -200,7 +200,7 @@ export default function HomePage() {
               </h2>
               <p className="text-stone-500 text-sm">Amazonにはない「本の探し方」を提供します</p>
             </div>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
+            <div className="grid sm:grid-cols-2 gap-3">
               <Link
                 href="/tools/media-originals"
                 className="group flex flex-col gap-2 bg-white border border-stone-200 hover:border-indigo-300 hover:bg-indigo-50 rounded-2xl p-4 transition-all hover:shadow-sm"
@@ -216,22 +216,6 @@ export default function HomePage() {
                 <span className="text-2xl" aria-hidden="true">📰</span>
                 <p className="text-sm font-bold text-stone-800 group-hover:text-teal-700 transition-colors leading-snug">テーマから本を探す</p>
                 <p className="text-xs text-stone-500">AI・経済・環境など今のテーマで選ぶ</p>
-              </Link>
-              <Link
-                href="/similar-books"
-                className="group flex flex-col gap-2 bg-white border border-stone-200 hover:border-rose-300 hover:bg-rose-50 rounded-2xl p-4 transition-all hover:shadow-sm"
-              >
-                <span className="text-2xl" aria-hidden="true">🔍</span>
-                <p className="text-sm font-bold text-stone-800 group-hover:text-rose-700 transition-colors leading-snug">類似書籍を探す</p>
-                <p className="text-xs text-stone-500">1冊から似た本を見つける</p>
-              </Link>
-              <Link
-                href="/tools/book-compare"
-                className="group flex flex-col gap-2 bg-white border border-stone-200 hover:border-amber-300 hover:bg-amber-50 rounded-2xl p-4 transition-all hover:shadow-sm"
-              >
-                <span className="text-2xl" aria-hidden="true">⚖️</span>
-                <p className="text-sm font-bold text-stone-800 group-hover:text-amber-700 transition-colors leading-snug">書籍を比較して選ぶ</p>
-                <p className="text-xs text-stone-500">条件を絞って次の1冊を決める</p>
               </Link>
             </div>
           </div>

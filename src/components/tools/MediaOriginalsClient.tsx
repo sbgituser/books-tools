@@ -327,44 +327,22 @@ function DetailModal({
             </div>
           )}
 
-          {/* ツール導線 */}
-          <div className="rounded-xl border border-stone-200 bg-white p-4 space-y-2">
-            <h3 className="text-xs font-bold text-stone-500 uppercase tracking-wider mb-3">
-              原作本を深掘りする
-            </h3>
-            <Link
-              href="/similar-books"
-              className="flex items-center gap-3 rounded-lg border border-stone-200 px-4 py-3 hover:border-indigo-300 hover:bg-indigo-50 transition-all"
-            >
-              <span className="text-lg" aria-hidden="true">🔍</span>
-              <div>
-                <p className="text-sm font-semibold text-stone-800">
-                  類似書籍を探す
-                </p>
-                <p className="text-xs text-stone-500">
-                  {item.originalTitle
-                    ? `「${item.originalTitle}」に似た本を見つける`
-                    : "似た雰囲気の本を見つける"}
-                </p>
-              </div>
-              <span className="ml-auto text-stone-300 text-sm">→</span>
-            </Link>
-            <Link
-              href="/tools/book-compare"
-              className="flex items-center gap-3 rounded-lg border border-stone-200 px-4 py-3 hover:border-indigo-300 hover:bg-indigo-50 transition-all"
-            >
-              <span className="text-lg" aria-hidden="true">⚖️</span>
-              <div>
-                <p className="text-sm font-semibold text-stone-800">
-                  本を比較して選ぶ
-                </p>
-                <p className="text-xs text-stone-500">
-                  次に読む原作候補を条件で絞り込む
-                </p>
-              </div>
-              <span className="ml-auto text-stone-300 text-sm">→</span>
-            </Link>
-          </div>
+          {/* 書籍詳細ページへ */}
+          <Link
+            href={`/search?q=${encodeURIComponent(item.originalTitle ?? item.mediaTitle)}`}
+            className="flex items-center gap-3 rounded-xl border border-indigo-200 bg-indigo-50 px-4 py-3 hover:bg-indigo-100 transition-all"
+          >
+            <span className="text-lg" aria-hidden="true">📖</span>
+            <div>
+              <p className="text-sm font-semibold text-stone-800">書籍の詳細を調べる</p>
+              <p className="text-xs text-stone-500">
+                {item.originalTitle
+                  ? `「${item.originalTitle}」をサイト内で検索`
+                  : "原作本をサイト内で検索"}
+              </p>
+            </div>
+            <span className="ml-auto text-stone-300 text-sm">→</span>
+          </Link>
         </div>
       </div>
     </div>
@@ -664,28 +642,16 @@ export default function MediaOriginalsClient() {
             <h2 className="text-sm font-bold text-stone-500 uppercase tracking-wider mb-6 text-center">
               関連ツール
             </h2>
-            <div className="grid sm:grid-cols-3 gap-4">
+            <div className="grid sm:grid-cols-2 gap-4">
               <Link
-                href="/similar-books"
+                href="/tools/trend-books"
                 className="flex flex-col gap-2 rounded-xl border border-stone-200 p-4 hover:border-indigo-300 hover:bg-indigo-50 transition-all"
               >
-                <span className="text-2xl" aria-hidden="true">🔍</span>
+                <span className="text-2xl" aria-hidden="true">📰</span>
                 <div>
-                  <p className="text-sm font-bold text-stone-800">類似書籍を探す</p>
+                  <p className="text-sm font-bold text-stone-800">テーマから本を探す</p>
                   <p className="text-xs text-stone-500 mt-0.5">
-                    原作本から似た雰囲気の本を発見
-                  </p>
-                </div>
-              </Link>
-              <Link
-                href="/tools/book-compare"
-                className="flex flex-col gap-2 rounded-xl border border-stone-200 p-4 hover:border-indigo-300 hover:bg-indigo-50 transition-all"
-              >
-                <span className="text-2xl" aria-hidden="true">⚖️</span>
-                <div>
-                  <p className="text-sm font-bold text-stone-800">本を比較して選ぶ</p>
-                  <p className="text-xs text-stone-500 mt-0.5">
-                    条件を絞って次に読む本を決める
+                    AI・経済・環境などのテーマで選ぶ
                   </p>
                 </div>
               </Link>

@@ -68,12 +68,10 @@ function SearchResultCard({
   result,
   rank,
   query,
-  onNavigate,
 }: {
   result: SearchResult;
   rank: number;
   query: string;
-  onNavigate: (entry: SearchEntry) => void;
 }) {
   const { entry } = result;
   const cat = CATEGORY_TREE.find(c => c.id === entry.l1Id);
@@ -133,7 +131,8 @@ function SearchResultCard({
 
         {/* アクション */}
         <div className="flex flex-wrap gap-3">
-          <button
+          <Link
+            href={`/works/${entry.id}`}
             onClick={() => {
               trackSearchResultClicked({
                 query,
@@ -141,18 +140,11 @@ function SearchResultCard({
                 bookTitle: entry.title,
                 rank,
               });
-              trackRelatedToolClicked({
-                tool: "book_compare",
-                bookId: entry.id,
-                bookTitle: entry.title,
-                source: "search_result",
-              });
-              onNavigate(entry);
             }}
             className="text-xs text-amber-700 font-semibold hover:underline"
           >
-            条件一致で探す →
-          </button>
+            詳細を見る →
+          </Link>
         </div>
       </div>
     </article>
@@ -173,16 +165,16 @@ function ZeroResultState({ query }: { query: string }) {
 
       <div className="flex flex-wrap justify-center gap-4 mb-10">
         <Link
-          href="/similar-books"
+          href="/discover"
           className="text-sm text-amber-700 font-semibold hover:underline"
         >
-          書籍ブラウザで探す →
+          気分で本を探す →
         </Link>
         <Link
-          href="/tools/book-compare"
+          href="/tools/media-originals"
           className="text-sm text-amber-700 font-semibold hover:underline"
         >
-          条件一致で探す →
+          映像から原作を探す →
         </Link>
       </div>
 
@@ -191,7 +183,7 @@ function ZeroResultState({ query }: { query: string }) {
         {CATEGORY_TREE.map(cat => (
           <Link
             key={cat.id}
-            href="/similar-books"
+            href={`/discover?category=${cat.id}`}
             className="text-xs px-3 py-1.5 rounded-full bg-stone-100 text-stone-600 hover:bg-amber-100 hover:text-amber-800 transition-colors"
           >
             {cat.emoji} {cat.label}
@@ -691,11 +683,11 @@ function SearchPageInner() {
               <div className="text-center">
                 <p className="text-stone-400 text-sm mb-3">他のツールでも本を探せます</p>
                 <div className="flex flex-wrap justify-center gap-4">
-                  <Link href="/similar-books" className="text-sm text-amber-700 font-semibold hover:underline">
-                    書籍ブラウザ →
+                  <Link href="/discover" className="text-sm text-amber-700 font-semibold hover:underline">
+                    気分で本を探す →
                   </Link>
-                  <Link href="/tools/book-compare" className="text-sm text-amber-700 font-semibold hover:underline">
-                    条件一致で探す →
+                  <Link href="/tools/media-originals" className="text-sm text-amber-700 font-semibold hover:underline">
+                    映像から原作を探す →
                   </Link>
                 </div>
               </div>
@@ -760,9 +752,6 @@ function SearchPageInner() {
                     result={r}
                     rank={i + 1}
                     query={activeQuery}
-                    onNavigate={entry => {
-                      router.push(`/tools/book-compare?baseId=${entry.id}`);
-                    }}
                   />
                 ))}
               </div>
