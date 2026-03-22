@@ -329,16 +329,18 @@ function DetailModal({
 
           {/* 書籍詳細ページへ */}
           <Link
-            href={`/search?q=${encodeURIComponent(item.originalTitle ?? item.mediaTitle)}`}
+            href={item.workId
+              ? `/works/${item.workId}`
+              : `/search?q=${encodeURIComponent(item.originalTitle ?? item.mediaTitle)}`}
             className="flex items-center gap-3 rounded-xl border border-indigo-200 bg-indigo-50 px-4 py-3 hover:bg-indigo-100 transition-all"
           >
             <span className="text-lg" aria-hidden="true">📖</span>
             <div>
-              <p className="text-sm font-semibold text-stone-800">書籍の詳細を調べる</p>
+              <p className="text-sm font-semibold text-stone-800">書籍の詳細を見る</p>
               <p className="text-xs text-stone-500">
                 {item.originalTitle
-                  ? `「${item.originalTitle}」をサイト内で検索`
-                  : "原作本をサイト内で検索"}
+                  ? `「${item.originalTitle}」の詳細ページへ`
+                  : "原作本の詳細ページへ"}
               </p>
             </div>
             <span className="ml-auto text-stone-300 text-sm">→</span>

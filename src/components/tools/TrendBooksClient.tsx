@@ -282,14 +282,16 @@ function BookDetailModal({
 
           {/* 書籍詳細ページへ */}
           <Link
-            href={`/search?q=${encodeURIComponent(book.title)}`}
+            href={book.workId
+              ? `/works/${book.workId}`
+              : `/search?q=${encodeURIComponent(book.title)}`}
             className="flex items-center gap-3 rounded-xl border border-teal-200 bg-teal-50 px-4 py-3 hover:bg-teal-100 transition-all"
           >
             <span className="text-lg" aria-hidden="true">📖</span>
             <div className="min-w-0">
-              <p className="text-sm font-semibold text-stone-800">書籍の詳細を調べる</p>
+              <p className="text-sm font-semibold text-stone-800">書籍の詳細を見る</p>
               <p className="text-xs text-stone-500 truncate">
-                「{book.title}」をサイト内で検索
+                「{book.title}」の詳細ページへ
               </p>
             </div>
             <span className="ml-auto text-stone-300 text-sm shrink-0">→</span>

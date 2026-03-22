@@ -34,6 +34,8 @@ export type MediaOriginalItem = {
   adaptationNotes?: string;
   /** おすすめ対象（モーダル詳細用） */
   recommendedFor?: string;
+  /** /works/[workId] に対応するID（存在する場合のみ） */
+  workId?: string;
 };
 
 export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
@@ -72,6 +74,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "映画は概ね原作に忠実。ラストシーンの演出に若干の変更あり。原作の方が石神（犯人）の心理描写が深い。",
     recommendedFor:
       "映画で感動した人。東野圭吾ミステリーで「犯人側の視点」を楽しみたい人。",
+    workId: "0bkks71",
   },
   {
     id: "nodame-drama",
@@ -172,6 +175,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "アニメは原作の雰囲気を高水準で再現。漫画は全50巻で、アニメよりさらに先まで物語が続く。",
     recommendedFor:
       "アニメで感動した人。百人一首・競技かるたに興味を持った人。",
+    workId: "16a2phy",
   },
   {
     id: "chihayafuru-movie",
@@ -186,6 +190,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     description:
       "同名漫画の実写映画版。広瀬すず・野村周平主演。上の句・下の句・結び の3部作。",
     searchAliases: ["末次由紀", "かるた", "広瀬すず"],
+    workId: "16a2phy",
   },
   {
     id: "toshokan-senso",
@@ -204,6 +209,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "映画は原作をかなり圧縮。原作シリーズは全4巻＋外伝があり、恋愛描写がより丁寧に描かれている。",
     recommendedFor:
       "映画でキャラクターが好きになった人。言論の自由・検閲というテーマに興味がある人。",
+    workId: "05vxbou",
   },
   {
     id: "hakuyako-drama",
@@ -222,6 +228,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "ドラマと原作でラストが異なる。原作は「描かれない」ことで成立する構造が特徴で、より謎が深い。",
     recommendedFor:
       "ドラマで感動した人。東野圭吾の暗黒面・社会派ミステリーが好きな人。",
+    workId: "1tzlddg",
   },
   {
     id: "kokuhaku-movie",
@@ -240,6 +247,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "映画は原作の複数視点構造を映像的に高度に再現。中島哲也監督の映像表現が原作の世界観をさらに深めている。",
     recommendedFor:
       "映画の衝撃に圧倒された人。湊かなえのイヤミスジャンルを知りたい人。",
+    workId: "0kn9l8z",
   },
   {
     id: "harry-potter",
@@ -276,6 +284,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "アニメは原作に非常に忠実で、映像・音楽のクオリティが高く評価されている。原作漫画は全23巻で完結済み。",
     recommendedFor:
       "アニメを見てもっと世界観を知りたい人。大正時代の設定と鬼との戦いを活字で楽しみたい人。",
+    workId: "0iuwa8r",
   },
   {
     id: "shingeki",
@@ -294,6 +303,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "アニメは原作に忠実だが、制作スタジオが途中で変更されるため画風が変わる。原作漫画全34巻で完結済み。",
     recommendedFor:
       "アニメの謎と世界観に引き込まれた人。伏線・考察が好きな人。",
+    workId: "0zni0pn",
   },
   {
     id: "hanzawa-drama",
@@ -362,6 +372,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "映画は原作に忠実で、文学的な余韻も丁寧に再現。原作の方が数学への愛情と人物の内面描写が豊かで深い。",
     recommendedFor:
       "映画で涙した人。静かで知的な文学作品を読みたい人。数学と人間の関わりに興味がある人。",
+    workId: "004w4z3",
   },
   {
     id: "alice-in-borderland",
@@ -398,6 +409,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "映画はラストシーンの音楽演奏と回想の交差が特に高く評価される。原作小説はより社会批評的な視点が強く、事件の社会背景が詳細。",
     recommendedFor:
       "映画を見て松本清張に興味を持った人。社会派ミステリーに入門したい人。",
+    workId: "1dem5jj",
   },
   {
     id: "64-movie",
@@ -416,6 +428,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "映画は原作を前後編に圧縮しており、警察組織内部の権力闘争の細部が省略されている。原作の方が組織小説として読み応えが高い。",
     recommendedFor:
       "映画を見て横山秀夫に興味を持った人。警察組織の内部を描く社会派ミステリーが好きな人。",
+    workId: "1qznmx7",
   },
   {
     id: "kotonoha-no-niwa",

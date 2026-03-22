@@ -38,6 +38,8 @@ export type TrendBook = {
   targetReader?: string;
   /** 関連テーマID（モーダル詳細用） */
   relatedThemeIds?: string[];
+  /** /works/[workId] に対応するID（存在する場合のみ） */
+  workId?: string;
 };
 
 export type FeaturedCollection = {
