@@ -20,7 +20,6 @@ import {
   trackSearchZeroResult,
   trackSearchResultClicked,
   trackSearchSuggestionClicked,
-  trackRelatedToolClicked,
   trackSearchFilterChanged,
 } from "@/lib/analytics";
 
@@ -51,12 +50,12 @@ function CoverImage({ entry }: { entry: SearchEntry }) {
         src={src}
         alt=""
         onError={() => setIdx(p => p + 1)}
-        className="w-12 h-[68px] sm:w-14 sm:h-[80px] object-cover rounded shadow-sm shrink-0"
+        className="w-14 h-[80px] sm:w-16 sm:h-[90px] object-cover rounded-lg shadow-sm shrink-0"
       />
     );
   }
   return (
-    <div className="w-12 h-[68px] sm:w-14 sm:h-[80px] bg-stone-200 rounded flex items-center justify-center shadow-sm shrink-0">
+    <div className="w-14 h-[80px] sm:w-16 sm:h-[90px] bg-stone-200 rounded-lg flex items-center justify-center shadow-sm shrink-0">
       <span className="text-stone-500 text-xs font-bold">{entry.title.slice(0, 2)}</span>
     </div>
   );
@@ -84,34 +83,46 @@ function SearchResultCard({
     : null;
 
   return (
-    <article className="bg-white border border-stone-200 rounded-xl p-3 sm:p-4 flex gap-3 hover:border-amber-300 hover:shadow-sm transition-all">
+    <Link
+      href={`/works/${entry.id}`}
+      onClick={() =>
+        trackSearchResultClicked({
+          query,
+          bookId: entry.id,
+          bookTitle: entry.title,
+          rank,
+        })
+      }
+      className="flex gap-4 bg-white border border-stone-200 rounded-xl p-4 hover:border-rose-300 hover:shadow-md transition-all group"
+    >
       <CoverImage entry={entry} />
 
       <div className="flex-1 min-w-0">
-        {/* カテゴリ + 出版年 */}
         <div className="flex flex-wrap items-center gap-1.5 mb-1">
           {cat && (
-            <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-amber-100 text-amber-800">
+            <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-rose-100 text-rose-700">
               {cat.emoji} {cat.label}
             </span>
           )}
           {year && <span className="text-xs text-stone-400">{year}年</span>}
+          {(readingLabel || entry.pageCount) && (
+            <span className="text-xs text-stone-400">
+              {readingLabel ?? `${entry.pageCount}p`}
+            </span>
+          )}
         </div>
 
-        {/* タイトル */}
-        <h3 className="font-semibold text-stone-900 text-sm sm:text-base leading-snug mb-0.5 line-clamp-2">
+        <h3 className="font-semibold text-stone-900 text-sm sm:text-base leading-snug mb-0.5 line-clamp-2 group-hover:text-rose-700 transition-colors">
           {entry.title}
         </h3>
 
-        {/* 著者・出版社 */}
-        <p className="text-stone-500 text-xs mb-1.5 line-clamp-1">
+        <p className="text-stone-500 text-xs mb-2 line-clamp-1">
           {entry.authors.join(" / ")}
           {entry.publisher ? ` · ${entry.publisher}` : ""}
         </p>
 
-        {/* キーワード */}
         {entry.keywords.length > 0 && (
-          <div className="flex flex-wrap gap-1 mb-1.5">
+          <div className="flex flex-wrap gap-1">
             {entry.keywords.slice(0, 4).map(k => (
               <span key={k} className="text-xs px-1.5 py-0.5 rounded-full bg-stone-100 text-stone-500">
                 {k}
@@ -119,35 +130,12 @@ function SearchResultCard({
             ))}
           </div>
         )}
-
-        {/* 読書時間・ページ数 */}
-        {(readingLabel || entry.pageCount) && (
-          <p className="text-xs text-stone-400 mb-2">
-            {readingLabel && `読書時間 ${readingLabel}`}
-            {readingLabel && entry.pageCount && " · "}
-            {entry.pageCount && `${entry.pageCount}ページ`}
-          </p>
-        )}
-
-        {/* アクション */}
-        <div className="flex flex-wrap gap-3">
-          <Link
-            href={`/works/${entry.id}`}
-            onClick={() => {
-              trackSearchResultClicked({
-                query,
-                bookId: entry.id,
-                bookTitle: entry.title,
-                rank,
-              });
-            }}
-            className="text-xs text-amber-700 font-semibold hover:underline"
-          >
-            詳細を見る →
-          </Link>
-        </div>
       </div>
-    </article>
+
+      <span className="text-stone-300 group-hover:text-rose-400 transition-colors self-center shrink-0 text-sm">
+        →
+      </span>
+    </Link>
   );
 }
 
@@ -155,36 +143,37 @@ function SearchResultCard({
 
 function ZeroResultState({ query }: { query: string }) {
   return (
-    <div className="text-center py-12">
-      <p className="text-stone-500 text-base mb-1">
+    <div className="text-center py-14 px-4">
+      <div className="text-4xl mb-4" aria-hidden="true">🔍</div>
+      <p className="text-stone-700 font-semibold text-base mb-1">
         「{query}」に該当する本が見つかりませんでした
       </p>
-      <p className="text-stone-400 text-sm mb-8">
+      <p className="text-stone-400 text-sm mb-10">
         表記ゆれや別のキーワードをお試しください
       </p>
 
-      <div className="flex flex-wrap justify-center gap-4 mb-10">
+      <div className="flex flex-wrap justify-center gap-3 mb-10">
         <Link
           href="/discover"
-          className="text-sm text-amber-700 font-semibold hover:underline"
+          className="inline-flex items-center gap-2 text-sm font-semibold border border-stone-300 rounded-xl px-4 py-2.5 text-stone-700 hover:border-rose-400 hover:text-rose-700 transition-colors"
         >
           気分で本を探す →
         </Link>
         <Link
           href="/tools/media-originals"
-          className="text-sm text-amber-700 font-semibold hover:underline"
+          className="inline-flex items-center gap-2 text-sm font-semibold border border-stone-300 rounded-xl px-4 py-2.5 text-stone-700 hover:border-rose-400 hover:text-rose-700 transition-colors"
         >
           映像から原作を探す →
         </Link>
       </div>
 
-      <p className="text-stone-500 text-sm font-semibold mb-3">カテゴリから探す</p>
+      <p className="text-stone-500 text-sm font-semibold mb-4">カテゴリから探す</p>
       <div className="flex flex-wrap justify-center gap-2">
         {CATEGORY_TREE.map(cat => (
           <Link
             key={cat.id}
             href={`/discover?category=${cat.id}`}
-            className="text-xs px-3 py-1.5 rounded-full bg-stone-100 text-stone-600 hover:bg-amber-100 hover:text-amber-800 transition-colors"
+            className="text-xs px-3 py-1.5 rounded-full bg-stone-100 text-stone-600 hover:bg-rose-100 hover:text-rose-700 transition-colors"
           >
             {cat.emoji} {cat.label}
           </Link>
@@ -218,7 +207,7 @@ function SearchPageInner() {
   const router = useRouter();
 
   // インデックス
-  const [index, setIndex]       = useState<SearchEntry[] | null>(null);
+  const [index, setIndex]           = useState<SearchEntry[] | null>(null);
   const [indexError, setIndexError] = useState(false);
 
   // 入力・検索状態
@@ -228,9 +217,9 @@ function SearchPageInner() {
   const [sortBy, setSortBy]           = useState<SortOrder>(
     (params.get("sort") as SortOrder) ?? "score",
   );
-  const [tab, setTab] = useState<"simple" | "advanced">("simple");
 
-  // 詳細フィルタ
+  // 詳細フィルタ（折りたたみ）
+  const [showFilters, setShowFilters] = useState(false);
   const [yearFrom, setYearFrom]       = useState("");
   const [yearTo, setYearTo]           = useState("");
   const [minRH, setMinRH]             = useState("");
@@ -238,8 +227,8 @@ function SearchPageInner() {
   const [authorFilter, setAuthorFilter] = useState("");
 
   // 結果
-  const [results, setResults]     = useState<SearchResult[]>([]);
-  const [searching, setSearching] = useState(false);
+  const [results, setResults]         = useState<SearchResult[]>([]);
+  const [searching, setSearching]     = useState(false);
   const [visibleCount, setVisibleCount] = useState(20);
 
   // サジェスト
@@ -257,12 +246,9 @@ function SearchPageInner() {
       .catch(() => setIndexError(true));
   }, []);
 
-  // 検索実行（同期的に実行してUIが固まらないようにsetTimeout(0)を使う）
+  // 検索実行
   const executeSearch = useCallback(
-    (
-      query: string,
-      overrides?: { l1Id?: string; sort?: SortOrder },
-    ) => {
+    (query: string, overrides?: { l1Id?: string; sort?: SortOrder }) => {
       if (!query.trim()) {
         setResults([]);
         return;
@@ -275,20 +261,20 @@ function SearchPageInner() {
           if (!index) return prev;
 
           const res = searchBooks(index, query, {
-            l1Id:            overrides?.l1Id  ?? (l1Filter || undefined),
-            sortBy:          overrides?.sort  ?? sortBy,
-            yearFrom:        yearFrom   ? parseInt(yearFrom)   : undefined,
-            yearTo:          yearTo     ? parseInt(yearTo)     : undefined,
-            minReadingHours: minRH      ? parseFloat(minRH)    : undefined,
-            maxReadingHours: maxRH      ? parseFloat(maxRH)    : undefined,
+            l1Id:            overrides?.l1Id ?? (l1Filter || undefined),
+            sortBy:          overrides?.sort ?? sortBy,
+            yearFrom:        yearFrom    ? parseInt(yearFrom)    : undefined,
+            yearTo:          yearTo      ? parseInt(yearTo)      : undefined,
+            minReadingHours: minRH       ? parseFloat(minRH)     : undefined,
+            maxReadingHours: maxRH       ? parseFloat(maxRH)     : undefined,
             author:          authorFilter || undefined,
             limit:           200,
           });
 
           if (res.length === 0) {
-            trackSearchZeroResult({ query, mode: tab });
+            trackSearchZeroResult({ query, mode: "simple" });
           } else {
-            trackSearchExecuted({ query, resultCount: res.length, mode: tab });
+            trackSearchExecuted({ query, resultCount: res.length, mode: "simple" });
           }
 
           setSearching(false);
@@ -296,7 +282,7 @@ function SearchPageInner() {
         });
       }, 0);
     },
-    [index, l1Filter, sortBy, yearFrom, yearTo, minRH, maxRH, authorFilter, tab],
+    [index, l1Filter, sortBy, yearFrom, yearTo, minRH, maxRH, authorFilter],
   );
 
   // URLパラメータ変化 or インデックス読み込み完了 → 検索
@@ -334,7 +320,6 @@ function SearchPageInner() {
     return () => document.removeEventListener("mousedown", onMouseDown);
   }, []);
 
-  // 検索送信
   function handleSubmit(query?: string) {
     const q = (query ?? inputValue).trim();
     setShowSuggest(false);
@@ -352,7 +337,6 @@ function SearchPageInner() {
     executeSearch(q);
   }
 
-  // サジェストクリック
   function handleSuggestionClick(s: Suggestion) {
     trackSearchSuggestionClicked({
       query: inputValue,
@@ -364,7 +348,6 @@ function SearchPageInner() {
     handleSubmit(s.value);
   }
 
-  // キーボード操作
   function handleKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
     if (e.key === "ArrowDown") {
       if (!showSuggest || suggestions.length === 0) return;
@@ -400,33 +383,50 @@ function SearchPageInner() {
   }
 
   const visibleResults = results.slice(0, visibleCount);
-  const hasMore = results.length > visibleCount;
+  const hasMore        = results.length > visibleCount;
 
-  // カテゴリフィルタバー（結果に含まれるカテゴリのみ表示）
   const resultCategories = CATEGORY_TREE.filter(c =>
     results.some(r => r.entry.l1Id === c.id),
   );
 
+  const hasActiveFilters = !!(authorFilter || yearFrom || yearTo || minRH || maxRH);
+
   return (
     <>
       <Header />
-      <main>
-        {/* ヒーロー + 検索入力 */}
-        <section className="bg-stone-900 text-white py-10 sm:py-14 px-4">
-          <div className="max-w-2xl mx-auto">
-            <nav className="flex items-center gap-1 text-xs text-stone-400 mb-4" aria-label="パンくず">
-              <Link href="/" className="hover:text-white transition-colors">Books Tools</Link>
-              <span aria-hidden="true">›</span>
-              <span className="text-stone-300">本を探す</span>
+      <main className="min-h-screen bg-stone-50">
+
+        {/* ── ヒーロー + 検索入力 ───────────────────────────────── */}
+        <section className="bg-gradient-to-br from-stone-900 via-stone-800 to-stone-900 text-white py-12 sm:py-16 px-4">
+          <div className="max-w-3xl mx-auto">
+
+            {/* パンくず */}
+            <nav className="text-xs text-stone-400 mb-5" aria-label="パンくず">
+              <ol className="flex items-center gap-1.5">
+                <li>
+                  <Link href="/" className="hover:text-white transition-colors">ホーム</Link>
+                </li>
+                <li>/</li>
+                <li className="text-stone-300">本を検索</li>
+              </ol>
             </nav>
-            <h1 className="text-2xl sm:text-3xl font-bold mb-6">本を探す</h1>
+
+            <p className="text-rose-400 text-xs font-bold tracking-widest uppercase mb-3">
+              Search · Books Discover
+            </p>
+            <h1 className="text-2xl sm:text-4xl font-bold mb-3">
+              本を<span className="text-rose-400">検索</span>する
+            </h1>
+            <p className="text-stone-300 text-sm sm:text-base mb-8">
+              書名・著者・キーワード・ISBNから漫画・小説を探せます。
+            </p>
 
             {/* 検索ボックス */}
             <div ref={wrapRef} className="relative">
               <div className="flex gap-2">
                 <div className="relative flex-1">
                   <span
-                    className="absolute left-3 top-1/2 -translate-y-1/2 text-stone-400 text-base pointer-events-none"
+                    className="absolute left-4 top-1/2 -translate-y-1/2 text-stone-400 pointer-events-none"
                     aria-hidden="true"
                   >
                     🔍
@@ -443,7 +443,7 @@ function SearchPageInner() {
                     onFocus={() => setShowSuggest(true)}
                     onKeyDown={handleKeyDown}
                     placeholder="書名・著者・キーワード・ISBNで探す"
-                    className="w-full pl-10 pr-9 py-3 rounded-xl text-stone-900 text-sm focus:outline-none focus:ring-2 focus:ring-amber-400"
+                    className="w-full pl-11 pr-10 py-3.5 rounded-xl text-stone-900 text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-rose-400"
                     autoComplete="off"
                     aria-label="本を検索"
                     aria-autocomplete="list"
@@ -469,7 +469,7 @@ function SearchPageInner() {
                 <button
                   type="button"
                   onClick={() => handleSubmit()}
-                  className="px-5 py-3 bg-amber-500 hover:bg-amber-600 text-white font-semibold rounded-xl text-sm transition-colors whitespace-nowrap"
+                  className="px-5 sm:px-7 py-3.5 bg-rose-500 hover:bg-rose-600 text-white font-bold rounded-xl text-sm transition-colors whitespace-nowrap shadow-lg shadow-rose-500/20"
                 >
                   検索
                 </button>
@@ -479,7 +479,7 @@ function SearchPageInner() {
               {showSuggest && suggestions.length > 0 && (
                 <ul
                   id="suggest-list"
-                  className="absolute top-full left-0 right-0 mt-1 bg-white rounded-xl border border-stone-200 shadow-lg z-50 overflow-hidden"
+                  className="absolute top-full left-0 right-0 mt-1.5 bg-white rounded-xl border border-stone-200 shadow-xl z-50 overflow-hidden"
                   role="listbox"
                   aria-label="検索候補"
                 >
@@ -491,8 +491,8 @@ function SearchPageInner() {
                     >
                       <button
                         type="button"
-                        className={`w-full flex items-center gap-3 px-4 py-2.5 text-left transition-colors ${
-                          i === selectedIdx ? "bg-amber-50" : "hover:bg-stone-50"
+                        className={`w-full flex items-center gap-3 px-4 py-3 text-left transition-colors ${
+                          i === selectedIdx ? "bg-rose-50" : "hover:bg-stone-50"
                         }`}
                         onMouseDown={e => {
                           e.preventDefault();
@@ -510,49 +510,61 @@ function SearchPageInner() {
               )}
             </div>
 
-            {/* モードタブ */}
-            <div className="flex gap-1 mt-4" role="tablist" aria-label="検索モード">
-              {(["simple", "advanced"] as const).map(t => (
+            {/* 詳細フィルタ トグル */}
+            <div className="mt-3 flex items-center gap-3">
+              <button
+                type="button"
+                onClick={() => setShowFilters(v => !v)}
+                className={`text-xs px-3 py-1.5 rounded-full font-semibold transition-colors ${
+                  showFilters || hasActiveFilters
+                    ? "bg-rose-500 text-white"
+                    : "text-stone-400 hover:text-white hover:bg-white/10"
+                }`}
+              >
+                {showFilters ? "▲ フィルタを閉じる" : "▼ 詳細フィルタ"}
+                {hasActiveFilters && !showFilters && " ●"}
+              </button>
+              {hasActiveFilters && (
                 <button
-                  key={t}
-                  role="tab"
-                  aria-selected={tab === t}
-                  onClick={() => setTab(t)}
-                  className={`text-xs px-3 py-1 rounded-full font-semibold transition-colors ${
-                    tab === t
-                      ? "bg-amber-500 text-white"
-                      : "text-stone-400 hover:text-white hover:bg-white/10"
-                  }`}
+                  type="button"
+                  onClick={() => {
+                    setAuthorFilter("");
+                    setYearFrom(""); setYearTo("");
+                    setMinRH(""); setMaxRH("");
+                    setL1Filter("");
+                    if (activeQuery) executeSearch(activeQuery, { l1Id: undefined });
+                  }}
+                  className="text-xs text-stone-400 hover:text-white transition-colors"
                 >
-                  {t === "simple" ? "かんたん" : "詳細フィルタ"}
+                  フィルタをリセット
                 </button>
-              ))}
+              )}
             </div>
           </div>
         </section>
 
-        {/* 詳細フィルタパネル */}
-        {tab === "advanced" && (
-          <section className="bg-stone-50 border-b border-stone-200 px-4 py-4">
-            <div className="max-w-2xl mx-auto grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+        {/* ── 詳細フィルタパネル ──────────────────────────────────── */}
+        {showFilters && (
+          <section className="bg-stone-100 border-b border-stone-200 px-4 py-5">
+            <div className="max-w-3xl mx-auto grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
               <div>
-                <label className="block text-xs text-stone-500 mb-1" htmlFor="filter-author">著者</label>
+                <label className="block text-xs text-stone-500 mb-1 font-medium" htmlFor="filter-author">著者</label>
                 <input
                   id="filter-author"
                   type="text"
                   value={authorFilter}
                   onChange={e => setAuthorFilter(e.target.value)}
                   placeholder="著者名（部分一致）"
-                  className="w-full px-3 py-2 border border-stone-300 rounded-lg text-sm focus:outline-none focus:border-amber-400"
+                  className="w-full px-3 py-2 border border-stone-300 rounded-lg text-sm focus:outline-none focus:border-rose-400 bg-white"
                 />
               </div>
               <div>
-                <label className="block text-xs text-stone-500 mb-1" htmlFor="filter-l1">カテゴリ</label>
+                <label className="block text-xs text-stone-500 mb-1 font-medium" htmlFor="filter-l1">カテゴリ</label>
                 <select
                   id="filter-l1"
                   value={l1Filter}
                   onChange={e => handleL1Change(e.target.value)}
-                  className="w-full px-3 py-2 border border-stone-300 rounded-lg text-sm focus:outline-none focus:border-amber-400"
+                  className="w-full px-3 py-2 border border-stone-300 rounded-lg text-sm focus:outline-none focus:border-rose-400 bg-white"
                 >
                   <option value="">すべて</option>
                   {CATEGORY_TREE.map(c => (
@@ -561,76 +573,58 @@ function SearchPageInner() {
                 </select>
               </div>
               <div>
-                <label className="block text-xs text-stone-500 mb-1" htmlFor="filter-yearfrom">出版年（から）</label>
+                <label className="block text-xs text-stone-500 mb-1 font-medium" htmlFor="filter-yearfrom">出版年（から）</label>
                 <input
                   id="filter-yearfrom"
                   type="number"
                   value={yearFrom}
                   onChange={e => setYearFrom(e.target.value)}
                   placeholder="例: 2020"
-                  min="1900"
-                  max="2030"
-                  className="w-full px-3 py-2 border border-stone-300 rounded-lg text-sm focus:outline-none focus:border-amber-400"
+                  min="1900" max="2030"
+                  className="w-full px-3 py-2 border border-stone-300 rounded-lg text-sm focus:outline-none focus:border-rose-400 bg-white"
                 />
               </div>
               <div>
-                <label className="block text-xs text-stone-500 mb-1" htmlFor="filter-yearto">出版年（まで）</label>
+                <label className="block text-xs text-stone-500 mb-1 font-medium" htmlFor="filter-yearto">出版年（まで）</label>
                 <input
                   id="filter-yearto"
                   type="number"
                   value={yearTo}
                   onChange={e => setYearTo(e.target.value)}
                   placeholder="例: 2024"
-                  min="1900"
-                  max="2030"
-                  className="w-full px-3 py-2 border border-stone-300 rounded-lg text-sm focus:outline-none focus:border-amber-400"
+                  min="1900" max="2030"
+                  className="w-full px-3 py-2 border border-stone-300 rounded-lg text-sm focus:outline-none focus:border-rose-400 bg-white"
                 />
               </div>
               <div>
-                <label className="block text-xs text-stone-500 mb-1" htmlFor="filter-minrh">読書時間 最小（h）</label>
+                <label className="block text-xs text-stone-500 mb-1 font-medium" htmlFor="filter-minrh">読書時間 最小（h）</label>
                 <input
                   id="filter-minrh"
                   type="number"
                   value={minRH}
                   onChange={e => setMinRH(e.target.value)}
                   placeholder="例: 2"
-                  min="0"
-                  step="0.5"
-                  className="w-full px-3 py-2 border border-stone-300 rounded-lg text-sm focus:outline-none focus:border-amber-400"
+                  min="0" step="0.5"
+                  className="w-full px-3 py-2 border border-stone-300 rounded-lg text-sm focus:outline-none focus:border-rose-400 bg-white"
                 />
               </div>
               <div>
-                <label className="block text-xs text-stone-500 mb-1" htmlFor="filter-maxrh">読書時間 最大（h）</label>
+                <label className="block text-xs text-stone-500 mb-1 font-medium" htmlFor="filter-maxrh">読書時間 最大（h）</label>
                 <input
                   id="filter-maxrh"
                   type="number"
                   value={maxRH}
                   onChange={e => setMaxRH(e.target.value)}
                   placeholder="例: 10"
-                  min="0"
-                  step="0.5"
-                  className="w-full px-3 py-2 border border-stone-300 rounded-lg text-sm focus:outline-none focus:border-amber-400"
+                  min="0" step="0.5"
+                  className="w-full px-3 py-2 border border-stone-300 rounded-lg text-sm focus:outline-none focus:border-rose-400 bg-white"
                 />
               </div>
               <div className="flex items-end">
                 <button
                   type="button"
-                  onClick={() => {
-                    setAuthorFilter("");
-                    setYearFrom(""); setYearTo("");
-                    setMinRH(""); setMaxRH("");
-                    setL1Filter("");
-                  }}
-                  className="w-full px-3 py-2 text-xs text-stone-500 border border-stone-300 rounded-lg hover:border-stone-400 transition-colors"
-                >
-                  条件をリセット
-                </button>
-              </div>
-              <div className="flex items-end">
-                <button
-                  type="button"
                   onClick={() => { if (activeQuery) executeSearch(activeQuery); }}
-                  className="w-full px-3 py-2 text-xs font-semibold bg-amber-500 text-white rounded-lg hover:bg-amber-600 transition-colors"
+                  className="w-full px-3 py-2 text-sm font-semibold bg-rose-500 text-white rounded-lg hover:bg-rose-600 transition-colors"
                 >
                   再検索
                 </button>
@@ -639,17 +633,17 @@ function SearchPageInner() {
           </section>
         )}
 
-        {/* 結果エリア */}
-        <div className="max-w-2xl mx-auto px-4 py-8">
+        {/* ── 結果エリア ───────────────────────────────────────────── */}
+        <div className="max-w-3xl mx-auto px-4 py-8">
 
           {/* インデックス読み込み中 */}
           {!index && !indexError && (
-            <p className="text-stone-400 text-sm text-center py-12 animate-pulse">読み込み中…</p>
+            <p className="text-stone-400 text-sm text-center py-16 animate-pulse">読み込み中…</p>
           )}
 
           {/* インデックスエラー */}
           {indexError && (
-            <p className="text-red-500 text-sm text-center py-12">
+            <p className="text-red-500 text-sm text-center py-16">
               データの読み込みに失敗しました。ページを再読み込みしてください。
             </p>
           )}
@@ -657,7 +651,7 @@ function SearchPageInner() {
           {/* クエリなし → カテゴリ一覧 */}
           {index && !activeQuery && (
             <div>
-              <h2 className="text-sm font-bold text-stone-600 uppercase tracking-wider mb-4">
+              <h2 className="text-sm font-bold text-stone-500 uppercase tracking-wider mb-5">
                 カテゴリから探す
               </h2>
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-10">
@@ -667,27 +661,34 @@ function SearchPageInner() {
                     type="button"
                     onClick={() => {
                       setL1Filter(cat.id);
-                      setTab("advanced");
+                      setShowFilters(true);
                       inputRef.current?.focus();
                     }}
-                    className="flex items-center gap-2 p-3 rounded-xl border border-stone-200 bg-white hover:border-amber-400 hover:shadow-sm transition-all text-left"
+                    className="flex items-center gap-3 p-3.5 rounded-xl border border-stone-200 bg-white hover:border-rose-300 hover:shadow-sm transition-all text-left group"
                   >
-                    <span className="text-xl shrink-0">{cat.emoji}</span>
+                    <span className="text-2xl shrink-0">{cat.emoji}</span>
                     <div className="min-w-0">
-                      <p className="text-xs font-semibold text-stone-800">{cat.label}</p>
+                      <p className="text-sm font-semibold text-stone-800 group-hover:text-rose-700 transition-colors">{cat.label}</p>
                       <p className="text-xs text-stone-400 mt-0.5 truncate">{cat.desc}</p>
                     </div>
                   </button>
                 ))}
               </div>
-              <div className="text-center">
-                <p className="text-stone-400 text-sm mb-3">他のツールでも本を探せます</p>
-                <div className="flex flex-wrap justify-center gap-4">
-                  <Link href="/discover" className="text-sm text-amber-700 font-semibold hover:underline">
-                    気分で本を探す →
+
+              <div className="border-t border-stone-200 pt-8 text-center">
+                <p className="text-stone-400 text-sm mb-4">他の方法でも本を探せます</p>
+                <div className="flex flex-wrap justify-center gap-3">
+                  <Link
+                    href="/discover"
+                    className="inline-flex items-center gap-2 text-sm font-semibold border border-stone-300 rounded-xl px-4 py-2.5 text-stone-700 hover:border-rose-400 hover:text-rose-700 transition-colors"
+                  >
+                    💡 気分で本を探す
                   </Link>
-                  <Link href="/tools/media-originals" className="text-sm text-amber-700 font-semibold hover:underline">
-                    映像から原作を探す →
+                  <Link
+                    href="/tools/media-originals"
+                    className="inline-flex items-center gap-2 text-sm font-semibold border border-stone-300 rounded-xl px-4 py-2.5 text-stone-700 hover:border-rose-400 hover:text-rose-700 transition-colors"
+                  >
+                    🎬 映像から原作を探す
                   </Link>
                 </div>
               </div>
@@ -696,7 +697,7 @@ function SearchPageInner() {
 
           {/* 検索中 */}
           {index && activeQuery && searching && (
-            <p className="text-stone-400 text-sm text-center py-12 animate-pulse">検索中…</p>
+            <p className="text-stone-400 text-sm text-center py-16 animate-pulse">検索中…</p>
           )}
 
           {/* 結果あり */}
@@ -704,22 +705,35 @@ function SearchPageInner() {
             <div>
               {/* 結果ヘッダー */}
               <div className="flex items-center justify-between mb-4 gap-3 flex-wrap">
-                <p className="text-sm text-stone-600">
-                  <span className="font-bold text-stone-900">{results.length}件</span> の結果
+                <div className="flex items-center gap-2 flex-wrap">
+                  <p className="text-sm text-stone-600">
+                    <span className="font-bold text-stone-900">{results.length}件</span> の結果
+                  </p>
                   {l1Filter && (
                     <button
                       type="button"
                       onClick={() => handleL1Change("")}
-                      className="ml-2 text-xs bg-amber-100 text-amber-800 px-2 py-0.5 rounded-full hover:bg-amber-200 transition-colors"
+                      className="text-xs bg-rose-100 text-rose-700 px-2.5 py-0.5 rounded-full hover:bg-rose-200 transition-colors"
                     >
                       {CATEGORY_TREE.find(c => c.id === l1Filter)?.label} ✕
                     </button>
                   )}
-                </p>
+                  {/* カテゴリクイックフィルタ（カテゴリ未選択時） */}
+                  {!l1Filter && resultCategories.length > 1 && resultCategories.map(c => (
+                    <button
+                      key={c.id}
+                      type="button"
+                      onClick={() => handleL1Change(c.id)}
+                      className="text-xs px-2.5 py-0.5 rounded-full bg-stone-100 text-stone-600 hover:bg-rose-100 hover:text-rose-700 transition-colors"
+                    >
+                      {c.emoji} {c.label}
+                    </button>
+                  ))}
+                </div>
                 <select
                   value={sortBy}
                   onChange={e => handleSortChange(e.target.value as SortOrder)}
-                  className="text-xs px-3 py-1.5 border border-stone-300 rounded-lg focus:outline-none focus:border-amber-400"
+                  className="text-xs px-3 py-1.5 border border-stone-300 rounded-lg focus:outline-none focus:border-rose-400 bg-white"
                   aria-label="並び順"
                 >
                   {SORT_OPTIONS.map(o => (
@@ -727,22 +741,6 @@ function SearchPageInner() {
                   ))}
                 </select>
               </div>
-
-              {/* カテゴリクイックフィルタ（かんたんモード + カテゴリ未選択時） */}
-              {tab === "simple" && !l1Filter && resultCategories.length > 1 && (
-                <div className="flex gap-2 flex-wrap mb-4" aria-label="カテゴリで絞り込む">
-                  {resultCategories.map(c => (
-                    <button
-                      key={c.id}
-                      type="button"
-                      onClick={() => handleL1Change(c.id)}
-                      className="text-xs px-2.5 py-1 rounded-full bg-stone-100 text-stone-600 hover:bg-amber-100 hover:text-amber-800 transition-colors"
-                    >
-                      {c.emoji} {c.label}
-                    </button>
-                  ))}
-                </div>
-              )}
 
               {/* 結果リスト */}
               <div className="space-y-3">
@@ -758,11 +756,11 @@ function SearchPageInner() {
 
               {/* もっと見る */}
               {hasMore && (
-                <div className="text-center mt-6">
+                <div className="text-center mt-8">
                   <button
                     type="button"
                     onClick={() => setVisibleCount(v => v + 20)}
-                    className="px-5 py-2.5 text-sm font-semibold border border-stone-300 rounded-xl hover:border-amber-400 hover:text-amber-700 transition-colors"
+                    className="px-6 py-3 text-sm font-semibold border border-stone-300 rounded-xl hover:border-rose-400 hover:text-rose-700 transition-colors bg-white"
                   >
                     さらに表示（残り {results.length - visibleCount}件）
                   </button>
