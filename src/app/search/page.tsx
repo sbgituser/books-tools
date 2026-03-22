@@ -443,7 +443,7 @@ function SearchPageInner() {
                     onFocus={() => setShowSuggest(true)}
                     onKeyDown={handleKeyDown}
                     placeholder="書名・著者・キーワード・ISBNで探す"
-                    className="w-full pl-11 pr-10 py-3.5 rounded-xl text-stone-900 text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-rose-400"
+                    className="w-full pl-11 pr-10 py-3.5 rounded-xl bg-white text-stone-900 text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-rose-400"
                     autoComplete="off"
                     aria-label="本を検索"
                     aria-autocomplete="list"
