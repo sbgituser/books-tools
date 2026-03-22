@@ -23,6 +23,11 @@ export const TOOL_LINKS = [
     description: "映画・ドラマ・アニメから原作となった本を逆引き",
   },
   {
+    href: "/tools/trend-books",
+    title: "テーマから本を探す",
+    description: "AI・経済・環境などのテーマから今読むべき本を提案",
+  },
+  {
     href: "/blog",
     title: "ブログ一覧",
     description: "読書・比較ノウハウをまとめて確認する",
