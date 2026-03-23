@@ -1,5 +1,6 @@
 import type { Book, SimilarityResult } from "./types";
 import { CATEGORY_TREE, type L1Category, type Category } from "../categories";
+import { amazonProductUrl } from "../site";
 
 // ── 型定義 ───────────────────────────────────────────────────────
 
@@ -52,9 +53,7 @@ function resolveCategoryLabels(ids: string[], cats: Category[]): string[] {
 
 function toBook(b: BookIndex, resolvedLabels: string[]): Book {
   const description = [...(b.subjects ?? []), ...b.keywords.slice(0, 3)].slice(0, 5).join("、");
-  const amazonUrl = b.isbn13
-    ? `https://www.amazon.co.jp/s?k=${b.isbn13}`
-    : `https://www.amazon.co.jp/s?k=${encodeURIComponent(b.title)}`;
+  const amazonUrl = amazonProductUrl(b.isbn13, b.title);
   const safeAuthors = b.authors.length > 0 ? b.authors : ["著者不明"];
   const [l2Category, l3Raw, l4Raw] = resolvedLabels;
   const l3Category = l3Raw ?? l2Category;

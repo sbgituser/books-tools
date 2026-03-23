@@ -3,6 +3,20 @@ export const SITE_URL = "https://books.kuras-plus.com";
 export const SITE_DESCRIPTION =
   "Kindle本を感覚的に探索できるツール集。類似本検索・比較など、Amazonでは体験できない本の探し方を提供します。";
 
+// ── Amazon アフィリエイト設定 ─────────────────────────────────────
+export const AMAZON_PARTNER_TAG = "kurasplus-22";
+
+/** Amazon検索URLを生成（パートナータグ付き） */
+export function amazonSearchUrl(query: string): string {
+  return `https://www.amazon.co.jp/s?k=${encodeURIComponent(query)}&tag=${AMAZON_PARTNER_TAG}`;
+}
+
+/** Amazon商品URLを生成（ISBN → 商品検索、なければタイトル検索） */
+export function amazonProductUrl(isbn13?: string, title?: string): string {
+  const q = isbn13 ?? title ?? "";
+  return `https://www.amazon.co.jp/s?k=${isbn13 ? isbn13 : encodeURIComponent(q)}&tag=${AMAZON_PARTNER_TAG}`;
+}
+
 export const BLOG_DESCRIPTION =
   "本選び・読書術・比較ノウハウを発信するBooks Tools公式ブログ。検索流入から書籍ツール活用までをつなげます。";
 

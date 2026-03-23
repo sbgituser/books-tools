@@ -14,7 +14,7 @@ import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SimilarWorksSection from "@/components/works/SimilarWorksSection";
-import { SITE_NAME, SITE_URL } from "@/lib/site";
+import { SITE_NAME, SITE_URL, amazonProductUrl, amazonSearchUrl } from "@/lib/site";
 import type { WorkDetail, Volume } from "@/types/work";
 import type { SimilarWorks } from "@/types/similar-works";
 
@@ -95,9 +95,7 @@ export async function generateMetadata({
 // ── サブコンポーネント ─────────────────────────────────────────────
 
 function VolumeCard({ vol }: { vol: Volume }) {
-  const amazonUrl = vol.isbn13
-    ? `https://www.amazon.co.jp/s?k=${vol.isbn13}`
-    : `https://www.amazon.co.jp/s?k=${encodeURIComponent(vol.title)}`;
+  const amazonUrl = amazonProductUrl(vol.isbn13, vol.title);
 
   const imgSrc =
     vol.coverImageUrl ??
@@ -176,7 +174,7 @@ export default async function WorkDetailPage({
   const typeLabel = TYPE_LABEL[work.type] ?? "書籍";
   const typeColor = TYPE_COLOR[work.type] ?? TYPE_COLOR.other;
   const statusLabel = STATUS_LABEL[work.status];
-  const amazonSearchUrl = `https://www.amazon.co.jp/s?k=${encodeURIComponent(work.title)}`;
+  const workAmazonUrl = amazonSearchUrl(work.title);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -288,7 +286,7 @@ export default async function WorkDetailPage({
 
                 <div className="flex flex-wrap gap-2">
                   <a
-                    href={amazonSearchUrl}
+                    href={workAmazonUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1.5 bg-amber-500 hover:bg-amber-600 text-white font-semibold text-xs sm:text-sm px-4 py-2.5 rounded-xl transition-colors"

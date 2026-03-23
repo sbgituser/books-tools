@@ -5,6 +5,7 @@ import Link from "next/link";
 import type { MoodBookEntry } from "@/types/book";
 import type { EmotionalTagId, PurposeTagId, AtmosphereTagId } from "@/constants/bookTags";
 import { EMOTIONAL_TAGS, PURPOSE_TAGS, ATMOSPHERE_TAGS } from "@/constants/bookTags";
+import { amazonProductUrl } from "@/lib/site";
 
 // ── タグID → ラベルのマップ ──────────────────────────────────────
 
@@ -126,10 +127,8 @@ export default function BookRecommendationCard({
     ...(mt?.purposeTags ?? []).filter(t => !matchedPurpose.includes(t)),
   ].slice(0, 3);
 
-  // Amazon URL を生成（ISBNがある場合）
-  const amazonUrl = book.isbn13
-    ? `https://www.amazon.co.jp/dp/${book.isbn13}?tag=kurasplus-22`
-    : `https://www.amazon.co.jp/s?k=${encodeURIComponent(book.title)}&tag=kurasplus-22`;
+  // Amazon URL を生成（パートナータグは site.ts で一元管理）
+  const amazonUrl = amazonProductUrl(book.isbn13, book.title);
 
   return (
     <article className="bg-white border border-stone-200 rounded-2xl p-4 sm:p-5 flex gap-4 shadow-sm hover:shadow-md hover:border-rose-200 transition-all">
