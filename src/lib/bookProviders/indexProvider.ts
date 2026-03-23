@@ -214,7 +214,7 @@ class IndexProvider {
     return results;
   }
 
-  // ── 冊数（meta.json のみ・高速）────────────────────────────────
+  // ── 冰数（meta.json のみ・高速）────────────────────────────────
 
   async getBookCountByPath(l1Id: string, catIds: string[]): Promise<number> {
     const meta = await this.loadMeta();

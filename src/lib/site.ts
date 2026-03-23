@@ -58,4 +58,3 @@ export const TOOL_LINKS = [
     description: "Books Toolsの全機能へアクセスする",
   },
 ] as const;
-
