@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo, useRef, useEffect, useCallback } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import {
   MEDIA_ORIGINALS,
@@ -81,7 +82,7 @@ function MediaOriginalCard({
   return (
     <article className="bg-white rounded-2xl border border-stone-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 overflow-hidden">
       {/* ヘッダー */}
-      <div className="px-5 pt-4 pb-3 flex items-center justify-between gap-2 border-b border-stone-100">
+      <div className="px-4 pt-4 pb-3 flex items-center justify-between gap-2 border-b border-stone-100">
         <div className="flex items-center gap-2 flex-wrap">
           <MediaBadge type={item.mediaType} />
           {item.adaptationLabel && (
@@ -97,62 +98,61 @@ function MediaOriginalCard({
         )}
       </div>
 
-      {/* 映像 → 原作 レイアウト */}
-      <div className="px-5 py-4">
-        <div className="flex items-start gap-3 sm:gap-4">
-          {/* 映像作品側 */}
-          <div className="flex-1 min-w-0">
-            <p className="text-[10px] font-bold text-stone-400 uppercase tracking-wider mb-1">
-              映像作品
-            </p>
-            <p className="text-sm sm:text-base font-bold text-stone-800 leading-snug">
-              {item.mediaTitle}
-            </p>
+      {/* 本体 */}
+      <div className="flex gap-3 px-4 py-4">
+        {/* サムネイル */}
+        {item.thumbnailUrl && (
+          <div className="shrink-0">
+            <Image
+              src={item.thumbnailUrl}
+              alt={item.originalTitle ?? item.mediaTitle}
+              width={56}
+              height={80}
+              className="rounded-md object-cover shadow-sm border border-stone-100"
+              unoptimized
+            />
           </div>
+        )}
 
-          {/* 矢印 */}
-          <div className="shrink-0 flex flex-col items-center justify-center pt-5">
-            <span
-              className="text-indigo-400 font-bold text-lg leading-none"
-              aria-label="から"
-            >
-              →
-            </span>
-          </div>
+        {/* テキスト情報 */}
+        <div className="flex-1 min-w-0">
+          {/* 映像タイトル */}
+          <p className="text-[10px] font-bold text-stone-400 uppercase tracking-wider mb-0.5">
+            映像作品
+          </p>
+          <p className="text-sm font-bold text-stone-700 leading-snug truncate">
+            {item.mediaTitle}
+          </p>
 
-          {/* 原作側 */}
-          <div className="flex-1 min-w-0">
-            {item.originalExists && item.originalTitle ? (
-              <>
-                <p className="text-[10px] font-bold text-indigo-400 uppercase tracking-wider mb-1">
-                  原作
+          {/* 矢印 + 原作 */}
+          {item.originalExists && item.originalTitle && (
+            <div className="mt-2">
+              <p className="text-[10px] font-bold text-indigo-400 uppercase tracking-wider mb-0.5">
+                原作
+              </p>
+              <p className="text-sm font-bold text-stone-800 leading-snug line-clamp-2">
+                {item.originalTitle}
+              </p>
+              {item.originalAuthor && (
+                <p className="text-xs text-stone-500 mt-0.5 truncate">
+                  {item.originalAuthor}
                 </p>
-                <p className="text-sm sm:text-base font-bold text-stone-800 leading-snug">
-                  {item.originalTitle}
-                </p>
-                {item.originalAuthor && (
-                  <p className="text-xs text-stone-500 mt-0.5">
-                    {item.originalAuthor}
-                  </p>
-                )}
-                <div className="mt-1.5">
-                  <OriginalTypeBadge type={item.originalType} />
-                </div>
-              </>
-            ) : (
-              <div className="text-xs text-stone-400 pt-5">原作なし</div>
-            )}
-          </div>
+              )}
+              <div className="mt-1">
+                <OriginalTypeBadge type={item.originalType} />
+              </div>
+            </div>
+          )}
+
+          {/* 説明文 */}
+          <p className="text-xs text-stone-500 mt-2 leading-relaxed line-clamp-2">
+            {item.description}
+          </p>
         </div>
-
-        {/* 説明文 */}
-        <p className="text-xs text-stone-500 mt-3 leading-relaxed line-clamp-2">
-          {item.description}
-        </p>
       </div>
 
       {/* フッター */}
-      <div className="px-5 pb-4 flex justify-end">
+      <div className="px-4 pb-3 flex justify-end">
         <button
           onClick={() => onSelect(item)}
           className="text-xs font-semibold text-indigo-600 hover:text-indigo-800 hover:underline transition-colors"

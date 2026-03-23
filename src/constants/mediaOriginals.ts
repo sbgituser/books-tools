@@ -36,6 +36,8 @@ export type MediaOriginalItem = {
   recommendedFor?: string;
   /** /works/[workId] に対応するID（存在する場合のみ） */
   workId?: string;
+  /** 原作書籍のサムネイルURL */
+  thumbnailUrl?: string;
 };
 
 export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
@@ -57,6 +59,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "ドラマを見て東野圭吾の世界観に興味を持った人。科学的トリックと人間ドラマのバランスが好きな人。",
     workId: "05gq12q",
+  thumbnailUrl: "https://books.google.com/books/content?id=X2s-AgAACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "suspect-x",
@@ -76,6 +79,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画で感動した人。東野圭吾ミステリーで「犯人側の視点」を楽しみたい人。",
     workId: "0bkks71",
+  thumbnailUrl: "https://books.google.com/books/content?id=eNjdDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "nodame-drama",
@@ -95,6 +99,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "音楽・クラシックに興味を持った人。ラブコメとして楽しみたい人。",
     workId: "1kx24fd",
+  thumbnailUrl: "https://books.google.com/books/content?id=GZpnEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "nodame-anime",
@@ -110,6 +115,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "同名漫画のTVアニメ版。J.C.STAFF制作。原作の雰囲気を保ちながら漫画的テンポで描く。",
     searchAliases: ["のだめ", "二ノ宮知子"],
     workId: "1kx24fd",
+  thumbnailUrl: "https://books.google.com/books/content?id=GZpnEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "death-note-anime",
@@ -129,6 +135,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "心理戦・頭脳戦が好きな人。善悪の境界を問う倫理的テーマに興味がある人。",
     workId: "1m22mge",
+  thumbnailUrl: "https://books.google.com/books/content?id=_ERuCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "death-note-movie",
@@ -144,6 +151,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "同名漫画の実写映画版。藤原竜也・松山ケンイチ主演。前後編2作構成。",
     searchAliases: ["デスノート", "大場つぐみ", "小畑健"],
     workId: "1m22mge",
+  thumbnailUrl: "https://books.google.com/books/content?id=_ERuCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "kimi-no-na-wa",
@@ -163,6 +171,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画を見て余韻に浸りたい人。新海誠ワールドを活字で体験したい人。",
     workId: "045cnn5",
+  thumbnailUrl: "https://books.google.com/books/content?id=aYP2vwEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "chihayafuru-anime",
@@ -182,6 +191,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメで感動した人。百人一首・競技かるたに興味を持った人。",
     workId: "16a2phy",
+  thumbnailUrl: "https://books.google.com/books/content?id=GVNODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "chihayafuru-movie",
@@ -197,6 +207,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "同名漫画の実写映画版。広瀬すず・野村周平主演。上の句・下の句・結び の3部作。",
     searchAliases: ["末次由紀", "かるた", "広瀬すず"],
     workId: "16a2phy",
+  thumbnailUrl: "https://books.google.com/books/content?id=GVNODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "toshokan-senso",
@@ -216,6 +227,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画でキャラクターが好きになった人。言論の自由・検閲というテーマに興味がある人。",
     workId: "05vxbou",
+  thumbnailUrl: "https://books.google.com/books/content?id=q1imYpx_hbUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "hakuyako-drama",
@@ -235,6 +247,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "ドラマで感動した人。東野圭吾の暗黒面・社会派ミステリーが好きな人。",
     workId: "1tzlddg",
+  thumbnailUrl: "https://books.google.com/books/content?id=KZgLEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "kokuhaku-movie",
@@ -254,6 +267,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画の衝撃に圧倒された人。湊かなえのイヤミスジャンルを知りたい人。",
     workId: "0kn9l8z",
+  thumbnailUrl: "https://books.google.com/books/content?id=-V6YzwEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70ryxsYTDYDZugfH6AcBU1msbde1jggv_LeTIO-raQ2hh_eNsa4WQX_5f5u_ugemP8OSlLMiGsUDKZomB396C9WtWALT8Tq5tbAdbvsQ2zYI8Af2WbfFYvyghqPMmVjoY31Blyy&source=gbs_api",
   },
   {
     id: "harry-potter",
@@ -273,6 +287,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画シリーズを楽しんだ人。子供から大人まで楽しめるファンタジーを読みたい人。",
     workId: "1rmuzaj",
+  thumbnailUrl: "https://books.google.com/books/content?id=-g-O0AEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "kimetsu",
@@ -292,6 +307,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメを見てもっと世界観を知りたい人。大正時代の設定と鬼との戦いを活字で楽しみたい人。",
     workId: "0iuwa8r",
+  thumbnailUrl: "https://books.google.com/books/content?id=Mj1cDAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "shingeki",
@@ -311,6 +327,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメの謎と世界観に引き込まれた人。伏線・考察が好きな人。",
     workId: "0zni0pn",
+  thumbnailUrl: "https://books.google.com/books/content?id=nMjEBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "hanzawa-drama",
@@ -330,6 +347,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "ドラマで痛快なカタルシスを味わった人。組織の不正に立ち向かう社会派小説が好きな人。",
     workId: "0r02lo2",
+  thumbnailUrl: "https://books.google.com/books/content?id=ITHyAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "shitamachi-rocket",
@@ -349,6 +367,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "ものづくりと組織の葛藤を描いた物語が好きな人。池井戸潤のビジネス小説に入門したい人。",
     workId: "0cy5usk",
+  thumbnailUrl: "https://books.google.com/books/content?id=bG-DDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "dragon-zakura",
@@ -364,6 +383,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "落ちこぼれ高校生を東大合格させようとする弁護士の物語。TBS系。2021年に続編ドラマも放送。",
     searchAliases: ["三田紀房", "東大", "ドラゴン桜2", "阿部寛"],
     workId: "0qseeqa",
+  thumbnailUrl: "https://books.google.com/books/content?id=ncVYzgEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "hakase-no-ai",
@@ -383,6 +403,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画で涙した人。静かで知的な文学作品を読みたい人。数学と人間の関わりに興味がある人。",
     workId: "004w4z3",
+  thumbnailUrl: "https://books.google.com/books/content?id=vYbDBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "alice-in-borderland",
@@ -402,6 +423,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "ドラマのサバイバル展開にハマった人。デスゲーム・謎解きジャンルが好きな人。",
     workId: "0lu6cg1",
+  thumbnailUrl: "https://books.google.com/books/content?id=4kMrtAEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "suna-no-utsuwa",
@@ -421,6 +443,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画を見て松本清張に興味を持った人。社会派ミステリーに入門したい人。",
     workId: "1dem5jj",
+  thumbnailUrl: "https://books.google.com/books/content?id=1WAsAQAAIAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE706MT_6rwnodk1OVZqKqAsHJGS0wFu7pd2M1pWFKZqsULVGcj0bxG8kdZNdqj7XHFnzgMO9-00GE-Vpi0E_Si9tXmeadllWEIKcmKzgPDEeDuuplrBT4v1n1cVKsc_K-xQIvQr1&source=gbs_api",
   },
   {
     id: "64-movie",
@@ -440,6 +463,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画を見て横山秀夫に興味を持った人。警察組織の内部を描く社会派ミステリーが好きな人。",
     workId: "1qznmx7",
+  thumbnailUrl: "https://books.google.com/books/content?id=cTTBMgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "kotonoha-no-niwa",
@@ -459,6 +483,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "新海誠の映像美に感動した人。短時間で感動体験したい人。",
     workId: "1shuw72",
+  thumbnailUrl: "https://books.google.com/books/content?id=mi8hwAEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "joker-game",
@@ -474,6 +499,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "第二次世界大戦前後を舞台にしたスパイ小説の映画化。亀梨和也主演。直木賞候補の原作連作短編集。",
     searchAliases: ["柳広司", "スパイ", "D機関"],
     workId: "1mij96r",
+  thumbnailUrl: "https://books.google.com/books/content?id=UiiOPgAACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "eizo-ken",
@@ -493,6 +519,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメ制作・創作に興味がある人。青春と情熱を描いた作品が好きな人。",
     workId: "1cv7fb3",
+  thumbnailUrl: "https://books.google.com/books/content?id=7qHvDQAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
 
   // ── 2000年代 ────────────────────────────────────────────────────
@@ -515,6 +542,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "ドラマで恋愛展開にドキドキした人。王道少女漫画の原点を体験したい人。",
     workId: "1v5wh1g",
+  thumbnailUrl: "https://books.google.com/books/content?id=oaQUAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "rookies-drama",
@@ -534,6 +562,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "ドラマで青春の熱さに感動した人。師弟関係と不良の更生をテーマにした漫画が好きな人。",
     workId: "0hy0c7e",
+  thumbnailUrl: "https://books.google.com/books/content?id=gq7ICwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "hachi-kuro-anime",
@@ -553,6 +582,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメで芸術・青春・一方通行の恋のテーマに共感した人。3月のライオンも好きな人。",
     workId: "1136xxp",
+  thumbnailUrl: "https://books.google.com/books/content?id=WKGADwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "nana-anime",
@@ -572,6 +602,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメで二人のナナの友情に感動した人。音楽と恋愛と友情をテーマにした少女漫画が好きな人。",
     workId: "0xg4crk",
+  thumbnailUrl: "https://books.google.com/books/content?id=eNzICwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "kimi-ni-todoke-anime",
@@ -591,6 +622,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメで純粋な恋愛模様に癒された人。不器用な女の子が成長する王道少女漫画が好きな人。",
     workId: "1d6gduo",
+  thumbnailUrl: "https://books.google.com/books/content?id=b88vAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "fma-brotherhood",
@@ -610,6 +642,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメの完成度の高い物語に感動した人。「等価交換」「人間の傲慢さ」というテーマを原作で深く味わいたい人。",
     workId: "0zref9t",
+  thumbnailUrl: "https://books.google.com/books/content?id=PQ7FDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "naruto-anime",
@@ -629,6 +662,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメで忍者の熱い展開が好きだった人。成長・友情・裏切りのテーマを原作で追いたい人。",
     workId: "17otkk9",
+  thumbnailUrl: "https://books.google.com/books/content?id=ji3NCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "bleach-anime",
@@ -648,6 +682,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "千年血戦篇アニメで感動した人。死神と虚の壮大な世界観を原作で読みたい人。",
     workId: "0xf2b4f",
+  thumbnailUrl: "https://books.google.com/books/content?id=FQTwAQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "pinpon-movie",
@@ -667,6 +702,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画の疾走感と映像美が忘れられない人。才能・友情・アイデンティティをテーマにした漫画が好きな人。",
     workId: "1xytg7s",
+  thumbnailUrl: "https://books.google.com/books/content?id=HQfzCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
 
   // ── 2010年代前半 ─────────────────────────────────────────────────
@@ -689,6 +725,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画で笑いと感動を味わった人。ローマ史や浴場文化に興味がある人。",
     workId: "0up6xx8",
+  thumbnailUrl: "https://books.google.com/books/content?id=BESSrIdvibYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "uchu-kyodai",
@@ -708,6 +745,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画で夢を追い続けることに勇気をもらった人。宇宙・科学好きが人間ドラマも楽しみたい場合。",
     workId: "1vgzl4a",
+  thumbnailUrl: "https://books.google.com/books/content?id=KrtxEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "jojo-anime",
@@ -745,6 +783,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画で言葉・日本語・辞書というテーマに興味を持った人。静かで深い文学作品を読みたい人。",
     workId: "0zz63zd",
+  thumbnailUrl: "https://books.google.com/books/content?id=EMUPrgEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70NT17-ktZP0AmqvWl7INBvUWur2tjnqQwsXdwvq5aUAUuIoqpZ9OqrpUs58ab9VJvsx9mCMMPUr84GSj-qgBj2HBeopVokExIWfXW_1f-7F3FGoR1a8yzASFiMPRhbyq9YQpF5&source=gbs_api",
   },
   {
     id: "eien-no-zero",
@@ -764,6 +803,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画で日本の戦争と家族愛のテーマに感動した人。歴史小説・戦争文学に入門したい人。",
     workId: "07j5tto",
+  thumbnailUrl: "https://books.google.com/books/content?id=ofeFQgAACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "parasyte-anime",
@@ -783,6 +823,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメで「人間とは何か」というテーマに引き込まれた人。SFホラーとヒューマンドラマが好きな人。",
     workId: "1k8u22x",
+  thumbnailUrl: "https://books.google.com/books/content?id=h4S_oQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "tokyo-ghoul-anime",
@@ -802,6 +843,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメで世界観に引き込まれた人。原作でアニメとの違いを確かめたい人。人間とモンスターの境界をテーマにした作品が好きな人。",
     workId: "1szm3ez",
+  thumbnailUrl: "https://books.google.com/books/content?id=-xrLCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "haikyuu-anime",
@@ -821,6 +863,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメで試合の熱さに感動した人。スポーツ漫画でチームワークと成長のテーマが好きな人。",
     workId: "1d7xco7",
+  thumbnailUrl: "https://books.google.com/books/content?id=wI7LCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "shigatsu-wa-kimi-anime",
@@ -840,6 +883,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメで音楽と感動の物語に引き込まれた人。青春・音楽・死と再生のテーマが好きな人。",
     workId: "0h9zmq9",
+  thumbnailUrl: "https://books.google.com/books/content?id=n0fKBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "umi-machi-diary",
@@ -859,6 +903,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画で静かな感動を覚えた人。家族・姉妹・日常の美しさを描いた作品が好きな人。",
     workId: "01f86a7",
+  thumbnailUrl: "https://books.google.com/books/content?id=QhSCDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "bakuman-movie",
@@ -878,6 +923,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画の熱い創作バトルに興奮した人。漫画家・創作の世界を深く知りたい人。",
     workId: "1hmxear",
+  thumbnailUrl: "https://books.google.com/books/content?id=rhcljgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "ansatsu-kyoshitsu-movie",
@@ -897,6 +943,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画で殺せんせーとE組の絆に感動した人。笑いと感動が共存する漫画を読みたい人。",
     workId: "05mqcs1",
+  thumbnailUrl: "https://books.google.com/books/content?id=xZ_MCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "rurouni-kenshin-movie",
@@ -916,6 +963,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画のアクションと時代劇の世界観が好きな人。明治維新の歴史と剣の哲学を漫画で楽しみたい人。",
     workId: "0fcv3n3",
+  thumbnailUrl: "https://books.google.com/books/content?id=JGPKCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "boku-no-hero-anime",
@@ -935,6 +983,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメで「自分を超えていく」成長ドラマが好きな人。アメコミ風のヒーロー漫画が好きな人。",
     workId: "032sc3q",
+  thumbnailUrl: "https://books.google.com/books/content?id=7iLLCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "konosuba-anime",
@@ -954,6 +1003,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメでゆるいコメディに笑い転げた人。異世界転生ジャンルでコメディ寄りの作品が好きな人。",
     workId: "1r4zopm",
+  thumbnailUrl: "https://books.google.com/books/content?id=59gNzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
 
   // ── 2010年代後半 ────────────────────────────────────────────────
@@ -976,6 +1026,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画で孤独と再生のテーマに感動した人。将棋・家族・癒しをテーマにした漫画が好きな人。",
     workId: "0le0pd2",
+  thumbnailUrl: "https://books.google.com/books/content?vid=ISBN9784592141105&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "okotoko",
@@ -995,6 +1046,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画で「お金と幸せ」の問いに考えさせられた人。川村元気ファンや軽妙なエンタメ小説が好きな人。",
     workId: "1p3apoo",
+  thumbnailUrl: "https://books.google.com/books/content?id=0265DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "tenki-danran-iken",
@@ -1014,6 +1066,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメで無双系異世界ファンタジーの爽快感が好きな人。国家経営系ストーリーが好きな人。",
     workId: "1aakpum",
+  thumbnailUrl: "https://books.google.com/books/content?id=ZRrjEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "masquerade-hotel",
@@ -1033,6 +1086,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画で優雅な謎解きに引き込まれた人。東野圭吾ミステリーの優雅な世界観が好きな人。",
     workId: "069g6xa",
+  thumbnailUrl: "https://books.google.com/books/content?id=Uo7toAEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72mZj0W2yBEDLCsICscw_WhimvO8k4J2UHltkkz6gwNpsfjSIz1Gxrjaf2hrMm7iLWAdb_86Xw_0E8uqhtWmrzJbgYmrSsxB24RpPBolVkf87kxVoGtWBiIbmaXckMPKRjLDItN&source=gbs_api",
   },
   {
     id: "mitsubachi-to-enrai",
@@ -1052,6 +1106,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画で音楽と才能のテーマに感動した人。クラシック音楽が好きな人。文学作品として深い読書体験をしたい人。",
     workId: "0mbk7f7",
+  thumbnailUrl: "https://books.google.com/books/content?id=eGNVygEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE71Xczj0OwjZZ7VEr0_Q5-Ty6BIbIAVVbQAbtbz8lu4HAJJR4MuWLJwYC67QZgqcMBDFZswn_C9ENEuR92VPx8i2DiKsouOfxup6jSwmN0tFCT1o3jlZxfdLsEX1twum64j7XMfT&source=gbs_api",
   },
   {
     id: "mushoku-tensei-anime",
@@ -1071,6 +1126,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメで異世界ファンタジーの丁寧な世界観に惹かれた人。人生やり直し・成長テーマが好きな人。",
     workId: "00ge48i",
+  thumbnailUrl: "https://books.google.com/books/content?id=4L8czgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "tsumi-no-koe",
@@ -1090,6 +1146,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画で昭和の未解決事件ミステリーに引き込まれた人。実際の事件を基にした社会派小説が好きな人。",
     workId: "0ar8707",
+  thumbnailUrl: "https://books.google.com/books/content?id=bI3mxQEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "drive-my-car",
@@ -1109,6 +1166,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画の静かで深い余韻が忘れられない人。村上春樹の原作短編と映画の差異を楽しみたい人。",
     workId: "11fitjc",
+  thumbnailUrl: "https://books.google.com/books/content?id=gdDWoAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "danmachi-anime",
@@ -1128,6 +1186,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメで成長系ファンタジーの世界観にハマった人。ダンジョン探索と神様コミュニティという設定が好きな人。",
     workId: "0ecjsmn",
+  thumbnailUrl: "https://books.google.com/books/content?id=JIbnnAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "yuru-camp-anime",
@@ -1147,6 +1206,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメで癒しとキャンプの魅力を感じた人。アウトドア好き・ソロ活動好きの人に特にお薦め。",
     workId: "02ro5k9",
+  thumbnailUrl: "https://books.google.com/books/content?id=gVfuEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
 
   // ── 2020年代 ─────────────────────────────────────────────────────
@@ -1169,6 +1229,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "ドラマで壮大な権力ゲームの世界観に引き込まれた人。西洋ファンタジーの大作小説を原文・翻訳で読みたい人。",
     workId: "1m7e2ww",
+  thumbnailUrl: "https://books.google.com/books/content?id=BI11QgAACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "sherlock-bbc",
@@ -1188,6 +1249,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "ドラマで頭脳明晰なホームズのキャラクターに惹かれた人。古典ミステリーを楽しみたい人。",
     workId: "0hnqg2i",
+  thumbnailUrl: "https://books.google.com/books/content?id=6e3KAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
 
   // ── 2015–2025 ───────────────────────────────────────────────────
@@ -1210,6 +1272,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "ドラマで「働き方」や「生き方」を考えさせられた人。ラブコメと社会派テーマを同時に楽しみたい人。",
     workId: "1foo4fe",
+  thumbnailUrl: "https://books.google.com/books/content?id=V9c_DgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "kounotori",
@@ -1229,6 +1292,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "命の誕生と医療の現実に関心がある人。感動的な医療ドラマを探している人。",
     workId: "1vrawnp",
+  thumbnailUrl: "https://books.google.com/books/content?id=HIE-DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "rikuo-drama",
@@ -1248,6 +1312,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "ドラマで熱い展開に感動した人。中小企業の奮闘を描く経済小説が好きな人。",
     workId: "1ycw3o9",
+  thumbnailUrl: "https://books.google.com/books/content?id=GWLvxgEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "mystery-to-iu-nakare",
@@ -1267,6 +1332,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "ドラマで久能整のセリフに共感した人。社会問題・哲学的テーマを絡めたミステリーが好きな人。",
     workId: "0436z1i",
+  thumbnailUrl: "https://books.google.com/books/content?id=RpiiswEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "kingdom-movie",
@@ -1286,6 +1352,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画でスケールの大きさに引かれた人。歴史・戦略漫画の大作を読みたい人。",
     workId: "0u6ruh5",
+  thumbnailUrl: "https://books.google.com/books/content?id=bCXKCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "tonde-saitama",
@@ -1305,6 +1372,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画で爆笑した人。ギャグ・パロディ漫画の元祖を読んでみたい人。",
     workId: "07f06ti",
+  thumbnailUrl: "https://books.google.com/books/content?id=wVOVjwEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "tokyo-revengers-movie",
@@ -1324,6 +1392,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画でタイムリープと友情の物語にハマった人。ヤンキー漫画×サスペンスが好きな人。",
     workId: "0sz79up",
+  thumbnailUrl: "https://books.google.com/books/content?id=A5_XtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "tenki-no-ko",
@@ -1343,6 +1412,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画の余韻に浸りたい人。君の名は。を楽しんだ人。新海誠の世界観を活字で体験したい人。",
     workId: "1ytttd6",
+  thumbnailUrl: "https://books.google.com/books/content?id=6SkvyQEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "slam-dunk-movie",
@@ -1362,6 +1432,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画で感動した人・ドリブルのシーンが忘れられない人。青春バスケ漫画の金字塔を読みたい人。",
     workId: "15ther4",
+  thumbnailUrl: "https://books.google.com/books/content?id=aRhXygEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "suzume",
@@ -1381,6 +1452,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画の余韻を大切にしたい人。東日本大震災と記憶というテーマに向き合いたい人。",
     workId: "053jq1a",
+  thumbnailUrl: "https://books.google.com/books/content?id=1QgN0AEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "blue-giant-movie",
@@ -1400,6 +1472,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "映画の演奏シーンに心を動かされた人。音楽・ジャズに興味を持った人。青春と挑戦の物語が好きな人。",
     workId: "1n6ojyj",
+  thumbnailUrl: "https://books.google.com/books/content?id=ia_6CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "jujutsu-kaisen-anime",
@@ -1419,6 +1492,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメで世界観に引き込まれた人。バトルと哲学的テーマが融合した漫画が好きな人。",
     workId: "1er2ue6",
+  thumbnailUrl: "https://books.google.com/books/content?id=XhvH0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "spy-family-anime",
@@ -1438,6 +1512,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメで笑いと感動を味わった人。スパイアクション×家族コメディという組み合わせが好きな人。",
     workId: "1r7geub",
+  thumbnailUrl: "https://books.google.com/books/content?id=0dSZDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "chainsaw-man-anime",
@@ -1457,6 +1532,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメの独特な演出と世界観にハマった人。不条理・バイオレンス系の漫画が好きな人。",
     workId: "04hn7u2",
+  thumbnailUrl: "https://books.google.com/books/publisher/content?id=NyOEDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE73HQcUg7k2hy6mBM4ztXIPmJP450vFE73Mw21xeOJIQG_dEenybCegvoDyhoO5qDc6T1O8REj88_3p6oRmuPkDoW1JEoSR77sUjT9I6jdXxCXxJYF7v8xe3zVzSohnGtWSB-WJT&source=gbs_api",
   },
   {
     id: "blue-lock-anime",
@@ -1476,6 +1552,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメで極限の競争と才能の物語にハマった人。スポーツ漫画で心理戦・個人主義テーマが好きな人。",
     workId: "156varz",
+  thumbnailUrl: "https://books.google.com/books/content?id=5Ft2DwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "frieren-anime",
@@ -1495,6 +1572,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメで「時間・別れ・人の営み」というテーマに心打たれた人。ファンタジーを哲学的視点で楽しみたい人。",
     workId: "154nqi5",
+  thumbnailUrl: "https://books.google.com/books/content?id=jJnjzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "kusuriya-anime",
@@ -1514,6 +1592,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメで後宮ミステリーの世界観に引き込まれた人。中華風ファンタジーと謎解きが好きな人。",
     workId: "0g6vt24",
+  thumbnailUrl: "https://books.google.com/books/content?id=7C_GDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
   },
   {
     id: "kaiju-8-anime",
@@ -1533,6 +1612,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメで怪獣×人間ドラマの組み合わせにハマった人。努力と成長のバトル漫画が好きな人。",
     workId: "08tvese",
+  thumbnailUrl: "https://books.google.com/books/content?id=jRgFEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "one-piece-netflix",
@@ -1552,6 +1632,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "実写版から原作に興味を持った人。冒険・仲間・意志のテーマが好きな人。",
     workId: "0cb8t8s",
+  thumbnailUrl: "https://books.google.com/books/content?id=9ca7CwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "santi-netflix",
@@ -1571,6 +1652,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "ドラマでスケールの大きさに圧倒された人。ハードSFの最高峰に挑戦したい人。",
     workId: "0w8wdw1",
+  thumbnailUrl: "https://books.google.com/books/content?id=BZV9zgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
   {
     id: "blue-period-anime",
@@ -1590,6 +1672,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメで「なぜ絵を描くのか」という問いに共感した人。芸術・創作・自己表現をテーマにした漫画が好きな人。",
     workId: "0295sk0",
+  thumbnailUrl: "https://books.google.com/books/content?id=W8qGswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   },
 ];
 
