@@ -56,6 +56,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "ドラマではオリジナルエピソードや女性刑事・内海薫のキャラクターが加えられている。原作は短編中心で、ドラマよりもロジックの密度が高い。",
     recommendedFor:
       "ドラマを見て東野圭吾の世界観に興味を持った人。科学的トリックと人間ドラマのバランスが好きな人。",
+    workId: "05gq12q",
   },
   {
     id: "suspect-x",
@@ -93,6 +94,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "ドラマは漫画のトーンをよく再現。一部エピソードが省略・再構成されている。原作はパリ編・ウィーン編がさらに続く。",
     recommendedFor:
       "音楽・クラシックに興味を持った人。ラブコメとして楽しみたい人。",
+    workId: "1kx24fd",
   },
   {
     id: "nodame-anime",
@@ -107,6 +109,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     description:
       "同名漫画のTVアニメ版。J.C.STAFF制作。原作の雰囲気を保ちながら漫画的テンポで描く。",
     searchAliases: ["のだめ", "二ノ宮知子"],
+    workId: "1kx24fd",
   },
   {
     id: "death-note-anime",
@@ -125,6 +128,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "アニメ版は原作に概ね忠実だが、後半の展開に変更がある（Nとの対決など）。原作漫画の方が心理描写のテンポが速い。",
     recommendedFor:
       "心理戦・頭脳戦が好きな人。善悪の境界を問う倫理的テーマに興味がある人。",
+    workId: "1m22mge",
   },
   {
     id: "death-note-movie",
@@ -139,6 +143,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     description:
       "同名漫画の実写映画版。藤原竜也・松山ケンイチ主演。前後編2作構成。",
     searchAliases: ["デスノート", "大場つぐみ", "小畑健"],
+    workId: "1m22mge",
   },
   {
     id: "kimi-no-na-wa",
@@ -157,6 +162,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "小説は映画と同内容だが、心理描写・情景描写が文章で丁寧に補完されている。映画を見た後に読むと新たな発見がある。",
     recommendedFor:
       "映画を見て余韻に浸りたい人。新海誠ワールドを活字で体験したい人。",
+    workId: "045cnn5",
   },
   {
     id: "chihayafuru-anime",
@@ -266,6 +272,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "映画は各巻を1〜2本に圧縮しており、原作のエピソードが多数省略されている。原作の方が世界観と人物描写が圧倒的に豊か。",
     recommendedFor:
       "映画シリーズを楽しんだ人。子供から大人まで楽しめるファンタジーを読みたい人。",
+    workId: "1rmuzaj",
   },
   {
     id: "kimetsu",
@@ -322,6 +329,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "原作のタイトルは「オレたちバブル入行組」で、ドラマが半沢直樹の名を冠して独自に展開。続編シリーズも小説・ドラマで展開している。",
     recommendedFor:
       "ドラマで痛快なカタルシスを味わった人。組織の不正に立ち向かう社会派小説が好きな人。",
+    workId: "0r02lo2",
   },
   {
     id: "shitamachi-rocket",
@@ -340,6 +348,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "ドラマは原作に概ね忠実。シーズン2（ゴースト/ヤタガラス）はドラマ独自のストーリー展開が増える。",
     recommendedFor:
       "ものづくりと組織の葛藤を描いた物語が好きな人。池井戸潤のビジネス小説に入門したい人。",
+    workId: "0cy5usk",
   },
   {
     id: "dragon-zakura",
@@ -354,6 +363,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     description:
       "落ちこぼれ高校生を東大合格させようとする弁護士の物語。TBS系。2021年に続編ドラマも放送。",
     searchAliases: ["三田紀房", "東大", "ドラゴン桜2", "阿部寛"],
+    workId: "0qseeqa",
   },
   {
     id: "hakase-no-ai",
@@ -391,6 +401,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "Netflixドラマは原作のゲーム・キャラクターを一部変更・再構成。原作漫画は全18巻でより緻密なゲームルール設計がされている。",
     recommendedFor:
       "ドラマのサバイバル展開にハマった人。デスゲーム・謎解きジャンルが好きな人。",
+    workId: "0lu6cg1",
   },
   {
     id: "suna-no-utsuwa",
@@ -447,6 +458,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "小説では映画で描かれない側の登場人物の心理・背景が補完されており、映画の後に読むと新たな感動がある。",
     recommendedFor:
       "新海誠の映像美に感動した人。短時間で感動体験したい人。",
+    workId: "1shuw72",
   },
   {
     id: "joker-game",
@@ -461,6 +473,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     description:
       "第二次世界大戦前後を舞台にしたスパイ小説の映画化。亀梨和也主演。直木賞候補の原作連作短編集。",
     searchAliases: ["柳広司", "スパイ", "D機関"],
+    workId: "1mij96r",
   },
   {
     id: "eizo-ken",
@@ -479,6 +492,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "アニメはアニメーション表現そのものへのメタ的な演出が特に高く評価される。原作漫画もアニメーション制作の現場描写が詳細。",
     recommendedFor:
       "アニメ制作・創作に興味がある人。青春と情熱を描いた作品が好きな人。",
+    workId: "1cv7fb3",
   },
 
   // ── 2000年代 ────────────────────────────────────────────────────
@@ -674,6 +688,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "映画は原作のユーモアをよく再現。漫画全6巻はローマ史の考証が丁寧で、映画よりもルシウスの葛藤と文化的考察が深い。",
     recommendedFor:
       "映画で笑いと感動を味わった人。ローマ史や浴場文化に興味がある人。",
+    workId: "0up6xx8",
   },
   {
     id: "uchu-kyodai",
@@ -748,6 +763,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "映画は原作の主要な場面を丁寧に映像化。原作小説はより複数の視点からの証言形式で、戦争の悲惨さと人間の葛藤がより深く伝わる。",
     recommendedFor:
       "映画で日本の戦争と家族愛のテーマに感動した人。歴史小説・戦争文学に入門したい人。",
+    workId: "07j5tto",
   },
   {
     id: "parasyte-anime",
@@ -766,6 +782,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "アニメは原作漫画（全10巻）をほぼ忠実に映像化。漫画は白黒の荒削りな画風が独特の緊張感を生んでおり、アニメとは異なる質感が楽しめる。",
     recommendedFor:
       "アニメで「人間とは何か」というテーマに引き込まれた人。SFホラーとヒューマンドラマが好きな人。",
+    workId: "1k8u22x",
   },
   {
     id: "tokyo-ghoul-anime",
@@ -784,6 +801,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "アニメは原作を大幅に改変・圧縮しており、特にルート（√A）以降は別の展開をたどる。原作漫画（全14巻）を読むとより整合性のある深い物語が理解できる。",
     recommendedFor:
       "アニメで世界観に引き込まれた人。原作でアニメとの違いを確かめたい人。人間とモンスターの境界をテーマにした作品が好きな人。",
+    workId: "1szm3ez",
   },
   {
     id: "haikyuu-anime",
@@ -840,6 +858,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "映画は原作漫画の序盤をほぼ忠実に映像化。漫画は全9巻で、映画後の4姉妹のさらなる変化と鎌倉の四季が丁寧に描かれる。",
     recommendedFor:
       "映画で静かな感動を覚えた人。家族・姉妹・日常の美しさを描いた作品が好きな人。",
+    workId: "01f86a7",
   },
   {
     id: "bakuman-movie",
@@ -975,6 +994,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "映画は原作の構成をよく再現。小説は哲学的な問いをより深く掘り下げており、各章の仕掛けも読みどころ。",
     recommendedFor:
       "映画で「お金と幸せ」の問いに考えさせられた人。川村元気ファンや軽妙なエンタメ小説が好きな人。",
+    workId: "1p3apoo",
   },
   {
     id: "tenki-danran-iken",
@@ -1069,6 +1089,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "映画は原作のエッセンスをよく凝縮。原作小説はジャーナリズムと家族の痛みを二軸で丁寧に描いており、映画より事件の詳細と登場人物の葛藤が深く描かれる。",
     recommendedFor:
       "映画で昭和の未解決事件ミステリーに引き込まれた人。実際の事件を基にした社会派小説が好きな人。",
+    workId: "0ar8707",
   },
   {
     id: "drive-my-car",
@@ -1087,6 +1108,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "映画は約3時間の大作で原作の世界を大幅に拡張・映像化。原作は「女のいない男たち」に収録の短編で、映画とは異なる凝縮された文体で読める。",
     recommendedFor:
       "映画の静かで深い余韻が忘れられない人。村上春樹の原作短編と映画の差異を楽しみたい人。",
+    workId: "11fitjc",
   },
   {
     id: "danmachi-anime",
@@ -1146,6 +1168,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "ドラマはシーズン5まで概ね原作に沿い、シーズン6以降は未完の原作を先行して独自に展開。原作（5部作・未完）はより複雑な政治描写と視点が多い。",
     recommendedFor:
       "ドラマで壮大な権力ゲームの世界観に引き込まれた人。西洋ファンタジーの大作小説を原文・翻訳で読みたい人。",
+    workId: "1m7e2ww",
   },
   {
     id: "sherlock-bbc",
@@ -1186,6 +1209,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "ドラマはほぼ原作に忠実だが、職場での男女格差・経済格差のテーマを現代的に強調している。原作漫画はドラマ後半の展開もさらに続く。",
     recommendedFor:
       "ドラマで「働き方」や「生き方」を考えさせられた人。ラブコメと社会派テーマを同時に楽しみたい人。",
+    workId: "1foo4fe",
   },
   {
     id: "kounotori",
@@ -1223,6 +1247,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "ドラマは原作のストーリーラインを忠実に追いながらも、キャラクターの描写を若干変更。ものづくりと組織の葛藤は原作でより深く描かれる。",
     recommendedFor:
       "ドラマで熱い展開に感動した人。中小企業の奮闘を描く経済小説が好きな人。",
+    workId: "1ycw3o9",
   },
   {
     id: "mystery-to-iu-nakare",
@@ -1241,6 +1266,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "ドラマは原作の代表的なエピソードをよく再現。漫画は既刊20巻超で、ドラマ化されていない事件やキャラクターの深掘りが続く。",
     recommendedFor:
       "ドラマで久能整のセリフに共感した人。社会問題・哲学的テーマを絡めたミステリーが好きな人。",
+    workId: "0436z1i",
   },
   {
     id: "kingdom-movie",
@@ -1278,6 +1304,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "映画は原作の設定・世界観を膨らませてオリジナルストーリーを加えた作品。原作漫画は1982年連載の短編で、映画のほうがボリュームが多い。",
     recommendedFor:
       "映画で爆笑した人。ギャグ・パロディ漫画の元祖を読んでみたい人。",
+    workId: "07f06ti",
   },
   {
     id: "tokyo-revengers-movie",
@@ -1296,6 +1323,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "映画は原作序盤の東京卍會との戦いを中心に構成。原作漫画（全31巻）はタイムリープと複雑な組織の因果関係がより詳細に描かれる。",
     recommendedFor:
       "映画でタイムリープと友情の物語にハマった人。ヤンキー漫画×サスペンスが好きな人。",
+    workId: "0sz79up",
   },
   {
     id: "tenki-no-ko",
@@ -1314,6 +1342,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "小説は映画と同内容だが、帆高・陽菜それぞれの視点から語られる心理描写が丁寧に補完されている。映画後に読むと世界観がより深まる。",
     recommendedFor:
       "映画の余韻に浸りたい人。君の名は。を楽しんだ人。新海誠の世界観を活字で体験したい人。",
+    workId: "1ytttd6",
   },
   {
     id: "slam-dunk-movie",
@@ -1351,6 +1380,7 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "小説では映画で語られない登場人物の背景・内面が丁寧に補完されている。災害・記憶・復興のテーマが活字でより深く感じられる。",
     recommendedFor:
       "映画の余韻を大切にしたい人。東日本大震災と記憶というテーマに向き合いたい人。",
+    workId: "053jq1a",
   },
   {
     id: "blue-giant-movie",

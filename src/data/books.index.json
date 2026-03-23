@@ -28072,5 +28072,601 @@
         "readable"
       ]
     }
+  },
+  {
+    "id": "9784163236001",
+    "title": "オレたちバブル入行組",
+    "authors": [
+      "池井戸潤"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学"
+    ],
+    "searchableText": "オレたちバブル入行組 池井戸潤 文藝春秋 小説・文学",
+    "updatedAt": "2026-03-23T02:48:17.625Z",
+    "publisher": "文藝春秋",
+    "publishedDate": "2004-12",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=ITHyAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "ITHyAAAAMAAJ"
+    },
+    "isbn10": "4163236007",
+    "isbn13": "9784163236001",
+    "pageCount": 317
+  },
+  {
+    "id": "9784811325026",
+    "title": "小説君の名は。",
+    "authors": [
+      "新海誠"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学"
+    ],
+    "searchableText": "小説君の名は。 新海誠ライブラリー 新海誠 汐文社 小説・文学",
+    "updatedAt": "2026-03-23T02:48:19.744Z",
+    "publisher": "汐文社",
+    "publishedDate": "2018-12",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=aYP2vwEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "aYP2vwEACAAJ"
+    },
+    "subtitle": "新海誠ライブラリー",
+    "isbn10": "4811325028",
+    "isbn13": "9784811325026",
+    "pageCount": 257
+  },
+  {
+    "id": "9784811325033",
+    "title": "小説言の葉の庭",
+    "authors": [
+      "新海誠"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学"
+    ],
+    "searchableText": "小説言の葉の庭 新海誠ライブラリー 新海誠 汐文社 小説・文学",
+    "updatedAt": "2026-03-23T02:48:20.426Z",
+    "publisher": "汐文社",
+    "publishedDate": "2018-12",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=mi8hwAEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "mi8hwAEACAAJ"
+    },
+    "subtitle": "新海誠ライブラリー",
+    "isbn10": "4811325036",
+    "isbn13": "9784811325033",
+    "pageCount": 389
+  },
+  {
+    "id": "9784041140727",
+    "title": "すずめの戶締まり",
+    "authors": [
+      "新海誠"
+    ],
+    "categories": [
+      "Language Arts & Disciplines / Journalism"
+    ],
+    "keywords": [
+      "Language Arts & Disciplines / Journalism"
+    ],
+    "searchableText": "すずめの戶締まり 新海誠 KADOKAWA Language Arts & Disciplines / Journalism",
+    "updatedAt": "2026-03-23T02:48:22.405Z",
+    "publisher": "KADOKAWA",
+    "publishedDate": "2023-09",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=1QgN0AEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "1QgN0AEACAAJ"
+    },
+    "isbn10": "4041140722",
+    "isbn13": "9784041140727",
+    "pageCount": 991
+  },
+  {
+    "id": "gb-X2s-AgAACAAJ",
+    "title": "探偵ガリレオ",
+    "authors": [
+      "東野圭吾"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学"
+    ],
+    "searchableText": "探偵ガリレオ 東野圭吾 小説・文学",
+    "updatedAt": "2026-03-23T03:07:53.631Z",
+    "publishedDate": "2000-01",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=X2s-AgAACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "X2s-AgAACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "general",
+      "l3Id": "mystery"
+    }
+  },
+  {
+    "id": "gb-bG-DDAAAQBAJ",
+    "title": "下町ロケット",
+    "authors": [
+      "池井戸潤"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学"
+    ],
+    "searchableText": "下町ロケット 池井戸潤 小説・文学",
+    "updatedAt": "2026-03-23T03:07:53.634Z",
+    "publishedDate": "2013-07",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=bG-DDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "bG-DDAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "general",
+      "l3Id": "social"
+    }
+  },
+  {
+    "id": "gb-GWLvxgEACAAJ",
+    "title": "陸王",
+    "authors": [
+      "池井戸潤"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学"
+    ],
+    "searchableText": "陸王 池井戸潤 小説・文学",
+    "updatedAt": "2026-03-23T03:07:53.635Z",
+    "publishedDate": "2016-07",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=GWLvxgEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "GWLvxgEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "general",
+      "l3Id": "social"
+    }
+  },
+  {
+    "id": "gb-6SkvyQEACAAJ",
+    "title": "天気の子",
+    "authors": [
+      "新海誠"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学"
+    ],
+    "searchableText": "天気の子 新海誠 小説・文学",
+    "updatedAt": "2026-03-23T03:07:53.635Z",
+    "publishedDate": "2019-07",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=6SkvyQEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "6SkvyQEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "general",
+      "l3Id": "romance"
+    }
+  },
+  {
+    "id": "gb-ofeFQgAACAAJ",
+    "title": "永遠の0",
+    "authors": [
+      "百田尚樹"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学"
+    ],
+    "searchableText": "永遠の0 百田尚樹 小説・文学",
+    "updatedAt": "2026-03-23T03:07:53.635Z",
+    "publishedDate": "2006-07",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=ofeFQgAACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "ofeFQgAACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "general",
+      "l3Id": "history"
+    }
+  },
+  {
+    "id": "gb-0265DAAAQBAJ",
+    "title": "億男",
+    "authors": [
+      "川村元気"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学"
+    ],
+    "searchableText": "億男 川村元気 小説・文学",
+    "updatedAt": "2026-03-23T03:07:53.635Z",
+    "publishedDate": "2014-09",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=0265DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "0265DAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "general",
+      "l3Id": "literary"
+    }
+  },
+  {
+    "id": "gb-bI3mxQEACAAJ",
+    "title": "罪の声",
+    "authors": [
+      "塩田武士"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学"
+    ],
+    "searchableText": "罪の声 塩田武士 小説・文学",
+    "updatedAt": "2026-03-23T03:07:53.635Z",
+    "publishedDate": "2016-08",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=bI3mxQEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "bI3mxQEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "general",
+      "l3Id": "mystery"
+    }
+  },
+  {
+    "id": "gb-BI11QgAACAAJ",
+    "title": "七王国の玉座",
+    "authors": [
+      "ジョージ・R.R. マーティン"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学"
+    ],
+    "searchableText": "七王国の玉座 ジョージ・R.R. マーティン 小説・文学",
+    "updatedAt": "2026-03-23T03:07:53.635Z",
+    "publishedDate": "1996-01",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=BI11QgAACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "BI11QgAACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "general",
+      "l3Id": "fantasy"
+    }
+  },
+  {
+    "id": "gb-UiiOPgAACAAJ",
+    "title": "ジョーカー・ゲーム",
+    "authors": [
+      "柳広司"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学"
+    ],
+    "searchableText": "ジョーカー・ゲーム 柳広司 小説・文学",
+    "updatedAt": "2026-03-23T03:07:53.635Z",
+    "publishedDate": "2008-08",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=UiiOPgAACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "UiiOPgAACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "general",
+      "l3Id": "mystery"
+    }
+  },
+  {
+    "id": "gb-GZpnEAAAQBAJ",
+    "title": "のだめカンタービレ",
+    "authors": [
+      "二ノ宮知子"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画"
+    ],
+    "searchableText": "のだめカンタービレ 二ノ宮知子 漫画",
+    "updatedAt": "2026-03-23T03:07:53.636Z",
+    "publishedDate": "2002-01",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=GZpnEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "GZpnEAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance"
+    }
+  },
+  {
+    "id": "gb-ncVYzgEACAAJ",
+    "title": "ドラゴン桜",
+    "authors": [
+      "三田紀房"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画"
+    ],
+    "searchableText": "ドラゴン桜 三田紀房 漫画",
+    "updatedAt": "2026-03-23T03:07:53.636Z",
+    "publishedDate": "2003-01",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=ncVYzgEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "ncVYzgEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "social"
+    }
+  },
+  {
+    "id": "gb-4kMrtAEACAAJ",
+    "title": "今際の国のアリス",
+    "authors": [
+      "麻生羽呂"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画"
+    ],
+    "searchableText": "今際の国のアリス 麻生羽呂 漫画",
+    "updatedAt": "2026-03-23T03:07:53.636Z",
+    "publishedDate": "2010-11",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=4kMrtAEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "4kMrtAEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    }
+  },
+  {
+    "id": "gb-BESSrIdvibYC",
+    "title": "テルマエ・ロマエ",
+    "authors": [
+      "ヤマザキマリ"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画"
+    ],
+    "searchableText": "テルマエ・ロマエ ヤマザキマリ 漫画",
+    "updatedAt": "2026-03-23T03:07:53.636Z",
+    "publishedDate": "2008-06",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=BESSrIdvibYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "BESSrIdvibYC"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "comedy"
+    }
+  },
+  {
+    "id": "gb--xrLCwAAQBAJ",
+    "title": "東京喰種トーキョーグール",
+    "authors": [
+      "石田スイ"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画"
+    ],
+    "searchableText": "東京喰種トーキョーグール 石田スイ 漫画",
+    "updatedAt": "2026-03-23T03:07:53.636Z",
+    "publishedDate": "2012-01",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=-xrLCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "-xrLCwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama"
+    }
+  },
+  {
+    "id": "gb-QhSCDAAAQBAJ",
+    "title": "海街diary",
+    "authors": [
+      "吉田秋生"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画"
+    ],
+    "searchableText": "海街diary 吉田秋生 漫画",
+    "updatedAt": "2026-03-23T03:07:53.636Z",
+    "publishedDate": "2006-07",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=QhSCDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "QhSCDAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "drama"
+    }
+  },
+  {
+    "id": "gb-V9c_DgAAQBAJ",
+    "title": "逃げるは恥だが役に立つ",
+    "authors": [
+      "海野つなみ"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画"
+    ],
+    "searchableText": "逃げるは恥だが役に立つ 海野つなみ 漫画",
+    "updatedAt": "2026-03-23T03:07:53.636Z",
+    "publishedDate": "2012-01",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=V9c_DgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "V9c_DgAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romcom"
+    }
+  },
+  {
+    "id": "gb-RpiiswEACAAJ",
+    "title": "ミステリと言う勿れ",
+    "authors": [
+      "田村由美"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画"
+    ],
+    "searchableText": "ミステリと言う勿れ 田村由美 漫画",
+    "updatedAt": "2026-03-23T03:07:53.636Z",
+    "publishedDate": "2018-01",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=RpiiswEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "RpiiswEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "mystery"
+    }
+  },
+  {
+    "id": "gb-wVOVjwEACAAJ",
+    "title": "翔んで埼玉",
+    "authors": [
+      "魔夜峰央"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画"
+    ],
+    "searchableText": "翔んで埼玉 魔夜峰央 漫画",
+    "updatedAt": "2026-03-23T03:07:53.636Z",
+    "publishedDate": "1982-01",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=wVOVjwEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "wVOVjwEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "comedy"
+    }
+  },
+  {
+    "id": "gb-7qHvDQAAQAAJ",
+    "title": "映像研には手を出すな！",
+    "authors": [
+      "大童澄瞳"
+    ],
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画"
+    ],
+    "searchableText": "映像研には手を出すな！ 大童澄瞳 漫画",
+    "updatedAt": "2026-03-23T03:07:53.636Z",
+    "publishedDate": "2016-11",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=7qHvDQAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "7qHvDQAAQAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "drama"
+    }
   }
 ]
