@@ -480,6 +480,401 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
     recommendedFor:
       "アニメ制作・創作に興味がある人。青春と情熱を描いた作品が好きな人。",
   },
+
+  // ── 2015–2025 ───────────────────────────────────────────────────
+
+  {
+    id: "nigeru-wa-haji",
+    mediaTitle: "逃げるは恥だが役に立つ",
+    mediaType: "drama",
+    mediaYear: 2016,
+    originalExists: true,
+    originalTitle: "逃げるは恥だが役に立つ",
+    originalAuthor: "海野つなみ",
+    originalType: "manga",
+    adaptationLabel: "テレビドラマ化",
+    description:
+      "契約結婚から始まる恋愛コメディ。TBS系。星野源・新垣結衣主演。「恋ダンス」が社会現象に。Kiss連載漫画が原作。",
+    searchAliases: ["にげはじ", "海野つなみ", "ガッキー", "星野源", "みくり"],
+    adaptationNotes:
+      "ドラマはほぼ原作に忠実だが、職場での男女格差・経済格差のテーマを現代的に強調している。原作漫画はドラマ後半の展開もさらに続く。",
+    recommendedFor:
+      "ドラマで「働き方」や「生き方」を考えさせられた人。ラブコメと社会派テーマを同時に楽しみたい人。",
+  },
+  {
+    id: "kounotori",
+    mediaTitle: "コウノドリ",
+    mediaType: "drama",
+    mediaYear: 2015,
+    originalExists: true,
+    originalTitle: "コウノドリ",
+    originalAuthor: "鈴ノ木ユウ",
+    originalType: "manga",
+    adaptationLabel: "テレビドラマ化",
+    description:
+      "産婦人科医が主人公の医療ドラマ。TBS系。綾野剛主演。出産・命・家族の葛藤をリアルに描く。週刊モーニング連載漫画が原作。",
+    searchAliases: ["鈴ノ木ユウ", "産婦人科", "コウノドリ"],
+    adaptationNotes:
+      "ドラマは原作のエピソードをほぼ忠実に映像化。漫画は産科医療の倫理的問題をより深く掘り下げており、医療従事者にも高く評価されている。",
+    recommendedFor:
+      "命の誕生と医療の現実に関心がある人。感動的な医療ドラマを探している人。",
+    workId: "1vrawnp",
+  },
+  {
+    id: "rikuo-drama",
+    mediaTitle: "陸王",
+    mediaType: "drama",
+    mediaYear: 2017,
+    originalExists: true,
+    originalTitle: "陸王",
+    originalAuthor: "池井戸潤",
+    originalType: "novel",
+    adaptationLabel: "テレビドラマ化",
+    description:
+      "足袋製造の老舗中小企業がランニングシューズ開発に挑む物語。TBS系。役所広司主演。直木賞作家・池井戸潤の原作小説。",
+    searchAliases: ["池井戸潤", "ランニングシューズ", "陸王"],
+    adaptationNotes:
+      "ドラマは原作のストーリーラインを忠実に追いながらも、キャラクターの描写を若干変更。ものづくりと組織の葛藤は原作でより深く描かれる。",
+    recommendedFor:
+      "ドラマで熱い展開に感動した人。中小企業の奮闘を描く経済小説が好きな人。",
+  },
+  {
+    id: "mystery-to-iu-nakare",
+    mediaTitle: "ミステリと言う勿れ",
+    mediaType: "drama",
+    mediaYear: 2022,
+    originalExists: true,
+    originalTitle: "ミステリと言う勿れ",
+    originalAuthor: "田村由美",
+    originalType: "manga",
+    adaptationLabel: "テレビドラマ化",
+    description:
+      "独特の語り口と鋭い観察眼を持つ青年・久能整が事件に巻き込まれるミステリー。フジテレビ系。菅田将暉主演。",
+    searchAliases: ["田村由美", "久能整", "ミステリ言う勿れ"],
+    adaptationNotes:
+      "ドラマは原作の代表的なエピソードをよく再現。漫画は既刊20巻超で、ドラマ化されていない事件やキャラクターの深掘りが続く。",
+    recommendedFor:
+      "ドラマで久能整のセリフに共感した人。社会問題・哲学的テーマを絡めたミステリーが好きな人。",
+  },
+  {
+    id: "kingdom-movie",
+    mediaTitle: "キングダム",
+    mediaType: "movie",
+    mediaYear: 2019,
+    originalExists: true,
+    originalTitle: "キングダム",
+    originalAuthor: "原泰久",
+    originalType: "manga",
+    adaptationLabel: "映画化",
+    description:
+      "中国春秋戦国時代を舞台にした歴史漫画の実写映画版。山崎賢人・吉沢亮主演。シリーズ累計1億部超の人気漫画。",
+    searchAliases: ["原泰久", "信", "嬴政", "春秋戦国"],
+    adaptationNotes:
+      "映画は原作序盤のアーク（山の民）を圧縮して映像化。漫画はより壮大なスケールで長期連載が続いており、映画よりはるかに多くの戦略・人物が描かれる。",
+    recommendedFor:
+      "映画でスケールの大きさに引かれた人。歴史・戦略漫画の大作を読みたい人。",
+    workId: "0u6ruh5",
+  },
+  {
+    id: "tonde-saitama",
+    mediaTitle: "翔んで埼玉",
+    mediaType: "movie",
+    mediaYear: 2019,
+    originalExists: true,
+    originalTitle: "翔んで埼玉",
+    originalAuthor: "魔夜峰央",
+    originalType: "manga",
+    adaptationLabel: "映画化",
+    description:
+      "埼玉県民への壮大なディスりギャグ漫画の実写映画版。GACKT・二階堂ふみ主演。興収37億円超の大ヒット。",
+    searchAliases: ["魔夜峰央", "さいたま", "翔んで埼玉"],
+    adaptationNotes:
+      "映画は原作の設定・世界観を膨らませてオリジナルストーリーを加えた作品。原作漫画は1982年連載の短編で、映画のほうがボリュームが多い。",
+    recommendedFor:
+      "映画で爆笑した人。ギャグ・パロディ漫画の元祖を読んでみたい人。",
+  },
+  {
+    id: "tokyo-revengers-movie",
+    mediaTitle: "東京リベンジャーズ",
+    mediaType: "movie",
+    mediaYear: 2021,
+    originalExists: true,
+    originalTitle: "東京卍リベンジャーズ",
+    originalAuthor: "和久井健",
+    originalType: "manga",
+    adaptationLabel: "映画化",
+    description:
+      "タイムリープで過去に戻り悪の組織を変えようとする青春ヤンキーアクション。北村匠海主演。週刊少年マガジン連載。",
+    searchAliases: ["和久井健", "東リベ", "マイキー", "タケミチ"],
+    adaptationNotes:
+      "映画は原作序盤の東京卍會との戦いを中心に構成。原作漫画（全31巻）はタイムリープと複雑な組織の因果関係がより詳細に描かれる。",
+    recommendedFor:
+      "映画でタイムリープと友情の物語にハマった人。ヤンキー漫画×サスペンスが好きな人。",
+  },
+  {
+    id: "tenki-no-ko",
+    mediaTitle: "天気の子",
+    mediaType: "movie",
+    mediaYear: 2019,
+    originalExists: true,
+    originalTitle: "天気の子",
+    originalAuthor: "新海誠",
+    originalType: "novel",
+    adaptationLabel: "映画→ノベライズ",
+    description:
+      "家出少年と「晴れ女」の少女の出会いを描く新海誠監督作品。国内興収142億円超。映画公開と同時にノベライズが刊行。",
+    searchAliases: ["新海誠", "天気の子", "ほだか", "ひな"],
+    adaptationNotes:
+      "小説は映画と同内容だが、帆高・陽菜それぞれの視点から語られる心理描写が丁寧に補完されている。映画後に読むと世界観がより深まる。",
+    recommendedFor:
+      "映画の余韻に浸りたい人。君の名は。を楽しんだ人。新海誠の世界観を活字で体験したい人。",
+  },
+  {
+    id: "slam-dunk-movie",
+    mediaTitle: "THE FIRST SLAM DUNK",
+    mediaType: "movie",
+    mediaYear: 2022,
+    originalExists: true,
+    originalTitle: "SLAM DUNK",
+    originalAuthor: "井上雄彦",
+    originalType: "manga",
+    adaptationLabel: "映画化",
+    description:
+      "伝説のバスケ漫画を原作者・井上雄彦自身が監督した劇場版。国内興収159億円超の大ヒット。週刊少年ジャンプの名作が原作。",
+    searchAliases: ["スラムダンク", "井上雄彦", "桜木花道", "流川楓"],
+    adaptationNotes:
+      "映画はリョータを主人公に山王戦を描くオリジナル視点の構成。原作漫画（全31巻）は桜木を主人公に湘北の成長を全体通して描く。どちらから入っても楽しめる。",
+    recommendedFor:
+      "映画で感動した人・ドリブルのシーンが忘れられない人。青春バスケ漫画の金字塔を読みたい人。",
+    workId: "15ther4",
+  },
+  {
+    id: "suzume",
+    mediaTitle: "すずめの戸締まり",
+    mediaType: "movie",
+    mediaYear: 2022,
+    originalExists: true,
+    originalTitle: "すずめの戸締まり",
+    originalAuthor: "新海誠",
+    originalType: "novel",
+    adaptationLabel: "映画→ノベライズ",
+    description:
+      "日本各地の「廃墟の扉」を閉めて回る少女の旅を描く新海誠監督作品。国内興収149億円超。映画公開と同時にノベライズが刊行。",
+    searchAliases: ["新海誠", "すずめの戸締まり", "宗像草太"],
+    adaptationNotes:
+      "小説では映画で語られない登場人物の背景・内面が丁寧に補完されている。災害・記憶・復興のテーマが活字でより深く感じられる。",
+    recommendedFor:
+      "映画の余韻を大切にしたい人。東日本大震災と記憶というテーマに向き合いたい人。",
+  },
+  {
+    id: "blue-giant-movie",
+    mediaTitle: "BLUE GIANT",
+    mediaType: "movie",
+    mediaYear: 2023,
+    originalExists: true,
+    originalTitle: "BLUE GIANT",
+    originalAuthor: "石塚真一",
+    originalType: "manga",
+    adaptationLabel: "映画化",
+    description:
+      "東北出身の青年がジャズサックスで世界を目指す青春音楽漫画の映画版。ビッグコミック連載。音楽制作に上原ひろみが参加。",
+    searchAliases: ["石塚真一", "ジャズ", "サックス", "大"],
+    adaptationNotes:
+      "映画は原作の「東京編」を中心に再構成。漫画シリーズはヨーロッパ・アメリカ編へと続いており、ジャズを軸にした成長の物語がさらに広がる。",
+    recommendedFor:
+      "映画の演奏シーンに心を動かされた人。音楽・ジャズに興味を持った人。青春と挑戦の物語が好きな人。",
+    workId: "1n6ojyj",
+  },
+  {
+    id: "jujutsu-kaisen-anime",
+    mediaTitle: "呪術廻戦",
+    mediaType: "anime",
+    mediaYear: 2020,
+    originalExists: true,
+    originalTitle: "呪術廻戦",
+    originalAuthor: "芥見下々",
+    originalType: "manga",
+    adaptationLabel: "アニメ化",
+    description:
+      "呪霊と戦う呪術師たちを描くダークファンタジーアクション。MAPPA制作。週刊少年ジャンプ連載。劇場版・第2期も大ヒット。",
+    searchAliases: ["じゅじゅつかいせん", "芥見下々", "虎杖悠仁", "五条悟"],
+    adaptationNotes:
+      "アニメは原作に忠実で、映像・音楽のクオリティが特に高く評価される。漫画は全26巻で完結。渋谷事変以降の展開がアニメ第2期・3期で映像化されている。",
+    recommendedFor:
+      "アニメで世界観に引き込まれた人。バトルと哲学的テーマが融合した漫画が好きな人。",
+    workId: "1er2ue6",
+  },
+  {
+    id: "spy-family-anime",
+    mediaTitle: "SPY×FAMILY",
+    mediaType: "anime",
+    mediaYear: 2022,
+    originalExists: true,
+    originalTitle: "SPY×FAMILY",
+    originalAuthor: "遠藤達哉",
+    originalType: "manga",
+    adaptationLabel: "アニメ化",
+    description:
+      "スパイ・殺し屋・超能力者の三人が偽家族を演じるコメディ。WIT STUDIO×CloverWorks制作。少年ジャンプ＋連載。",
+    searchAliases: ["スパイファミリー", "遠藤達哉", "ロイド", "アーニャ", "ヨル"],
+    adaptationNotes:
+      "アニメは原作に忠実で、アーニャのリアクション演技が特に人気。漫画は最新話まで連載中でアニメ未収録の展開が続く。",
+    recommendedFor:
+      "アニメで笑いと感動を味わった人。スパイアクション×家族コメディという組み合わせが好きな人。",
+    workId: "1r7geub",
+  },
+  {
+    id: "chainsaw-man-anime",
+    mediaTitle: "チェンソーマン",
+    mediaType: "anime",
+    mediaYear: 2022,
+    originalExists: true,
+    originalTitle: "チェンソーマン",
+    originalAuthor: "藤本タツキ",
+    originalType: "manga",
+    adaptationLabel: "アニメ化",
+    description:
+      "チェンソーの悪魔と合体した少年・デンジが悪魔狩りをするダークアクション。MAPPA制作。週刊少年ジャンプ連載。",
+    searchAliases: ["藤本タツキ", "デンジ", "パワー", "マキマ"],
+    adaptationNotes:
+      "アニメはPART1（公安編）を映像化。映像・音楽の演出が高く評価されるが、漫画PART2（学校編）はまだアニメ化されておらず原作でしか読めない。",
+    recommendedFor:
+      "アニメの独特な演出と世界観にハマった人。不条理・バイオレンス系の漫画が好きな人。",
+    workId: "04hn7u2",
+  },
+  {
+    id: "blue-lock-anime",
+    mediaTitle: "ブルーロック",
+    mediaType: "anime",
+    mediaYear: 2022,
+    originalExists: true,
+    originalTitle: "ブルーロック",
+    originalAuthor: "金城宗幸",
+    originalType: "manga",
+    adaptationLabel: "アニメ化",
+    description:
+      "日本最高のストライカーを育てる極限サバイバルサッカー漫画のアニメ版。週刊少年マガジン連載。シリーズ累計3000万部超。",
+    searchAliases: ["金城宗幸", "ブルーロック", "潔世一", "サッカー"],
+    adaptationNotes:
+      "アニメは原作の前半（ブルーロック施設編）を映像化。漫画は欧州リーグ編へと展開が続いており、アニメよりさらに先の物語が読める。",
+    recommendedFor:
+      "アニメで極限の競争と才能の物語にハマった人。スポーツ漫画で心理戦・個人主義テーマが好きな人。",
+    workId: "156varz",
+  },
+  {
+    id: "frieren-anime",
+    mediaTitle: "葬送のフリーレン",
+    mediaType: "anime",
+    mediaYear: 2023,
+    originalExists: true,
+    originalTitle: "葬送のフリーレン",
+    originalAuthor: "山田鐘人",
+    originalType: "manga",
+    adaptationLabel: "アニメ化",
+    description:
+      "魔王討伐後の世界を旅するエルフの魔法使いを描くファンタジー。Madhouse制作。週刊少年サンデー連載。アニメ賞多数受賞。",
+    searchAliases: ["山田鐘人", "フリーレン", "ヒンメル", "エルフ"],
+    adaptationNotes:
+      "アニメは原作に非常に忠実で、作画・音楽のクオリティが特に高い。漫画は連載継続中でアニメ第2期以降の展開が原作で先行している。",
+    recommendedFor:
+      "アニメで「時間・別れ・人の営み」というテーマに心打たれた人。ファンタジーを哲学的視点で楽しみたい人。",
+    workId: "154nqi5",
+  },
+  {
+    id: "kusuriya-anime",
+    mediaTitle: "薬屋のひとりごと",
+    mediaType: "anime",
+    mediaYear: 2023,
+    originalExists: true,
+    originalTitle: "薬屋のひとりごと",
+    originalAuthor: "日向夏",
+    originalType: "novel",
+    adaptationLabel: "アニメ化",
+    description:
+      "後宮を舞台に薬師の少女・猫猫が謎を解くミステリー。OLM/TOHO Animation制作。小説・漫画（2種類の漫画版）が原作。",
+    searchAliases: ["日向夏", "猫猫", "壬氏", "後宮"],
+    adaptationNotes:
+      "アニメは漫画版（ビッグガンガン連載）を主に参考に映像化。ライトノベル原作はより文章的な情報密度が高く、後宮の政治背景が詳細。",
+    recommendedFor:
+      "アニメで後宮ミステリーの世界観に引き込まれた人。中華風ファンタジーと謎解きが好きな人。",
+    workId: "0g6vt24",
+  },
+  {
+    id: "kaiju-8-anime",
+    mediaTitle: "怪獣8号",
+    mediaType: "anime",
+    mediaYear: 2024,
+    originalExists: true,
+    originalTitle: "怪獣8号",
+    originalAuthor: "松本直也",
+    originalType: "manga",
+    adaptationLabel: "アニメ化",
+    description:
+      "怪獣に変身できる青年が防衛隊員を目指すアクション漫画のアニメ版。Production I.G制作。少年ジャンプ＋連載。",
+    searchAliases: ["松本直也", "怪獣8号", "日比野化", "防衛隊"],
+    adaptationNotes:
+      "アニメは原作の前半を忠実に映像化。漫画は連載継続中でアニメ未収録の展開が読める。",
+    recommendedFor:
+      "アニメで怪獣×人間ドラマの組み合わせにハマった人。努力と成長のバトル漫画が好きな人。",
+    workId: "08tvese",
+  },
+  {
+    id: "one-piece-netflix",
+    mediaTitle: "ONE PIECE（Netflix実写版）",
+    mediaType: "overseas",
+    mediaYear: 2023,
+    originalExists: true,
+    originalTitle: "ONE PIECE",
+    originalAuthor: "尾田栄一郎",
+    originalType: "manga",
+    adaptationLabel: "Netflix実写化",
+    description:
+      "世界累計5億部超の海賊冒険漫画のNetflixオリジナル実写ドラマ。東バラジ・マガスハキ主演。シーズン1は東の海編を映像化。",
+    searchAliases: ["ワンピース", "尾田栄一郎", "ルフィ", "麦わらの一味"],
+    adaptationNotes:
+      "実写版は原作の大ファンである尾田栄一郎が制作に深く関与しており、原作へのリスペクトが高く評価されている。原作漫画は1000話超の大作。",
+    recommendedFor:
+      "実写版から原作に興味を持った人。冒険・仲間・意志のテーマが好きな人。",
+    workId: "0cb8t8s",
+  },
+  {
+    id: "santi-netflix",
+    mediaTitle: "三体",
+    mediaType: "overseas",
+    mediaYear: 2024,
+    originalExists: true,
+    originalTitle: "三体",
+    originalAuthor: "劉慈欣",
+    originalType: "novel",
+    adaptationLabel: "Netflix実写化",
+    description:
+      "中国SFの金字塔をNetflixが実写ドラマ化。文化大革命から始まる壮大なファーストコンタクト物語。ヒューゴー賞受賞の原作小説。",
+    searchAliases: ["リュウジキン", "さんたい", "ファーストコンタクト", "SF"],
+    adaptationNotes:
+      "Netflix版は舞台を現代のイギリスに変更しているが、物語の核心は忠実に再現。小説の三部作（三体・黒暗森林・死神永生）は膨大なスケールのSF叙事詩。",
+    recommendedFor:
+      "ドラマでスケールの大きさに圧倒された人。ハードSFの最高峰に挑戦したい人。",
+    workId: "0w8wdw1",
+  },
+  {
+    id: "blue-period-anime",
+    mediaTitle: "ブルーピリオド",
+    mediaType: "anime",
+    mediaYear: 2021,
+    originalExists: true,
+    originalTitle: "ブルーピリオド",
+    originalAuthor: "山口つばさ",
+    originalType: "manga",
+    adaptationLabel: "アニメ化",
+    description:
+      "成績優秀なリア充が美術に目覚め東京藝大を目指す青春漫画のアニメ版。月刊アフタヌーン連載。アニメーション制作：七緒。",
+    searchAliases: ["山口つばさ", "矢口八虎", "東京藝大", "美術"],
+    adaptationNotes:
+      "アニメは原作の藝大受験まで（序盤）を映像化。漫画は入学後の苦悩・成長・アイデンティティの模索が続いており、アニメよりはるかに長い。",
+    recommendedFor:
+      "アニメで「なぜ絵を描くのか」という問いに共感した人。芸術・創作・自己表現をテーマにした漫画が好きな人。",
+    workId: "0295sk0",
+  },
 ];
 
 /** フィルタ定義 */
@@ -495,14 +890,18 @@ export type FilterValue = (typeof MEDIA_TYPE_FILTERS)[number]["value"];
 
 /** クイック検索チップ */
 export const QUICK_SEARCH_CHIPS = [
-  "ガリレオ",
-  "のだめカンタービレ",
-  "DEATH NOTE",
+  "鬼滅の刃",
+  "呪術廻戦",
+  "SPY×FAMILY",
+  "葬送のフリーレン",
   "君の名は。",
   "半沢直樹",
-  "鬼滅の刃",
-  "白夜行",
-  "ハリー・ポッター",
+  "逃げるは恥",
+  "キングダム",
+  "SLAM DUNK",
+  "チェンソーマン",
+  "三体",
+  "ガリレオ",
 ];
 
 /** メディア種別表示設定 */
