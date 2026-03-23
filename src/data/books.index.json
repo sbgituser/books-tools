@@ -29101,5 +29101,852 @@
     "publisher": "集英社",
     "publishedDate": "2018-05-02",
     "pageCount": 199
+  },
+  {
+    "id": "gb-GYA7c88uJlUC",
+    "title": "ケロロ軍曹",
+    "authors": [
+      "吉崎　観音"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "ケロロ軍曹 吉崎　観音 KADOKAWA",
+    "updatedAt": "2026-03-23T10:26:51.861Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=GYA7c88uJlUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "GYA7c88uJlUC"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "gag"
+    },
+    "publisher": "KADOKAWA",
+    "pageCount": 181
+  },
+  {
+    "id": "gb-ENvLCwAAQBAJ",
+    "title": "ギャグマンガ日和",
+    "authors": [
+      "増田こうすけ"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "ギャグマンガ日和 増田こうすけ 集英社",
+    "updatedAt": "2026-03-23T10:26:53.493Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=ENvLCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "ENvLCwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "gag"
+    },
+    "publisher": "集英社",
+    "publishedDate": "2014-10-03",
+    "pageCount": 200
+  },
+  {
+    "id": "gb-dkHKCwAAQBAJ",
+    "title": "磯部磯兵衛物語〜浮世はつらいよ〜",
+    "authors": [
+      "仲間りょう"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "磯部磯兵衛物語〜浮世はつらいよ〜 仲間りょう 集英社",
+    "updatedAt": "2026-03-23T10:26:54.363Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=dkHKCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "dkHKCwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "gag"
+    },
+    "publisher": "集英社",
+    "publishedDate": "2014-02-04",
+    "pageCount": 195
+  },
+  {
+    "id": "gb-L_LHCwAAQBAJ",
+    "title": "世紀末リーダー伝たけし！",
+    "authors": [
+      "島袋光年"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "世紀末リーダー伝たけし！ 島袋光年 集英社",
+    "updatedAt": "2026-03-23T10:26:56.801Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=L_LHCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "L_LHCwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "gag"
+    },
+    "publisher": "集英社",
+    "publishedDate": "2005-01-05",
+    "pageCount": 383
+  },
+  {
+    "id": "gb-w6vICwAAQBAJ",
+    "title": "エンジェル伝説",
+    "authors": [
+      "八木教広"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "エンジェル伝説 八木教広 集英社",
+    "updatedAt": "2026-03-23T10:26:57.655Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=w6vICwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "w6vICwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "gag"
+    },
+    "publisher": "集英社",
+    "publishedDate": "2007-04-18",
+    "pageCount": 306
+  },
+  {
+    "id": "gb-cd3FCwAAQBAJ",
+    "title": "とっても！ラッキーマン",
+    "authors": [
+      "ガモウひろし"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "とっても！ラッキーマン ガモウひろし 集英社",
+    "updatedAt": "2026-03-23T10:26:58.602Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=cd3FCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "cd3FCwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "gag"
+    },
+    "publisher": "集英社",
+    "publishedDate": "2009-04-17",
+    "pageCount": 355
+  },
+  {
+    "id": "gb-KO6TEAAAQBAJ",
+    "title": "浦安鉄筋家族",
+    "authors": [
+      "浜岡賢次"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "浦安鉄筋家族 浜岡賢次 秋田書店",
+    "updatedAt": "2026-03-23T10:27:00.031Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=KO6TEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "KO6TEAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "gag"
+    },
+    "publisher": "秋田書店",
+    "publishedDate": "2022-11-08",
+    "pageCount": 204
+  },
+  {
+    "id": "9784088720869",
+    "title": "幕張",
+    "authors": [
+      "康昭·木多"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "幕張 康昭·木多",
+    "updatedAt": "2026-03-23T10:27:00.934Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=lMzXZwEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "lMzXZwEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "gag"
+    },
+    "publishedDate": "1996",
+    "subtitle": "こちら千葉市美浜区海浜公園前幕南",
+    "isbn10": "4088720865",
+    "isbn13": "9784088720869",
+    "pageCount": 179
+  },
+  {
+    "id": "9784253935685",
+    "title": "侵略！イカ娘",
+    "authors": [
+      "安部真弘"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "侵略！イカ娘 安部真弘",
+    "updatedAt": "2026-03-23T10:27:01.803Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=_lBHtAEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "_lBHtAEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "gag"
+    },
+    "publishedDate": "2009",
+    "subtitle": "5",
+    "isbn10": "4253935680",
+    "isbn13": "9784253935685",
+    "pageCount": 157
+  },
+  {
+    "id": "9784063721980",
+    "title": "スクールランブル",
+    "authors": [
+      "月刊少年マガジン編集部"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "スクールランブル 月刊少年マガジン編集部",
+    "updatedAt": "2026-03-23T10:27:04.475Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=vOPOZwEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "vOPOZwEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "gag"
+    },
+    "publishedDate": "2006",
+    "isbn10": "4063721981",
+    "isbn13": "9784063721980",
+    "pageCount": 175
+  },
+  {
+    "id": "gb-VvvABQAAQBAJ",
+    "title": "さよなら絶望先生",
+    "authors": [
+      "久米田康治"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "さよなら絶望先生 久米田康治 講談社",
+    "updatedAt": "2026-03-23T10:27:05.354Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=VvvABQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "VvvABQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "gag"
+    },
+    "publisher": "講談社",
+    "publishedDate": "2012-05-17",
+    "pageCount": 164
+  },
+  {
+    "id": "gb-76zGBQAAQBAJ",
+    "title": "じょしらく",
+    "authors": [
+      "久米田康治",
+      "ヤス"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "じょしらく 久米田康治 ヤス 講談社",
+    "updatedAt": "2026-03-23T10:27:06.785Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=76zGBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "76zGBQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "gag"
+    },
+    "publisher": "講談社",
+    "publishedDate": "2013-02-08",
+    "pageCount": 131
+  },
+  {
+    "id": "9784063848717",
+    "title": "アホガール",
+    "authors": [
+      "ひろゆき"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "アホガール ひろゆき",
+    "updatedAt": "2026-03-23T10:27:09.158Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=82eptAEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "82eptAEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "gag"
+    },
+    "publishedDate": "2013",
+    "isbn10": "406384871X",
+    "isbn13": "9784063848717",
+    "pageCount": 153
+  },
+  {
+    "id": "gb-fenCBQAAQBAJ",
+    "title": "魁!!クロマティ高校",
+    "authors": [
+      "野中英次"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "魁!!クロマティ高校 野中英次 講談社",
+    "updatedAt": "2026-03-23T10:27:10.743Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=fenCBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "fenCBQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "gag"
+    },
+    "publisher": "講談社",
+    "publishedDate": "2003-02-17",
+    "pageCount": 165
+  },
+  {
+    "id": "9784800254726",
+    "title": "おそ松くん",
+    "authors": [
+      "赤塚不二夫"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "おそ松くん 赤塚不二夫",
+    "updatedAt": "2026-03-23T10:27:11.598Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=xKz8jwEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "xKz8jwEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "gag"
+    },
+    "publishedDate": "2016",
+    "isbn10": "4800254728",
+    "isbn13": "9784800254726",
+    "pageCount": 222
+  },
+  {
+    "id": "gb-5wRYCgAAQBAJ",
+    "title": "クレヨンしんちゃん",
+    "authors": [
+      "臼井儀人"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "クレヨンしんちゃん 臼井儀人 双葉社",
+    "updatedAt": "2026-03-23T10:27:12.514Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=5wRYCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "5wRYCgAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "gag"
+    },
+    "publisher": "双葉社",
+    "pageCount": 122
+  },
+  {
+    "id": "9784801954199",
+    "title": "ポプテピピック",
+    "authors": [
+      "大川ぶくぶ"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "ポプテピピック 大川ぶくぶ",
+    "updatedAt": "2026-03-23T10:27:13.382Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=X0zNjwEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "X0zNjwEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "gag"
+    },
+    "publishedDate": "2015",
+    "isbn10": "4801954197",
+    "isbn13": "9784801954199",
+    "pageCount": 112
+  },
+  {
+    "id": "gb-ONXDBQAAQBAJ",
+    "title": "稲中卓球部",
+    "authors": [
+      "古谷実"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "稲中卓球部 古谷実 講談社",
+    "updatedAt": "2026-03-23T10:27:14.223Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=ONXDBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "ONXDBQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "gag"
+    },
+    "publisher": "講談社",
+    "publishedDate": "1997-02-06",
+    "pageCount": 270
+  },
+  {
+    "id": "9784122033894",
+    "title": "笑ゥせぇるすまん",
+    "authors": [
+      "藤子不二雄○A"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "笑ゥせぇるすまん 藤子不二雄○A",
+    "updatedAt": "2026-03-23T10:27:15.694Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=vr1rtwAACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "vr1rtwAACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "gag"
+    },
+    "publishedDate": "1999-03",
+    "isbn10": "4122033896",
+    "isbn13": "9784122033894",
+    "pageCount": 280
+  },
+  {
+    "id": "gb-m5RnDwAAQBAJ",
+    "title": "究極超人あ～る",
+    "authors": [
+      "ゆうきまさみ"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "究極超人あ～る ゆうきまさみ 小学館",
+    "updatedAt": "2026-03-23T10:27:17.363Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=m5RnDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "m5RnDwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "gag"
+    },
+    "publisher": "小学館",
+    "publishedDate": "2018-08-09",
+    "pageCount": 178
+  },
+  {
+    "id": "gb-isnuCgAAQBAJ",
+    "title": "じゃりン子チエ",
+    "authors": [
+      "はるき悦巳"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "じゃりン子チエ はるき悦巳 双葉社",
+    "updatedAt": "2026-03-23T10:27:18.265Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=isnuCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "isnuCgAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "gag"
+    },
+    "publisher": "双葉社",
+    "pageCount": 221
+  },
+  {
+    "id": "9784757546769",
+    "title": "WORKING!!",
+    "authors": [
+      "高津カリノ"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "WORKING!! 高津カリノ",
+    "updatedAt": "2026-03-23T10:27:19.073Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=jcjFzgEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "jcjFzgEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "gag"
+    },
+    "publishedDate": "2015-06",
+    "isbn10": "4757546769",
+    "isbn13": "9784757546769",
+    "pageCount": 160
+  },
+  {
+    "id": "gb-hQI-DQAAQBAJ",
+    "title": "かくしごと",
+    "authors": [
+      "久米田康治"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "かくしごと 久米田康治 講談社",
+    "updatedAt": "2026-03-23T10:27:20.688Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=hQI-DQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "hQI-DQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "gag"
+    },
+    "publisher": "講談社",
+    "publishedDate": "2016-10-17",
+    "pageCount": 172
+  },
+  {
+    "id": "gb-qELNCwAAQBAJ",
+    "title": "干物妹！うまるちゃん",
+    "authors": [
+      "サンカクヘッド"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "干物妹！うまるちゃん サンカクヘッド 集英社",
+    "updatedAt": "2026-03-23T10:27:21.619Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=qELNCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "qELNCwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "gag"
+    },
+    "publisher": "集英社",
+    "publishedDate": "2013-09-19",
+    "pageCount": 187
+  },
+  {
+    "id": "gb-qiTHEAAAQBAJ",
+    "title": "ばらかもん",
+    "authors": [
+      "ヨシノサツキ"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "ばらかもん ヨシノサツキ Square Enix",
+    "updatedAt": "2026-03-23T10:27:22.445Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=qiTHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "qiTHEAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "gag"
+    },
+    "publisher": "Square Enix",
+    "publishedDate": "2018-12-12",
+    "pageCount": 195
+  },
+  {
+    "id": "gb-qy-DBQAAQBAJ",
+    "title": "のんのんびより",
+    "authors": [
+      "あっと"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "のんのんびより あっと KADOKAWA",
+    "updatedAt": "2026-03-23T10:27:23.905Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=qy-DBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "qy-DBQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "gag"
+    },
+    "publisher": "KADOKAWA",
+    "pageCount": 166
+  },
+  {
+    "id": "gb-vi1IDwAAQBAJ",
+    "title": "パタリロ！",
+    "authors": [
+      "魔夜峰央"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "パタリロ！ 魔夜峰央 PHP研究所",
+    "updatedAt": "2026-03-23T10:27:25.381Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=vi1IDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "vi1IDwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "gag"
+    },
+    "publisher": "PHP研究所",
+    "publishedDate": "2016-07-20",
+    "pageCount": 102
+  },
+  {
+    "id": "gb-4uKDDwAAQBAJ",
+    "title": "ゆるゆり",
+    "authors": [
+      "なもり"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "ゆるゆり なもり 一迅社",
+    "updatedAt": "2026-03-23T10:27:26.245Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=4uKDDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "4uKDDwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "gag"
+    },
+    "publisher": "一迅社",
+    "publishedDate": "2009-07-01",
+    "pageCount": 171
+  },
+  {
+    "id": "gb-kBj4DwAAQBAJ",
+    "title": "恋愛ラボ",
+    "authors": [
+      "宮原るり"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "恋愛ラボ 宮原るり 芳文社",
+    "updatedAt": "2026-03-23T10:27:27.693Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=kBj4DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "kBj4DwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "gag"
+    },
+    "publisher": "芳文社",
+    "publishedDate": "2020-09-07",
+    "pageCount": 150
+  },
+  {
+    "id": "9784832273559",
+    "title": "こみっくがーるず",
+    "authors": [
+      "はんざわかおり"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "こみっくがーるず はんざわかおり",
+    "updatedAt": "2026-03-23T10:27:29.279Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=i4jazgEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "i4jazgEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "gag"
+    },
+    "publishedDate": "2022-03-25",
+    "isbn10": "4832273558",
+    "isbn13": "9784832273559"
   }
 ]
