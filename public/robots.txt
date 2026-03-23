@@ -1,0 +1,9 @@
+# https://books.kuras-plus.com robots.txt
+
+User-agent: *
+Allow: /
+
+# 内部APIデータ（JSONファイル）はインデックス不要
+Disallow: /data/
+
+Sitemap: https://books.kuras-plus.com/sitemap.xml

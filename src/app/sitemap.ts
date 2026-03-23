@@ -5,6 +5,7 @@ import { getAllBlogMeta } from "@/lib/blog";
 import { SITE_URL } from "@/lib/site";
 import { READING_SCENES } from "@/constants/readingScenes";
 import { PRESET_SEARCHES } from "@/constants/bookTags";
+import { CATEGORY_TREE } from "@/lib/categories";
 
 export const dynamic = "force-static";
 
@@ -109,12 +110,53 @@ const workRoutes: MetadataRoute.Sitemap = getAllWorkFileIds().map((fileId) => ({
     priority: 0.75,
   }));
 
+  // ── ジャンルルート ──
+  const allL2Ids: string[] = [];
+  for (const l1 of CATEGORY_TREE) {
+    for (const l2 of l1.subcategories ?? []) {
+      allL2Ids.push(l2.id);
+    }
+  }
+
+  const genreRoutes: MetadataRoute.Sitemap = [
+    {
+      url: `${SITE_URL}/genre`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
+    ...allL2Ids.map((l2Id) => ({
+      url: `${SITE_URL}/genre/${l2Id}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    })),
+  ];
+
+  // ── 固定ページルート ──
+  const legalRoutes: MetadataRoute.Sitemap = [
+    {
+      url: `${SITE_URL}/privacy`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.3,
+    },
+    {
+      url: `${SITE_URL}/contact`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.3,
+    },
+  ];
+
   return [
     ...staticRoutes,
     ...sceneRoutes,
+    ...genreRoutes,
     ...mangaMoodRoutes,
     ...workRoutes,
     ...blogRoutes,
+    ...legalRoutes,
   ];
 }
 

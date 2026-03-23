@@ -19,8 +19,23 @@ export default function Footer() {
             <Link href="/" className="text-stone-400 hover:text-white text-xs transition-colors">
               ホーム
             </Link>
+            <Link href="/discover" className="text-stone-400 hover:text-white text-xs transition-colors">
+              気分で探す
+            </Link>
+            <Link href="/genre" className="text-stone-400 hover:text-white text-xs transition-colors">
+              ジャンル
+            </Link>
+            <Link href="/scene" className="text-stone-400 hover:text-white text-xs transition-colors">
+              シーン
+            </Link>
             <Link href="/tools" className="text-stone-400 hover:text-white text-xs transition-colors">
               ツール一覧
+            </Link>
+            <Link href="/privacy" className="text-stone-400 hover:text-white text-xs transition-colors">
+              プライバシーポリシー
+            </Link>
+            <Link href="/contact" className="text-stone-400 hover:text-white text-xs transition-colors">
+              お問い合わせ
             </Link>
           </nav>
         </div>

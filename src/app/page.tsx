@@ -31,6 +31,14 @@ const jsonLd = {
   name: "Books Discover",
   url: "https://books.kuras-plus.com",
   description: "気分・雰囲気で漫画・小説を発見する",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate: "https://books.kuras-plus.com/search?q={search_term_string}",
+    },
+    "query-input": "required name=search_term_string",
+  },
 };
 
 export default function HomePage() {
@@ -129,6 +137,49 @@ export default function HomePage() {
             >
               すべてのタグで探す →
             </Link>
+          </div>
+        </section>
+
+        {/* ─── ジャンルから探す ─────────────────────────────────────── */}
+        <section className="bg-white border-t border-stone-100 py-12 sm:py-16">
+          <div className="max-w-4xl mx-auto px-4">
+            <div className="text-center mb-8">
+              <h2 className="text-xl sm:text-2xl font-bold text-stone-900 mb-2">
+                ジャンルから探す
+              </h2>
+              <p className="text-stone-500 text-sm">
+                ミステリー、SF、少年漫画……好きなジャンルで絞り込み
+              </p>
+            </div>
+            <div className="flex flex-wrap justify-center gap-2">
+              {[
+                { id: "mystery", label: "ミステリー", emoji: "🔍" },
+                { id: "shonen", label: "少年漫画", emoji: "⚡" },
+                { id: "literary", label: "純文学", emoji: "✒️" },
+                { id: "seinen", label: "青年漫画", emoji: "📘" },
+                { id: "sf", label: "SF", emoji: "🚀" },
+                { id: "fantasy", label: "ファンタジー", emoji: "🐉" },
+                { id: "romance", label: "恋愛", emoji: "💕" },
+                { id: "horror", label: "ホラー", emoji: "👻" },
+              ].map((g) => (
+                <Link
+                  key={g.id}
+                  href={`/genre/${g.id}`}
+                  className="flex items-center gap-1.5 px-4 py-2.5 bg-stone-50 border border-stone-200 hover:border-amber-400 hover:bg-amber-50 rounded-full text-sm font-semibold text-stone-700 hover:text-amber-700 transition-all"
+                >
+                  <span aria-hidden="true">{g.emoji}</span>
+                  {g.label}
+                </Link>
+              ))}
+            </div>
+            <div className="text-center mt-5">
+              <Link
+                href="/genre"
+                className="text-sm text-amber-600 hover:text-amber-700 font-semibold hover:underline"
+              >
+                すべてのジャンルを見る →
+              </Link>
+            </div>
           </div>
         </section>
 
