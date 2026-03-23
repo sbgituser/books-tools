@@ -30004,5 +30004,850 @@
     "publisher": "集英社",
     "publishedDate": "2003-12-04",
     "pageCount": 180
+  },
+  {
+    "id": "gb-6LRsEAAAQBAJ",
+    "title": "ジョジョの奇妙な冒険",
+    "authors": [
+      "カラスマタスク",
+      "上遠野浩平",
+      "荒木飛呂彦"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "ジョジョの奇妙な冒険 カラスマタスク 上遠野浩平 荒木飛呂彦 集英社",
+    "updatedAt": "2026-03-23T10:36:34.539Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=6LRsEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "6LRsEAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    },
+    "publisher": "集英社",
+    "publishedDate": "2022-06-17",
+    "pageCount": 197
+  },
+  {
+    "id": "gb-jsxLEAAAQBAJ",
+    "title": "ドラゴンクエスト ダイの大冒険",
+    "authors": [
+      "三条陸",
+      "稲田浩司",
+      "堀井雄二"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "ドラゴンクエスト ダイの大冒険 三条陸 稲田浩司 堀井雄二 集英社",
+    "updatedAt": "2026-03-23T10:36:35.354Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=jsxLEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "jsxLEAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    },
+    "publisher": "集英社",
+    "publishedDate": "2021-12-03",
+    "pageCount": 217
+  },
+  {
+    "id": "gb-VowVEQAAQBAJ",
+    "title": "金色のガッシュ!!",
+    "authors": [
+      "雷句誠"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "金色のガッシュ!! 雷句誠 BIRGDIN BOARD Corp.",
+    "updatedAt": "2026-03-23T10:36:36.287Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=VowVEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "VowVEQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    },
+    "publisher": "BIRGDIN BOARD Corp.",
+    "publishedDate": "2024-08-23",
+    "pageCount": 224
+  },
+  {
+    "id": "9784091011893",
+    "title": "犬夜叉",
+    "authors": [
+      "高橋留美子"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "犬夜叉 高橋留美子",
+    "updatedAt": "2026-03-23T10:36:37.128Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=TnaHZwEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "TnaHZwEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    },
+    "publishedDate": "2001-01",
+    "isbn10": "4091011896",
+    "isbn13": "9784091011893",
+    "pageCount": 160
+  },
+  {
+    "id": "gb-WQX4CgAAQBAJ",
+    "title": "烈火の炎",
+    "authors": [
+      "安西信行"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "烈火の炎 安西信行 小学館",
+    "updatedAt": "2026-03-23T10:36:38.041Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=WQX4CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "WQX4CgAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    },
+    "publisher": "小学館",
+    "publishedDate": "1996-01-18",
+    "pageCount": 188
+  },
+  {
+    "id": "gb-gdnGCwAAQBAJ",
+    "title": "BLACK CAT",
+    "authors": [
+      "矢吹健太朗"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "BLACK CAT 矢吹健太朗 集英社",
+    "updatedAt": "2026-03-23T10:36:39.818Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=gdnGCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "gdnGCwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    },
+    "publisher": "集英社",
+    "publishedDate": "2006-02-17",
+    "pageCount": 333
+  },
+  {
+    "id": "gb-YhfFBQAAQBAJ",
+    "title": "魔法先生ネギま！",
+    "authors": [
+      "赤松健"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "魔法先生ネギま！ 赤松健 講談社",
+    "updatedAt": "2026-03-23T10:36:40.695Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=YhfFBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "YhfFBQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    },
+    "publisher": "講談社",
+    "publishedDate": "2008-08-12",
+    "pageCount": 177
+  },
+  {
+    "id": "gb-HNbICwAAQBAJ",
+    "title": "風魔の小次郎",
+    "authors": [
+      "車田正美"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "風魔の小次郎 車田正美 集英社",
+    "updatedAt": "2026-03-23T10:36:41.579Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=HNbICwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "HNbICwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    },
+    "publisher": "集英社",
+    "publishedDate": "1982-08-10",
+    "pageCount": 202
+  },
+  {
+    "id": "gb-2n3aDAAAQBAJ",
+    "title": "覚悟のススメ",
+    "authors": [
+      "山口貴由"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "覚悟のススメ 山口貴由 秋田書店",
+    "updatedAt": "2026-03-23T10:36:43.013Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=2n3aDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "2n3aDAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    },
+    "publisher": "秋田書店",
+    "publishedDate": "1994-07-10",
+    "pageCount": 208
+  },
+  {
+    "id": "gb-D1ZMDwAAQBAJ",
+    "title": "HELLSING",
+    "authors": [
+      "平野耕太"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "HELLSING 平野耕太 少年画報社",
+    "updatedAt": "2026-03-23T10:36:43.898Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=D1ZMDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "D1ZMDwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "battle"
+    },
+    "publisher": "少年画報社",
+    "publishedDate": "2006-07-26",
+    "pageCount": 199
+  },
+  {
+    "id": "gb-dtjLCwAAQBAJ",
+    "title": "テラフォーマーズ",
+    "authors": [
+      "貴家悠",
+      "橘賢一"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "テラフォーマーズ 貴家悠 橘賢一 集英社",
+    "updatedAt": "2026-03-23T10:36:44.736Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=dtjLCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "dtjLCwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "battle"
+    },
+    "publisher": "集英社",
+    "publishedDate": "2012-04-19",
+    "pageCount": 221
+  },
+  {
+    "id": "gb-IVj3EAAAQBAJ",
+    "title": "将国のアルタイル",
+    "authors": [
+      "カトウコトノ"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "将国のアルタイル カトウコトノ 講談社",
+    "updatedAt": "2026-03-23T10:36:45.580Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=IVj3EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "IVj3EAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "battle"
+    },
+    "publisher": "講談社",
+    "publishedDate": "2024-03-08",
+    "pageCount": 204
+  },
+  {
+    "id": "gb-GhnLCwAAQBAJ",
+    "title": "NEEDLESS",
+    "authors": [
+      "今井神"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "NEEDLESS 今井神 集英社",
+    "updatedAt": "2026-03-23T10:36:47.051Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=GhnLCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "GhnLCwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    },
+    "publisher": "集英社",
+    "publishedDate": "2013-09-19",
+    "pageCount": 276
+  },
+  {
+    "id": "gb-bXQyEQAAQBAJ",
+    "title": "CLAYMORE",
+    "authors": [
+      "八木教広"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "CLAYMORE 八木教広 集英社",
+    "updatedAt": "2026-03-23T10:38:42.805Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=bXQyEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "bXQyEQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "battle"
+    },
+    "publisher": "集英社",
+    "pageCount": 188
+  },
+  {
+    "id": "gb-i0aYEAAAQBAJ",
+    "title": "ダーウィンズゲーム",
+    "authors": [
+      "FLIPFLOPs"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "ダーウィンズゲーム FLIPFLOPs 秋田書店",
+    "updatedAt": "2026-03-23T10:38:44.422Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=i0aYEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "i0aYEAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "battle"
+    },
+    "publisher": "秋田書店",
+    "publishedDate": "2022-12-08",
+    "pageCount": 198
+  },
+  {
+    "id": "9784063848533",
+    "title": "神さまの言うとおり",
+    "authors": [
+      "金城宗幸"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "神さまの言うとおり 金城宗幸",
+    "updatedAt": "2026-03-23T10:38:45.353Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=eMpZswEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "eMpZswEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "battle"
+    },
+    "publishedDate": "2013-04",
+    "isbn10": "4063848531",
+    "isbn13": "9784063848533",
+    "pageCount": 185
+  },
+  {
+    "id": "9784253186094",
+    "title": "刃牙道",
+    "authors": [
+      "板垣恵介"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "刃牙道 板垣恵介",
+    "updatedAt": "2026-03-23T10:38:46.946Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=3pJCzgEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "3pJCzgEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "battle"
+    },
+    "publishedDate": "2020-12",
+    "isbn10": "4253186092",
+    "isbn13": "9784253186094",
+    "pageCount": 416
+  },
+  {
+    "id": "gb-lzLIBQAAQBAJ",
+    "title": "修羅の門",
+    "authors": [
+      "川原正敏"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "修羅の門 川原正敏 講談社",
+    "updatedAt": "2026-03-23T10:38:47.833Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=lzLIBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "lzLIBQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "battle"
+    },
+    "publisher": "講談社",
+    "publishedDate": "2011-03-19",
+    "pageCount": 230
+  },
+  {
+    "id": "9784420220040",
+    "title": "コブラ",
+    "authors": [
+      "寺沢武一"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "コブラ 寺沢武一",
+    "updatedAt": "2026-03-23T10:38:48.672Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=pCXpHAAACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "pCXpHAAACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "battle"
+    },
+    "publishedDate": "1994",
+    "isbn10": "442022004X",
+    "isbn13": "9784420220040",
+    "pageCount": 294
+  },
+  {
+    "id": "gb-n8zPEAAAQBAJ",
+    "title": "ドリフターズ",
+    "authors": [
+      "平野耕太"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "ドリフターズ 平野耕太 少年画報社",
+    "updatedAt": "2026-03-23T10:38:49.541Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=n8zPEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "n8zPEAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "battle"
+    },
+    "publisher": "少年画報社",
+    "publishedDate": "2023-08-10",
+    "pageCount": 230
+  },
+  {
+    "id": "gb-d-D1nQEACAAJ",
+    "title": "天上天下",
+    "authors": [
+      "Oh! Great"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "天上天下 Oh! Great",
+    "updatedAt": "2026-03-23T10:38:50.411Z",
+    "language": "zh-CN",
+    "thumbnailUrl": "https://books.google.com/books/content?id=d-D1nQEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "d-D1nQEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "battle"
+    },
+    "publishedDate": "2011",
+    "pageCount": 221
+  },
+  {
+    "id": "gb-enDgnQEACAAJ",
+    "title": "超人ロック",
+    "authors": [
+      "悠紀·聖"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "超人ロック 悠紀·聖",
+    "updatedAt": "2026-03-23T10:38:51.332Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=enDgnQEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "enDgnQEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "battle"
+    },
+    "publishedDate": "1988",
+    "pageCount": 141
+  },
+  {
+    "id": "9784800002396",
+    "title": "戦国妖狐",
+    "authors": [
+      "悟志·水上"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "戦国妖狐 悟志·水上",
+    "updatedAt": "2026-03-23T10:38:52.751Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=6FnjoAEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "6FnjoAEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "battle"
+    },
+    "publishedDate": "2013",
+    "isbn10": "4800002397",
+    "isbn13": "9784800002396",
+    "pageCount": 171
+  },
+  {
+    "id": "9784757534827",
+    "title": "アカメが斬る！",
+    "authors": [
+      "テタ"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "アカメが斬る！ テタ",
+    "updatedAt": "2026-03-23T10:38:54.944Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=-kHGzgEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "-kHGzgEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    },
+    "publishedDate": "2012",
+    "isbn10": "4757534825",
+    "isbn13": "9784757534827",
+    "pageCount": 208
+  },
+  {
+    "id": "gb-0L72CwAAQBAJ",
+    "title": "タイガーマスク",
+    "authors": [
+      "梶原一騎",
+      "辻なおき"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "タイガーマスク 梶原一騎 辻なおき 講談社",
+    "updatedAt": "2026-03-23T10:38:55.893Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=0L72CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "0L72CwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    },
+    "publisher": "講談社",
+    "publishedDate": "1969-05-20",
+    "pageCount": 194
+  },
+  {
+    "id": "gb-UdRaEQAAQBAJ",
+    "title": "うえきの法則",
+    "authors": [
+      "福地翼"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "うえきの法則 福地翼 小学館",
+    "updatedAt": "2026-03-23T10:38:56.763Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=UdRaEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "UdRaEQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    },
+    "publisher": "小学館",
+    "publishedDate": "2025-05-16",
+    "pageCount": 250
+  },
+  {
+    "id": "9784087034592",
+    "title": "ムヒョとロージーの魔法律相談事務所",
+    "authors": [
+      "矢島綾",
+      "西義之"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "ムヒョとロージーの魔法律相談事務所 矢島綾 西義之",
+    "updatedAt": "2026-03-23T10:38:59.346Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=ZSwPugEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "ZSwPugEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    },
+    "publishedDate": "2018-08",
+    "isbn10": "4087034593",
+    "isbn13": "9784087034592",
+    "pageCount": 224
+  },
+  {
+    "id": "9784046823229",
+    "title": "Re:ゼロから始める異世界生活",
+    "authors": [
+      "大塚真一郎"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "Re:ゼロから始める異世界生活 大塚真一郎",
+    "updatedAt": "2026-03-23T10:39:00.189Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=BduizwEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "BduizwEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "battle"
+    },
+    "publishedDate": "2023-03-29",
+    "isbn10": "4046823224",
+    "isbn13": "9784046823229"
+  },
+  {
+    "id": "gb-wZzFDwAAQBAJ",
+    "title": "PandoraHearts",
+    "authors": [
+      "望月淳"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "PandoraHearts 望月淳",
+    "updatedAt": "2026-03-23T10:42:27.659Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=wZzFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "wZzFDwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    }
+  },
+  {
+    "id": "gb-mAfvBQAAQBAJ",
+    "title": "UQ HOLDER！",
+    "authors": [
+      "赤松健"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "UQ HOLDER 赤松健",
+    "updatedAt": "2026-03-23T10:43:01.113Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=mAfvBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "mAfvBQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    }
   }
 ]
