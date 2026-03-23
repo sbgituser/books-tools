@@ -65,6 +65,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.8,
     },
+    {
+      url: `${SITE_URL}/search`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
   ];
 
   const blogRoutes: MetadataRoute.Sitemap = getAllBlogMeta().map((post) => ({
