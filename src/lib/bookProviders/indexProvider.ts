@@ -1,7 +1,8 @@
 import type { Book, SimilarityResult } from "./types";
 import { CATEGORY_TREE, type L1Category, type Category } from "../categories";
+import { amazonProductUrl } from "../site";
 
-// ── 型定義 ───────────────────────────────────────────────────────
+// ââ åå®ç¾© âââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 
 interface BookIndex {
   id: string;
@@ -36,7 +37,7 @@ export type SubcatResult = {
   sampleThumbnails: string[];
 };
 
-// ── ユーティリティ ────────────────────────────────────────────────
+// ââ ã¦ã¼ãã£ãªãã£ ââââââââââââââââââââââââââââââââââââââââââââââââ
 
 function resolveCategoryLabels(ids: string[], cats: Category[]): string[] {
   const labels: string[] = [];
@@ -51,11 +52,9 @@ function resolveCategoryLabels(ids: string[], cats: Category[]): string[] {
 }
 
 function toBook(b: BookIndex, resolvedLabels: string[]): Book {
-  const description = [...(b.subjects ?? []), ...b.keywords.slice(0, 3)].slice(0, 5).join("、");
-  const amazonUrl = b.isbn13
-    ? `https://www.amazon.co.jp/s?k=${b.isbn13}`
-    : `https://www.amazon.co.jp/s?k=${encodeURIComponent(b.title)}`;
-  const safeAuthors = b.authors.length > 0 ? b.authors : ["著者不明"];
+  const description = [...(b.subjects ?? []), ...b.keywords.slice(0, 3)].slice(0, 5).join("ã");
+  const amazonUrl = amazonProductUrl(b.isbn13, b.title);
+  const safeAuthors = b.authors.length > 0 ? b.authors : ["èèä¸æ"];
   const [l2Category, l3Raw, l4Raw] = resolvedLabels;
   const l3Category = l3Raw ?? l2Category;
   const l4Category = l4Raw ?? l3Category ?? l2Category;
@@ -93,13 +92,13 @@ function resolveSubcategories(l1: L1Category, catIds: string[]): Category[] {
   return cats;
 }
 
-// ── L1別インデックス構築（ローカル pathMap）────────────────────────
+// ââ L1å¥ã¤ã³ããã¯ã¹æ§ç¯ï¼ã­ã¼ã«ã« pathMapï¼ââââââââââââââââââââââââ
 
 interface L1Index {
   books: Book[];
   bookById: Map<string, Book>;
   relatedMap: Map<string, string[]>;
-  pathMap: Map<string, Book[]>; // "l2" | "l2:l3" | ... (L1プレフィックスなし)
+  pathMap: Map<string, Book[]>; // "l2" | "l2:l3" | ... (L1ãã¬ãã£ãã¯ã¹ãªã)
 }
 
 function buildPathMap(
@@ -148,7 +147,7 @@ function buildL1Index(l1Id: string, rawBooks: BookIndex[]): L1Index {
   return { books, bookById, relatedMap, pathMap };
 }
 
-// ── IndexProvider ─────────────────────────────────────────────────
+// ââ IndexProvider âââââââââââââââââââââââââââââââââââââââââââââââââ
 
 class IndexProvider {
   private meta: MetaData | null = null;
@@ -178,7 +177,7 @@ class IndexProvider {
     return index;
   }
 
-  // ── L1カテゴリ一覧 ──────────────────────────────────────────────
+  // ââ L1ã«ãã´ãªä¸è¦§ ââââââââââââââââââââââââââââââââââââââââââââââ
 
   async getL1Categories(): Promise<{ l1: L1Category; count: number }[]> {
     const meta = await this.loadMeta();
@@ -188,7 +187,7 @@ class IndexProvider {
       .sort((a, b) => b.count - a.count);
   }
 
-  // ── サブカテゴリ一覧（meta.json のみ使用・高速）─────────────────
+  // ââ ãµãã«ãã´ãªä¸è¦§ï¼meta.json ã®ã¿ä½¿ç¨ã»é«éï¼âââââââââââââââââ
 
   async getSubcategories(l1Id: string, catIds: string[]): Promise<SubcatResult[]> {
     const meta = await this.loadMeta();
@@ -215,7 +214,7 @@ class IndexProvider {
     return results;
   }
 
-  // ── 冊数（meta.json のみ・高速）────────────────────────────────
+  // ââ å°æ°ï¼meta.json ã®ã¿ã»é«éï¼ââââââââââââââââââââââââââââââââ
 
   async getBookCountByPath(l1Id: string, catIds: string[]): Promise<number> {
     const meta = await this.loadMeta();
@@ -223,7 +222,7 @@ class IndexProvider {
     return meta.pathCounts[[l1Id, ...catIds].join(":")] ?? 0;
   }
 
-  // ── 書籍一覧（L1チャンク遅延ロード）──────────────────────────────
+  // ââ æ¸ç±ä¸è¦§ï¼L1ãã£ã³ã¯éå»¶ã­ã¼ãï¼ââââââââââââââââââââââââââââââ
 
   async getBooksByPath(l1Id: string, catIds: string[]): Promise<Book[]> {
     const index = await this.loadL1(l1Id);
@@ -234,7 +233,7 @@ class IndexProvider {
     return [...books].sort((a, b) => a.title.localeCompare(b.title, "ja"));
   }
 
-  // ── 類似本（クロスL1対応）────────────────────────────────────────
+  // ââ é¡ä¼¼æ¬ï¼ã¯ã­ã¹L1å¯¾å¿ï¼ââââââââââââââââââââââââââââââââââââââââ
 
   async getSimilarBooks(bookId: string): Promise<SimilarityResult[]> {
     const [bookL1] = await Promise.all([this.loadBookL1()]);
@@ -249,7 +248,7 @@ class IndexProvider {
     const sourceAuthors = new Set(source.author.split(" / ").map(a => a.trim()));
     const relatedIds = sourceIndex.relatedMap.get(bookId) ?? [];
 
-    // 必要な L1 チャンクをまとめてロード
+    // å¿è¦ãª L1 ãã£ã³ã¯ãã¾ã¨ãã¦ã­ã¼ã
     const neededL1s = new Set(relatedIds.map(id => bookL1[id]).filter(Boolean));
     await Promise.all([...neededL1s].map(id => this.loadL1(id)));
 
@@ -262,10 +261,10 @@ class IndexProvider {
         const reasons: string[] = [];
         const bookAuthors = book.author.split(" / ").map(a => a.trim());
         const sharedAuthors = bookAuthors.filter(a => sourceAuthors.has(a));
-        if (sharedAuthors.length > 0) reasons.push("同著者");
+        if (sharedAuthors.length > 0) reasons.push("åèè");
         if (book.category === source.category) reasons.push(book.category);
         const shared = book.tags.filter(t => sourceTags.has(t));
-        if (shared.length > 0) reasons.push(shared.slice(0, 2).join("・"));
+        if (shared.length > 0) reasons.push(shared.slice(0, 2).join("ã»"));
 
         return { book, score: 1, reasons: reasons.slice(0, 3) };
       })
