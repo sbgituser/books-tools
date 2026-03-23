@@ -29948,5 +29948,61 @@
     "publishedDate": "2022-03-25",
     "isbn10": "4832273558",
     "isbn13": "9784832273559"
+  },
+  {
+    "id": "gb-EKDMCwAAQBAJ",
+    "title": "セクシーコマンドー外伝 すごいよ!!マサルさん",
+    "authors": [
+      "うすた京介"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "セクシーコマンドー外伝 すごいよ!!マサルさん うすた京介 集英社",
+    "updatedAt": "2026-03-23T10:32:16.971Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=EKDMCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "EKDMCwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "gag"
+    },
+    "publisher": "集英社",
+    "publishedDate": "1996-12-02",
+    "pageCount": 184
+  },
+  {
+    "id": "gb-kvTJCwAAQBAJ",
+    "title": "ピューと吹く！ジャガー",
+    "authors": [
+      "うすた京介"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "ピューと吹く！ジャガー うすた京介 集英社",
+    "updatedAt": "2026-03-23T10:32:18.033Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=kvTJCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "kvTJCwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "gag"
+    },
+    "publisher": "集英社",
+    "publishedDate": "2003-12-04",
+    "pageCount": 180
   }
 ]
