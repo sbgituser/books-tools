@@ -1,3 +1,1 @@
-# Google AdSense ads.txt
-# AdSense承認後、下記のコメントを外してパブリッシャーIDを設定してください。
-# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+google.com, pub-8412407485609118, DIRECT, f08c47fec0942fa0

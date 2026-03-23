@@ -14,8 +14,7 @@
 // AdSense が有効化されるまで false に設定
 const ADSENSE_ENABLED = false;
 
-// AdSense承認後に取得するパブリッシャーID
-// const ADSENSE_CLIENT = "ca-pub-XXXXXXXXXXXXXXXX";
+const ADSENSE_CLIENT = "ca-pub-8412407485609118";
 
 interface Props {
   /** AdSense広告ユニットのスロットID */
@@ -37,6 +36,7 @@ export default function AdSlot({ slot, format = "auto", className = "" }: Props)
       <ins
         className="adsbygoogle"
         style={{ display: "block" }}
+        data-ad-client={ADSENSE_CLIENT}
         data-ad-format={format}
         data-ad-slot={slot}
         data-full-width-responsive="true"
