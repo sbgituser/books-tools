@@ -481,6 +481,692 @@ export const MEDIA_ORIGINALS: MediaOriginalItem[] = [
       "アニメ制作・創作に興味がある人。青春と情熱を描いた作品が好きな人。",
   },
 
+  // ── 2000年代 ────────────────────────────────────────────────────
+
+  {
+    id: "hana-yori-dango",
+    mediaTitle: "花より男子",
+    mediaType: "drama",
+    mediaYear: 2005,
+    originalExists: true,
+    originalTitle: "花より男子",
+    originalAuthor: "神尾葉子",
+    originalType: "manga",
+    adaptationLabel: "テレビドラマ化",
+    description:
+      "平凡な少女が花の御堂4グループ（F4）と衝突するラブストーリー。TBS系。松本潤・井上真央主演。アジア全域でリメイクされた人気漫画原作。",
+    searchAliases: ["神尾葉子", "F4", "道明寺", "つくし", "ハナダン"],
+    adaptationNotes:
+      "ドラマは原作の長大なストーリーを大幅に圧縮。原作漫画は全36巻で、ドラマで描かれないエピソードや登場人物が多数ある。",
+    recommendedFor:
+      "ドラマで恋愛展開にドキドキした人。王道少女漫画の原点を体験したい人。",
+    workId: "1v5wh1g",
+  },
+  {
+    id: "rookies-drama",
+    mediaTitle: "ROOKIES",
+    mediaType: "drama",
+    mediaYear: 2008,
+    originalExists: true,
+    originalTitle: "ROOKIES",
+    originalAuthor: "森田まさのり",
+    originalType: "manga",
+    adaptationLabel: "テレビドラマ化",
+    description:
+      "問題校の野球部を立て直す熱血教師の物語。TBS系。佐藤隆太主演。甲子園を目指す高校生の青春を描く。週刊少年ジャンプ連載漫画が原作。",
+    searchAliases: ["森田まさのり", "ルーキーズ", "甲子園", "川藤"],
+    adaptationNotes:
+      "ドラマは原作の前半〜中盤を主に映像化。漫画は全24巻で、甲子園出場後の展開もしっかり描かれている。",
+    recommendedFor:
+      "ドラマで青春の熱さに感動した人。師弟関係と不良の更生をテーマにした漫画が好きな人。",
+    workId: "0hy0c7e",
+  },
+  {
+    id: "hachi-kuro-anime",
+    mediaTitle: "ハチミツとクローバー",
+    mediaType: "anime",
+    mediaYear: 2005,
+    originalExists: true,
+    originalTitle: "ハチミツとクローバー",
+    originalAuthor: "羽海野チカ",
+    originalType: "manga",
+    adaptationLabel: "アニメ化",
+    description:
+      "美大生たちの青春と恋愛と挫折を描く群像劇。J.C.STAFF制作。ヤングユーコミックス連載。後に実写映画化・実写ドラマ化も。",
+    searchAliases: ["羽海野チカ", "ハチクロ", "竹本", "花本"],
+    adaptationNotes:
+      "アニメは原作の雰囲気をよく再現。漫画は全10巻で、アニメよりも内面描写が丁寧で余韻が深い。",
+    recommendedFor:
+      "アニメで芸術・青春・一方通行の恋のテーマに共感した人。3月のライオンも好きな人。",
+    workId: "1136xxp",
+  },
+  {
+    id: "nana-anime",
+    mediaTitle: "NANA",
+    mediaType: "anime",
+    mediaYear: 2006,
+    originalExists: true,
+    originalTitle: "NANA",
+    originalAuthor: "矢沢あい",
+    originalType: "manga",
+    adaptationLabel: "アニメ化",
+    description:
+      "同じ名前の対照的な二人の「ナナ」の友情と恋愛を描く人気少女漫画のアニメ版。マッドハウス制作。Cookies連載。",
+    searchAliases: ["矢沢あい", "ナナ", "ブラスト", "大崎ナナ", "小松奈々"],
+    adaptationNotes:
+      "アニメは原作の連載中断までの内容を丁寧に映像化。漫画は2009年から休載中のため、物語の続きはアニメでも未完。",
+    recommendedFor:
+      "アニメで二人のナナの友情に感動した人。音楽と恋愛と友情をテーマにした少女漫画が好きな人。",
+    workId: "0xg4crk",
+  },
+  {
+    id: "kimi-ni-todoke-anime",
+    mediaTitle: "君に届け",
+    mediaType: "anime",
+    mediaYear: 2009,
+    originalExists: true,
+    originalTitle: "君に届け",
+    originalAuthor: "椎名軽穂",
+    originalType: "manga",
+    adaptationLabel: "アニメ化",
+    description:
+      "陰気と思われていた少女・爽子と人気者・風早の純粋な恋愛を描く少女漫画のアニメ版。Production I.G制作。週刊別マーガレット連載。",
+    searchAliases: ["椎名軽穂", "爽子", "風早", "くらのすけ"],
+    adaptationNotes:
+      "アニメは原作の序盤〜中盤を映像化。漫画全30巻で描かれる二人の関係の進展はアニメよりもはるかに長い。",
+    recommendedFor:
+      "アニメで純粋な恋愛模様に癒された人。不器用な女の子が成長する王道少女漫画が好きな人。",
+    workId: "1d6gduo",
+  },
+  {
+    id: "fma-brotherhood",
+    mediaTitle: "鋼の錬金術師 BROTHERHOOD",
+    mediaType: "anime",
+    mediaYear: 2009,
+    originalExists: true,
+    originalTitle: "鋼の錬金術師",
+    originalAuthor: "荒川弘",
+    originalType: "manga",
+    adaptationLabel: "アニメ化（完全版）",
+    description:
+      "錬金術師の兄弟が「賢者の石」を求めて旅する壮大な冒険物語。BONES制作。月刊少年ガンガン連載原作を完全映像化。",
+    searchAliases: ["荒川弘", "エドワード", "アルフォンス", "錬金術師", "FMA"],
+    adaptationNotes:
+      "BROTHERHOODは2003年版と異なり、原作漫画全27巻を忠実に映像化。アニメ史に残る高完成度の作品。原作漫画は伏線の密度と戦略的な戦闘描写が特徴。",
+    recommendedFor:
+      "アニメの完成度の高い物語に感動した人。「等価交換」「人間の傲慢さ」というテーマを原作で深く味わいたい人。",
+    workId: "0zref9t",
+  },
+  {
+    id: "naruto-anime",
+    mediaTitle: "NARUTO -ナルト-",
+    mediaType: "anime",
+    mediaYear: 2002,
+    originalExists: true,
+    originalTitle: "NARUTO",
+    originalAuthor: "岸本斉史",
+    originalType: "manga",
+    adaptationLabel: "アニメ化",
+    description:
+      "忍者の里の落ちこぼれ少年・ナルトが火影を目指す忍者アクション。スタジオぴえろ制作。週刊少年ジャンプ連載。世界累計2.5億部超。",
+    searchAliases: ["岸本斉史", "ナルト", "サスケ", "忍者", "忍里"],
+    adaptationNotes:
+      "アニメはオリジナルエピソード（アニオリ）が多数挿入されているため、原作漫画のほうがテンポよく読める。漫画全72巻。",
+    recommendedFor:
+      "アニメで忍者の熱い展開が好きだった人。成長・友情・裏切りのテーマを原作で追いたい人。",
+    workId: "17otkk9",
+  },
+  {
+    id: "bleach-anime",
+    mediaTitle: "BLEACH",
+    mediaType: "anime",
+    mediaYear: 2004,
+    originalExists: true,
+    originalTitle: "BLEACH",
+    originalAuthor: "久保帯人",
+    originalType: "manga",
+    adaptationLabel: "アニメ化",
+    description:
+      "死神代行として戦う高校生・一護の物語。スタジオぴえろ制作。週刊少年ジャンプ連載。2022年に「千年血戦篇」がアニメ化され大きな話題に。",
+    searchAliases: ["久保帯人", "一護", "ルキア", "死神", "卍解"],
+    adaptationNotes:
+      "2022年の千年血戦篇アニメは高クオリティで旧来ファンを驚かせた。原作漫画全74巻は斬新なデザインと独自の世界観が特徴。",
+    recommendedFor:
+      "千年血戦篇アニメで感動した人。死神と虚の壮大な世界観を原作で読みたい人。",
+    workId: "0xf2b4f",
+  },
+  {
+    id: "pinpon-movie",
+    mediaTitle: "ピンポン",
+    mediaType: "movie",
+    mediaYear: 2002,
+    originalExists: true,
+    originalTitle: "ピンポン",
+    originalAuthor: "松本大洋",
+    originalType: "manga",
+    adaptationLabel: "映画化",
+    description:
+      "卓球の天才少年と凡才少年の青春を描く実写映画。窪塚洋介・ARATA主演。2014年にはアニメ版も制作された人気漫画が原作。",
+    searchAliases: ["松本大洋", "ペコ", "スマイル", "卓球"],
+    adaptationNotes:
+      "映画は原作の雰囲気を見事に再現した名作として評価が高い。漫画全5巻は映画よりも内面描写と哲学的テーマが深く、短編として完成度が高い。",
+    recommendedFor:
+      "映画の疾走感と映像美が忘れられない人。才能・友情・アイデンティティをテーマにした漫画が好きな人。",
+    workId: "1xytg7s",
+  },
+
+  // ── 2010年代前半 ─────────────────────────────────────────────────
+
+  {
+    id: "thermae-romae",
+    mediaTitle: "テルマエ・ロマエ",
+    mediaType: "movie",
+    mediaYear: 2012,
+    originalExists: true,
+    originalTitle: "テルマエ・ロマエ",
+    originalAuthor: "ヤマザキマリ",
+    originalType: "manga",
+    adaptationLabel: "映画化",
+    description:
+      "古代ローマの建築家が現代日本の風呂文化にタイムスリップするコメディ。阿部寛主演。興収59億円の大ヒット。月刊コミックビーム連載漫画が原作。",
+    searchAliases: ["ヤマザキマリ", "ルシウス", "ローマ", "お風呂"],
+    adaptationNotes:
+      "映画は原作のユーモアをよく再現。漫画全6巻はローマ史の考証が丁寧で、映画よりもルシウスの葛藤と文化的考察が深い。",
+    recommendedFor:
+      "映画で笑いと感動を味わった人。ローマ史や浴場文化に興味がある人。",
+  },
+  {
+    id: "uchu-kyodai",
+    mediaTitle: "宇宙兄弟",
+    mediaType: "movie",
+    mediaYear: 2012,
+    originalExists: true,
+    originalTitle: "宇宙兄弟",
+    originalAuthor: "小山宙哉",
+    originalType: "manga",
+    adaptationLabel: "映画化",
+    description:
+      "幼い頃宇宙飛行士を夢見た兄弟の物語。小栗旬・岡田将生主演。同年アニメも放送。NASAやJAXAが監修した精密なリアリズムが特徴。",
+    searchAliases: ["小山宙哉", "南波六太", "日々人", "宇宙飛行士", "NASA"],
+    adaptationNotes:
+      "映画は原作の序盤を1本に凝縮。漫画は長期連載中で宇宙開発の最前線と人間ドラマを丁寧に積み重ねており、映画よりはるかに深い。",
+    recommendedFor:
+      "映画で夢を追い続けることに勇気をもらった人。宇宙・科学好きが人間ドラマも楽しみたい場合。",
+    workId: "1vgzl4a",
+  },
+  {
+    id: "jojo-anime",
+    mediaTitle: "ジョジョの奇妙な冒険",
+    mediaType: "anime",
+    mediaYear: 2012,
+    originalExists: true,
+    originalTitle: "ジョジョの奇妙な冒険",
+    originalAuthor: "荒木飛呂彦",
+    originalType: "manga",
+    adaptationLabel: "アニメ化",
+    description:
+      "ジョースター家と宿敵ディオの因縁を描く壮大な冒険物語。david production制作。週刊少年ジャンプ→ウルトラジャンプ連載。全8部が映像化。",
+    searchAliases: ["荒木飛呂彦", "ジョジョ", "ディオ", "スタンド", "波紋"],
+    adaptationNotes:
+      "アニメは各部ごとに高クオリティで映像化。原作漫画は部によって主人公・時代・世界観が大きく変わる独特の構成が魅力。",
+    recommendedFor:
+      "アニメで荒木ワールドのセンスに魅了された人。バトルの演出と独特のファッションセンスが好きな人。",
+  },
+  {
+    id: "funa-o-amu",
+    mediaTitle: "舟を編む",
+    mediaType: "movie",
+    mediaYear: 2013,
+    originalExists: true,
+    originalTitle: "舟を編む",
+    originalAuthor: "三浦しをん",
+    originalType: "novel",
+    adaptationLabel: "映画化",
+    description:
+      "辞書編集者たちの15年にわたる奮闘を描く文学映画。松田龍平主演。本屋大賞受賞の原作小説。2013年には辞書作りの熱量が話題に。",
+    searchAliases: ["三浦しをん", "辞書", "大渡海", "馬締"],
+    adaptationNotes:
+      "映画は原作の静かな情緒をよく再現。原作小説はより豊かな言葉の描写と、言葉に向き合う人々の内面が丁寧に書かれている。",
+    recommendedFor:
+      "映画で言葉・日本語・辞書というテーマに興味を持った人。静かで深い文学作品を読みたい人。",
+    workId: "0zz63zd",
+  },
+  {
+    id: "eien-no-zero",
+    mediaTitle: "永遠の0",
+    mediaType: "movie",
+    mediaYear: 2013,
+    originalExists: true,
+    originalTitle: "永遠の0",
+    originalAuthor: "百田尚樹",
+    originalType: "novel",
+    adaptationLabel: "映画化",
+    description:
+      "特攻隊員だった祖父の真実を孫が追う戦争ドラマ。岡田准一主演。国内興収87億円超の大ヒット。本屋大賞受賞の累計700万部超の原作小説。",
+    searchAliases: ["百田尚樹", "宮部久蔵", "特攻隊", "ゼロ戦"],
+    adaptationNotes:
+      "映画は原作の主要な場面を丁寧に映像化。原作小説はより複数の視点からの証言形式で、戦争の悲惨さと人間の葛藤がより深く伝わる。",
+    recommendedFor:
+      "映画で日本の戦争と家族愛のテーマに感動した人。歴史小説・戦争文学に入門したい人。",
+  },
+  {
+    id: "parasyte-anime",
+    mediaTitle: "寄生獣 セイの格率",
+    mediaType: "anime",
+    mediaYear: 2014,
+    originalExists: true,
+    originalTitle: "寄生獣",
+    originalAuthor: "岩明均",
+    originalType: "manga",
+    adaptationLabel: "アニメ化",
+    description:
+      "地球外生命体・パラサイトに侵食される世界で人間と共存する少年の物語。マッドハウス制作。1990年連載の傑作をフルリメイク。実写映画も同年公開。",
+    searchAliases: ["岩明均", "新一", "ミギー", "パラサイト"],
+    adaptationNotes:
+      "アニメは原作漫画（全10巻）をほぼ忠実に映像化。漫画は白黒の荒削りな画風が独特の緊張感を生んでおり、アニメとは異なる質感が楽しめる。",
+    recommendedFor:
+      "アニメで「人間とは何か」というテーマに引き込まれた人。SFホラーとヒューマンドラマが好きな人。",
+  },
+  {
+    id: "tokyo-ghoul-anime",
+    mediaTitle: "東京喰種",
+    mediaType: "anime",
+    mediaYear: 2014,
+    originalExists: true,
+    originalTitle: "東京喰種トーキョーグール",
+    originalAuthor: "石田スイ",
+    originalType: "manga",
+    adaptationLabel: "アニメ化",
+    description:
+      "人肉を食う「喰種」と人間の境界で生きる青年を描くダークファンタジー。スタジオぴえろ制作。週刊ヤングジャンプ連載。",
+    searchAliases: ["石田スイ", "金木研", "カネキ", "グール"],
+    adaptationNotes:
+      "アニメは原作を大幅に改変・圧縮しており、特にルート（√A）以降は別の展開をたどる。原作漫画（全14巻）を読むとより整合性のある深い物語が理解できる。",
+    recommendedFor:
+      "アニメで世界観に引き込まれた人。原作でアニメとの違いを確かめたい人。人間とモンスターの境界をテーマにした作品が好きな人。",
+  },
+  {
+    id: "haikyuu-anime",
+    mediaTitle: "ハイキュー!!",
+    mediaType: "anime",
+    mediaYear: 2014,
+    originalExists: true,
+    originalTitle: "ハイキュー!!",
+    originalAuthor: "古舘春一",
+    originalType: "manga",
+    adaptationLabel: "アニメ化",
+    description:
+      "高校バレーを舞台に全国制覇を目指す少年たちの物語。Production I.G制作。週刊少年ジャンプ連載。国内外で絶大な人気を誇る。",
+    searchAliases: ["古舘春一", "日向翔陽", "影山飛雄", "烏野高校", "バレーボール"],
+    adaptationNotes:
+      "アニメは原作に忠実で映像・音楽のクオリティが高く評価される。漫画は全45巻で完結しており、全国大会の決勝まで描かれている。2024年には劇場版も公開。",
+    recommendedFor:
+      "アニメで試合の熱さに感動した人。スポーツ漫画でチームワークと成長のテーマが好きな人。",
+    workId: "1d7xco7",
+  },
+  {
+    id: "shigatsu-wa-kimi-anime",
+    mediaTitle: "四月は君の嘘",
+    mediaType: "anime",
+    mediaYear: 2014,
+    originalExists: true,
+    originalTitle: "四月は君の嘘",
+    originalAuthor: "新川直司",
+    originalType: "manga",
+    adaptationLabel: "アニメ化",
+    description:
+      "ピアノの天才少年と自由奔放なバイオリニストの出会いと別れを描く青春音楽アニメ。A-1 Pictures制作。月刊少年マガジン連載。",
+    searchAliases: ["新川直司", "有馬公生", "宮園かをり", "ピアノ", "バイオリン"],
+    adaptationNotes:
+      "アニメは原作全11巻をほぼ忠実に映像化。音楽の演奏シーンが特に高く評価される。漫画は音楽描写と心理描写が繊細で、涙なしには読めない。",
+    recommendedFor:
+      "アニメで音楽と感動の物語に引き込まれた人。青春・音楽・死と再生のテーマが好きな人。",
+    workId: "0h9zmq9",
+  },
+  {
+    id: "umi-machi-diary",
+    mediaTitle: "海街diary",
+    mediaType: "movie",
+    mediaYear: 2015,
+    originalExists: true,
+    originalTitle: "海街diary",
+    originalAuthor: "吉田秋生",
+    originalType: "manga",
+    adaptationLabel: "映画化",
+    description:
+      "鎌倉を舞台に4姉妹の日常を描く是枝裕和監督の人間ドラマ。綾瀬はるか・長澤まさみ・夏帆・広瀬すず主演。カンヌ国際映画祭コンペティション選出。",
+    searchAliases: ["吉田秋生", "鎌倉", "4姉妹", "すず", "是枝裕和"],
+    adaptationNotes:
+      "映画は原作漫画の序盤をほぼ忠実に映像化。漫画は全9巻で、映画後の4姉妹のさらなる変化と鎌倉の四季が丁寧に描かれる。",
+    recommendedFor:
+      "映画で静かな感動を覚えた人。家族・姉妹・日常の美しさを描いた作品が好きな人。",
+  },
+  {
+    id: "bakuman-movie",
+    mediaTitle: "バクマン。",
+    mediaType: "movie",
+    mediaYear: 2015,
+    originalExists: true,
+    originalTitle: "バクマン。",
+    originalAuthor: "大場つぐみ・小畑健",
+    originalType: "manga",
+    adaptationLabel: "映画化",
+    description:
+      "漫画家を目指す二人の少年の青春を描く実写映画。佐藤健・神木隆之介主演。「週刊少年ジャンプ」の世界を内側から描いた原作漫画。",
+    searchAliases: ["大場つぐみ", "小畑健", "亜城木夢叶", "漫画家", "ジャンプ"],
+    adaptationNotes:
+      "映画はミュージカル的演出で原作を大胆に再構成。漫画全20巻はジャンプの仕組みや連載の過酷さをリアルに描いており、漫画好きに刺さる内容。",
+    recommendedFor:
+      "映画の熱い創作バトルに興奮した人。漫画家・創作の世界を深く知りたい人。",
+    workId: "1hmxear",
+  },
+  {
+    id: "ansatsu-kyoshitsu-movie",
+    mediaTitle: "暗殺教室",
+    mediaType: "movie",
+    mediaYear: 2015,
+    originalExists: true,
+    originalTitle: "暗殺教室",
+    originalAuthor: "松井優征",
+    originalType: "manga",
+    adaptationLabel: "映画化",
+    description:
+      "月を破壊した謎の生物を教師として「暗殺」する中学生たちの物語。山田涼介・二宮和也主演。週刊少年ジャンプ連載漫画の実写映画化。",
+    searchAliases: ["松井優征", "殺せんせー", "渚", "業", "E組"],
+    adaptationNotes:
+      "映画は原作序盤のアークを中心に構成。漫画全21巻は各キャラクターの成長と終盤の感動的な結末まで描かれており、映画では味わえない深みがある。",
+    recommendedFor:
+      "映画で殺せんせーとE組の絆に感動した人。笑いと感動が共存する漫画を読みたい人。",
+    workId: "05mqcs1",
+  },
+  {
+    id: "rurouni-kenshin-movie",
+    mediaTitle: "るろうに剣心",
+    mediaType: "movie",
+    mediaYear: 2012,
+    originalExists: true,
+    originalTitle: "るろうに剣心",
+    originalAuthor: "和月伸宏",
+    originalType: "manga",
+    adaptationLabel: "映画化",
+    description:
+      "明治時代の不殺の剣客・緋村剣心の物語。佐藤健主演。実写化困難とされた人気漫画の映像化に成功し、シリーズ5作で興収200億円超。",
+    searchAliases: ["和月伸宏", "剣心", "緋村剣心", "薫", "志志雄"],
+    adaptationNotes:
+      "映画は原作の主要アーク（東京編・京都編・人誅編）をシリーズで映像化。漫画全28巻はキャラクターの背景や剣術の描写がより詳細。",
+    recommendedFor:
+      "映画のアクションと時代劇の世界観が好きな人。明治維新の歴史と剣の哲学を漫画で楽しみたい人。",
+    workId: "0fcv3n3",
+  },
+  {
+    id: "boku-no-hero-anime",
+    mediaTitle: "僕のヒーローアカデミア",
+    mediaType: "anime",
+    mediaYear: 2016,
+    originalExists: true,
+    originalTitle: "僕のヒーローアカデミア",
+    originalAuthor: "堀越耕平",
+    originalType: "manga",
+    adaptationLabel: "アニメ化",
+    description:
+      "個性（超能力）を持たない少年が最強ヒーローを目指すアクション。BONES制作。週刊少年ジャンプ連載。世界190カ国以上で配信される国際的ヒット作。",
+    searchAliases: ["堀越耕平", "緑谷出久", "デク", "オールマイト", "ヒロアカ"],
+    adaptationNotes:
+      "アニメは原作に概ね忠実。漫画は完結しており、ヒーロー社会の崩壊と再建という壮大なエンディングまで描かれている（アニメはほぼ完結）。",
+    recommendedFor:
+      "アニメで「自分を超えていく」成長ドラマが好きな人。アメコミ風のヒーロー漫画が好きな人。",
+    workId: "032sc3q",
+  },
+  {
+    id: "konosuba-anime",
+    mediaTitle: "この素晴らしい世界に祝福を！",
+    mediaType: "anime",
+    mediaYear: 2016,
+    originalExists: true,
+    originalTitle: "この素晴らしい世界に祝福を！",
+    originalAuthor: "暁なつめ",
+    originalType: "novel",
+    adaptationLabel: "アニメ化",
+    description:
+      "異世界転生したダメ人間と個性豊かな仲間たちのコメディ。Studio DEEN制作。「なろう系」の元祖として知られるライトノベル原作。",
+    searchAliases: ["暁なつめ", "カズマ", "アクア", "めぐみん", "ダクネス", "コノスバ"],
+    adaptationNotes:
+      "アニメはコメディのテンポが非常に良く、原作の笑いをうまく映像化。ライトノベル原作は17巻で完結しており、アニメよりさらに多くのエピソードが読める。",
+    recommendedFor:
+      "アニメでゆるいコメディに笑い転げた人。異世界転生ジャンルでコメディ寄りの作品が好きな人。",
+    workId: "1r4zopm",
+  },
+
+  // ── 2010年代後半 ────────────────────────────────────────────────
+
+  {
+    id: "march-lion-movie",
+    mediaTitle: "3月のライオン",
+    mediaType: "movie",
+    mediaYear: 2017,
+    originalExists: true,
+    originalTitle: "3月のライオン",
+    originalAuthor: "羽海野チカ",
+    originalType: "manga",
+    adaptationLabel: "映画化",
+    description:
+      "孤独な天才将棋棋士・桐山零の成長と人との絆を描く実写映画。神木隆之介主演。前後編2作。月刊ヤングアニマル連載の人気漫画が原作。",
+    searchAliases: ["羽海野チカ", "桐山零", "将棋", "川本", "三月のライオン"],
+    adaptationNotes:
+      "映画は原作の前半のエッセンスをうまく2本に凝縮。漫画は将棋の世界の奥深さとキャラクターの感情の細やかさが映画よりさらに豊か。",
+    recommendedFor:
+      "映画で孤独と再生のテーマに感動した人。将棋・家族・癒しをテーマにした漫画が好きな人。",
+    workId: "0le0pd2",
+  },
+  {
+    id: "okotoko",
+    mediaTitle: "億男",
+    mediaType: "movie",
+    mediaYear: 2018,
+    originalExists: true,
+    originalTitle: "億男",
+    originalAuthor: "川村元気",
+    originalType: "novel",
+    adaptationLabel: "映画化",
+    description:
+      "宝くじで3億円を当てた男が幸福とお金の意味を問う物語。佐藤健・高橋一生主演。「君の名は。」プロデューサー・川村元気の小説が原作。",
+    searchAliases: ["川村元気", "お金", "幸福", "一男"],
+    adaptationNotes:
+      "映画は原作の構成をよく再現。小説は哲学的な問いをより深く掘り下げており、各章の仕掛けも読みどころ。",
+    recommendedFor:
+      "映画で「お金と幸せ」の問いに考えさせられた人。川村元気ファンや軽妙なエンタメ小説が好きな人。",
+  },
+  {
+    id: "tenki-danran-iken",
+    mediaTitle: "転生したらスライムだった件",
+    mediaType: "anime",
+    mediaYear: 2018,
+    originalExists: true,
+    originalTitle: "転生したらスライムだった件",
+    originalAuthor: "伏瀬",
+    originalType: "novel",
+    adaptationLabel: "アニメ化",
+    description:
+      "転生してスライムになった主人公がどんどん進化する異世界ファンタジー。8bit制作。「小説家になろう」発の人気ライトノベルシリーズ原作。",
+    searchAliases: ["伏瀬", "リムル", "スライム", "テンスラ", "大賢者"],
+    adaptationNotes:
+      "アニメは原作のアニメ化に成功したが、原作小説（全25巻完結）のほうが世界観の設定と内面描写が圧倒的に詳細。",
+    recommendedFor:
+      "アニメで無双系異世界ファンタジーの爽快感が好きな人。国家経営系ストーリーが好きな人。",
+    workId: "1aakpum",
+  },
+  {
+    id: "masquerade-hotel",
+    mediaTitle: "マスカレード・ホテル",
+    mediaType: "movie",
+    mediaYear: 2019,
+    originalExists: true,
+    originalTitle: "マスカレード・ホテル",
+    originalAuthor: "東野圭吾",
+    originalType: "novel",
+    adaptationLabel: "映画化",
+    description:
+      "ホテルに潜入捜査する刑事とフロントクラーク女性の連続殺人事件捜査。木村拓哉・長澤まさみ主演。東野圭吾の人気シリーズ小説が原作。",
+    searchAliases: ["東野圭吾", "マスカレード", "新田", "山岸"],
+    adaptationNotes:
+      "映画は原作のホテルという密閉空間での謎解きをよく再現。原作は伏線の精密さとホテルの描写がより詳細。",
+    recommendedFor:
+      "映画で優雅な謎解きに引き込まれた人。東野圭吾ミステリーの優雅な世界観が好きな人。",
+    workId: "069g6xa",
+  },
+  {
+    id: "mitsubachi-to-enrai",
+    mediaTitle: "蜜蜂と遠雷",
+    mediaType: "movie",
+    mediaYear: 2019,
+    originalExists: true,
+    originalTitle: "蜜蜂と遠雷",
+    originalAuthor: "恩田陸",
+    originalType: "novel",
+    adaptationLabel: "映画化",
+    description:
+      "国際ピアノコンクールを舞台に4人のピアニストの戦いと内面を描く音楽ドラマ。松岡茉優・松坂桃李主演。直木賞・本屋大賞W受賞の原作小説。",
+    searchAliases: ["恩田陸", "コンクール", "栄伝亜夜", "高島明石", "マサル"],
+    adaptationNotes:
+      "映画は映像と音楽で原作の世界観を再現。原作小説（上下巻）はより濃密な心理描写と音楽描写で、各ピアニストの内面と演奏が言葉で丁寧に表現されている。",
+    recommendedFor:
+      "映画で音楽と才能のテーマに感動した人。クラシック音楽が好きな人。文学作品として深い読書体験をしたい人。",
+    workId: "0mbk7f7",
+  },
+  {
+    id: "mushoku-tensei-anime",
+    mediaTitle: "無職転生 〜異世界行ったら本気だす〜",
+    mediaType: "anime",
+    mediaYear: 2021,
+    originalExists: true,
+    originalTitle: "無職転生 〜異世界行ったら本気だす〜",
+    originalAuthor: "理不尽な孫の手",
+    originalType: "novel",
+    adaptationLabel: "アニメ化",
+    description:
+      "人生をやり直した引きこもりが異世界で真剣に生きるファンタジー。スタジオバインド制作。「なろう系」ライトノベルの最高峰と称される作品。",
+    searchAliases: ["理不尽な孫の手", "ルーデウス", "シルフィ", "無職転生"],
+    adaptationNotes:
+      "アニメの作画クオリティが高く評価されている。原作小説（全26巻完結）は心理描写と世界設定の緻密さが際立っており、アニメより深い没入感がある。",
+    recommendedFor:
+      "アニメで異世界ファンタジーの丁寧な世界観に惹かれた人。人生やり直し・成長テーマが好きな人。",
+    workId: "00ge48i",
+  },
+  {
+    id: "tsumi-no-koe",
+    mediaTitle: "罪の声",
+    mediaType: "movie",
+    mediaYear: 2020,
+    originalExists: true,
+    originalTitle: "罪の声",
+    originalAuthor: "塩田武士",
+    originalType: "novel",
+    adaptationLabel: "映画化",
+    description:
+      "昭和最大の未解決事件「グリコ・森永事件」を題材にした社会派ミステリー。小栗旬・星野源主演。著者・塩田武士による徹底取材を基にした小説。",
+    searchAliases: ["塩田武士", "グリコ森永事件", "曽根俊也", "阿久津英士"],
+    adaptationNotes:
+      "映画は原作のエッセンスをよく凝縮。原作小説はジャーナリズムと家族の痛みを二軸で丁寧に描いており、映画より事件の詳細と登場人物の葛藤が深く描かれる。",
+    recommendedFor:
+      "映画で昭和の未解決事件ミステリーに引き込まれた人。実際の事件を基にした社会派小説が好きな人。",
+  },
+  {
+    id: "drive-my-car",
+    mediaTitle: "ドライブ・マイ・カー",
+    mediaType: "movie",
+    mediaYear: 2021,
+    originalExists: true,
+    originalTitle: "ドライブ・マイ・カー",
+    originalAuthor: "村上春樹",
+    originalType: "novel",
+    adaptationLabel: "映画化",
+    description:
+      "妻を失った舞台俳優と寡黙なドライバーの旅を描く濱口竜介監督作品。西島秀俊主演。アカデミー賞国際長編映画賞受賞。原作は短編小説集収録作品。",
+    searchAliases: ["村上春樹", "濱口竜介", "家福悠介", "チェーホフ", "女のいない男たち"],
+    adaptationNotes:
+      "映画は約3時間の大作で原作の世界を大幅に拡張・映像化。原作は「女のいない男たち」に収録の短編で、映画とは異なる凝縮された文体で読める。",
+    recommendedFor:
+      "映画の静かで深い余韻が忘れられない人。村上春樹の原作短編と映画の差異を楽しみたい人。",
+  },
+  {
+    id: "danmachi-anime",
+    mediaTitle: "ダンジョンに出会いを求めるのは間違っているだろうか",
+    mediaType: "anime",
+    mediaYear: 2015,
+    originalExists: true,
+    originalTitle: "ダンジョンに出会いを求めるのは間違っているだろうか",
+    originalAuthor: "大森藤ノ",
+    originalType: "novel",
+    adaptationLabel: "アニメ化",
+    description:
+      "異世界の迷宮都市で冒険者として成長する少年の物語。J.C.STAFF制作。GA文庫のライトノベルシリーズが原作。「ダンまち」の略称で親しまれる。",
+    searchAliases: ["大森藤ノ", "ベル", "ヘスティア", "ダンまち", "迷宮"],
+    adaptationNotes:
+      "アニメは各シーズンで原作の各巻に対応して映像化。ライトノベル原作（既刊20巻超）はアニメよりもキャラクターの内面と世界観の設定が詳細。",
+    recommendedFor:
+      "アニメで成長系ファンタジーの世界観にハマった人。ダンジョン探索と神様コミュニティという設定が好きな人。",
+    workId: "0ecjsmn",
+  },
+  {
+    id: "yuru-camp-anime",
+    mediaTitle: "ゆるキャン△",
+    mediaType: "anime",
+    mediaYear: 2018,
+    originalExists: true,
+    originalTitle: "ゆるキャン△",
+    originalAuthor: "あfろ",
+    originalType: "manga",
+    adaptationLabel: "アニメ化",
+    description:
+      "女子高生たちのキャンプライフを描く癒し系アウトドア漫画のアニメ版。C-Station制作。月刊ComicFuz連載。キャンプブームに火をつけた作品。",
+    searchAliases: ["あfろ", "リン", "なでしこ", "野外活動サークル", "キャンプ"],
+    adaptationNotes:
+      "アニメは原作の雰囲気を忠実に再現した高評価作。漫画はキャンプの実用情報も豊富で、アニメよりも各キャラクターの成長がゆっくり丁寧に描かれる。",
+    recommendedFor:
+      "アニメで癒しとキャンプの魅力を感じた人。アウトドア好き・ソロ活動好きの人に特にお薦め。",
+    workId: "02ro5k9",
+  },
+
+  // ── 2020年代 ─────────────────────────────────────────────────────
+
+  {
+    id: "got-overseas",
+    mediaTitle: "ゲーム・オブ・スローンズ",
+    mediaType: "overseas",
+    mediaYear: 2011,
+    originalExists: true,
+    originalTitle: "氷と炎の歌",
+    originalAuthor: "ジョージ・R・R・マーティン",
+    originalType: "novel",
+    adaptationLabel: "HBOドラマ化（海外）",
+    description:
+      "王座を巡る貴族たちの血みどろの権力争いを描くファンタジー大作。HBOドラマ。シーズン8まで放送。世界中で大ヒットし現代ファンタジーの金字塔に。",
+    searchAliases: ["ゲームオブスローンズ", "マーティン", "ウェスタロス", "ドラゴン", "ラニスター"],
+    adaptationNotes:
+      "ドラマはシーズン5まで概ね原作に沿い、シーズン6以降は未完の原作を先行して独自に展開。原作（5部作・未完）はより複雑な政治描写と視点が多い。",
+    recommendedFor:
+      "ドラマで壮大な権力ゲームの世界観に引き込まれた人。西洋ファンタジーの大作小説を原文・翻訳で読みたい人。",
+  },
+  {
+    id: "sherlock-bbc",
+    mediaTitle: "SHERLOCK（BBC）",
+    mediaType: "overseas",
+    mediaYear: 2010,
+    originalExists: true,
+    originalTitle: "シャーロック・ホームズ",
+    originalAuthor: "アーサー・コナン・ドイル",
+    originalType: "novel",
+    adaptationLabel: "BBCドラマ化（海外）",
+    description:
+      "シャーロック・ホームズを現代ロンドンに置き換えたBBCドラマ。ベネディクト・カンバーバッチ主演。原作の名探偵を現代的に大胆リブート。",
+    searchAliases: ["ホームズ", "ワトソン", "コナン・ドイル", "BBC", "カンバーバッチ"],
+    adaptationNotes:
+      "ドラマは原作の事件を現代版にアレンジしており、原作既読者には「元ネタ探し」も楽しめる。原作短編集は本格ミステリーの祖として現代でも色褪せない面白さ。",
+    recommendedFor:
+      "ドラマで頭脳明晰なホームズのキャラクターに惹かれた人。古典ミステリーを楽しみたい人。",
+    workId: "0hnqg2i",
+  },
+
   // ── 2015–2025 ───────────────────────────────────────────────────
 
   {
