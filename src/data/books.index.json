@@ -31697,5 +31697,817 @@
       "l2Id": "seinen",
       "l3Id": "isekai"
     }
+  },
+  {
+    "id": "gb-7tmpEQAAQBAJ",
+    "title": "地獄先生ぬ～べ～",
+    "authors": [
+      "真倉翔",
+      "岡野剛"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "地獄先生ぬ～べ～ 真倉翔 岡野剛 集英社",
+    "updatedAt": "2026-03-23T10:58:51.708Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=7tmpEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "7tmpEQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "horror"
+    },
+    "publisher": "集英社",
+    "publishedDate": "2026-02-04",
+    "pageCount": 185
+  },
+  {
+    "id": "9784821135110",
+    "title": "恐怖新聞",
+    "authors": [
+      "つのだじろう"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "恐怖新聞 つのだじろう",
+    "updatedAt": "2026-03-23T10:58:53.205Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=QVHtzgEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "QVHtzgEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "horror"
+    },
+    "publishedDate": "2017",
+    "isbn10": "4821135116",
+    "isbn13": "9784821135110",
+    "pageCount": 380
+  },
+  {
+    "id": "gb-O23aDAAAQBAJ",
+    "title": "エコエコアザラク",
+    "authors": [
+      "古賀新一"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "エコエコアザラク 古賀新一 秋田書店",
+    "updatedAt": "2026-03-23T10:58:55.743Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=O23aDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "O23aDAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "horror"
+    },
+    "publisher": "秋田書店",
+    "publishedDate": "1978-03-25",
+    "pageCount": 223
+  },
+  {
+    "id": "gb-_DjHBQAAQBAJ",
+    "title": "怪物王女",
+    "authors": [
+      "光永康則"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "怪物王女 光永康則 講談社",
+    "updatedAt": "2026-03-23T10:58:56.632Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=_DjHBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "_DjHBQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "horror"
+    },
+    "publisher": "講談社",
+    "publishedDate": "2009-11-20",
+    "pageCount": 211
+  },
+  {
+    "id": "gb-sNzKCwAAQBAJ",
+    "title": "屍鬼",
+    "authors": [
+      "小野不由美",
+      "藤崎竜"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "屍鬼 小野不由美 藤崎竜 集英社",
+    "updatedAt": "2026-03-23T10:58:58.074Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=sNzKCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "sNzKCwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "horror"
+    },
+    "publisher": "集英社",
+    "publishedDate": "2008-07-04",
+    "pageCount": 196
+  },
+  {
+    "id": "gb-A-vwBgAAQBAJ",
+    "title": "ゲゲゲの鬼太郎",
+    "authors": [
+      "水木　しげる"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "ゲゲゲの鬼太郎 水木　しげる KADOKAWA",
+    "updatedAt": "2026-03-23T10:58:58.933Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=A-vwBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "A-vwBgAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "horror"
+    },
+    "publisher": "KADOKAWA",
+    "publishedDate": "1995-10-20",
+    "pageCount": 403
+  },
+  {
+    "id": "gb-nITGBQAAQBAJ",
+    "title": "惡の華",
+    "authors": [
+      "押見修造"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "惡の華 押見修造 講談社",
+    "updatedAt": "2026-03-23T10:58:59.778Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=nITGBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "nITGBQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "horror"
+    },
+    "publisher": "講談社",
+    "publishedDate": "2010-03-17",
+    "pageCount": 214
+  },
+  {
+    "id": "gb-x4tEDwAAQBAJ",
+    "title": "魔法少女サイト",
+    "authors": [
+      "佐藤健太郎"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "魔法少女サイト 佐藤健太郎 秋田書店",
+    "updatedAt": "2026-03-23T10:59:00.634Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=x4tEDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "x4tEDwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "horror"
+    },
+    "publisher": "秋田書店",
+    "publishedDate": "2018-01-05",
+    "pageCount": 194
+  },
+  {
+    "id": "gb-f-E7DwAAQBAJ",
+    "title": "うずまき",
+    "authors": [
+      "伊藤潤二"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "うずまき 伊藤潤二 小学館",
+    "updatedAt": "2026-03-23T10:59:01.493Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=f-E7DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "f-E7DwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "horror"
+    },
+    "publisher": "小学館",
+    "publishedDate": "1999-02-26",
+    "pageCount": 201
+  },
+  {
+    "id": "gb-U0REDwAAQBAJ",
+    "title": "富江",
+    "authors": [
+      "伊藤　潤二"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "富江 伊藤　潤二 株式会社朝日新聞出版",
+    "updatedAt": "2026-03-23T10:59:03.142Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=U0REDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "U0REDwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "horror"
+    },
+    "publisher": "株式会社朝日新聞出版",
+    "pageCount": 33
+  },
+  {
+    "id": "gb-SRL6CgAAQBAJ",
+    "title": "地獄星レミナ",
+    "authors": [
+      "伊藤潤二"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "地獄星レミナ 伊藤潤二 小学館",
+    "updatedAt": "2026-03-23T10:59:03.984Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=SRL6CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "SRL6CgAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "horror"
+    },
+    "publisher": "小学館",
+    "publishedDate": "2005-08-30",
+    "pageCount": 294
+  },
+  {
+    "id": "gb-UPqrDwAAQBAJ",
+    "title": "血の轍",
+    "authors": [
+      "押見修造"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "血の轍 押見修造 小学館",
+    "updatedAt": "2026-03-23T10:59:04.842Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=UPqrDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "UPqrDwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "horror"
+    },
+    "publisher": "小学館",
+    "pageCount": 217
+  },
+  {
+    "id": "9784063954449",
+    "title": "ハピネス",
+    "authors": [
+      "押見修造"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "ハピネス 押見修造",
+    "updatedAt": "2026-03-23T10:59:06.277Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=D4sQjwEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "D4sQjwEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "horror"
+    },
+    "publishedDate": "2015-07",
+    "isbn10": "4063954447",
+    "isbn13": "9784063954449",
+    "pageCount": 192
+  },
+  {
+    "id": "9784091831002",
+    "title": "わたしは真悟",
+    "authors": [
+      "楳図かずお"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "わたしは真悟 楳図かずお",
+    "updatedAt": "2026-03-23T10:59:07.135Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=J5FcMwEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "J5FcMwEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "horror"
+    },
+    "publishedDate": "2010-02",
+    "isbn10": "4091831001",
+    "isbn13": "9784091831002"
+  },
+  {
+    "id": "9784047125377",
+    "title": "ハイスクール・オブ・ザ・デッド",
+    "authors": [
+      "佐藤大輔"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "ハイスクール・オブ・ザ・デッド 佐藤大輔",
+    "updatedAt": "2026-03-23T10:59:07.942Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=ykXqzwEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "ykXqzwEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "horror"
+    },
+    "publishedDate": "2008-03",
+    "isbn10": "4047125377",
+    "isbn13": "9784047125377"
+  },
+  {
+    "id": "9784834215991",
+    "title": "アウター・ゾーン",
+    "authors": [
+      "伸·光原"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "アウター・ゾーン 伸·光原",
+    "updatedAt": "2026-03-23T10:59:11.607Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=OecT_gAACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "OecT_gAACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "horror"
+    },
+    "publishedDate": "1998",
+    "isbn10": "4834215997",
+    "isbn13": "9784834215991",
+    "pageCount": 265
+  },
+  {
+    "id": "gb-dKv7CgAAQBAJ",
+    "title": "七夕の国",
+    "authors": [
+      "岩明均"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "七夕の国 岩明均 小学館",
+    "updatedAt": "2026-03-23T10:59:13.043Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=dKv7CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "dKv7CgAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "horror"
+    },
+    "publisher": "小学館",
+    "publishedDate": "1997-06-30",
+    "pageCount": 208
+  },
+  {
+    "id": "gb-aRabEQAAQBAJ",
+    "title": "ポーの一族",
+    "authors": [
+      "萩尾望都"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "ポーの一族 萩尾望都 新潮社",
+    "updatedAt": "2026-03-23T10:59:13.883Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=aRabEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "aRabEQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "horror"
+    },
+    "publisher": "新潮社",
+    "publishedDate": "2025-11-27",
+    "pageCount": 196
+  },
+  {
+    "id": "9784267905391",
+    "title": "鬼子母神",
+    "authors": [
+      "山岸凉子"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "鬼子母神 山岸凉子",
+    "updatedAt": "2026-03-23T10:59:14.744Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=Bzr1ZwEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Bzr1ZwEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "horror"
+    },
+    "publishedDate": "2010",
+    "isbn10": "4267905398",
+    "isbn13": "9784267905391",
+    "pageCount": 401
+  },
+  {
+    "id": "gb-wHBaAQAACAAJ",
+    "title": "闇の末裔",
+    "authors": [
+      "松下容子"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "闇の末裔 松下容子",
+    "updatedAt": "2026-03-23T10:59:15.539Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=wHBaAQAACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "wHBaAQAACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "horror"
+    },
+    "publishedDate": "1997"
+  },
+  {
+    "id": "gb-EYjFEAAAQBAJ",
+    "title": "ゾンビ100〜ゾンビになるまでにしたい100のこと〜",
+    "authors": [
+      "麻生羽呂"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "ゾンビ100〜ゾンビになるまでにしたい100のこと〜 麻生羽呂",
+    "updatedAt": "2026-03-23T10:59:38.272Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=EYjFEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "EYjFEAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "horror"
+    }
+  },
+  {
+    "id": "gb-cVOkAwAAQBAJ",
+    "title": "百鬼夜行抄",
+    "authors": [
+      "今市子"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "百鬼夜行抄 今市子",
+    "updatedAt": "2026-03-23T11:02:27.692Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=cVOkAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "cVOkAwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "horror"
+    }
+  },
+  {
+    "id": "gb-eXM2AQAAIAAJ",
+    "title": "陰陽師",
+    "authors": [
+      "岡野玲子"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "陰陽師 岡野玲子",
+    "updatedAt": "2026-03-23T11:02:27.693Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=eXM2AQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "eXM2AQAAIAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "horror"
+    }
+  },
+  {
+    "id": "gb-iiSVygAACAAJ",
+    "title": "座敷女",
+    "authors": [
+      "望月峯太郎"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "座敷女 望月峯太郎",
+    "updatedAt": "2026-03-23T11:02:27.693Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=iiSVygAACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "iiSVygAACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "horror"
+    }
+  },
+  {
+    "id": "gb-P0NhXwAACAAJ",
+    "title": "ライチ☆光クラブ",
+    "authors": [
+      "古屋兎丸"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "ライチ☆光クラブ 古屋兎丸",
+    "updatedAt": "2026-03-23T11:02:27.693Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=P0NhXwAACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "P0NhXwAACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "horror"
+    }
+  },
+  {
+    "id": "gb-eyfnCgAAQBAJ",
+    "title": "蔵六の奇病",
+    "authors": [
+      "日野日出志"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "蔵六の奇病 日野日出志",
+    "updatedAt": "2026-03-23T11:02:27.693Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=eyfnCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "eyfnCgAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "horror"
+    }
+  },
+  {
+    "id": "gb-frXWDAAAQBAJ",
+    "title": "悪魔の花嫁",
+    "authors": [
+      "あしべゆうほ"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "悪魔の花嫁 あしべゆうほ",
+    "updatedAt": "2026-03-23T11:02:27.693Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=frXWDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "frXWDAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "horror"
+    }
+  },
+  {
+    "id": "gb--YfJBQAAQBAJ",
+    "title": "羊の木",
+    "authors": [
+      "いがらしみきお"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "羊の木 いがらしみきお",
+    "updatedAt": "2026-03-23T11:02:27.693Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=-YfJBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "-YfJBQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "horror"
+    }
+  },
+  {
+    "id": "gb-sdWzioyahO0C",
+    "title": "多重人格探偵サイコ",
+    "authors": [
+      "大塚英志"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "多重人格探偵サイコ 大塚英志",
+    "updatedAt": "2026-03-23T11:03:03.871Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=sdWzioyahO0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "sdWzioyahO0C"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "horror"
+    }
+  },
+  {
+    "id": "gb-RLraDAAAQBAJ",
+    "title": "死人の声をきくがよい",
+    "authors": [
+      "伊藤潤二"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "死人の声をきくがよい 伊藤潤二",
+    "updatedAt": "2026-03-23T11:03:03.875Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=RLraDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "RLraDAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "horror"
+    }
   }
 ]
