@@ -47,6 +47,11 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=Wrs7pwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "Wrs7pwAACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports"
     }
   },
   {
@@ -7744,8 +7749,8 @@
     },
     "manualClassification": {
       "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "general-manga",
+      "l2Id": "shonen",
+      "l3Id": "sports",
       "l4TagIds": [
         "readable"
       ],
@@ -21525,7 +21530,7 @@
     "updatedAt": "2026-03-17T12:45:03.566Z",
     "manualClassification": {
       "l1Id": "manga",
-      "l2Id": "shojo",
+      "l2Id": "shonen",
       "l3Id": "romcom",
       "l4TagIds": [
         "readable"
@@ -23432,8 +23437,8 @@
     "updatedAt": "2026-03-17T13:08:04.799Z",
     "manualClassification": {
       "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "gag",
+      "l2Id": "shonen",
+      "l3Id": "comedy",
       "l4TagIds": [
         "readable"
       ]
@@ -23529,8 +23534,8 @@
     "updatedAt": "2026-03-17T13:08:09.006Z",
     "manualClassification": {
       "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "gag",
+      "l2Id": "shonen",
+      "l3Id": "comedy",
       "l4TagIds": [
         "readable"
       ]
@@ -25348,8 +25353,8 @@
     "updatedAt": "2026-03-17T13:11:02.553Z",
     "manualClassification": {
       "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "gag",
+      "l2Id": "shonen",
+      "l3Id": "battle",
       "l4TagIds": [
         "readable"
       ]
@@ -27630,8 +27635,8 @@
     "updatedAt": "2026-03-19T09:10:55.099Z",
     "manualClassification": {
       "l1Id": "manga",
-      "l2Id": "general",
-      "l3Id": "gag",
+      "l2Id": "shonen",
+      "l3Id": "comedy",
       "l4TagIds": [
         "readable"
       ]
@@ -28668,5 +28673,433 @@
       "l2Id": "seinen",
       "l3Id": "drama"
     }
+  },
+  {
+    "id": "gb-mmjdDwAAQBAJ",
+    "title": "ドラゴンボール",
+    "authors": [
+      "とよたろう",
+      "鳥山明"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "ドラゴンボール とよたろう 鳥山明 集英社",
+    "updatedAt": "2026-03-23T04:20:45.306Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=mmjdDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "mmjdDwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    },
+    "publisher": "集英社",
+    "publishedDate": "2017-11-02",
+    "pageCount": 201
+  },
+  {
+    "id": "9784087821093",
+    "title": "リングにかけろ",
+    "authors": [
+      "車田正美"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "リングにかけろ 車田正美",
+    "updatedAt": "2026-03-23T04:20:46.348Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=WR-IMgAACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "WR-IMgAACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports"
+    },
+    "publishedDate": "2005-12",
+    "isbn10": "4087821099",
+    "isbn13": "9784087821093",
+    "pageCount": 212
+  },
+  {
+    "id": "gb-F_FAEQAAQBAJ",
+    "title": "魁!!男塾",
+    "authors": [
+      "宮下あきら"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "魁!!男塾 宮下あきら サード・ライン",
+    "updatedAt": "2026-03-23T04:20:47.404Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=F_FAEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "F_FAEQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    },
+    "publisher": "サード・ライン",
+    "pageCount": 187
+  },
+  {
+    "id": "9784088715193",
+    "title": "幽☆遊☆白書",
+    "authors": [
+      "冨樫義博"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "幽☆遊☆白書 冨樫義博",
+    "updatedAt": "2026-03-23T04:20:48.401Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=ogKnKykkFQYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "ogKnKykkFQYC"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    },
+    "publishedDate": "1993-08",
+    "isbn10": "4088715195",
+    "isbn13": "9784088715193",
+    "pageCount": 200
+  },
+  {
+    "id": "gb-adHGCwAAQBAJ",
+    "title": "ろくでなしBLUES",
+    "authors": [
+      "森田まさのり"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "ろくでなしBLUES 森田まさのり 集英社",
+    "updatedAt": "2026-03-23T04:20:49.455Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=adHGCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "adHGCwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "drama"
+    },
+    "publisher": "集英社",
+    "publishedDate": "2002-12-12",
+    "pageCount": 327
+  },
+  {
+    "id": "9784088736211",
+    "title": "デスノート",
+    "authors": [
+      "大場つぐみ",
+      "小畑健"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "デスノート 大場つぐみ 小畑健 David Beltran",
+    "updatedAt": "2026-03-23T04:20:50.445Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=1MBcIubYlyIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "1MBcIubYlyIC"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "mystery"
+    },
+    "publisher": "David Beltran",
+    "publishedDate": "2004-04",
+    "isbn10": "4088736214",
+    "isbn13": "9784088736211",
+    "pageCount": 395
+  },
+  {
+    "id": "9784088738888",
+    "title": "D.Gray-man",
+    "authors": [
+      "星野桂"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "D.Gray-man 星野桂",
+    "updatedAt": "2026-03-23T04:20:51.425Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=6NnVMgEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "6NnVMgEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    },
+    "publishedDate": "2005-12",
+    "isbn10": "4088738888",
+    "isbn13": "9784088738888",
+    "pageCount": 200
+  },
+  {
+    "id": "gb-_GxTDgAAQBAJ",
+    "title": "To LOVEる",
+    "authors": [
+      "矢吹健太朗"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "To LOVEる 矢吹健太朗 集英社",
+    "updatedAt": "2026-03-23T04:20:52.582Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=_GxTDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "_GxTDgAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "romcom"
+    },
+    "publisher": "集英社",
+    "publishedDate": "2010-01-04",
+    "pageCount": 113
+  },
+  {
+    "id": "gb-aOnKCwAAQBAJ",
+    "title": "PSYREN",
+    "authors": [
+      "岩代俊明"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "PSYREN 岩代俊明 集英社",
+    "updatedAt": "2026-03-23T04:20:53.513Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=aOnKCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "aOnKCwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sf"
+    },
+    "publisher": "集英社",
+    "publishedDate": "2008-05-02",
+    "pageCount": 206
+  },
+  {
+    "id": "gb-O3HMCwAAQBAJ",
+    "title": "火ノ丸相撲",
+    "authors": [
+      "川田"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "火ノ丸相撲 川田 集英社",
+    "updatedAt": "2026-03-23T04:20:57.563Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=O3HMCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "O3HMCwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports"
+    },
+    "publisher": "集英社",
+    "publishedDate": "2015-04-03",
+    "pageCount": 203
+  },
+  {
+    "id": "gb-xCyrDwAAQBAJ",
+    "title": "BORUTO",
+    "authors": [
+      "岸本斉史",
+      "池本幹雄",
+      "小太刀右京"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "BORUTO 岸本斉史 池本幹雄 小太刀右京 集英社",
+    "updatedAt": "2026-03-23T04:20:58.512Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=xCyrDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "xCyrDwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    },
+    "publisher": "集英社",
+    "publishedDate": "2019-10-04",
+    "pageCount": 182
+  },
+  {
+    "id": "gb-tbzSEAAAQBAJ",
+    "title": "鵺の陰陽師",
+    "authors": [
+      "川江康太"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "鵺の陰陽師 川江康太 集英社",
+    "updatedAt": "2026-03-23T04:20:59.475Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=tbzSEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "tbzSEAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    },
+    "publisher": "集英社",
+    "publishedDate": "2023-10-04",
+    "pageCount": 201
+  },
+  {
+    "id": "gb-4u_fEAAAQBAJ",
+    "title": "一ノ瀬家の大罪",
+    "authors": [
+      "タイザン5"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "一ノ瀬家の大罪 タイザン5 集英社",
+    "updatedAt": "2026-03-23T04:21:01.023Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=4u_fEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "4u_fEAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "drama"
+    },
+    "publisher": "集英社",
+    "publishedDate": "2023-12-04",
+    "pageCount": 201
+  },
+  {
+    "id": "9784088820514",
+    "title": "アクタージュ",
+    "authors": [],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "アクタージュ 集英社",
+    "updatedAt": "2026-03-23T04:27:31.163Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=pPYdygEACAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "pPYdygEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "drama"
+    },
+    "publisher": "集英社",
+    "publishedDate": "2019",
+    "isbn10": "4088820517",
+    "isbn13": "9784088820514",
+    "pageCount": 190
+  },
+  {
+    "id": "gb-TIVYDwAAQBAJ",
+    "title": "ぼくたちは勉強ができない",
+    "authors": [
+      "筒井大志"
+    ],
+    "categories": [
+      "Comics & Graphic Novels"
+    ],
+    "keywords": [
+      "Comics & Graphic Novels"
+    ],
+    "searchableText": "ぼくたちは勉強ができない 筒井大志 集英社",
+    "updatedAt": "2026-03-23T04:27:31.880Z",
+    "language": "ja",
+    "thumbnailUrl": "https://books.google.com/books/content?id=TIVYDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "TIVYDwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "romcom"
+    },
+    "publisher": "集英社",
+    "publishedDate": "2018-05-02",
+    "pageCount": 199
   }
 ]
