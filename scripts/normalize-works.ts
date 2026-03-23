@@ -375,6 +375,22 @@ for (const [workId, entries] of groups.entries()) {
   if (moodRep?.completionStatus) discoveryAttributes.completionStatus = moodRep.completionStatus;
   if (moodRep?.recommendedFor?.length) discoveryAttributes.recommendedFor = moodRep.recommendedFor;
 
+  // L2/L3 カテゴリの多数決（全巻から最頻値を採用）
+  const l2Votes = new Map<string, number>();
+  const l3Votes = new Map<string, number>();
+  for (const e of entries) {
+    const l2 = e.manualClassification?.l2Id;
+    const l3 = e.manualClassification?.l3Id;
+    if (l2) l2Votes.set(l2, (l2Votes.get(l2) ?? 0) + 1);
+    if (l3) l3Votes.set(l3, (l3Votes.get(l3) ?? 0) + 1);
+  }
+  const l2Id = l2Votes.size > 0
+    ? [...l2Votes.entries()].sort((a, b) => b[1] - a[1])[0][0]
+    : undefined;
+  const l3Id = l3Votes.size > 0
+    ? [...l3Votes.entries()].sort((a, b) => b[1] - a[1])[0][0]
+    : undefined;
+
   const work: Work = {
     workId,
     type,
@@ -391,6 +407,8 @@ for (const [workId, entries] of groups.entries()) {
     coverImageUrl: representative.thumbnailUrl,
     discoveryTags: [...allDiscoveryTags],
     discoveryAttributes,
+    ...(l2Id ? { l2Id } : {}),
+    ...(l3Id ? { l3Id } : {}),
     relatedWorkIds: [],
     volumeIds: workVolumes.map((v) => v.volumeId),
   };

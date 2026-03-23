@@ -17,6 +17,22 @@ export function amazonProductUrl(isbn13?: string, title?: string): string {
   return `https://www.amazon.co.jp/s?k=${isbn13 ? isbn13 : encodeURIComponent(q)}&tag=${AMAZON_PARTNER_TAG}`;
 }
 
+/** Kindle版検索URL（パートナータグ付き） */
+export function kindleSearchUrl(title: string): string {
+  return `https://www.amazon.co.jp/s?k=${encodeURIComponent(title)}&i=digital-text&tag=${AMAZON_PARTNER_TAG}`;
+}
+
+/** Audible版検索URL（パートナータグ付き） */
+export function audibleSearchUrl(title: string): string {
+  return `https://www.amazon.co.jp/s?k=${encodeURIComponent(title)}&i=audible&tag=${AMAZON_PARTNER_TAG}`;
+}
+
+/** Kindle Unlimited紹介URL */
+export const KINDLE_UNLIMITED_URL = `https://www.amazon.co.jp/kindle-dbs/hz/subscribe/ku?tag=${AMAZON_PARTNER_TAG}`;
+
+/** Audible無料体験URL */
+export const AUDIBLE_FREE_TRIAL_URL = `https://www.amazon.co.jp/hz/audible/mlp/mffly?tag=${AMAZON_PARTNER_TAG}`;
+
 export const BLOG_DESCRIPTION =
   "本選び・読書術・比較ノウハウを発信するBooks Tools公式ブログ。検索流入から書籍ツール活用までをつなげます。";
 

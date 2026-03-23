@@ -14,7 +14,16 @@ import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SimilarWorksSection from "@/components/works/SimilarWorksSection";
-import { SITE_NAME, SITE_URL, amazonProductUrl, amazonSearchUrl } from "@/lib/site";
+import {
+  SITE_NAME,
+  SITE_URL,
+  amazonProductUrl,
+  amazonSearchUrl,
+  kindleSearchUrl,
+  audibleSearchUrl,
+  KINDLE_UNLIMITED_URL,
+  AUDIBLE_FREE_TRIAL_URL,
+} from "@/lib/site";
 import type { WorkDetail, Volume } from "@/types/work";
 import type { SimilarWorks } from "@/types/similar-works";
 
@@ -293,6 +302,24 @@ export default async function WorkDetailPage({
                   >
                     Amazonで探す →
                   </a>
+                  <a
+                    href={kindleSearchUrl(work.title)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 bg-sky-500 hover:bg-sky-600 text-white font-semibold text-xs sm:text-sm px-4 py-2.5 rounded-xl transition-colors"
+                  >
+                    📱 Kindle版
+                  </a>
+                  {work.type === "novel" && (
+                    <a
+                      href={audibleSearchUrl(work.title)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 bg-orange-500 hover:bg-orange-600 text-white font-semibold text-xs sm:text-sm px-4 py-2.5 rounded-xl transition-colors"
+                    >
+                      🎧 Audible版
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
@@ -312,6 +339,44 @@ export default async function WorkDetailPage({
               </div>
             </section>
           )}
+
+          {/* 読み放題・聴き放題 CTA */}
+          <section className="mb-8 grid gap-3 sm:grid-cols-2">
+            <a
+              href={KINDLE_UNLIMITED_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-4 p-4 bg-gradient-to-r from-sky-50 to-sky-100 border border-sky-200 rounded-xl hover:shadow-md transition-shadow group"
+            >
+              <span className="text-3xl">📱</span>
+              <div>
+                <p className="text-sm font-bold text-sky-800 group-hover:text-sky-900">
+                  Kindle Unlimited で読み放題
+                </p>
+                <p className="text-xs text-sky-600">
+                  200万冊以上が読み放題。30日間無料体験あり
+                </p>
+              </div>
+            </a>
+            {work.type === "novel" && (
+              <a
+                href={AUDIBLE_FREE_TRIAL_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-4 p-4 bg-gradient-to-r from-orange-50 to-orange-100 border border-orange-200 rounded-xl hover:shadow-md transition-shadow group"
+              >
+                <span className="text-3xl">🎧</span>
+                <div>
+                  <p className="text-sm font-bold text-orange-800 group-hover:text-orange-900">
+                    Audible で聴く読書
+                  </p>
+                  <p className="text-xs text-orange-600">
+                    プロの朗読で楽しむ。30日間無料体験あり
+                  </p>
+                </div>
+              </a>
+            )}
+          </section>
 
           {/* 似た作品セクション */}
           {similar && similar.groups.length > 0 && (

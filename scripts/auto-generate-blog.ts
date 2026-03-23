@@ -214,14 +214,51 @@ async function main() {
 
   const youtubeApiKey = process.env["YOUTUBE_API_KEY"];
   const openAiApiKey = process.env["OPENAI_API_KEY"];
-  if (!youtubeApiKey) throw new Error("YOUTUBE_API_KEY is required");
   if (!openAiApiKey) throw new Error("OPENAI_API_KEY is required");
 
-  const trends = await fetchGoogleTrends("JP");
-  const topQuery = trends[0]?.query ?? "読書";
-  const videos = await fetchYoutubeVideos(youtubeApiKey, `${topQuery} 本`);
+  // Google Trends: フォールバック付き（タイムアウト10秒）
+  let trends: TrendItem[] = [];
+  try {
+    const trendsPromise = fetchGoogleTrends("JP");
+    const timeoutPromise = new Promise<never>((_, reject) =>
+      setTimeout(() => reject(new Error("Google Trends timeout")), 10_000)
+    );
+    trends = await Promise.race([trendsPromise, timeoutPromise]);
+    console.log(`📊 Google Trends: ${trends.length} items`);
+  } catch (e) {
+    console.warn(`⚠️ Google Trends failed (using fallback): ${(e as Error).message}`);
+    trends = [
+      { query: "読書", value: 100 },
+      { query: "おすすめ 本", value: 80 },
+      { query: "小説 ランキング", value: 60 },
+      { query: "漫画 新刊", value: 50 },
+    ];
+  }
 
-  const article = await generateArticle(openAiApiKey, trends, videos);
+  // YouTube: フォールバック付き（APIキーなしでもスキップ可能）
+  let videos: YoutubeVideo[] = [];
+  const topQuery = trends[0]?.query ?? "読書";
+  if (youtubeApiKey) {
+    try {
+      videos = await fetchYoutubeVideos(youtubeApiKey, `${topQuery} 本`);
+      console.log(`🎥 YouTube: ${videos.length} videos`);
+    } catch (e) {
+      console.warn(`⚠️ YouTube API failed (skipping): ${(e as Error).message}`);
+    }
+  } else {
+    console.warn("⚠️ YOUTUBE_API_KEY not set, skipping YouTube data");
+  }
+
+  // OpenAI: 記事生成（リトライ1回）
+  let article: GeneratedArticle;
+  try {
+    article = await generateArticle(openAiApiKey, trends, videos);
+  } catch (e) {
+    console.warn(`⚠️ First attempt failed, retrying: ${(e as Error).message}`);
+    await new Promise((r) => setTimeout(r, 3_000));
+    article = await generateArticle(openAiApiKey, trends, videos);
+  }
+
   verifySafety(article);
   const outPath = saveArticle(article);
 

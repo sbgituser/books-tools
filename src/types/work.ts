@@ -45,6 +45,10 @@ export interface Work {
   firstPublishedDate?: string;
   latestPublishedDate?: string;
   coverImageUrl?: string;
+  /** L2カテゴリID (例: "mystery", "shonen") */
+  l2Id?: string;
+  /** L3カテゴリID (例: "honkaku-mystery", "battle") */
+  l3Id?: string;
   /** 発見タグ。後付けで追加しやすい文字列配列 */
   discoveryTags: DiscoveryTag[];
   /** 発見属性。key-value で任意軸を拡張可能 */
