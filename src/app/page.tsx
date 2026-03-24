@@ -3,6 +3,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { READING_SCENES } from "@/constants/readingScenes";
+import { getAllBlogMeta } from "@/lib/blog";
 
 export const metadata: Metadata = {
   title: "Books Discover | 気分から漫画・小説を発見する",
@@ -40,6 +41,57 @@ const jsonLd = {
     "query-input": "required name=search_term_string",
   },
 };
+
+function LatestBlogSection() {
+  const posts = getAllBlogMeta().slice(0, 6);
+  if (posts.length === 0) return null;
+
+  return (
+    <section className="bg-stone-50 border-t border-stone-200 py-12 sm:py-16">
+      <div className="max-w-4xl mx-auto px-4">
+        <div className="text-center mb-8">
+          <h2 className="text-xl sm:text-2xl font-bold text-stone-900 mb-2">
+            読み物・ランキング
+          </h2>
+          <p className="text-stone-500 text-sm">
+            「今週読みたい漫画」「泣ける作品特集」など、発見のヒントを記事でお届けします。
+          </p>
+        </div>
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {posts.map((post) => (
+            <Link
+              key={post.slug}
+              href={`/blog/${post.slug}`}
+              className="group bg-white border border-stone-200 hover:border-rose-300 rounded-xl p-4 transition-all hover:shadow-sm"
+            >
+              <p className="text-xs text-stone-400 mb-1">
+                {post.date} · {post.readingText}
+              </p>
+              <p className="text-sm font-semibold text-stone-800 group-hover:text-rose-700 transition-colors leading-snug line-clamp-2">
+                {post.title}
+              </p>
+              <div className="flex flex-wrap gap-1 mt-2">
+                {post.tags.slice(0, 2).map((tag) => (
+                  <span key={tag} className="text-[10px] px-1.5 py-0.5 rounded-full bg-stone-100 text-stone-500">
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </Link>
+          ))}
+        </div>
+        <div className="text-center mt-6">
+          <Link
+            href="/blog"
+            className="text-sm text-rose-600 hover:text-rose-700 font-semibold hover:underline"
+          >
+            すべてのブログ記事を読む →
+          </Link>
+        </div>
+      </div>
+    </section>
+  );
+}
 
 export default function HomePage() {
   return (
@@ -272,21 +324,8 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ─── ブログ導線 ───────────────────────────────────────── */}
-        <section className="bg-stone-50 border-t border-stone-200 py-12">
-          <div className="max-w-4xl mx-auto px-4 text-center">
-            <h2 className="text-lg font-bold text-stone-800 mb-2">読み物・ランキング</h2>
-            <p className="text-stone-500 text-sm mb-6">
-              「今週読みたい漫画」「泣ける作品特集」など、発見のヒントを記事でお届けします。
-            </p>
-            <Link
-              href="/blog"
-              className="inline-flex items-center gap-2 border border-stone-300 hover:border-rose-400 text-stone-700 hover:text-rose-700 font-semibold text-sm px-5 py-2.5 rounded-xl transition-colors"
-            >
-              ブログ記事を読む →
-            </Link>
-          </div>
-        </section>
+        {/* ─── ブログ導線（最新記事プレビュー） ────────────────────── */}
+        <LatestBlogSection />
 
       </main>
       <Footer />

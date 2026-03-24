@@ -24,6 +24,7 @@ import {
   KINDLE_UNLIMITED_URL,
   AUDIBLE_FREE_TRIAL_URL,
 } from "@/lib/site";
+import { getBlogPostsForWork, formatDateLabel } from "@/lib/blog";
 import type { WorkDetail, Volume } from "@/types/work";
 import type { SimilarWorks } from "@/types/similar-works";
 
@@ -179,6 +180,12 @@ export default async function WorkDetailPage({
   if (!work) notFound();
 
   const similar = getSimilarWorks(fileId);
+  const relatedBlogPosts = getBlogPostsForWork(
+    work.authors,
+    work.type,
+    work.discoveryTags,
+    3,
+  );
 
   const typeLabel = TYPE_LABEL[work.type] ?? "書籍";
   const typeColor = TYPE_COLOR[work.type] ?? TYPE_COLOR.other;
@@ -377,6 +384,41 @@ export default async function WorkDetailPage({
               </a>
             )}
           </section>
+
+          {/* 関連ブログ記事 */}
+          {relatedBlogPosts.length > 0 && (
+            <section className="mb-8">
+              <h2 className="text-lg font-bold text-stone-800 mb-4">
+                関連するブログ記事
+              </h2>
+              <div className="grid gap-2 sm:grid-cols-2">
+                {relatedBlogPosts.map((post) => (
+                  <Link
+                    key={post.slug}
+                    href={`/blog/${post.slug}`}
+                    className="group flex flex-col gap-1 bg-white border border-stone-200 hover:border-rose-300 rounded-xl p-4 transition-all hover:shadow-sm"
+                  >
+                    <p className="text-xs text-stone-400">
+                      {formatDateLabel(post.date)} · {post.readingText}
+                    </p>
+                    <p className="text-sm font-semibold text-stone-800 group-hover:text-rose-700 transition-colors leading-snug line-clamp-2">
+                      {post.title}
+                    </p>
+                    <div className="flex flex-wrap gap-1 mt-1">
+                      {post.tags.slice(0, 2).map((tag) => (
+                        <span
+                          key={tag}
+                          className="text-[10px] px-1.5 py-0.5 rounded-full bg-stone-100 text-stone-500"
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
 
           {/* 似た作品セクション */}
           {similar && similar.groups.length > 0 && (

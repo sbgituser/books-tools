@@ -209,6 +209,70 @@ export function getBlogCanonical(slug?: string): string {
   return `${base}/blog/${slug}`;
 }
 
+/**
+ * 作品情報をもとに、関連するブログ記事を返す。
+ * マッチング基準:
+ *  1. 著者名がブログタグに含まれる（最高スコア）
+ *  2. ジャンル系キーワードがブログタグと一致（中スコア）
+ *  3. 作品タイトルがブログ記事のslugに部分一致（低スコア）
+ */
+export function getBlogPostsForWork(
+  authors: string[],
+  type: "manga" | "novel" | "other",
+  discoveryTags: string[],
+  limit = 3,
+): BlogMeta[] {
+  const posts = getAllBlogMeta();
+
+  // 著者名の正規化（姓のみ・フルネーム両方でマッチ）
+  const authorNames = authors.flatMap((a) => {
+    const parts = a.split(/[・\s]/);
+    return [a, ...parts].filter((p) => p.length >= 2);
+  });
+
+  const scored = posts.map((post) => {
+    let score = 0;
+    const tagsLower = post.tags.map((t) => t.toLowerCase());
+    const tagsJoined = post.tags.join(" ");
+
+    // 著者名マッチ（最重要）
+    for (const name of authorNames) {
+      if (tagsJoined.includes(name)) {
+        score += 100;
+        break;
+      }
+    }
+
+    // ジャンルマッチ
+    const genreKeywords =
+      type === "manga"
+        ? ["漫画", "マンガ", "少年漫画", "少女漫画", "青年漫画"]
+        : ["小説", "ミステリー", "SF", "ファンタジー", "恋愛", "純文学", "ホラー"];
+
+    for (const kw of genreKeywords) {
+      if (tagsJoined.includes(kw)) {
+        score += 10;
+        break;
+      }
+    }
+
+    // discoveryTags マッチ
+    for (const dt of discoveryTags) {
+      if (tagsJoined.includes(dt)) {
+        score += 5;
+      }
+    }
+
+    return { post, score };
+  });
+
+  return scored
+    .filter((x) => x.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit)
+    .map((x) => x.post);
+}
+
 export function getAllBlogForFeed(): BlogPost[] {
   ensureBlogDir();
   const files = fs.readdirSync(BLOG_DIR).filter(isMarkdownFile);

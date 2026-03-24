@@ -77,8 +77,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const blogRoutes: MetadataRoute.Sitemap = getAllBlogMeta().map((post) => ({
     url: `${SITE_URL}/blog/${post.slug}`,
     lastModified: new Date(post.updated ?? post.date),
-    changeFrequency: "monthly",
-    priority: 0.7,
+    changeFrequency: "weekly",
+    priority: 0.8,
   }));
 
 const workRoutes: MetadataRoute.Sitemap = getAllWorkFileIds().map((fileId) => ({
