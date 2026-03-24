@@ -521,8 +521,8 @@ async function main() {
     return;
   }
 
-  // ── 書き込み（_category フィールドは出力しない） ──────────────
-  const output = merged.map(({ _category: _c, ...rest }) => rest);
+  // ── 書き込み（_category フィールドを保持して出力） ──────────────
+  const output = merged;
   const dir = path.dirname(opts.output);
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 

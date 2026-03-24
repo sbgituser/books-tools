@@ -779,6 +779,13 @@
     "estimatedReadingHours": 6.8,
     "sourceIds": {
       "googleBooksId": "WTiTZwEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -5156,6 +5163,13 @@
     "language": "ja",
     "sourceIds": {
       "googleBooksId": "Gch2zwEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -5283,6 +5297,13 @@
     "language": "ja",
     "sourceIds": {
       "googleBooksId": "8V6o0AEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -5306,6 +5327,13 @@
     "estimatedReadingHours": 4.5,
     "sourceIds": {
       "googleBooksId": "eDqCzQEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -5326,6 +5354,13 @@
     "language": "ja",
     "sourceIds": {
       "googleBooksId": "LDGwtAEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -5428,6 +5463,13 @@
     "language": "ja",
     "sourceIds": {
       "googleBooksId": "VNhIzwEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -5552,6 +5594,13 @@
     "language": "ja",
     "sourceIds": {
       "googleBooksId": "G6AFjwEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -5575,6 +5624,13 @@
     "language": "ja",
     "sourceIds": {
       "googleBooksId": "c8UyxQEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -5598,6 +5654,13 @@
     "language": "ja",
     "sourceIds": {
       "googleBooksId": "_H0_ygEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -5619,6 +5682,13 @@
     "estimatedReadingHours": 4.8,
     "sourceIds": {
       "googleBooksId": "o5tVlwEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -6087,6 +6157,13 @@
     "language": "ja",
     "sourceIds": {
       "googleBooksId": "J3o70AEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -6734,6 +6811,13 @@
     "estimatedReadingHours": 7.8,
     "sourceIds": {
       "googleBooksId": "EZgfzwEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -6782,6 +6866,13 @@
     "estimatedReadingHours": 7.9,
     "sourceIds": {
       "googleBooksId": "iQlYwgEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -6805,6 +6896,13 @@
     "language": "ja",
     "sourceIds": {
       "googleBooksId": "p483zgEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -7119,6 +7217,13 @@
     "estimatedReadingHours": 9.6,
     "sourceIds": {
       "googleBooksId": "a9_3nAAACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical-novel",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -7142,6 +7247,13 @@
     "language": "ja",
     "sourceIds": {
       "googleBooksId": "Gk1AswEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical-novel",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -7165,6 +7277,13 @@
     "estimatedReadingHours": 7.4,
     "sourceIds": {
       "googleBooksId": "sGMBSQAACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical-novel",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -7209,6 +7328,13 @@
     "language": "ja",
     "sourceIds": {
       "googleBooksId": "3d80swEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical-novel",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -7253,6 +7379,13 @@
     "language": "ja",
     "sourceIds": {
       "googleBooksId": "qZKrAQAACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical-novel",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -7276,6 +7409,13 @@
     "language": "ja",
     "sourceIds": {
       "googleBooksId": "woeYswEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical-novel",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -7362,6 +7502,13 @@
     "estimatedReadingHours": 5.8,
     "sourceIds": {
       "googleBooksId": "-vSGQgAACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -8126,6 +8273,13 @@
     "estimatedReadingHours": 3.5,
     "sourceIds": {
       "googleBooksId": "FHS8oAEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -8206,6 +8360,13 @@
     "estimatedReadingHours": 8.9,
     "sourceIds": {
       "googleBooksId": "joyaGAAACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -8406,6 +8567,13 @@
     "language": "ja",
     "sourceIds": {
       "googleBooksId": "fxaItQEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -9205,6 +9373,13 @@
     "language": "ja",
     "sourceIds": {
       "googleBooksId": "vpL8xAEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -9249,6 +9424,13 @@
     "language": "ja",
     "sourceIds": {
       "googleBooksId": "kvVfzwEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -9268,6 +9450,13 @@
     "language": "ja",
     "sourceIds": {
       "googleBooksId": "jRpJyQEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -9287,6 +9476,13 @@
     "language": "ja",
     "sourceIds": {
       "googleBooksId": "F7v9rQEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -9306,6 +9502,13 @@
     "language": "ja",
     "sourceIds": {
       "googleBooksId": "Nr3AzgEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -9477,6 +9680,13 @@
     "estimatedReadingHours": 5.6,
     "sourceIds": {
       "googleBooksId": "uBFZzgEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -9557,6 +9767,13 @@
     "language": "ja",
     "sourceIds": {
       "googleBooksId": "aqHF0QEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -9583,6 +9800,13 @@
     "language": "ja",
     "sourceIds": {
       "googleBooksId": "7XYm0AEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -9680,6 +9904,13 @@
     "estimatedReadingHours": 8.4,
     "sourceIds": {
       "googleBooksId": "paX0sgEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -9784,6 +10015,13 @@
     "estimatedReadingHours": 4.8,
     "sourceIds": {
       "googleBooksId": "jrfMoQEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -9938,6 +10176,13 @@
     "estimatedReadingHours": 5.4,
     "sourceIds": {
       "googleBooksId": "fucXzwEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -9960,6 +10205,13 @@
     "estimatedReadingHours": 5.6,
     "sourceIds": {
       "googleBooksId": "KcktzwEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -15692,6 +15944,13 @@
     "estimatedReadingHours": 7.2,
     "sourceIds": {
       "googleBooksId": "mbmgEQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -15771,6 +16030,13 @@
     "estimatedReadingHours": 6.7,
     "sourceIds": {
       "googleBooksId": "kHTEEAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -15817,6 +16083,13 @@
     "estimatedReadingHours": 15.9,
     "sourceIds": {
       "googleBooksId": "8FzoEAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -15864,6 +16137,13 @@
     "estimatedReadingHours": 8.1,
     "sourceIds": {
       "googleBooksId": "M5A3xAEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -15915,6 +16195,13 @@
     "estimatedReadingHours": 4.4,
     "sourceIds": {
       "googleBooksId": "XxLvEAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -15940,6 +16227,13 @@
     "estimatedReadingHours": 12.7,
     "sourceIds": {
       "googleBooksId": "iHX8EAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -15965,6 +16259,13 @@
     "estimatedReadingHours": 4.8,
     "sourceIds": {
       "googleBooksId": "Q7UpCwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -16065,6 +16366,13 @@
     "estimatedReadingHours": 8.9,
     "sourceIds": {
       "googleBooksId": "DjlZjgEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -16091,6 +16399,13 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=EwdNBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "EwdNBQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -16119,6 +16434,13 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=X-LGBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "X-LGBgAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -16144,6 +16466,13 @@
     "estimatedReadingHours": 6.2,
     "sourceIds": {
       "googleBooksId": "5YXvDQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -16170,6 +16499,13 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=gz6FEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "gz6FEQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -16222,6 +16558,13 @@
     "estimatedReadingHours": 5.7,
     "sourceIds": {
       "googleBooksId": "1SvnEAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -16247,6 +16590,13 @@
     "estimatedReadingHours": 4.9,
     "sourceIds": {
       "googleBooksId": "USMKDAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -16388,6 +16738,13 @@
     "estimatedReadingHours": 12.8,
     "sourceIds": {
       "googleBooksId": "qF_zswEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -16434,6 +16791,13 @@
     "estimatedReadingHours": 11.2,
     "sourceIds": {
       "googleBooksId": "A-UeNwAACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -16499,6 +16863,13 @@
     "estimatedReadingHours": 9,
     "sourceIds": {
       "googleBooksId": "My9lQgAACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -16520,6 +16891,13 @@
     "estimatedReadingHours": 12.8,
     "sourceIds": {
       "googleBooksId": "5z0orgEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -16543,6 +16921,13 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=06he36-UgnYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "06he36-UgnYC"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -16606,6 +16991,13 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=CvUiEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "CvUiEQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -16631,6 +17023,13 @@
     "estimatedReadingHours": 4.3,
     "sourceIds": {
       "googleBooksId": "Nv8AEAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -16697,6 +17096,13 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=TCujDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "TCujDwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -16811,6 +17217,13 @@
     "estimatedReadingHours": 5.9,
     "sourceIds": {
       "googleBooksId": "u2-fEAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -16836,6 +17249,13 @@
     "estimatedReadingHours": 5.1,
     "sourceIds": {
       "googleBooksId": "jSksDwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -16880,6 +17300,13 @@
     "estimatedReadingHours": 8.2,
     "sourceIds": {
       "googleBooksId": "NSFgswEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -16935,6 +17362,13 @@
     "estimatedReadingHours": 5.5,
     "sourceIds": {
       "googleBooksId": "JbUwAAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -16961,6 +17395,13 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=QY0oCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "QY0oCwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -16986,6 +17427,13 @@
     "estimatedReadingHours": 9.4,
     "sourceIds": {
       "googleBooksId": "KXpKEAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -17057,7 +17505,14 @@
     "updatedAt": "2026-03-24T07:19:22.632Z",
     "publisher": "東京創元社",
     "isbn13": "9784488791032",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784569760131",
@@ -17084,6 +17539,13 @@
     "estimatedReadingHours": 6.1,
     "sourceIds": {
       "googleBooksId": "QbRFBAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -17153,6 +17615,13 @@
     "estimatedReadingHours": 5.6,
     "sourceIds": {
       "googleBooksId": "ECe6DQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -17233,6 +17702,13 @@
     "estimatedReadingHours": 6.8,
     "sourceIds": {
       "googleBooksId": "MIV07GQXsZIC"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -17286,6 +17762,13 @@
     "estimatedReadingHours": 5.6,
     "sourceIds": {
       "googleBooksId": "rT99AAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -17361,6 +17844,13 @@
     "estimatedReadingHours": 6.3,
     "sourceIds": {
       "googleBooksId": "h7mgEQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -17484,6 +17974,13 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=ltWxDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "ltWxDwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -17616,6 +18113,13 @@
     "estimatedReadingHours": 9.1,
     "sourceIds": {
       "googleBooksId": "4WZbPgAACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -17642,6 +18146,13 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=orFX9EDJjNIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "orFX9EDJjNIC"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -17744,6 +18255,13 @@
     "estimatedReadingHours": 4.2,
     "sourceIds": {
       "googleBooksId": "6rBXiCbJRLgC"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -17844,6 +18362,13 @@
     "estimatedReadingHours": 19.5,
     "sourceIds": {
       "googleBooksId": "BPiMtAEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -17871,6 +18396,13 @@
     "thumbnailUrl": "https://cover.openbd.jp/9784480430427.jpg",
     "sourceIds": {
       "googleBooksId": "d_v9mQEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -17898,6 +18430,13 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=lmf5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "lmf5DwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -17923,6 +18462,13 @@
     "estimatedReadingHours": 6.3,
     "sourceIds": {
       "googleBooksId": "7ksoEAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -17948,6 +18494,13 @@
     "estimatedReadingHours": 5.5,
     "sourceIds": {
       "googleBooksId": "Gx9vAwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -17977,6 +18530,13 @@
     "estimatedReadingHours": 6.7,
     "sourceIds": {
       "googleBooksId": "CwV_DwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -18030,6 +18590,13 @@
     "estimatedReadingHours": 6.9,
     "sourceIds": {
       "googleBooksId": "Ly07BAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -18107,6 +18674,13 @@
     "estimatedReadingHours": 3.4,
     "sourceIds": {
       "googleBooksId": "TpAoEQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -18253,6 +18827,13 @@
     "estimatedReadingHours": 7.9,
     "sourceIds": {
       "googleBooksId": "VIoiMQAACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -18274,6 +18855,13 @@
     "estimatedReadingHours": 6.3,
     "sourceIds": {
       "googleBooksId": "A5FDrgEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -18299,6 +18887,13 @@
     "estimatedReadingHours": 4.1,
     "sourceIds": {
       "googleBooksId": "QvVgDwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -18323,6 +18918,13 @@
     "estimatedReadingHours": 4.9,
     "sourceIds": {
       "googleBooksId": "uhwuzAEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -18342,6 +18944,13 @@
     "language": "ja",
     "sourceIds": {
       "googleBooksId": "ZC480AEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -18433,6 +19042,13 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=fEQ1DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "fEQ1DwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -18459,6 +19075,13 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=9B4wDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "9B4wDwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -18485,6 +19108,13 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=XCAwDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "XCAwDwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -18511,6 +19141,13 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=-h4wDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "-h4wDwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -18537,6 +19174,13 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=T2srDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "T2srDwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -18609,6 +19253,13 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=Q4lozgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "Q4lozgEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -18634,6 +19285,13 @@
     "estimatedReadingHours": 6.7,
     "sourceIds": {
       "googleBooksId": "rc4QEAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -18660,6 +19318,13 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=PvdhO4Ha4OEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "PvdhO4Ha4OEC"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -18686,6 +19351,13 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=7DIyICtVO2oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "7DIyICtVO2oC"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "romance",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -18712,6 +19384,13 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=oZDgnb4qFzEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "oZDgnb4qFzEC"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -18764,6 +19443,13 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=0SRNBVgfnbEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "0SRNBVgfnbEC"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -18804,6 +19490,13 @@
     "language": "ja",
     "sourceIds": {
       "googleBooksId": "QmyEzwEACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -18877,6 +19570,13 @@
     "estimatedReadingHours": 3.7,
     "sourceIds": {
       "googleBooksId": "2nMiEQAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -18948,6 +19648,13 @@
     "estimatedReadingHours": 3.8,
     "sourceIds": {
       "googleBooksId": "CTnIBlDcEdYC"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -18972,6 +19679,13 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=_EX9EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "_EX9EAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -18998,6 +19712,13 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=rD0DEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "rD0DEAAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -19023,6 +19744,13 @@
     "estimatedReadingHours": 6.5,
     "sourceIds": {
       "googleBooksId": "QmLwwvkpsS4C"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -19050,6 +19778,13 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=G4tSDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "G4tSDwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -19101,6 +19836,13 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=gvWbDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "gvWbDwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -19122,6 +19864,13 @@
     "estimatedReadingHours": 11.4,
     "sourceIds": {
       "googleBooksId": "iII-GwAACAAJ"
+    },
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -19180,6 +19929,13 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=_02nDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "_02nDwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -19257,6 +20013,13 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=5a4pCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     "sourceIds": {
       "googleBooksId": "5a4pCwAAQBAJ"
+    },
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
     }
   },
   {
@@ -19454,7 +20217,14 @@
     "publisher": "集英社",
     "publishedDate": "201604",
     "isbn13": "9784088806679",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784088821573",
@@ -19469,7 +20239,14 @@
     "publisher": "集英社",
     "publishedDate": "201911",
     "isbn13": "9784088821573",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784091285690",
@@ -19484,7 +20261,14 @@
     "publisher": "小学館",
     "publishedDate": "201811",
     "isbn13": "9784091285690",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784088828640",
@@ -19500,7 +20284,14 @@
     "publisher": "集英社",
     "publishedDate": "202112",
     "isbn13": "9784088828640",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784088804842",
@@ -19515,7 +20306,14 @@
     "publisher": "集英社",
     "publishedDate": "201510",
     "isbn13": "9784088804842",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784885531996",
@@ -19547,7 +20345,14 @@
     "publisher": "あさ出版",
     "publishedDate": "201510",
     "isbn13": "9784860638016",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784797389517",
@@ -19578,7 +20383,14 @@
     "publisher": "あさ出版",
     "publishedDate": "201508",
     "isbn13": "9784860637958",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784492970201",
@@ -19689,7 +20501,14 @@
     "publisher": "講談社",
     "publishedDate": "201906",
     "isbn13": "9784065151808",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784091844811",
@@ -19704,7 +20523,14 @@
     "publisher": "小学館",
     "publishedDate": "199706",
     "isbn13": "9784091844811",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784492223932",
@@ -19794,7 +20620,14 @@
     "publisher": "小学館",
     "publishedDate": "202203",
     "isbn13": "9784098510900",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784091871442",
@@ -19809,7 +20642,14 @@
     "publisher": "小学館",
     "publishedDate": "201508",
     "isbn13": "9784091871442",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784063807882",
@@ -19824,7 +20664,14 @@
     "publisher": "講談社",
     "publishedDate": "201508",
     "isbn13": "9784063807882",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784088916781",
@@ -19840,7 +20687,14 @@
     "publisher": "集英社",
     "publishedDate": "202008",
     "isbn13": "9784088916781",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784815628017",
@@ -19885,7 +20739,14 @@
     "publisher": "小学館",
     "publishedDate": "200012",
     "isbn13": "9784091852755",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784091836540",
@@ -19900,7 +20761,14 @@
     "publisher": "小学館",
     "publishedDate": "199610",
     "isbn13": "9784091836540",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784091852724",
@@ -19915,7 +20783,14 @@
     "publisher": "小学館",
     "publishedDate": "199908",
     "isbn13": "9784091852724",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784091836595",
@@ -19930,7 +20805,14 @@
     "publisher": "小学館",
     "publishedDate": "199807",
     "isbn13": "9784091836595",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784091836533",
@@ -19945,7 +20827,14 @@
     "publisher": "小学館",
     "publishedDate": "199606",
     "isbn13": "9784091836533",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784091836588",
@@ -19960,7 +20849,14 @@
     "publisher": "小学館",
     "publishedDate": "199804",
     "isbn13": "9784091836588",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784041096956",
@@ -20004,7 +20900,14 @@
     "publisher": "光文社",
     "publishedDate": "200612",
     "isbn13": "9784334741631",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784062778596",
@@ -20033,7 +20936,14 @@
     "updatedAt": "2026-03-24T07:21:31.843Z",
     "publisher": "中央公論新社",
     "isbn13": "9784122076846",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784065164952",
@@ -20063,7 +20973,14 @@
     "publisher": "中央公論新社",
     "publishedDate": "202307",
     "isbn13": "9784122073968",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784122075412",
@@ -20078,7 +20995,14 @@
     "publisher": "中央公論新社",
     "publishedDate": "202407",
     "isbn13": "9784122075412",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784120058271",
@@ -20092,7 +21016,14 @@
     "updatedAt": "2026-03-24T07:21:33.947Z",
     "publisher": "中央公論新社",
     "isbn13": "9784120058271",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784062766456",
@@ -20183,7 +21114,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201906",
     "isbn13": "9784040657684",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784101240299",
@@ -20198,7 +21136,14 @@
     "publisher": "新潮社",
     "publishedDate": "201508",
     "isbn13": "9784101240299",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784840152648",
@@ -20211,7 +21156,14 @@
     "publisher": "メディアファクトリー",
     "publishedDate": "201307",
     "isbn13": "9784840152648",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784041142042",
@@ -20226,7 +21178,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202312",
     "isbn13": "9784041142042",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "horror",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784299067197",
@@ -20255,7 +21214,14 @@
     "publisher": "宝島社",
     "publishedDate": "202406",
     "isbn13": "9784299053275",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "horror",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784758026109",
@@ -20271,7 +21237,14 @@
     "publisher": "講談社 (発売)",
     "publishedDate": "202312",
     "isbn13": "9784758026109",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784087451313",
@@ -20286,7 +21259,14 @@
     "publisher": "集英社",
     "publishedDate": "201311",
     "isbn13": "9784087451313",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784122070509",
@@ -20301,7 +21281,14 @@
     "publisher": "中央公論新社",
     "publishedDate": "202103",
     "isbn13": "9784122070509",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784054043909",
@@ -20338,7 +21325,14 @@
     "publishedDate": "2017-07-26",
     "isbn13": "9784865650983",
     "language": "ja",
-    "thumbnailUrl": "https://cover.openbd.jp/9784865650983.jpg"
+    "thumbnailUrl": "https://cover.openbd.jp/9784865650983.jpg",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical-novel",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784334794996",
@@ -20353,7 +21347,14 @@
     "publisher": "光文社",
     "publishedDate": "202302",
     "isbn13": "9784334794996",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical-novel",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784861825569",
@@ -20377,7 +21378,14 @@
     "publishedDate": "2015-10-21",
     "isbn13": "9784861825569",
     "language": "ja",
-    "thumbnailUrl": "https://cover.openbd.jp/9784861825569.jpg"
+    "thumbnailUrl": "https://cover.openbd.jp/9784861825569.jpg",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784569662831",
@@ -20407,7 +21415,14 @@
     "publisher": "講談社",
     "publishedDate": "198911",
     "isbn13": "9784061965157",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784074447251",
@@ -20445,7 +21460,14 @@
     "publishedDate": "2025-04-23",
     "isbn13": "9784867930878",
     "language": "ja",
-    "thumbnailUrl": "https://cover.openbd.jp/9784867930878.jpg"
+    "thumbnailUrl": "https://cover.openbd.jp/9784867930878.jpg",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical-novel",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784048740135",
@@ -20475,7 +21497,14 @@
     "publisher": "角川グループパブリッシング ",
     "publishedDate": "201209",
     "isbn13": "9784041203569",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784041072141",
@@ -20519,7 +21548,14 @@
     "updatedAt": "2026-03-24T07:21:52.474Z",
     "publisher": "双葉社",
     "isbn13": "9784575319651",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical-novel",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784480439802",
@@ -20544,7 +21580,14 @@
     "publishedDate": "2024-10-11",
     "isbn13": "9784480439802",
     "language": "ja",
-    "thumbnailUrl": "https://cover.openbd.jp/9784480439802.jpg"
+    "thumbnailUrl": "https://cover.openbd.jp/9784480439802.jpg",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical-novel",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784167908263",
@@ -20559,7 +21602,14 @@
     "publisher": "文藝春秋",
     "publishedDate": "201704",
     "isbn13": "9784167908263",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784569904979",
@@ -20574,7 +21624,14 @@
     "publisher": "PHP研究所",
     "publishedDate": "202507",
     "isbn13": "9784569904979",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical-novel",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784062208253",
@@ -20623,7 +21680,14 @@
     "publisher": "文藝春秋",
     "publishedDate": "201711",
     "isbn13": "9784167909598",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical-novel",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784334912970",
@@ -20638,7 +21702,14 @@
     "publisher": "光文社",
     "publishedDate": "201908",
     "isbn13": "9784334912970",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical-novel",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784758441971",
@@ -20653,7 +21724,14 @@
     "publisher": "角川春樹事務所",
     "publishedDate": "201809",
     "isbn13": "9784758441971",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784344422827",
@@ -20668,7 +21746,14 @@
     "publisher": "幻冬舎",
     "publishedDate": "201412",
     "isbn13": "9784344422827",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784492733172",
@@ -20683,7 +21768,14 @@
     "publisher": "東洋経済新報社",
     "publishedDate": "201410",
     "isbn13": "9784492733172",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784905369165",
@@ -20703,7 +21795,14 @@
     "publishedDate": "2011-11-18",
     "isbn13": "9784905369165",
     "language": "ja",
-    "thumbnailUrl": "https://cover.openbd.jp/9784905369165.jpg"
+    "thumbnailUrl": "https://cover.openbd.jp/9784905369165.jpg",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784140072332",
@@ -20733,7 +21832,14 @@
     "publisher": "東京創元社",
     "publishedDate": "202104",
     "isbn13": "9784488028350",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784798171548",
@@ -20779,7 +21885,14 @@
     "updatedAt": "2026-03-24T07:22:04.267Z",
     "publisher": "ＳＢクリエイティブ",
     "isbn13": "9784815628765",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784815631345",
@@ -20794,7 +21907,14 @@
     "updatedAt": "2026-03-24T07:22:04.794Z",
     "publisher": "ＳＢクリエイティブ",
     "isbn13": "9784815631345",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784041142486",
@@ -20811,7 +21931,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202311",
     "isbn13": "9784041142486",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784046851840",
@@ -20826,7 +21953,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202509",
     "isbn13": "9784046851840",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784046823229",
@@ -20904,7 +22038,14 @@
     "updatedAt": "2026-03-24T07:22:09.027Z",
     "publisher": "スクウェア・エニックス",
     "isbn13": "9784757596962",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784757585850",
@@ -20920,7 +22061,14 @@
     "publisher": "スクウェア・エニックス",
     "publishedDate": "202305",
     "isbn13": "9784757585850",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784815623784",
@@ -20935,7 +22083,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "202402",
     "isbn13": "9784815623784",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784047292598",
@@ -21033,7 +22188,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202008",
     "isbn13": "9784041092484",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784384057492",
@@ -21051,7 +22213,14 @@
     "publisher": "三修社",
     "publishedDate": "201406",
     "isbn13": "9784384057492",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784046318336",
@@ -21067,7 +22236,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201812",
     "isbn13": "9784046318336",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784041071182",
@@ -21097,7 +22273,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201902",
     "isbn13": "9784040655468",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784040655048",
@@ -21129,7 +22312,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202206",
     "isbn13": "9784046814524",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784048867016",
@@ -21159,7 +22349,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202209",
     "isbn13": "9784049145267",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784757122000",
@@ -21189,7 +22386,14 @@
     "publisher": "実業之日本社",
     "publishedDate": "202112",
     "isbn13": "9784408556949",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784488400620",
@@ -21208,7 +22412,14 @@
     "publisher": "東京創元社",
     "publishedDate": "202011",
     "isbn13": "9784488400620",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784094066777",
@@ -21223,7 +22434,14 @@
     "publisher": "小学館",
     "publishedDate": "201908",
     "isbn13": "9784094066777",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784334107000",
@@ -21237,7 +22455,14 @@
     "updatedAt": "2026-03-24T07:22:23.802Z",
     "publisher": "光文社",
     "isbn13": "9784334107000",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784094071948",
@@ -21252,7 +22477,14 @@
     "publisher": "小学館",
     "publishedDate": "202211",
     "isbn13": "9784094071948",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784488803155",
@@ -21266,7 +22498,14 @@
     "updatedAt": "2026-03-24T07:22:24.864Z",
     "publisher": "東京創元社",
     "isbn13": "9784488803155",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784094074932",
@@ -21281,7 +22520,14 @@
     "publisher": "小学館",
     "publishedDate": "202509",
     "isbn13": "9784094074932",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784041879917",
@@ -21311,7 +22557,14 @@
     "publisher": "中央公論新社",
     "publishedDate": "202205",
     "isbn13": "9784122072138",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784777825233",
@@ -21385,7 +22638,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202202",
     "isbn13": "9784041123485",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784041162842",
@@ -21414,7 +22674,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202202",
     "isbn13": "9784041089996",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784041162835",
@@ -21457,7 +22724,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202201",
     "isbn13": "9784041089989",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784041162729",
@@ -21472,7 +22746,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202505",
     "isbn13": "9784041162729",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784041162750",
@@ -21501,7 +22782,14 @@
     "publisher": "秋田書店",
     "publishedDate": "200708",
     "isbn13": "9784253203876",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784569815695",
@@ -21532,7 +22820,14 @@
     "publisher": "角川グループパブリッシング",
     "publishedDate": "200904",
     "isbn13": "9784047152076",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784088798882",
@@ -21548,7 +22843,14 @@
     "publisher": "集英社",
     "publishedDate": "201408",
     "isbn13": "9784088798882",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784088903828",
@@ -21563,7 +22865,14 @@
     "publisher": "集英社",
     "publishedDate": "201603",
     "isbn13": "9784088903828",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784098603862",
@@ -21578,7 +22887,14 @@
     "publisher": "小学館",
     "publishedDate": "201909",
     "isbn13": "9784098603862",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784875820291",
@@ -21635,7 +22951,14 @@
     "publisher": "集英社",
     "publishedDate": "201510",
     "isbn13": "9784088804620",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784087032895",
@@ -21651,7 +22974,14 @@
     "publisher": "集英社",
     "publishedDate": "201305",
     "isbn13": "9784087032895",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784088733258",
@@ -21666,7 +22996,14 @@
     "publisher": "集英社",
     "publishedDate": "200208",
     "isbn13": "9784088733258",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784798027678",
@@ -21712,7 +23049,14 @@
     "publisher": "芳文社",
     "publishedDate": "202205",
     "isbn13": "9784832273672",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784091284020",
@@ -21728,7 +23072,14 @@
     "publisher": "小学館",
     "publishedDate": "201807",
     "isbn13": "9784091284020",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784488226039",
@@ -21744,7 +23095,14 @@
     "publisher": "東京創元社",
     "publishedDate": "201702",
     "isbn13": "9784488226039",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784757143166",
@@ -21759,7 +23117,14 @@
     "publisher": "NTT出版",
     "publishedDate": "201309",
     "isbn13": "9784757143166",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784777826735",
@@ -21787,7 +23152,14 @@
     "publisher": "竹書房",
     "publishedDate": "202307",
     "isbn13": "9784801981249",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784812487983",
@@ -21802,7 +23174,14 @@
     "publisher": "竹書房",
     "publishedDate": "201410",
     "isbn13": "9784812487983",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784063879940",
@@ -21817,7 +23196,14 @@
     "publisher": "講談社",
     "publishedDate": "201409",
     "isbn13": "9784063879940",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784041037805",
@@ -21833,7 +23219,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201512",
     "isbn13": "9784041037805",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784839960803",
@@ -21860,7 +23253,14 @@
     "publisher": "新潮社",
     "publishedDate": "201604",
     "isbn13": "9784107718853",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784867200940",
@@ -21884,7 +23284,14 @@
     "language": "ja",
     "subjects": [
       "OL;おひとりさま;ひとり酒;ワカコ;ビール;日本酒;ワイン;ドラマ化"
-    ]
+    ],
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784052037993",
@@ -21915,7 +23322,14 @@
     "publisher": "宝島社",
     "publishedDate": "200812",
     "isbn13": "9784796666954",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784815621117",
@@ -21945,7 +23359,14 @@
     "publisher": "小学館",
     "publishedDate": "202104",
     "isbn13": "9784091990709",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784094530049",
@@ -21960,7 +23381,14 @@
     "publisher": "小学館",
     "publishedDate": "202104",
     "isbn13": "9784094530049",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784094514346",
@@ -21975,7 +23403,14 @@
     "publisher": "小学館",
     "publishedDate": "201308",
     "isbn13": "9784094514346",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784048676984",
@@ -22034,7 +23469,14 @@
     "publisher": "角川グループパブリッシング",
     "publishedDate": "200903",
     "isbn13": "9784048675932",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784757142473",
@@ -22104,7 +23546,14 @@
     "publisher": "ソフトバンククリエイティブ",
     "publishedDate": "201210",
     "isbn13": "9784797371970",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784757142565",
@@ -22164,7 +23613,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "201807",
     "isbn13": "9784797396928",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784797369915",
@@ -22209,7 +23665,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "201604",
     "isbn13": "9784797386929",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784049156409",
@@ -22225,7 +23688,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202403",
     "isbn13": "9784049156409",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784049164046",
@@ -22284,7 +23754,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202303",
     "isbn13": "9784041124604",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784488737078",
@@ -22299,7 +23776,14 @@
     "publisher": "東京創元社",
     "publishedDate": "201901",
     "isbn13": "9784488737078",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784757535169",
@@ -22314,7 +23798,14 @@
     "publisher": "スクウェア・エニックス",
     "publishedDate": "201202",
     "isbn13": "9784757535169",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784840222785",
@@ -22329,7 +23820,14 @@
     "publisher": "角川書店",
     "publishedDate": "200302",
     "isbn13": "9784840222785",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784840224598",
@@ -22344,7 +23842,14 @@
     "publisher": "角川書店",
     "publishedDate": "200309",
     "isbn13": "9784840224598",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784840224949",
@@ -22359,7 +23864,14 @@
     "publisher": "角川書店",
     "publishedDate": "200310",
     "isbn13": "9784840224949",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784048912044",
@@ -22449,7 +23961,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "202401",
     "isbn13": "9784815623562",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784909542403",
@@ -22475,7 +23994,14 @@
     "subjects": [
       "文学のトリセツ;文学;批評;国際バカロレア;入試;文学批評;構造主義批評;脱構築批評;精神分析批評;マルクス主義批評;フェニミズム批評;ポストコロニアル批評;カルチュラル・スタディーズ;障害学批評;エコクリティシズム批評;人文情報学批評"
     ],
-    "thumbnailUrl": "https://cover.openbd.jp/9784909542403.jpg"
+    "thumbnailUrl": "https://cover.openbd.jp/9784909542403.jpg",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784815623555",
@@ -22490,7 +24016,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "202401",
     "isbn13": "9784815623555",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784815630744",
@@ -22521,7 +24054,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "202401",
     "isbn13": "9784815623579",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784815619657",
@@ -22567,7 +24107,14 @@
     "publisher": "スクウェア・エニックス",
     "publishedDate": "202207",
     "isbn13": "9784757580343",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784815636791",
@@ -22658,7 +24205,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "202108",
     "isbn13": "9784815610142",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784815600969",
@@ -22672,7 +24226,14 @@
     "updatedAt": "2026-03-24T07:23:30.458Z",
     "publisher": "SBクリエイティブ",
     "isbn13": "9784815600969",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784815604806",
@@ -22687,7 +24248,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "202003",
     "isbn13": "9784815604806",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784797399134",
@@ -22702,7 +24270,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "201811",
     "isbn13": "9784797399134",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784815607814",
@@ -22715,7 +24290,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "202012",
     "isbn13": "9784815607814",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784797394085",
@@ -22730,7 +24312,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "201711",
     "isbn13": "9784797394085",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784815616007",
@@ -22745,7 +24334,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "202210",
     "isbn13": "9784815616007",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784797390186",
@@ -22760,7 +24356,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "201708",
     "isbn13": "9784797390186",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784815619121",
@@ -22789,7 +24392,14 @@
     "updatedAt": "2026-03-24T07:23:35.239Z",
     "publisher": "SBクリエイティブ",
     "isbn13": "9784797392975",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784815607838",
@@ -22804,7 +24414,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "202103",
     "isbn13": "9784815607838",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784815612276",
@@ -22819,7 +24436,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "202201",
     "isbn13": "9784815612276",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784815607418",
@@ -22834,7 +24458,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "202009",
     "isbn13": "9784815607418",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784815637576",
@@ -22879,7 +24510,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "202103",
     "isbn13": "9784815608262",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784757586420",
@@ -22895,7 +24533,14 @@
     "publisher": "スクウェア・エニックス",
     "publishedDate": "202307",
     "isbn13": "9784757586420",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784048932325",
@@ -22940,7 +24585,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201912",
     "isbn13": "9784049129045",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784040751436",
@@ -22955,7 +24607,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202310",
     "isbn13": "9784040751436",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784040709741",
@@ -22970,7 +24629,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201606",
     "isbn13": "9784040709741",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784040727226",
@@ -22985,7 +24651,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201807",
     "isbn13": "9784040727226",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784040705170",
@@ -23000,7 +24673,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201511",
     "isbn13": "9784040705170",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784040724201",
@@ -23015,7 +24695,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201803",
     "isbn13": "9784040724201",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784040724195",
@@ -23030,7 +24717,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201711",
     "isbn13": "9784040724195",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784040705156",
@@ -23045,7 +24739,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201503",
     "isbn13": "9784040705156",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784040705163",
@@ -23060,7 +24761,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201507",
     "isbn13": "9784040705163",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784040709765",
@@ -23075,7 +24783,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201703",
     "isbn13": "9784040709765",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784041036723",
@@ -23091,7 +24806,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201511",
     "isbn13": "9784041036723",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784040709758",
@@ -23106,7 +24828,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201610",
     "isbn13": "9784040709758",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784040756219",
@@ -23165,7 +24894,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201905",
     "isbn13": "9784040657394",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784046814388",
@@ -23181,7 +24917,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202206",
     "isbn13": "9784046814388",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784798023397",
@@ -23230,7 +24973,14 @@
     "publisher": "集英社",
     "publishedDate": "201403",
     "isbn13": "9784086194860",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784063756463",
@@ -23260,7 +25010,14 @@
     "publisher": "講談社",
     "publishedDate": "200109",
     "isbn13": "9784063130249",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784098536559",
@@ -23275,7 +25032,14 @@
     "publisher": "小学館",
     "publishedDate": "202410",
     "isbn13": "9784098536559",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784098700295",
@@ -23290,7 +25054,14 @@
     "publisher": "小学館",
     "publishedDate": "201801",
     "isbn13": "9784098700295",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784799106624",
@@ -23320,7 +25091,14 @@
     "publisher": "集英社",
     "publishedDate": "200807",
     "isbn13": "9784088774763",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784086194754",
@@ -23335,7 +25113,14 @@
     "publisher": "集英社",
     "publishedDate": "201312",
     "isbn13": "9784086194754",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784091822581",
@@ -23350,7 +25135,14 @@
     "publisher": "小学館",
     "publishedDate": "200812",
     "isbn13": "9784091822581",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784262157375",
@@ -23414,7 +25206,14 @@
     "updatedAt": "2026-03-24T07:24:03.212Z",
     "publisher": "オーバーラップ",
     "isbn13": "9784824011435",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784894251007",
@@ -23429,7 +25228,14 @@
     "publisher": "ホビージャパン",
     "publishedDate": "199603",
     "isbn13": "9784894251007",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784797355680",
@@ -23444,7 +25250,14 @@
     "publisher": "ソフトバンククリエイティブ",
     "publishedDate": "200911",
     "isbn13": "9784797355680",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784022741011",
@@ -23493,7 +25306,14 @@
     "publisher": "集英社",
     "publishedDate": "201110",
     "isbn13": "9784088792071",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784596515827",
@@ -23508,7 +25328,14 @@
     "publisher": "ハーレクイン",
     "publishedDate": "201310",
     "isbn13": "9784596515827",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784909542410",
@@ -23533,7 +25360,14 @@
     "subjects": [
       "歴史;源平合戦;源義経;明智光秀;鎌倉幕府;坂本龍馬;大河ドラマ;豊臣秀吉;徳川家康;大化の改新;蘇我入鹿殺害事件;歴史小説;史実;新説;鵯越;歴史探偵;史実調査"
     ],
-    "thumbnailUrl": "https://cover.openbd.jp/9784909542410.jpg"
+    "thumbnailUrl": "https://cover.openbd.jp/9784909542410.jpg",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784091234780",
@@ -23548,7 +25382,14 @@
     "publisher": "小学館",
     "publishedDate": "201202",
     "isbn13": "9784091234780",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784845801701",
@@ -23563,7 +25404,14 @@
     "publisher": "リイド社",
     "publishedDate": "200208",
     "isbn13": "9784845801701",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784047260764",
@@ -23578,7 +25426,14 @@
     "publisher": "角川グループパブリッシング ",
     "publishedDate": "200910",
     "isbn13": "9784047260764",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784796662468",
@@ -23607,7 +25462,14 @@
     "updatedAt": "2026-03-24T07:24:11.643Z",
     "publisher": "実業之日本社",
     "isbn13": "9784408559209",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "horror",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784408558356",
@@ -23622,7 +25484,14 @@
     "publisher": "実業之日本社",
     "publishedDate": "202310",
     "isbn13": "9784408558356",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784101801339",
@@ -23637,7 +25506,14 @@
     "publisher": "新潮社",
     "publishedDate": "201809",
     "isbn13": "9784101801339",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784091838674",
@@ -23652,7 +25528,14 @@
     "publisher": "小学館",
     "publishedDate": "201105",
     "isbn13": "9784091838674",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784865651621",
@@ -23688,7 +25571,14 @@
     "publisher": "小学館",
     "publishedDate": "202109",
     "isbn13": "9784094070637",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784492961483",
@@ -23718,7 +25608,14 @@
     "publisher": "集英社",
     "publishedDate": "201906",
     "isbn13": "9784087458831",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784295411055",
@@ -23781,7 +25678,14 @@
     "updatedAt": "2026-03-24T07:24:17.519Z",
     "publisher": "ＳＢクリエイティブ",
     "isbn13": "9784815620004",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784569818160",
@@ -23964,7 +25868,14 @@
     "publisher": "学陽書房",
     "publishedDate": "200104",
     "isbn13": "9784313860988",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784062196772",
@@ -24024,7 +25935,14 @@
     "publisher": "翔泳社",
     "publishedDate": "202403",
     "isbn13": "9784798179032",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical-novel",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784569760001",
@@ -24088,7 +26006,14 @@
     "publisher": "幻冬舎",
     "publishedDate": "200110",
     "isbn13": "9784344001213",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784569678580",
@@ -24134,7 +26059,14 @@
     "publisher": "講談社",
     "publishedDate": "202109",
     "isbn13": "9784758022880",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784757582682",
@@ -24151,7 +26083,14 @@
     "publisher": "スクウェア・エニックス",
     "publishedDate": "202211",
     "isbn13": "9784757582682",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784040694184",
@@ -24167,7 +26106,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201709",
     "isbn13": "9784040694184",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784040644691",
@@ -24183,7 +26129,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202003",
     "isbn13": "9784040644691",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784040653471",
@@ -24199,7 +26152,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201812",
     "isbn13": "9784040653471",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784040658483",
@@ -24218,7 +26178,14 @@
     "publisher": "ＫＡＤＯＫＡＷＡ",
     "publishedDate": "2019-08-23",
     "isbn13": "9784040658483",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784040653402",
@@ -24251,7 +26218,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202208",
     "isbn13": "9784046815255",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784046822550",
@@ -24267,7 +26241,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202303",
     "isbn13": "9784046822550",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784040739304",
@@ -24282,7 +26263,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202012",
     "isbn13": "9784040739304",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784824000118",
@@ -24298,7 +26286,14 @@
     "publisher": "オーバーラップ",
     "publishedDate": "202109",
     "isbn13": "9784824000118",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784865545524",
@@ -24314,7 +26309,14 @@
     "publisher": "オーバーラップ",
     "publishedDate": "201909",
     "isbn13": "9784865545524",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784824002549",
@@ -24330,7 +26332,14 @@
     "publisher": "オーバーラップ",
     "publishedDate": "202207",
     "isbn13": "9784824002549",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784865540543",
@@ -24345,7 +26354,14 @@
     "publisher": "オーバーラップ",
     "publishedDate": "201506",
     "isbn13": "9784865540543",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784824012340",
@@ -24361,7 +26377,14 @@
     "updatedAt": "2026-03-24T07:24:42.348Z",
     "publisher": "オーバーラップ",
     "isbn13": "9784824012340",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784824000644",
@@ -24376,7 +26399,14 @@
     "publisher": "オーバーラップ",
     "publishedDate": "202201",
     "isbn13": "9784824000644",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784865544640",
@@ -24391,7 +26421,14 @@
     "publisher": "オーバーラップ",
     "publishedDate": "201903",
     "isbn13": "9784865544640",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784041057933",
@@ -24407,7 +26444,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201707",
     "isbn13": "9784041057933",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784041044254",
@@ -24423,7 +26467,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201607",
     "isbn13": "9784041044254",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784040740300",
@@ -24438,7 +26489,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202103",
     "isbn13": "9784040740300",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784098511082",
@@ -24454,7 +26512,14 @@
     "publisher": "小学館",
     "publishedDate": "202205",
     "isbn13": "9784098511082",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784299045003",
@@ -24470,7 +26535,14 @@
     "publisher": "宝島社",
     "publishedDate": "202307",
     "isbn13": "9784299045003",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784098605774",
@@ -24486,7 +26558,14 @@
     "publisher": "小学館",
     "publishedDate": "201912",
     "isbn13": "9784098605774",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784098501922",
@@ -24502,7 +26581,14 @@
     "publisher": "小学館",
     "publishedDate": "202007",
     "isbn13": "9784098501922",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784041059173",
@@ -24518,7 +26604,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201706",
     "isbn13": "9784041059173",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784575418132",
@@ -24534,7 +26627,14 @@
     "publisher": "双葉社",
     "publishedDate": "202401",
     "isbn13": "9784575418132",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784821156085",
@@ -24550,7 +26650,14 @@
     "publisher": "ぶんか社",
     "publishedDate": "202305",
     "isbn13": "9784821156085",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784049152258",
@@ -24566,7 +26673,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202308",
     "isbn13": "9784049152258",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784757587885",
@@ -24591,7 +26705,14 @@
     "language": "ja",
     "subjects": [
       "追放;無双;魔王;ギルド"
-    ]
+    ],
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784815607050",
@@ -24606,7 +26727,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "202007",
     "isbn13": "9784815607050",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784815606510",
@@ -24620,7 +26748,14 @@
     "updatedAt": "2026-03-24T07:24:50.825Z",
     "publisher": "SBクリエイティブ",
     "isbn13": "9784815606510",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784488470074",
@@ -24635,7 +26770,14 @@
     "publisher": "東京創元社",
     "publishedDate": "201612",
     "isbn13": "9784488470074",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784049131178",
@@ -24653,7 +26795,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202003",
     "isbn13": "9784049131178",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784757571334",
@@ -24669,7 +26818,14 @@
     "publisher": "スクウェア・エニックス",
     "publishedDate": "202103",
     "isbn13": "9784757571334",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784049134483",
@@ -24684,7 +26840,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202010",
     "isbn13": "9784049134483",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784049148701",
@@ -24714,7 +26877,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202406",
     "isbn13": "9784049156973",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784801984219",
@@ -24728,7 +26898,14 @@
     "updatedAt": "2026-03-24T07:24:55.049Z",
     "publisher": "竹書房",
     "isbn13": "9784801984219",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784098607822",
@@ -24743,7 +26920,14 @@
     "publisher": "小学館",
     "publishedDate": "202102",
     "isbn13": "9784098607822",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784074566457",
@@ -24760,7 +26944,14 @@
     "publisher": "主婦の友社",
     "publishedDate": "202404",
     "isbn13": "9784074566457",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784948759657",
@@ -24790,7 +26981,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "201512",
     "isbn13": "9784797382716",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784063872279",
@@ -24837,7 +27035,14 @@
     "publisher": "講談社",
     "publishedDate": "201411",
     "isbn13": "9784063880151",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784398294456",
@@ -24878,7 +27083,14 @@
     "publisher": "集英社",
     "publishedDate": "200104",
     "isbn13": "9784088591742",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784904674178",
@@ -24907,7 +27119,14 @@
     "updatedAt": "2026-03-24T07:25:02.966Z",
     "publisher": "集英社",
     "isbn13": "9784088941707",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784867204290",
@@ -24922,7 +27141,14 @@
     "publisher": "コアミックス",
     "publishedDate": "202211",
     "isbn13": "9784867204290",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784757411203",
@@ -24972,7 +27198,14 @@
     "publisher": "小学館",
     "publishedDate": "202011",
     "isbn13": "9784098608119",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784091894601",
@@ -24987,7 +27220,14 @@
     "publisher": "小学館",
     "publishedDate": "201703",
     "isbn13": "9784091894601",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784091897435",
@@ -25002,7 +27242,14 @@
     "publisher": "小学館",
     "publishedDate": "201711",
     "isbn13": "9784091897435",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784098627509",
@@ -25018,7 +27265,14 @@
     "publisher": "小学館",
     "publishedDate": "202403",
     "isbn13": "9784098627509",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784098608133",
@@ -25034,7 +27288,14 @@
     "publisher": "小学館",
     "publishedDate": "202011",
     "isbn13": "9784098608133",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784488737047",
@@ -25049,7 +27310,14 @@
     "publisher": "東京創元社",
     "publishedDate": "201604",
     "isbn13": "9784488737047",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784063814460",
@@ -25064,7 +27332,14 @@
     "publisher": "講談社",
     "publishedDate": "201502",
     "isbn13": "9784063814460",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784797392791",
@@ -25079,7 +27354,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "201705",
     "isbn13": "9784797392791",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784040674759",
@@ -25094,7 +27376,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201504",
     "isbn13": "9784040674759",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784063814354",
@@ -25124,7 +27413,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "201611",
     "isbn13": "9784797389852",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784798165967",
@@ -25154,7 +27450,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202502",
     "isbn13": "9784049162257",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784049132021",
@@ -25169,7 +27472,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202008",
     "isbn13": "9784049132021",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784061389557",
@@ -25199,7 +27509,14 @@
     "publisher": "小学館",
     "publishedDate": "201802",
     "isbn13": "9784091898395",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784098601752",
@@ -25214,7 +27531,14 @@
     "publisher": "小学館",
     "publishedDate": "201811",
     "isbn13": "9784098601752",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784049008159",
@@ -25263,7 +27587,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201805",
     "isbn13": "9784048937979",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784049135015",
@@ -25280,7 +27611,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202010",
     "isbn13": "9784049135015",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784048690850",
@@ -25295,7 +27633,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201412",
     "isbn13": "9784048690850",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784054065512",
@@ -25326,7 +27671,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201801",
     "isbn13": "9784041063859",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784041046807",
@@ -25363,7 +27715,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201807",
     "isbn13": "9784041071700",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784492046395",
@@ -25422,7 +27781,14 @@
     "publisher": "東京創元社",
     "publishedDate": "201803",
     "isbn13": "9784488201180",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784488605087",
@@ -25438,7 +27804,14 @@
     "publisher": "東京創元社",
     "publishedDate": "202602",
     "isbn13": "9784488605087",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784488010959",
@@ -25454,7 +27827,14 @@
     "publisher": "東京創元社",
     "publishedDate": "202102",
     "isbn13": "9784488010959",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784488010935",
@@ -25470,7 +27850,14 @@
     "publisher": "東京創元社",
     "publishedDate": "202001",
     "isbn13": "9784488010935",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784488018450",
@@ -25489,7 +27876,14 @@
     "publisher": "東京創元社",
     "publishedDate": "202110",
     "isbn13": "9784488018450",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784048738309",
@@ -25567,7 +27961,14 @@
     "publisher": "静山社",
     "publishedDate": "202303",
     "isbn13": "9784863897045",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784863897090",
@@ -25586,7 +27987,14 @@
     "publisher": "静山社",
     "publishedDate": "2023-11-24",
     "isbn13": "9784863897090",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784799103944",
@@ -25695,7 +28103,14 @@
     "publisher": "東京創元社",
     "publishedDate": "202105",
     "isbn13": "9784488438142",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784488400576",
@@ -25712,7 +28127,14 @@
     "publisher": "東京創元社",
     "publishedDate": "201412",
     "isbn13": "9784488400576",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784065378762",
@@ -25746,7 +28168,14 @@
     "publisher": "集英社",
     "publishedDate": "201502",
     "isbn13": "9784087452808",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784065336816",
@@ -25777,7 +28206,14 @@
     "publisher": "東京創元社",
     "publishedDate": "202009",
     "isbn13": "9784488265106",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784299046543",
@@ -25838,7 +28274,14 @@
     "publisher": "東京創元社",
     "publishedDate": "201707",
     "isbn13": "9784488747022",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784488016630",
@@ -25854,7 +28297,14 @@
     "publisher": "東京創元社",
     "publishedDate": "201801",
     "isbn13": "9784488016630",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784295411130",
@@ -25935,7 +28385,14 @@
     "publisher": "小学館",
     "publishedDate": "202203",
     "isbn13": "9784098715619",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784309904634",
@@ -25950,7 +28407,14 @@
     "publisher": "河出書房新社",
     "publishedDate": "2001-09",
     "isbn13": "9784309904634",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784787235527",
@@ -25971,7 +28435,14 @@
     "publishedDate": "2025-02-28",
     "isbn13": "9784787235527",
     "language": "ja",
-    "thumbnailUrl": "https://cover.openbd.jp/9784787235527.jpg"
+    "thumbnailUrl": "https://cover.openbd.jp/9784787235527.jpg",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784326652310",
@@ -26029,7 +28500,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202210",
     "isbn13": "9784046818249",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784046839091",
@@ -26046,7 +28524,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202409",
     "isbn13": "9784046839091",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784046819284",
@@ -26061,7 +28546,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202212",
     "isbn13": "9784046819284",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784046823557",
@@ -26076,7 +28568,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202305",
     "isbn13": "9784046823557",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784041145555",
@@ -26091,7 +28590,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202404",
     "isbn13": "9784041145555",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784872575521",
@@ -26106,7 +28612,14 @@
     "publisher": "イースト・プレス",
     "publishedDate": "200506",
     "isbn13": "9784872575521",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784046815705",
@@ -26121,7 +28634,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202207",
     "isbn13": "9784046815705",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784758039529",
@@ -26134,7 +28654,14 @@
     "publisher": "講談社",
     "publishedDate": "202311",
     "isbn13": "9784758039529",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784047341555",
@@ -26179,7 +28706,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202209",
     "isbn13": "9784041128381",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784041135778",
@@ -26203,7 +28737,14 @@
     "language": "ja",
     "subjects": [
       "ボーイズラブ;BL;アニメ化;純ロマ;ロマチカ;恋愛;ラブコメ;兄弟;家庭教師;恋人;年齢差;年の差;BL作家;ハイスペック;小説家;櫻井孝宏;花田光;谷山紀章;家族;カミングアウト;家事;出版業界;世界一初恋;エメラルド;日常;編集;同棲;同居;片思い;失恋"
-    ]
+    ],
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "romance",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784041116616",
@@ -26218,7 +28759,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202109",
     "isbn13": "9784041116616",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784041150047",
@@ -26232,7 +28780,14 @@
     "updatedAt": "2026-03-24T07:26:01.653Z",
     "publisher": "ＫＡＤＯＫＡＷＡ",
     "isbn13": "9784041150047",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784041098042",
@@ -26247,7 +28802,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202009",
     "isbn13": "9784041098042",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784041150054",
@@ -26261,7 +28823,14 @@
     "updatedAt": "2026-03-24T07:26:02.718Z",
     "publisher": "ＫＡＤＯＫＡＷＡ",
     "isbn13": "9784041150054",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784041032961",
@@ -26276,7 +28845,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201508",
     "isbn13": "9784041032961",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784044455248",
@@ -26291,7 +28867,14 @@
     "publisher": "角川書店",
     "publishedDate": "200605",
     "isbn13": "9784044455248",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "romance",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784815501365",
@@ -26336,7 +28919,14 @@
     "publisher": "幻冬舎",
     "publishedDate": "202009",
     "isbn13": "9784344847149",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784798149837",
@@ -26381,7 +28971,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201803",
     "isbn13": "9784040697901",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784344849969",
@@ -26396,7 +28993,14 @@
     "publisher": "幻冬舎",
     "publishedDate": "202205",
     "isbn13": "9784344849969",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784815502065",
@@ -26426,7 +29030,14 @@
     "publisher": "廣済堂出版",
     "publishedDate": "201408",
     "isbn13": "9784331518649",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical-novel",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784074435944",
@@ -26441,7 +29052,14 @@
     "publisher": "主婦の友社",
     "publishedDate": "202008",
     "isbn13": "9784074435944",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784061385429",
@@ -26486,7 +29104,14 @@
     "publisher": "講談社",
     "publishedDate": "202201",
     "isbn13": "9784758023467",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784398218339",
@@ -26613,7 +29238,14 @@
     "publisher": "講談社",
     "publishedDate": "202508",
     "isbn13": "9784065404010",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784331523926",
@@ -26629,7 +29261,14 @@
     "publisher": "廣済堂出版",
     "publishedDate": "202305",
     "isbn13": "9784331523926",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784058025024",
@@ -26644,7 +29283,14 @@
     "updatedAt": "2026-03-24T07:26:26.516Z",
     "publisher": "Ｇａｋｋｅｎ",
     "isbn13": "9784058025024",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784391129113",
@@ -26659,7 +29305,14 @@
     "publisher": "主婦と生活社",
     "publishedDate": "200408",
     "isbn13": "9784391129113",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784575317480",
@@ -26674,7 +29327,14 @@
     "publisher": "双葉社",
     "publishedDate": "202210",
     "isbn13": "9784575317480",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784331523896",
@@ -26689,7 +29349,14 @@
     "publisher": "廣済堂出版",
     "publishedDate": "202304",
     "isbn13": "9784331523896",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784798071770",
@@ -26724,7 +29391,14 @@
     "publisher": "主婦の友社",
     "publishedDate": "2023-10-16",
     "isbn13": "9784074557813",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784333026418",
@@ -26740,7 +29414,14 @@
     "publisher": "佼成出版社",
     "publishedDate": "201402",
     "isbn13": "9784333026418",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784824002600",
@@ -26755,7 +29436,14 @@
     "publisher": "オーバーラップ",
     "publishedDate": "202209",
     "isbn13": "9784824002600",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784065117750",
@@ -26770,7 +29458,14 @@
     "publisher": "講談社",
     "publishedDate": "201806",
     "isbn13": "9784065117750",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784844376545",
@@ -26868,7 +29563,14 @@
     "publisher": "臨川書店",
     "publishedDate": "200707",
     "isbn13": "9784653040132",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784815622732",
@@ -26960,7 +29662,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201907",
     "isbn13": "9784041070598",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784041048856",
@@ -26976,7 +29685,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201612",
     "isbn13": "9784041048856",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784041070611",
@@ -26992,7 +29708,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201901",
     "isbn13": "9784041070611",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784041130537",
@@ -27008,7 +29731,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202301",
     "isbn13": "9784041130537",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784865541830",
@@ -27024,7 +29754,14 @@
     "publisher": "オーバーラップ",
     "publishedDate": "201612",
     "isbn13": "9784865541830",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784865543810",
@@ -27040,7 +29777,14 @@
     "publisher": "オーバーラップ",
     "publishedDate": "201807",
     "isbn13": "9784865543810",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784046819840",
@@ -27056,7 +29800,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "202212",
     "isbn13": "9784046819840",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784780801941",
@@ -27107,7 +29858,14 @@
     "publisher": "角川グループホールディングス",
     "publishedDate": "201305",
     "isbn13": "9784048915755",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784048663892",
@@ -27122,7 +29880,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201402",
     "isbn13": "9784048663892",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784815617288",
@@ -27168,7 +29933,14 @@
     "publisher": "翔泳社",
     "publishedDate": "202407",
     "isbn13": "9784798183411",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784865651218",
@@ -27204,7 +29976,14 @@
     "publisher": "小学館",
     "publishedDate": "201210",
     "isbn13": "9784091240811",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784492701553",
@@ -27360,7 +30139,14 @@
     "publisher": "東京創元社",
     "publishedDate": "202209",
     "isbn13": "9784488464226",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784569823843",
@@ -27404,7 +30190,14 @@
     "publisher": "学研マーケティング",
     "publishedDate": "201304",
     "isbn13": "9784056069686",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784865651812",
@@ -27441,7 +30234,14 @@
     "publisher": "東京創元社",
     "publishedDate": "201505",
     "isbn13": "9784488266035",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784862511164",
@@ -27476,7 +30276,14 @@
     "publisher": "東京創元社",
     "publishedDate": "202208",
     "isbn13": "9784488464219",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784488208042",
@@ -27492,7 +30299,14 @@
     "publisher": "東京創元社",
     "publishedDate": "201511",
     "isbn13": "9784488208042",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784384060324",
@@ -27509,7 +30323,14 @@
     "publisher": "三修社",
     "publishedDate": "202310",
     "isbn13": "9784384060324",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784906502165",
@@ -27539,7 +30360,14 @@
     "publisher": "春風社",
     "publishedDate": "201502",
     "isbn13": "9784861104275",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784861240096",
@@ -27554,7 +30382,14 @@
     "publisher": "南方新社",
     "publishedDate": "200403",
     "isbn13": "9784861240096",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784488013066",
@@ -27570,7 +30405,14 @@
     "publisher": "東京創元社",
     "publishedDate": "201302",
     "isbn13": "9784488013066",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784488483012",
@@ -27585,7 +30427,14 @@
     "publisher": "東京創元社",
     "publishedDate": "200811",
     "isbn13": "9784488483012",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784798070476",
@@ -27600,7 +30449,14 @@
     "publisher": "秀和システム",
     "publishedDate": "202308",
     "isbn13": "9784798070476",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784569633459",
@@ -27630,7 +30486,14 @@
     "publisher": "語研",
     "publishedDate": "200506",
     "isbn13": "9784876151073",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784165041504",
@@ -27645,7 +30508,14 @@
     "publisher": "文芸春秋",
     "publishedDate": "199604",
     "isbn13": "9784165041504",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784569611310",
@@ -27676,7 +30546,14 @@
     "publisher": "東京創元社",
     "publishedDate": "202007",
     "isbn13": "9784488162054",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784488805043",
@@ -27692,7 +30569,14 @@
     "publisher": "東京創元社",
     "publishedDate": "202407",
     "isbn13": "9784488805043",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784384060805",
@@ -27710,7 +30594,14 @@
     "updatedAt": "2026-03-24T07:27:17.305Z",
     "publisher": "三修社",
     "isbn13": "9784384060805",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784488015466",
@@ -27725,7 +30616,14 @@
     "updatedAt": "2026-03-24T07:27:17.836Z",
     "publisher": "東京創元社",
     "isbn13": "9784488015466",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784864542135",
@@ -27760,7 +30658,14 @@
     "publisher": "講談社",
     "publishedDate": "202102",
     "isbn13": "9784065222522",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784815610128",
@@ -27786,7 +30691,14 @@
     "publisher": "旺文社",
     "publishedDate": "202207",
     "isbn13": "9784010349809",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784797351224",
@@ -27802,7 +30714,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "201503",
     "isbn13": "9784797351224",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784331515532",
@@ -27817,7 +30736,14 @@
     "publisher": "廣済堂あかつき出版事業部",
     "publishedDate": "201107",
     "isbn13": "9784331515532",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784274233999",
@@ -27832,7 +30758,14 @@
     "updatedAt": "2026-03-24T07:27:25.240Z",
     "publisher": "オーム社",
     "isbn13": "9784274233999",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784274231834",
@@ -27847,7 +30780,14 @@
     "updatedAt": "2026-03-24T07:27:25.769Z",
     "publisher": "オーム社",
     "isbn13": "9784274231834",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784797381030",
@@ -27862,7 +30802,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "201412",
     "isbn13": "9784797381030",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784797347708",
@@ -27877,7 +30824,14 @@
     "publisher": "ソフトバンククリエイティブ",
     "publishedDate": "200806",
     "isbn13": "9784797347708",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784797370188",
@@ -27892,7 +30846,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "201608",
     "isbn13": "9784797370188",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784797362022",
@@ -27907,7 +30868,14 @@
     "publisher": "ソフトバンククリエイティブ",
     "publishedDate": "201012",
     "isbn13": "9784797362022",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784839983154",
@@ -27922,7 +30890,14 @@
     "updatedAt": "2026-03-24T07:27:29.488Z",
     "publisher": "マイナビ出版",
     "isbn13": "9784839983154",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784757143142",
@@ -27937,7 +30912,14 @@
     "publisher": "NTT出版",
     "publishedDate": "201307",
     "isbn13": "9784757143142",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784074328055",
@@ -27952,7 +30934,14 @@
     "publisher": "主婦の友社",
     "publishedDate": "201904",
     "isbn13": "9784074328055",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784074316977",
@@ -27967,7 +30956,14 @@
     "publisher": "主婦の友社",
     "publishedDate": "201906",
     "isbn13": "9784074316977",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784274067129",
@@ -27982,7 +30978,14 @@
     "publisher": "オーム社",
     "publishedDate": "200802",
     "isbn13": "9784274067129",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784274066979",
@@ -27997,7 +31000,14 @@
     "publisher": "オーム社",
     "publishedDate": "200710",
     "isbn13": "9784274066979",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784337750081",
@@ -28057,7 +31067,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "201603",
     "isbn13": "9784797385618",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784797362527",
@@ -28072,7 +31089,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "201401",
     "isbn13": "9784797362527",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784061549012",
@@ -28087,7 +31111,14 @@
     "publisher": "講談社",
     "publishedDate": "200505",
     "isbn13": "9784061549012",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784815619343",
@@ -28102,7 +31133,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "202306",
     "isbn13": "9784815619343",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784582763188",
@@ -28133,7 +31171,14 @@
     "publisher": "ソフトバンククリエイティブ",
     "publishedDate": "201112",
     "isbn13": "9784797362503",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784274067402",
@@ -28149,7 +31194,14 @@
     "publisher": "オーム社",
     "publishedDate": "200901",
     "isbn13": "9784274067402",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784797374933",
@@ -28164,7 +31216,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "201405",
     "isbn13": "9784797374933",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784274069574",
@@ -28181,7 +31240,14 @@
     "publisher": "オーム社",
     "publishedDate": "201403",
     "isbn13": "9784274069574",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784797362466",
@@ -28257,7 +31323,14 @@
     "publisher": "大和書房",
     "publishedDate": "202007",
     "isbn13": "9784479393450",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784797381306",
@@ -28334,7 +31407,14 @@
     "publisher": "オーム社",
     "publishedDate": "200611",
     "isbn13": "9784274066658",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784274067228",
@@ -28364,7 +31444,14 @@
     "publisher": "主婦の友社",
     "publishedDate": "202405",
     "isbn13": "9784074548767",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784274068195",
@@ -28381,7 +31468,14 @@
     "publisher": "オーム社",
     "publishedDate": "201111",
     "isbn13": "9784274068195",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784274226878",
@@ -28397,7 +31491,14 @@
     "publisher": "オーム社",
     "publishedDate": "202103",
     "isbn13": "9784274226878",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784274067419",
@@ -28414,7 +31515,14 @@
     "publisher": "オーム社",
     "publishedDate": "200811",
     "isbn13": "9784274067419",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784274068232",
@@ -28431,7 +31539,14 @@
     "publisher": "オーム社",
     "publishedDate": "201011",
     "isbn13": "9784274068232",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784274066177",
@@ -28447,7 +31562,14 @@
     "publisher": "オーム社",
     "publishedDate": "200603",
     "isbn13": "9784274066177",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784797365009",
@@ -28512,7 +31634,14 @@
     "publisher": "角川書店",
     "publishedDate": "199903",
     "isbn13": "9784047033030",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784865652253",
@@ -28533,7 +31662,14 @@
     "publishedDate": "2022-11-02",
     "isbn13": "9784865652253",
     "language": "ja",
-    "thumbnailUrl": "https://cover.openbd.jp/9784865652253.jpg"
+    "thumbnailUrl": "https://cover.openbd.jp/9784865652253.jpg",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784478008003",
@@ -28548,7 +31684,14 @@
     "publisher": "ダイヤモンド社",
     "publishedDate": "200903",
     "isbn13": "9784478008003",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784522454374",
@@ -28562,7 +31705,14 @@
     "updatedAt": "2026-03-24T07:28:01.719Z",
     "publisher": "永岡書店",
     "isbn13": "9784522454374",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784274225949",
@@ -28579,7 +31729,14 @@
     "publisher": "オーム社",
     "publishedDate": "202009",
     "isbn13": "9784274225949",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784274230714",
@@ -28595,7 +31752,14 @@
     "publisher": "オーム社",
     "publishedDate": "202310",
     "isbn13": "9784274230714",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784274068546",
@@ -28612,7 +31776,14 @@
     "publisher": "オーム社",
     "publishedDate": "201106",
     "isbn13": "9784274068546",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784274067594",
@@ -28629,7 +31800,14 @@
     "publisher": "オーム社",
     "publishedDate": "200906",
     "isbn13": "9784274067594",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784274065514",
@@ -28661,7 +31839,14 @@
     "publisher": "オーム社",
     "publishedDate": "200407",
     "isbn13": "9784274065705",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784274221354",
@@ -28678,7 +31863,14 @@
     "publisher": "オーム社",
     "publishedDate": "201711",
     "isbn13": "9784274221354",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784274066627",
@@ -28695,7 +31887,14 @@
     "publisher": "オーム社",
     "publishedDate": "200610",
     "isbn13": "9784274066627",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784488405168",
@@ -28710,7 +31909,14 @@
     "publisher": "東京創元社",
     "publishedDate": "202101",
     "isbn13": "9784488405168",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784757142817",
@@ -28728,7 +31934,14 @@
     "publisher": "NTT出版",
     "publishedDate": "201202",
     "isbn13": "9784757142817",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784130033060",
@@ -28839,7 +32052,14 @@
     "publisher": "ゆまに書房",
     "publishedDate": "200703",
     "isbn13": "9784843323519",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784074124589",
@@ -28883,7 +32103,14 @@
     "publisher": "西東社",
     "publishedDate": "201608",
     "isbn13": "9784791625352",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784391158953",
@@ -28971,7 +32198,14 @@
     "language": "ja",
     "subjects": [
       "異世界恋愛;紅の死神;皇太子;眠り姫;最終巻;小説家になろう"
-    ]
+    ],
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784391157819",
@@ -29002,7 +32236,14 @@
     "publisher": "翔泳社",
     "publishedDate": "201704",
     "isbn13": "9784798149936",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784798134826",
@@ -29017,7 +32258,14 @@
     "publisher": "翔泳社",
     "publishedDate": "201403",
     "isbn13": "9784798134826",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784797386493",
@@ -29107,7 +32355,14 @@
     "publisher": "集英社",
     "publishedDate": "201307",
     "isbn13": "9784087032949",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784088743189",
@@ -29122,7 +32377,14 @@
     "publisher": "集英社",
     "publishedDate": "200702",
     "isbn13": "9784088743189",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784087827606",
@@ -29137,7 +32399,14 @@
     "publisher": "集英社",
     "publishedDate": "199907",
     "isbn13": "9784087827606",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784088730073",
@@ -29152,7 +32421,14 @@
     "publisher": "集英社",
     "publishedDate": "200009",
     "isbn13": "9784088730073",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784088727233",
@@ -29167,7 +32443,14 @@
     "publisher": "集英社",
     "publishedDate": "199906",
     "isbn13": "9784088727233",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784091933874",
@@ -29182,7 +32465,14 @@
     "publisher": "小学館",
     "publishedDate": "201902",
     "isbn13": "9784091933874",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784088707853",
@@ -29197,7 +32487,14 @@
     "publisher": "集英社",
     "publishedDate": "201308",
     "isbn13": "9784088707853",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784088704531",
@@ -29212,7 +32509,14 @@
     "publisher": "集英社",
     "publishedDate": "201206",
     "isbn13": "9784088704531",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784087032918",
@@ -29228,7 +32532,14 @@
     "publisher": "集英社",
     "publishedDate": "201306",
     "isbn13": "9784087032918",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784083218941",
@@ -29243,7 +32554,14 @@
     "updatedAt": "2026-03-24T07:28:35.508Z",
     "publisher": "集英社",
     "isbn13": "9784083218941",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784797382600",
@@ -29273,7 +32591,14 @@
     "publisher": "集英社",
     "publishedDate": "201810",
     "isbn13": "9784088815879",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784088813608",
@@ -29288,7 +32613,14 @@
     "publisher": "集英社",
     "publishedDate": "201803",
     "isbn13": "9784088813608",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784065384138",
@@ -29304,7 +32636,14 @@
     "publisher": "講談社",
     "publishedDate": "202505",
     "isbn13": "9784065384138",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784065328712",
@@ -29320,7 +32659,14 @@
     "publisher": "講談社",
     "publishedDate": "202310",
     "isbn13": "9784065328712",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784065275870",
@@ -29335,7 +32681,14 @@
     "publisher": "講談社",
     "publishedDate": "202204",
     "isbn13": "9784065275870",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784065303214",
@@ -29367,7 +32720,14 @@
     "publisher": "集英社",
     "publishedDate": "201806",
     "isbn13": "9784087034523",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784384057591",
@@ -29395,7 +32755,14 @@
     "publisher": "スクウェア・エニックス",
     "publishedDate": "202112",
     "isbn13": "9784757576605",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784757506992",
@@ -29410,7 +32777,14 @@
     "publisher": "エニックス",
     "publishedDate": "200206",
     "isbn13": "9784757506992",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784088807270",
@@ -29425,7 +32799,14 @@
     "publisher": "集英社",
     "publishedDate": "201607",
     "isbn13": "9784088807270",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784781701509",
@@ -29485,7 +32866,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201607",
     "isbn13": "9784040709857",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784398144874",
@@ -29545,7 +32933,14 @@
     "publisher": "メディアファクトリー",
     "publishedDate": "200711",
     "isbn13": "9784840119702",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784815617776",
@@ -29589,7 +32984,14 @@
     "publisher": "秀和システム",
     "publishedDate": "201004",
     "isbn13": "9784798025834",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784063770742",
@@ -29604,7 +33006,14 @@
     "publisher": "講談社",
     "publishedDate": "201410",
     "isbn13": "9784063770742",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784797387353",
@@ -29619,7 +33028,14 @@
     "publisher": "SBクリエイティブ",
     "publishedDate": "201604",
     "isbn13": "9784797387353",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784048664837",
@@ -29634,7 +33050,14 @@
     "publisher": "KADOKAWA",
     "publishedDate": "201404",
     "isbn13": "9784048664837",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784569825939",
@@ -29665,7 +33088,14 @@
     "publisher": "小学館",
     "publishedDate": "201201",
     "isbn13": "9784091885685",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784596129772",
@@ -29680,7 +33110,14 @@
     "publisher": "ハーレクイン",
     "publishedDate": "201407",
     "isbn13": "9784596129772",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784063805147",
@@ -29738,7 +33175,14 @@
     "publisher": "講談社",
     "publishedDate": "202502",
     "isbn13": "9784065383360",
-    "language": "ja"
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "general",
+      "l3Id": null,
+      "l4TagIds": [],
+      "l5TagIds": []
+    }
   },
   {
     "id": "9784001141276",
