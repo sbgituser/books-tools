@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://books.kuras-plus.com/blog</id>
     <title>Books Tools | kuras-plus Blog</title>
-    <updated>2026-03-24T09:10:38.370Z</updated>
+    <updated>2026-03-24T09:36:38.217Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://books.kuras-plus.com/blog"/>
     <link rel="self" href="https://books.kuras-plus.com/atom.xml"/>
@@ -202,7 +202,7 @@
 
 猫が人間の本質を映す鏡として機能しています。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと小説を探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと小説を探すなら" variant="default" />
 
 ## 宮部みゆき「ステップ」での家族と猫
 
@@ -294,7 +294,7 @@
 
 グルメという枠を超えた、知識と洞察の力が描かれています。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと小説を探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと小説を探すなら" variant="default" />
 
 ## 辻仁成「ぶらり仏蘭西」でグルメ紀行
 
@@ -386,7 +386,7 @@
 
 登場人物たちが、互いに影響を与え合い、成長していく過程が描かれることで、読者は温かい気持ちで物語を読み進めることができます。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと小説を探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと小説を探すなら" variant="default" />
 
 ## 森绘都「装甲妖精」でファンタジーとほのぼの
 
@@ -616,7 +616,7 @@
 
 物語を通じて、創造的な活動の喜びと、困難を乗り越える過程での成長の大切さが感じられます。読者は、自分自身の創造的な活動について考え、前向きになることができるでしょう。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと小説を探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと小説を探すなら" variant="default" />
 
 ## 中村安子「麻美」で人生の再出発
 
@@ -1140,7 +1140,7 @@
 
 この作品の特徴は、歴史という大きな枠組みの中で、個々のキャラクターたちの人生が描かれることです。主人公・信が成長していく過程で、様々な敵と対峙し、それぞれが複雑な動機を持った存在であることが判明します。戦闘シーンの迫力とキャラクターの心理描写のバランスが秀逸で、進撃の巨人ファンにも十分満足させることができるでしょう。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと漫画を探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと漫画を探すなら" variant="default" />
 
 ## 「僕のヒーローアカデミア」で組織との対峙を描く
 
@@ -1226,7 +1226,7 @@
 
 この作品の特徴は、その独特なアート表現とキャラクターの個性です。各部ごとに異なる主人公と物語が展開されるため、新鮮な冒険を何度も体験できます。また、敵キャラクターたちの複雑さと、彼らとの対峙の仕方が秀逸です。荒木独特の表現方法とストーリーテリングは、鬼滅の刃とは異なるベクトルの面白さを提供します。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと漫画を探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと漫画を探すなら" variant="default" />
 
 ## 「約束のネバーランド」で知略と感動が交わる
 
@@ -1318,7 +1318,7 @@
 
 この作品の魅力は、その心理描写の深さです。キャラクターたちの内面がダークで複雑であり、彼らの決断が時には悲劇を生み出します。また、ストーリーの予測不能性も高く、一度読み始めたら止まらない面白さがあります。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと漫画を探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと漫画を探すなら" variant="default" />
 
 ## 「キングダム」で歴史と個性が交わる
 
@@ -1410,7 +1410,7 @@ U.A.高校での学園生活とヒーロー活動のバランス、そして各�
 
 各部ごとに異なる主人公と物語が展開されるため、新鮮な冒険を何度も体験できます。また、荒木独特のアート表現と、台詞の格好良さは多くのファンを魅了してきました。敵キャラクターたちの個性も秀逸で、ただの悪役ではなく、それぞれの目的を持った複雑なキャラクターとして描かれています。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと漫画を探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと漫画を探すなら" variant="default" />
 
 ## 「黒子のバスケ」でチームワークの美学を学ぶ
 
@@ -1502,7 +1502,7 @@ U.A.高校での学園生活とヒーロー活動のバランス、そして各�
 
 読者は、各段階で「今、誰が優位か」が常に変わっていく様を体験することになります。また、最終的な結末は、読者の予想をはるかに上回るものであり、物語全体を振り返ると、多くの伏線が見事に回収されていることに気づきます。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと漫画を探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと漫画を探すなら" variant="default" />
 
 ## 「鬼滅の刃」で敵の背景が深く掘り下げられる
 
@@ -1588,7 +1588,7 @@ Lとライトの追いかけっこは、単なるアクションシーンでは�
 
 この作品の特徴は、登場人物たちのギャンブルの戦略が、非常に論理的に描かれていることです。カイジが相手を出し抜くために、どのような思考プロセスを辿るのかが詳細に描かれており、読者もカイジと一緒に戦略を考えることができます。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと漫画を探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと漫画を探すなら" variant="default" />
 
 ## 「ハンターハンター」で複雑な人間関係の応酬
 
@@ -1686,7 +1686,7 @@ Lとライトの追いかけっこは、単なるアクションシーンでは�
 
 医療と組織社会の関係が秀逸に描かれた傑作です。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと漫画を探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと漫画を探すなら" variant="default" />
 
 ## 「放射線技師ものがたり」で医療の支援者
 
@@ -1772,7 +1772,7 @@ Lとライトの追いかけっこは、単なるアクションシーンでは�
 
 音楽と冒険の融合が秀逸です。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと漫画を探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと漫画を探すなら" variant="default" />
 
 ## 「Koe no Katachi」で音声と表現
 
@@ -1858,7 +1858,7 @@ Lとライトの追いかけっこは、単なるアクションシーンでは�
 
 この作家の魅力は、登場人物たちが互いに影響を与え合い、人生が変わっていく過程です。東野圭吾のように、一つの事件を中心にしながらも、その周辺にいる人々の人生が交差し、変わっていく様子が秀逸です。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと小説を探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと小説を探すなら" variant="default" />
 
 ## 今邑彩「心理描写の深さが際立つ」
 
@@ -1950,7 +1950,7 @@ Lとライトの追いかけっこは、単なるアクションシーンでは�
 
 村上春樹と同様に、河村光庸の作品でも、日常の中に不思議な要素が現れ、その要素を通じて人間の本質が浮き彫りにされます。また、彼の文体は詩的であり、読者はその言葉の美しさに引き込まれながら、深い思考へと導かれます。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと小説を探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと小説を探すなら" variant="default" />
 
 ## 中村文則「暴力と人間性の問い」
 
@@ -2048,7 +2048,7 @@ Lとライトの追いかけっこは、単なるアクションシーンでは�
 
 家族内の複雑な関係と、隠されていた秘密が、少しずつ浮き彫りになり、最終的には予想もしなかった結末に到達することになります。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと小説を探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと小説を探すなら" variant="default" />
 
 ## 我孫子武丸「黒い家」で狂気の描写
 
@@ -2140,7 +2140,7 @@ Lとライトの追いかけっこは、単なるアクションシーンでは�
 
 各編での新しい情報により、物語は常に新しい角度から解釈され直し、読者は物語を一気に読み進めることになります。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと小説を探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと小説を探すなら" variant="default" />
 
 ## 綾辻行人「時計館の殺人」で密室の謎
 
@@ -2232,7 +2232,7 @@ Lとライトの追いかけっこは、単なるアクションシーンでは�
 
 復讐というテーマの変形として、ライバルへの執念がいかに人を動かすかが描かれています。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと漫画を探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと漫画を探すなら" variant="default" />
 
 ## 「黒子のバスケ」でかつての仲間への復讐
 
@@ -3049,7 +3049,7 @@ Lとライトの追いかけっこは、単なるアクションシーンでは�
 
 戦争というサバイバルの中での、個人の成長と友情の絆が描かれています。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと漫画を探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと漫画を探すなら" variant="default" />
 
 ## 「鬼滅の刃」で鬼との生死をかけた戦い
 
@@ -3141,7 +3141,7 @@ Lとライトの追いかけっこは、単なるアクションシーンでは�
 
 物語を通じて、人間関係の複雑さと、社会への問い直しが行われ、読者の心に深い共感と問題意識が生まれます。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと小説を探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと小説を探すなら" variant="default" />
 
 ## 村上春樹「ノルウェイの森」で青春の喪失
 
@@ -3233,7 +3233,7 @@ Lとライトの追いかけっこは、単なるアクションシーンでは�
 
 想像上の旅、精神的な旅の概念が秀逸に表現されています。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと小説を探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと小説を探すなら" variant="default" />
 
 ## 野田知佑「みなづき」での川の旅
 
@@ -3351,7 +3351,7 @@ SF的な旅と人間ドラマの融合が秀逸です。
 
 『あの日見た花の名前を僕たちはまだ知らない』のような少女漫画原作の作品でも、死と人生というテーマが描かれており、文学的な価値が評価されています。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと探すなら" variant="default" />
 
 ## まとめ
 
@@ -3436,7 +3436,7 @@ SF的な旅と人間ドラマの融合が秀逸です。
 
 『その後のエリック』なども、社会問題と人間ドラマが複雑に交差する、現代的なテーマの傑作として知られています。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと探すなら" variant="default" />
 
 ## まとめ
 
@@ -3525,7 +3525,7 @@ SF的な旅と人間ドラマの融合が秀逸です。
 
 一度書いた感想文を、翌日に読み返すと、改善点が見えることが多いです。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="感想を書きたくなる本をもっと探したい方へ" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="感想を書きたくなる本をもっと探したい方へ" variant="default" />
 
 ## まとめ
 
@@ -3602,7 +3602,7 @@ SF的な旅と人間ドラマの融合が秀逸です。
 
 『最後にして最初のアイドル』も、一度失った友情を思い出させてくれる物語です。時間が経っても、友人への思いは変わらないということを教えてくれます。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと探すなら" variant="default" />
 
 ## まとめ
 
@@ -3687,7 +3687,7 @@ SF的な旅と人間ドラマの融合が秀逸です。
 
 『その後のエリック』でも、様々な人物との関わりを通じて、主人公が人生について考え直し、成長していく様子が描かれています。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと探すなら" variant="default" />
 
 ## まとめ
 
@@ -3764,7 +3764,7 @@ SF的な旅と人間ドラマの融合が秀逸です。
 
 『火花』又吉直樹著は、創造性と人生について考えさせてくれる傑作短編です。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="大学生向けのさらに多くの本を探したい方へ" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="大学生向けのさらに多くの本を探したい方へ" variant="default" />
 
 ## まとめ
 
@@ -3831,7 +3831,7 @@ SF的な旅と人間ドラマの融合が秀逸です。
 
 『火花』又吉直樹著は短編ながら、創造性、友情、人生の意味について考えさせられます。お笑い芸人ならではの視点が新鮮です。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="高校生向けのもっと多くの本を探したい方へ" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="高校生向けのもっと多くの本を探したい方へ" variant="default" />
 
 ## まとめ
 
@@ -3886,7 +3886,7 @@ SF的な旅と人間ドラマの融合が秀逸です。
 
 『さあ、才能に目覚めよう』トム・ラス著は、自分の強みを発見させてくれます。自分が本当に得意で、好きなことが何かが見えることで、人生に対する不安が減り、心が軽くなります。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="ストレス解消に役立つ本をもっと探したい方へ" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="ストレス解消に役立つ本をもっと探したい方へ" variant="default" />
 
 ## まとめ
 
@@ -3947,7 +3947,7 @@ SF的な旅と人間ドラマの融合が秀逸です。
 
 『その後のエリザベス』シャーロット・ブロンテ著は、古典的な物語の登場人物たちの後日譚。人生がどのように展開していくかについて考えさせられます。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="30代向けのさらに深い物語を探したい方へ" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="30代向けのさらに深い物語を探したい方へ" variant="default" />
 
 ## まとめ
 
@@ -4016,7 +4016,7 @@ SF的な旅と人間ドラマの融合が秀逸です。
 
 『多動力』堀江貴文著は、既存の人生設計にとらわれず、新しい可能性に開かれた心を作ります。スタートアップマインドを20代で身につけることは大きな財産です。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="20代向けのさらに多くの本を探したい方へ" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="20代向けのさらに多くの本を探したい方へ" variant="default" />
 
 ## まとめ
 
@@ -4075,7 +4075,7 @@ SF的な旅と人間ドラマの融合が秀逸です。
 
 『自分の小さな「箱」から脱出する方法』アービンジャー・インスティチュート著は、自分の視点の狭さに気づかせ、より広い視野で人生を見る力をくれます。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="人生を変える本を、もっと探したい方へ" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="人生を変える本を、もっと探したい方へ" variant="default" />
 
 ## まとめ
 
@@ -4150,7 +4150,7 @@ SF的な旅と人間ドラマの融合が秀逸です。
 
 『嫌われる勇気』岸見一郎・古賀史健著は、対話という形式で哲学的な内容を説明しています。複雑な概念をどのように表現すれば、読み手に伝わるのかを学べます。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="文章力を磨く本をもっと探したい方へ" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="文章力を磨く本をもっと探したい方へ" variant="default" />
 
 ## まとめ
 
@@ -4239,7 +4239,7 @@ SF的な旅と人間ドラマの融合が秀逸です。
 
 『ライラの冒険』シリーズも、少女の冒険を描いたファンタジーとして、多くの読者に愛されており、本屋大賞の受賞作として評価されています。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと探すなら" variant="default" />
 
 ## まとめ
 
@@ -4330,7 +4330,7 @@ SF的な旅と人間ドラマの融合が秀逸です。
 
 『白夜行』は、宮部みゆきによる現代ミステリー文学の傑作で、複雑な人間関係が描かれた傑作として知られています。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと探すなら" variant="default" />
 
 ## まとめ
 
@@ -4391,7 +4391,7 @@ SF的な旅と人間ドラマの融合が秀逸です。
 
 個々のキャラクターのドラマだけでなく、国家間の戦争、宗教的対立、文明の衝突といったマクロな視点で世界が動く様が描かれています。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと深いダークファンタジー漫画を探すなら、ジャンル一覧がおすすめです" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと深いダークファンタジー漫画を探すなら、ジャンル一覧がおすすめです" variant="default" />
 
 ## まとめ
 
@@ -4448,7 +4448,7 @@ SF的な旅と人間ドラマの融合が秀逸です。
 
 推理小説の名作を漫画化した作品も多数存在します。原作の魅力を保ちながら、漫画ならではの視覚的な表現で新たな楽しさが加わります。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと推理漫画を探すなら、ジャンル一覧で幅広い作品が見つかります" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと推理漫画を探すなら、ジャンル一覧で幅広い作品が見つかります" variant="default" />
 
 ## まとめ
 
@@ -4513,7 +4513,7 @@ SF的な旅と人間ドラマの融合が秀逸です。
 
 地表は完全に支配された社会だが、地下では秘かに反抵抗活動が続けられている物語。限られた資源で、希望を支え続ける人たちの姿が感動的です。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと社会的な問題を扱う小説を探すなら、ジャンル一覧がおすすめです" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと社会的な問題を扱う小説を探すなら、ジャンル一覧がおすすめです" variant="default" />
 
 ## まとめ
 
@@ -4578,7 +4578,7 @@ SF的な旅と人間ドラマの融合が秀逸です。
 
 外の世界での友人や恋人との関係を通じて、家族の存在の重要性に気付く物語。様々な関係の中で、家族がどのような位置付けにあるのかが明らかになるのです。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと家族について考える小説を探すなら、ジャンル一覧がおすすめです" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと家族について考える小説を探すなら、ジャンル一覧がおすすめです" variant="default" />
 
 ## まとめ
 
@@ -4629,7 +4629,7 @@ SF的な旅と人間ドラマの融合が秀逸です。
 
 『君の名は。』新海誠著（小説版）は、時間と運命という隠れたファンタジー要素を持つ傑作。恋愛小説としても、冒険小説としても成立しています。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="ファンタジーの世界をもっと深く探したい方へ" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="ファンタジーの世界をもっと深く探したい方へ" variant="default" />
 
 ## まとめ
 
@@ -4694,7 +4694,7 @@ SF的な旅と人間ドラマの融合が秀逸です。
 
 料理人同士が競う様子が描かれた作品。緊張感と、完璧さへの執念、そして最後の感動が詰まっています。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと食の魅力を感じるグルメ漫画を探すなら、ジャンル一覧がおすすめです" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと食の魅力を感じるグルメ漫画を探すなら、ジャンル一覧がおすすめです" variant="default" />
 
 ## まとめ
 
@@ -4755,7 +4755,7 @@ SF的な旅と人間ドラマの融合が秀逸です。
 
 単に癒すだけでなく、適度な感動的シーンを含むことで、より深い満足感が生まれます。涙を流した後の温かさは、特別なものです。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと癒し漫画を探すなら、ジャンル一覧で心ときめく作品が見つかります" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと癒し漫画を探すなら、ジャンル一覧で心ときめく作品が見つかります" variant="default" />
 
 ## まとめ
 
@@ -4806,7 +4806,7 @@ SF的な旅と人間ドラマの融合が秀逸です。
 
 『沈黙』遠藤周作著は、江戸時代のキリスト教弾圧を舞台にした傑作。信仰と人間について深く考えさせられる傑作です。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="歴史小説をもっと深く探したい方へ" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="歴史小説をもっと深く探したい方へ" variant="default" />
 
 ## まとめ
 
@@ -4875,7 +4875,7 @@ SF的な旅と人間ドラマの融合が秀逸です。
 
 物語の終わり方が、最後の一行で読者の全ての予想を裏切る形で終わることもあります。その瞬間の驚愕と満足感は、本格ミステリーでしか味わえません。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと謎解きの快感を求めるなら、ジャンル一覧がおすすめです" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと謎解きの快感を求めるなら、ジャンル一覧がおすすめです" variant="default" />
 
 ## まとめ
 
@@ -4946,7 +4946,7 @@ SNS（TwitterやInstagram）で本の感想をシェアしている人たちを�
 
 読書は、正解を求める活動ではなく、自分の心に響く物語や知識との出会いを求める活動です。そうした視点で本を選べば、必ずあなたに合った本が見つかるはずです。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="様々なジャンルの本を探したい方へ" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="様々なジャンルの本を探したい方へ" variant="default" />
 
 ## まとめ
 
@@ -5013,7 +5013,7 @@ SNS（TwitterやInstagram）で本の感想をシェアしている人たちを�
 
 ゲーム的な異世界に閉じ込められた主人公たちが、ゲームの内部を舞台に冒険する作品。デジタル的な異世界という新しい解釈が、当時大きな話題を呼びました。恋愛要素も強く、多角的な視点で楽しめます。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと異世界冒険漫画を探すなら、ジャンル一覧がおすすめです" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと異世界冒険漫画を探すなら、ジャンル一覧がおすすめです" variant="default" />
 
 ## まとめ
 
@@ -5078,7 +5078,7 @@ SNS（TwitterやInstagram）で本の感想をシェアしている人たちを�
 
 イヤミスは、読後に爽快感ではなく不快感が残ることを目的としています。その不快感こそが、社会や人間についての真摯な問い直しが行われたという証なのです。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと心理的に深いミステリー小説を探すなら、ジャンル一覧がおすすめです" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと心理的に深いミステリー小説を探すなら、ジャンル一覧がおすすめです" variant="default" />
 
 ## まとめ
 
@@ -5143,7 +5143,7 @@ SNS（TwitterやInstagram）で本の感想をシェアしている人たちを�
 
 インターネット時代の都市伝説と、日本の古い民間信仰が融合して、新しい恐怖を生み出す作品。古と新が出会うとき、予想外の恐怖が発生するのです。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと日本的な恐怖小説を探すなら、ジャンル一覧がおすすめです" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと日本的な恐怖小説を探すなら、ジャンル一覧がおすすめです" variant="default" />
 
 ## まとめ
 
@@ -5208,7 +5208,7 @@ SNS（TwitterやInstagram）で本の感想をシェアしている人たちを�
 
 密室に見えた部屋が、実は複数の隠れた入口と出口を持っていたという発見。建物の構造をどのように活用するのか、その想像力の豊かさが作品の価値を高めるのです。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと密室トリックの傑作を探すなら、ジャンル一覧がおすすめです" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと密室トリックの傑作を探すなら、ジャンル一覧がおすすめです" variant="default" />
 
 ## まとめ
 
@@ -5273,7 +5273,7 @@ SNS（TwitterやInstagram）で本の感想をシェアしている人たちを�
 
 インターネット社会、格差問題、労働搾取といった現代社会の問題を、直視する漫画。社会への怒りと、それでも希望を失わない登場人物たちの姿が描かれています。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと大人の感性を刺激する漫画を探すなら、ジャンル一覧がおすすめです" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと大人の感性を刺激する漫画を探すなら、ジャンル一覧がおすすめです" variant="default" />
 
 ## まとめ
 
@@ -5338,7 +5338,7 @@ SNS（TwitterやInstagram）で本の感想をシェアしている人たちを�
 
 他者の期待ではなく、自分自身が望む人生を歩む強さを描いた作品。そうした強さと決意が、読者に勇気を与えるのです。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと女性の視点で描かれた作品を探すなら、ジャンル一覧がおすすめです" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと女性の視点で描かれた作品を探すなら、ジャンル一覧がおすすめです" variant="default" />
 
 ## まとめ
 
@@ -5401,7 +5401,7 @@ LINEマンガ、ヤングジャンプ+、マガポケなどの無料アプリは
 
 また、複数の方法を組み合わせるのも良い方法です。新作は電子書籍で読み、特に好きな作品は紙版で買い直す。そうすることで、両方のメリットを生かせます。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="漫画をもっと探したい方へ" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="漫画をもっと探したい方へ" variant="default" />
 
 ## まとめ
 
@@ -5490,7 +5490,7 @@ LINEマンガ、ヤングジャンプ+、マガポケなどの無料アプリは
 
 『うみねこのなく頃に』も、ミステリー・ホラー漫画として、アニメ化され話題となっています。複雑な謎解きと、恐怖の要素が交錯した傑作です。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと探すなら" variant="default" />
 
 ## まとめ
 
@@ -5555,7 +5555,7 @@ LINEマンガ、ヤングジャンプ+、マガポケなどの無料アプリは
 
 物語の終了後も、読者の心に引っ掛かり、何度も思い出させられる作品。その余韻の強さこそが、ストーリーが深い漫画の証なのです。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと心を揺さぶるストーリー漫画を探すなら、ジャンル一覧がおすすめです" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと心を揺さぶるストーリー漫画を探すなら、ジャンル一覧がおすすめです" variant="default" />
 
 ## まとめ
 
@@ -5632,7 +5632,7 @@ LINEマンガ、ヤングジャンプ+、マガポケなどの無料アプリは
 
 また、朝読書によって、あなたの思考の質が向上します。良い本の思想や表現に毎朝触れることで、自分の言葉遣い、思考の深さが、自然と向上していくのです。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="朝読書に最適な本をもっと探したい方へ" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="朝読書に最適な本をもっと探したい方へ" variant="default" />
 
 ## まとめ
 
@@ -5687,7 +5687,7 @@ LINEマンガ、ヤングジャンプ+、マガポケなどの無料アプリは
 
 『容疑者X』東野圭吾著は、数学者の視点から完全犯罪を計画する主人公の思考に引き込まれます。ミステリーの面白さを十分に堪能できる傑作です。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="ミステリー以外のジャンルも探したい方へ" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="ミステリー以外のジャンルも探したい方へ" variant="default" />
 
 ## まとめ
 
@@ -5774,7 +5774,7 @@ LINEマンガ、ヤングジャンプ+、マガポケなどの無料アプリは
 
 『京都の謎』シリーズも、複数の事件が京都という町の歴史と結びついている、グロームミステリーの傑作として評価されています。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと探すなら" variant="default" />
 
 ## まとめ
 
@@ -5839,7 +5839,7 @@ LINEマンガ、ヤングジャンプ+、マガポケなどの無料アプリは
 
 小説のような深いストーリーと、漫画ならではの視覚的な表現力が融合した作品。両方の長所を生かした、完成度の高い物語が実現されています。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと1巻完結の傑作を探すなら、ジャンル一覧がおすすめです" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと1巻完結の傑作を探すなら、ジャンル一覧がおすすめです" variant="default" />
 
 ## まとめ
 
@@ -5940,7 +5940,7 @@ LINEマンガ、ヤングジャンプ+、マガポケなどの無料アプリは
 
 『その後のエリック』も、社会的な問題と個人の人生が複雑に交差する傑作として、現代社会について考え直させてくれます。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと探すなら" variant="default" />
 
 ## まとめ
 
@@ -6001,7 +6001,7 @@ LINEマンガ、ヤングジャンプ+、マガポケなどの無料アプリは
 
 精神科医やカウンセラーが、患者の心理を読み解き、治療を進めていく過程が描かれた漫画。人間の心という複雑な対象に向き合う過程は、読者にも深い考察を促します。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと緊張感溢れる心理戦漫画を探すなら、ジャンル一覧がおすすめです" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと緊張感溢れる心理戦漫画を探すなら、ジャンル一覧がおすすめです" variant="default" />
 
 ## まとめ
 
@@ -6076,7 +6076,7 @@ LINEマンガ、ヤングジャンプ+、マガポケなどの無料アプリは
 
 『十角館の殺人』などの本格ミステリーも、雨の日に読むのに最適です。複雑な構成と、予想外の展開は、読者を最後まで飽きさせません。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと探すなら" variant="default" />
 
 ## まとめ
 
@@ -6141,7 +6141,7 @@ LINEマンガ、ヤングジャンプ+、マガポケなどの無料アプリは
 
 また、図書館を活用するのもおすすめ。図書館の雰囲気そのものが「読書モード」を作り出してくれます。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="あなたの気分にぴったりなジャンルの本が見つかります" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="あなたの気分にぴったりなジャンルの本が見つかります" variant="default" />
 
 ## まとめ
 
@@ -6206,7 +6206,7 @@ LINEマンガ、ヤングジャンプ+、マガポケなどの無料アプリは
 
 『予想どおりにはいかない』ダン・アリエリー著は、行動経済学の傑作です。興味深い事例が満載で、電車での読書が止められなくなります。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="電車読書に適した本をもっと探したい方へ" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="電車読書に適した本をもっと探したい方へ" variant="default" />
 
 ## まとめ
 
@@ -6291,7 +6291,7 @@ LINEマンガ、ヤングジャンプ+、マガポケなどの無料アプリは
 
 スランプから抜け出すプロセスを通じて、あなたの読書人生はより深いものへと進化していくのです。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="スランプから抜け出す手助けになる、面白い本を探しましょう" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="スランプから抜け出す手助けになる、面白い本を探しましょう" variant="default" />
 
 ## まとめ
 
@@ -6346,7 +6346,7 @@ SF小説は、科学的な想像力と創造的な物語世界が魅力的なジ
 
 『虐殺器官』伊藤計劃著は、近未来のテロとの戦いを描いています。複雑な設定ながら、ストーリーの引力が強く、一気読みさせる傑作です。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="SFの世界をもっと深く探したい方へ" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="SFの世界をもっと深く探したい方へ" variant="default" />
 
 ## まとめ
 
@@ -6421,7 +6421,7 @@ SF小説の魅力は、科学と人間の関係について考える知的な喜
 
 ただし、こうした技法は時間がかかるため、自然な速読を心がける方が現実的です。焦って目を動かそうとするより、集中力を高めることが、結果的に読むスピード向上につながります。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="面白い本を探したい方へ。ぐんぐん読める一冊に出会いましょう" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="面白い本を探したい方へ。ぐんぐん読める一冊に出会いましょう" variant="default" />
 
 ## まとめ
 
@@ -6488,7 +6488,7 @@ SF小説の魅力は、科学と人間の関係について考える知的な喜
 
 『峠』や『坂の上の雲』のような歴史冒険小説も、読者を別の時代へと導きます。夏の長い休みを活用して、こうした大作に挑戦するのは、自分の人生経験を豊かにする素晴らしい機会となるでしょう。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと探すなら" variant="default" />
 
 ## まとめ
 
@@ -6553,7 +6553,7 @@ SF小説の魅力は、科学と人間の関係について考える知的な喜
 
 謎が解き明かされるとき、その真犯人が全く予想外の人物であったり、その動機が衝撃的なものであったりする展開。その衝撃が、物語に新たな緊張感をもたらすのです。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと息つく暇もないサスペンス小説を探すなら、ジャンル一覧がおすすめです" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと息つく暇もないサスペンス小説を探すなら、ジャンル一覧がおすすめです" variant="default" />
 
 ## まとめ
 
@@ -6618,7 +6618,7 @@ SF小説の魅力は、科学と人間の関係について考える知的な喜
 
 未来で人類が滅亡することを知った主人公が、過去へ戻ってその未来を変えようとする物語。個人の力と世界規模の問題との対比が、読者に深い思考をもたらします。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと時間を超えた冒険小説を探すなら、ジャンル一覧がおすすめです" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと時間を超えた冒険小説を探すなら、ジャンル一覧がおすすめです" variant="default" />
 
 ## まとめ
 
@@ -6665,7 +6665,7 @@ SF小説の魅力は、科学と人間の関係について考える知的な喜
 
 『君の名は。』新海誠著は、時間と運命、人間の繋がりについて描いた傑作です。現代的な設定と、SFのような不可思議な要素が合致した世界観は、週末の読書に最適。その後、映像版を見直したくなるはずです。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="週末読書に適した本をもっと探したい方へ" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="週末読書に適した本をもっと探したい方へ" variant="default" />
 
 ## まとめ
 
@@ -6742,7 +6742,7 @@ SF小説の魅力は、科学と人間の関係について考える知的な喜
 
 『ゲド戦記』シリーズのような長編ファンタジーも、冬の読書に最適です。魔法の世界での冒険や、季節の移ろいが描かれており、読者を別の世界へと導きます。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと探すなら" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと探すなら" variant="default" />
 
 ## まとめ
 
@@ -6803,7 +6803,7 @@ SF小説の魅力は、科学と人間の関係について考える知的な喜
 
 個人の力ではなく、チーム全体でどう目標を達成するのかが描かれた作品。リーダーシップ、メンバーマネジメント、そしてチーム全体の成長が見られる過程は、組織に属する全ての人に参考になります。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと仕事について考えさせられる漫画を探すなら、ジャンル一覧がおすすめです" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと仕事について考えさせられる漫画を探すなら、ジャンル一覧がおすすめです" variant="default" />
 
 ## まとめ
 
@@ -6868,7 +6868,7 @@ SF小説の魅力は、科学と人間の関係について考える知的な喜
 
 企業の経営者として、どのような決定を下し、どのようにして企業を運営するのか。経営の難しさと、その決定が多くの従業員に影響を与えることの重さが描かれています。
 
-<BlogCTA href="/genre" label="ジャンルから探す" description="もっと仕事についての深い考察が得られる小説を探すなら、ジャンル一覧がおすすめです" variant="secondary" />
+<BlogCTA href="/genre" label="ジャンルから探す" description="もっと仕事についての深い考察が得られる小説を探すなら、ジャンル一覧がおすすめです" variant="default" />
 
 ## まとめ
 
