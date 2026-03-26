@@ -4,35 +4,42 @@ import { useState } from "react";
 import Link from "next/link";
 import type { BlogMeta } from "@/lib/blog";
 
-// タグ → ツールカテゴリのマッピング
+// タグ → ジャンルカテゴリのマッピング
 const TOOL_CATEGORIES = [
   {
-    id: "mood",
-    label: "気分で探す",
-    toolHref: "/manga/mood",
-    tags: ["気分で探す", "泣ける漫画", "感動漫画", "考えさせられる小説", "癒やし 小説"],
+    id: "mystery",
+    label: "ミステリー・推理",
+    toolHref: "/genre",
+    tags: ["ミステリー", "日本ミステリー", "本格ミステリー", "ミステリー小説", "推理小説", "推理", "社会派ミステリー", "海外ミステリー", "どんでん返し", "謎解き小説", "密室ミステリー", "心理ミステリー", "イヤミス", "イヤミス小説", "サスペンス", "サスペンス小説", "心理サスペンス", "ミステリー漫画", "謎解き漫画", "推理漫画"],
     color: "rose",
   },
   {
-    id: "scene",
-    label: "シーンで探す",
-    toolHref: "/scene",
-    tags: ["シーンで探す", "通勤 本", "通学 本", "寝る前 本", "就寝前 読書", "移動中 読書"],
+    id: "manga",
+    label: "漫画",
+    toolHref: "/manga/mood",
+    tags: ["漫画", "おすすめ漫画", "少年漫画", "泣ける漫画", "日常系漫画", "恋愛漫画", "冒険漫画", "ファンタジー漫画", "バトル漫画", "大人向け漫画", "コメディ漫画", "ホラー漫画", "サスペンス漫画", "心理戦漫画", "グルメ漫画", "料理漫画", "お仕事漫画", "スポーツ漫画", "青年漫画", "少女漫画", "女性向け漫画", "社会人漫画", "癒やし漫画", "癒し漫画", "ほのぼの漫画", "1巻完結漫画", "短編漫画", "一気読み漫画", "転生漫画", "異世界漫画", "SF漫画", "ドラマ漫画", "ストーリー漫画", "面白い漫画", "漫画おすすめ", "漫画ガイド", "マンガ", "完結済み"],
     color: "sky",
   },
   {
-    id: "media",
-    label: "映像から原作",
-    toolHref: "/tools/media-originals",
-    tags: ["映像から原作", "映画 原作 小説", "アニメ 原作", "ドラマ 原作 漫画", "映像化作品"],
+    id: "sf-fantasy",
+    label: "SF・ファンタジー",
+    toolHref: "/genre",
+    tags: ["SF小説", "海外SF", "SF", "SF作家", "ファンタジー", "ファンタジー小説", "異世界小説", "異世界", "ダークファンタジー", "タイムトラベル小説", "ディストピア小説", "サイバーパンク", "冒険", "冒険小説"],
     color: "violet",
   },
   {
-    id: "theme",
-    label: "テーマから学ぶ",
-    toolHref: "/tools/trend-books",
-    tags: ["テーマから学ぶ", "AI 本 おすすめ", "経済 本 初心者", "テクノロジー"],
+    id: "novel",
+    label: "小説・文学",
+    toolHref: "/discover",
+    tags: ["おすすめ小説", "小説", "日本文学", "文学", "人間ドラマ", "感動", "恋愛", "青春小説", "青春文学", "家族小説", "社会派小説", "歴史小説", "時代小説", "海外小説", "海外文学", "短編小説", "短編集", "エンタメ小説", "お仕事小説", "社会人小説", "感動小説", "ホラー小説", "怖い小説", "怪談小説"],
     color: "emerald",
+  },
+  {
+    id: "guide",
+    label: "読書ガイド・入門",
+    toolHref: "/tools/trend-books",
+    tags: ["初心者向け", "読書初心者", "読書", "読む順番", "読書術", "読書習慣", "本選び", "本の選び方", "読書のコツ", "読書スランプ", "テーマから学ぶ", "テクノロジー", "AI 本 おすすめ", "経済 本 初心者", "ビジネス書", "自己啓発", "教養", "作家別ガイド", "ガイド", "ジャンル別"],
+    color: "amber",
   },
 ] as const;
 
@@ -58,6 +65,11 @@ const COLOR_MAP = {
     chip: "bg-emerald-50 text-emerald-800 border-emerald-200 hover:bg-emerald-100",
     active: "bg-emerald-600 text-white border-emerald-600",
     badge: "bg-emerald-50 text-emerald-700",
+  },
+  amber: {
+    chip: "bg-amber-50 text-amber-800 border-amber-200 hover:bg-amber-100",
+    active: "bg-amber-600 text-white border-amber-600",
+    badge: "bg-amber-50 text-amber-700",
   },
 } as const;
 

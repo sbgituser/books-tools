@@ -7,20 +7,20 @@ import { BLOG_DESCRIPTION, SITE_NAME, TOOL_LINKS } from "@/lib/site";
 import BlogIndexClient from "@/components/blog/BlogIndexClient";
 
 export const metadata: Metadata = {
-  title: "ブログ",
+  title: "読書ブログ｜小説・漫画のおすすめ＆読書ガイド",
   description: BLOG_DESCRIPTION,
   alternates: {
     canonical: getBlogCanonical(),
   },
   openGraph: {
-    title: `ブログ | ${SITE_NAME}`,
+    title: `読書ブログ｜小説・漫画のおすすめ＆読書ガイド | ${SITE_NAME}`,
     description: BLOG_DESCRIPTION,
     url: getBlogCanonical(),
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: `ブログ | ${SITE_NAME}`,
+    title: `読書ブログ｜小説・漫画のおすすめ＆読書ガイド | ${SITE_NAME}`,
     description: BLOG_DESCRIPTION,
   },
 };
@@ -50,10 +50,12 @@ export default function BlogIndexPage() {
       <Header />
       <main className="max-w-5xl mx-auto px-4 py-10">
         <div className="mb-8 rounded-2xl border border-stone-200 bg-white p-6 shadow-sm">
-          <h1 className="text-3xl font-bold text-stone-900 mb-2">ブログ</h1>
+          <h1 className="text-3xl font-bold text-stone-900 mb-2">
+            読書ブログ｜小説・漫画のおすすめ＆読書ガイド
+          </h1>
           <p className="text-stone-600 text-sm leading-relaxed">
-            本選び・読書術・比較ノウハウを発信するBooks Tools公式ブログです。記事からそのままツールへ移動して、
-            実際の書籍探索や比較に活用できます。
+            ミステリー・SF・ファンタジーなどジャンル別のおすすめ作品、人気作家の読む順番ガイド、初心者向けの読書入門まで。
+            気になるカテゴリからお好みの記事を探せます。
           </p>
           <div className="mt-4 flex flex-wrap gap-2">
             {TOOL_LINKS.map((tool) => (

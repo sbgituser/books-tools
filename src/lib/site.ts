@@ -34,7 +34,7 @@ export const KINDLE_UNLIMITED_URL = `https://www.amazon.co.jp/kindle-dbs/hz/subs
 export const AUDIBLE_FREE_TRIAL_URL = `https://www.amazon.co.jp/hz/audible/mlp/mffly?tag=${AMAZON_PARTNER_TAG}`;
 
 export const BLOG_DESCRIPTION =
-  "本選び・読書術・比較ノウハウを発信するBooks Tools公式ブログ。検索流入から書籍ツール活用までをつなげます。";
+  "小説・漫画のおすすめ作品紹介、ジャンル別の読書ガイド、作家別の読む順番まで。初心者から本好きまで役立つ読書ブログです。";
 
 export const TOOL_LINKS = [
   {
