@@ -88,10 +88,17 @@ export async function generateMetadata({
     .filter(Boolean)
     .join(" ");
 
+  // summaryShort も discoveryTags もない薄いページは noindex にして
+  // サイト全体の品質評価を守る
+  const hasSummary = Boolean(work.summaryShort?.trim());
+  const hasTags = (work.discoveryTags?.length ?? 0) > 0;
+  const isThinContent = !hasSummary && !hasTags;
+
   return {
     title,
     description: desc,
     alternates: { canonical: `${SITE_URL}/works/${fileId}` },
+    ...(isThinContent ? { robots: { index: false, follow: true } } : {}),
     openGraph: {
       title: `${work.title}｜${work.authorDisplay}`,
       description: desc,

@@ -1,4 +1,4 @@
-import { readdirSync } from "fs";
+import { readFileSync, readdirSync } from "fs";
 import { join } from "path";
 import type { MetadataRoute } from "next";
 import { getAllBlogMeta } from "@/lib/blog";
@@ -10,11 +10,26 @@ import { CATEGORY_TREE } from "@/lib/categories";
 export const dynamic = "force-static";
 
 
+/**
+ * summaryShort または discoveryTags を持つ作品のみ返す。
+ * 薄いコンテンツのページはサイトマップから除外し、
+ * クロールバジェットとインデックス品質を改善する。
+ */
 function getAllWorkFileIds(): string[] {
   try {
     const dir = join(process.cwd(), "public", "data", "works");
     return readdirSync(dir)
       .filter((f) => f.endsWith(".json"))
+      .filter((f) => {
+        try {
+          const data = JSON.parse(readFileSync(join(dir, f), "utf-8"));
+          const hasSummary = Boolean((data.summaryShort ?? "").trim());
+          const hasTags = (data.discoveryTags?.length ?? 0) > 0;
+          return hasSummary || hasTags;
+        } catch {
+          return false;
+        }
+      })
       .map((f) => f.replace(/\.json$/, ""));
   } catch {
     return [];
