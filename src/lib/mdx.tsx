@@ -68,13 +68,44 @@ function BlogBookCard(props: BlogBookCardProps) {
   );
 }
 
+/**
+ * MDX ソースから <BlogFAQ items={[...]} /> のアイテム配列を事前抽出する。
+ * next-mdx-remote v6 (MDX v3) では JSX 属性内のオブジェクト配列リテラルが
+ * 正しく評価されないため、正規表現で抽出しクロージャ経由でコンポーネントに渡す。
+ */
+function extractFaqItems(source: string): Array<{ q: string; a: string }> {
+  const match = source.match(/<BlogFAQ\s+items=\{\s*(\[[\s\S]*?\])\s*\}\s*\/>/);
+  if (!match) return [];
+  try {
+    // eslint-disable-next-line no-new-func
+    return new Function(`return ${match[1]}`)() as Array<{ q: string; a: string }>;
+  } catch {
+    return [];
+  }
+}
+
 export async function renderBlogMdx(source: string) {
+  // 1. MDX ソースから FAQ アイテムを事前抽出
+  const faqItems = extractFaqItems(source);
+
+  // 2. MDX 内の <BlogFAQ items={[...]} /> をプロップなしの <BlogFAQ /> に置換
+  //    （MDX v3 がオブジェクト配列式を評価できない問題を回避）
+  const cleanedSource = source.replace(
+    /<BlogFAQ\s+items=\{\s*\[[\s\S]*?\]\s*\}\s*\/>/g,
+    "<BlogFAQ />",
+  );
+
+  // 3. クロージャで事前抽出したアイテムを渡すラッパーコンポーネント
+  function BlogFAQBound() {
+    return <BlogFAQ items={faqItems} />;
+  }
+
   const { content } = await compileMDX({
-    source,
+    source: cleanedSource,
     components: {
       h3: BlogBookHeading,
       BlogBookCard,
-      BlogFAQ,
+      BlogFAQ: BlogFAQBound,
       BlogCTA,
       BlogQuickPick,
       BlogRelatedArticles,
