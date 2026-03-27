@@ -1,6 +1,5 @@
 /**
  * /contact — お問い合わせページ
- * 静的サイトのため、外部フォームサービスまたはメールリンクで対応。
  */
 
 import type { Metadata } from "next";
@@ -35,36 +34,18 @@ export default function ContactPage() {
             お問い合わせ
           </h1>
           <p className="text-stone-500 text-sm mb-10 leading-relaxed">
-            Books Toolsに関するご意見・ご質問・不具合のご報告などは、
-            以下の方法でお気軽にお問い合わせください。
+            Books Toolsに関するご意見・ご質問・不具合のご報告などをお待ちしております。
           </p>
 
           <div className="space-y-6">
-            {/* メール */}
-            <div className="bg-white border border-stone-200 rounded-2xl p-6">
-              <div className="flex items-center gap-3 mb-3">
-                <span className="text-2xl" aria-hidden="true">✉️</span>
-                <h2 className="text-lg font-bold text-stone-800">メールでのお問い合わせ</h2>
-              </div>
-              <p className="text-stone-600 text-sm leading-relaxed mb-4">
-                以下のメールアドレスまでご連絡ください。通常、3営業日以内にご返信いたします。
-              </p>
-              <a
-                href="mailto:contact@kuras-plus.com"
-                className="inline-flex items-center gap-2 bg-rose-500 hover:bg-rose-600 text-white font-semibold text-sm px-5 py-3 rounded-xl transition-colors"
-              >
-                contact@kuras-plus.com にメールする
-              </a>
-            </div>
-
-            {/* GitHub Issues */}
+            {/* 不具合の報告 */}
             <div className="bg-white border border-stone-200 rounded-2xl p-6">
               <div className="flex items-center gap-3 mb-3">
                 <span className="text-2xl" aria-hidden="true">🐛</span>
                 <h2 className="text-lg font-bold text-stone-800">不具合の報告</h2>
               </div>
               <p className="text-stone-600 text-sm leading-relaxed">
-                表示の不具合やデータの誤りを発見された場合は、メールにてご報告いただけると助かります。
+                表示の不具合やデータの誤りを発見された場合は、ご報告いただけると助かります。
                 書籍タイトル・URL等、具体的な情報をお添えいただけるとスムーズに対応できます。
               </p>
             </div>
@@ -80,7 +61,7 @@ export default function ContactPage() {
                   <dt className="font-bold text-stone-700">Q. 書籍の掲載を依頼できますか？</dt>
                   <dd className="mt-1 leading-relaxed">
                     現在、書籍データは定期的に自動収集・更新しています。
-                    特定の書籍の掲載をご希望の場合は、メールにてご連絡ください。
+                    特定の書籍の掲載をご希望の場合は、お気軽にご連絡ください。
                   </dd>
                 </div>
                 <div>
