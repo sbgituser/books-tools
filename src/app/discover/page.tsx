@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import DiscoverSection from "@/components/works/DiscoverSection";
+import { DISCOVER_MOODS } from "@/constants/discoverMoods";
 
 export const metadata: Metadata = {
   title: "気分から本を発見する | Books Discover",
   description:
     "泣ける・ダーク・癒やし・一気読みなど、今の気分・雰囲気で漫画・小説を見つける発見サイト。タイトルが分からなくても、読みたい体験から逆引きできます。",
+  alternates: { canonical: "https://books.kuras-plus.com/discover" },
   openGraph: {
     title: "気分から本を発見する | Books Discover",
     description: "今の気分・雰囲気で漫画・小説を発見。タグを選ぶだけで次の一冊が見つかる。",
@@ -41,6 +44,28 @@ export default function DiscoverPage() {
         {/* 発見セクション */}
         <section className="max-w-7xl mx-auto px-4 py-10 sm:py-14">
           <DiscoverSection />
+        </section>
+
+        {/* 気分カテゴリー（サーバーサイドレンダリング、SEO用） */}
+        <section className="border-t border-stone-200 bg-white py-10 px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-sm font-bold text-stone-500 uppercase tracking-wider mb-5 text-center">
+              気分・雰囲気で探す
+            </h2>
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+              {DISCOVER_MOODS.map((mood) => (
+                <Link
+                  key={mood.slug}
+                  href={`/discover?mood=${mood.slug}`}
+                  className="flex flex-col items-center gap-2 p-4 bg-stone-50 hover:bg-rose-50 border border-stone-200 hover:border-rose-300 rounded-xl transition-all text-center"
+                >
+                  <span className="text-3xl" aria-hidden="true">{mood.icon}</span>
+                  <span className="text-sm font-bold text-stone-800">{mood.label}</span>
+                  <span className="text-xs text-stone-500 leading-snug">{mood.description}</span>
+                </Link>
+              ))}
+            </div>
+          </div>
         </section>
 
       </main>

@@ -169,6 +169,52 @@ function VolumeCard({ vol }: { vol: Volume }) {
 
 // ── ページ ────────────────────────────────────────────────────────
 
+const TAG_DESCRIPTIONS: Record<string, string> = {
+  "考えさせられる": "読後に深く考えさせられる、テーマ性の高い作品です。",
+  "一気読み": "続きが気になって止まらない、一気読み必至の展開が魅力です。",
+  "感動": "心を揺さぶる感動的なストーリーが楽しめます。",
+  "深い": "人間や社会の深い部分を描いた、読み応えのある作品です。",
+  "読みやすい": "読みやすい文章とテンポの良さが特徴の作品です。",
+  "世界観重視": "独特の世界観に没入できる、作り込まれた世界が魅力です。",
+  "ファンタジー": "異世界・魔法・冒険など、ファンタジー要素が楽しめます。",
+  "怖い": "恐怖・緊張感・不安感を楽しみたい方におすすめです。",
+  "熱い": "燃えるような熱い展開・友情・成長が描かれた作品です。",
+  "泣ける": "思わず涙がこぼれる、感涙必至の名作です。",
+  "完結": "全巻揃った完結済み作品で、最後まで安心して読めます。",
+  "心温まる": "優しい気持ちになれる、心温まるストーリーです。",
+  "明るい": "明るく前向きな気持ちになれる作品です。",
+  "バトル": "スリリングな戦闘シーンが楽しめるアクション作品です。",
+  "笑える": "笑えるシーンが多い、コメディ要素の強い作品です。",
+  "ダーク": "暗い世界観・重いテーマを描いた、深みのある作品です。",
+  "日常系": "日常の何気ない場面を丁寧に描いた、ほのぼの系作品です。",
+  "切ない": "切なく胸が締め付けられる、感情的な作品です。",
+  "学べる": "知識・知恵・人生の教訓が得られる作品です。",
+  "爽快": "読後に爽快感・達成感が味わえる作品です。",
+  "やる気が出る": "読むと前向きになれる、モチベーションが上がる作品です。",
+  "癒やし": "疲れた心を癒してくれる、ほっこりできる作品です。",
+  "短編": "短編集で、隙間時間にサクッと読める作品です。",
+  "絶望": "絶望・悲劇を描いた、重厚なドラマが楽しめます。",
+  "優しい": "優しい雰囲気に包まれた、ほのぼのとした作品です。",
+  "前向き": "前向きな気持ちになれる、希望を感じる作品です。",
+  "穏やか": "穏やかな雰囲気の、ゆったりと楽しめる作品です。",
+};
+
+const L2_LABEL: Record<string, string> = {
+  mystery: "ミステリー",
+  sf: "SF・サイエンスフィクション",
+  fantasy: "ファンタジー",
+  romance: "恋愛",
+  youth: "青春",
+  literary: "純文学",
+  "historical-novel": "歴史・時代小説",
+  horror: "ホラー",
+  entertainment: "エンタメ",
+  shonen: "少年漫画",
+  shojo: "少女漫画",
+  seinen: "青年漫画",
+  general: "一般漫画",
+};
+
 const TYPE_LABEL = { manga: "漫画", novel: "小説", other: "書籍" } as const;
 const TYPE_COLOR = {
   manga: "bg-rose-100 text-rose-700 border-rose-200",
@@ -232,16 +278,24 @@ export default async function WorkDetailPage({
     ...(work.summaryShort ? { description: work.summaryShort } : {}),
     ...(work.coverImageUrl ? { image: work.coverImageUrl } : {}),
     bookFormat: "https://schema.org/EBook",
+    ...(work.l2Id ? { genre: L2_LABEL[work.l2Id] ?? work.l2Id } : {}),
     url: workUrl,
   };
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: "ホーム", item: SITE_URL },
-      { "@type": "ListItem", position: 2, name: "発見する", item: `${SITE_URL}/discover` },
-      { "@type": "ListItem", position: 3, name: work.title, item: workUrl },
-    ],
+    itemListElement: work.l2Id && L2_LABEL[work.l2Id]
+      ? [
+          { "@type": "ListItem", position: 1, name: "ホーム", item: SITE_URL },
+          { "@type": "ListItem", position: 2, name: "ジャンル", item: `${SITE_URL}/genre` },
+          { "@type": "ListItem", position: 3, name: L2_LABEL[work.l2Id], item: `${SITE_URL}/genre/${work.l2Id}` },
+          { "@type": "ListItem", position: 4, name: work.title, item: workUrl },
+        ]
+      : [
+          { "@type": "ListItem", position: 1, name: "ホーム", item: SITE_URL },
+          { "@type": "ListItem", position: 2, name: "発見する", item: `${SITE_URL}/discover` },
+          { "@type": "ListItem", position: 3, name: work.title, item: workUrl },
+        ],
   };
 
   return (
@@ -263,7 +317,17 @@ export default async function WorkDetailPage({
             <ol className="flex items-center gap-1.5 flex-wrap">
               <li><Link href="/" className="hover:text-rose-600">ホーム</Link></li>
               <li>/</li>
-              <li><Link href="/discover" className="hover:text-rose-600">発見する</Link></li>
+              {work.l2Id && L2_LABEL[work.l2Id] ? (
+                <>
+                  <li><Link href="/genre" className="hover:text-rose-600">ジャンル</Link></li>
+                  <li>/</li>
+                  <li><Link href={`/genre/${work.l2Id}`} className="hover:text-rose-600">{L2_LABEL[work.l2Id]}</Link></li>
+                </>
+              ) : (
+                <>
+                  <li><Link href="/discover" className="hover:text-rose-600">発見する</Link></li>
+                </>
+              )}
               <li>/</li>
               <li className="text-stone-600 font-medium truncate max-w-[200px]">{work.title}</li>
             </ol>
@@ -381,6 +445,28 @@ export default async function WorkDetailPage({
               </div>
             </div>
           </section>
+
+          {/* 作品の特徴（summaryShortがない場合に補足テキストを表示） */}
+          {!work.summaryShort && work.discoveryTags.length > 0 && (
+            <section className="mb-8 bg-white border border-stone-200 rounded-2xl p-5 sm:p-6">
+              <h2 className="text-base font-bold text-stone-700 mb-3">この作品の特徴</h2>
+              <ul className="space-y-2">
+                {work.discoveryTags.map((tag) =>
+                  TAG_DESCRIPTIONS[tag] ? (
+                    <li key={tag} className="flex gap-2 text-sm text-stone-600">
+                      <span className="text-rose-500 font-bold shrink-0">#{tag}</span>
+                      <span>{TAG_DESCRIPTIONS[tag]}</span>
+                    </li>
+                  ) : null
+                )}
+              </ul>
+              {work.l2Id && L2_LABEL[work.l2Id] && (
+                <p className="mt-3 text-sm text-stone-500">
+                  ジャンル: <Link href={`/genre/${work.l2Id}`} className="text-rose-600 hover:underline font-medium">{L2_LABEL[work.l2Id]}</Link>のおすすめ{work.type === "manga" ? "漫画" : "小説"}です。
+                </p>
+              )}
+            </section>
+          )}
 
           {/* 巻一覧 */}
           {work.volumes.length > 0 && (

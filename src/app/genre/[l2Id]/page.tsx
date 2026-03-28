@@ -93,20 +93,72 @@ export async function generateStaticParams() {
 
 // ── メタデータ ────────────────────────────────────────────────
 
-const L2_SEO: Record<string, { title: string; desc: string }> = {
-  mystery: { title: "ミステリー小説 おすすめ", desc: "ミステリー・推理小説のおすすめ作品一覧。本格ミステリーからサスペンスまで、謎解きが好きな方に。" },
-  sf: { title: "SF小説 おすすめ", desc: "SF・サイエンスフィクション小説のおすすめ。宇宙・ディストピア・近未来の名作を紹介。" },
-  fantasy: { title: "ファンタジー小説 おすすめ", desc: "ファンタジー小説のおすすめ作品。異世界・魔法・冒険ファンタジーを集めました。" },
-  romance: { title: "恋愛小説 おすすめ", desc: "恋愛小説のおすすめ。純愛・大人の恋愛・切ない恋愛小説を厳選紹介。" },
-  youth: { title: "青春小説 おすすめ", desc: "青春小説のおすすめ。学園・友情・成長物語。瑞々しい読書体験を。" },
-  literary: { title: "純文学 おすすめ", desc: "純文学のおすすめ作品。芥川賞・直木賞受賞作から名作まで。深い読書体験を。" },
-  "historical-novel": { title: "歴史小説 おすすめ", desc: "歴史小説・時代小説のおすすめ。戦国・幕末・江戸を舞台にした名作を紹介。" },
-  horror: { title: "ホラー小説 おすすめ", desc: "ホラー小説のおすすめ。怪談・心理ホラー・和風ホラーの名作を集めました。" },
-  entertainment: { title: "エンタメ小説 おすすめ", desc: "エンタメ小説のおすすめ。読みやすいベストセラーから映像化作品まで。" },
-  shonen: { title: "少年漫画 おすすめ", desc: "少年漫画のおすすめ作品。バトル・冒険・スポーツの人気作を一覧で紹介。" },
-  shojo: { title: "少女漫画 おすすめ", desc: "少女漫画のおすすめ。恋愛・友情・ファンタジーの名作を紹介。" },
-  seinen: { title: "青年漫画 おすすめ", desc: "青年漫画のおすすめ。大人向けの深い物語やリアルな人間ドラマを厳選。" },
-  general: { title: "一般漫画 おすすめ", desc: "ジャンルを問わない漫画のおすすめ。話題作から隠れた名作まで。" },
+const L2_SEO: Record<string, { title: string; desc: string; longDesc: string }> = {
+  mystery: {
+    title: "ミステリー小説 おすすめ",
+    desc: "ミステリー・推理小説のおすすめ作品一覧。本格ミステリーからサスペンスまで、謎解きが好きな方に。",
+    longDesc: "本格ミステリー・推理小説から心理サスペンスまで、読み応え抜群の作品を集めました。論理的な謎解きを楽しみたい方、先が読めない展開にドキドキしたい方におすすめです。"
+  },
+  sf: {
+    title: "SF小説 おすすめ",
+    desc: "SF・サイエンスフィクション小説のおすすめ。宇宙・ディストピア・近未来の名作を紹介。",
+    longDesc: "宇宙探索・ディストピア・AI・近未来技術など、想像力を刺激するSF小説を集めました。科学的考察から純粋な冒険まで、様々なSFの醍醐味が楽しめます。"
+  },
+  fantasy: {
+    title: "ファンタジー小説 おすすめ",
+    desc: "ファンタジー小説のおすすめ作品。異世界・魔法・冒険ファンタジーを集めました。",
+    longDesc: "異世界転生・魔法・ドラゴン・英雄譚など、現実を超えた世界観のファンタジー小説を集めました。壮大な冒険に胸躍らせたい方におすすめです。"
+  },
+  romance: {
+    title: "恋愛小説 おすすめ",
+    desc: "恋愛小説のおすすめ。純愛・大人の恋愛・切ない恋愛小説を厳選紹介。",
+    longDesc: "甘酸っぱい初恋から大人の複雑な恋愛まで、心に響く恋愛小説を集めました。胸がキュンとする純愛から、切なく泣ける作品まで幅広く紹介します。"
+  },
+  youth: {
+    title: "青春小説 おすすめ",
+    desc: "青春小説のおすすめ。学園・友情・成長物語。瑞々しい読書体験を。",
+    longDesc: "学園生活・部活・友情・初恋など、青春の輝きを描いた小説を集めました。読むと懐かしく、また新鮮な気持ちになれる瑞々しい作品揃いです。"
+  },
+  literary: {
+    title: "純文学 おすすめ",
+    desc: "純文学のおすすめ作品。芥川賞・直木賞受賞作から名作まで。深い読書体験を。",
+    longDesc: "芥川賞・直木賞受賞作をはじめ、日本の純文学の傑作を集めました。人間の内面・社会・生と死を深く掘り下げた、読み応えのある作品を紹介します。"
+  },
+  "historical-novel": {
+    title: "歴史小説 おすすめ",
+    desc: "歴史小説・時代小説のおすすめ。戦国・幕末・江戸を舞台にした名作を紹介。",
+    longDesc: "戦国時代・幕末維新・江戸時代を舞台にした歴史小説・時代小説を集めました。史実に基づいたドラマと、そこに生きた人々の物語が楽しめます。"
+  },
+  horror: {
+    title: "ホラー小説 おすすめ",
+    desc: "ホラー小説のおすすめ。怪談・心理ホラー・和風ホラーの名作を集めました。",
+    longDesc: "日本の怪談・心理ホラー・オカルト・和風ホラーなど、背筋が凍るような作品を集めました。恐怖体験を求める方、怖いけど読みたい方におすすめです。"
+  },
+  entertainment: {
+    title: "エンタメ小説 おすすめ",
+    desc: "エンタメ小説のおすすめ。読みやすいベストセラーから映像化作品まで。",
+    longDesc: "映像化作品やベストセラーなど、幅広い層に支持されているエンターテインメント小説を集めました。読みやすさと面白さを兼ね備えた作品が揃っています。"
+  },
+  shonen: {
+    title: "少年漫画 おすすめ",
+    desc: "少年漫画のおすすめ作品。バトル・冒険・スポーツの人気作を一覧で紹介。",
+    longDesc: "バトル・スポーツ・冒険・友情など、少年漫画の王道を行く名作から話題作まで集めました。熱い展開と成長ストーリーが楽しめる作品を紹介します。"
+  },
+  shojo: {
+    title: "少女漫画 おすすめ",
+    desc: "少女漫画のおすすめ。恋愛・友情・ファンタジーの名作を紹介。",
+    longDesc: "恋愛・友情・ファンタジー・成長をテーマにした少女漫画の名作を集めました。胸キュンのラブストーリーから、勇気をもらえる成長物語まで幅広く紹介します。"
+  },
+  seinen: {
+    title: "青年漫画 おすすめ",
+    desc: "青年漫画のおすすめ。大人向けの深い物語やリアルな人間ドラマを厳選。",
+    longDesc: "大人向けのリアルな人間ドラマ・社会問題・深いテーマを描いた青年漫画を集めました。少年漫画では描けない複雑な物語が楽しめます。"
+  },
+  general: {
+    title: "一般漫画 おすすめ",
+    desc: "ジャンルを問わない漫画のおすすめ。話題作から隠れた名作まで。",
+    longDesc: "ジャンルの枠に収まらない個性的な漫画・話題作・隠れた名作を集めました。幅広い作風の作品を楽しみたい方におすすめです。"
+  },
 };
 
 export async function generateMetadata({
@@ -121,11 +173,12 @@ export async function generateMetadata({
   const seo = L2_SEO[l2Id] ?? {
     title: `${def.l2Label} おすすめ`,
     desc: `${def.l2Label}のおすすめ漫画・小説を一覧で紹介。`,
+    longDesc: `${def.l2Label}のおすすめ漫画・小説を一覧で紹介。`,
   };
 
   return {
     title: `${seo.title} | ${SITE_NAME}`,
-    description: seo.desc,
+    description: seo.longDesc ?? seo.desc,
     alternates: { canonical: `${SITE_URL}/genre/${l2Id}` },
     openGraph: {
       title: `${seo.title} | ${SITE_NAME}`,
@@ -158,7 +211,7 @@ export default async function GenreDetailPage({
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     name: `${def.l2Label} おすすめ作品`,
-    description: seo?.desc ?? `${def.l2Label}の作品一覧`,
+    description: seo?.longDesc ?? seo?.desc ?? `${def.l2Label}の作品一覧`,
     url: genreUrl,
     mainEntity: {
       "@type": "ItemList",
@@ -220,7 +273,7 @@ export default async function GenreDetailPage({
                   <span className="text-amber-400"> おすすめ</span>
                 </h1>
                 <p className="text-stone-300 text-sm sm:text-base">
-                  {seo?.desc ?? `${def.l2Label}の作品を一覧で紹介します。`}
+                  {seo?.longDesc ?? seo?.desc ?? `${def.l2Label}の作品を一覧で紹介します。`}
                 </p>
               </div>
             </div>
