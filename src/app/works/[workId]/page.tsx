@@ -220,6 +220,7 @@ export default async function WorkDetailPage({
   const statusLabel = STATUS_LABEL[work.status];
   const workAmazonUrl = amazonSearchUrl(work.title);
 
+  const workUrl = `${SITE_URL}/works/${fileId}`;
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Book",
@@ -228,7 +229,19 @@ export default async function WorkDetailPage({
     ...(work.publisherMain
       ? { publisher: { "@type": "Organization", name: work.publisherMain } }
       : {}),
-    url: `${SITE_URL}/works/${fileId}`,
+    ...(work.summaryShort ? { description: work.summaryShort } : {}),
+    ...(work.coverImageUrl ? { image: work.coverImageUrl } : {}),
+    bookFormat: "https://schema.org/EBook",
+    url: workUrl,
+  };
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "ホーム", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "発見する", item: `${SITE_URL}/discover` },
+      { "@type": "ListItem", position: 3, name: work.title, item: workUrl },
+    ],
   };
 
   return (
@@ -236,6 +249,10 @@ export default async function WorkDetailPage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       <Header />
       <main className="min-h-screen bg-stone-50">

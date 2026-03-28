@@ -85,12 +85,33 @@ export default async function ScenePage({
   const otherScenes = READING_SCENES.filter((s) => s.slug !== slug);
   const hasCurated = curated !== null && curated.sections.length > 0;
 
+  const sceneUrl = `${SITE_URL}/scene/${slug}`;
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     name: `${data.label}に読む本`,
     description: data.description,
-    url: `${SITE_URL}/scene/${slug}`,
+    url: sceneUrl,
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: hasCurated ? curated!.selectedCount : data.totalCount,
+      itemListElement: data.works.slice(0, 10).map((w, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: w.title,
+        url: `${SITE_URL}/works/${w.workId}`,
+      })),
+    },
+  };
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "ホーム", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "シーンで選ぶ", item: `${SITE_URL}/scene` },
+      { "@type": "ListItem", position: 3, name: data.label, item: sceneUrl },
+    ],
   };
 
   return (
@@ -98,6 +119,10 @@ export default async function ScenePage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       <Header />
       <main className="min-h-screen bg-stone-50">

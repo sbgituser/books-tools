@@ -153,19 +153,32 @@ export default async function GenreDetailPage({
 
   const seo = L2_SEO[l2Id];
 
+  const genreUrl = `${SITE_URL}/genre/${l2Id}`;
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "ItemList",
+    "@type": "CollectionPage",
     name: `${def.l2Label} おすすめ作品`,
     description: seo?.desc ?? `${def.l2Label}の作品一覧`,
-    url: `${SITE_URL}/genre/${l2Id}`,
-    numberOfItems: works.length,
-    itemListElement: works.slice(0, 10).map((w, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      name: w.title,
-      url: `${SITE_URL}/works/${w.workId}`,
-    })),
+    url: genreUrl,
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: works.length,
+      itemListElement: works.slice(0, 10).map((w, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: w.title,
+        url: `${SITE_URL}/works/${w.workId}`,
+      })),
+    },
+  };
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "ホーム", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "ジャンル", item: `${SITE_URL}/genre` },
+      { "@type": "ListItem", position: 3, name: def.l2Label, item: genreUrl },
+    ],
   };
 
   return (
@@ -173,6 +186,10 @@ export default async function GenreDetailPage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       <Header />
       <main className="min-h-screen bg-stone-50">

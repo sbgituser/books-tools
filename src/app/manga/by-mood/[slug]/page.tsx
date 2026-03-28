@@ -11,6 +11,7 @@ import {
   PRESET_SEARCHES,
   type EmotionalTagId,
 } from "@/constants/bookTags";
+import { SITE_URL } from "@/lib/site";
 import type { MoodBookEntry } from "@/types/book";
 
 // ── 静的パラメータ ─────────────────────────────────────────────────
@@ -106,7 +107,12 @@ export async function generateMetadata({
   return {
     title: def.title,
     description: def.description,
-    openGraph: { title: def.title, description: def.description },
+    alternates: { canonical: `${SITE_URL}/manga/by-mood/${slug}` },
+    openGraph: {
+      title: def.title,
+      description: def.description,
+      url: `${SITE_URL}/manga/by-mood/${slug}`,
+    },
   };
 }
 
@@ -161,12 +167,32 @@ export default async function MoodSlugPage({
   // 関連するプリセット（自分以外）
   const relatedPresets = PRESET_SEARCHES.filter(p => p.slug !== slug).slice(0, 6);
 
+  const pageUrl = `${SITE_URL}/manga/by-mood/${slug}`;
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     name: def.h1,
     description: def.description,
-    url: `https://books.kuras-plus.com/manga/by-mood/${slug}`,
+    url: pageUrl,
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: filtered.length,
+      itemListElement: filtered.slice(0, 10).map((book, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name: book.title,
+        url: `${SITE_URL}/works/${book.id}`,
+      })),
+    },
+  };
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "ホーム", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "気分で探す", item: `${SITE_URL}/manga/mood` },
+      { "@type": "ListItem", position: 3, name: def.h1, item: pageUrl },
+    ],
   };
 
   return (
@@ -174,6 +200,10 @@ export default async function MoodSlugPage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       <Header />
       <main>
