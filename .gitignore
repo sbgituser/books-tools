@@ -52,3 +52,7 @@ scripts/classifications.csv
 # similar-works (rebuilt on every build; generatedAt timestamp changes only)
 /data/similar-works/
 .github-token
+
+# Backup files
+*.bak
+*.bak-*
