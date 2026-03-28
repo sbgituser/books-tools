@@ -25,6 +25,14 @@ const summariesSupplement: Record<string, string> = existsSync(supplementPath)
   ? JSON.parse(readFileSync(supplementPath, "utf-8"))
   : {};
 
+// ── 巻数パッチデータ ───────────────────────────────────────────────
+// data/volume-count-patches.json から workId → volumeCount のマッピングを読み込む
+// fix-manga-volumes.ts で生成されたパッチを適用する
+const volumeCountPatchesPath = join(process.cwd(), "data", "volume-count-patches.json");
+const volumeCountPatches: Record<string, number> = existsSync(volumeCountPatchesPath)
+  ? JSON.parse(readFileSync(volumeCountPatchesPath, "utf-8"))
+  : {};
+
 // ── ユーティリティ ────────────────────────────────────────────────
 
 /**
@@ -401,7 +409,7 @@ for (const [workId, entries] of groups.entries()) {
     publisherMain: representative.publisher,
     summaryShort: summariesSupplement[workId] ?? moodRep?.recommendationCatch,
     status,
-    volumeCount: workVolumes.length,
+    volumeCount: volumeCountPatches[workId] ?? workVolumes.length,
     firstPublishedDate: dates[0],
     latestPublishedDate: dates[dates.length - 1],
     coverImageUrl: representative.thumbnailUrl,
