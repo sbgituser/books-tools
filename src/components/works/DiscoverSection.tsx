@@ -10,6 +10,11 @@
  *   2. ムード選択（8つの読書気分カード）
  *   3. AI選書（curated）表示 ← 主役
  *   4. 「全作品を見る」— 補助導線
+ *
+ * URLパラメータ:
+ *   ?mood={slug}  - ムードを自動選択
+ *   ?type={manga|novel} - タイプフィルタを自動適用
+ *   ?tag={tag}    - 感情タグで絞り込み（対応するムードを自動選択 + タグフィルタ）
  */
 
 import { useState, useEffect, useCallback } from "react";
@@ -28,6 +33,14 @@ const TYPE_TABS: { value: TypeFilter; label: string }[] = [
   { value: "novel", label: "📕 小説" },
 ];
 
+// 感情タグ → ムードスラグのマッピング（最初にマッチしたものを優先）
+const TAG_TO_SLUG: Record<string, string> = {};
+for (const mood of DISCOVER_MOODS) {
+  for (const tag of mood.tags) {
+    if (!TAG_TO_SLUG[tag]) TAG_TO_SLUG[tag] = mood.slug;
+  }
+}
+
 export default function DiscoverSection() {
   const [selectedSlug, setSelectedSlug] = useState<string | null>(null);
   const [typeFilter, setTypeFilter] = useState<TypeFilter>("all");
@@ -35,6 +48,7 @@ export default function DiscoverSection() {
   const [curatedCache, setCuratedCache] = useState<Map<string, DiscoverCurated | null>>(new Map());
   const [curatedState, setCuratedState] = useState<LoadState>("idle");
   const [showAll, setShowAll] = useState(false);
+  const [activeTag, setActiveTag] = useState<string | null>(null);
 
   // URL クエリ初期値
   useEffect(() => {
@@ -43,6 +57,14 @@ export default function DiscoverSection() {
     if (mood && DISCOVER_MOODS.some((m) => m.slug === mood)) setSelectedSlug(mood);
     const type = params.get("type") as TypeFilter | null;
     if (type === "manga" || type === "novel") setTypeFilter(type);
+    // タグパラメータ: 対応するムードを自動選択してタグで絞り込む
+    const tag = params.get("tag");
+    if (tag) {
+      setActiveTag(tag);
+      const mappedSlug = TAG_TO_SLUG[tag];
+      if (mappedSlug) setSelectedSlug(mappedSlug);
+      setShowAll(true);
+    }
   }, []);
 
   // discovery-index fetch
@@ -72,13 +94,24 @@ export default function DiscoverSection() {
   }, [selectedSlug, curatedCache]);
 
   const handleSelectMood = useCallback((slug: string) => {
-    if (selectedSlug === slug) { setSelectedSlug(null); setShowAll(false); return; }
+    if (selectedSlug === slug) {
+      setSelectedSlug(null);
+      setShowAll(false);
+      setActiveTag(null);
+      return;
+    }
     setSelectedSlug(slug);
     setShowAll(false);
+    setActiveTag(null);
   }, [selectedSlug]);
 
   const handleTypeChange = useCallback((t: TypeFilter) => {
     setTypeFilter(t);
+    setShowAll(false);
+  }, []);
+
+  const handleClearTag = useCallback(() => {
+    setActiveTag(null);
     setShowAll(false);
   }, []);
 
@@ -99,6 +132,22 @@ export default function DiscoverSection() {
   const allFiltered = typeFilter === "all"
     ? moodFiltered
     : moodFiltered.filter((w) => w.type === typeFilter);
+
+  // アクティブタグによる絞り込み
+  const tagFiltered: WorkListItem[] = (() => {
+    if (!activeTag || !index) return allFiltered;
+    if (selectedSlug) {
+      // ムードの候補作品からさらに指定タグで絞り込む
+      return allFiltered.filter((w) => w.discoveryTags.includes(activeTag));
+    } else {
+      // マッピングなし: tagIndex から直接取得してタイプフィルタ適用
+      const ids = index.tagIndex[activeTag] ?? [];
+      const works = ids.map((id) => index.works[id]).filter(Boolean);
+      return typeFilter === "all" ? works : works.filter((w) => w.type === typeFilter);
+    }
+  })();
+
+  const displayFiltered = activeTag ? tagFiltered : allFiltered;
 
   // curated 用 workMap（タイプフィルタ適用済み）
   const workMap = new Map<string, WorkListItem>(
@@ -155,7 +204,7 @@ export default function DiscoverSection() {
         {selectedMood && (
           <div className="mt-3 flex justify-center">
             <button
-              onClick={() => { setSelectedSlug(null); setShowAll(false); }}
+              onClick={() => { setSelectedSlug(null); setShowAll(false); setActiveTag(null); }}
               className="text-xs text-stone-400 hover:text-stone-600 underline"
             >
               選択を解除する
@@ -164,8 +213,24 @@ export default function DiscoverSection() {
         )}
       </div>
 
-      {/* ── 選択なし ── */}
-      {!selectedSlug && (
+      {/* ── タグフィルタバッジ ── */}
+      {activeTag && (
+        <div className="flex items-center gap-2 mb-6">
+          <span className="inline-flex items-center gap-1 px-3 py-1 bg-rose-100 text-rose-700 rounded-full text-sm font-medium">
+            「{activeTag}」で絞り込み中
+            <button
+              onClick={handleClearTag}
+              className="ml-1 hover:text-rose-900 font-bold"
+              aria-label="絞り込みを解除"
+            >
+              ×
+            </button>
+          </span>
+        </div>
+      )}
+
+      {/* ── 選択なし（タグなし時のみ） ── */}
+      {!selectedSlug && !activeTag && (
         <div className="text-center py-16 text-stone-400">
           <p className="text-4xl mb-4">📚</p>
           <p className="text-base font-medium text-stone-500 mb-2">
@@ -175,10 +240,33 @@ export default function DiscoverSection() {
         </div>
       )}
 
-      {/* ── 選択済み ── */}
-      {selectedSlug && (
+      {/* ── 選択済み or タグフィルタあり ── */}
+      {(selectedSlug || activeTag) && (
         <div>
-          {curatedState === "loading" ? (
+          {activeTag ? (
+            /* ── タグフィルタ時: 全件グリッド表示 ── */
+            <>
+              {index && (
+                <div className="mb-6">
+                  <p className="text-sm text-stone-500">
+                    <span className="font-bold text-stone-700">{displayFiltered.length}件</span> の候補作品
+                  </p>
+                </div>
+              )}
+              {displayFiltered.length === 0 && index ? (
+                <div className="text-center py-16 text-stone-400">
+                  <p className="text-4xl mb-3">🔍</p>
+                  <p className="text-sm">この条件に合う作品は見つかりませんでした</p>
+                </div>
+              ) : (
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+                  {displayFiltered.map((work) => (
+                    <WorkCard key={work.workId} work={work} />
+                  ))}
+                </div>
+              )}
+            </>
+          ) : curatedState === "loading" ? (
             <div className="flex items-center justify-center py-16">
               <div className="text-stone-400 text-sm">選書中...</div>
             </div>
