@@ -22,10 +22,14 @@ interface BlogFAQProps {
 }
 
 export default function BlogFAQ({ items = [], heading = "よくある質問" }: BlogFAQProps) {
+  // 空データガード: 有効な質問が1件もない場合は何も表示しない
+  const validItems = items.filter((item) => item.q?.trim());
+  if (validItems.length === 0) return null;
+
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: items.map(({ q, a }) => ({
+    mainEntity: validItems.map(({ q, a }) => ({
       "@type": "Question",
       name: q,
       acceptedAnswer: {
@@ -49,7 +53,7 @@ export default function BlogFAQ({ items = [], heading = "よくある質問" }: 
           </h2>
         </div>
         <div className="divide-y divide-stone-200">
-          {items.map(({ q, a }, i) => (
+          {validItems.map(({ q, a }, i) => (
             <details key={i} className="group">
               <summary className="flex items-start justify-between gap-4 px-5 py-4 cursor-pointer list-none hover:bg-stone-100 transition-colors">
                 <span className="text-sm font-semibold text-stone-800 leading-relaxed">{q}</span>

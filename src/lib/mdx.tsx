@@ -72,13 +72,22 @@ function BlogBookCard(props: BlogBookCardProps) {
  * MDX ソースから <BlogFAQ items={[...]} /> のアイテム配列を事前抽出する。
  * next-mdx-remote v6 (MDX v3) では JSX 属性内のオブジェクト配列リテラルが
  * 正しく評価されないため、正規表現で抽出しクロージャ経由でコンポーネントに渡す。
+ *
+ * `q`/`a` キーと `question`/`answer` キーの両方に対応する。
  */
 function extractFaqItems(source: string): Array<{ q: string; a: string }> {
-  const match = source.match(/<BlogFAQ\s+items=\{\s*(\[[\s\S]*?\])\s*\}\s*\/>/);
+  const match = source.match(/<BlogFAQ\s+items=\{\s*(\[[\s\S]*?\])\s*\}\s*\/?>/);
   if (!match) return [];
   try {
     // eslint-disable-next-line no-new-func
-    return new Function(`return ${match[1]}`)() as Array<{ q: string; a: string }>;
+    const raw = new Function(`return ${match[1]}`)() as Array<
+      { q?: string; a?: string; question?: string; answer?: string }
+    >;
+    // question/answer キーを q/a へ正規化
+    return raw.map((item) => ({
+      q: item.q ?? item.question ?? "",
+      a: item.a ?? item.answer ?? "",
+    }));
   } catch {
     return [];
   }
