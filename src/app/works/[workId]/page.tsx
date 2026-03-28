@@ -177,6 +177,27 @@ const TYPE_COLOR = {
 } as const;
 const STATUS_LABEL = { completed: "完結", ongoing: "連載中", unknown: "" } as const;
 
+// l2Id別カバーフォールバックのグラデーション設定
+const L2_COVER_GRADIENT: Record<string, string> = {
+  mystery:          "from-slate-700 to-blue-900",
+  romance:          "from-pink-400 to-rose-600",
+  sf:               "from-violet-600 to-indigo-800",
+  literary:         "from-emerald-600 to-teal-800",
+  horror:           "from-red-700 to-red-900",
+  entertainment:    "from-amber-500 to-orange-600",
+  fantasy:          "from-indigo-500 to-purple-700",
+  shonen:           "from-orange-500 to-red-500",
+  shojo:            "from-pink-300 to-rose-500",
+  seinen:           "from-slate-500 to-gray-700",
+  "historical-novel": "from-amber-700 to-stone-700",
+  youth:            "from-cyan-500 to-teal-600",
+  general:          "from-stone-400 to-stone-600",
+};
+
+function getCoverGradient(l2Id?: string): string {
+  return L2_COVER_GRADIENT[l2Id ?? ""] ?? "from-stone-400 to-stone-600";
+}
+
 export default async function WorkDetailPage({
   params,
 }: {
@@ -248,8 +269,13 @@ export default async function WorkDetailPage({
                       unoptimized
                     />
                   ) : (
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <span className="text-4xl">{work.type === "manga" ? "📖" : "📕"}</span>
+                    <div className={`absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-br ${getCoverGradient(work.l2Id)} p-2`}>
+                      <span className="text-white text-2xl font-bold leading-tight text-center drop-shadow" style={{ fontFamily: "serif" }}>
+                        {work.title.slice(0, 3)}
+                      </span>
+                      <span className="text-white/60 text-xs mt-1 text-center leading-tight line-clamp-2">
+                        {work.authorDisplay}
+                      </span>
                     </div>
                   )}
                 </div>
