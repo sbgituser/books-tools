@@ -103,7 +103,9 @@ export async function generateMetadata({
       title: `${work.title}｜${work.authorDisplay}`,
       description: desc,
       type: "book",
-      images: work.coverImageUrl ? [work.coverImageUrl] : [],
+      images: work.coverImageUrl
+        ? [work.coverImageUrl]
+        : [{ url: `/ogp/works/${fileId}.png`, width: 1200, height: 630 }],
       url: `${SITE_URL}/works/${fileId}`,
     },
   };

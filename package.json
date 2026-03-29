@@ -30,7 +30,8 @@
     "collect:curated": "npm run generate:candidates && npm run generate:curated",
     "collect:all": "npm run collect:works && npm run collect:curated && npm run collect:discover",
     "sync:blog-books": "tsx scripts/sync-blog-books.ts",
-    "prebuild": "tsx scripts/normalize-works.ts && tsx scripts/generate-works-data.ts && tsx scripts/generate-scenes-data.ts && tsx scripts/generate-similar-works.ts && tsx scripts/build-split-index.ts && tsx scripts/build-search-index.ts && tsx scripts/generate-feeds.ts && tsx scripts/copy-discover-curated.ts",
+    "generate:ogp": "tsx scripts/generate-ogp-images.tsx",
+    "prebuild": "tsx scripts/normalize-works.ts && tsx scripts/generate-works-data.ts && tsx scripts/generate-scenes-data.ts && tsx scripts/generate-similar-works.ts && tsx scripts/build-split-index.ts && tsx scripts/build-search-index.ts && tsx scripts/generate-feeds.ts && tsx scripts/copy-discover-curated.ts && tsx scripts/generate-ogp-images.tsx",
     "generate:discover-candidates": "tsx scripts/generate-discover-candidates.ts",
     "generate:discover-curated": "tsx scripts/generate-discover-curated.ts",
     "collect:discover": "npm run generate:discover-candidates && npm run generate:discover-curated"
@@ -53,6 +54,7 @@
     "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
@@ -60,6 +62,7 @@
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
+    "satori": "^0.26.0",
     "tailwindcss": "^4",
     "tsx": "^4.21.0",
     "typescript": "^5"

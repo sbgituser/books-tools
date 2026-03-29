@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     description: BLOG_DESCRIPTION,
     url: getBlogCanonical(),
     type: "website",
+    images: [{ url: "/ogp/default-ogp.png", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",

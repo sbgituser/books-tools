@@ -65,6 +65,7 @@ export async function generateMetadata({
       title: `${sceneDef.seoTitle} | ${SITE_NAME}`,
       description: sceneDef.seoDescription,
       url: `${SITE_URL}/scene/${slug}`,
+      images: [{ url: `/ogp/scenes/${slug}.png`, width: 1200, height: 630 }],
     },
   };
 }

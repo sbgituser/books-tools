@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     title: `読書シーンから探す | ${SITE_NAME}`,
     description: "今の読書シーンに合う漫画・小説を発見する。",
     url: `${SITE_URL}/scene`,
+    images: [{ url: "/ogp/default-ogp.png", width: 1200, height: 630 }],
   },
 };
 

@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     title: `ジャンルから探す | ${SITE_NAME}`,
     description: "ジャンル別に漫画・小説を探す。",
     url: `${SITE_URL}/genre`,
+    images: [{ url: "/ogp/default-ogp.png", width: 1200, height: 630 }],
   },
 };
 

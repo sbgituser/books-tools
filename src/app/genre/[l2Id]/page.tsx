@@ -184,6 +184,7 @@ export async function generateMetadata({
       title: `${seo.title} | ${SITE_NAME}`,
       description: seo.desc,
       url: `${SITE_URL}/genre/${l2Id}`,
+      images: [{ url: `/ogp/genre/${l2Id}.png`, width: 1200, height: 630 }],
     },
   };
 }

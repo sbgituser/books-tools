@@ -28,6 +28,7 @@ export const metadata: Metadata = {
       "AI・経済・環境・政治などのテーマから理解を深める本をレベル別に提案。今気になるテーマから学びの入口を見つける。",
     url: `${SITE_URL}/tools/trend-books`,
     type: "website",
+    images: [{ url: "/ogp/default-ogp.png", width: 1200, height: 630 }],
   },
 };
 

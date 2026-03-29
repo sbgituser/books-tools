@@ -43,6 +43,12 @@ next-env.d.ts
 # generated split index (rebuilt during build)
 /public/data/
 
+# OGP画像（ビルド時に自動生成）
+/public/ogp/
+
+# OGP生成用フォントキャッシュ
+/scripts/fonts/
+
 # classification CSV (local work file)
 scripts/classifications.csv
 

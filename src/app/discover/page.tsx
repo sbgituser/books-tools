@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "気分から本を発見する | Books Discover",
     description: "今の気分・雰囲気で漫画・小説を発見。タグを選ぶだけで次の一冊が見つかる。",
+    images: [{ url: "/ogp/default-ogp.png", width: 1200, height: 630 }],
   },
 };
 

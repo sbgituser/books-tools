@@ -45,7 +45,9 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
       publishedTime: post.date,
       modifiedTime: post.updated ?? post.date,
       tags: post.tags,
-      images: post.coverImage ? [post.coverImage] : undefined,
+      images: post.coverImage
+        ? [post.coverImage]
+        : [{ url: `/ogp/blog/${normalizedSlug}.png`, width: 1200, height: 630 }],
     },
     twitter: {
       card: "summary_large_image",

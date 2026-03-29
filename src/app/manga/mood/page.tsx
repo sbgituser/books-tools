@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     title: "気分・目的から漫画を探す | Books Tools",
     description: "「今の気分」「読みたい体験」から漫画を探せる新しい検索体験。",
     url: `${SITE_URL}/manga/mood`,
+    images: [{ url: "/ogp/default-ogp.png", width: 1200, height: 630 }],
   },
 };
 

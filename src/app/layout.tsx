@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     siteName: SITE_NAME,
     locale: "ja_JP",
     url: SITE_URL,
+    images: [{ url: "/ogp/default-ogp.png", width: 1200, height: 630 }],
   },
   alternates: {
     canonical: SITE_URL,

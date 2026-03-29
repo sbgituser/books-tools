@@ -28,6 +28,7 @@ export const metadata: Metadata = {
       "映画・ドラマ・アニメから原作となった本を検索できる逆引きツール。映像作品名で原作書籍をすぐ発見。",
     url: `${SITE_URL}/tools/media-originals`,
     type: "website",
+    images: [{ url: "/ogp/default-ogp.png", width: 1200, height: 630 }],
   },
 };
 

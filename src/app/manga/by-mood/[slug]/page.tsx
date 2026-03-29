@@ -112,6 +112,7 @@ export async function generateMetadata({
       title: def.title,
       description: def.description,
       url: `${SITE_URL}/manga/by-mood/${slug}`,
+      images: [{ url: `/ogp/manga/by-mood/${slug}.png`, width: 1200, height: 630 }],
     },
   };
 }
