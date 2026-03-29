@@ -12,6 +12,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import GenreWorksClient from "@/components/works/GenreWorksClient";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
+import { getAllBlogMeta } from "@/lib/blog";
 import { CATEGORY_TREE } from "@/lib/categories";
 import type { WorkListItem } from "@/types/work";
 
@@ -161,6 +162,49 @@ const L2_SEO: Record<string, { title: string; desc: string; longDesc: string }> 
   },
 };
 
+const GENRE_FAQ: Record<string, { q: string; a: string }[]> = {
+  mystery: [
+    { q: "ミステリー小説の初心者におすすめの作品は？", a: "読みやすい本格ミステリーとして、東野圭吾や宮部みゆき作品が入門に最適です。謎解きの面白さを体験しながら、ジャンルの幅広さを知ることができます。" },
+    { q: "ミステリーとサスペンスの違いは何ですか？", a: "ミステリーは「謎を解く」過程を楽しむジャンル、サスペンスは「緊張感・不安感」を楽しむジャンルです。多くの作品はその両方の要素を持っています。" },
+  ],
+  sf: [
+    { q: "SF小説を読んだことがない初心者でも楽しめますか？", a: "はい。まず村上龍や伊坂幸太郎のSF寄り作品や、読みやすいアニメ化作品から入るのがおすすめです。難解なハードSFから読む必要はありません。" },
+    { q: "ハードSFと一般向けSFの違いは何ですか？", a: "ハードSFは科学的考証を重視した作品、一般向けSFはエンタメ要素を重視した作品です。初心者には後者がおすすめです。" },
+  ],
+  fantasy: [
+    { q: "ファンタジー小説で最初に読むべき作品は？", a: "王道の異世界ファンタジーとして、「十二国記」「魔法使いの嫁」などが人気で読みやすいです。好みに合わせてダークファンタジーや学園ファンタジーも選べます。" },
+    { q: "ライトノベルと一般ファンタジー小説の違いは？", a: "ライトノベルはカジュアルで読みやすい文体・表現が多く、10代〜20代向け。一般小説は文学的な描写が多い傾向があります。どちらも魅力的な作品が揃っています。" },
+  ],
+  romance: [
+    { q: "恋愛小説の選び方は？", a: "まず「純愛」「ラブコメ」「切ない悲恋」など好みのテイストを決めましょう。片思いや三角関係など設定から選ぶのもおすすめです。" },
+    { q: "恋愛小説と少女漫画ではどちらがおすすめですか？", a: "どちらも楽しめます。小説は心理描写が豊富で没入感があり、漫画は視覚的に感情が伝わりやすいです。時間があれば両方試してみてください。" },
+  ],
+  shonen: [
+    { q: "少年漫画の定番ジャンルは何ですか？", a: "バトル・スポーツ・冒険・友情が定番ジャンルです。「鬼滅の刃」「ハイキュー!!」「呪術廻戦」など話題作から入るのがおすすめです。" },
+    { q: "大人が少年漫画を楽しめますか？", a: "もちろんです。少年漫画は世代を超えて楽しめる作品が多く、大人になってから読むと違う視点で楽しめることもあります。" },
+  ],
+  seinen: [
+    { q: "青年漫画はどんな人に向いていますか？", a: "リアルな人間ドラマや社会問題に興味のある方、少年漫画より深みのある物語を求める方に向いています。" },
+    { q: "少年漫画と青年漫画の違いは？", a: "少年漫画は主に10代向けで友情・成長がテーマ。青年漫画は大人向けで、社会・人間関係・哲学など複雑なテーマを扱う傾向があります。" },
+  ],
+  shojo: [
+    { q: "少女漫画はどんな作品が多いですか？", a: "恋愛・友情・ファンタジーが主なテーマです。胸キュンの恋愛ものから、強い主人公の成長物語まで幅広い作品があります。" },
+    { q: "少女漫画は女性しか楽しめませんか？", a: "いいえ。感情描写の豊かさや繊細な心理表現は性別問わず楽しめます。男性ファンも多い人気作品がたくさんあります。" },
+  ],
+  literary: [
+    { q: "純文学と一般小説の違いは何ですか？", a: "純文学は芸術性・文学的表現を重視し、人間の内面や社会を深く描きます。一般小説はエンタメ性を重視した読みやすい作品が多いです。" },
+    { q: "純文学初心者に向いている作品は？", a: "川端康成「雪国」、夏目漱石「こころ」など文豪の名作が読みやすいです。現代作家なら村上春樹「ノルウェイの森」も入門に適しています。" },
+  ],
+  horror: [
+    { q: "ホラー小説はどのくらい怖いですか？", a: "作品によって恐怖の種類や強度は大きく異なります。心理ホラーは「不安感・不気味さ」、ゴアホラーは「直接的な恐怖」が特徴です。苦手な方は心理ホラーから試してみてください。" },
+    { q: "日本のホラーと海外ホラーの違いは？", a: "日本のホラーは「日常に潜む恐怖・怪談・霊的なもの」、海外ホラーは「モンスター・心理的恐怖・SF要素」が多い傾向があります。" },
+  ],
+  entertainment: [
+    { q: "エンタメ小説のおすすめの選び方は？", a: "映像化作品から入るのが最も間違いなくおすすめです。ドラマや映画で気に入った作品の原作を読むと、さらに世界観を深く楽しめます。" },
+    { q: "一気読みできるエンタメ小説の特徴は？", a: "テンポの良いストーリー展開、先が読めない展開、キャラクターへの感情移入がしやすい作品が一気読みしやすいです。" },
+  ],
+};
+
 export async function generateMetadata({
   params,
 }: {
@@ -206,6 +250,19 @@ export default async function GenreDetailPage({
     .filter((d) => d.l1Id === def.l1Id && d.l2Id !== l2Id);
 
   const seo = L2_SEO[l2Id];
+  const genreFAQs = GENRE_FAQ[l2Id] ?? [];
+  const allBlogPosts = getAllBlogMeta();
+  const genreLabel = def.l2Label;
+  const relatedBlogPosts = allBlogPosts
+    .filter(post =>
+      post.tags?.some(tag =>
+        tag.includes(genreLabel) ||
+        genreLabel.includes(tag) ||
+        tag === def.l1Label
+      ) ||
+      post.title?.includes(genreLabel)
+    )
+    .slice(0, 3);
 
   const genreUrl = `${SITE_URL}/genre/${l2Id}`;
   const jsonLd = {
@@ -234,6 +291,15 @@ export default async function GenreDetailPage({
       { "@type": "ListItem", position: 3, name: def.l2Label, item: genreUrl },
     ],
   };
+  const faqJsonLd = genreFAQs.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: genreFAQs.map(faq => ({
+      "@type": "Question",
+      name: faq.q,
+      acceptedAnswer: { "@type": "Answer", text: faq.a },
+    })),
+  } : null;
 
   return (
     <>
@@ -245,6 +311,12 @@ export default async function GenreDetailPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
       <Header />
       <main className="min-h-screen bg-stone-50">
         {/* Hero */}
@@ -296,6 +368,46 @@ export default async function GenreDetailPage({
             </p>
           )}
         </section>
+
+        {/* FAQ */}
+        {genreFAQs.length > 0 && (
+          <section className="max-w-4xl mx-auto px-4 py-10 border-t border-stone-200">
+            <h2 className="text-lg font-bold text-stone-800 mb-5">よくある質問</h2>
+            <dl className="space-y-4">
+              {genreFAQs.map((faq, i) => (
+                <div key={i} className="bg-white border border-stone-200 rounded-xl p-4">
+                  <dt className="text-sm font-semibold text-stone-800 mb-2">{faq.q}</dt>
+                  <dd className="text-sm text-stone-600 leading-relaxed">{faq.a}</dd>
+                </div>
+              ))}
+            </dl>
+          </section>
+        )}
+
+        {/* 関連ブログ記事 */}
+        {relatedBlogPosts.length > 0 && (
+          <section className="border-t border-stone-200 bg-stone-50 py-10 px-4">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-sm font-bold text-stone-500 uppercase tracking-wider mb-5 text-center">
+                関連ブログ記事
+              </h2>
+              <div className="grid gap-3 sm:grid-cols-3">
+                {relatedBlogPosts.map((post) => (
+                  <Link
+                    key={post.slug}
+                    href={`/blog/${post.slug}`}
+                    className="group flex flex-col gap-1 bg-white border border-stone-200 hover:border-amber-300 rounded-xl p-4 transition-all hover:shadow-sm"
+                  >
+                    <p className="text-xs text-stone-400">{post.date}</p>
+                    <p className="text-sm font-semibold text-stone-800 group-hover:text-amber-700 transition-colors leading-snug line-clamp-2">
+                      {post.title}
+                    </p>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* 同じL1の他ジャンル */}
         {otherGenres.length > 0 && (

@@ -201,6 +201,45 @@ const TAG_DESCRIPTIONS: Record<string, string> = {
   "穏やか": "穏やかな雰囲気の、ゆったりと楽しめる作品です。",
 };
 
+const TAG_TO_RECOMMEND: Record<string, string> = {
+  "泣ける":       "感動的な物語で涙を流したい方",
+  "感動":         "心を揺さぶる体験を求める方",
+  "一気読み":     "続きが気になって止まらない作品を探している方",
+  "考えさせられる": "読後に深く考察したい知的好奇心旺盛な方",
+  "深い":         "読み応えのある重厚な物語を好む方",
+  "熱い":         "熱い展開・友情・成長物語が好きな方",
+  "ファンタジー": "異世界や魔法など夢のある世界観を楽しみたい方",
+  "怖い":         "背筋が凍るような恐怖体験を求める方",
+  "世界観重視":   "作り込まれた独特の世界観に没入したい方",
+  "読みやすい":   "サクサク読める手軽な作品を探している方",
+  "癒やし":       "日々の疲れを癒してくれる温かい作品を求める方",
+  "心温まる":     "優しい気持ちになれるほっこりストーリーが好きな方",
+  "完結":         "途中で終わる心配なく最後まで読み切りたい方",
+  "ダーク":       "暗く重厚なストーリーに惹かれる方",
+  "笑える":       "笑えるコメディ要素を楽しみたい方",
+  "爽快":         "読後に清々しい達成感を味わいたい方",
+  "明るい":       "前向きで明るい気持ちになれる作品が好きな方",
+  "バトル":       "スリルのある戦闘アクションを楽しみたい方",
+  "切ない":       "胸が締め付けられる切ない感情に浸りたい方",
+  "日常系":       "日常の何気ない場面を大切に描いた作品が好きな方",
+  "学べる":       "読書から知識や教訓を得たい方",
+  "やる気が出る": "読んで前向きな気持ちになりたい方",
+};
+
+const TAG_TO_MOOD_SLUG: Record<string, { slug: string; label: string }> = {
+  "泣ける":     { slug: "cry",          label: "泣ける漫画" },
+  "感動":       { slug: "cry",          label: "泣ける漫画" },
+  "癒やし":     { slug: "healing",      label: "癒やし漫画" },
+  "心温まる":   { slug: "healing",      label: "癒やし漫画" },
+  "熱い":       { slug: "hot",          label: "熱い漫画" },
+  "爽快":       { slug: "hot",          label: "熱い漫画" },
+  "切ない":     { slug: "heartwarming", label: "恋愛・切ない漫画" },
+  "ダーク":     { slug: "dark",         label: "ダーク漫画" },
+  "一気読み":   { slug: "binge",        label: "一気読み漫画" },
+  "完結":       { slug: "completed",    label: "完結済み漫画" },
+  "読みやすい": { slug: "easy",         label: "気軽に読める漫画" },
+};
+
 const L2_LABEL: Record<string, string> = {
   mystery: "ミステリー",
   sf: "SF・サイエンスフィクション",
@@ -246,6 +285,38 @@ function getCoverGradient(l2Id?: string): string {
   return L2_COVER_GRADIENT[l2Id ?? ""] ?? "from-stone-400 to-stone-600";
 }
 
+function generateWorkFAQs(work: WorkDetail): { q: string; a: string }[] {
+  const faqs: { q: string; a: string }[] = [];
+  const typeLabel = work.type === "manga" ? "漫画" : "小説";
+
+  if (work.volumeCount > 1) {
+    const statusText =
+      work.status === "completed" ? "（完結済み）" :
+      work.status === "ongoing"   ? "（現在も連載中）" : "";
+    faqs.push({
+      q: `『${work.title}』は何巻まで出ていますか？`,
+      a: `${work.volumeCount}巻まで発売されています${statusText}。`,
+    });
+  }
+
+  if (work.l2Id && L2_LABEL[work.l2Id]) {
+    const tagText = work.discoveryTags.length > 0
+      ? `「${work.discoveryTags.slice(0, 3).join("」「")}」などの特徴があります。`
+      : "";
+    faqs.push({
+      q: `『${work.title}』はどんな${typeLabel}ですか？`,
+      a: `${L2_LABEL[work.l2Id]}ジャンルの${typeLabel}です。${tagText}`,
+    });
+  }
+
+  faqs.push({
+    q: `『${work.title}』はどこで読めますか？`,
+    a: `Amazon・Kindleで${typeLabel}版が購入できます。Kindle Unlimitedの対象作品であれば読み放題でお楽しみいただけます${work.type === "novel" ? "。また、Audibleでオーディオブックとして聴くこともできます" : ""}。`,
+  });
+
+  return faqs.slice(0, 3);
+}
+
 export default async function WorkDetailPage({
   params,
 }: {
@@ -269,6 +340,29 @@ export default async function WorkDetailPage({
   const workAmazonUrl = amazonSearchUrl(work.title);
 
   const workUrl = `${SITE_URL}/works/${fileId}`;
+
+  const workFAQs = generateWorkFAQs(work);
+  const recommendsForUser = work.discoveryTags
+    .map(tag => TAG_TO_RECOMMEND[tag])
+    .filter(Boolean)
+    .slice(0, 4) as string[];
+  const moodLinks = work.type === "manga"
+    ? [...new Map(
+        work.discoveryTags
+          .filter(tag => TAG_TO_MOOD_SLUG[tag])
+          .map(tag => [TAG_TO_MOOD_SLUG[tag].slug, TAG_TO_MOOD_SLUG[tag]])
+      ).values()].slice(0, 4)
+    : [];
+  const faqJsonLd = workFAQs.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: workFAQs.map(faq => ({
+      "@type": "Question",
+      name: faq.q,
+      acceptedAnswer: { "@type": "Answer", text: faq.a },
+    })),
+  } : null;
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Book",
@@ -310,6 +404,12 @@ export default async function WorkDetailPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
       <Header />
       <main className="min-h-screen bg-stone-50">
         <div className="max-w-4xl mx-auto px-4 py-8">
@@ -470,6 +570,39 @@ export default async function WorkDetailPage({
             </section>
           )}
 
+          {/* こんな人におすすめ */}
+          {recommendsForUser.length > 0 && (
+            <section className="mb-8 bg-white border border-stone-200 rounded-2xl p-5 sm:p-6">
+              <h2 className="text-base font-bold text-stone-700 mb-3">こんな人におすすめ</h2>
+              <ul className="space-y-2">
+                {recommendsForUser.map((text, i) => (
+                  <li key={i} className="flex gap-2 text-sm text-stone-600 items-start">
+                    <span className="text-rose-500 font-bold shrink-0">✓</span>
+                    <span>{text}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          {/* 気分別ページへのリンク（漫画のみ）*/}
+          {moodLinks.length > 0 && (
+            <section className="mb-8">
+              <h2 className="text-sm font-bold text-stone-500 mb-3">同じ気分の漫画を探す</h2>
+              <div className="flex flex-wrap gap-2">
+                {moodLinks.map(({ slug, label }) => (
+                  <Link
+                    key={slug}
+                    href={`/manga/by-mood/${slug}`}
+                    className="text-xs px-3 py-1.5 rounded-full bg-rose-50 text-rose-700 hover:bg-rose-100 border border-rose-200 transition-colors font-medium"
+                  >
+                    {label} を見る →
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
+
           {/* 巻一覧 */}
           {work.volumes.length > 0 && (
             <section className="mb-8">
@@ -522,6 +655,21 @@ export default async function WorkDetailPage({
               </a>
             )}
           </section>
+
+          {/* FAQ */}
+          {workFAQs.length > 0 && (
+            <section className="mb-8 bg-white border border-stone-200 rounded-2xl p-5 sm:p-6">
+              <h2 className="text-base font-bold text-stone-700 mb-4">よくある質問</h2>
+              <dl className="space-y-4">
+                {workFAQs.map((faq, i) => (
+                  <div key={i} className={i < workFAQs.length - 1 ? "border-b border-stone-100 pb-4" : ""}>
+                    <dt className="text-sm font-semibold text-stone-800 mb-1">{faq.q}</dt>
+                    <dd className="text-sm text-stone-600 leading-relaxed">{faq.a}</dd>
+                  </div>
+                ))}
+              </dl>
+            </section>
+          )}
 
           {/* 関連ブログ記事 */}
           {relatedBlogPosts.length > 0 && (

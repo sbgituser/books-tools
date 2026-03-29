@@ -94,6 +94,49 @@ const PAGE_DEFS: Record<string, PageDef> = {
   },
 };
 
+const MOOD_FAQ: Record<string, { q: string; a: string }[]> = {
+  cry: [
+    { q: "泣ける漫画を読む良い効果はありますか？", a: "感動して泣くことは「情動的涙」とも呼ばれ、ストレス解消や感情のリセット効果があるとされています。良い作品を読んで思い切り泣くのも一つのリフレッシュ方法です。" },
+    { q: "泣ける漫画は何巻くらいのものが多いですか？", a: "泣ける漫画は長編から短編まで様々です。長編では感情移入しながら読み進め、最終巻での感動が大きいです。短編や読み切りでも心に刺さる作品が多くあります。" },
+  ],
+  healing: [
+    { q: "癒やし漫画の特徴は何ですか？", a: "日常系・ほのぼの・スローライフが多く、過度な緊張感や複雑な人間関係が少ないのが特徴です。読後に心が穏やかになれる作品が揃っています。" },
+    { q: "疲れているときにおすすめの漫画は？", a: "日常系のほのぼの漫画や、かわいいキャラクターが登場する癒やし系漫画がおすすめです。あまり頭を使わず、ゆっくり楽しめる作品を選ぶと良いでしょう。" },
+  ],
+  hot: [
+    { q: "熱い漫画の定番ジャンルは何ですか？", a: "スポーツ漫画・バトル漫画・友情と成長を描いた少年漫画が定番です。「ハイキュー!!」「鬼滅の刃」「スラムダンク」などが代表例です。" },
+    { q: "モチベーションが上がる漫画はありますか？", a: "スポーツ漫画や夢に向かって奮闘する主人公の物語は、読むだけで前向きな気持ちになれます。特に努力・友情・勝利をテーマにした作品が効果的です。" },
+  ],
+  heartwarming: [
+    { q: "恋愛漫画を楽しめる年代は？", a: "恋愛漫画は10代から大人まで幅広く楽しめます。学生時代の恋愛を描いた青春系から、大人向けのリアルな恋愛まで年代に合わせた作品が揃っています。" },
+    { q: "少女漫画と恋愛漫画の違いは？", a: "少女漫画はターゲット層（10代女性向け）を指す区分で、その多くが恋愛をテーマにしています。恋愛漫画は雑誌や対象層を問わず恋愛要素が中心の作品全般を指します。" },
+  ],
+  thinking: [
+    { q: "頭を使う漫画はどんな人に向いていますか？", a: "謎解きや心理戦が好きな方、作品の伏線を読み解く考察を楽しみたい方におすすめです。デスゲームやミステリー要素のある作品が特に人気です。" },
+    { q: "考察漫画の楽しみ方は？", a: "読み進めながら自分なりの予想や考察をするのが醍醐味です。読後にネットでほかの読者の考察を見たり、友人と語り合うとさらに楽しめます。" },
+  ],
+  dark: [
+    { q: "ダーク漫画はどんな人に向いていますか？", a: "重いテーマや人間の本性を描いた作品が好きな方、ハッピーエンドだけでなく悲劇的な展開も楽しめる方に向いています。注意: 精神的に疲れている時は避けた方が良い場合もあります。" },
+    { q: "ダーク漫画で注意すべき点は？", a: "暴力・残酷な描写・重いテーマが含まれる作品も多いです。読む前にジャンルタグや対象年齢を確認し、自分の精神状態に合わせて選ぶことをおすすめします。" },
+  ],
+  binge: [
+    { q: "一気読みしやすい漫画の特徴は何ですか？", a: "テンポの良い展開、先の気になるストーリー、短い話数で区切られた構成が特徴です。続きが読みたくなる伏線や引きが上手い作品が一気読み向きです。" },
+    { q: "電子書籍で一気読みするコツは？", a: "Kindle Unlimitedなどのサブスクを利用すると、読み放題で気兼ねなく一気読みできます。スマホなら寝転がりながら読めるので、週末の一気読みに最適です。" },
+  ],
+  completed: [
+    { q: "完結済み漫画のメリットは何ですか？", a: "最後まで安心して読めること、続刊を待つストレスがないこと、全体の評価が固まっていること、まとめ買いで安価に揃えられることなどがメリットです。" },
+    { q: "連載中の漫画と完結済みの漫画はどちらがおすすめですか？", a: "初めて漫画を読む方や、待つのが苦手な方には完結済みがおすすめです。最新の展開をリアルタイムで楽しみたい方は連載中も選択肢に入ります。" },
+  ],
+  easy: [
+    { q: "漫画初心者に向いているジャンルは？", a: "日常系・コメディ・少年漫画の人気作がおすすめです。複雑な設定が少なく、キャラクターに感情移入しやすい作品が多いです。" },
+    { q: "忙しい人でも読める漫画は？", a: "短い章立て・1話完結のスタイルや、ページ数が少ない作品が隙間時間に最適です。スマホで電子書籍を使えば通勤・通学中でも読めます。" },
+  ],
+  beginner: [
+    { q: "漫画を読んだことがない大人でも楽しめますか？", a: "はい。漫画は絵と文字で直感的に楽しめるため、読書習慣がない方でも気軽に始められます。人気作品から始めると世界観に入り込みやすいです。" },
+    { q: "最初に読む漫画として何がおすすめですか？", a: "映像化・アニメ化されて話題になった人気作品から入るのがおすすめです。すでに知っているキャラクターや世界観だと、より楽しみやすいです。" },
+  ],
+};
+
 // ── メタデータ ─────────────────────────────────────────────────────
 
 export async function generateMetadata({
@@ -169,6 +212,16 @@ export default async function MoodSlugPage({
   const relatedPresets = PRESET_SEARCHES.filter(p => p.slug !== slug).slice(0, 6);
 
   const pageUrl = `${SITE_URL}/manga/by-mood/${slug}`;
+  const moodFAQs = MOOD_FAQ[slug] ?? [];
+  const faqJsonLd = moodFAQs.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: moodFAQs.map(faq => ({
+      "@type": "Question",
+      name: faq.q,
+      acceptedAnswer: { "@type": "Answer", text: faq.a },
+    })),
+  } : null;
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
@@ -206,6 +259,12 @@ export default async function MoodSlugPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
       <Header />
       <main>
         {/* ヒーロー */}
@@ -263,6 +322,21 @@ export default async function MoodSlugPage({
             ))
           )}
         </section>
+
+        {/* FAQ */}
+        {moodFAQs.length > 0 && (
+          <section className="max-w-3xl mx-auto px-4 py-8 border-t border-stone-200">
+            <h2 className="text-lg font-bold text-stone-800 mb-5">よくある質問</h2>
+            <dl className="space-y-4">
+              {moodFAQs.map((faq, i) => (
+                <div key={i} className="bg-white border border-stone-200 rounded-xl p-4">
+                  <dt className="text-sm font-semibold text-stone-800 mb-2">{faq.q}</dt>
+                  <dd className="text-sm text-stone-600 leading-relaxed">{faq.a}</dd>
+                </div>
+              ))}
+            </dl>
+          </section>
+        )}
 
         {/* 関連タグ導線 */}
         <section className="max-w-3xl mx-auto px-4 py-10">
