@@ -80,10 +80,10 @@ export async function generateMetadata({
   const typeLabel = work.type === "manga" ? "漫画" : "小説";
   const desc = [
     work.summaryShort,
-    `${work.title}（${work.authorDisplay}）の${typeLabel}。`,
+    `${work.authorDisplay}のおすすめ${typeLabel}「${work.title}」。`,
     work.discoveryTags.length > 0 ? work.discoveryTags.slice(0, 4).join("・") + "など。" : "",
     work.volumeCount > 1 ? `全${work.volumeCount}巻。` : "",
-    "あらすじ・試し読み・おすすめ度をチェック。",
+    "あらすじ・Kindle試し読み・おすすめ度をチェック。",
   ]
     .filter(Boolean)
     .join(" ");
