@@ -109,9 +109,17 @@ export async function renderBlogMdx(source: string) {
     return <BlogFAQ items={faqItems} />;
   }
 
+  // ブログ記事ページでは <h1>{post.title}</h1> がすでに存在するため、
+  // MDX コンテンツ内の # 見出し（h1）は非表示にして H1 の重複を防ぐ。
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  function BlogH1(_props: ComponentPropsWithoutRef<"h1">) {
+    return null;
+  }
+
   const { content } = await compileMDX({
     source: cleanedSource,
     components: {
+      h1: BlogH1,
       h3: BlogBookHeading,
       BlogBookCard,
       BlogFAQ: BlogFAQBound,
