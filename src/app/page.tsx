@@ -5,6 +5,15 @@ import Footer from "@/components/Footer";
 import { READING_SCENES } from "@/constants/readingScenes";
 import { getAllBlogMeta } from "@/lib/blog";
 
+const POPULAR_WORKS = [
+  { workId: "1d7xco7", title: "ハイキュー!!", author: "古舘春一",   type: "漫画", tags: ["熱い", "感動"],  cover: "https://books.google.com/books/content?id=e5KFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api" },
+  { workId: "0zni0pn", title: "進撃の巨人",  author: "諫山創",      type: "漫画", tags: ["絶望", "泣ける"], cover: "https://books.google.com/books/content?id=nMjEBQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api" },
+  { workId: "0cb8t8s", title: "ONE PIECE",   author: "尾田栄一郎",  type: "漫画", tags: ["熱い", "爽快"],  cover: "https://books.google.com/books/content?id=9ca7CwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api" },
+  { workId: "17otkk9", title: "NARUTO",      author: "岸本斉史",    type: "漫画", tags: ["感動", "熱い"],  cover: "https://books.google.com/books/content?id=ji3NCwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api" },
+  { workId: "0wafq68", title: "かがみの孤城", author: "辻村深月",    type: "小説", tags: ["ファンタジー", "世界観"], cover: "http://books.google.com/books/content?id=XRi_PAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api" },
+  { workId: "0ilmrkf", title: "旅猫リポート", author: "有川　浩",   type: "小説", tags: ["泣ける", "感動"], cover: "https://books.google.com/books/content?id=aFXzrQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api" },
+] as const;
+
 export const metadata: Metadata = {
   title: "Books Discover | 気分から漫画・小説を発見する",
   description:
@@ -105,7 +114,7 @@ export default function HomePage() {
       <main>
 
         {/* ─── Hero ─────────────────────────────────────────────── */}
-        <section className="bg-gradient-to-br from-stone-900 via-rose-950 to-stone-900 text-white py-16 sm:py-24 px-4">
+        <section className="bg-gradient-to-br from-stone-900 via-rose-950 to-stone-900 text-white py-14 sm:py-20 px-4">
           <div className="max-w-3xl mx-auto text-center">
             <p className="text-rose-400 text-xs font-bold tracking-widest uppercase mb-4">
               Books Discover · kuras-plus
@@ -114,19 +123,44 @@ export default function HomePage() {
               今の気分で、<br />
               <span className="text-rose-400">次の一冊</span>を見つける。
             </h1>
-            <p className="text-stone-300 text-base sm:text-lg max-w-xl mx-auto leading-relaxed mb-10">
+            <p className="text-stone-300 text-base sm:text-lg max-w-xl mx-auto leading-relaxed mb-8">
               「泣きたい」「一気読みしたい」「ダークな話が読みたい」——<br className="hidden sm:block" />
               タイトルが分からなくても、<strong className="text-white">読みたい体験</strong>から漫画・小説が見つかります。
             </p>
 
             {/* メイン CTA */}
-            <Link
-              href="/discover"
-              className="inline-flex items-center gap-3 bg-rose-500 hover:bg-rose-600 text-white font-bold text-base sm:text-lg px-8 py-4 rounded-2xl transition-all hover:scale-105 shadow-lg hover:shadow-rose-500/30"
-            >
-              <span>気分から本を探す</span>
-              <span aria-hidden="true">→</span>
-            </Link>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+              <Link
+                href="/discover"
+                className="inline-flex items-center gap-3 bg-rose-500 hover:bg-rose-600 text-white font-bold text-base sm:text-lg px-8 py-4 rounded-2xl transition-all hover:scale-105 shadow-lg hover:shadow-rose-500/30"
+              >
+                <span>気分から本を探す</span>
+                <span aria-hidden="true">→</span>
+              </Link>
+              <Link
+                href="/blog"
+                className="inline-flex items-center gap-2 text-stone-300 hover:text-white text-sm px-5 py-3 rounded-xl border border-stone-700 hover:border-stone-500 transition-colors"
+              >
+                おすすめ記事を読む
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* ─── Stats バー ──────────────────────────────────────────── */}
+        <section className="bg-stone-800 text-white py-4 px-4">
+          <div className="max-w-3xl mx-auto flex flex-wrap justify-center gap-x-8 gap-y-2">
+            {[
+              { num: "2,000+", label: "漫画・小説" },
+              { num: "50+",    label: "気分タグ" },
+              { num: "100+",   label: "ブログ記事" },
+              { num: "無料",   label: "登録不要" },
+            ].map(({ num, label }) => (
+              <div key={label} className="flex items-center gap-1.5 text-sm">
+                <span className="font-bold text-rose-400 text-base">{num}</span>
+                <span className="text-stone-400">{label}</span>
+              </div>
+            ))}
           </div>
         </section>
 
@@ -190,6 +224,62 @@ export default function HomePage() {
             >
               すべてのタグで探す →
             </Link>
+          </div>
+        </section>
+
+        {/* ─── 人気作品ピックアップ ──────────────────────────────────── */}
+        <section className="bg-white border-t border-stone-100 py-12 sm:py-16">
+          <div className="max-w-4xl mx-auto px-4">
+            <div className="text-center mb-8">
+              <h2 className="text-xl sm:text-2xl font-bold text-stone-900 mb-2">
+                こんな作品が見つかります
+              </h2>
+              <p className="text-stone-500 text-sm">
+                各作品の巻一覧・タグ・Kindleリンクをまとめて確認できます
+              </p>
+            </div>
+            <div className="grid grid-cols-3 sm:grid-cols-6 gap-3 sm:gap-4">
+              {POPULAR_WORKS.map((work) => (
+                <Link
+                  key={work.workId}
+                  href={`/works/${work.workId}`}
+                  className="group flex flex-col items-center gap-2"
+                >
+                  <div className="relative w-full aspect-[2/3] rounded-lg overflow-hidden border border-stone-200 shadow-sm group-hover:shadow-md transition-shadow bg-stone-100">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={work.cover}
+                      alt={work.title}
+                      className="w-full h-full object-cover"
+                      loading="lazy"
+                    />
+                    <span className="absolute top-1.5 right-1.5 text-[9px] px-1.5 py-0.5 rounded-full font-bold bg-stone-900/80 text-white">
+                      {work.type}
+                    </span>
+                  </div>
+                  <div className="w-full text-center">
+                    <p className="text-xs font-semibold text-stone-800 group-hover:text-rose-700 transition-colors leading-snug line-clamp-2">
+                      {work.title}
+                    </p>
+                    <div className="flex flex-wrap justify-center gap-1 mt-1">
+                      {work.tags.map((t) => (
+                        <span key={t} className="text-[9px] px-1 py-0.5 rounded-full bg-rose-50 text-rose-600 font-medium">
+                          {t}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+            <div className="text-center mt-6">
+              <Link
+                href="/discover"
+                className="text-sm text-rose-600 hover:text-rose-700 font-semibold hover:underline"
+              >
+                すべての作品を探す →
+              </Link>
+            </div>
           </div>
         </section>
 
@@ -277,21 +367,29 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ─── サイトの説明 ──────────────────────────────────────── */}
-        <section className="max-w-2xl mx-auto px-4 py-16 text-center">
-          <h2 className="text-lg font-bold text-stone-800 mb-4">
-            Amazonとは違う、発見の体験を
-          </h2>
-          <p className="text-stone-500 text-sm leading-relaxed mb-6">
-            Books Discover は、タイトルや著者名で検索するサイトではありません。<br />
-            「今日はこんな気分」「こんな体験がしたい」という曖昧な感覚から、
-            ぴったりの漫画・小説に出会えることを目指しています。
-          </p>
-          <div className="flex flex-wrap justify-center gap-3 text-xs text-stone-400">
-            <span>✓ 登録不要・完全無料</span>
-            <span>✓ 漫画・小説どちらも対応</span>
-            <span>✓ 気分・雰囲気タグで絞り込み</span>
-            <span>✓ 作品単位 → 巻一覧で確認</span>
+        {/* ─── 使い方 3ステップ ──────────────────────────────────── */}
+        <section className="max-w-3xl mx-auto px-4 py-14">
+          <div className="text-center mb-8">
+            <h2 className="text-xl sm:text-2xl font-bold text-stone-900 mb-2">
+              3ステップで次の一冊へ
+            </h2>
+            <p className="text-stone-500 text-sm">タイトルが思い浮かばなくても大丈夫</p>
+          </div>
+          <div className="grid sm:grid-cols-3 gap-4">
+            {[
+              { step: "01", icon: "🎯", title: "気分を選ぶ", desc: "「泣きたい」「熱い展開が読みたい」など、今の気分に合うタグをタップ" },
+              { step: "02", icon: "📚", title: "作品リストが出る", desc: "そのタグに合う漫画・小説が一覧表示。ジャンル・巻数・連載状況も確認できる" },
+              { step: "03", icon: "🛒", title: "Kindleで読む", desc: "気に入った作品の試し読み・購入はAmazonのリンクから。登録・課金は一切不要" },
+            ].map(({ step, icon, title, desc }) => (
+              <div key={step} className="relative bg-stone-50 border border-stone-200 rounded-2xl p-5">
+                <span className="absolute -top-3 left-5 text-xs font-bold text-rose-500 bg-white border border-rose-200 px-2 py-0.5 rounded-full">
+                  STEP {step}
+                </span>
+                <div className="text-3xl mb-3 mt-1" aria-hidden="true">{icon}</div>
+                <p className="font-bold text-stone-900 mb-1.5">{title}</p>
+                <p className="text-sm text-stone-500 leading-relaxed">{desc}</p>
+              </div>
+            ))}
           </div>
         </section>
 
@@ -327,6 +425,31 @@ export default function HomePage() {
 
         {/* ─── ブログ導線（最新記事プレビュー） ────────────────────── */}
         <LatestBlogSection />
+
+        {/* ─── 最終 CTA ──────────────────────────────────────────── */}
+        <section className="bg-gradient-to-br from-rose-500 to-rose-700 text-white py-14 px-4 text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-3">
+            あなたにぴったりの一冊を見つけよう
+          </h2>
+          <p className="text-rose-100 text-sm sm:text-base mb-8 max-w-md mx-auto leading-relaxed">
+            2,000冊以上の中から、今の気分・シーン・ジャンルで絞り込み。
+            登録不要・完全無料で今すぐ使えます。
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+            <Link
+              href="/discover"
+              className="inline-flex items-center gap-2 bg-white text-rose-600 hover:bg-rose-50 font-bold px-8 py-4 rounded-2xl transition-all hover:scale-105 shadow-md text-base"
+            >
+              今すぐ本を探す →
+            </Link>
+            <Link
+              href="/manga/mood"
+              className="inline-flex items-center gap-2 text-white border border-white/40 hover:border-white hover:bg-white/10 px-6 py-3.5 rounded-xl text-sm font-medium transition-colors"
+            >
+              漫画を気分で探す
+            </Link>
+          </div>
+        </section>
 
       </main>
       <Footer />
