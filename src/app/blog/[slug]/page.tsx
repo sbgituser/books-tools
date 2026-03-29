@@ -86,12 +86,25 @@ export default async function BlogDetailPage({ params }: { params: Promise<Param
       url: "https://books.kuras-plus.com",
     },
   };
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Books Tools", item: "https://books.kuras-plus.com" },
+      { "@type": "ListItem", position: 2, name: "ブログ", item: "https://books.kuras-plus.com/blog" },
+      { "@type": "ListItem", position: 3, name: post.title, item: getBlogCanonical(post.slug) },
+    ],
+  };
 
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       <Header />
       <main className="max-w-4xl mx-auto px-4 py-10">

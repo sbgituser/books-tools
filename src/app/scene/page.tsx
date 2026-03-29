@@ -32,8 +32,42 @@ function getSceneIndex(): SceneIndexMeta {
 export default function SceneIndexPage() {
   const { scenes } = getSceneIndex();
 
+  const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: "読書シーンから探す",
+      description: "通勤・通学、寝る前、休日の一気読みなど、今の状況・気分に合う漫画・小説を発見。",
+      url: `${SITE_URL}/scene`,
+      mainEntity: {
+        "@type": "ItemList",
+        itemListElement: scenes.map((s, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: s.label,
+          url: `${SITE_URL}/scene/${s.slug}`,
+        })),
+      },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Books Tools", item: SITE_URL },
+        { "@type": "ListItem", position: 2, name: "読書シーンから探す", item: `${SITE_URL}/scene` },
+      ],
+    },
+  ];
+
   return (
     <>
+      {jsonLd.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
       <Header />
       <main className="min-h-screen bg-stone-50">
         {/* Hero */}

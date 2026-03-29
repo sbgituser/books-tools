@@ -4,20 +4,42 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import MoodPurposeSearchSection from "@/components/books/MoodPurposeSearchSection";
 import { PRESET_SEARCHES } from "@/constants/bookTags";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "気分・目的から漫画を探す | Books Tools",
   description:
     "「泣ける」「頭を使う」「癒やされる」など、読みたい体験・気分から漫画を探せます。タイトルが思い浮かばなくても大丈夫。Amazonでは見つかりにくい切り口で漫画を発見。",
+  alternates: { canonical: `${SITE_URL}/manga/mood` },
   openGraph: {
     title: "気分・目的から漫画を探す | Books Tools",
     description: "「今の気分」「読みたい体験」から漫画を探せる新しい検索体験。",
+    url: `${SITE_URL}/manga/mood`,
+  },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "気分・目的から漫画を探す",
+  description: "「泣ける」「頭を使う」「癒やされる」など、読みたい体験・気分から漫画を発見できるページ。",
+  url: `${SITE_URL}/manga/mood`,
+  breadcrumb: {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Books Tools", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "気分・目的で探す", item: `${SITE_URL}/manga/mood` },
+    ],
   },
 };
 
 export default function MangaMoodPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <main>
         {/* ヒーロー */}
