@@ -83,7 +83,7 @@ export async function generateMetadata({
     `${work.title}（${work.authorDisplay}）の${typeLabel}。`,
     work.discoveryTags.length > 0 ? work.discoveryTags.slice(0, 4).join("・") + "など。" : "",
     work.volumeCount > 1 ? `全${work.volumeCount}巻。` : "",
-    "気分・雰囲気から本を探すなら Books Discover。",
+    "あらすじ・試し読み・おすすめ度をチェック。",
   ]
     .filter(Boolean)
     .join(" ");
