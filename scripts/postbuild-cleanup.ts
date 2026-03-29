@@ -5,7 +5,7 @@
  * サブディレクトリ（__next.* ファイル群）を削除する。
  *
  * Cloudflare Pages の 20,000 ファイル上限対策。
- * - out/books/{id}/ 配下の __next.* は client-side navigation 用の補助ファイル。
+ * - out/works/{id}/ 配下の __next.* は client-side navigation 用の補助ファイル。
  * - out/{id}.html と out/{id}.txt（ルート RSC payload）は残す。
  * - 直接 URL アクセスおよびページ遷移は問題なく動作する。
  *
@@ -40,7 +40,7 @@ function countFiles(dir: string): number {
   return count;
 }
 
-const targets = ["books", "blog"];
+const targets = ["works", "blog", "genre", "scene", "manga"];
 let totalRemoved = 0;
 
 for (const target of targets) {
