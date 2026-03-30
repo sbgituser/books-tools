@@ -82,6 +82,11 @@ export default async function BlogDetailPage({ params }: { params: Promise<Param
     dateModified: post.updated ?? post.date,
     mainEntityOfPage: getBlogCanonical(post.slug),
     keywords: post.tags.join(","),
+    author: {
+      "@type": "Organization",
+      name: "Books Tools",
+      url: "https://books.kuras-plus.com",
+    },
     publisher: {
       "@type": "Organization",
       name: "Books Tools",
