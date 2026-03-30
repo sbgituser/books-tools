@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import DiscoverSection from "@/components/works/DiscoverSection";
 import { DISCOVER_MOODS } from "@/constants/discoverMoods";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "気分から本を発見する | Books Discover",
@@ -17,9 +18,22 @@ export const metadata: Metadata = {
   },
 };
 
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "ホーム", item: `${SITE_URL}/` },
+    { "@type": "ListItem", position: 2, name: "気分から本を発見する", item: `${SITE_URL}/discover` },
+  ],
+};
+
 export default function DiscoverPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <Header />
       <main className="min-h-screen bg-stone-50">
 

@@ -32,9 +32,22 @@ const TOOLS = [
   },
 ] as const;
 
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "ホーム", item: `${SITE_URL}/` },
+    { "@type": "ListItem", position: 2, name: "ツール一覧", item: `${SITE_URL}/tools` },
+  ],
+};
+
 export default function ToolsPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <Header />
       <main className="min-h-screen bg-stone-50">
         <section className="bg-gradient-to-br from-stone-900 to-stone-800 text-white py-10 sm:py-14 px-4">

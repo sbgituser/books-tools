@@ -2,8 +2,8 @@
 
 User-agent: *
 Allow: /
-
-# 内部APIデータ（JSONファイル）はインデックス不要
+Disallow: /api/
+Disallow: /_next/
 Disallow: /data/
 
 Sitemap: https://books.kuras-plus.com/sitemap.xml
