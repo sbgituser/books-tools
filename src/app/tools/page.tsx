@@ -57,6 +57,15 @@ const TOOLS = [
     badgeClass: "bg-violet-100 text-violet-700",
     cardClass: "hover:border-violet-300 hover:bg-violet-50",
   },
+  {
+    href: "/tools/reading-time",
+    icon: "⏱️",
+    label: "読書時間計算ツール",
+    description: "ページ数と本の種類を入力するだけで読了時間を自動計算。1日30分で何日かかるかも一目でわかります。",
+    badge: "NEW",
+    badgeClass: "bg-emerald-100 text-emerald-700",
+    cardClass: "hover:border-emerald-300 hover:bg-emerald-50",
+  },
 ] as const;
 
 const breadcrumbJsonLd = {

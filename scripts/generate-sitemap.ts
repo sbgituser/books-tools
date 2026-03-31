@@ -124,6 +124,7 @@ function main() {
     urlEntry(`${SITE_URL}/tools/media-originals`, today, "monthly", 0.8),
     urlEntry(`${SITE_URL}/tools/trend-books`, today, "monthly", 0.8),
     urlEntry(`${SITE_URL}/tools/similar-books`, today, "monthly", 0.8),
+    urlEntry(`${SITE_URL}/tools/reading-time`, today, "monthly", 0.8),
     urlEntry(`${SITE_URL}/scene`, today, "weekly", 0.85),
     ...READING_SCENES.map((s) =>
       urlEntry(`${SITE_URL}/scene/${s.slug}`, today, "weekly", 0.8),
