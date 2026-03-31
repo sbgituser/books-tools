@@ -58,3 +58,44 @@ export interface SimilarWorks {
   groups: SimilarGroup[];
   generatedAt: string;
 }
+
+// ── 属性タグ型（ツール用拡張）────────────────────────────────
+
+export type SimilarityAttribute =
+  | "theme"      // テーマ（恋愛、冒険、推理等）
+  | "tone"       // トーン（明るい、暗い、シリアス等）
+  | "pace"       // テンポ（速い、遅い、普通）
+  | "writing"    // 文体（読みやすい、文学的、ライトノベル調等）
+  | "era"        // 時代設定（現代、歴史、未来等）
+  | "depth"      // 深さ（ライト、ミディアム、ヘビー）
+  | "emotion";   // 読後感（感動、爽快、切ない等）
+
+export interface SimilarWorkEnhanced extends SimilarWorkItem {
+  matchAttributes?: SimilarityAttribute[];
+  matchScore?: number; // 0-100
+  matchReason?: string; // 「暗い雰囲気と複雑なプロットが共通」
+}
+
+// ── 類似作品インデックス（ツール用フラット構造）──────────────
+
+export interface SimilarIndexItem {
+  workId: string;
+  fileId: string;
+  title: string;
+  author: string;
+  type: string;
+  similarTo: Array<{
+    workId: string;
+    fileId: string;
+    title: string;
+    author: string;
+    type: string;
+    reason: string;
+    groupType: SimilarGroupType;
+  }>;
+}
+
+export interface SimilarIndex {
+  works: SimilarIndexItem[];
+  generatedAt: string;
+}

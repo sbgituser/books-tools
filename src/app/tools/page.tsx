@@ -39,6 +39,15 @@ const TOOLS = [
     badgeClass: "bg-amber-100 text-amber-700",
     cardClass: "hover:border-amber-300 hover:bg-amber-50",
   },
+  {
+    href: "/tools/similar-books",
+    icon: "📚",
+    label: "似ている本を探す",
+    description: "お気に入りの本に似た作品を見つけよう。389作品・属性ベースの類似度検索。",
+    badge: "NEW",
+    badgeClass: "bg-violet-100 text-violet-700",
+    cardClass: "hover:border-violet-300 hover:bg-violet-50",
+  },
 ] as const;
 
 const breadcrumbJsonLd = {
