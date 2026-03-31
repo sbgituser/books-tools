@@ -120,6 +120,7 @@ function main() {
 
   const toolsEntries = [
     urlEntry(`${SITE_URL}/tools`, today, "monthly", 0.8),
+    urlEntry(`${SITE_URL}/tools/book-quiz`, today, "monthly", 0.8),
     urlEntry(`${SITE_URL}/tools/media-originals`, today, "monthly", 0.8),
     urlEntry(`${SITE_URL}/tools/trend-books`, today, "monthly", 0.8),
     urlEntry(`${SITE_URL}/tools/similar-books`, today, "monthly", 0.8),

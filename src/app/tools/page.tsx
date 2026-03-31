@@ -13,6 +13,15 @@ export const metadata: Metadata = {
 
 const TOOLS = [
   {
+    href: "/tools/book-quiz",
+    icon: "🔮",
+    label: "おすすめ本診断",
+    description: "5つの質問に答えるだけで読書タイプを診断。あなたにぴったりのおすすめ本5冊を提案します。",
+    badge: "NEW",
+    badgeClass: "bg-rose-100 text-rose-700",
+    cardClass: "hover:border-rose-300 hover:bg-rose-50",
+  },
+  {
     href: "/tools/media-originals",
     icon: "🎬",
     label: "映像から原作を探す",
