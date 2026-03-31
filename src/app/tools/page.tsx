@@ -30,6 +30,15 @@ const TOOLS = [
     badgeClass: "bg-teal-100 text-teal-700",
     cardClass: "hover:border-teal-300 hover:bg-teal-50",
   },
+  {
+    href: "/tools/literary-awards",
+    icon: "🏆",
+    label: "文学賞受賞作データベース",
+    description: "直木賞・芥川賞・本屋大賞など10の主要文学賞の歴代受賞作を横断検索できます。",
+    badge: "NEW",
+    badgeClass: "bg-amber-100 text-amber-700",
+    cardClass: "hover:border-amber-300 hover:bg-amber-50",
+  },
 ] as const;
 
 const breadcrumbJsonLd = {
