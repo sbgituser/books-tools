@@ -216,6 +216,43 @@ export default function MediaOriginalsPage() {
         {/* インタラクティブエリア */}
         <MediaOriginalsClient />
 
+        {/* 関連記事 */}
+        <section className="max-w-4xl mx-auto px-4 py-10">
+          <h2 className="text-base font-bold text-stone-700 mb-4">映像化小説の関連記事</h2>
+          <div className="grid sm:grid-cols-3 gap-3">
+            <Link
+              href="/blog/movie-adapted-novels"
+              className="block rounded-xl border border-stone-200 bg-white p-4 hover:border-indigo-300 hover:shadow-sm transition-all"
+            >
+              <p className="text-xs text-indigo-600 font-semibold mb-1">おすすめ記事</p>
+              <p className="text-sm font-bold text-stone-800 leading-snug">
+                映画化・映像化された小説おすすめ30選【2026年最新】
+              </p>
+              <p className="text-xs text-stone-500 mt-1">映画・ドラマ別に厳選した原作ガイド</p>
+            </Link>
+            <Link
+              href="/blog/movie-adaptations-2026"
+              className="block rounded-xl border border-stone-200 bg-white p-4 hover:border-indigo-300 hover:shadow-sm transition-all"
+            >
+              <p className="text-xs text-indigo-600 font-semibold mb-1">2026年最新</p>
+              <p className="text-sm font-bold text-stone-800 leading-snug">
+                【2026年版】映像化された小説・漫画おすすめ一覧
+              </p>
+              <p className="text-xs text-stone-500 mt-1">映画・ドラマ・アニメ原作を一覧で確認</p>
+            </Link>
+            <Link
+              href="/blog/find-original-books-from-movies"
+              className="block rounded-xl border border-stone-200 bg-white p-4 hover:border-indigo-300 hover:shadow-sm transition-all"
+            >
+              <p className="text-xs text-indigo-600 font-semibold mb-1">使い方ガイド</p>
+              <p className="text-sm font-bold text-stone-800 leading-snug">
+                映画・ドラマ・アニメの原作本の探し方
+              </p>
+              <p className="text-xs text-stone-500 mt-1">映像から本の世界に入る楽しみ方</p>
+            </Link>
+          </div>
+        </section>
+
       </main>
       <Footer />
     </>
