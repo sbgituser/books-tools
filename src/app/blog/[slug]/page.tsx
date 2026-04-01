@@ -31,15 +31,22 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   if (!post) return { title: "記事が見つかりません" };
 
   const canonical = getBlogCanonical(post.slug);
+
+  const description = post.description && post.description.length >= 80
+    ? post.description
+    : post.description
+    ? `${post.description}詳しい解説・選び方のポイントをBooks Tools編集部が紹介します。`
+    : `${post.title}。Books Tools編集部が厳選したおすすめ情報を詳しく解説します。`;
+
   return {
     title: `${post.title} | ブログ`,
-    description: post.description,
+    description,
     alternates: {
       canonical,
     },
     openGraph: {
       title: `${post.title} | ${SITE_NAME}`,
-      description: post.description,
+      description,
       url: canonical,
       type: "article",
       publishedTime: post.date,
@@ -52,7 +59,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
     twitter: {
       card: "summary_large_image",
       title: `${post.title} | ${SITE_NAME}`,
-      description: post.description,
+      description,
     },
   };
 }
