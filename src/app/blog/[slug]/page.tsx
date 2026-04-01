@@ -164,6 +164,15 @@ export default async function BlogDetailPage({ params }: { params: Promise<Param
             {content}
           </article>
 
+          <div className="mt-8 p-4 bg-stone-50 rounded-lg border border-stone-200">
+            <h3 className="text-sm font-semibold text-stone-600 mb-2">この記事について</h3>
+            <p className="text-sm text-stone-700">
+              Books Tools編集部が、実際の読書体験をもとに作成しました。
+              本サービスは2024年より、読者が本当に読みたい本を見つけられるよう、
+              厳選したコンテンツを提供しています。
+            </p>
+          </div>
+
           <section className="mt-10 pt-8 border-t border-stone-200">
             <h2 className="text-lg font-bold text-stone-900 mb-3">関連ツール</h2>
             <div className="grid sm:grid-cols-2 gap-3">
