@@ -66,6 +66,15 @@ const TOOLS = [
     badgeClass: "bg-emerald-100 text-emerald-700",
     cardClass: "hover:border-emerald-300 hover:bg-emerald-50",
   },
+  {
+    href: "/tools/reading-order",
+    icon: "📖",
+    label: "シリーズ読む順番データベース",
+    description: "人気シリーズの読む順番を一覧表示。小説・漫画50シリーズの刊行順・おすすめ順がすぐわかります。",
+    badge: "NEW",
+    badgeClass: "bg-amber-100 text-amber-700",
+    cardClass: "hover:border-amber-300 hover:bg-amber-50",
+  },
 ] as const;
 
 const breadcrumbJsonLd = {

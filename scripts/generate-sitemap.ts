@@ -20,6 +20,7 @@ import { SITE_URL } from "../src/lib/site";
 import { READING_SCENES } from "../src/constants/readingScenes";
 import { PRESET_SEARCHES } from "../src/constants/bookTags";
 import { CATEGORY_TREE } from "../src/lib/categories";
+import { READING_ORDER_SERIES } from "../src/constants/readingOrders";
 
 // ── ヘルパー ──────────────────────────────────────────────────────────────
 
@@ -125,6 +126,10 @@ function main() {
     urlEntry(`${SITE_URL}/tools/trend-books`, today, "monthly", 0.8),
     urlEntry(`${SITE_URL}/tools/similar-books`, today, "monthly", 0.8),
     urlEntry(`${SITE_URL}/tools/reading-time`, today, "monthly", 0.8),
+    urlEntry(`${SITE_URL}/tools/reading-order`, today, "weekly", 0.85),
+    ...READING_ORDER_SERIES.map((s) =>
+      urlEntry(`${SITE_URL}/tools/reading-order/${s.id}`, today, "weekly", 0.8),
+    ),
     urlEntry(`${SITE_URL}/scene`, today, "weekly", 0.85),
     ...READING_SCENES.map((s) =>
       urlEntry(`${SITE_URL}/scene/${s.slug}`, today, "weekly", 0.8),
