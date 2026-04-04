@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "気分から本を発見する | Books Discover",
   description:
     "泣ける・ダーク・癒やし・一気読みなど、今の気分・雰囲気で漫画・小説を見つける発見サイト。タイトルが分からなくても、読みたい体験から逆引きできます。",
-  alternates: { canonical: "https://books.kuras-plus.com/discover" },
+  alternates: { canonical: `${SITE_URL}/discover` },
   openGraph: {
     title: "気分から本を発見する | Books Discover",
     description: "今の気分・雰囲気で漫画・小説を発見。タグを選ぶだけで次の一冊が見つかる。",
