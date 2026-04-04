@@ -31,6 +31,9 @@ export default function Footer() {
             <Link href="/tools" className="text-stone-400 hover:text-white text-xs transition-colors">
               ツール一覧
             </Link>
+            <Link href="/blog" className="text-stone-400 hover:text-white text-xs transition-colors">
+              ブログ
+            </Link>
             <Link href="/privacy" className="text-stone-400 hover:text-white text-xs transition-colors">
               プライバシーポリシー
             </Link>

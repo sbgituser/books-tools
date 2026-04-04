@@ -80,11 +80,15 @@ export default async function BlogDetailPage({ params }: { params: Promise<Param
   const { prev, next } = getAdjacentPosts(post.slug);
   const related = getRelatedPosts(post.slug, 3);
   const content = await renderBlogMdx(post.content);
+  const ogpImage = post.coverImage
+    ? post.coverImage
+    : `https://books.kuras-plus.com/ogp/blog/${normalizedSlug}.png`;
   const articleJsonLd = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     headline: post.title,
     description: post.description,
+    image: ogpImage,
     datePublished: post.date,
     dateModified: post.updated ?? post.date,
     mainEntityOfPage: getBlogCanonical(post.slug),
@@ -98,6 +102,10 @@ export default async function BlogDetailPage({ params }: { params: Promise<Param
       "@type": "Organization",
       name: "Books Tools",
       url: "https://books.kuras-plus.com",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://books.kuras-plus.com/ogp/default-ogp.png",
+      },
     },
   };
   const breadcrumbJsonLd = {

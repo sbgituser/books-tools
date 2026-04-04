@@ -52,6 +52,15 @@ const jsonLd = {
   },
 };
 
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Books Tools",
+  url: "https://books.kuras-plus.com",
+  logo: "https://books.kuras-plus.com/ogp/default-ogp.png",
+  sameAs: [],
+};
+
 function LatestBlogSection() {
   const posts = getAllBlogMeta().slice(0, 6);
   if (posts.length === 0) return null;
@@ -109,6 +118,10 @@ export default function HomePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
       />
       <Header />
       <main>
@@ -249,9 +262,11 @@ export default function HomePage() {
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={work.cover}
-                      alt={work.title}
+                      alt={`${work.title} の表紙`}
                       className="w-full h-full object-cover"
                       loading="lazy"
+                      width={200}
+                      height={300}
                     />
                     <span className="absolute top-1.5 right-1.5 text-[9px] px-1.5 py-0.5 rounded-full font-bold bg-stone-900/80 text-white">
                       {work.type}

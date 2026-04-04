@@ -134,6 +134,7 @@ function VolumeCard({ vol }: { vol: Volume }) {
             sizes="48px"
             className="object-cover"
             unoptimized
+            loading="lazy"
           />
         ) : (
           <div className="absolute inset-0 flex items-center justify-center text-stone-300 text-xs text-center p-1">
@@ -450,6 +451,7 @@ export default async function WorkDetailPage({
                       sizes="160px"
                       className="object-cover"
                       unoptimized
+                      priority
                     />
                   ) : (
                     <div className={`absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-br ${getCoverGradient(work.l2Id)} p-2`}>

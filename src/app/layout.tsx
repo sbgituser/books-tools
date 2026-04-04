@@ -40,6 +40,10 @@ export default function RootLayout({
   return (
     <html lang="ja" suppressHydrationWarning>
       <head>
+        <link rel="dns-prefetch" href="https://books.google.com" />
+        <link rel="dns-prefetch" href="https://covers.openlibrary.org" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://books.google.com" crossOrigin="anonymous" />
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8412407485609118"

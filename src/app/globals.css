@@ -11,6 +11,7 @@ body {
   font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic",
     system-ui, -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeSpeed;
 }
 
 .line-clamp-2 {

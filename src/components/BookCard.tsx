@@ -53,11 +53,14 @@ function BookCover({
       // eslint-disable-next-line @next/next/no-img-element
       <img
         src={coverSrc}
-        alt={title}
+        alt={`${title}の表紙`}
         onError={() => {
           setCoverIndex((prev) => prev + 1);
         }}
         className="shrink-0 w-16 h-24 sm:w-20 sm:h-28 rounded object-cover shadow-md"
+        loading="lazy"
+        width={80}
+        height={112}
       />
     );
   }

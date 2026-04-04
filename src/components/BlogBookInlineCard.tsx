@@ -47,6 +47,8 @@ export default function BlogBookInlineCard({ book }: { book: BlogLinkedBook }) {
           onError={() => setCoverIndex((prev) => prev + 1)}
           className="book-card-thumb w-12 h-[68px] sm:w-14 sm:h-20 object-cover rounded-md border border-stone-200 bg-white shrink-0"
           loading="lazy"
+          width={56}
+          height={80}
         />
       ) : (
         <div className="w-12 h-[68px] sm:w-14 sm:h-20 rounded-md border border-stone-300 bg-stone-200 px-1 py-1.5 flex items-center justify-center text-center text-[10px] leading-tight text-stone-700 font-medium shrink-0 overflow-hidden">

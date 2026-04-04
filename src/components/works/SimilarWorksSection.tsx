@@ -40,6 +40,7 @@ function SimilarCard({ item }: { item: SimilarWorkItem }) {
             sizes="56px"
             className="object-cover group-hover:scale-105 transition-transform duration-300"
             unoptimized
+            loading="lazy"
           />
         ) : (
           <div className="absolute inset-0 flex items-center justify-center">
