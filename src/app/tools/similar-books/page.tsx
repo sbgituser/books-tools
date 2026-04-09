@@ -190,6 +190,43 @@ export default function SimilarBooksPage() {
         {/* インタラクティブエリア */}
         <SimilarBooksClient />
 
+        {/* ジャンル別に探す導線 */}
+        <section className="max-w-4xl mx-auto px-4 py-10">
+          <h2 className="text-base font-bold text-stone-700 mb-4">ジャンル別に作品を探す</h2>
+          <div className="grid sm:grid-cols-3 gap-3">
+            <Link
+              href="/genre/fantasy"
+              className="group flex items-start gap-3 rounded-xl border border-amber-100 bg-amber-50 p-4 hover:border-amber-300 hover:shadow-sm transition-all"
+            >
+              <span className="text-2xl shrink-0 mt-0.5" aria-hidden="true">🐉</span>
+              <div>
+                <p className="text-sm font-bold text-stone-800 group-hover:text-amber-700 transition-colors leading-snug">ファンタジー</p>
+                <p className="text-xs text-stone-500 mt-0.5">異世界・魔法・冒険の人気作品</p>
+              </div>
+            </Link>
+            <Link
+              href="/genre/mystery"
+              className="group flex items-start gap-3 rounded-xl border border-stone-200 bg-white p-4 hover:border-indigo-300 hover:shadow-sm transition-all"
+            >
+              <span className="text-2xl shrink-0 mt-0.5" aria-hidden="true">🔍</span>
+              <div>
+                <p className="text-sm font-bold text-stone-800 group-hover:text-indigo-700 transition-colors leading-snug">ミステリー</p>
+                <p className="text-xs text-stone-500 mt-0.5">推理・サスペンスの名作</p>
+              </div>
+            </Link>
+            <Link
+              href="/genre/shonen"
+              className="group flex items-start gap-3 rounded-xl border border-stone-200 bg-white p-4 hover:border-indigo-300 hover:shadow-sm transition-all"
+            >
+              <span className="text-2xl shrink-0 mt-0.5" aria-hidden="true">⚡</span>
+              <div>
+                <p className="text-sm font-bold text-stone-800 group-hover:text-indigo-700 transition-colors leading-snug">少年漫画</p>
+                <p className="text-xs text-stone-500 mt-0.5">バトル・冒険・スポーツ</p>
+              </div>
+            </Link>
+          </div>
+        </section>
+
       </main>
       <Footer />
     </>

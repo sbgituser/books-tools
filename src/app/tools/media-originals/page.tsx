@@ -253,6 +253,33 @@ export default function MediaOriginalsPage() {
           </div>
         </section>
 
+        {/* ファンタジー系ジャンル導線 */}
+        <section className="max-w-4xl mx-auto px-4 pb-10">
+          <h2 className="text-base font-bold text-stone-700 mb-4">ジャンル別に原作を探す</h2>
+          <div className="grid sm:grid-cols-2 gap-3">
+            <Link
+              href="/genre/fantasy"
+              className="group flex items-start gap-3 rounded-xl border border-amber-100 bg-amber-50 p-4 hover:border-amber-300 hover:shadow-sm transition-all"
+            >
+              <span className="text-2xl shrink-0 mt-0.5" aria-hidden="true">🐉</span>
+              <div>
+                <p className="text-sm font-bold text-stone-800 group-hover:text-amber-700 transition-colors leading-snug">ファンタジー漫画・小説おすすめ</p>
+                <p className="text-xs text-stone-500 mt-0.5">異世界・魔法・冒険の人気作品を一覧で探す</p>
+              </div>
+            </Link>
+            <Link
+              href="/blog/spring-anime-2026-original-manga"
+              className="group flex items-start gap-3 rounded-xl border border-amber-100 bg-amber-50 p-4 hover:border-amber-300 hover:shadow-sm transition-all"
+            >
+              <span className="text-2xl shrink-0 mt-0.5" aria-hidden="true">📺</span>
+              <div>
+                <p className="text-sm font-bold text-stone-800 group-hover:text-amber-700 transition-colors leading-snug">2026年春アニメ原作ガイド全60作品</p>
+                <p className="text-xs text-stone-500 mt-0.5">転スラ4期・リゼロ4th・あかね噺など注目作の原作情報</p>
+              </div>
+            </Link>
+          </div>
+        </section>
+
       </main>
       <Footer />
     </>
