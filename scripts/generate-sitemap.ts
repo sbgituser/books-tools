@@ -21,6 +21,7 @@ import { READING_SCENES } from "../src/constants/readingScenes";
 import { PRESET_SEARCHES } from "../src/constants/bookTags";
 import { CATEGORY_TREE } from "../src/lib/categories";
 import { READING_ORDER_SERIES } from "../src/constants/readingOrders";
+import { LITERARY_AWARDS } from "../src/constants/literaryAwards";
 
 // ── 定数 ──────────────────────────────────────────────────────────────────
 
@@ -166,6 +167,10 @@ function main() {
     urlEntry(`${SITE_URL}/manga/mood`, today, "weekly", 0.8),
     ...PRESET_SEARCHES.map((p) =>
       urlEntry(`${SITE_URL}/manga/by-mood/${p.slug}`, today, "weekly", 0.75),
+    ),
+    urlEntry(`${SITE_URL}/tools/literary-awards`, today, "weekly", 0.85),
+    ...LITERARY_AWARDS.map((a) =>
+      urlEntry(`${SITE_URL}/tools/literary-awards/${a.id}`, today, "monthly", 0.8),
     ),
   ];
   fs.writeFileSync(
