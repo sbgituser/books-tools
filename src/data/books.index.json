@@ -267335,5 +267335,1380 @@
       "l2Id": "seinen",
       "l3Id": "daily_life"
     }
+  },
+  {
+    "id": "9784490108620",
+    "title": "少女小説事典",
+    "authors": [
+      "岩淵宏子",
+      "菅聡子",
+      "長谷川啓",
+      "久米依子"
+    ],
+    "publishedDate": "2015-03",
+    "isbn13": "9784490108620",
+    "language": "ja",
+    "pageCount": 416,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "少女小説事典 岩淵宏子 菅聡子 長谷川啓 久米依子 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=8UMjrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "8UMjrgEACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:50:02.859Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "social"
+    }
+  },
+  {
+    "id": "9784041095560",
+    "title": "ブロードキャスト",
+    "authors": [
+      "湊かなえ"
+    ],
+    "publishedDate": "2021",
+    "isbn13": "9784041095560",
+    "language": "ja",
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "ブロードキャスト 湊かなえ 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=DTc5zgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "DTc5zgEACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:50:04.961Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "social"
+    }
+  },
+  {
+    "id": "Uc8rAQAAIAAJ",
+    "title": "名もなき毒",
+    "authors": [
+      "宮部みゆき"
+    ],
+    "publisher": "Bright Sparks",
+    "publishedDate": "2006-08",
+    "language": "ja",
+    "pageCount": 502,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "名もなき毒 宮部みゆき Bright Sparks 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=Uc8rAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Uc8rAQAAIAAJ"
+    },
+    "updatedAt": "2026-04-09T13:50:07.512Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "social"
+    }
+  },
+  {
+    "id": "9784488265076",
+    "title": "カササギ殺人事件　上",
+    "authors": [
+      "アンソニー・ホロヴィッツ"
+    ],
+    "publisher": "東京創元社",
+    "publishedDate": "2018-09-28",
+    "isbn13": "9784488265076",
+    "language": "ja",
+    "pageCount": 244,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "カササギ殺人事件　上 アンソニー・ホロヴィッツ 東京創元社 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=FyJvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "FyJvDwAAQBAJ"
+    },
+    "updatedAt": "2026-04-09T13:50:14.582Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "honkaku"
+    }
+  },
+  {
+    "id": "0KLD0QEACAAJ",
+    "title": "可燃物",
+    "authors": [],
+    "publishedDate": "2023",
+    "language": "ja",
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "可燃物 小説",
+    "sourceIds": {
+      "googleBooksId": "0KLD0QEACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:50:22.577Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "honkaku"
+    }
+  },
+  {
+    "id": "9784198626471",
+    "title": "殺人鬼フジコの衝動",
+    "authors": [
+      "真梨幸子"
+    ],
+    "publishedDate": "2008-12",
+    "isbn13": "9784198626471",
+    "language": "ja",
+    "pageCount": 279,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "殺人鬼フジコの衝動 真梨幸子 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=FR5bPgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "FR5bPgAACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:50:27.798Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "social"
+    }
+  },
+  {
+    "id": "9784803804386",
+    "title": "夏物語",
+    "authors": [
+      "喜多嶋隆"
+    ],
+    "publishedDate": "2024-09-30",
+    "isbn13": "9784803804386",
+    "language": "ja",
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "夏物語 喜多嶋隆 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=Kv3d0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Kv3d0AEACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:50:34.284Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "youth"
+    }
+  },
+  {
+    "id": "9784062937283",
+    "title": "献灯使",
+    "authors": [
+      "多和田葉子"
+    ],
+    "publishedDate": "2017-08",
+    "isbn13": "9784062937283",
+    "language": "ja",
+    "pageCount": 268,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "献灯使 多和田葉子 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=hToztAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "hToztAEACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:50:36.855Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "classic"
+    }
+  },
+  {
+    "id": "kkbc0QEACAAJ",
+    "title": "黄色い家",
+    "authors": [],
+    "publishedDate": "2023",
+    "language": "ja",
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "黄色い家 小説",
+    "sourceIds": {
+      "googleBooksId": "kkbc0QEACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:50:42.468Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "youth"
+    }
+  },
+  {
+    "id": "uBDnoAEACAAJ",
+    "title": "百年の孤独",
+    "authors": [],
+    "publishedDate": "1981",
+    "language": "ja",
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "百年の孤独 小説",
+    "sourceIds": {
+      "googleBooksId": "uBDnoAEACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:50:44.511Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "foreign",
+      "l3Id": "classic"
+    }
+  },
+  {
+    "id": "9784094064438",
+    "title": "サラバ!",
+    "authors": [
+      "西加奈子"
+    ],
+    "publishedDate": "2017-10",
+    "isbn13": "9784094064438",
+    "language": "ja",
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "サラバ! 西加奈子 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=NHsptAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "NHsptAEACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:50:50.414Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "youth"
+    }
+  },
+  {
+    "id": "9784591164457",
+    "title": "i",
+    "authors": [
+      "西加奈子"
+    ],
+    "publishedDate": "2019-11",
+    "isbn13": "9784591164457",
+    "language": "ja",
+    "pageCount": 323,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "i 西加奈子 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=uBIZzAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "uBIZzAEACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:50:52.717Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "youth"
+    }
+  },
+  {
+    "id": "egCoEAAAQBAJ",
+    "title": "木挽町のあだ討ち",
+    "authors": [
+      "永井紗耶子"
+    ],
+    "publisher": "新潮社",
+    "publishedDate": "2023-01-18",
+    "language": "ja",
+    "pageCount": 191,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "木挽町のあだ討ち 永井紗耶子 新潮社 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=egCoEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "egCoEAAAQBAJ"
+    },
+    "updatedAt": "2026-04-09T13:50:59.289Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "classic"
+    }
+  },
+  {
+    "id": "9784040731179",
+    "title": "痛いのは嫌なので防御力に極振りしたいと思います。",
+    "authors": [
+      "夕蜜柑"
+    ],
+    "publishedDate": "2019-12",
+    "isbn13": "9784040731179",
+    "language": "ja",
+    "pageCount": 247,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "痛いのは嫌なので防御力に極振りしたいと思います。 夕蜜柑 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=A-BBzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "A-BBzQEACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:51:01.367Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "light_novel",
+      "l3Id": "isekai"
+    }
+  },
+  {
+    "id": "9784757560819",
+    "title": "異世界食堂",
+    "authors": [],
+    "publishedDate": "2019",
+    "isbn13": "9784757560819",
+    "language": "ja",
+    "pageCount": 257,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "異世界食堂 小説",
+    "sourceIds": {
+      "googleBooksId": "I4NEzQEACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:51:03.462Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "light_novel",
+      "l3Id": "isekai"
+    }
+  },
+  {
+    "id": "9784865546729",
+    "title": "望まぬ不死の冒険者 5",
+    "authors": [
+      "中曽根ハイジ"
+    ],
+    "publishedDate": "2020-05",
+    "isbn13": "9784865546729",
+    "language": "ja",
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "望まぬ不死の冒険者 5 中曽根ハイジ 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=3W2pzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "3W2pzQEACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:51:07.653Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "light_novel",
+      "l3Id": "isekai"
+    }
+  },
+  {
+    "id": "9784041085226",
+    "title": "真の仲間じゃないと勇者のパーティーを追い出されたので、辺境でスローライフすることにしました",
+    "subtitle": "ドラマCD付き特装版",
+    "authors": [
+      "ざっぽん",
+      "やすも"
+    ],
+    "publishedDate": "2019-09",
+    "isbn13": "9784041085226",
+    "language": "ja",
+    "pageCount": 328,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "真の仲間じゃないと勇者のパーティーを追い出されたので、辺境でスローライフすることにしました ドラマCD付き特装版 ざっぽん やすも 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=zjsWyQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "zjsWyQEACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:51:09.788Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "light_novel",
+      "l3Id": "isekai"
+    }
+  },
+  {
+    "id": "mus8EAAAQBAJ",
+    "title": "ひげを剃る。そして女子高生を拾う。 Each Stories （1）",
+    "authors": [
+      "バラマツヒトミ"
+    ],
+    "publisher": "KADOKAWA",
+    "publishedDate": "2021-08-26",
+    "language": "ja",
+    "pageCount": 187,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "ひげを剃る。そして女子高生を拾う。 Each Stories （1） バラマツヒトミ KADOKAWA 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=mus8EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "mus8EAAAQBAJ"
+    },
+    "updatedAt": "2026-04-09T13:51:11.850Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "light_novel",
+      "l3Id": "daily_life"
+    }
+  },
+  {
+    "id": "QatuEAAAQBAJ",
+    "title": "継母の連れ子が元カノだった【分冊版】　1",
+    "authors": [],
+    "publisher": "KADOKAWA",
+    "language": "ja",
+    "pageCount": 19,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "継母の連れ子が元カノだった【分冊版】　1 KADOKAWA 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=QatuEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "QatuEAAAQBAJ"
+    },
+    "updatedAt": "2026-04-09T13:51:14.247Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "light_novel",
+      "l3Id": "daily_life"
+    }
+  },
+  {
+    "id": "9784046830999",
+    "title": "俺だけレベルアップな件 15",
+    "authors": [
+      "DUBU(REDICE STUDIO)",
+      "h-goon"
+    ],
+    "publishedDate": "2023-12-22",
+    "isbn13": "9784046830999",
+    "language": "ja",
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "俺だけレベルアップな件 15 DUBU(REDICE STUDIO) h-goon 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=cdNR0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "cdNR0AEACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:51:16.786Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "light_novel",
+      "l3Id": "isekai"
+    }
+  },
+  {
+    "id": "9784047360181",
+    "title": "異世界のんびり農家",
+    "authors": [
+      "内藤騎之介"
+    ],
+    "publishedDate": "2020-04",
+    "isbn13": "9784047360181",
+    "language": "ja",
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "異世界のんびり農家 内藤騎之介 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=jg6BzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "jg6BzQEACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:51:19.453Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "light_novel",
+      "l3Id": "isekai"
+    }
+  },
+  {
+    "id": "9784803018219",
+    "title": "即死チートが最強すぎて、異世界のやつらがまるで相手にならないんですが。-ΑΩ-",
+    "authors": [
+      "納都花丸"
+    ],
+    "publishedDate": "2023-08-10",
+    "isbn13": "9784803018219",
+    "language": "ja",
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "即死チートが最強すぎて、異世界のやつらがまるで相手にならないんですが。-ΑΩ- 納都花丸 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=KV0C0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "KV0C0AEACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:51:21.590Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "light_novel",
+      "l3Id": "isekai"
+    }
+  },
+  {
+    "id": "mWLaEAAAQBAJ",
+    "title": "Unnamed Memory　-after the end-III【電子特別版】",
+    "authors": [
+      "古宮　九時"
+    ],
+    "publisher": "KADOKAWA",
+    "publishedDate": "2023-10-17",
+    "language": "ja",
+    "pageCount": 362,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "Unnamed Memory　-after the end-III【電子特別版】 古宮　九時 KADOKAWA 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=mWLaEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "mWLaEAAAQBAJ"
+    },
+    "updatedAt": "2026-04-09T13:51:23.635Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "light_novel",
+      "l3Id": "fantasy"
+    }
+  },
+  {
+    "id": "iweEDwAAQBAJ",
+    "title": "屍者の帝国 アートワークス",
+    "authors": [
+      "ポストメディア編集部"
+    ],
+    "publisher": "一迅社",
+    "publishedDate": "2016-01-22",
+    "language": "ja",
+    "pageCount": 98,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "屍者の帝国 アートワークス ポストメディア編集部 一迅社 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=iweEDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "iweEDwAAQBAJ"
+    },
+    "updatedAt": "2026-04-09T13:51:25.610Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "hard_sf"
+    }
+  },
+  {
+    "id": "hMA_DwAAQBAJ",
+    "title": "自生の夢",
+    "authors": [
+      "飛浩隆"
+    ],
+    "publisher": "河出書房新社",
+    "publishedDate": "2016-11-29",
+    "language": "ja",
+    "pageCount": 160,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "自生の夢 飛浩隆 河出書房新社 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=hMA_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "hMA_DwAAQBAJ"
+    },
+    "updatedAt": "2026-04-09T13:51:27.603Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "hard_sf"
+    }
+  },
+  {
+    "id": "9784150313623",
+    "title": "天冥の標",
+    "subtitle": "PART3",
+    "authors": [
+      "小川一水"
+    ],
+    "publishedDate": "2019-02",
+    "isbn13": "9784150313623",
+    "language": "ja",
+    "pageCount": 405,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "天冥の標 PART3 小川一水 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=3CLIwgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "3CLIwgEACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:51:30.317Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "hard_sf"
+    }
+  },
+  {
+    "id": "9784041059166",
+    "title": "横浜駅SF 1",
+    "authors": [
+      "柞刈湯葉",
+      "新川権兵衛"
+    ],
+    "publishedDate": "2017-08",
+    "isbn13": "9784041059166",
+    "language": "ja",
+    "pageCount": 178,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "横浜駅SF 1 柞刈湯葉 新川権兵衛 小説",
+    "sourceIds": {
+      "googleBooksId": "FQmeswEACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:51:32.913Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "hard_sf"
+    }
+  },
+  {
+    "id": "9784488711023",
+    "title": "万物理論",
+    "authors": [
+      "グレッグ・イーガン"
+    ],
+    "publishedDate": "2004-10",
+    "isbn13": "9784488711023",
+    "language": "ja",
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "万物理論 グレッグ・イーガン 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=s8UqAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "s8UqAAAACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:51:34.958Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "hard_sf"
+    }
+  },
+  {
+    "id": "9784150116002",
+    "title": "老人と宇宙",
+    "authors": [
+      "ジョンスコルジー"
+    ],
+    "publishedDate": "2007-02",
+    "isbn13": "9784150116002",
+    "language": "ja",
+    "pageCount": 431,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "老人と宇宙 ジョンスコルジー 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=QpEpNwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "QpEpNwAACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:51:38.825Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "hard_sf"
+    }
+  },
+  {
+    "id": "vCrLCwAAQBAJ",
+    "title": "All You Need Is Kill 1",
+    "authors": [
+      "桜坂洋",
+      "竹内良輔",
+      "安倍吉俊",
+      "小畑健"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "2014-06-19",
+    "language": "ja",
+    "pageCount": 219,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "All You Need Is Kill 1 桜坂洋 竹内良輔 安倍吉俊 小畑健 集英社 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=vCrLCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "vCrLCwAAQBAJ"
+    },
+    "updatedAt": "2026-04-09T13:51:43.314Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "hard_sf"
+    }
+  },
+  {
+    "id": "9784062556255",
+    "title": "十二国記アニメ脚本集",
+    "authors": [
+      "小野不由美"
+    ],
+    "publishedDate": "2002-08-05",
+    "isbn13": "9784062556255",
+    "language": "ja",
+    "pageCount": 254,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "十二国記アニメ脚本集 小野不由美 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=UMmWQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "UMmWQgAACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:51:48.050Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "fantasy"
+    }
+  },
+  {
+    "id": "9784037500306",
+    "title": "闇の守り人",
+    "authors": [
+      "上橋菜穂子"
+    ],
+    "publishedDate": "2006-10",
+    "isbn13": "9784037500306",
+    "language": "ja",
+    "pageCount": 369,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "闇の守り人 上橋菜穂子 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=ZH5UPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "ZH5UPwAACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:51:50.125Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "fantasy"
+    }
+  },
+  {
+    "id": "9784101302744",
+    "title": "夢の守り人",
+    "authors": [
+      "上橋菜穂子"
+    ],
+    "publishedDate": "2008-01-01",
+    "isbn13": "9784101302744",
+    "language": "ja",
+    "pageCount": 348,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "夢の守り人 上橋菜穂子 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=KmzwPAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "KmzwPAAACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:51:52.734Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "fantasy"
+    }
+  },
+  {
+    "id": "9784037500900",
+    "title": "天と地の守り人",
+    "authors": [
+      "上橋菜穂子"
+    ],
+    "publishedDate": "2008-09",
+    "isbn13": "9784037500900",
+    "language": "ja",
+    "pageCount": 365,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "天と地の守り人 上橋菜穂子 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=m5-KPgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "m5-KPgAACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:51:54.708Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "fantasy"
+    }
+  },
+  {
+    "id": "67gMEAAAQBAJ",
+    "title": "ゆうきまさみのまだまだはてしない物語",
+    "authors": [
+      "ゆうき　まさみ"
+    ],
+    "publisher": "KADOKAWA",
+    "publishedDate": "2020-12-19",
+    "language": "ja",
+    "pageCount": 159,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "ゆうきまさみのまだまだはてしない物語 ゆうき　まさみ KADOKAWA 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=67gMEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "67gMEAAAQBAJ"
+    },
+    "updatedAt": "2026-04-09T13:51:56.790Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "fantasy"
+    }
+  },
+  {
+    "id": "9784198936730",
+    "title": "ハウルの動く城 1 魔法使いハウルと火の悪魔",
+    "authors": [
+      "ダイアナ・ウィン・ジョーンズ"
+    ],
+    "publishedDate": "2013-03",
+    "isbn13": "9784198936730",
+    "language": "ja",
+    "pageCount": 413,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "ハウルの動く城 1 魔法使いハウルと火の悪魔 ダイアナ・ウィン・ジョーンズ 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=M0cpmQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "M0cpmQEACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:51:58.751Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "fantasy"
+    }
+  },
+  {
+    "id": "9784086803533",
+    "title": "後宮の烏 5",
+    "authors": [
+      "白川紺子"
+    ],
+    "publishedDate": "2020-12",
+    "isbn13": "9784086803533",
+    "language": "ja",
+    "pageCount": 304,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "後宮の烏 5 白川紺子 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=HQcezgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "HQcezgEACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:52:00.874Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "fantasy"
+    }
+  },
+  {
+    "id": "9784065129067",
+    "title": "裏関ヶ原",
+    "authors": [
+      "吉川永青"
+    ],
+    "publishedDate": "2018-11",
+    "isbn13": "9784065129067",
+    "language": "ja",
+    "pageCount": 311,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "裏関ヶ原 吉川永青 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=HS_nvgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "HS_nvgEACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:52:05.436Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical",
+      "l3Id": "jidai"
+    }
+  },
+  {
+    "id": "9784167105952",
+    "title": "翔ぶが如く",
+    "authors": [
+      "司馬遼太郎"
+    ],
+    "publishedDate": "2002-02",
+    "isbn13": "9784167105952",
+    "language": "ja",
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "翔ぶが如く 司馬遼太郎 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=WTJoPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "WTJoPwAACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:52:07.456Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical",
+      "l3Id": "jidai"
+    }
+  },
+  {
+    "id": "2UyeBwAAQBAJ",
+    "title": "梟の城",
+    "authors": [
+      "司馬遼太郎"
+    ],
+    "publisher": "新潮社",
+    "publishedDate": "1965-05-04",
+    "language": "ja",
+    "pageCount": 369,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "梟の城 司馬遼太郎 新潮社 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=2UyeBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "2UyeBwAAQBAJ"
+    },
+    "updatedAt": "2026-04-09T13:52:09.570Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical",
+      "l3Id": "jidai"
+    }
+  },
+  {
+    "id": "q4VJEAAAQBAJ",
+    "title": "剣客商売　41巻",
+    "authors": [
+      "大島やすいち",
+      "池波正太郎"
+    ],
+    "publisher": "リイド社",
+    "publishedDate": "2021-10-27",
+    "language": "ja",
+    "pageCount": 208,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "剣客商売　41巻 大島やすいち 池波正太郎 リイド社 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=q4VJEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "q4VJEAAAQBAJ"
+    },
+    "updatedAt": "2026-04-09T13:52:12.237Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical",
+      "l3Id": "jidai"
+    }
+  },
+  {
+    "id": "9784795919327",
+    "title": "江戸切絵図にひろがる剣客商売仕掛人・藤枝梅安",
+    "authors": [
+      "人文社編集部"
+    ],
+    "publishedDate": "2004-06-01",
+    "isbn13": "9784795919327",
+    "language": "ja",
+    "pageCount": 143,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "江戸切絵図にひろがる剣客商売仕掛人・藤枝梅安 人文社編集部 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=9EMkNwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "9EMkNwAACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:52:14.384Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical",
+      "l3Id": "jidai"
+    }
+  },
+  {
+    "id": "-QjNDwAAQBAJ",
+    "title": "銀漢の賦",
+    "authors": [
+      "葉室麟"
+    ],
+    "publisher": "文藝春秋",
+    "publishedDate": "2010-02-10",
+    "language": "ja",
+    "pageCount": 159,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "銀漢の賦 葉室麟 文藝春秋 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=-QjNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "-QjNDwAAQBAJ"
+    },
+    "updatedAt": "2026-04-09T13:52:18.125Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical",
+      "l3Id": "jidai"
+    }
+  },
+  {
+    "id": "9784022143099",
+    "title": "天使の囀り 1",
+    "authors": [
+      "貴志祐介",
+      "貘九三口造"
+    ],
+    "publishedDate": "2020-12",
+    "isbn13": "9784022143099",
+    "language": "ja",
+    "pageCount": 228,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "天使の囀り 1 貴志祐介 貘九三口造 小説",
+    "sourceIds": {
+      "googleBooksId": "E2skzgEACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:52:23.856Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "horror",
+      "l3Id": "social"
+    }
+  },
+  {
+    "id": "9784253095945",
+    "title": "華らせん",
+    "authors": [
+      "春望·真崎"
+    ],
+    "publishedDate": "1998",
+    "isbn13": "9784253095945",
+    "language": "ja",
+    "pageCount": 189,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "華らせん 春望·真崎 小説",
+    "sourceIds": {
+      "googleBooksId": "-H7pZwEACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:52:26.032Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "horror",
+      "l3Id": "other"
+    }
+  },
+  {
+    "id": "cwqVEAAAQBAJ",
+    "title": "変な絵",
+    "authors": [
+      "雨穴"
+    ],
+    "publisher": "双葉社",
+    "language": "ja",
+    "pageCount": 212,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "変な絵 雨穴 双葉社 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=cwqVEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "cwqVEAAAQBAJ"
+    },
+    "updatedAt": "2026-04-09T13:52:32.341Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "horror",
+      "l3Id": "other"
+    }
+  },
+  {
+    "id": "tjxlDwAAQBAJ",
+    "title": "ずうのめ人形",
+    "authors": [
+      "澤村伊智"
+    ],
+    "publisher": "KADOKAWA",
+    "publishedDate": "2018-07-24",
+    "language": "ja",
+    "pageCount": 319,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "ずうのめ人形 澤村伊智 KADOKAWA 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=tjxlDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "tjxlDwAAQBAJ"
+    },
+    "updatedAt": "2026-04-09T13:52:34.354Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "horror",
+      "l3Id": "other"
+    }
+  },
+  {
+    "id": "ekPxAgAAQBAJ",
+    "title": "「嫌われる勇気」特別小冊子　君はアルフレッド・アドラーを知っているか？",
+    "authors": [
+      "ダイヤモンド社書籍編集局"
+    ],
+    "publisher": "ダイヤモンド社",
+    "publishedDate": "2014-03-03",
+    "language": "ja",
+    "pageCount": 27,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "「嫌われる勇気」特別小冊子　君はアルフレッド・アドラーを知っているか？ ダイヤモンド社書籍編集局 ダイヤモンド社 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=ekPxAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "ekPxAgAAQBAJ"
+    },
+    "updatedAt": "2026-04-09T13:52:38.257Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "other"
+    }
+  },
+  {
+    "id": "O3n6zwEACAAJ",
+    "title": "サピエンス全史",
+    "subtitle": "漫画",
+    "authors": [],
+    "publishedDate": "2021",
+    "language": "ja",
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "サピエンス全史 漫画 小説",
+    "sourceIds": {
+      "googleBooksId": "O3n6zwEACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:52:40.242Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "other"
+    }
+  },
+  {
+    "id": "9784101269337",
+    "title": "正欲",
+    "authors": [
+      "朝井リョウ"
+    ],
+    "publishedDate": "2023-05-29",
+    "isbn13": "9784101269337",
+    "language": "ja",
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "正欲 朝井リョウ 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=jLrWzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "jLrWzwEACAAJ"
+    },
+    "updatedAt": "2026-04-09T13:52:44.806Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "youth"
+    }
   }
 ]
