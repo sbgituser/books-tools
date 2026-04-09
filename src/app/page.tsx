@@ -306,17 +306,17 @@ export default function HomePage() {
                 ジャンルから探す
               </h2>
               <p className="text-stone-500 text-sm">
-                ミステリー、SF、少年漫画……好きなジャンルで絞り込み
+                ファンタジー、ミステリー、少年漫画……好きなジャンルで絞り込み
               </p>
             </div>
             <div className="flex flex-wrap justify-center gap-2">
               {[
+                { id: "fantasy", label: "ファンタジー", emoji: "🐉" },
                 { id: "mystery", label: "ミステリー", emoji: "🔍" },
                 { id: "shonen", label: "少年漫画", emoji: "⚡" },
-                { id: "literary", label: "純文学", emoji: "✒️" },
                 { id: "seinen", label: "青年漫画", emoji: "📘" },
                 { id: "sf", label: "SF", emoji: "🚀" },
-                { id: "fantasy", label: "ファンタジー", emoji: "🐉" },
+                { id: "literary", label: "純文学", emoji: "✒️" },
                 { id: "romance", label: "恋愛", emoji: "💕" },
                 { id: "horror", label: "ホラー", emoji: "👻" },
               ].map((g) => (
@@ -336,6 +336,51 @@ export default function HomePage() {
                 className="text-sm text-amber-600 hover:text-amber-700 font-semibold hover:underline"
               >
                 すべてのジャンルを見る →
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* ─── 春アニメ×ファンタジー特集 ──────────────────────────── */}
+        <section className="bg-gradient-to-br from-amber-50 to-orange-50 border-t border-amber-100 py-12 sm:py-16">
+          <div className="max-w-4xl mx-auto px-4">
+            <div className="text-center mb-8">
+              <p className="text-amber-600 text-xs font-bold tracking-widest uppercase mb-2">
+                Spring 2026
+              </p>
+              <h2 className="text-xl sm:text-2xl font-bold text-stone-900 mb-2">
+                2026年春アニメ化ファンタジー原作
+              </h2>
+              <p className="text-stone-500 text-sm">
+                転スラ4期・リゼロ4th・黄泉のツガイなど、話題のファンタジー原作を今すぐチェック
+              </p>
+            </div>
+            <div className="grid sm:grid-cols-2 gap-3 mb-6">
+              {[
+                { title: "ファンタジー漫画おすすめ30選", desc: "異世界・ダークファンタジー・冒険ファンタジーの名作を厳選", href: "/blog/fantasy-manga-recommendations", emoji: "🐉" },
+                { title: "春アニメ原作ガイド全60作品", desc: "2026年4月放送開始アニメの原作漫画・ラノベを完全網羅", href: "/blog/spring-anime-2026-original-manga", emoji: "📺" },
+                { title: "冒険漫画おすすめ15選", desc: "壮大な旅と仲間の絆を描く名作を厳選", href: "/blog/adventure-manga-recommendations", emoji: "⚔️" },
+                { title: "魔法小説おすすめ12選", desc: "ハリー・ポッターから和風ファンタジーまで", href: "/blog/magic-fantasy-novel-recommendations", emoji: "✨" },
+              ].map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className="group flex items-start gap-3 bg-white border border-amber-100 hover:border-amber-300 rounded-xl px-5 py-4 transition-all hover:shadow-sm"
+                >
+                  <span className="text-2xl shrink-0 mt-0.5" aria-hidden="true">{item.emoji}</span>
+                  <div>
+                    <p className="text-sm font-bold text-stone-800 group-hover:text-amber-700 transition-colors leading-snug">{item.title}</p>
+                    <p className="text-xs text-stone-500 mt-0.5">{item.desc}</p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+            <div className="text-center">
+              <Link
+                href="/genre/fantasy"
+                className="text-sm text-amber-600 hover:text-amber-700 font-semibold hover:underline"
+              >
+                ファンタジー作品をもっと探す →
               </Link>
             </div>
           </div>
