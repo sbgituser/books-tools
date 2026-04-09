@@ -83,6 +83,44 @@ export default function DiscoverPage() {
           </div>
         </section>
 
+        {/* もっと探す & おすすめ本診断CTA */}
+        <section className="border-t border-stone-200 bg-stone-50 py-10 px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-sm font-bold text-stone-500 uppercase tracking-wider mb-5 text-center">
+              もっと探す
+            </h2>
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
+              <Link href="/scene" className="group flex flex-col items-center gap-2 bg-white border border-stone-200 hover:border-violet-400 rounded-xl p-4 transition-all text-center">
+                <span className="text-2xl" aria-hidden="true">🎬</span>
+                <span className="text-sm font-bold text-stone-800 group-hover:text-violet-700">シーンで探す</span>
+              </Link>
+              <Link href="/genre" className="group flex flex-col items-center gap-2 bg-white border border-stone-200 hover:border-amber-400 rounded-xl p-4 transition-all text-center">
+                <span className="text-2xl" aria-hidden="true">📂</span>
+                <span className="text-sm font-bold text-stone-800 group-hover:text-amber-700">ジャンルで探す</span>
+              </Link>
+              <Link href="/tools" className="group flex flex-col items-center gap-2 bg-white border border-stone-200 hover:border-indigo-400 rounded-xl p-4 transition-all text-center">
+                <span className="text-2xl" aria-hidden="true">🛠️</span>
+                <span className="text-sm font-bold text-stone-800 group-hover:text-indigo-700">ツールで探す</span>
+              </Link>
+              <Link href="/blog" className="group flex flex-col items-center gap-2 bg-white border border-stone-200 hover:border-rose-400 rounded-xl p-4 transition-all text-center">
+                <span className="text-2xl" aria-hidden="true">📝</span>
+                <span className="text-sm font-bold text-stone-800 group-hover:text-rose-700">ブログを読む</span>
+              </Link>
+            </div>
+            <Link
+              href="/tools/book-quiz"
+              className="group flex items-center gap-4 bg-gradient-to-r from-rose-500 to-rose-600 text-white rounded-xl px-6 py-4 hover:shadow-lg transition-all"
+            >
+              <span className="text-3xl" aria-hidden="true">🔮</span>
+              <div className="flex-1">
+                <p className="font-bold text-sm">おすすめ本診断</p>
+                <p className="text-rose-100 text-xs">5つの質問に答えるだけで、あなたにぴったりの本を提案します</p>
+              </div>
+              <span className="font-bold text-sm group-hover:translate-x-1 transition-transform">→</span>
+            </Link>
+          </div>
+        </section>
+
       </main>
       <Footer />
     </>

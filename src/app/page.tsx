@@ -61,37 +61,43 @@ const organizationJsonLd = {
   sameAs: [],
 };
 
-function LatestBlogSection() {
-  const posts = getAllBlogMeta().slice(0, 6);
+function FeaturedArticlesSection() {
+  const posts = getAllBlogMeta().slice(0, 4);
   if (posts.length === 0) return null;
 
   return (
-    <section className="bg-stone-50 border-t border-stone-200 py-12 sm:py-16">
+    <section className="bg-gradient-to-br from-rose-50 to-stone-50 border-t border-rose-100 py-12 sm:py-16">
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-8">
+          <p className="text-rose-500 text-xs font-bold tracking-widest uppercase mb-2">
+            Featured
+          </p>
           <h2 className="text-xl sm:text-2xl font-bold text-stone-900 mb-2">
-            読み物・ランキング
+            今週の人気記事
           </h2>
           <p className="text-stone-500 text-sm">
-            「今週読みたい漫画」「泣ける作品特集」など、発見のヒントを記事でお届けします。
+            ファンタジー漫画・春アニメ原作など、今読みたい特集記事
           </p>
         </div>
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-3 sm:grid-cols-2">
           {posts.map((post) => (
             <Link
               key={post.slug}
               href={`/blog/${post.slug}`}
-              className="group bg-white border border-stone-200 hover:border-rose-300 rounded-xl p-4 transition-all hover:shadow-sm"
+              className="group bg-white border border-stone-200 hover:border-rose-300 rounded-xl p-5 transition-all hover:shadow-md"
             >
-              <p className="text-xs text-stone-400 mb-1">
+              <p className="text-xs text-stone-400 mb-1.5">
                 {post.date} · {post.readingText}
               </p>
-              <p className="text-sm font-semibold text-stone-800 group-hover:text-rose-700 transition-colors leading-snug line-clamp-2">
+              <p className="text-sm font-bold text-stone-800 group-hover:text-rose-700 transition-colors leading-snug line-clamp-2 mb-2">
                 {post.title}
               </p>
-              <div className="flex flex-wrap gap-1 mt-2">
-                {post.tags.slice(0, 2).map((tag) => (
-                  <span key={tag} className="text-[10px] px-1.5 py-0.5 rounded-full bg-stone-100 text-stone-500">
+              {post.description && (
+                <p className="text-xs text-stone-500 leading-relaxed line-clamp-2 mb-2">{post.description}</p>
+              )}
+              <div className="flex flex-wrap gap-1">
+                {post.tags.slice(0, 3).map((tag) => (
+                  <span key={tag} className="text-[10px] px-1.5 py-0.5 rounded-full bg-rose-50 text-rose-600">
                     {tag}
                   </span>
                 ))}
@@ -106,6 +112,41 @@ function LatestBlogSection() {
           >
             すべてのブログ記事を読む →
           </Link>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function NewContentSection() {
+  const posts = getAllBlogMeta().slice(0, 3);
+  if (posts.length === 0) return null;
+
+  return (
+    <section className="bg-stone-50 border-t border-stone-200 py-12 sm:py-16">
+      <div className="max-w-4xl mx-auto px-4">
+        <div className="text-center mb-8">
+          <h2 className="text-xl sm:text-2xl font-bold text-stone-900 mb-2">
+            新着コンテンツ
+          </h2>
+          <p className="text-stone-500 text-sm">最新の追加記事をチェック</p>
+        </div>
+        <div className="grid gap-3 sm:grid-cols-3">
+          {posts.map((post) => (
+            <Link
+              key={post.slug}
+              href={`/blog/${post.slug}`}
+              className="group bg-white border border-stone-200 hover:border-amber-300 rounded-xl p-4 transition-all hover:shadow-sm"
+            >
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-100 text-amber-700">NEW</span>
+                <time className="text-xs text-stone-400">{post.date}</time>
+              </div>
+              <p className="text-sm font-semibold text-stone-800 group-hover:text-amber-700 transition-colors leading-snug line-clamp-2">
+                {post.title}
+              </p>
+            </Link>
+          ))}
         </div>
       </div>
     </section>
@@ -177,66 +218,96 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ─── 気分・ジャンルショートカット ──────────────────────── */}
+        {/* ─── 人気の使い方 ──────────────────────────────────────── */}
         <section className="max-w-4xl mx-auto px-4 py-12">
           <div className="text-center mb-8">
             <h2 className="text-xl sm:text-2xl font-bold text-stone-900 mb-2">
-              どんな気分ですか？
+              人気の使い方
             </h2>
-            <p className="text-stone-500 text-sm">タグを選ぶと、その雰囲気の作品一覧が見られます</p>
+            <p className="text-stone-500 text-sm">目的に合わせた本の探し方を選べます</p>
           </div>
-
-          {/* 気分タグ */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
-            {MOOD_TAGS.map(({ tag, icon, href }) => (
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8">
+            {[
+              { href: "/tools/book-quiz", icon: "🔮", title: "おすすめ本診断", desc: "5つの質問であなたにぴったりの本を提案" },
+              { href: "/genre", icon: "📂", title: "ジャンルから探す", desc: "ミステリー・SF・ファンタジー等で絞り込み" },
+              { href: "/discover", icon: "💡", title: "気分で選ぶ", desc: "泣ける・熱い・ダーク等の雰囲気で探す" },
+              { href: "/tools/reading-order", icon: "📖", title: "シリーズ読む順番", desc: "50以上の人気シリーズの読む順番がわかる" },
+            ].map((item) => (
               <Link
-                key={tag}
-                href={href}
-                className="flex items-center gap-3 bg-white border border-stone-200 hover:border-rose-400 hover:shadow-md rounded-2xl px-4 py-4 transition-all group"
+                key={item.href}
+                href={item.href}
+                className="group flex flex-col gap-2 bg-white border border-stone-200 hover:border-rose-400 hover:shadow-md rounded-2xl p-4 transition-all"
               >
-                <span className="text-2xl shrink-0" aria-hidden="true">{icon}</span>
-                <span className="font-bold text-stone-800 group-hover:text-rose-700 transition-colors">
-                  {tag}
-                </span>
+                <span className="text-2xl" aria-hidden="true">{item.icon}</span>
+                <p className="font-bold text-sm text-stone-800 group-hover:text-rose-700 transition-colors leading-snug">{item.title}</p>
+                <p className="text-xs text-stone-500 leading-snug">{item.desc}</p>
               </Link>
             ))}
           </div>
+        </section>
 
-          {/* ジャンル */}
-          <div className="grid sm:grid-cols-2 gap-3 mb-6">
-            <Link
-              href="/discover?type=manga"
-              className="group relative overflow-hidden bg-gradient-to-br from-rose-500 to-rose-700 rounded-xl px-6 py-5 text-white hover:shadow-lg transition-all hover:-translate-y-0.5 flex items-center gap-4"
-            >
-              <span className="text-4xl opacity-80" aria-hidden="true">📖</span>
-              <div>
-                <p className="text-rose-200 text-xs font-bold uppercase tracking-wider mb-0.5">Manga</p>
-                <p className="font-bold text-lg leading-tight">漫画を発見する</p>
-                <p className="text-rose-100 text-xs mt-0.5">少年・少女・青年・SF・ホラー</p>
-              </div>
-              <span className="ml-auto font-bold text-sm group-hover:translate-x-1 transition-transform">→</span>
-            </Link>
-            <Link
-              href="/discover?type=novel"
-              className="group relative overflow-hidden bg-gradient-to-br from-sky-500 to-sky-700 rounded-xl px-6 py-5 text-white hover:shadow-lg transition-all hover:-translate-y-0.5 flex items-center gap-4"
-            >
-              <span className="text-4xl opacity-80" aria-hidden="true">📕</span>
-              <div>
-                <p className="text-sky-200 text-xs font-bold uppercase tracking-wider mb-0.5">Novel</p>
-                <p className="font-bold text-lg leading-tight">小説を発見する</p>
-                <p className="text-sky-100 text-xs mt-0.5">ミステリ・恋愛・SF・純文学</p>
-              </div>
-              <span className="ml-auto font-bold text-sm group-hover:translate-x-1 transition-transform">→</span>
-            </Link>
-          </div>
+        {/* ─── 気分・ジャンルショートカット ──────────────────────── */}
+        <section className="bg-white border-t border-stone-100 py-12">
+          <div className="max-w-4xl mx-auto px-4">
+            <div className="text-center mb-8">
+              <h2 className="text-xl sm:text-2xl font-bold text-stone-900 mb-2">
+                どんな気分ですか？
+              </h2>
+              <p className="text-stone-500 text-sm">タグを選ぶと、その雰囲気の作品一覧が見られます</p>
+            </div>
 
-          <div className="text-center">
-            <Link
-              href="/discover"
-              className="text-sm text-rose-600 hover:text-rose-700 font-semibold hover:underline"
-            >
-              すべてのタグで探す →
-            </Link>
+            {/* 気分タグ */}
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
+              {MOOD_TAGS.map(({ tag, icon, href }) => (
+                <Link
+                  key={tag}
+                  href={href}
+                  className="flex items-center gap-3 bg-white border border-stone-200 hover:border-rose-400 hover:shadow-md rounded-2xl px-4 py-4 transition-all group"
+                >
+                  <span className="text-2xl shrink-0" aria-hidden="true">{icon}</span>
+                  <span className="font-bold text-stone-800 group-hover:text-rose-700 transition-colors">
+                    {tag}
+                  </span>
+                </Link>
+              ))}
+            </div>
+
+            {/* ジャンル */}
+            <div className="grid sm:grid-cols-2 gap-3 mb-6">
+              <Link
+                href="/discover?type=manga"
+                className="group relative overflow-hidden bg-gradient-to-br from-rose-500 to-rose-700 rounded-xl px-6 py-5 text-white hover:shadow-lg transition-all hover:-translate-y-0.5 flex items-center gap-4"
+              >
+                <span className="text-4xl opacity-80" aria-hidden="true">📖</span>
+                <div>
+                  <p className="text-rose-200 text-xs font-bold uppercase tracking-wider mb-0.5">Manga</p>
+                  <p className="font-bold text-lg leading-tight">漫画を発見する</p>
+                  <p className="text-rose-100 text-xs mt-0.5">少年・少女・青年・SF・ホラー</p>
+                </div>
+                <span className="ml-auto font-bold text-sm group-hover:translate-x-1 transition-transform">→</span>
+              </Link>
+              <Link
+                href="/discover?type=novel"
+                className="group relative overflow-hidden bg-gradient-to-br from-sky-500 to-sky-700 rounded-xl px-6 py-5 text-white hover:shadow-lg transition-all hover:-translate-y-0.5 flex items-center gap-4"
+              >
+                <span className="text-4xl opacity-80" aria-hidden="true">📕</span>
+                <div>
+                  <p className="text-sky-200 text-xs font-bold uppercase tracking-wider mb-0.5">Novel</p>
+                  <p className="font-bold text-lg leading-tight">小説を発見する</p>
+                  <p className="text-sky-100 text-xs mt-0.5">ミステリ・恋愛・SF・純文学</p>
+                </div>
+                <span className="ml-auto font-bold text-sm group-hover:translate-x-1 transition-transform">→</span>
+              </Link>
+            </div>
+
+            <div className="text-center">
+              <Link
+                href="/discover"
+                className="text-sm text-rose-600 hover:text-rose-700 font-semibold hover:underline"
+              >
+                すべてのタグで探す →
+              </Link>
+            </div>
           </div>
         </section>
 
@@ -298,7 +369,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ─── ジャンルから探す ─────────────────────────────────────── */}
+        {/* ─── ジャンルから探す（タグクラウド） ──────────────────────── */}
         <section className="bg-white border-t border-stone-100 py-12 sm:py-16">
           <div className="max-w-4xl mx-auto px-4">
             <div className="text-center mb-8">
@@ -306,7 +377,7 @@ export default function HomePage() {
                 ジャンルから探す
               </h2>
               <p className="text-stone-500 text-sm">
-                ファンタジー、ミステリー、少年漫画……好きなジャンルで絞り込み
+                好きなジャンルを選んで、おすすめ作品を発見しましょう
               </p>
             </div>
             <div className="flex flex-wrap justify-center gap-2">
@@ -319,6 +390,10 @@ export default function HomePage() {
                 { id: "literary", label: "純文学", emoji: "✒️" },
                 { id: "romance", label: "恋愛", emoji: "💕" },
                 { id: "horror", label: "ホラー", emoji: "👻" },
+                { id: "shojo", label: "少女漫画", emoji: "🌸" },
+                { id: "youth", label: "青春", emoji: "🌅" },
+                { id: "historical-novel", label: "歴史・時代小説", emoji: "🏯" },
+                { id: "entertainment", label: "エンタメ", emoji: "🎭" },
               ].map((g) => (
                 <Link
                   key={g.id}
@@ -483,8 +558,11 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ─── ブログ導線（最新記事プレビュー） ────────────────────── */}
-        <LatestBlogSection />
+        {/* ─── 今週の人気記事 ──────────────────────────────────────── */}
+        <FeaturedArticlesSection />
+
+        {/* ─── 新着コンテンツ ──────────────────────────────────────── */}
+        <NewContentSection />
 
         {/* ─── 最終 CTA ──────────────────────────────────────────── */}
         <section className="bg-gradient-to-br from-rose-500 to-rose-700 text-white py-14 px-4 text-center">

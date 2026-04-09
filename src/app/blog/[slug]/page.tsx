@@ -188,7 +188,45 @@ export default async function BlogDetailPage({ params }: { params: Promise<Param
             </p>
           </div>
 
+          {/* おすすめ本診断 CTA */}
           <section className="mt-10 pt-8 border-t border-stone-200">
+            <Link
+              href="/tools/book-quiz"
+              className="group flex items-center gap-4 bg-gradient-to-r from-rose-500 to-rose-600 text-white rounded-xl px-5 py-4 hover:shadow-lg transition-all"
+            >
+              <span className="text-3xl" aria-hidden="true">🔮</span>
+              <div className="flex-1">
+                <p className="font-bold text-sm">おすすめ本診断ツールで自分に合う本を見つける</p>
+                <p className="text-rose-100 text-xs">5つの質問に答えるだけで、あなたにぴったりの本を提案します</p>
+              </div>
+              <span className="font-bold text-sm group-hover:translate-x-1 transition-transform">→</span>
+            </Link>
+          </section>
+
+          {/* ジャンルタグ → ジャンルページへのリンク */}
+          <section className="mt-6">
+            <p className="text-xs font-bold text-stone-500 mb-2">ジャンルから探す</p>
+            <div className="flex flex-wrap gap-2">
+              {[
+                { id: "fantasy", label: "ファンタジー" },
+                { id: "mystery", label: "ミステリー" },
+                { id: "sf", label: "SF" },
+                { id: "romance", label: "恋愛" },
+                { id: "shonen", label: "少年漫画" },
+                { id: "seinen", label: "青年漫画" },
+              ].map((g) => (
+                <Link
+                  key={g.id}
+                  href={`/genre/${g.id}`}
+                  className="text-xs px-3 py-1.5 rounded-full bg-amber-50 text-amber-800 border border-amber-200 hover:bg-amber-100 transition-colors"
+                >
+                  {g.label}
+                </Link>
+              ))}
+            </div>
+          </section>
+
+          <section className="mt-8 pt-8 border-t border-stone-200">
             <h2 className="text-lg font-bold text-stone-900 mb-3">関連ツール</h2>
             <div className="grid sm:grid-cols-2 gap-3">
               {TOOL_LINKS.filter((x) => x.href !== "/blog").map((tool) => (

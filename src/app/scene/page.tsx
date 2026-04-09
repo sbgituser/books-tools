@@ -127,12 +127,37 @@ export default function SceneIndexPage() {
             ))}
           </div>
 
-          <div className="text-center mt-10">
+          {/* 関連ページへのリンク */}
+          <div className="mt-10 grid sm:grid-cols-3 gap-3">
             <Link
               href="/discover"
-              className="inline-flex items-center gap-2 text-sm text-stone-500 hover:text-violet-600 transition-colors"
+              className="group flex items-center gap-3 bg-rose-50 border border-rose-200 hover:border-rose-400 rounded-xl px-4 py-3 transition-all"
             >
-              ← 気分タグから探す（発見ページへ）
+              <span className="text-xl" aria-hidden="true">💡</span>
+              <div>
+                <p className="text-sm font-bold text-rose-800 group-hover:text-rose-900">気分で探す</p>
+                <p className="text-xs text-rose-600">泣ける・熱い等の雰囲気から</p>
+              </div>
+            </Link>
+            <Link
+              href="/genre"
+              className="group flex items-center gap-3 bg-amber-50 border border-amber-200 hover:border-amber-400 rounded-xl px-4 py-3 transition-all"
+            >
+              <span className="text-xl" aria-hidden="true">📂</span>
+              <div>
+                <p className="text-sm font-bold text-amber-800 group-hover:text-amber-900">ジャンルで探す</p>
+                <p className="text-xs text-amber-600">ミステリー・SF等のジャンルから</p>
+              </div>
+            </Link>
+            <Link
+              href="/blog"
+              className="group flex items-center gap-3 bg-stone-50 border border-stone-200 hover:border-stone-400 rounded-xl px-4 py-3 transition-all"
+            >
+              <span className="text-xl" aria-hidden="true">📝</span>
+              <div>
+                <p className="text-sm font-bold text-stone-700 group-hover:text-stone-900">おすすめ記事</p>
+                <p className="text-xs text-stone-500">ジャンル別おすすめ特集</p>
+              </div>
             </Link>
           </div>
         </section>

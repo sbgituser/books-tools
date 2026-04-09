@@ -84,6 +84,32 @@ export default function BlogIndexPage() {
         </div>
 
         <BlogIndexClient posts={posts} />
+
+        {/* ツールで本を探す CTAバナー */}
+        <div className="mt-10 grid sm:grid-cols-2 gap-3">
+          <Link
+            href="/tools/book-quiz"
+            className="group flex items-center gap-4 bg-gradient-to-r from-rose-500 to-rose-600 text-white rounded-xl px-5 py-4 hover:shadow-lg transition-all"
+          >
+            <span className="text-3xl" aria-hidden="true">🔮</span>
+            <div className="flex-1">
+              <p className="font-bold text-sm">おすすめ本診断ツール</p>
+              <p className="text-rose-100 text-xs">5つの質問であなたにぴったりの本を提案</p>
+            </div>
+            <span className="font-bold text-sm group-hover:translate-x-1 transition-transform">→</span>
+          </Link>
+          <Link
+            href="/discover"
+            className="group flex items-center gap-4 bg-gradient-to-r from-violet-500 to-violet-600 text-white rounded-xl px-5 py-4 hover:shadow-lg transition-all"
+          >
+            <span className="text-3xl" aria-hidden="true">💡</span>
+            <div className="flex-1">
+              <p className="font-bold text-sm">気分から本を探す</p>
+              <p className="text-violet-100 text-xs">泣ける・熱い・ダーク等の雰囲気で発見</p>
+            </div>
+            <span className="font-bold text-sm group-hover:translate-x-1 transition-transform">→</span>
+          </Link>
+        </div>
       </main>
       <Footer />
     </>

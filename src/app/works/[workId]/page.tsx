@@ -713,14 +713,46 @@ export default async function WorkDetailPage({
             <SimilarWorksSection similar={similar} />
           )}
 
+          {/* 回遊導線 */}
+          <section className="mb-8 grid sm:grid-cols-2 gap-3">
+            <Link
+              href="/tools/similar-books"
+              className="group flex items-center gap-3 bg-violet-50 border border-violet-200 hover:border-violet-400 rounded-xl px-5 py-4 transition-all"
+            >
+              <span className="text-2xl" aria-hidden="true">📚</span>
+              <div>
+                <p className="text-sm font-bold text-violet-800 group-hover:text-violet-900">この作品が好きなら</p>
+                <p className="text-xs text-violet-600">似ている本を探すツールで類似作品を発見</p>
+              </div>
+            </Link>
+            <Link
+              href="/tools/book-quiz"
+              className="group flex items-center gap-3 bg-rose-50 border border-rose-200 hover:border-rose-400 rounded-xl px-5 py-4 transition-all"
+            >
+              <span className="text-2xl" aria-hidden="true">🔮</span>
+              <div>
+                <p className="text-sm font-bold text-rose-800 group-hover:text-rose-900">おすすめ本診断</p>
+                <p className="text-xs text-rose-600">あなたにぴったりの本を5問で提案</p>
+              </div>
+            </Link>
+          </section>
+
           {/* ナビゲーション */}
-          <div className="text-center">
+          <div className="flex justify-center gap-4">
             <Link
               href="/discover"
               className="inline-flex items-center gap-2 text-sm text-stone-500 hover:text-rose-600 transition-colors"
             >
               ← 発見ページに戻る
             </Link>
+            {work.l2Id && (
+              <Link
+                href={`/genre/${work.l2Id}`}
+                className="inline-flex items-center gap-2 text-sm text-stone-500 hover:text-amber-600 transition-colors"
+              >
+                同ジャンルの作品を見る →
+              </Link>
+            )}
           </div>
 
         </div>

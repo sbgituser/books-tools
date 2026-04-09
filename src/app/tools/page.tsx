@@ -137,6 +137,30 @@ export default function ToolsPage() {
               </Link>
             ))}
           </div>
+
+          {/* クロスリンク: ジャンル・ブログ */}
+          <div className="mt-10 grid sm:grid-cols-2 gap-3">
+            <Link
+              href="/genre"
+              className="group flex items-center gap-3 bg-amber-50 border border-amber-200 hover:border-amber-400 rounded-xl px-5 py-4 transition-all"
+            >
+              <span className="text-2xl" aria-hidden="true">📂</span>
+              <div>
+                <p className="text-sm font-bold text-amber-800 group-hover:text-amber-900">ジャンルで本を探す</p>
+                <p className="text-xs text-amber-600">ツールで見つかった本をジャンルで絞り込み</p>
+              </div>
+            </Link>
+            <Link
+              href="/blog"
+              className="group flex items-center gap-3 bg-rose-50 border border-rose-200 hover:border-rose-400 rounded-xl px-5 py-4 transition-all"
+            >
+              <span className="text-2xl" aria-hidden="true">📝</span>
+              <div>
+                <p className="text-sm font-bold text-rose-800 group-hover:text-rose-900">おすすめ記事を読む</p>
+                <p className="text-xs text-rose-600">ジャンル別おすすめ・読む順番ガイドなど</p>
+              </div>
+            </Link>
+          </div>
         </section>
       </main>
       <Footer />
