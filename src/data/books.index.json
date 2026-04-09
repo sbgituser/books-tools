@@ -1,5 +1,111 @@
 [
   {
+    "id": "9784122072121",
+    "title": "新装版スカイ・クロラ",
+    "authors": [
+      "森博嗣"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "新装版スカイ・クロラ The Sky Crawlers 森博嗣 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-04-09T15:38:50.527Z",
+    "subtitle": "The Sky Crawlers",
+    "publishedDate": "2022-05-24",
+    "isbn10": "4122072123",
+    "isbn13": "9784122072121",
+    "language": "ja",
+    "pageCount": 352,
+    "estimatedReadingHours": 8.8,
+    "thumbnailUrl": "https://books.google.com/books/content?id=CXEpzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "CXEpzwEACAAJ"
+    }
+  },
+  {
+    "id": "gb-SE831hIWyZEC",
+    "title": "ユージニア",
+    "authors": [
+      "恩田　陸"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "ユージニア 恩田　陸 KADOKAWA 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-04-09T15:38:50.527Z",
+    "publisher": "KADOKAWA",
+    "publishedDate": "2005",
+    "language": "ja",
+    "pageCount": 279,
+    "estimatedReadingHours": 7,
+    "thumbnailUrl": "https://books.google.com/books/content?id=SE831hIWyZEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "SE831hIWyZEC"
+    }
+  },
+  {
+    "id": "9784087472424",
+    "title": "光の帝国",
+    "authors": [
+      "恩田陸"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "光の帝国 常野物語 恩田陸 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-04-09T15:38:50.527Z",
+    "subtitle": "常野物語",
+    "publishedDate": "2000-09",
+    "isbn10": "4087472426",
+    "isbn13": "9784087472424",
+    "language": "ja",
+    "pageCount": 283,
+    "estimatedReadingHours": 7.1,
+    "thumbnailUrl": "https://books.google.com/books/content?id=g6SsAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "g6SsAAAACAAJ"
+    }
+  },
+  {
+    "id": "9784488451080",
+    "title": "折れた竜骨　下",
+    "authors": [
+      "米澤穂信"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "ブログ掲載書籍"
+    ],
+    "searchableText": "折れた竜骨　下 米澤穂信 東京創元社 小説・文学 小説・文学 ブログ掲載書籍",
+    "updatedAt": "2026-04-09T15:38:50.527Z",
+    "publisher": "東京創元社",
+    "publishedDate": "2013-07-12",
+    "isbn10": "448845108X",
+    "isbn13": "9784488451080",
+    "language": "ja",
+    "pageCount": 163,
+    "estimatedReadingHours": 4.1,
+    "thumbnailUrl": "https://books.google.com/books/content?id=jkfcCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "jkfcCQAAQBAJ"
+    }
+  },
+  {
     "id": "gb-blog-人魚シリーズ",
     "title": "人魚シリーズ",
     "authors": [
