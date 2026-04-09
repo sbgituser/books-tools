@@ -20,7 +20,7 @@ if (fs.existsSync(ENV_PATH)) {
   }
 }
 
-const API_KEY = process.env.GOOGLE_BOOKS_API_KEY ?? "";
+let apiKey = process.env.GOOGLE_BOOKS_API_KEY ?? "";
 const DELAY_MS = 400;
 const INDEX_PATH = path.join(__dirname, "../src/data/books.index.json");
 
@@ -35,13 +35,9 @@ type BookEntry = {
 // ── メイン ────────────────────────────────────────────────────────
 const index: BookEntry[] = JSON.parse(fs.readFileSync(INDEX_PATH, "utf-8"));
 
-// 対象: manga/novel で thumbnailUrl なし、isbn13 あり
+// 対象: thumbnailUrl なし、isbn13 あり（全カテゴリ対象）
 const targets = index.filter(
-  (b) =>
-    !b.thumbnailUrl &&
-    b.isbn13 &&
-    (b.manualClassification?.l1Id === "manga" ||
-      b.manualClassification?.l1Id === "novel")
+  (b) => !b.thumbnailUrl && b.isbn13
 );
 
 console.log(`対象エントリ: ${targets.length} 件`);
@@ -56,15 +52,43 @@ async function sleep(ms: number) {
 async function fetchThumbnail(isbn13: string): Promise<string | null> {
   const url =
     `https://www.googleapis.com/books/v1/volumes?q=isbn:${isbn13}` +
-    (API_KEY ? `&key=${API_KEY}` : "");
+    (apiKey ? `&key=${apiKey}` : "");
   try {
     const res = await fetch(url);
+    if (res.status === 429) {
+      // クォータ超過: 匿名アクセスにフォールバック
+      if (apiKey) {
+        console.log("  ⚠ APIキーのクォータ超過 → 匿名アクセスに切り替え");
+        apiKey = "";
+        await sleep(2000);
+        return fetchThumbnail(isbn13); // リトライ
+      }
+      return null;
+    }
     if (!res.ok) return null;
-    const data = await res.json() as { items?: { volumeInfo?: { imageLinks?: { thumbnail?: string } } }[] };
-    const thumb = data.items?.[0]?.volumeInfo?.imageLinks?.thumbnail;
-    if (!thumb) return null;
-    // httpsに統一、imgtk パラメータは除去（期限切れリスク回避）
-    return thumb.replace(/^http:/, "https:").replace(/&imgtk=[^&]+/, "");
+    const data = await res.json() as {
+      items?: Array<{
+        id?: string;
+        volumeInfo?: { imageLinks?: { thumbnail?: string; smallThumbnail?: string } };
+      }>;
+    };
+    if (!data.items?.length) return null;
+
+    // imageLinks から取得を試みる
+    const item = data.items[0];
+    const thumb =
+      item.volumeInfo?.imageLinks?.thumbnail ??
+      item.volumeInfo?.imageLinks?.smallThumbnail;
+    if (thumb) {
+      return thumb.replace(/^http:/, "https:").replace(/&imgtk=[^&]+/, "");
+    }
+
+    // imageLinks がない場合、Google Books ID から直接URLを構築
+    if (item.id) {
+      return `https://books.google.com/books/content?id=${item.id}&printsec=frontcover&img=1&zoom=1&source=gbs_api`;
+    }
+
+    return null;
   } catch {
     return null;
   }

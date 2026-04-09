@@ -22,7 +22,7 @@ if (fs.existsSync(ENV_PATH)) {
   }
 }
 
-const API_KEY = process.env.GOOGLE_BOOKS_API_KEY ?? "";
+let apiKey = process.env.GOOGLE_BOOKS_API_KEY ?? "";
 const DELAY_MS = 500;
 const INDEX_PATH = path.join(__dirname, "../src/data/books.index.json");
 
@@ -39,13 +39,8 @@ type BookEntry = {
 // ── メイン ────────────────────────────────────────────────────────
 const index: BookEntry[] = JSON.parse(fs.readFileSync(INDEX_PATH, "utf-8"));
 
-// 対象: manga/novel で thumbnailUrl なし
-const targets = index.filter(
-  (b) =>
-    !b.thumbnailUrl &&
-    (b.manualClassification?.l1Id === "manga" ||
-      b.manualClassification?.l1Id === "novel")
-);
+// 対象: thumbnailUrl なし（全カテゴリ対象）
+const targets = index.filter((b) => !b.thumbnailUrl);
 
 console.log(`対象エントリ: ${targets.length} 件`);
 
@@ -72,13 +67,23 @@ async function fetchThumbnailByTitle(
   const q = encodeURIComponent(queryParts.join(" "));
   const url =
     `https://www.googleapis.com/books/v1/volumes?q=${q}&maxResults=5&langRestrict=ja` +
-    (API_KEY ? `&key=${API_KEY}` : "");
+    (apiKey ? `&key=${apiKey}` : "");
 
   try {
     const res = await fetch(url);
+    if (res.status === 429) {
+      if (apiKey) {
+        console.log("  ⚠ APIキーのクォータ超過 → 匿名アクセスに切り替え");
+        apiKey = "";
+        await sleep(2000);
+        return fetchThumbnailByTitle(title, authors);
+      }
+      return null;
+    }
     if (!res.ok) return null;
     const data = await res.json() as {
       items?: Array<{
+        id?: string;
         volumeInfo?: {
           title?: string;
           imageLinks?: { thumbnail?: string; smallThumbnail?: string };
@@ -92,29 +97,37 @@ async function fetchThumbnailByTitle(
     const targetNorm = normalizeQ(title);
 
     let bestThumb: string | null = null;
+    let bestId: string | null = null;
     for (const item of data.items) {
       const itemTitle = item.volumeInfo?.title ?? "";
       const thumb =
         item.volumeInfo?.imageLinks?.thumbnail ??
         item.volumeInfo?.imageLinks?.smallThumbnail;
-      if (!thumb) continue;
 
-      // タイトルが一致またはtargetを含む場合を優先
-      if (
+      const titleMatch =
         normalizeQ(itemTitle) === targetNorm ||
         normalizeQ(itemTitle).includes(targetNorm) ||
-        targetNorm.includes(normalizeQ(itemTitle))
-      ) {
-        bestThumb = thumb;
-        break;
+        targetNorm.includes(normalizeQ(itemTitle));
+
+      if (thumb) {
+        if (titleMatch) {
+          bestThumb = thumb;
+          break;
+        }
+        if (!bestThumb) bestThumb = thumb;
+      } else if (titleMatch && item.id && !bestId) {
+        // imageLinks がないが一致する場合、IDから直接URL構築
+        bestId = item.id;
       }
-      // 最初のヒットを候補として保持
-      if (!bestThumb) bestThumb = thumb;
     }
 
-    if (!bestThumb) return null;
-    // https に統一、imgtk パラメータ除去（期限切れリスク回避）
-    return bestThumb.replace(/^http:/, "https:").replace(/&imgtk=[^&]+/, "");
+    if (bestThumb) {
+      return bestThumb.replace(/^http:/, "https:").replace(/&imgtk=[^&]+/, "");
+    }
+    if (bestId) {
+      return `https://books.google.com/books/content?id=${bestId}&printsec=frontcover&img=1&zoom=1&source=gbs_api`;
+    }
+    return null;
   } catch {
     return null;
   }
