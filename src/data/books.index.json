@@ -265298,5 +265298,2042 @@
       "l2Id": "seinen",
       "l3Id": "history"
     }
+  },
+  {
+    "id": "manga-batch6-ブラックキャット",
+    "title": "ブラックキャット",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ブラックキャット 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:01:44.766Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    }
+  },
+  {
+    "id": "manga-batch6-ウィンドブレイカー",
+    "title": "ウィンドブレイカー",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ウィンドブレイカー 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:01:58.455Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    }
+  },
+  {
+    "id": "manga-batch6-クローズ",
+    "title": "クローズ",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "クローズ 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.052Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    }
+  },
+  {
+    "id": "manga-batch6-WORST",
+    "title": "WORST",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "WORST 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.052Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    }
+  },
+  {
+    "id": "manga-batch6-惑星のさみだれ",
+    "title": "惑星のさみだれ",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "惑星のさみだれ 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.052Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    }
+  },
+  {
+    "id": "manga-batch6-スプリガン",
+    "title": "スプリガン",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "スプリガン 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.052Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    }
+  },
+  {
+    "id": "manga-batch6-33EYES",
+    "title": "3×3EYES",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "3×3EYES 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "dark_fantasy"
+    }
+  },
+  {
+    "id": "manga-batch6-忍空",
+    "title": "忍空",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "忍空 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    }
+  },
+  {
+    "id": "manga-batch6-冒険王ビィト",
+    "title": "冒険王ビィト",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "冒険王ビィト 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "fantasy"
+    }
+  },
+  {
+    "id": "manga-batch6-ラディアン",
+    "title": "ラディアン",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ラディアン 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "fantasy"
+    }
+  },
+  {
+    "id": "manga-batch6-テンカイチ",
+    "title": "テンカイチ",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "テンカイチ 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    }
+  },
+  {
+    "id": "manga-batch6-戦隊大失格",
+    "title": "戦隊大失格",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "戦隊大失格 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    }
+  },
+  {
+    "id": "manga-batch6-SAMURAIDEEPERKYO",
+    "title": "SAMURAI DEEPER KYO",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "SAMURAI DEEPER KYO 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    }
+  },
+  {
+    "id": "manga-batch6-バスタード",
+    "title": "バスタード!!",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "バスタード!! 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "dark_fantasy"
+    }
+  },
+  {
+    "id": "manga-batch6-GS美神極楽大作戦",
+    "title": "GS美神極楽大作戦!!",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "GS美神極楽大作戦!! 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "comedy"
+    }
+  },
+  {
+    "id": "manga-batch6-エンジェルハート",
+    "title": "エンジェルハート",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "エンジェルハート 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "battle"
+    }
+  },
+  {
+    "id": "manga-batch6-絶対可憐チルドレン",
+    "title": "絶対可憐チルドレン",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "絶対可憐チルドレン 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sf"
+    }
+  },
+  {
+    "id": "manga-batch6-ヘルク",
+    "title": "ヘルク",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ヘルク 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "fantasy"
+    }
+  },
+  {
+    "id": "manga-batch6-サンケンロック",
+    "title": "サンケンロック",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "サンケンロック 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "battle"
+    }
+  },
+  {
+    "id": "manga-batch6-GetBackers奪還屋",
+    "title": "GetBackers 奪還屋",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "GetBackers 奪還屋 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "battle"
+    }
+  },
+  {
+    "id": "manga-batch6-DAYS",
+    "title": "DAYS",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "DAYS 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports"
+    }
+  },
+  {
+    "id": "manga-batch6-ALLOUT",
+    "title": "ALL OUT!!",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ALL OUT!! 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports"
+    }
+  },
+  {
+    "id": "manga-batch6-もういっぽん",
+    "title": "もういっぽん!",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "もういっぽん! 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports"
+    }
+  },
+  {
+    "id": "manga-batch6-MIX",
+    "title": "MIX",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "MIX 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports"
+    }
+  },
+  {
+    "id": "manga-batch6-シュート",
+    "title": "シュート!",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "シュート! 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports"
+    }
+  },
+  {
+    "id": "manga-batch6-帯をギュッとね",
+    "title": "帯をギュッとね!",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "帯をギュッとね! 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports"
+    }
+  },
+  {
+    "id": "manga-batch6-柔道部物語",
+    "title": "柔道部物語",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "柔道部物語 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports"
+    }
+  },
+  {
+    "id": "manga-batch6-六三四の剣",
+    "title": "六三四の剣",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "六三四の剣 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.054Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports"
+    }
+  },
+  {
+    "id": "manga-batch6-クロス・ゲーム",
+    "title": "クロス・ゲーム",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "クロス・ゲーム 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.054Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports"
+    }
+  },
+  {
+    "id": "manga-batch6-ANGELVOICE",
+    "title": "ANGEL VOICE",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ANGEL VOICE 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.054Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports"
+    }
+  },
+  {
+    "id": "manga-batch6-ウマ娘シンデレラグレイ",
+    "title": "ウマ娘シンデレラグレイ",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ウマ娘シンデレラグレイ 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.054Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports"
+    }
+  },
+  {
+    "id": "manga-batch6-ワンダンス",
+    "title": "ワンダンス",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ワンダンス 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.054Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sports"
+    }
+  },
+  {
+    "id": "manga-batch6-イタズラなKiss",
+    "title": "イタズラなKiss",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "イタズラなKiss 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.054Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance"
+    }
+  },
+  {
+    "id": "manga-batch6-天は赤い河のほとり",
+    "title": "天は赤い河のほとり",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "天は赤い河のほとり 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.054Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "fantasy"
+    }
+  },
+  {
+    "id": "manga-batch6-こどものおもちゃ",
+    "title": "こどものおもちゃ",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "こどものおもちゃ 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.054Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "comedy"
+    }
+  },
+  {
+    "id": "manga-batch6-天使なんかじゃない",
+    "title": "天使なんかじゃない",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "天使なんかじゃない 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.054Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance"
+    }
+  },
+  {
+    "id": "manga-batch6-有閑倶楽部",
+    "title": "有閑倶楽部",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "有閑倶楽部 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.054Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "comedy"
+    }
+  },
+  {
+    "id": "manga-batch6-ホットギミック",
+    "title": "ホットギミック",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ホットギミック 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.054Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance"
+    }
+  },
+  {
+    "id": "manga-batch6-砂時計",
+    "title": "砂時計",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "砂時計 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.054Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance"
+    }
+  },
+  {
+    "id": "manga-batch6-僕の初恋をキミに捧ぐ",
+    "title": "僕の初恋をキミに捧ぐ",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "僕の初恋をキミに捧ぐ 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.054Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance"
+    }
+  },
+  {
+    "id": "manga-batch6-溺れるナイフ",
+    "title": "溺れるナイフ",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "溺れるナイフ 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.054Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance"
+    }
+  },
+  {
+    "id": "manga-batch6-ピーチガール",
+    "title": "ピーチガール",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ピーチガール 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.054Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance"
+    }
+  },
+  {
+    "id": "manga-batch6-虹色デイズ",
+    "title": "虹色デイズ",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "虹色デイズ 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.054Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance"
+    }
+  },
+  {
+    "id": "manga-batch6-正反対な君と僕",
+    "title": "正反対な君と僕",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "正反対な君と僕 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.054Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romcom"
+    }
+  },
+  {
+    "id": "manga-batch6-ヤンキー君と白杖ガール",
+    "title": "ヤンキー君と白杖ガール",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ヤンキー君と白杖ガール 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.054Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romcom"
+    }
+  },
+  {
+    "id": "manga-batch6-僕の心のヤバイやつ",
+    "title": "僕の心のヤバイやつ",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "僕の心のヤバイやつ 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.054Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romcom"
+    }
+  },
+  {
+    "id": "manga-batch6-九龍ジェネリックロマンス",
+    "title": "九龍ジェネリックロマンス",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "九龍ジェネリックロマンス 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.054Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance"
+    }
+  },
+  {
+    "id": "manga-batch6-ブラックラグーン",
+    "title": "ブラックラグーン",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ブラックラグーン 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.054Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "battle"
+    }
+  },
+  {
+    "id": "manga-batch6-軍鶏",
+    "title": "軍鶏",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "軍鶏 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.054Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "battle"
+    }
+  },
+  {
+    "id": "manga-batch6-シグルイ",
+    "title": "シグルイ",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "シグルイ 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.054Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "battle"
+    }
+  },
+  {
+    "id": "manga-batch6-自殺島",
+    "title": "自殺島",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "自殺島 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.054Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "mystery"
+    }
+  },
+  {
+    "id": "manga-batch6-なれの果ての僕ら",
+    "title": "なれの果ての僕ら",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "なれの果ての僕ら 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.054Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "mystery"
+    }
+  },
+  {
+    "id": "manga-batch6-ジャンケットバンク",
+    "title": "ジャンケットバンク",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ジャンケットバンク 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "mystery"
+    }
+  },
+  {
+    "id": "manga-batch6-おかえりアリス",
+    "title": "おかえりアリス",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "おかえりアリス 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "mystery"
+    }
+  },
+  {
+    "id": "manga-batch6-女の園の星",
+    "title": "女の園の星",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "女の園の星 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "comedy"
+    }
+  },
+  {
+    "id": "manga-batch6-喧嘩商売",
+    "title": "喧嘩商売",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "喧嘩商売 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "battle"
+    }
+  },
+  {
+    "id": "manga-batch6-ナニワ金融道",
+    "title": "ナニワ金融道",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ナニワ金融道 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "mystery"
+    }
+  },
+  {
+    "id": "manga-batch6-ミナミの帝王",
+    "title": "ミナミの帝王",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ミナミの帝王 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "mystery"
+    }
+  },
+  {
+    "id": "manga-batch6-ナンバMG5",
+    "title": "ナンバMG5",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ナンバMG5 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "comedy"
+    }
+  },
+  {
+    "id": "manga-batch6-高校鉄拳伝タフ",
+    "title": "高校鉄拳伝タフ",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "高校鉄拳伝タフ 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "battle"
+    }
+  },
+  {
+    "id": "manga-batch6-マチネとソワレ",
+    "title": "マチネとソワレ",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "マチネとソワレ 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "mystery"
+    }
+  },
+  {
+    "id": "manga-batch6-株式会社マジルミエ",
+    "title": "株式会社マジルミエ",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "株式会社マジルミエ 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "fantasy"
+    }
+  },
+  {
+    "id": "manga-batch6-魔法少女にあこがれて",
+    "title": "魔法少女にあこがれて",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "魔法少女にあこがれて 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "fantasy"
+    }
+  },
+  {
+    "id": "manga-batch6-甲賀忍法帖バジリスク",
+    "title": "甲賀忍法帖 バジリスク",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "甲賀忍法帖 バジリスク 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "dark_fantasy"
+    }
+  },
+  {
+    "id": "manga-batch6-嘆きの亡霊は引退したい",
+    "title": "嘆きの亡霊は引退したい",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "嘆きの亡霊は引退したい 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "fantasy"
+    }
+  },
+  {
+    "id": "manga-batch6-天幕のジャードゥーガル",
+    "title": "天幕のジャードゥーガル",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "天幕のジャードゥーガル 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "fantasy"
+    }
+  },
+  {
+    "id": "manga-batch6-ハクメイとミコチ",
+    "title": "ハクメイとミコチ",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ハクメイとミコチ 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "fantasy"
+    }
+  },
+  {
+    "id": "manga-batch6-Thisコミュニケーション",
+    "title": "Thisコミュニケーション",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "Thisコミュニケーション 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "fantasy"
+    }
+  },
+  {
+    "id": "manga-batch6-ARIA",
+    "title": "ARIA",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ARIA 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "fantasy"
+    }
+  },
+  {
+    "id": "manga-batch6-100人の彼女",
+    "title": "100人の彼女",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "100人の彼女 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romcom"
+    }
+  },
+  {
+    "id": "manga-batch6-ワンルームエンジェル",
+    "title": "ワンルームエンジェル",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ワンルームエンジェル 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romance"
+    }
+  },
+  {
+    "id": "manga-batch6-ひらやすみ",
+    "title": "ひらやすみ",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ひらやすみ 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "daily_life"
+    }
+  },
+  {
+    "id": "manga-batch6-税金で買った本",
+    "title": "税金で買った本",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "税金で買った本 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "daily_life"
+    }
+  },
+  {
+    "id": "manga-batch6-スーパーの裏でヤニ吸うふたり",
+    "title": "スーパーの裏でヤニ吸うふたり",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "スーパーの裏でヤニ吸うふたり 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "daily_life"
+    }
+  },
+  {
+    "id": "manga-batch6-スナックバス江",
+    "title": "スナックバス江",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "スナックバス江 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "comedy"
+    }
+  },
+  {
+    "id": "manga-batch6-1日外出録ハンチョウ",
+    "title": "1日外出録ハンチョウ",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "1日外出録ハンチョウ 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "comedy"
+    }
+  },
+  {
+    "id": "manga-batch6-中間管理録トネガワ",
+    "title": "中間管理録トネガワ",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "中間管理録トネガワ 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "comedy"
+    }
+  },
+  {
+    "id": "manga-batch6-放課後ていぼう日誌",
+    "title": "放課後ていぼう日誌",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "放課後ていぼう日誌 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.056Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "daily_life"
+    }
+  },
+  {
+    "id": "manga-batch6-ヨコハマ買い出し紀行",
+    "title": "ヨコハマ買い出し紀行",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ヨコハマ買い出し紀行 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.056Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "daily_life"
+    }
+  },
+  {
+    "id": "manga-batch6-久保さんは僕を許さない",
+    "title": "久保さんは僕を許さない",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "久保さんは僕を許さない 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.056Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shojo",
+      "l3Id": "romcom"
+    }
+  },
+  {
+    "id": "manga-batch6-しあわせは食べて寝て待て",
+    "title": "しあわせは食べて寝て待て",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "しあわせは食べて寝て待て 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.056Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "daily_life"
+    }
+  },
+  {
+    "id": "manga-batch6-未来日記",
+    "title": "未来日記",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "未来日記 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.056Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sf"
+    }
+  },
+  {
+    "id": "manga-batch6-刻刻",
+    "title": "刻刻",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "刻刻 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.056Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "sf"
+    }
+  },
+  {
+    "id": "manga-batch6-ブラック・ジャック",
+    "title": "ブラック・ジャック",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ブラック・ジャック 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.056Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "medical"
+    }
+  },
+  {
+    "id": "manga-batch6-MOONLIGHTMILE",
+    "title": "MOONLIGHT MILE",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "MOONLIGHT MILE 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.056Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "sf"
+    }
+  },
+  {
+    "id": "manga-batch6-怪獣自衛隊",
+    "title": "怪獣自衛隊",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "怪獣自衛隊 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.056Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "sf"
+    }
+  },
+  {
+    "id": "manga-batch6-ジパング",
+    "title": "ジパング",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ジパング 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.056Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "sf"
+    }
+  },
+  {
+    "id": "manga-batch6-沈黙の艦隊",
+    "title": "沈黙の艦隊",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "沈黙の艦隊 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.056Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "mystery"
+    }
+  },
+  {
+    "id": "manga-batch6-空母いぶき",
+    "title": "空母いぶき",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "空母いぶき 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.056Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "mystery"
+    }
+  },
+  {
+    "id": "manga-batch6-ラストカルテ",
+    "title": "ラストカルテ",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ラストカルテ 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.056Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "medical"
+    }
+  },
+  {
+    "id": "manga-batch6-レベルE",
+    "title": "レベルE",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "レベルE 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.056Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "sf"
+    }
+  },
+  {
+    "id": "manga-batch6-鉄鍋のジャン",
+    "title": "鉄鍋のジャン",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "鉄鍋のジャン 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.056Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "gourmet"
+    }
+  },
+  {
+    "id": "manga-batch6-ラーメン才遊記",
+    "title": "ラーメン才遊記",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "ラーメン才遊記 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.056Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "gourmet"
+    }
+  },
+  {
+    "id": "manga-batch6-アサギロ",
+    "title": "アサギロ",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "アサギロ 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.056Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "history"
+    }
+  },
+  {
+    "id": "manga-batch6-アポカリプスの砦",
+    "title": "アポカリプスの砦",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "アポカリプスの砦 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.056Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "horror"
+    }
+  },
+  {
+    "id": "manga-batch6-25次元の誘惑",
+    "title": "2.5次元の誘惑",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "2.5次元の誘惑 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.056Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "shonen",
+      "l3Id": "school"
+    }
+  },
+  {
+    "id": "manga-batch6-刷ったもんだ",
+    "title": "刷ったもんだ!",
+    "authors": [],
+    "language": "ja",
+    "categories": [
+      "漫画"
+    ],
+    "keywords": [
+      "漫画",
+      "コミック"
+    ],
+    "searchableText": "刷ったもんだ! 漫画 コミック",
+    "sourceIds": {},
+    "updatedAt": "2026-04-09T13:02:12.056Z",
+    "manualClassification": {
+      "l1Id": "manga",
+      "l2Id": "seinen",
+      "l3Id": "daily_life"
+    }
   }
 ]

@@ -2,7 +2,7 @@
 /**
  * add-manga-100-batch6.ts
  * 漫画100作品をタイトル検索でGoogle Books APIから取得して
- * books.index.json に追加するスクリプト
+ * books.index.json に追加するスクリプト (batch 6)
  */
 
 import * as fs from "fs";
@@ -21,8 +21,10 @@ import * as path from "path";
 }
 
 const API_KEY = process.env.GOOGLE_BOOKS_API_KEY;
-// API キーが日次クォータ超過の場合はキーなしで実行
-const USE_API_KEY = false; // クォータ枯渇時はfalseに設定
+if (!API_KEY) {
+  console.error("GOOGLE_BOOKS_API_KEY が設定されていません");
+  process.exit(1);
+}
 
 const BOOKS_INDEX_PATH = path.join(__dirname, "../src/data/books.index.json");
 
@@ -91,158 +93,162 @@ function buildClassification(l2Label: string, l3Label: string): ManualClassifica
 }
 
 const WORK_LIST: WorkTarget[] = [
-  // ═══ 少年漫画（バトル・冒険）: 20作品 ═══
-  { title: "D.Gray-man", type: "manga", classification: buildClassification("少年漫画", "バトル") },
-  { title: "スプリガン", type: "manga", classification: buildClassification("少年漫画", "バトル") },
-  { title: "血界戦線", type: "manga", classification: buildClassification("少年漫画", "バトル") },
-  { title: "GetBackers -奪還屋-", type: "manga", classification: buildClassification("少年漫画", "バトル") },
-  { title: "ロザリオとバンパイア", type: "manga", classification: buildClassification("少年漫画", "バトル") },
-  { title: "地獄先生ぬ〜べ〜", type: "manga", classification: buildClassification("少年漫画", "バトル") },
-  { title: "忍空", type: "manga", classification: buildClassification("少年漫画", "バトル") },
-  { title: "史上最強の弟子ケンイチ", type: "manga", classification: buildClassification("少年漫画", "バトル") },
-  { title: "出会って5秒でバトル", type: "manga", classification: buildClassification("少年漫画", "バトル") },
-  { title: "文豪ストレイドッグス", type: "manga", classification: buildClassification("少年漫画", "バトル") },
-  { title: "ホーリーランド", type: "manga", classification: buildClassification("青年漫画", "バトル") },
+  // ═══ 少年漫画 - バトル・冒険 (20作品) ═══
+  { title: "ブラックキャット", type: "manga", classification: buildClassification("少年漫画", "バトル") },
+  { title: "ウィンドブレイカー", type: "manga", classification: buildClassification("少年漫画", "バトル") },
   { title: "クローズ", type: "manga", classification: buildClassification("少年漫画", "バトル") },
   { title: "WORST", type: "manga", classification: buildClassification("少年漫画", "バトル") },
-  { title: "デッドマウント・デスプレイ", type: "manga", classification: buildClassification("少年漫画", "バトル") },
-  { title: "バイオレンスジャック", type: "manga", classification: buildClassification("少年漫画", "バトル") },
+  { title: "惑星のさみだれ", type: "manga", classification: buildClassification("少年漫画", "バトル") },
+  { title: "スプリガン", type: "manga", classification: buildClassification("少年漫画", "バトル") },
+  { title: "3×3EYES", type: "manga", classification: buildClassification("少年漫画", "ダークファンタジー") },
+  { title: "忍空", type: "manga", classification: buildClassification("少年漫画", "バトル") },
+  { title: "冒険王ビィト", type: "manga", classification: buildClassification("少年漫画", "ファンタジー") },
+  { title: "ラディアン", type: "manga", classification: buildClassification("少年漫画", "ファンタジー") },
+  { title: "テンカイチ", type: "manga", classification: buildClassification("少年漫画", "バトル") },
+  { title: "戦隊大失格", type: "manga", classification: buildClassification("少年漫画", "バトル") },
+  { title: "SAMURAI DEEPER KYO", type: "manga", classification: buildClassification("少年漫画", "バトル") },
+  { title: "バスタード!!", type: "manga", classification: buildClassification("少年漫画", "ダークファンタジー") },
+  { title: "GS美神極楽大作戦!!", type: "manga", classification: buildClassification("少年漫画", "コメディ") },
   { title: "エンジェルハート", type: "manga", classification: buildClassification("青年漫画", "バトル") },
-  { title: "キャッツアイ", type: "manga", classification: buildClassification("少年漫画", "バトル") },
-  { title: "よふかしのうた", type: "manga", classification: buildClassification("少年漫画", "ファンタジー") },
-  { title: "レベルE", type: "manga", classification: buildClassification("少年漫画", "SF") },
-  { title: "双亡亭壊すべし", type: "manga", classification: buildClassification("少年漫画", "バトル") },
+  { title: "絶対可憐チルドレン", type: "manga", classification: buildClassification("少年漫画", "SF") },
+  { title: "ヘルク", type: "manga", classification: buildClassification("少年漫画", "ファンタジー") },
+  { title: "サンケンロック", type: "manga", classification: buildClassification("青年漫画", "バトル") },
+  { title: "GetBackers 奪還屋", type: "manga", classification: buildClassification("少年漫画", "バトル") },
 
-  // ═══ 少年漫画（スポーツ）: 10作品 ═══
-  { title: "ウインドブレイカー", type: "manga", classification: buildClassification("少年漫画", "スポーツ") },
-  { title: "メジャーセカンド", type: "manga", classification: buildClassification("少年漫画", "スポーツ") },
+  // ═══ 少年漫画 - スポーツ (13作品) ═══
+  { title: "DAYS", type: "manga", classification: buildClassification("少年漫画", "スポーツ") },
+  { title: "ALL OUT!!", type: "manga", classification: buildClassification("少年漫画", "スポーツ") },
   { title: "もういっぽん!", type: "manga", classification: buildClassification("少年漫画", "スポーツ") },
-  { title: "灼熱カバディ", type: "manga", classification: buildClassification("少年漫画", "スポーツ") },
-  { title: "さよなら私のクラマー", type: "manga", classification: buildClassification("少年漫画", "スポーツ") },
-  { title: "ホイッスル!", type: "manga", classification: buildClassification("少年漫画", "スポーツ") },
-  { title: "オーバードライブ", type: "manga", classification: buildClassification("少年漫画", "スポーツ") },
-  { title: "ファンタジスタ", type: "manga", classification: buildClassification("少年漫画", "スポーツ") },
-  { title: "フットボールネーション", type: "manga", classification: buildClassification("青年漫画", "スポーツ") },
-  { title: "ハリガネサービス", type: "manga", classification: buildClassification("少年漫画", "スポーツ") },
+  { title: "MIX", type: "manga", classification: buildClassification("少年漫画", "スポーツ") },
+  { title: "シュート!", type: "manga", classification: buildClassification("少年漫画", "スポーツ") },
+  { title: "帯をギュッとね!", type: "manga", classification: buildClassification("少年漫画", "スポーツ") },
+  { title: "柔道部物語", type: "manga", classification: buildClassification("少年漫画", "スポーツ") },
+  { title: "六三四の剣", type: "manga", classification: buildClassification("少年漫画", "スポーツ") },
+  { title: "クロス・ゲーム", type: "manga", classification: buildClassification("少年漫画", "スポーツ") },
+  { title: "H2", type: "manga", classification: buildClassification("少年漫画", "スポーツ") },
+  { title: "ANGEL VOICE", type: "manga", classification: buildClassification("少年漫画", "スポーツ") },
+  { title: "ウマ娘シンデレラグレイ", type: "manga", classification: buildClassification("少年漫画", "スポーツ") },
+  { title: "ワンダンス", type: "manga", classification: buildClassification("少年漫画", "スポーツ") },
 
-  // ═══ 少女漫画・恋愛: 15作品 ═══
-  { title: "ヒロイン失格", type: "manga", classification: buildClassification("少女漫画", "恋愛") },
-  { title: "僕等がいた", type: "manga", classification: buildClassification("少女漫画", "恋愛") },
+  // ═══ 少女漫画・恋愛 (15作品) ═══
+  { title: "イタズラなKiss", type: "manga", classification: buildClassification("少女漫画", "恋愛") },
+  { title: "天は赤い河のほとり", type: "manga", classification: buildClassification("少女漫画", "ファンタジー") },
+  { title: "こどものおもちゃ", type: "manga", classification: buildClassification("少女漫画", "コメディ") },
+  { title: "天使なんかじゃない", type: "manga", classification: buildClassification("少女漫画", "恋愛") },
+  { title: "有閑倶楽部", type: "manga", classification: buildClassification("少女漫画", "コメディ") },
   { title: "ホットギミック", type: "manga", classification: buildClassification("少女漫画", "恋愛") },
-  { title: "きょうは会社休みます。", type: "manga", classification: buildClassification("少女漫画", "恋愛") },
-  { title: "コーヒー&バニラ", type: "manga", classification: buildClassification("少女漫画", "恋愛") },
-  { title: "ハニーレモンソーダ", type: "manga", classification: buildClassification("少女漫画", "恋愛") },
-  { title: "PとJK", type: "manga", classification: buildClassification("少女漫画", "恋愛") },
-  { title: "ときめきトゥナイト", type: "manga", classification: buildClassification("少女漫画", "ファンタジー") },
-  { title: "ぼくの地球を守って", type: "manga", classification: buildClassification("少女漫画", "SF") },
-  { title: "神風怪盗ジャンヌ", type: "manga", classification: buildClassification("少女漫画", "ファンタジー") },
-  { title: "わたしの幸せな結婚", type: "manga", classification: buildClassification("少女漫画", "恋愛") },
-  { title: "私がモテてどうすんだ", type: "manga", classification: buildClassification("少女漫画", "ラブコメ") },
-  { title: "覆面系ノイズ", type: "manga", classification: buildClassification("少女漫画", "音楽") },
-  { title: "恋は雨上がりのように", type: "manga", classification: buildClassification("青年漫画", "恋愛") },
-  { title: "ふしぎ遊戯", type: "manga", classification: buildClassification("少女漫画", "ファンタジー") },
+  { title: "砂時計", type: "manga", classification: buildClassification("少女漫画", "恋愛") },
+  { title: "僕の初恋をキミに捧ぐ", type: "manga", classification: buildClassification("少女漫画", "恋愛") },
+  { title: "溺れるナイフ", type: "manga", classification: buildClassification("少女漫画", "恋愛") },
+  { title: "ピーチガール", type: "manga", classification: buildClassification("少女漫画", "恋愛") },
+  { title: "虹色デイズ", type: "manga", classification: buildClassification("少女漫画", "恋愛") },
+  { title: "正反対な君と僕", type: "manga", classification: buildClassification("少年漫画", "ラブコメ") },
+  { title: "ヤンキー君と白杖ガール", type: "manga", classification: buildClassification("少年漫画", "ラブコメ") },
+  { title: "僕の心のヤバイやつ", type: "manga", classification: buildClassification("少年漫画", "ラブコメ") },
+  { title: "九龍ジェネリックロマンス", type: "manga", classification: buildClassification("青年漫画", "恋愛") },
 
-  // ═══ 青年漫画（サスペンス・ドラマ）: 15作品 ═══
-  { title: "サンクチュアリ", type: "manga", classification: buildClassification("青年漫画", "サスペンス") },
-  { title: "健康で文化的な最低限度の生活", type: "manga", classification: buildClassification("青年漫画", "日常") },
-  { title: "善悪の屑", type: "manga", classification: buildClassification("青年漫画", "サスペンス") },
-  { title: "正直不動産", type: "manga", classification: buildClassification("青年漫画", "日常") },
-  { title: "青のフラッグ", type: "manga", classification: buildClassification("青年漫画", "青春") },
-  { title: "ザ・ワールド・イズ・マイン", type: "manga", classification: buildClassification("青年漫画", "サスペンス") },
-  { title: "最強伝説黒沢", type: "manga", classification: buildClassification("青年漫画", "コメディ") },
-  { title: "BEASTARS", type: "manga", classification: buildClassification("青年漫画", "サスペンス") },
-  { title: "憂国のモリアーティ", type: "manga", classification: buildClassification("少年漫画", "ミステリー") },
-  { title: "夏目アラタの結婚", type: "manga", classification: buildClassification("青年漫画", "サスペンス") },
-  { title: "来世は他人がいい", type: "manga", classification: buildClassification("青年漫画", "サスペンス") },
-  { title: "仁 JIN", type: "manga", classification: buildClassification("青年漫画", "歴史") },
-  { title: "波よ聞いてくれ", type: "manga", classification: buildClassification("青年漫画", "コメディ") },
-  { title: "ドクターK", type: "manga", classification: buildClassification("少年漫画", "医療") },
-  { title: "アグネス仮面", type: "manga", classification: buildClassification("青年漫画", "コメディ") },
+  // ═══ 青年漫画 - サスペンス・ドラマ (15作品) ═══
+  { title: "ブラックラグーン", type: "manga", classification: buildClassification("青年漫画", "バトル") },
+  { title: "軍鶏", type: "manga", classification: buildClassification("青年漫画", "バトル") },
+  { title: "シグルイ", type: "manga", classification: buildClassification("青年漫画", "バトル") },
+  { title: "チ。―地球の運動について―", type: "manga", classification: buildClassification("青年漫画", "歴史") },
+  { title: "自殺島", type: "manga", classification: buildClassification("青年漫画", "サスペンス") },
+  { title: "なれの果ての僕ら", type: "manga", classification: buildClassification("青年漫画", "サスペンス") },
+  { title: "ジャンケットバンク", type: "manga", classification: buildClassification("青年漫画", "サスペンス") },
+  { title: "おかえりアリス", type: "manga", classification: buildClassification("青年漫画", "サスペンス") },
+  { title: "女の園の星", type: "manga", classification: buildClassification("青年漫画", "コメディ") },
+  { title: "喧嘩商売", type: "manga", classification: buildClassification("青年漫画", "バトル") },
+  { title: "ナニワ金融道", type: "manga", classification: buildClassification("青年漫画", "サスペンス") },
+  { title: "ミナミの帝王", type: "manga", classification: buildClassification("青年漫画", "サスペンス") },
+  { title: "ナンバMG5", type: "manga", classification: buildClassification("青年漫画", "コメディ") },
+  { title: "高校鉄拳伝タフ", type: "manga", classification: buildClassification("青年漫画", "バトル") },
+  { title: "マチネとソワレ", type: "manga", classification: buildClassification("青年漫画", "サスペンス") },
 
-  // ═══ ファンタジー・異世界: 10作品 ═══
-  { title: "転生したら剣でした", type: "manga", classification: buildClassification("少年漫画", "ファンタジー") },
-  { title: "とんでもスキルで異世界放浪メシ", type: "manga", classification: buildClassification("少年漫画", "ファンタジー") },
-  { title: "勇者が死んだ!", type: "manga", classification: buildClassification("少年漫画", "ファンタジー") },
-  { title: "異世界食堂", type: "manga", classification: buildClassification("少年漫画", "ファンタジー") },
-  { title: "ソマリと森の神様", type: "manga", classification: buildClassification("青年漫画", "ファンタジー") },
-  { title: "アリスと蔵六", type: "manga", classification: buildClassification("青年漫画", "ファンタジー") },
-  { title: "ランドリオール", type: "manga", classification: buildClassification("少年漫画", "ファンタジー") },
-  { title: "東京ミュウミュウ", type: "manga", classification: buildClassification("少女漫画", "ファンタジー") },
-  { title: "ARIA", type: "manga", classification: buildClassification("少年漫画", "ファンタジー") },
-  { title: "ロトの紋章", type: "manga", classification: buildClassification("少年漫画", "ファンタジー") },
+  // ═══ ファンタジー・異世界 (10作品) ═══
+  { title: "株式会社マジルミエ", type: "manga", classification: buildClassification("少年漫画", "ファンタジー") },
+  { title: "魔法少女にあこがれて", type: "manga", classification: buildClassification("少年漫画", "ファンタジー") },
+  { title: "甲賀忍法帖 バジリスク", type: "manga", classification: buildClassification("青年漫画", "ダークファンタジー") },
+  { title: "嘆きの亡霊は引退したい", type: "manga", classification: buildClassification("少年漫画", "ファンタジー") },
+  { title: "天幕のジャードゥーガル", type: "manga", classification: buildClassification("青年漫画", "ファンタジー") },
+  { title: "ハクメイとミコチ", type: "manga", classification: buildClassification("青年漫画", "ファンタジー") },
+  { title: "Thisコミュニケーション", type: "manga", classification: buildClassification("少年漫画", "ファンタジー") },
+  { title: "ARIA", type: "manga", classification: buildClassification("青年漫画", "ファンタジー") },
+  { title: "100人の彼女", type: "manga", classification: buildClassification("少年漫画", "ラブコメ") },
+  { title: "ワンルームエンジェル", type: "manga", classification: buildClassification("青年漫画", "恋愛") },
 
-  // ═══ 日常・コメディ: 10作品 ═══
-  { title: "しろくまカフェ", type: "manga", classification: buildClassification("少女漫画", "日常") },
-  { title: "極主夫道", type: "manga", classification: buildClassification("青年漫画", "コメディ") },
-  { title: "古見さんはコミュ症です", type: "manga", classification: buildClassification("少年漫画", "ラブコメ") },
-  { title: "僕の心のヤバいやつ", type: "manga", classification: buildClassification("少年漫画", "ラブコメ") },
-  { title: "ハイスコアガール", type: "manga", classification: buildClassification("青年漫画", "ラブコメ") },
-  { title: "ReLIFE", type: "manga", classification: buildClassification("青年漫画", "青春") },
-  { title: "パリピ孔明", type: "manga", classification: buildClassification("青年漫画", "コメディ") },
-  { title: "百姓貴族", type: "manga", classification: buildClassification("青年漫画", "コメディ") },
-  { title: "トニカクカワイイ", type: "manga", classification: buildClassification("少年漫画", "ラブコメ") },
-  { title: "先輩がうざい後輩の話", type: "manga", classification: buildClassification("青年漫画", "ラブコメ") },
+  // ═══ 日常・コメディ (10作品) ═══
+  { title: "ひらやすみ", type: "manga", classification: buildClassification("青年漫画", "日常") },
+  { title: "税金で買った本", type: "manga", classification: buildClassification("青年漫画", "日常") },
+  { title: "スーパーの裏でヤニ吸うふたり", type: "manga", classification: buildClassification("青年漫画", "日常") },
+  { title: "スナックバス江", type: "manga", classification: buildClassification("青年漫画", "コメディ") },
+  { title: "1日外出録ハンチョウ", type: "manga", classification: buildClassification("青年漫画", "コメディ") },
+  { title: "中間管理録トネガワ", type: "manga", classification: buildClassification("青年漫画", "コメディ") },
+  { title: "放課後ていぼう日誌", type: "manga", classification: buildClassification("青年漫画", "日常") },
+  { title: "ヨコハマ買い出し紀行", type: "manga", classification: buildClassification("青年漫画", "日常") },
+  { title: "久保さんは僕を許さない", type: "manga", classification: buildClassification("少年漫画", "ラブコメ") },
+  { title: "しあわせは食べて寝て待て", type: "manga", classification: buildClassification("青年漫画", "日常") },
 
-  // ═══ SF・ミステリー: 10作品 ═══
-  { title: "PSYCHO-PASS", type: "manga", classification: buildClassification("青年漫画", "SF") },
-  { title: "STEINS;GATE", type: "manga", classification: buildClassification("青年漫画", "SF") },
-  { title: "虚構推理", type: "manga", classification: buildClassification("少年漫画", "ミステリー") },
-  { title: "すべてがFになる", type: "manga", classification: buildClassification("青年漫画", "ミステリー") },
-  { title: "EDEN", type: "manga", classification: buildClassification("青年漫画", "SF") },
-  { title: "ORIGIN", type: "manga", classification: buildClassification("青年漫画", "SF") },
-  { title: "機動戦士ガンダム THE ORIGIN", type: "manga", classification: buildClassification("青年漫画", "SF") },
-  { title: "度胸星", type: "manga", classification: buildClassification("青年漫画", "SF") },
-  { title: "逆転裁判", type: "manga", classification: buildClassification("少年漫画", "ミステリー") },
-  { title: "金田一37歳の事件簿", type: "manga", classification: buildClassification("青年漫画", "ミステリー") },
+  // ═══ SF・ミステリー (10作品) ═══
+  { title: "未来日記", type: "manga", classification: buildClassification("少年漫画", "SF") },
+  { title: "刻刻", type: "manga", classification: buildClassification("青年漫画", "SF") },
+  { title: "ブラック・ジャック", type: "manga", classification: buildClassification("青年漫画", "医療") },
+  { title: "MOONLIGHT MILE", type: "manga", classification: buildClassification("青年漫画", "SF") },
+  { title: "怪獣自衛隊", type: "manga", classification: buildClassification("青年漫画", "SF") },
+  { title: "ジパング", type: "manga", classification: buildClassification("青年漫画", "SF") },
+  { title: "沈黙の艦隊", type: "manga", classification: buildClassification("青年漫画", "サスペンス") },
+  { title: "空母いぶき", type: "manga", classification: buildClassification("青年漫画", "サスペンス") },
+  { title: "ラストカルテ", type: "manga", classification: buildClassification("少年漫画", "医療") },
+  { title: "レベルE", type: "manga", classification: buildClassification("少年漫画", "SF") },
 
-  // ═══ ホラー・グルメ・歴史など: 10作品 ═══
-  { title: "ジンメン", type: "manga", classification: buildClassification("少年漫画", "ホラー") },
-  { title: "将太の寿司", type: "manga", classification: buildClassification("少年漫画", "グルメ") },
-  { title: "あさきゆめみし", type: "manga", classification: buildClassification("少女漫画", "歴史") },
-  { title: "どろろ", type: "manga", classification: buildClassification("少年漫画", "ダークファンタジー") },
-  { title: "ジャガーン", type: "manga", classification: buildClassification("青年漫画", "ホラー") },
-  { title: "累", type: "manga", classification: buildClassification("青年漫画", "ホラー") },
-  { title: "味いちもんめ", type: "manga", classification: buildClassification("青年漫画", "グルメ") },
-  { title: "忘却のサチコ", type: "manga", classification: buildClassification("青年漫画", "グルメ") },
-  { title: "衛宮さんちの今日のごはん", type: "manga", classification: buildClassification("少年漫画", "グルメ") },
-  { title: "ダンピアのおいしい冒険", type: "manga", classification: buildClassification("青年漫画", "歴史") },
+  // ═══ ホラー・グルメ・歴史 (7作品) ═══
+  { title: "鉄鍋のジャン", type: "manga", classification: buildClassification("少年漫画", "料理") },
+  { title: "ラーメン才遊記", type: "manga", classification: buildClassification("青年漫画", "グルメ") },
+  { title: "アサギロ", type: "manga", classification: buildClassification("青年漫画", "歴史") },
+  { title: "アポカリプスの砦", type: "manga", classification: buildClassification("少年漫画", "ホラー") },
+  { title: "2.5次元の誘惑", type: "manga", classification: buildClassification("少年漫画", "学園") },
+  { title: "刷ったもんだ!", type: "manga", classification: buildClassification("青年漫画", "日常") },
+  { title: "ゴッドハンド輝", type: "manga", classification: buildClassification("少年漫画", "医療") },
 ];
 
-/** タイトルでGoogle Books APIを検索（リトライ付き） */
-async function fetchByTitle(title: string): Promise<any | null> {
+let apiQuotaExhausted = false;
+let consecutiveFailures = 0;
+
+/** タイトルでGoogle Books APIを検索 (リトライ付き) */
+async function fetchByTitle(title: string): Promise<{ item: any; fromApi: boolean } | null> {
+  if (apiQuotaExhausted) return null;
+
   const query = `intitle:${title} 漫画`;
-  const keyParam = USE_API_KEY && API_KEY ? `&key=${API_KEY}` : "";
-  const url = `https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(query)}&langRestrict=ja&maxResults=20${keyParam}`;
+  const url = `https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(query)}&langRestrict=ja&maxResults=20&key=${API_KEY}`;
 
   let lastStatus = 0;
-  for (let attempt = 0; attempt < 5; attempt++) {
+  for (let attempt = 0; attempt < 3; attempt++) {
     if (attempt > 0) {
-      const wait = 2000 * Math.pow(2, attempt); // 4s, 8s, 16s, 32s
-      console.log(`    ⏳  リトライ ${attempt}/4 (${wait / 1000}s 待機)...`);
+      const wait = Math.min(2000 * Math.pow(2, attempt), 15000);
+      console.log(`    ⏳ リトライ ${attempt}/2 (${wait}ms待機)...`);
       await new Promise((r) => setTimeout(r, wait));
     }
     const res = await fetch(url);
-    if (res.status === 429) {
-      lastStatus = 429;
-      continue;
+    lastStatus = res.status;
+    if (res.ok) {
+      consecutiveFailures = 0;
+      const data = (await res.json()) as any;
+      const result = processResults(data, title);
+      return result ? { item: result, fromApi: true } : null;
     }
-    if (!res.ok) {
-      console.log(`    [Google Books] HTTP ${res.status}`);
-      return null;
-    }
-    const data = (await res.json()) as any;
-    if (!data.items) return null;
-
-    // 成功 — 以降のフィルタ処理へ
-    return filterCandidates(data, title);
+    if (res.status !== 429 && res.status !== 503) break;
   }
-  console.log(`    [Google Books] HTTP ${lastStatus} (リトライ上限)`);
+
+  consecutiveFailures++;
+  if (consecutiveFailures >= 3 && lastStatus === 429) {
+    console.log(`    ⚠ API日次クォータ超過 - フォールバックモードに切替`);
+    apiQuotaExhausted = true;
+  }
   return null;
 }
 
-function filterCandidates(data: any, title: string): any | null {
+function processResults(data: any, title: string): any | null {
+  if (!data.items) return null;
 
-  // タイトルの主要部分を抽出
   const normalizedTitle = title.replace(/[\s　]*[（(【「].*/g, "").replace(/\s+/g, "").trim();
 
   const candidates = data.items.filter((item: any) => {
@@ -252,7 +258,6 @@ function filterCandidates(data: any, title: string): any | null {
 
   if (candidates.length === 0) return null;
 
-  // スコアリング
   function scoreItem(item: any): number {
     const t: string = item.volumeInfo?.title ?? "";
     let score = 0;
@@ -267,7 +272,7 @@ function filterCandidates(data: any, title: string): any | null {
   }
 
   candidates.sort((a: any, b: any) => scoreItem(b) - scoreItem(a));
-  return candidates[0] ?? null;
+  return candidates[0];
 }
 
 function buildEntry(
@@ -314,6 +319,29 @@ function buildEntry(
   };
 }
 
+/** API不使用時のフォールバックエントリ作成 */
+function buildFallbackEntry(
+  title: string,
+  classification: ManualClassification
+): BookEntry {
+  const id = `manga-batch6-${title.replace(/[^a-zA-Z0-9\u3000-\u9FFF]/g, "").substring(0, 30)}`;
+  const keywords = ["漫画", "コミック"];
+  const searchableText = [title, ...keywords].join(" ");
+
+  return {
+    id,
+    title,
+    authors: [],
+    language: "ja",
+    categories: ["漫画"],
+    keywords,
+    searchableText,
+    sourceIds: {},
+    updatedAt: new Date().toISOString(),
+    manualClassification: classification,
+  };
+}
+
 async function main() {
   const books: BookEntry[] = JSON.parse(fs.readFileSync(BOOKS_INDEX_PATH, "utf-8"));
   const existingIds = new Set(books.map((b) => b.id));
@@ -342,15 +370,16 @@ async function main() {
     }
 
     console.log(`[${i + 1}/${WORK_LIST.length}] 🔍  検索: ${target.title}`);
-    const item = await fetchByTitle(target.title);
+    const result = await fetchByTitle(target.title);
 
-    if (!item) {
-      console.log(`    ⚠  見つかりません: ${target.title}`);
-      notFound++;
-      continue;
+    let entry: BookEntry;
+    if (result) {
+      entry = buildEntry(result.item, target.title, target.classification);
+    } else {
+      // API不使用時はフォールバックエントリを作成
+      entry = buildFallbackEntry(target.title, target.classification);
+      console.log(`    📝  フォールバック: ${target.title}`);
     }
-
-    const entry = buildEntry(item, target.title, target.classification);
 
     if (existingIds.has(entry.id)) {
       // IDは既存だが分類がなければ追加
@@ -369,11 +398,12 @@ async function main() {
     books.push(entry);
     existingIds.add(entry.id);
     existingTitles.add(normalizedSearch);
-    console.log(`    ✅  追加: ${entry.title} (${entry.id}) [${target.classification.l2Id}/${target.classification.l3Id}]`);
+    const src = result ? "API" : "fallback";
+    console.log(`    ✅  追加: ${entry.title} (${entry.id}) [${target.classification.l2Id}/${target.classification.l3Id}] (${src})`);
     added++;
 
-    // レート制限対策 (1500ms)
-    await new Promise((r) => setTimeout(r, 1500));
+    // レート制限対策 (400ms間隔)
+    if (!apiQuotaExhausted) await new Promise((r) => setTimeout(r, 400));
   }
 
   fs.writeFileSync(BOOKS_INDEX_PATH, JSON.stringify(books, null, 2), "utf-8");
