@@ -269302,5 +269302,1401 @@
       "l2Id": "literary",
       "l3Id": "youth"
     }
+  },
+  {
+    "id": "9784022645623",
+    "title": "悪人",
+    "subtitle": "シナリオ版",
+    "authors": [
+      "吉田修一",
+      "李相日"
+    ],
+    "publishedDate": "2010-08",
+    "isbn13": "9784022645623",
+    "language": "ja",
+    "pageCount": 221,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "悪人 シナリオ版 吉田修一 李相日 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=GmDDbwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "GmDDbwAACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:12.512Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "social"
+    }
+  },
+  {
+    "id": "9784864881722",
+    "title": "フェリシア、私の愚行録",
+    "authors": [
+      "ネルシア"
+    ],
+    "publishedDate": "2019-07-08",
+    "isbn13": "9784864881722",
+    "language": "ja",
+    "pageCount": 492,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "フェリシア、私の愚行録 ネルシア 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=t_GCxgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "t_GCxgEACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:14.680Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "social"
+    }
+  },
+  {
+    "id": "9784575237191",
+    "title": "ユリゴコロ",
+    "authors": [
+      "沼田まほかる"
+    ],
+    "publishedDate": "2011-03-20",
+    "isbn13": "9784575237191",
+    "language": "ja",
+    "pageCount": 288,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "ユリゴコロ 沼田まほかる 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=9fWnuAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "9fWnuAAACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:16.135Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "social"
+    }
+  },
+  {
+    "id": "9784062760430",
+    "title": "慟哭",
+    "subtitle": "小説・林郁夫裁判",
+    "authors": [
+      "佐木隆三"
+    ],
+    "publishedDate": "2008-05",
+    "isbn13": "9784062760430",
+    "language": "ja",
+    "pageCount": 392,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "慟哭 小説・林郁夫裁判 佐木隆三 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=16JaPQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "16JaPQAACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:19.535Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "social"
+    }
+  },
+  {
+    "id": "9784098611690",
+    "title": "教場",
+    "authors": [],
+    "publishedDate": "2021-10-29",
+    "isbn13": "9784098611690",
+    "language": "ja",
+    "pageCount": 160,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "教場 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=pvOezgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "pvOezgEACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:21.865Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "social"
+    }
+  },
+  {
+    "id": "9784408551999",
+    "title": "仮面病棟",
+    "authors": [
+      "知念実希人"
+    ],
+    "publishedDate": "2014-12",
+    "isbn13": "9784408551999",
+    "language": "ja",
+    "pageCount": 340,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "仮面病棟 知念実希人 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=IvjBrQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "IvjBrQEACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:23.612Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "honkaku"
+    }
+  },
+  {
+    "id": "9784022516428",
+    "title": "小箱",
+    "authors": [
+      "小川洋子"
+    ],
+    "publishedDate": "2019-10-30",
+    "isbn13": "9784022516428",
+    "language": "ja",
+    "pageCount": 209,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "小箱 小川洋子 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=Rp8hywEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Rp8hywEACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:25.230Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "classic"
+    }
+  },
+  {
+    "id": "VHRNAQAAIAAJ",
+    "title": "安部公房『砂の女』作品論集",
+    "authors": [
+      "石崎等"
+    ],
+    "publishedDate": "2003-06",
+    "language": "ja",
+    "pageCount": 384,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "安部公房『砂の女』作品論集 石崎等 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=VHRNAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "VHRNAQAAIAAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:26.941Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "classic"
+    }
+  },
+  {
+    "id": "9784796407359",
+    "title": "蟹工船",
+    "subtitle": "朗読CD付",
+    "authors": [
+      "小林多喜二"
+    ],
+    "publishedDate": "2015-06-20",
+    "isbn13": "9784796407359",
+    "language": "ja",
+    "pageCount": 155,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "蟹工船 朗読CD付 小林多喜二 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=znvnsgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "znvnsgEACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:28.100Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "classic"
+    }
+  },
+  {
+    "id": "9784781608495",
+    "title": "檸檬",
+    "authors": [
+      "梶井基次郎"
+    ],
+    "publishedDate": "2012-09",
+    "isbn13": "9784781608495",
+    "language": "ja",
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "檸檬 梶井基次郎 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=zyKJMgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "zyKJMgEACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:29.675Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "classic"
+    }
+  },
+  {
+    "id": "Y---DQAAQBAJ",
+    "title": "マチネの終わりに",
+    "authors": [
+      "平野啓一郎"
+    ],
+    "publisher": "コルク",
+    "publishedDate": "2016-04-08",
+    "language": "ja",
+    "pageCount": 277,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "マチネの終わりに 平野啓一郎 コルク 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=Y---DQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Y---DQAAQBAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:31.110Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "romance"
+    }
+  },
+  {
+    "id": "9784862650436",
+    "title": "鼻のある男",
+    "subtitle": "イギリス女流作家怪奇小説選",
+    "authors": [
+      "ローダブロートン"
+    ],
+    "publishedDate": "2006-12",
+    "isbn13": "9784862650436",
+    "language": "ja",
+    "pageCount": 254,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "鼻のある男 イギリス女流作家怪奇小説選 ローダブロートン 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=cGpqQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "cGpqQgAACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:32.067Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "youth"
+    }
+  },
+  {
+    "id": "9784102130278",
+    "title": "月と六ペンス",
+    "authors": [
+      "サマセットモーム"
+    ],
+    "publishedDate": "2014-04-01",
+    "isbn13": "9784102130278",
+    "language": "ja",
+    "pageCount": 378,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "月と六ペンス サマセットモーム 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=j2ICoQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "j2ICoQEACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:32.958Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "foreign",
+      "l3Id": "classic"
+    }
+  },
+  {
+    "id": "9784391152784",
+    "title": "くまクマ熊ベアー",
+    "authors": [
+      "くまなの"
+    ],
+    "publishedDate": "2019-02-04",
+    "isbn13": "9784391152784",
+    "language": "ja",
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "くまクマ熊ベアー くまなの 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=xTYc0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "xTYc0AEACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:33.914Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "light_novel",
+      "l3Id": "isekai"
+    }
+  },
+  {
+    "id": "9784046838216",
+    "title": "魔導具師ダリヤはうつむかない",
+    "subtitle": "今日から自由な職人ライフ",
+    "authors": [],
+    "publishedDate": "2024",
+    "isbn13": "9784046838216",
+    "language": "ja",
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "魔導具師ダリヤはうつむかない 今日から自由な職人ライフ 小説",
+    "sourceIds": {
+      "googleBooksId": "geYL0QEACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:35.422Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "light_novel",
+      "l3Id": "isekai"
+    }
+  },
+  {
+    "id": "9784048679046",
+    "title": "紫色のクオリア",
+    "authors": [
+      "うえお久光"
+    ],
+    "publishedDate": "2009-07-10",
+    "isbn13": "9784048679046",
+    "language": "ja",
+    "pageCount": 323,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "紫色のクオリア うえお久光 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=e8FrQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "e8FrQgAACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:37.943Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "hard_sf"
+    }
+  },
+  {
+    "id": "9784150110000",
+    "title": "2001年宇宙の旅(決定版)",
+    "authors": [
+      "アーサー・C・クラーク"
+    ],
+    "publishedDate": "1993",
+    "isbn13": "9784150110000",
+    "language": "ja",
+    "pageCount": 336,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "2001年宇宙の旅(決定版) アーサー・C・クラーク 小説",
+    "sourceIds": {
+      "googleBooksId": "tRxAPQAACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:38.929Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "classic"
+    }
+  },
+  {
+    "id": "9784150310165",
+    "title": "マルドゥック・スクランブル",
+    "subtitle": "The 3rd Exhaust‐排気完全版",
+    "authors": [
+      "冲方丁"
+    ],
+    "publishedDate": "2010-10",
+    "isbn13": "9784150310165",
+    "language": "ja",
+    "pageCount": 316,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "マルドゥック・スクランブル The 3rd Exhaust‐排気完全版 冲方丁 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=n7dcuAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "n7dcuAEACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:40.813Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "cyberpunk"
+    }
+  },
+  {
+    "id": "9784122045965",
+    "title": "西の善き魔女",
+    "authors": [
+      "荻原規子"
+    ],
+    "publishedDate": "2005-10",
+    "isbn13": "9784122045965",
+    "language": "ja",
+    "pageCount": 314,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "西の善き魔女 荻原規子 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=r56fPQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "r56fPQAACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:43.061Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "fantasy"
+    }
+  },
+  {
+    "id": "9784120051364",
+    "title": "デルフィニア戦記",
+    "subtitle": "特装版",
+    "authors": [
+      "茅田砂胡"
+    ],
+    "publishedDate": "2019-10",
+    "isbn13": "9784120051364",
+    "language": "ja",
+    "pageCount": 589,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "デルフィニア戦記 特装版 茅田砂胡 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=TQyfygEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "TQyfygEACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:43.953Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "fantasy"
+    }
+  },
+  {
+    "id": "9784041290071",
+    "title": "新選組血風録",
+    "authors": [
+      "司馬遼太郎"
+    ],
+    "publishedDate": "2003-11",
+    "isbn13": "9784041290071",
+    "language": "ja",
+    "pageCount": 635,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "新選組血風録 司馬遼太郎 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=9quKAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "9quKAAAACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:44.841Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical",
+      "l3Id": "jidai"
+    }
+  },
+  {
+    "id": "9784344426207",
+    "title": "破獄",
+    "authors": [
+      "金子成人"
+    ],
+    "publishedDate": "2017-06",
+    "isbn13": "9784344426207",
+    "language": "ja",
+    "pageCount": 265,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "破獄 金子成人 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=qgt6swEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "qgt6swEACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:45.676Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical",
+      "l3Id": "jidai"
+    }
+  },
+  {
+    "id": "XGJ10QEACAAJ",
+    "title": "功名が辻",
+    "authors": [],
+    "publishedDate": "2005",
+    "language": "ja",
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "功名が辻 小説",
+    "sourceIds": {
+      "googleBooksId": "XGJ10QEACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:46.616Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical",
+      "l3Id": "jidai"
+    }
+  },
+  {
+    "id": "9784896120134",
+    "title": "春来峠",
+    "subtitle": "小説・前田純孝",
+    "authors": [
+      "吉村康"
+    ],
+    "publishedDate": "1994",
+    "isbn13": "9784896120134",
+    "language": "ja",
+    "pageCount": 364,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "春来峠 小説・前田純孝 吉村康 小説",
+    "sourceIds": {
+      "googleBooksId": "Jn6dZwEACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:47.670Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical",
+      "l3Id": "jidai"
+    }
+  },
+  {
+    "id": "WUU1EAAAQBAJ",
+    "title": "暗黒童話",
+    "authors": [
+      "乙一"
+    ],
+    "publisher": "集英社",
+    "publishedDate": "2004-05-20",
+    "language": "ja",
+    "pageCount": 220,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "暗黒童話 乙一 集英社 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=WUU1EAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "WUU1EAAAQBAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:48.572Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "horror",
+      "l3Id": "other"
+    }
+  },
+  {
+    "id": "9784048739245",
+    "title": "GOTH",
+    "subtitle": "モリノヨル",
+    "authors": [
+      "乙一"
+    ],
+    "publishedDate": "2008-12",
+    "isbn13": "9784048739245",
+    "language": "ja",
+    "pageCount": 79,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "GOTH モリノヨル 乙一 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=xKSNPgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "xKSNPgAACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:49.397Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "horror",
+      "l3Id": "other"
+    }
+  },
+  {
+    "id": "9784334745264",
+    "title": "独白するユニバーサル横メルカトル",
+    "authors": [
+      "平山夢明"
+    ],
+    "publishedDate": "2009",
+    "isbn13": "9784334745264",
+    "language": "ja",
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "独白するユニバーサル横メルカトル 平山夢明 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=6HahPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "6HahPwAACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:50.811Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "horror",
+      "l3Id": "other"
+    }
+  },
+  {
+    "id": "-hRpDwAAQBAJ",
+    "title": "ホモ・デウス　下　テクノロジーとサピエンスの未来",
+    "authors": [
+      "ユヴァル・ノア・ハラリ",
+      "柴田裕之"
+    ],
+    "publisher": "河出書房新社",
+    "publishedDate": "2018-09-06",
+    "language": "ja",
+    "pageCount": 205,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "ホモ・デウス　下　テクノロジーとサピエンスの未来 ユヴァル・ノア・ハラリ 柴田裕之 河出書房新社 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=-hRpDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "-hRpDwAAQBAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:52.889Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "other"
+    }
+  },
+  {
+    "id": "9784794218797",
+    "title": "銃・病原菌・鉄",
+    "subtitle": "下卷",
+    "authors": [
+      "Jared M. Diamond",
+      "倉骨彰"
+    ],
+    "publishedDate": "2012",
+    "isbn13": "9784794218797",
+    "language": "ja",
+    "pageCount": 430,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "銃・病原菌・鉄 下卷 Jared M. Diamond 倉骨彰 小説",
+    "sourceIds": {
+      "googleBooksId": "NjZ2kQEACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:58:53.718Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "other"
+    }
+  },
+  {
+    "id": "9784065248768",
+    "title": "ルパンの娘映画ノベライズ",
+    "authors": [
+      "横関大",
+      "有沢ゆう希"
+    ],
+    "publishedDate": "2021-09-30",
+    "isbn13": "9784065248768",
+    "language": "ja",
+    "pageCount": 224,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "ルパンの娘映画ノベライズ 横関大 有沢ゆう希 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=oQ2OzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "oQ2OzgEACAAJ"
+    },
+    "updatedAt": "2026-04-10T15:00:51.041Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "honkaku"
+    }
+  },
+  {
+    "id": "9784334774905",
+    "title": "日の名残り",
+    "subtitle": "隅田川御用帳(十四)",
+    "authors": [
+      "藤原緋沙子"
+    ],
+    "publishedDate": "2017-06",
+    "isbn13": "9784334774905",
+    "language": "ja",
+    "pageCount": 263,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "日の名残り 隅田川御用帳(十四) 藤原緋沙子 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=ebhJtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "ebhJtAEACAAJ"
+    },
+    "updatedAt": "2026-04-10T15:00:53.314Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "foreign",
+      "l3Id": "classic"
+    }
+  },
+  {
+    "id": "9784801003552",
+    "title": "カズオ・イシグロ『わたしを離さないで』を読む",
+    "subtitle": "ケアからホロコーストまで",
+    "authors": [
+      "荘中孝之"
+    ],
+    "publishedDate": "2018-09",
+    "isbn13": "9784801003552",
+    "language": "ja",
+    "pageCount": 312,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "カズオ・イシグロ『わたしを離さないで』を読む ケアからホロコーストまで 荘中孝之 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=m827vAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "m827vAEACAAJ"
+    },
+    "updatedAt": "2026-04-10T15:00:54.177Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "foreign",
+      "l3Id": "classic"
+    }
+  },
+  {
+    "id": "9784062645690",
+    "title": "密やかな結晶",
+    "authors": [
+      "小川洋子"
+    ],
+    "publishedDate": "1999-08",
+    "isbn13": "9784062645690",
+    "language": "ja",
+    "pageCount": 401,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "密やかな結晶 小川洋子 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=s8E2tAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "s8E2tAEACAAJ"
+    },
+    "updatedAt": "2026-04-10T15:00:55.602Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "classic"
+    }
+  },
+  {
+    "id": "9784094064872",
+    "title": "鳩の撃退法",
+    "authors": [
+      "佐藤正午"
+    ],
+    "publishedDate": "2018",
+    "isbn13": "9784094064872",
+    "language": "ja",
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "鳩の撃退法 佐藤正午 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=FgvDswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "FgvDswEACAAJ"
+    },
+    "updatedAt": "2026-04-10T15:00:56.631Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "classic"
+    }
+  },
+  {
+    "id": "9784434217722",
+    "title": "月が導く異世界道中",
+    "authors": [
+      "あずみ圭"
+    ],
+    "publishedDate": "2016",
+    "isbn13": "9784434217722",
+    "language": "ja",
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "月が導く異世界道中 あずみ圭 小説",
+    "sourceIds": {
+      "googleBooksId": "dTqDzwEACAAJ"
+    },
+    "updatedAt": "2026-04-10T15:00:57.546Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "light_novel",
+      "l3Id": "isekai"
+    }
+  },
+  {
+    "id": "9784798614151",
+    "title": "異世界はスマートフォンとともに。8",
+    "authors": [
+      "冬原パトラ"
+    ],
+    "publishedDate": "2017-03",
+    "isbn13": "9784798614151",
+    "language": "ja",
+    "pageCount": 311,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "異世界はスマートフォンとともに。8 冬原パトラ 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=8efUAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "8efUAQAACAAJ"
+    },
+    "updatedAt": "2026-04-10T15:00:58.516Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "light_novel",
+      "l3Id": "isekai"
+    }
+  },
+  {
+    "id": "Q-U1AQAAIAAJ",
+    "title": "日本SF・幼年期の終り",
+    "subtitle": "「世界SF全集」月報より",
+    "authors": [
+      "早川書房編集部"
+    ],
+    "publishedDate": "2007-08",
+    "language": "ja",
+    "pageCount": 250,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "日本SF・幼年期の終り 「世界SF全集」月報より 早川書房編集部 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=Q-U1AQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "Q-U1AQAAIAAJ"
+    },
+    "updatedAt": "2026-04-10T15:00:59.944Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "classic"
+    }
+  },
+  {
+    "id": "9784866750392",
+    "title": "星界の紋章",
+    "subtitle": "6",
+    "authors": [
+      "米村孝一郎"
+    ],
+    "publishedDate": "2018",
+    "isbn13": "9784866750392",
+    "language": "ja",
+    "pageCount": 151,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "星界の紋章 6 米村孝一郎 小説",
+    "sourceIds": {
+      "googleBooksId": "E15cwAEACAAJ"
+    },
+    "updatedAt": "2026-04-10T15:01:01.637Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "hard_sf"
+    }
+  },
+  {
+    "id": "9784047276727",
+    "title": "まおゆう魔王勇者",
+    "subtitle": "あの丘の向こうに",
+    "authors": [
+      "橙乃ままれ"
+    ],
+    "publisher": "エンターブレイン",
+    "publishedDate": "2012-02-02",
+    "isbn13": "9784047276727",
+    "language": "ja",
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "まおゆう魔王勇者 あの丘の向こうに 橙乃ままれ エンターブレイン 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=v8alzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "v8alzwEACAAJ"
+    },
+    "updatedAt": "2026-04-10T15:01:04.926Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "fantasy"
+    }
+  },
+  {
+    "id": "9784063101621",
+    "title": "十二国記",
+    "subtitle": "風の海迷宮の岸一章 - 二章",
+    "authors": [
+      "不由美·小野",
+      "桃原鄉"
+    ],
+    "publishedDate": "2003",
+    "isbn13": "9784063101621",
+    "language": "ja",
+    "pageCount": 139,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "十二国記 風の海迷宮の岸一章 - 二章 不由美·小野 桃原鄉 小説",
+    "sourceIds": {
+      "googleBooksId": "awttPgAACAAJ"
+    },
+    "updatedAt": "2026-04-10T15:01:07.192Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "fantasy"
+    }
+  },
+  {
+    "id": "dU-5XwAACAAJ",
+    "title": "太閤記",
+    "subtitle": "史伝小說",
+    "authors": [
+      "秋浦·松田"
+    ],
+    "publishedDate": "1903",
+    "language": "ja",
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "太閤記 史伝小說 秋浦·松田 小説",
+    "sourceIds": {
+      "googleBooksId": "dU-5XwAACAAJ"
+    },
+    "updatedAt": "2026-04-10T15:01:08.270Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical",
+      "l3Id": "jidai"
+    }
+  },
+  {
+    "id": "9784309266152",
+    "title": "ZOO",
+    "subtitle": "愛を下さい",
+    "authors": [
+      "辻仁成"
+    ],
+    "publishedDate": "2002-12",
+    "isbn13": "9784309266152",
+    "language": "ja",
+    "pageCount": 64,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "ZOO 愛を下さい 辻仁成 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=TdlrPQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "TdlrPQAACAAJ"
+    },
+    "updatedAt": "2026-04-10T15:01:09.256Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "horror",
+      "l3Id": "other"
+    }
+  },
+  {
+    "id": "9784101104096",
+    "title": "白い巨塔",
+    "subtitle": "上卷",
+    "authors": [],
+    "publishedDate": "1978",
+    "isbn13": "9784101104096",
+    "language": "ja",
+    "pageCount": 455,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "白い巨塔 上卷 小説",
+    "sourceIds": {
+      "googleBooksId": "ewsnzQEACAAJ"
+    },
+    "updatedAt": "2026-04-10T15:02:19.582Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "social"
+    }
+  },
+  {
+    "id": "9784101104287",
+    "title": "沈まぬ太陽",
+    "subtitle": "御巣鷹山篇",
+    "authors": [
+      "山崎豊子"
+    ],
+    "publishedDate": "2002",
+    "isbn13": "9784101104287",
+    "language": "ja",
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "沈まぬ太陽 御巣鷹山篇 山崎豊子 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=CReqxwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "CReqxwEACAAJ"
+    },
+    "updatedAt": "2026-04-10T15:02:21.111Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "social"
+    }
+  },
+  {
+    "id": "9784622039709",
+    "title": "夜と霧",
+    "authors": [
+      "ヴィクトール・E. フランクル"
+    ],
+    "publishedDate": "2002-11",
+    "isbn13": "9784622039709",
+    "language": "ja",
+    "pageCount": 169,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "夜と霧 ヴィクトール・E. フランクル 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=8jDgAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "8jDgAQAACAAJ"
+    },
+    "updatedAt": "2026-04-10T15:02:22.056Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "foreign",
+      "l3Id": "classic"
+    }
+  },
+  {
+    "id": "9784003243527",
+    "title": "車輪の下",
+    "authors": [
+      "ヘッセ,H."
+    ],
+    "publishedDate": "1958-01",
+    "isbn13": "9784003243527",
+    "language": "ja",
+    "pageCount": 234,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "車輪の下 ヘッセ,H. 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=0YJfOQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "0YJfOQAACAAJ"
+    },
+    "updatedAt": "2026-04-10T15:02:23.716Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "foreign",
+      "l3Id": "classic"
+    }
+  },
+  {
+    "id": "9784074241545",
+    "title": "ナイツ＆マジック　７",
+    "authors": [
+      "天酒之瓢"
+    ],
+    "publisher": "主婦の友社",
+    "publishedDate": "2017-03-25",
+    "isbn13": "9784074241545",
+    "language": "ja",
+    "pageCount": 244,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "ナイツ＆マジック　７ 天酒之瓢 主婦の友社 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=nz8oDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "nz8oDwAAQBAJ"
+    },
+    "updatedAt": "2026-04-10T15:02:24.665Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "light_novel",
+      "l3Id": "isekai"
+    }
+  },
+  {
+    "id": "9784003390511",
+    "title": "天体の回転について",
+    "authors": [
+      "コペルニクス"
+    ],
+    "publishedDate": "1953-05",
+    "isbn13": "9784003390511",
+    "language": "ja",
+    "pageCount": 153,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "天体の回転について コペルニクス 小説",
+    "sourceIds": {
+      "googleBooksId": "4RDvNAEACAAJ"
+    },
+    "updatedAt": "2026-04-10T15:02:27.450Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "hard_sf"
+    }
+  },
+  {
+    "id": "1zRTDwAAQBAJ",
+    "title": "異邦人",
+    "authors": [
+      "原田マハ"
+    ],
+    "publisher": "PHP研究所",
+    "publishedDate": "2018-03-08",
+    "language": "ja",
+    "pageCount": 238,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "異邦人 原田マハ 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=1zRTDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "1zRTDwAAQBAJ"
+    },
+    "updatedAt": "2026-04-10T15:03:13.085Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "foreign",
+      "l3Id": "classic"
+    }
+  },
+  {
+    "id": "9784102100042",
+    "title": "老人と海",
+    "authors": [
+      "ヘミングウェイ,E.",
+      "Ernest Hemingway"
+    ],
+    "publisher": "Shinchosha/Tsai Fong Books",
+    "publishedDate": "1980",
+    "isbn13": "9784102100042",
+    "language": "ja",
+    "pageCount": 134,
+    "categories": [
+      "小説"
+    ],
+    "keywords": [
+      "小説"
+    ],
+    "searchableText": "老人と海 ヘミングウェイ,E. Ernest Hemingway 小説",
+    "thumbnailUrl": "https://books.google.com/books/content?id=QrXRSQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "sourceIds": {
+      "googleBooksId": "QrXRSQAACAAJ"
+    },
+    "updatedAt": "2026-04-10T15:03:14.013Z",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "foreign",
+      "l3Id": "classic"
+    }
   }
 ]
