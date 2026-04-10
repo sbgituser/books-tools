@@ -265868,7 +265868,9 @@
   {
     "id": "manga-batch6-忍空",
     "title": "忍空",
-    "authors": [],
+    "authors": [
+      "桐山光侍"
+    ],
     "language": "ja",
     "categories": [
       "漫画"
@@ -265877,19 +265879,27 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "忍空 漫画 コミック",
-    "sourceIds": {},
-    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "searchableText": "忍空 桐山光侍 集英社 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "gDLICwAAQBAJ"
+    },
+    "updatedAt": "2026-04-10T14:32:01.077Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "shonen",
       "l3Id": "battle"
-    }
+    },
+    "publisher": "集英社",
+    "publishedDate": "2006-11-17",
+    "pageCount": 307,
+    "thumbnailUrl": "https://books.google.com/books/content?id=gDLICwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
-    "id": "manga-batch6-冒険王ビィト",
+    "id": "9784088732909",
     "title": "冒険王ビィト",
-    "authors": [],
+    "authors": [
+      "浩司·稲田"
+    ],
     "language": "ja",
     "categories": [
       "漫画"
@@ -265898,14 +265908,20 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "冒険王ビィト 漫画 コミック",
-    "sourceIds": {},
-    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "searchableText": "冒険王ビィト 浩司·稲田 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "rEkLfAEACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:32:02.070Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "shonen",
       "l3Id": "fantasy"
-    }
+    },
+    "isbn13": "9784088732909",
+    "isbn10": "4088732901",
+    "publishedDate": "2002",
+    "pageCount": 168
   },
   {
     "id": "manga-batch6-ラディアン",
@@ -265954,7 +265970,9 @@
   {
     "id": "manga-batch6-戦隊大失格",
     "title": "戦隊大失格",
-    "authors": [],
+    "authors": [
+      "春場ねぎ"
+    ],
     "language": "ja",
     "categories": [
       "漫画"
@@ -265963,19 +265981,27 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "戦隊大失格 漫画 コミック",
-    "sourceIds": {},
-    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "searchableText": "戦隊大失格 春場ねぎ 講談社 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "i8MnEAAAQBAJ"
+    },
+    "updatedAt": "2026-04-10T14:32:03.067Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "shonen",
       "l3Id": "battle"
-    }
+    },
+    "publisher": "講談社",
+    "publishedDate": "2021-04-16",
+    "pageCount": 195,
+    "thumbnailUrl": "https://books.google.com/books/content?id=i8MnEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
-    "id": "manga-batch6-SAMURAIDEEPERKYO",
+    "id": "9784063708752",
     "title": "SAMURAI DEEPER KYO",
-    "authors": [],
+    "authors": [
+      "明峰·上条"
+    ],
     "language": "ja",
     "categories": [
       "漫画"
@@ -265984,14 +266010,20 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "SAMURAI DEEPER KYO 漫画 コミック",
-    "sourceIds": {},
-    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "searchableText": "SAMURAI DEEPER KYO 明峰·上条 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "R_dDngEACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:32:04.131Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "shonen",
       "l3Id": "battle"
-    }
+    },
+    "isbn13": "9784063708752",
+    "isbn10": "4063708756",
+    "publishedDate": "2013",
+    "pageCount": 389
   },
   {
     "id": "manga-batch6-バスタード",
@@ -266150,7 +266182,9 @@
   {
     "id": "manga-batch6-DAYS",
     "title": "DAYS",
-    "authors": [],
+    "authors": [
+      "森川心"
+    ],
     "language": "ja",
     "categories": [
       "漫画"
@@ -266159,14 +266193,19 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "DAYS 漫画 コミック",
-    "sourceIds": {},
-    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "searchableText": "DAYS 森川心 ナンバーナイン 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "UT1ZEQAAQBAJ"
+    },
+    "updatedAt": "2026-04-10T14:32:05.154Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "shonen",
       "l3Id": "sports"
-    }
+    },
+    "publisher": "ナンバーナイン",
+    "pageCount": 118,
+    "thumbnailUrl": "https://books.google.com/books/content?id=UT1ZEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "manga-batch6-ALLOUT",
@@ -266215,7 +266254,9 @@
   {
     "id": "manga-batch6-MIX",
     "title": "MIX",
-    "authors": [],
+    "authors": [
+      "あだち充"
+    ],
     "language": "ja",
     "categories": [
       "漫画"
@@ -266224,14 +266265,20 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "MIX 漫画 コミック",
-    "sourceIds": {},
-    "updatedAt": "2026-04-09T13:02:12.053Z",
+    "searchableText": "MIX あだち充 小学館 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "8XXgDQAAQBAJ"
+    },
+    "updatedAt": "2026-04-10T14:32:06.792Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "shonen",
       "l3Id": "sports"
-    }
+    },
+    "publisher": "小学館",
+    "publishedDate": "2012-10-12",
+    "pageCount": 189,
+    "thumbnailUrl": "https://books.google.com/books/content?id=8XXgDQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
   },
   {
     "id": "manga-batch6-シュート",
@@ -266346,7 +266393,9 @@
   {
     "id": "manga-batch6-ANGELVOICE",
     "title": "ANGEL VOICE",
-    "authors": [],
+    "authors": [
+      "古谷野孝雄"
+    ],
     "language": "ja",
     "categories": [
       "漫画"
@@ -266355,14 +266404,20 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "ANGEL VOICE 漫画 コミック",
-    "sourceIds": {},
-    "updatedAt": "2026-04-09T13:02:12.054Z",
+    "searchableText": "ANGEL VOICE 古谷野孝雄 秋田書店 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "x4PWDAAAQBAJ"
+    },
+    "updatedAt": "2026-04-10T14:32:08.317Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "shonen",
       "l3Id": "sports"
-    }
+    },
+    "publisher": "秋田書店",
+    "publishedDate": "2008-12-08",
+    "pageCount": 190,
+    "thumbnailUrl": "https://books.google.com/books/content?id=x4PWDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "manga-batch6-ウマ娘シンデレラグレイ",
@@ -266915,9 +266970,11 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=5ivvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
-    "id": "manga-batch6-喧嘩商売",
+    "id": "9784063779158",
     "title": "喧嘩商売",
-    "authors": [],
+    "authors": [
+      "康昭·木多"
+    ],
     "language": "ja",
     "categories": [
       "漫画"
@@ -266926,14 +266983,19 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "喧嘩商売 漫画 コミック",
-    "sourceIds": {},
-    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "searchableText": "喧嘩商売 康昭·木多 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "m8BJnwEACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:32:09.549Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "seinen",
       "l3Id": "battle"
-    }
+    },
+    "isbn13": "9784063779158",
+    "isbn10": "4063779157",
+    "publishedDate": "2013"
   },
   {
     "id": "manga-batch6-ナニワ金融道",
@@ -266958,9 +267020,11 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=7gCnCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
-    "id": "manga-batch6-ミナミの帝王",
+    "id": "9784537154344",
     "title": "ミナミの帝王",
-    "authors": [],
+    "authors": [
+      "力也·鄉"
+    ],
     "language": "ja",
     "categories": [
       "漫画"
@@ -266969,14 +267033,20 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "ミナミの帝王 漫画 コミック",
-    "sourceIds": {},
-    "updatedAt": "2026-04-09T13:02:12.055Z",
+    "searchableText": "ミナミの帝王 力也·鄉 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "n56WMwEACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:32:11.140Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "seinen",
       "l3Id": "mystery"
-    }
+    },
+    "isbn13": "9784537154344",
+    "isbn10": "4537154349",
+    "publishedDate": "2007",
+    "pageCount": 208
   },
   {
     "id": "manga-batch6-ナンバMG5",
@@ -267441,9 +267511,11 @@
     "thumbnailUrl": "https://books.google.com/books/content?id=8rTpEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
-    "id": "manga-batch6-久保さんは僕を許さない",
+    "id": "9784088914763",
     "title": "久保さんは僕を許さない",
-    "authors": [],
+    "authors": [
+      "雪森寧々"
+    ],
     "language": "ja",
     "categories": [
       "漫画"
@@ -267452,14 +267524,20 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "久保さんは僕を許さない 漫画 コミック",
-    "sourceIds": {},
-    "updatedAt": "2026-04-09T13:02:12.056Z",
+    "searchableText": "久保さんは僕を許さない 雪森寧々 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "Y9l_zQEACAAJ"
+    },
+    "updatedAt": "2026-04-10T14:32:12.215Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "shojo",
       "l3Id": "romcom"
-    }
+    },
+    "isbn13": "9784088914763",
+    "isbn10": "4088914767",
+    "publishedDate": "2020-02",
+    "pageCount": 166
   },
   {
     "id": "manga-batch6-しあわせは食べて寝て待て",
@@ -267706,7 +267784,9 @@
   {
     "id": "manga-batch6-鉄鍋のジャン",
     "title": "鉄鍋のジャン",
-    "authors": [],
+    "authors": [
+      "西条　真二"
+    ],
     "language": "ja",
     "categories": [
       "漫画"
@@ -267715,14 +267795,20 @@
       "漫画",
       "コミック"
     ],
-    "searchableText": "鉄鍋のジャン 漫画 コミック",
-    "sourceIds": {},
-    "updatedAt": "2026-04-09T13:02:12.056Z",
+    "searchableText": "鉄鍋のジャン 西条　真二 KADOKAWA 漫画 コミック",
+    "sourceIds": {
+      "googleBooksId": "oJAmDwAAQBAJ"
+    },
+    "updatedAt": "2026-04-10T14:32:13.163Z",
     "manualClassification": {
       "l1Id": "manga",
       "l2Id": "shonen",
       "l3Id": "gourmet"
-    }
+    },
+    "publisher": "KADOKAWA",
+    "publishedDate": "2017-06-09",
+    "pageCount": 169,
+    "thumbnailUrl": "https://books.google.com/books/content?id=oJAmDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
   {
     "id": "manga-batch6-ラーメン才遊記",
