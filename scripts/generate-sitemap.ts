@@ -168,6 +168,8 @@ function main() {
     ...PRESET_SEARCHES.map((p) =>
       urlEntry(`${SITE_URL}/manga/by-mood/${p.slug}`, today, "weekly", 0.75),
     ),
+    // コレクション
+    urlEntry(`${SITE_URL}/collections/adventure-manga`, today, "weekly", 0.8),
     urlEntry(`${SITE_URL}/tools/literary-awards`, today, "weekly", 0.85),
     ...LITERARY_AWARDS.map((a) =>
       urlEntry(`${SITE_URL}/tools/literary-awards/${a.id}`, today, "monthly", 0.8),

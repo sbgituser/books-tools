@@ -434,7 +434,7 @@ export default function HomePage() {
               {[
                 { title: "ファンタジー漫画おすすめ30選", desc: "異世界・ダークファンタジー・冒険ファンタジーの名作を厳選", href: "/blog/fantasy-manga-recommendations", emoji: "🐉" },
                 { title: "春アニメ原作ガイド全60作品", desc: "2026年4月放送開始アニメの原作漫画・ラノベを完全網羅", href: "/blog/spring-anime-2026-original-manga", emoji: "📺" },
-                { title: "冒険漫画おすすめ15選", desc: "壮大な旅と仲間の絆を描く名作を厳選", href: "/blog/adventure-manga-recommendations", emoji: "⚔️" },
+                { title: "冒険漫画おすすめ厳選20選", desc: "ファンタジー×冒険の名作・最新作を網羅", href: "/collections/adventure-manga", emoji: "⚔️" },
                 { title: "魔法小説おすすめ12選", desc: "ハリー・ポッターから和風ファンタジーまで", href: "/blog/magic-fantasy-novel-recommendations", emoji: "✨" },
               ].map((item) => (
                 <Link

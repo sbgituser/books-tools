@@ -107,10 +107,10 @@ const L2_SEO: Record<string, { title: string; desc: string; longDesc: string; h1
     h1: "科学小説おすすめ — サイエンスの世界を楽しむ読書ガイド",
   },
   fantasy: {
-    title: "ファンタジー漫画・小説おすすめ厳選【2026年最新】異世界・魔法・冒険の人気作品",
-    desc: "ファンタジー漫画・ファンタジー小説のおすすめを厳選紹介。2026年春アニメ化作品（転スラ4期・リゼロ4th・黄泉のツガイ）、異世界転生、魔法バトル、冒険ファンタジーの人気作から名作まで。初心者向け入門ガイド・サブジャンル別の選び方付き。",
-    longDesc: "ファンタジー漫画・ファンタジー小説の中から厳選したおすすめ作品を紹介。異世界転生・魔法・冒険・ダークファンタジーなど壮大な世界観の人気作から名作まで幅広く揃えています。2026年春アニメ化されるファンタジー原作（転スラ4期・リゼロ4th・黄泉のツガイ等）もカバー。「どの作品から読む？」初心者でも選びやすいジャンル別ガイド付きです。",
-    h1: "ファンタジー漫画・小説おすすめ【2026年最新】異世界・魔法・冒険の人気作品",
+    title: "ファンタジー漫画（ファンタジーマンガ）おすすめ厳選【2026年最新】異世界・魔法・冒険の人気作品",
+    desc: "ファンタジー漫画（ファンタジーマンガ）・ファンタジー小説のおすすめを厳選紹介。2026年春アニメ化作品（転スラ4期・リゼロ4th・黄泉のツガイ）、異世界転生、魔法バトル、冒険ファンタジーの人気作から名作まで。初心者向け入門ガイド・サブジャンル別の選び方付き。",
+    longDesc: "ファンタジー漫画（ファンタジーマンガ）・ファンタジー小説の中から厳選したおすすめ作品を紹介。異世界転生・魔法・冒険・ダークファンタジーなど壮大な世界観の人気作から名作まで幅広く揃えています。2026年春アニメ化されるファンタジー原作（転スラ4期・リゼロ4th・黄泉のツガイ等）もカバー。「どの作品から読む？」初心者でも選びやすいジャンル別ガイド付きです。",
+    h1: "ファンタジー漫画（ファンタジーマンガ）おすすめ【2026年最新】異世界・魔法・冒険の人気作品",
   },
   romance: {
     title: "恋愛小説おすすめ厳選｜純愛・ラブコメ・切ない恋愛の名作",
@@ -367,6 +367,32 @@ export default async function GenreDetailPage({
         {/* ── ファンタジー特集セクション ─────────────────────── */}
         {l2Id === "fantasy" && (
           <>
+            {/* 関連タグナビ */}
+            <section className="max-w-4xl mx-auto px-4 pt-8 pb-2">
+              <div className="flex flex-wrap gap-2">
+                {[
+                  { label: "ファンタジー", href: "/genre/fantasy", active: true },
+                  { label: "冒険漫画", href: "/collections/adventure-manga", active: false },
+                  { label: "バトル", href: "/genre/shonen", active: false },
+                  { label: "異世界", href: "/discover?tag=%E4%B8%96%E7%95%8C%E8%A6%B3%E9%87%8D%E8%A6%96", active: false },
+                  { label: "SF", href: "/genre/sf", active: false },
+                  { label: "魔法小説", href: "/blog/magic-fantasy-novel-recommendations", active: false },
+                ].map((tag) => (
+                  <Link
+                    key={tag.label}
+                    href={tag.href}
+                    className={`px-3 py-1.5 rounded-full text-xs font-semibold transition-colors ${
+                      tag.active
+                        ? "bg-amber-500 text-white"
+                        : "bg-stone-100 text-stone-600 hover:bg-amber-100 hover:text-amber-700"
+                    }`}
+                  >
+                    #{tag.label}
+                  </Link>
+                ))}
+              </div>
+            </section>
+
             {/* リッチリード文 */}
             <section className="max-w-4xl mx-auto px-4 pt-10 sm:pt-14 pb-6">
               <div className="bg-white border border-stone-200 rounded-2xl p-6 sm:p-8">
@@ -454,7 +480,7 @@ export default async function GenreDetailPage({
               </div>
               <div className="grid sm:grid-cols-2 gap-3 mt-3">
                 {[
-                  { emoji: "🏰", label: "ハイファンタジー（探索・冒険）", desc: "ダンジョン飯、とんがり帽子のアトリエ、十二国記など。緻密な世界設定と探索の楽しさが魅力。", blogLink: "/blog/adventure-manga-recommendations", blogLabel: "冒険漫画おすすめ15選" },
+                  { emoji: "🏰", label: "ハイファンタジー（探索・冒険）", desc: "ダンジョン飯、とんがり帽子のアトリエ、十二国記など。緻密な世界設定と探索の楽しさが魅力。", blogLink: "/collections/adventure-manga", blogLabel: "冒険漫画おすすめ厳選20選" },
                   { emoji: "✨", label: "現代ファンタジー・魔法系", desc: "ハリー・ポッター、魔法使いの嫁、かがみの孤城など。現代を舞台に魔法や不思議な力が交差する物語。", blogLink: "/blog/magic-fantasy-novel-recommendations", blogLabel: "魔法小説おすすめ12選" },
                 ].map((sub) => (
                   <div key={sub.label} className="bg-white border border-stone-200 rounded-xl p-5">
@@ -495,8 +521,11 @@ export default async function GenreDetailPage({
                   <Link href="/blog/fantasy-manga-recommendations" className="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-700 bg-amber-50 border border-amber-200 rounded-full px-3 py-1.5 hover:bg-amber-100 transition-colors">
                     ファンタジー漫画おすすめ30選 →
                   </Link>
+                  <Link href="/collections/adventure-manga" className="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-700 bg-amber-50 border border-amber-200 rounded-full px-3 py-1.5 hover:bg-amber-100 transition-colors">
+                    冒険漫画おすすめ厳選20選 →
+                  </Link>
                   <Link href="/blog/adventure-manga-recommendations" className="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-700 bg-amber-50 border border-amber-200 rounded-full px-3 py-1.5 hover:bg-amber-100 transition-colors">
-                    冒険漫画おすすめ15選 →
+                    冒険漫画ブログ記事15選 →
                   </Link>
                   <Link href="/blog/magic-fantasy-novel-recommendations" className="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-700 bg-amber-50 border border-amber-200 rounded-full px-3 py-1.5 hover:bg-amber-100 transition-colors">
                     魔法小説おすすめ12選 →
