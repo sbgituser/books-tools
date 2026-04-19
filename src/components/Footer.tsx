@@ -18,6 +18,9 @@ export default function Footer() {
           <nav className="space-y-1.5" aria-label="本を探す">
             <p className="text-stone-300 text-xs font-bold mb-2">本を探す</p>
             <Link href="/discover" className="block text-stone-400 hover:text-white text-xs transition-colors">気分で探す</Link>
+            <Link href="/discover/by-mood" className="block text-stone-400 hover:text-white text-xs transition-colors">気分別ガイド</Link>
+            <Link href="/discover/by-author" className="block text-stone-400 hover:text-white text-xs transition-colors">著者別ガイド</Link>
+            <Link href="/discover/new-releases" className="block text-stone-400 hover:text-white text-xs transition-colors">新着まとめ</Link>
             <Link href="/genre" className="block text-stone-400 hover:text-white text-xs transition-colors">ジャンルから探す</Link>
             <Link href="/scene" className="block text-stone-400 hover:text-white text-xs transition-colors">シーンで探す</Link>
             <Link href="/search" className="block text-stone-400 hover:text-white text-xs transition-colors">キーワード検索</Link>
@@ -35,6 +38,21 @@ export default function Footer() {
             <Link href="/" className="block text-stone-400 hover:text-white text-xs transition-colors">ホーム</Link>
             <Link href="/privacy" className="block text-stone-400 hover:text-white text-xs transition-colors">プライバシーポリシー</Link>
             <Link href="/contact" className="block text-stone-400 hover:text-white text-xs transition-colors">お問い合わせ</Link>
+          </nav>
+        </div>
+
+        <div className="border-t border-stone-800 pt-6 mb-6">
+          <p className="text-stone-300 text-xs font-bold mb-2">姉妹サイト</p>
+          <nav className="space-y-1.5" aria-label="姉妹サイト">
+            <a href="https://side-job-calc.kuras-plus.com" target="_blank" rel="noopener noreferrer" className="block text-stone-400 hover:text-white text-xs transition-colors">
+              副業手取りシミュレーター — 副業の税金・手取りを自動計算
+            </a>
+            <a href="https://side-job-calc.kuras-plus.com/tedori-simulation" target="_blank" rel="noopener noreferrer" className="block text-stone-400 hover:text-white text-xs transition-colors">
+              手取りシミュレーション（所得税・住民税・社会保険料）
+            </a>
+            <a href="https://side-job-calc.kuras-plus.com/income-wall" target="_blank" rel="noopener noreferrer" className="block text-stone-400 hover:text-white text-xs transition-colors">
+              年収の壁シミュレーション（103万・130万・178万）
+            </a>
           </nav>
         </div>
 
