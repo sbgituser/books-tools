@@ -98,9 +98,9 @@ export default function SimilarWorksSection({ similar }: Props) {
       {/* セクションヘッダー */}
       <div className="flex items-center gap-3 mb-5">
         <span className="w-1 h-6 bg-violet-500 rounded-full shrink-0" aria-hidden="true" />
-        <h2 className="text-lg font-bold text-stone-800">似た作品</h2>
+        <h2 className="text-lg font-bold text-stone-800">この作品が好きな人におすすめ</h2>
         <span className="text-xs text-stone-400 font-normal">
-          この作品から広げて探す
+          似た雰囲気の作品を探す
         </span>
       </div>
 

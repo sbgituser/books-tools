@@ -397,6 +397,17 @@ export default async function WorkDetailPage({
     })),
   } : null;
 
+  // JSON-LD 用の関連作品リンク
+  const relatedLinks = similar?.groups
+    .flatMap((g) => g.items)
+    .slice(0, 5)
+    .map((item) => ({
+      "@type": "Book",
+      name: item.title,
+      author: { "@type": "Person", name: item.authorDisplay },
+      url: `${SITE_URL}/works/${item.fileId}`,
+    })) ?? [];
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Book",
@@ -410,6 +421,7 @@ export default async function WorkDetailPage({
     bookFormat: "https://schema.org/EBook",
     ...(work.l2Id ? { genre: L2_LABEL[work.l2Id] ?? work.l2Id } : {}),
     url: workUrl,
+    ...(relatedLinks.length > 0 ? { isRelatedTo: relatedLinks } : {}),
   };
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
