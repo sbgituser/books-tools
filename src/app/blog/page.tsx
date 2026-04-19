@@ -5,6 +5,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { formatDateLabel, getAllBlogMeta, getBlogCanonical } from "@/lib/blog";
+import type { BlogMeta } from "@/lib/blog";
 import { BLOG_DESCRIPTION, SITE_NAME, TOOL_LINKS } from "@/lib/site";
 import BlogIndexClient from "@/components/blog/BlogIndexClient";
 
@@ -34,6 +35,30 @@ function getFeaturedWorks(): FeaturedWork[] {
   }
 }
 
+// カテゴリ定義（SSRセクション用）
+const BLOG_CATEGORIES = [
+  { id: "mystery", label: "ミステリー・推理", icon: "🔍", tags: ["ミステリー", "日本ミステリー", "本格ミステリー", "ミステリー小説", "推理小説", "推理", "社会派ミステリー", "海外ミステリー", "どんでん返し", "サスペンス"] },
+  { id: "sf-fantasy", label: "SF・ファンタジー", icon: "🚀", tags: ["SF小説", "海外SF", "SF", "ファンタジー", "ファンタジー小説", "異世界小説", "ダークファンタジー"] },
+  { id: "manga", label: "漫画", icon: "🎨", tags: ["漫画", "おすすめ漫画", "少年漫画", "泣ける漫画", "恋愛漫画", "ファンタジー漫画", "バトル漫画", "青年漫画", "少女漫画"] },
+  { id: "novel", label: "小説・文学", icon: "📖", tags: ["おすすめ小説", "小説", "日本文学", "文学", "恋愛", "青春小説", "歴史小説", "時代小説", "ホラー小説"] },
+  { id: "guide", label: "読書ガイド・入門", icon: "📚", tags: ["初心者向け", "読書初心者", "読書", "読む順番", "読書術", "本選び", "ガイド", "ジャンル別"] },
+  { id: "author", label: "著者別", icon: "✏️", tags: ["作家別ガイド", "著者別"] },
+  { id: "scene", label: "シーン別", icon: "🎬", tags: ["通勤読書", "寝る前", "休日", "旅行", "カフェ読書"] },
+  { id: "trend", label: "トレンド", icon: "🔥", tags: ["話題作", "新刊", "ベストセラー", "映像化", "本屋大賞"] },
+] as const;
+
+function getCategorizedPosts(posts: BlogMeta[]) {
+  return BLOG_CATEGORIES.map((cat) => {
+    const catPosts = posts.filter((p) => p.tags.some((tag) => (cat.tags as readonly string[]).includes(tag)));
+    return { ...cat, posts: catPosts.slice(0, 10), total: catPosts.length };
+  }).filter((c) => c.posts.length > 0);
+}
+
+function getLatestDate(posts: BlogMeta[]): string {
+  if (posts.length === 0) return new Date().toISOString().substring(0, 10);
+  return (posts[0].updated ?? posts[0].date).substring(0, 10);
+}
+
 export const metadata: Metadata = {
   title: "読書ブログ｜小説・漫画のおすすめ＆読書ガイド",
   description: BLOG_DESCRIPTION,
@@ -56,17 +81,31 @@ export const metadata: Metadata = {
 
 export default function BlogIndexPage() {
   const posts = getAllBlogMeta();
+  const categorized = getCategorizedPosts(posts);
+  const latestDate = getLatestDate(posts);
+
   const collectionJsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: "Books Tools Blog",
+    name: "読書ブログ｜小説・漫画のおすすめ＆読書ガイド",
     url: getBlogCanonical(),
     description: BLOG_DESCRIPTION,
-    hasPart: posts.slice(0, 20).map((post) => ({
-      "@type": "BlogPosting",
-      headline: post.title,
-      url: getBlogCanonical(post.slug),
-      datePublished: post.date,
+    numberOfItems: posts.length,
+    dateModified: latestDate,
+    hasPart: categorized.map((cat) => ({
+      "@type": "ItemList",
+      name: cat.label,
+      numberOfItems: cat.total,
+      itemListElement: cat.posts.slice(0, 5).map((post, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        item: {
+          "@type": "BlogPosting",
+          headline: post.title,
+          url: getBlogCanonical(post.slug),
+          datePublished: post.date,
+        },
+      })),
     })),
   };
   const breadcrumbJsonLd = {
@@ -98,6 +137,9 @@ export default function BlogIndexPage() {
             ミステリー・SF・ファンタジーなどジャンル別のおすすめ作品、人気作家の読む順番ガイド、初心者向けの読書入門まで。
             気になるカテゴリからお好みの記事を探せます。
           </p>
+          <p className="text-xs text-stone-400 mt-2">
+            全 {posts.length} 記事 ・ 最終更新 {formatDateLabel(latestDate)}
+          </p>
           <div className="mt-4 flex flex-wrap gap-2">
             {TOOL_LINKS.map((tool) => (
               <Link
@@ -111,7 +153,60 @@ export default function BlogIndexPage() {
           </div>
         </div>
 
+        {/* カテゴリジャンプナビ */}
+        {categorized.length > 0 && (
+          <nav className="mb-8 overflow-x-auto -mx-4 px-4" aria-label="カテゴリナビゲーション">
+            <div className="flex gap-2 min-w-max">
+              {categorized.map((cat) => (
+                <a
+                  key={cat.id}
+                  href={`#cat-${cat.id}`}
+                  className="flex items-center gap-1.5 text-xs px-3 py-2 rounded-full border border-stone-200 bg-white text-stone-700 hover:border-amber-300 hover:bg-amber-50 transition-colors whitespace-nowrap shadow-sm"
+                >
+                  <span aria-hidden="true">{cat.icon}</span>
+                  {cat.label}
+                  <span className="text-stone-400">({cat.total})</span>
+                </a>
+              ))}
+            </div>
+          </nav>
+        )}
+
         <BlogIndexClient posts={posts} />
+
+        {/* カテゴリ別記事セクション（SSR: クローラー向け内部リンク） */}
+        {categorized.length > 0 && (
+          <section className="mt-10 space-y-8">
+            <h2 className="text-xl font-bold text-stone-900">カテゴリ別の記事</h2>
+            {categorized.map((cat) => (
+              <div key={cat.id} id={`cat-${cat.id}`} className="rounded-2xl border border-stone-200 bg-white p-6 shadow-sm scroll-mt-20">
+                <h3 className="text-lg font-bold text-stone-900 mb-1">
+                  <span className="mr-1.5">{cat.icon}</span>
+                  {cat.label}
+                </h3>
+                <p className="text-xs text-stone-400 mb-4">{cat.total} 件の記事</p>
+                <div className="grid gap-3 md:grid-cols-2">
+                  {cat.posts.map((post) => (
+                    <Link
+                      key={post.slug}
+                      href={`/blog/${post.slug}`}
+                      className="block p-3 bg-stone-50 border border-stone-100 rounded-lg hover:border-amber-300 hover:bg-amber-50 transition-all"
+                    >
+                      <p className="text-xs text-stone-400 mb-1">{formatDateLabel(post.date)}</p>
+                      <p className="text-sm font-bold text-stone-800 line-clamp-2 leading-snug">{post.title}</p>
+                      <p className="text-xs text-stone-500 mt-1 line-clamp-1">{post.description}</p>
+                    </Link>
+                  ))}
+                </div>
+                {cat.total > 10 && (
+                  <p className="mt-3 text-xs text-stone-500">
+                    他 {cat.total - 10} 件の記事があります
+                  </p>
+                )}
+              </div>
+            ))}
+          </section>
+        )}
 
         {/* 人気の作品（SSR: クローラー向け内部リンク） */}
         {(() => {
@@ -166,4 +261,3 @@ export default function BlogIndexPage() {
     </>
   );
 }
-

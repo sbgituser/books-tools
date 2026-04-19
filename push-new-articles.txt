@@ -1,0 +1,10 @@
+warning: in the working copy of 'content/blog/2026-03-27-books-for-middle-school.mdx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'content/blog/2026-03-27-naoki-prize-recommendations.mdx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'content/blog/2026-03-27-romance-novel-recommendations.mdx', LF will be replaced by CRLF the next time Git touches it
+[master a085514] SEO: ロングテール新規記事3本追加（直木賞・恋愛小説・中学生おすすめ）
+ 3 files changed, 551 insertions(+)
+ create mode 100644 content/blog/2026-03-27-books-for-middle-school.mdx
+ create mode 100644 content/blog/2026-03-27-naoki-prize-recommendations.mdx
+ create mode 100644 content/blog/2026-03-27-romance-novel-recommendations.mdx
+To https://github.com/sbgituser/books-tools.git
+   55cecb7..a085514  master -> master

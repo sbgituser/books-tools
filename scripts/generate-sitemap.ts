@@ -237,8 +237,11 @@ function main() {
 
   // ── sitemap-blog.xml ────────────────────────────────────────────────────
   const blogPosts = getAllBlogMeta();
+  const blogLatest = blogPosts.length > 0
+    ? (blogPosts[0].updated ?? blogPosts[0].date).substring(0, 10)
+    : today;
   const blogEntries = [
-    urlEntry(`${SITE_URL}/blog`, today, "daily", 0.9),
+    urlEntry(`${SITE_URL}/blog`, blogLatest, "daily", 0.9),
     ...blogPosts.map((post) =>
       urlEntry(
         `${SITE_URL}/blog/${post.slug}`,
@@ -267,15 +270,6 @@ function main() {
   console.log(`✅ sitemap-discover.xml: ${discoverEntries.length} URLs`);
 
   // ── sitemap.xml (インデックス) ──────────────────────────────────────────
-  // ブログ記事の最新lastmod
-  const blogLatest = blogPosts.reduce(
-    (max, p) => {
-      const d = (p.updated ?? p.date).substring(0, 10);
-      return d > max ? d : max;
-    },
-    today,
-  );
-
   const indexXml = buildSitemapIndex([
     { loc: `${SITE_URL}/sitemap-static.xml`, lastmod: today },
     { loc: `${SITE_URL}/sitemap-tools.xml`, lastmod: today },

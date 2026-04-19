@@ -11,6 +11,7 @@ const nextConfig: NextConfig = {
       exclude: ["error"],
     },
   },
+  staticPageGenerationTimeout: 180,
 };
 
 export default nextConfig;

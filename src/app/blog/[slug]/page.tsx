@@ -228,10 +228,10 @@ export default async function BlogDetailPage({ params }: { params: Promise<Param
             </Link>
           </section>
 
-          {/* ジャンルタグ → ジャンルページへのリンク */}
+          {/* おすすめカテゴリ */}
           <section className="mt-6">
-            <p className="text-xs font-bold text-stone-500 mb-2">ジャンルから探す</p>
-            <div className="flex flex-wrap gap-2">
+            <p className="text-xs font-bold text-stone-500 mb-2">おすすめカテゴリ</p>
+            <div className="flex flex-wrap gap-2 mb-3">
               {[
                 { id: "fantasy", label: "ファンタジー" },
                 { id: "mystery", label: "ミステリー" },
@@ -248,6 +248,17 @@ export default async function BlogDetailPage({ params }: { params: Promise<Param
                   {g.label}
                 </Link>
               ))}
+            </div>
+            <div className="flex flex-wrap gap-2">
+              <Link href="/discover/by-mood" className="text-xs px-3 py-1.5 rounded-full bg-rose-50 text-rose-800 border border-rose-200 hover:bg-rose-100 transition-colors">
+                気分で選ぶガイド
+              </Link>
+              <Link href="/discover/by-author" className="text-xs px-3 py-1.5 rounded-full bg-violet-50 text-violet-800 border border-violet-200 hover:bg-violet-100 transition-colors">
+                著者別ガイド
+              </Link>
+              <Link href="/discover/new-releases" className="text-xs px-3 py-1.5 rounded-full bg-sky-50 text-sky-800 border border-sky-200 hover:bg-sky-100 transition-colors">
+                新着まとめ
+              </Link>
             </div>
           </section>
 
