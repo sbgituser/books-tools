@@ -270698,5 +270698,5293 @@
       "l2Id": "foreign",
       "l3Id": "classic"
     }
+  },
+  {
+    "id": "novel-100-001",
+    "title": "アンドロイドは電気羊の夢を見るか？",
+    "authors": [
+      "フィリップ・K・ディック"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "アンドロイドは電気羊の夢を見るか？ フィリップ・K・ディック 早川書房 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "1969",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "ai-tech-sf",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "早川書房",
+    "pageCount": 336,
+    "estimatedReadingHours": 8.4,
+    "moodTags": {
+      "emotionalTags": [
+        "sad"
+      ],
+      "purposeTags": [
+        "thinking",
+        "intellectual"
+      ],
+      "atmosphereTags": [
+        "dark",
+        "extraordinary"
+      ],
+      "paceTag": "普通",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "人間とは何かを問うSF金字塔",
+      "recommendedFor": [
+        "SF好き",
+        "哲学的テーマが好きな人",
+        "映画原作に興味がある人"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-002",
+    "title": "ユービック",
+    "authors": [
+      "フィリップ・K・ディック"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "ユービック フィリップ・K・ディック 早川書房 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "1978",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "ai-tech-sf",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "早川書房",
+    "pageCount": 304,
+    "estimatedReadingHours": 7.6,
+    "moodTags": {
+      "emotionalTags": [
+        "scary"
+      ],
+      "purposeTags": [
+        "thinking",
+        "intellectual"
+      ],
+      "atmosphereTags": [
+        "uneasy",
+        "extraordinary"
+      ],
+      "paceTag": "早い",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "現実崩壊の恐怖を描くディック最高傑作の一つ",
+      "recommendedFor": [
+        "SF好き",
+        "哲学的テーマが好きな人"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-003",
+    "title": "高い城の男",
+    "authors": [
+      "フィリップ・K・ディック"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "高い城の男 フィリップ・K・ディック 早川書房 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "1984",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "near-future",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "早川書房",
+    "pageCount": 320,
+    "estimatedReadingHours": 8,
+    "moodTags": {
+      "purposeTags": [
+        "thinking",
+        "intellectual",
+        "immersive"
+      ],
+      "atmosphereTags": [
+        "uneasy",
+        "extraordinary"
+      ],
+      "paceTag": "遅い",
+      "depthTag": "重い",
+      "readingEaseTag": "読みごたえあり",
+      "completionStatus": "完結",
+      "recommendationCatch": "もし枢軸国が勝っていたら？歴史改変SFの名作",
+      "recommendedFor": [
+        "SF好き",
+        "歴史好き",
+        "ディストピア小説が好きな人"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-004",
+    "title": "虐殺器官",
+    "authors": [
+      "伊藤計劃"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "虐殺器官 伊藤計劃 早川書房 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2007-06",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "near-future",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "早川書房",
+    "pageCount": 320,
+    "estimatedReadingHours": 8,
+    "moodTags": {
+      "emotionalTags": [
+        "hot"
+      ],
+      "purposeTags": [
+        "thinking",
+        "intellectual",
+        "immersive"
+      ],
+      "atmosphereTags": [
+        "dark",
+        "tense",
+        "extraordinary"
+      ],
+      "paceTag": "早い",
+      "depthTag": "重い",
+      "readingEaseTag": "読みごたえあり",
+      "completionStatus": "完結",
+      "recommendationCatch": "言語が虐殺を生む？衝撃の近未来SF",
+      "recommendedFor": [
+        "ハードSF好き",
+        "社会派SF好き",
+        "軍事SF好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-005",
+    "title": "ハーモニー",
+    "authors": [
+      "伊藤計劃"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "ハーモニー 伊藤計劃 早川書房 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2008-12",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "dystopia",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "早川書房",
+    "pageCount": 352,
+    "estimatedReadingHours": 8.8,
+    "moodTags": {
+      "emotionalTags": [
+        "sad"
+      ],
+      "purposeTags": [
+        "thinking",
+        "intellectual"
+      ],
+      "atmosphereTags": [
+        "calm",
+        "extraordinary"
+      ],
+      "paceTag": "普通",
+      "depthTag": "重い",
+      "readingEaseTag": "読みごたえあり",
+      "completionStatus": "完結",
+      "recommendationCatch": "優しさが支配する世界の恐怖を描くディストピアSF",
+      "recommendedFor": [
+        "ディストピア好き",
+        "伊藤計劃ファン",
+        "哲学的SF好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-006",
+    "title": "三体",
+    "authors": [
+      "劉慈欣"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "三体 劉慈欣 早川書房 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2019-07",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "space-sf",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "早川書房",
+    "pageCount": 424,
+    "estimatedReadingHours": 10.6,
+    "moodTags": {
+      "emotionalTags": [
+        "hot"
+      ],
+      "purposeTags": [
+        "thinking",
+        "intellectual",
+        "immersive"
+      ],
+      "atmosphereTags": [
+        "extraordinary",
+        "tense"
+      ],
+      "paceTag": "普通",
+      "depthTag": "重い",
+      "readingEaseTag": "読みごたえあり",
+      "completionStatus": "完結",
+      "recommendationCatch": "異星文明と人類の壮大な対峙を描く宇宙SF",
+      "recommendedFor": [
+        "ハードSF好き",
+        "宇宙SF好き",
+        "壮大な物語が好きな人"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-007",
+    "title": "幼年期の終わり",
+    "authors": [
+      "アーサー・C・クラーク"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "幼年期の終わり アーサー・C・クラーク 早川書房 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "1979",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "space-sf",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "早川書房",
+    "pageCount": 304,
+    "estimatedReadingHours": 7.6,
+    "moodTags": {
+      "emotionalTags": [
+        "emotional",
+        "sad"
+      ],
+      "purposeTags": [
+        "thinking",
+        "intellectual",
+        "immersive"
+      ],
+      "atmosphereTags": [
+        "extraordinary",
+        "profound"
+      ],
+      "paceTag": "遅い",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "人類の進化と終焉を描くSFの古典的名作",
+      "recommendedFor": [
+        "宇宙SF好き",
+        "哲学的SF好き",
+        "古典SF入門に"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-008",
+    "title": "一九八四年",
+    "authors": [
+      "ジョージ・オーウェル"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "一九八四年 ジョージ・オーウェル 早川書房 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2009-07",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "dystopia",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "早川書房",
+    "pageCount": 512,
+    "estimatedReadingHours": 12.8,
+    "moodTags": {
+      "emotionalTags": [
+        "hopeless"
+      ],
+      "purposeTags": [
+        "thinking",
+        "intellectual"
+      ],
+      "atmosphereTags": [
+        "dark",
+        "uneasy"
+      ],
+      "paceTag": "普通",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "全体主義の恐怖を描く不朽のディストピア文学",
+      "recommendedFor": [
+        "ディストピア好き",
+        "社会派小説好き",
+        "古典文学好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-009",
+    "title": "華氏451度",
+    "authors": [
+      "レイ・ブラッドベリ"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "華氏451度 レイ・ブラッドベリ 早川書房 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2014-01",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "dystopia",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "早川書房",
+    "pageCount": 272,
+    "estimatedReadingHours": 6.8,
+    "moodTags": {
+      "emotionalTags": [
+        "hot",
+        "sad"
+      ],
+      "purposeTags": [
+        "thinking",
+        "intellectual"
+      ],
+      "atmosphereTags": [
+        "dark",
+        "extraordinary"
+      ],
+      "paceTag": "早い",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "本を焼く社会が問う、読書と自由の意味",
+      "recommendedFor": [
+        "ディストピア好き",
+        "本好きの人",
+        "SF入門に"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-010",
+    "title": "ソラリス",
+    "authors": [
+      "スタニスワフ・レム"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "ソラリス スタニスワフ・レム 早川書房 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2015-04",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "space-sf",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "早川書房",
+    "pageCount": 448,
+    "estimatedReadingHours": 11.2,
+    "moodTags": {
+      "emotionalTags": [
+        "sad"
+      ],
+      "purposeTags": [
+        "thinking",
+        "intellectual",
+        "immersive"
+      ],
+      "atmosphereTags": [
+        "calm",
+        "extraordinary",
+        "profound"
+      ],
+      "paceTag": "遅い",
+      "depthTag": "重い",
+      "readingEaseTag": "読みごたえあり",
+      "completionStatus": "完結",
+      "recommendationCatch": "異質な知性との遭遇を描く哲学的SF",
+      "recommendedFor": [
+        "哲学的SF好き",
+        "ハードSF好き",
+        "文学的SF好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-011",
+    "title": "新世界より",
+    "authors": [
+      "貴志祐介"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "新世界より 貴志祐介 講談社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2008-01",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "dystopia",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "講談社",
+    "pageCount": 608,
+    "estimatedReadingHours": 15.2,
+    "moodTags": {
+      "emotionalTags": [
+        "scary",
+        "emotional"
+      ],
+      "purposeTags": [
+        "thinking",
+        "immersive",
+        "binge"
+      ],
+      "atmosphereTags": [
+        "dark",
+        "extraordinary",
+        "profound"
+      ],
+      "paceTag": "普通",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "呪力社会に隠された衝撃の真実を描くディストピアSF",
+      "recommendedFor": [
+        "ディストピア好き",
+        "日本SF好き",
+        "壮大な物語好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-012",
+    "title": "All You Need Is Kill",
+    "authors": [
+      "桜坂洋"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "All You Need Is Kill 桜坂洋 集英社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2004-12",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "near-future",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "集英社",
+    "pageCount": 224,
+    "estimatedReadingHours": 5.6,
+    "moodTags": {
+      "emotionalTags": [
+        "hot",
+        "refreshing"
+      ],
+      "purposeTags": [
+        "binge",
+        "easy"
+      ],
+      "atmosphereTags": [
+        "tense",
+        "extraordinary"
+      ],
+      "paceTag": "早い",
+      "depthTag": "中程度",
+      "readingEaseTag": "初心者向け",
+      "completionStatus": "完結",
+      "recommendationCatch": "ループする戦場で最強を目指すSFアクション",
+      "recommendedFor": [
+        "アクション好き",
+        "SF入門に",
+        "映画原作好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-013",
+    "title": "星を継ぐもの",
+    "authors": [
+      "ジェイムズ・P・ホーガン"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "星を継ぐもの ジェイムズ・P・ホーガン 東京創元社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "1980-05",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "hard-sf",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "東京創元社",
+    "pageCount": 304,
+    "estimatedReadingHours": 7.6,
+    "moodTags": {
+      "emotionalTags": [
+        "refreshing"
+      ],
+      "purposeTags": [
+        "thinking",
+        "intellectual",
+        "binge"
+      ],
+      "atmosphereTags": [
+        "extraordinary"
+      ],
+      "paceTag": "普通",
+      "depthTag": "中程度",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "月面の謎を科学で解き明かすハードSFの名作",
+      "recommendedFor": [
+        "ハードSF好き",
+        "SF入門に",
+        "知的好奇心旺盛な人"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-014",
+    "title": "夏への扉",
+    "authors": [
+      "ロバート・A・ハインライン"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "夏への扉 ロバート・A・ハインライン 早川書房 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2010-01",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "near-future",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "早川書房",
+    "pageCount": 320,
+    "estimatedReadingHours": 8,
+    "moodTags": {
+      "emotionalTags": [
+        "refreshing",
+        "positive"
+      ],
+      "purposeTags": [
+        "easy",
+        "binge"
+      ],
+      "atmosphereTags": [
+        "bright"
+      ],
+      "paceTag": "普通",
+      "depthTag": "軽い",
+      "readingEaseTag": "初心者向け",
+      "completionStatus": "完結",
+      "recommendationCatch": "猫と一緒にやり直す、温かなタイムトラベルSF",
+      "recommendedFor": [
+        "SF入門に",
+        "猫好き",
+        "前向きな物語が好きな人"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-015",
+    "title": "タイタンの妖女",
+    "authors": [
+      "カート・ヴォネガット"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "タイタンの妖女 カート・ヴォネガット 早川書房 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2009-02",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "space-sf",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "早川書房",
+    "pageCount": 384,
+    "estimatedReadingHours": 9.6,
+    "moodTags": {
+      "emotionalTags": [
+        "sad"
+      ],
+      "purposeTags": [
+        "thinking",
+        "intellectual"
+      ],
+      "atmosphereTags": [
+        "extraordinary"
+      ],
+      "paceTag": "普通",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "人生の意味を問うヴォネガットの宇宙SF",
+      "recommendedFor": [
+        "文学的SF好き",
+        "ブラックユーモア好き",
+        "哲学好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-016",
+    "title": "月の影 影の海",
+    "authors": [
+      "小野不由美"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "月の影 影の海 小野不由美 新潮社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2012-06",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "adventure-fantasy",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "新潮社",
+    "pageCount": 576,
+    "estimatedReadingHours": 14.4,
+    "moodTags": {
+      "emotionalTags": [
+        "hot",
+        "emotional"
+      ],
+      "purposeTags": [
+        "immersive",
+        "binge"
+      ],
+      "atmosphereTags": [
+        "extraordinary",
+        "tense"
+      ],
+      "paceTag": "普通",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "異世界で王となる少女の壮大な成長物語",
+      "recommendedFor": [
+        "和風ファンタジー好き",
+        "成長物語好き",
+        "本格ファンタジー入門に"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-017",
+    "title": "精霊の守り人",
+    "authors": [
+      "上橋菜穂子"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "精霊の守り人 上橋菜穂子 新潮社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2007-03",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "adventure-fantasy",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "新潮社",
+    "pageCount": 320,
+    "estimatedReadingHours": 8,
+    "moodTags": {
+      "emotionalTags": [
+        "hot",
+        "emotional"
+      ],
+      "purposeTags": [
+        "immersive",
+        "binge"
+      ],
+      "atmosphereTags": [
+        "extraordinary",
+        "tense"
+      ],
+      "paceTag": "普通",
+      "depthTag": "中程度",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "女用心棒が皇子を守る本格冒険ファンタジー",
+      "recommendedFor": [
+        "本格ファンタジー好き",
+        "骨太な物語好き",
+        "守り人シリーズ入門に"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-018",
+    "title": "獣の奏者",
+    "authors": [
+      "上橋菜穂子"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "獣の奏者 上橋菜穂子 講談社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2009-08",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "adventure-fantasy",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "講談社",
+    "pageCount": 336,
+    "estimatedReadingHours": 8.4,
+    "moodTags": {
+      "emotionalTags": [
+        "emotional",
+        "hot"
+      ],
+      "purposeTags": [
+        "immersive",
+        "thinking"
+      ],
+      "atmosphereTags": [
+        "extraordinary",
+        "profound"
+      ],
+      "paceTag": "普通",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "少女と王獣の絆が国の運命を変える壮大な物語",
+      "recommendedFor": [
+        "本格ファンタジー好き",
+        "動物好き",
+        "上橋菜穂子ファン"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-019",
+    "title": "指輪物語 旅の仲間",
+    "authors": [
+      "J.R.R.トールキン"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "指輪物語 旅の仲間 J.R.R.トールキン 評論社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "1992-05",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "adventure-fantasy",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "評論社",
+    "pageCount": 624,
+    "estimatedReadingHours": 15.6,
+    "moodTags": {
+      "emotionalTags": [
+        "hot",
+        "emotional"
+      ],
+      "purposeTags": [
+        "immersive"
+      ],
+      "atmosphereTags": [
+        "extraordinary",
+        "profound"
+      ],
+      "paceTag": "遅い",
+      "depthTag": "重い",
+      "readingEaseTag": "読みごたえあり",
+      "completionStatus": "完結",
+      "recommendationCatch": "すべてのファンタジーの原点にして頂点",
+      "recommendedFor": [
+        "ファンタジー好き",
+        "冒険物語好き",
+        "映画ファン"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-020",
+    "title": "ハリー・ポッターと賢者の石",
+    "authors": [
+      "J.K.ローリング"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "ハリー・ポッターと賢者の石 J.K.ローリング 静山社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "1999-12",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "modern-fantasy",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "静山社",
+    "pageCount": 464,
+    "estimatedReadingHours": 11.6,
+    "moodTags": {
+      "emotionalTags": [
+        "refreshing",
+        "emotional"
+      ],
+      "purposeTags": [
+        "immersive",
+        "binge",
+        "easy"
+      ],
+      "atmosphereTags": [
+        "bright",
+        "extraordinary"
+      ],
+      "paceTag": "早い",
+      "depthTag": "軽い",
+      "readingEaseTag": "初心者向け",
+      "completionStatus": "完結",
+      "recommendationCatch": "魔法学校で始まる冒険と友情の物語",
+      "recommendedFor": [
+        "ファンタジー入門に",
+        "冒険好き",
+        "全年齢"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-021",
+    "title": "ゲド戦記 影との戦い",
+    "authors": [
+      "アーシュラ・K・ル＝グウィン"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "ゲド戦記 影との戦い アーシュラ・K・ル＝グウィン 岩波書店 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2009-01",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "adventure-fantasy",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "岩波書店",
+    "pageCount": 288,
+    "estimatedReadingHours": 7.2,
+    "moodTags": {
+      "emotionalTags": [
+        "emotional"
+      ],
+      "purposeTags": [
+        "thinking",
+        "immersive"
+      ],
+      "atmosphereTags": [
+        "extraordinary",
+        "profound"
+      ],
+      "paceTag": "遅い",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "自らの影と対峙する魔法使いの成長物語",
+      "recommendedFor": [
+        "本格ファンタジー好き",
+        "哲学好き",
+        "ル＝グウィンファン"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-022",
+    "title": "ナルニア国物語 ライオンと魔女",
+    "authors": [
+      "C.S.ルイス"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "ナルニア国物語 ライオンと魔女 C.S.ルイス 岩波書店 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2000-06",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "adventure-fantasy",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "岩波書店",
+    "pageCount": 224,
+    "estimatedReadingHours": 5.6,
+    "moodTags": {
+      "emotionalTags": [
+        "refreshing",
+        "hot"
+      ],
+      "purposeTags": [
+        "immersive",
+        "easy"
+      ],
+      "atmosphereTags": [
+        "bright",
+        "extraordinary"
+      ],
+      "paceTag": "早い",
+      "depthTag": "軽い",
+      "readingEaseTag": "初心者向け",
+      "completionStatus": "完結",
+      "recommendationCatch": "衣装ダンスの奥に広がる魔法の国の冒険",
+      "recommendedFor": [
+        "ファンタジー入門に",
+        "冒険好き",
+        "児童文学好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-023",
+    "title": "鹿の王",
+    "authors": [
+      "上橋菜穂子"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "鹿の王 上橋菜穂子 KADOKAWA 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2014-09",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "adventure-fantasy",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "KADOKAWA",
+    "pageCount": 576,
+    "estimatedReadingHours": 14.4,
+    "moodTags": {
+      "emotionalTags": [
+        "emotional",
+        "hot"
+      ],
+      "purposeTags": [
+        "thinking",
+        "immersive"
+      ],
+      "atmosphereTags": [
+        "extraordinary",
+        "profound"
+      ],
+      "paceTag": "普通",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "疫病と命をテーマにした本格医療ファンタジー",
+      "recommendedFor": [
+        "上橋菜穂子ファン",
+        "本格ファンタジー好き",
+        "医療テーマに興味がある人"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-024",
+    "title": "ブレイブ・ストーリー",
+    "authors": [
+      "宮部みゆき"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "ブレイブ・ストーリー 宮部みゆき 角川書店 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2006-05",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "adventure-fantasy",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "角川書店",
+    "pageCount": 832,
+    "estimatedReadingHours": 20.8,
+    "moodTags": {
+      "emotionalTags": [
+        "hot",
+        "emotional"
+      ],
+      "purposeTags": [
+        "immersive",
+        "binge"
+      ],
+      "atmosphereTags": [
+        "bright",
+        "extraordinary"
+      ],
+      "paceTag": "早い",
+      "depthTag": "中程度",
+      "readingEaseTag": "初心者向け",
+      "completionStatus": "完結",
+      "recommendationCatch": "少年が異世界で運命を変える冒険ファンタジー",
+      "recommendedFor": [
+        "冒険ファンタジー好き",
+        "宮部みゆきファン",
+        "感動作品好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-025",
+    "title": "図書館の魔女",
+    "authors": [
+      "高田大介"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "図書館の魔女 高田大介 講談社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2013-01",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "adventure-fantasy",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "講談社",
+    "pageCount": 744,
+    "estimatedReadingHours": 18.6,
+    "moodTags": {
+      "emotionalTags": [
+        "hot"
+      ],
+      "purposeTags": [
+        "thinking",
+        "intellectual",
+        "immersive"
+      ],
+      "atmosphereTags": [
+        "extraordinary",
+        "profound"
+      ],
+      "paceTag": "遅い",
+      "depthTag": "重い",
+      "readingEaseTag": "読みごたえあり",
+      "completionStatus": "完結",
+      "recommendationCatch": "言語を武器に戦う知的ファンタジーの大作",
+      "recommendedFor": [
+        "知的ファンタジー好き",
+        "言語学に興味がある人",
+        "重厚な物語好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-026",
+    "title": "鏡の孤城",
+    "authors": [
+      "辻村深月"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "鏡の孤城 辻村深月 ポプラ社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2017-05",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "modern-fantasy",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "ポプラ社",
+    "pageCount": 560,
+    "estimatedReadingHours": 14,
+    "moodTags": {
+      "emotionalTags": [
+        "emotional",
+        "heartwarming"
+      ],
+      "purposeTags": [
+        "thinking",
+        "binge"
+      ],
+      "atmosphereTags": [
+        "gentle",
+        "extraordinary"
+      ],
+      "paceTag": "普通",
+      "depthTag": "中程度",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "不登校の少年少女が集う鏡の城の秘密",
+      "recommendedFor": [
+        "感動作品好き",
+        "伏線回収好き",
+        "辻村深月ファン"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-027",
+    "title": "後宮の烏",
+    "authors": [
+      "白川紺子"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "後宮の烏 白川紺子 集英社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2018-04",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "modern-fantasy",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "集英社",
+    "pageCount": 304,
+    "estimatedReadingHours": 7.6,
+    "moodTags": {
+      "emotionalTags": [
+        "sad",
+        "heartwarming"
+      ],
+      "purposeTags": [
+        "immersive"
+      ],
+      "atmosphereTags": [
+        "extraordinary",
+        "calm"
+      ],
+      "paceTag": "普通",
+      "depthTag": "中程度",
+      "readingEaseTag": "普通",
+      "completionStatus": "連載中",
+      "recommendationCatch": "後宮に住む謎の妃が怪異を解く中華ファンタジー",
+      "recommendedFor": [
+        "中華ファンタジー好き",
+        "後宮もの好き",
+        "美しい世界観好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-028",
+    "title": "烏に単は似合わない",
+    "authors": [
+      "阿部智里"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "烏に単は似合わない 阿部智里 文藝春秋 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2012-07",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "modern-fantasy",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "文藝春秋",
+    "pageCount": 336,
+    "estimatedReadingHours": 8.4,
+    "moodTags": {
+      "emotionalTags": [
+        "emotional"
+      ],
+      "purposeTags": [
+        "immersive",
+        "binge"
+      ],
+      "atmosphereTags": [
+        "extraordinary",
+        "profound"
+      ],
+      "paceTag": "普通",
+      "depthTag": "中程度",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "八咫烏の世界で繰り広げられる宮廷ファンタジー",
+      "recommendedFor": [
+        "和風ファンタジー好き",
+        "宮廷もの好き",
+        "どんでん返し好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-029",
+    "title": "狐笛のかなた",
+    "authors": [
+      "上橋菜穂子"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "狐笛のかなた 上橋菜穂子 新潮社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2006-11",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "modern-fantasy",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "新潮社",
+    "pageCount": 352,
+    "estimatedReadingHours": 8.8,
+    "moodTags": {
+      "emotionalTags": [
+        "emotional",
+        "heartwarming",
+        "sad"
+      ],
+      "purposeTags": [
+        "immersive"
+      ],
+      "atmosphereTags": [
+        "gentle",
+        "extraordinary"
+      ],
+      "paceTag": "普通",
+      "depthTag": "中程度",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "少女と霊狐が織りなす繊細な和風ファンタジー",
+      "recommendedFor": [
+        "和風ファンタジー好き",
+        "上橋菜穂子入門に",
+        "美しい物語好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-030",
+    "title": "本好きの下剋上 第一部",
+    "authors": [
+      "香月美夜"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "本好きの下剋上 第一部 香月美夜 TOブックス 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2015-01",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "isekai",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "TOブックス",
+    "pageCount": 340,
+    "estimatedReadingHours": 8.5,
+    "moodTags": {
+      "emotionalTags": [
+        "refreshing",
+        "positive"
+      ],
+      "purposeTags": [
+        "immersive",
+        "binge",
+        "easy"
+      ],
+      "atmosphereTags": [
+        "bright",
+        "extraordinary"
+      ],
+      "paceTag": "普通",
+      "depthTag": "中程度",
+      "readingEaseTag": "初心者向け",
+      "completionStatus": "完結",
+      "recommendationCatch": "本を作るために異世界で奮闘する転生ファンタジー",
+      "recommendedFor": [
+        "本好き",
+        "異世界転生好き",
+        "知的な物語好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-031",
+    "title": "容疑者Xの献身",
+    "authors": [
+      "東野圭吾"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "容疑者Xの献身 東野圭吾 文藝春秋 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2008-08",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "mystery",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "文藝春秋",
+    "pageCount": 400,
+    "estimatedReadingHours": 10,
+    "moodTags": {
+      "emotionalTags": [
+        "emotional",
+        "sad"
+      ],
+      "purposeTags": [
+        "thinking",
+        "binge"
+      ],
+      "atmosphereTags": [
+        "profound"
+      ],
+      "paceTag": "普通",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "天才数学者の献身が生む完璧な偽装の謎",
+      "recommendedFor": [
+        "ミステリー好き",
+        "東野圭吾ファン",
+        "感動作品好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-032",
+    "title": "白夜行",
+    "authors": [
+      "東野圭吾"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "白夜行 東野圭吾 集英社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2002-05",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "suspense",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "集英社",
+    "pageCount": 864,
+    "estimatedReadingHours": 21.6,
+    "moodTags": {
+      "emotionalTags": [
+        "sad",
+        "hopeless"
+      ],
+      "purposeTags": [
+        "binge",
+        "immersive"
+      ],
+      "atmosphereTags": [
+        "dark",
+        "profound"
+      ],
+      "paceTag": "普通",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "19年間の闇を歩き続ける男女の壮絶な物語",
+      "recommendedFor": [
+        "東野圭吾ファン",
+        "重厚なミステリー好き",
+        "サスペンス好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-033",
+    "title": "模倣犯",
+    "authors": [
+      "宮部みゆき"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "模倣犯 宮部みゆき 新潮社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2005-11",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "suspense",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "新潮社",
+    "pageCount": 1468,
+    "estimatedReadingHours": 36.7,
+    "moodTags": {
+      "emotionalTags": [
+        "hopeless",
+        "hot"
+      ],
+      "purposeTags": [
+        "thinking",
+        "immersive"
+      ],
+      "atmosphereTags": [
+        "dark",
+        "tense",
+        "profound"
+      ],
+      "paceTag": "普通",
+      "depthTag": "重い",
+      "readingEaseTag": "読みごたえあり",
+      "completionStatus": "完結",
+      "recommendationCatch": "劇場型犯罪が暴く社会の闇を描く超大作",
+      "recommendedFor": [
+        "社会派ミステリー好き",
+        "宮部みゆきファン",
+        "重厚な物語好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-034",
+    "title": "火車",
+    "authors": [
+      "宮部みゆき"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "火車 宮部みゆき 新潮社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "1998-01",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "court-social",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "新潮社",
+    "pageCount": 576,
+    "estimatedReadingHours": 14.4,
+    "moodTags": {
+      "emotionalTags": [
+        "sad"
+      ],
+      "purposeTags": [
+        "thinking",
+        "binge"
+      ],
+      "atmosphereTags": [
+        "dark",
+        "profound"
+      ],
+      "paceTag": "普通",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "多重債務の闇に消えた女性を追う社会派ミステリー",
+      "recommendedFor": [
+        "社会派ミステリー好き",
+        "宮部みゆきファン",
+        "ノンフィクション風好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-035",
+    "title": "犬神家の一族",
+    "authors": [
+      "横溝正史"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "犬神家の一族 横溝正史 KADOKAWA 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2003-05",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "classic-mystery",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "KADOKAWA",
+    "pageCount": 480,
+    "estimatedReadingHours": 12,
+    "moodTags": {
+      "emotionalTags": [
+        "scary"
+      ],
+      "purposeTags": [
+        "thinking",
+        "immersive"
+      ],
+      "atmosphereTags": [
+        "dark",
+        "uneasy",
+        "extraordinary"
+      ],
+      "paceTag": "普通",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "名探偵・金田一耕助が挑む猟奇殺人の謎",
+      "recommendedFor": [
+        "古典ミステリー好き",
+        "横溝正史ファン",
+        "日本ミステリー入門に"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-036",
+    "title": "そして誰もいなくなった",
+    "authors": [
+      "アガサ・クリスティー"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "そして誰もいなくなった アガサ・クリスティー 早川書房 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2010-04",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "classic-mystery",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "早川書房",
+    "pageCount": 336,
+    "estimatedReadingHours": 8.4,
+    "moodTags": {
+      "emotionalTags": [
+        "scary"
+      ],
+      "purposeTags": [
+        "thinking",
+        "binge"
+      ],
+      "atmosphereTags": [
+        "dark",
+        "tense"
+      ],
+      "paceTag": "早い",
+      "depthTag": "中程度",
+      "readingEaseTag": "初心者向け",
+      "completionStatus": "完結",
+      "recommendationCatch": "孤島で一人ずつ消えていくクローズドサークルの原点",
+      "recommendedFor": [
+        "ミステリー入門に",
+        "クリスティファン",
+        "古典好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-037",
+    "title": "オリエント急行の殺人",
+    "authors": [
+      "アガサ・クリスティー"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "オリエント急行の殺人 アガサ・クリスティー 早川書房 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2011-04",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "classic-mystery",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "早川書房",
+    "pageCount": 368,
+    "estimatedReadingHours": 9.2,
+    "moodTags": {
+      "emotionalTags": [
+        "emotional"
+      ],
+      "purposeTags": [
+        "thinking",
+        "binge"
+      ],
+      "atmosphereTags": [
+        "tense"
+      ],
+      "paceTag": "普通",
+      "depthTag": "中程度",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "列車密室で名探偵ポアロが挑む驚愕の真相",
+      "recommendedFor": [
+        "クリスティファン",
+        "推理小説好き",
+        "どんでん返し好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-038",
+    "title": "占星術殺人事件",
+    "authors": [
+      "島田荘司"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "占星術殺人事件 島田荘司 講談社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2013-08",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "honkaku-mystery",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "講談社",
+    "pageCount": 464,
+    "estimatedReadingHours": 11.6,
+    "moodTags": {
+      "emotionalTags": [
+        "scary"
+      ],
+      "purposeTags": [
+        "thinking"
+      ],
+      "atmosphereTags": [
+        "dark",
+        "extraordinary"
+      ],
+      "paceTag": "普通",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "新本格ミステリーの原点となった衝撃のトリック",
+      "recommendedFor": [
+        "本格ミステリー好き",
+        "トリック好き",
+        "島田荘司ファン"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-039",
+    "title": "十角館の殺人",
+    "authors": [
+      "綾辻行人"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "十角館の殺人 綾辻行人 講談社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2007-10",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "honkaku-mystery",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "講談社",
+    "pageCount": 464,
+    "estimatedReadingHours": 11.6,
+    "moodTags": {
+      "emotionalTags": [
+        "scary"
+      ],
+      "purposeTags": [
+        "thinking",
+        "binge"
+      ],
+      "atmosphereTags": [
+        "dark",
+        "tense",
+        "uneasy"
+      ],
+      "paceTag": "早い",
+      "depthTag": "中程度",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "たった一行で世界が反転する衝撃のミステリー",
+      "recommendedFor": [
+        "本格ミステリー好き",
+        "どんでん返し好き",
+        "綾辻行人ファン"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-040",
+    "title": "すべてがFになる",
+    "authors": [
+      "森博嗣"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "すべてがFになる 森博嗣 講談社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "1998-12",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "honkaku-mystery",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "講談社",
+    "pageCount": 352,
+    "estimatedReadingHours": 8.8,
+    "moodTags": {
+      "purposeTags": [
+        "thinking",
+        "intellectual"
+      ],
+      "atmosphereTags": [
+        "calm"
+      ],
+      "paceTag": "遅い",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "天才と対峙する知的興奮に満ちた理系ミステリー",
+      "recommendedFor": [
+        "理系ミステリー好き",
+        "知的な推理好き",
+        "森博嗣ファン"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-041",
+    "title": "告白",
+    "authors": [
+      "湊かなえ"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "告白 湊かなえ 双葉社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2010-04",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "suspense",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "双葉社",
+    "pageCount": 320,
+    "estimatedReadingHours": 8,
+    "moodTags": {
+      "emotionalTags": [
+        "hopeless"
+      ],
+      "purposeTags": [
+        "thinking",
+        "binge"
+      ],
+      "atmosphereTags": [
+        "dark",
+        "uneasy"
+      ],
+      "paceTag": "早い",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "女性教師の告白から始まる衝撃の復讐劇",
+      "recommendedFor": [
+        "イヤミス好き",
+        "湊かなえファン",
+        "衝撃的な結末好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-042",
+    "title": "殺戮にいたる病",
+    "authors": [
+      "我孫子武丸"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "殺戮にいたる病 我孫子武丸 講談社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "1996-11",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "suspense",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "講談社",
+    "pageCount": 336,
+    "estimatedReadingHours": 8.4,
+    "moodTags": {
+      "emotionalTags": [
+        "scary",
+        "hopeless"
+      ],
+      "purposeTags": [
+        "binge"
+      ],
+      "atmosphereTags": [
+        "dark",
+        "uneasy"
+      ],
+      "paceTag": "早い",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "ラストで世界が反転する衝撃の叙述トリック",
+      "recommendedFor": [
+        "叙述トリック好き",
+        "サスペンス好き",
+        "衝撃のラスト好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-043",
+    "title": "64",
+    "authors": [
+      "横山秀夫"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "64 横山秀夫 文藝春秋 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2015-02",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "police",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "文藝春秋",
+    "pageCount": 672,
+    "estimatedReadingHours": 16.8,
+    "moodTags": {
+      "emotionalTags": [
+        "hot"
+      ],
+      "purposeTags": [
+        "thinking",
+        "immersive"
+      ],
+      "atmosphereTags": [
+        "tense",
+        "profound"
+      ],
+      "paceTag": "普通",
+      "depthTag": "重い",
+      "readingEaseTag": "読みごたえあり",
+      "completionStatus": "完結",
+      "recommendationCatch": "警察組織の壁に立ち向かう広報官の戦い",
+      "recommendedFor": [
+        "警察小説好き",
+        "横山秀夫ファン",
+        "組織ドラマ好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-044",
+    "title": "慟哭",
+    "authors": [
+      "貫井徳郎"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "慟哭 貫井徳郎 東京創元社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "1999-04",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "suspense",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "東京創元社",
+    "pageCount": 408,
+    "estimatedReadingHours": 10.2,
+    "moodTags": {
+      "emotionalTags": [
+        "sad",
+        "hopeless"
+      ],
+      "purposeTags": [
+        "thinking",
+        "binge"
+      ],
+      "atmosphereTags": [
+        "dark",
+        "uneasy"
+      ],
+      "paceTag": "普通",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "二つの物語が交錯するとき明らかになる衝撃の真実",
+      "recommendedFor": [
+        "叙述トリック好き",
+        "サスペンス好き",
+        "貫井徳郎ファン"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-045",
+    "title": "氷菓",
+    "authors": [
+      "米澤穂信"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "氷菓 米澤穂信 KADOKAWA 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2001-11",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "mystery",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "KADOKAWA",
+    "pageCount": 240,
+    "estimatedReadingHours": 6,
+    "moodTags": {
+      "emotionalTags": [
+        "refreshing",
+        "heartwarming"
+      ],
+      "purposeTags": [
+        "thinking",
+        "easy"
+      ],
+      "atmosphereTags": [
+        "bright",
+        "daily"
+      ],
+      "paceTag": "普通",
+      "depthTag": "軽い",
+      "readingEaseTag": "初心者向け",
+      "completionStatus": "完結",
+      "recommendationCatch": "省エネ少年と好奇心少女の爽やか青春ミステリー",
+      "recommendedFor": [
+        "青春ミステリー好き",
+        "日常の謎好き",
+        "アニメファン"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-046",
+    "title": "21世紀の資本",
+    "authors": [
+      "トマ・ピケティ"
+    ],
+    "categories": [
+      "ビジネス・経済"
+    ],
+    "keywords": [
+      "ビジネス・経済",
+      "T-1101追加"
+    ],
+    "searchableText": "21世紀の資本 トマ・ピケティ みすず書房 ビジネス・経済",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2014-12",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": "easy-masterpiece",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "みすず書房",
+    "pageCount": 736,
+    "estimatedReadingHours": 18.4,
+    "moodTags": {
+      "purposeTags": [
+        "thinking",
+        "intellectual",
+        "learning"
+      ],
+      "atmosphereTags": [
+        "profound"
+      ],
+      "paceTag": "遅い",
+      "depthTag": "重い",
+      "readingEaseTag": "読みごたえあり",
+      "recommendationCatch": "資本主義の格差拡大を200年のデータで解明",
+      "recommendedFor": [
+        "経済学に興味がある人",
+        "社会問題に関心がある人"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-047",
+    "title": "マネジメント エッセンシャル版",
+    "authors": [
+      "ピーター・F・ドラッカー"
+    ],
+    "categories": [
+      "ビジネス・経済"
+    ],
+    "keywords": [
+      "ビジネス・経済",
+      "T-1101追加"
+    ],
+    "searchableText": "マネジメント エッセンシャル版 ピーター・F・ドラッカー ダイヤモンド社 ビジネス・経済",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2001-12",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": "easy-masterpiece",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "ダイヤモンド社",
+    "pageCount": 320,
+    "estimatedReadingHours": 8,
+    "moodTags": {
+      "purposeTags": [
+        "learning",
+        "work",
+        "intellectual"
+      ],
+      "atmosphereTags": [
+        "profound"
+      ],
+      "paceTag": "遅い",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "recommendationCatch": "経営学の父が語るマネジメントの本質",
+      "recommendedFor": [
+        "ビジネスパーソン",
+        "マネジメント初心者",
+        "リーダー層"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-048",
+    "title": "イノベーションのジレンマ",
+    "authors": [
+      "クレイトン・クリステンセン"
+    ],
+    "categories": [
+      "ビジネス・経済"
+    ],
+    "keywords": [
+      "ビジネス・経済",
+      "T-1101追加"
+    ],
+    "searchableText": "イノベーションのジレンマ クレイトン・クリステンセン 翔泳社 ビジネス・経済",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2001-07",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": "easy-masterpiece",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "翔泳社",
+    "pageCount": 320,
+    "estimatedReadingHours": 8,
+    "moodTags": {
+      "purposeTags": [
+        "thinking",
+        "intellectual",
+        "work"
+      ],
+      "atmosphereTags": [
+        "profound"
+      ],
+      "paceTag": "普通",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "recommendationCatch": "優良企業がなぜ負けるか？破壊的イノベーションの真実",
+      "recommendedFor": [
+        "起業家",
+        "ビジネスパーソン",
+        "テクノロジー好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-049",
+    "title": "FACTFULNESS",
+    "authors": [
+      "ハンス・ロスリング"
+    ],
+    "categories": [
+      "ビジネス・経済"
+    ],
+    "keywords": [
+      "ビジネス・経済",
+      "T-1101追加"
+    ],
+    "searchableText": "FACTFULNESS ハンス・ロスリング 日経BP ビジネス・経済",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2019-01",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": "easy-masterpiece",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "日経BP",
+    "pageCount": 400,
+    "estimatedReadingHours": 10,
+    "moodTags": {
+      "emotionalTags": [
+        "positive"
+      ],
+      "purposeTags": [
+        "learning",
+        "intellectual",
+        "motivated"
+      ],
+      "atmosphereTags": [
+        "bright"
+      ],
+      "paceTag": "普通",
+      "depthTag": "中程度",
+      "readingEaseTag": "初心者向け",
+      "recommendationCatch": "データで世界の見方を変える思考の教科書",
+      "recommendedFor": [
+        "教養を深めたい人",
+        "ビジネスパーソン",
+        "データ好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-050",
+    "title": "サピエンス全史",
+    "authors": [
+      "ユヴァル・ノア・ハラリ"
+    ],
+    "categories": [
+      "ビジネス・経済"
+    ],
+    "keywords": [
+      "ビジネス・経済",
+      "T-1101追加"
+    ],
+    "searchableText": "サピエンス全史 ユヴァル・ノア・ハラリ 河出書房新社 ビジネス・経済",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2016-09",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": "easy-masterpiece",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "河出書房新社",
+    "pageCount": 536,
+    "estimatedReadingHours": 13.4,
+    "moodTags": {
+      "purposeTags": [
+        "thinking",
+        "intellectual",
+        "learning"
+      ],
+      "atmosphereTags": [
+        "extraordinary",
+        "profound"
+      ],
+      "paceTag": "普通",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "recommendationCatch": "人類7万年の歴史を壮大に描き直す知的冒険",
+      "recommendedFor": [
+        "歴史好き",
+        "教養を深めたい人",
+        "知的好奇心旺盛な人"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-051",
+    "title": "影響力の武器",
+    "authors": [
+      "ロバート・B・チャルディーニ"
+    ],
+    "categories": [
+      "ビジネス・経済"
+    ],
+    "keywords": [
+      "ビジネス・経済",
+      "T-1101追加"
+    ],
+    "searchableText": "影響力の武器 ロバート・B・チャルディーニ 誠信書房 ビジネス・経済",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2014-07",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": "easy-masterpiece",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "誠信書房",
+    "pageCount": 496,
+    "estimatedReadingHours": 12.4,
+    "moodTags": {
+      "purposeTags": [
+        "learning",
+        "intellectual",
+        "work"
+      ],
+      "atmosphereTags": [
+        "profound"
+      ],
+      "paceTag": "普通",
+      "depthTag": "中程度",
+      "readingEaseTag": "普通",
+      "recommendationCatch": "人が「YES」と言ってしまう6つの心理原理",
+      "recommendedFor": [
+        "マーケター",
+        "営業職",
+        "心理学に興味がある人"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-052",
+    "title": "金持ち父さん貧乏父さん",
+    "authors": [
+      "ロバート・キヨサキ"
+    ],
+    "categories": [
+      "ビジネス・経済"
+    ],
+    "keywords": [
+      "ビジネス・経済",
+      "T-1101追加"
+    ],
+    "searchableText": "金持ち父さん貧乏父さん ロバート・キヨサキ 筑摩書房 ビジネス・経済",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2000-11",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": "easy-masterpiece",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "筑摩書房",
+    "pageCount": 272,
+    "estimatedReadingHours": 6.8,
+    "moodTags": {
+      "emotionalTags": [
+        "positive"
+      ],
+      "purposeTags": [
+        "learning",
+        "motivated",
+        "easy"
+      ],
+      "atmosphereTags": [
+        "bright"
+      ],
+      "paceTag": "早い",
+      "depthTag": "軽い",
+      "readingEaseTag": "初心者向け",
+      "recommendationCatch": "お金の常識を覆す二人の父の教え",
+      "recommendedFor": [
+        "お金の勉強を始めたい人",
+        "投資初心者",
+        "学生"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-053",
+    "title": "ゼロ・トゥ・ワン",
+    "authors": [
+      "ピーター・ティール"
+    ],
+    "categories": [
+      "ビジネス・経済"
+    ],
+    "keywords": [
+      "ビジネス・経済",
+      "T-1101追加"
+    ],
+    "searchableText": "ゼロ・トゥ・ワン ピーター・ティール NHK出版 ビジネス・経済",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2014-09",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": "easy-masterpiece",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "NHK出版",
+    "pageCount": 256,
+    "estimatedReadingHours": 6.4,
+    "moodTags": {
+      "purposeTags": [
+        "thinking",
+        "intellectual",
+        "motivated"
+      ],
+      "atmosphereTags": [
+        "extraordinary"
+      ],
+      "paceTag": "早い",
+      "depthTag": "中程度",
+      "readingEaseTag": "普通",
+      "recommendationCatch": "0から1を創造する起業の哲学",
+      "recommendedFor": [
+        "起業家志望",
+        "スタートアップ関係者",
+        "ビジネスパーソン"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-054",
+    "title": "スタンフォード式 経済学入門",
+    "authors": [
+      "ティモシー・テイラー"
+    ],
+    "categories": [
+      "ビジネス・経済"
+    ],
+    "keywords": [
+      "ビジネス・経済",
+      "T-1101追加"
+    ],
+    "searchableText": "スタンフォード式 経済学入門 ティモシー・テイラー かんき出版 ビジネス・経済",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2013-02",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": "easy-masterpiece",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "かんき出版",
+    "pageCount": 288,
+    "estimatedReadingHours": 7.2,
+    "moodTags": {
+      "purposeTags": [
+        "learning",
+        "intellectual",
+        "easy"
+      ],
+      "atmosphereTags": [
+        "bright"
+      ],
+      "paceTag": "普通",
+      "depthTag": "中程度",
+      "readingEaseTag": "初心者向け",
+      "recommendationCatch": "経済学の基本を身近な事例でわかりやすく解説",
+      "recommendedFor": [
+        "経済学初心者",
+        "ビジネスパーソン",
+        "学生"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-055",
+    "title": "父が娘に語る 美しく、深く、壮大で、とんでもなくわかりやすい経済の話。",
+    "authors": [
+      "ヤニス・バルファキス"
+    ],
+    "categories": [
+      "ビジネス・経済"
+    ],
+    "keywords": [
+      "ビジネス・経済",
+      "T-1101追加"
+    ],
+    "searchableText": "父が娘に語る 美しく、深く、壮大で、とんでもなくわかりやすい経済の話。 ヤニス・バルファキス ダイヤモンド社 ビジネス・経済",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2019-03",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": "easy-masterpiece",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "ダイヤモンド社",
+    "pageCount": 248,
+    "estimatedReadingHours": 6.2,
+    "moodTags": {
+      "purposeTags": [
+        "learning",
+        "intellectual",
+        "easy"
+      ],
+      "atmosphereTags": [
+        "bright",
+        "gentle"
+      ],
+      "paceTag": "早い",
+      "depthTag": "中程度",
+      "readingEaseTag": "初心者向け",
+      "recommendationCatch": "元財務大臣が娘に語る世界一わかりやすい経済の話",
+      "recommendedFor": [
+        "経済学初心者",
+        "教養を深めたい人",
+        "学生"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-056",
+    "title": "竜馬がゆく",
+    "authors": [
+      "司馬遼太郎"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "竜馬がゆく 司馬遼太郎 文藝春秋 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "1998-09",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical-novel",
+      "l3Id": "sengoku-bakumatsu",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "文藝春秋",
+    "pageCount": 480,
+    "estimatedReadingHours": 12,
+    "moodTags": {
+      "emotionalTags": [
+        "hot",
+        "emotional"
+      ],
+      "purposeTags": [
+        "immersive",
+        "binge",
+        "learning"
+      ],
+      "atmosphereTags": [
+        "extraordinary",
+        "tense"
+      ],
+      "paceTag": "早い",
+      "depthTag": "中程度",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "型破りな坂本竜馬が駆け抜けた激動の幕末",
+      "recommendedFor": [
+        "歴史小説入門に",
+        "幕末好き",
+        "司馬遼太郎ファン"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-057",
+    "title": "坂の上の雲",
+    "authors": [
+      "司馬遼太郎"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "坂の上の雲 司馬遼太郎 文藝春秋 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "1999-01",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical-novel",
+      "l3Id": "modern-history",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "文藝春秋",
+    "pageCount": 480,
+    "estimatedReadingHours": 12,
+    "moodTags": {
+      "emotionalTags": [
+        "hot",
+        "emotional"
+      ],
+      "purposeTags": [
+        "immersive",
+        "learning"
+      ],
+      "atmosphereTags": [
+        "extraordinary",
+        "profound"
+      ],
+      "paceTag": "普通",
+      "depthTag": "重い",
+      "readingEaseTag": "読みごたえあり",
+      "completionStatus": "完結",
+      "recommendationCatch": "明治日本の躍進を描く壮大な国民的歴史小説",
+      "recommendedFor": [
+        "歴史好き",
+        "司馬遼太郎ファン",
+        "明治維新に興味がある人"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-058",
+    "title": "燃えよ剣",
+    "authors": [
+      "司馬遼太郎"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "燃えよ剣 司馬遼太郎 新潮社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "1998-09",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical-novel",
+      "l3Id": "sengoku-bakumatsu",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "新潮社",
+    "pageCount": 544,
+    "estimatedReadingHours": 13.6,
+    "moodTags": {
+      "emotionalTags": [
+        "hot",
+        "emotional",
+        "sad"
+      ],
+      "purposeTags": [
+        "immersive",
+        "binge"
+      ],
+      "atmosphereTags": [
+        "tense",
+        "extraordinary"
+      ],
+      "paceTag": "早い",
+      "depthTag": "中程度",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "武士道を最後まで貫いた土方歳三の壮絶な生涯",
+      "recommendedFor": [
+        "新選組好き",
+        "時代小説入門に",
+        "司馬遼太郎ファン"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-059",
+    "title": "鬼平犯科帳",
+    "authors": [
+      "池波正太郎"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "鬼平犯科帳 池波正太郎 文藝春秋 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2000-09",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical-novel",
+      "l3Id": "jp-history",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "文藝春秋",
+    "pageCount": 400,
+    "estimatedReadingHours": 10,
+    "moodTags": {
+      "emotionalTags": [
+        "refreshing",
+        "heartwarming"
+      ],
+      "purposeTags": [
+        "immersive",
+        "easy"
+      ],
+      "atmosphereTags": [
+        "daily",
+        "gentle"
+      ],
+      "paceTag": "普通",
+      "depthTag": "中程度",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "人情味あふれる江戸の捕物帳",
+      "recommendedFor": [
+        "時代小説好き",
+        "池波正太郎ファン",
+        "江戸文化好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-060",
+    "title": "剣客商売",
+    "authors": [
+      "池波正太郎"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "剣客商売 池波正太郎 新潮社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2002-09",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical-novel",
+      "l3Id": "jp-history",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "新潮社",
+    "pageCount": 384,
+    "estimatedReadingHours": 9.6,
+    "moodTags": {
+      "emotionalTags": [
+        "refreshing",
+        "heartwarming"
+      ],
+      "purposeTags": [
+        "immersive",
+        "easy"
+      ],
+      "atmosphereTags": [
+        "daily",
+        "gentle"
+      ],
+      "paceTag": "普通",
+      "depthTag": "軽い",
+      "readingEaseTag": "初心者向け",
+      "completionStatus": "完結",
+      "recommendationCatch": "老剣客と息子が織りなす粋な江戸人情物語",
+      "recommendedFor": [
+        "時代小説入門に",
+        "池波正太郎ファン",
+        "人情もの好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-061",
+    "title": "天地明察",
+    "authors": [
+      "冲方丁"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "天地明察 冲方丁 KADOKAWA 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2012-05",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical-novel",
+      "l3Id": "jp-history",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "KADOKAWA",
+    "pageCount": 496,
+    "estimatedReadingHours": 12.4,
+    "moodTags": {
+      "emotionalTags": [
+        "hot",
+        "emotional",
+        "positive"
+      ],
+      "purposeTags": [
+        "immersive",
+        "learning",
+        "binge"
+      ],
+      "atmosphereTags": [
+        "bright"
+      ],
+      "paceTag": "普通",
+      "depthTag": "中程度",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "日本の暦を変えた天文学者の壮大な挑戦",
+      "recommendedFor": [
+        "歴史好き",
+        "理系",
+        "本屋大賞好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-062",
+    "title": "のぼうの城",
+    "authors": [
+      "和田竜"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "のぼうの城 和田竜 小学館 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2007-11",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical-novel",
+      "l3Id": "sengoku-bakumatsu",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "小学館",
+    "pageCount": 352,
+    "estimatedReadingHours": 8.8,
+    "moodTags": {
+      "emotionalTags": [
+        "hot",
+        "refreshing",
+        "funny"
+      ],
+      "purposeTags": [
+        "binge",
+        "easy"
+      ],
+      "atmosphereTags": [
+        "bright",
+        "extraordinary"
+      ],
+      "paceTag": "早い",
+      "depthTag": "軽い",
+      "readingEaseTag": "初心者向け",
+      "completionStatus": "完結",
+      "recommendationCatch": "でくの坊が2万の大軍を迎え撃つ痛快歴史小説",
+      "recommendedFor": [
+        "歴史小説入門に",
+        "エンタメ好き",
+        "戦国好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-063",
+    "title": "村上海賊の娘",
+    "authors": [
+      "和田竜"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "村上海賊の娘 和田竜 新潮社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2014-07",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical-novel",
+      "l3Id": "sengoku-bakumatsu",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "新潮社",
+    "pageCount": 672,
+    "estimatedReadingHours": 16.8,
+    "moodTags": {
+      "emotionalTags": [
+        "hot",
+        "refreshing"
+      ],
+      "purposeTags": [
+        "immersive",
+        "binge"
+      ],
+      "atmosphereTags": [
+        "extraordinary",
+        "tense"
+      ],
+      "paceTag": "早い",
+      "depthTag": "中程度",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "瀬戸内海を駆ける女海賊の壮絶な海戦物語",
+      "recommendedFor": [
+        "歴史好き",
+        "冒険好き",
+        "本屋大賞好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-064",
+    "title": "蒼穹の昴",
+    "authors": [
+      "浅田次郎"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "蒼穹の昴 浅田次郎 講談社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2004-10",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical-novel",
+      "l3Id": "foreign-history",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "講談社",
+    "pageCount": 576,
+    "estimatedReadingHours": 14.4,
+    "moodTags": {
+      "emotionalTags": [
+        "hot",
+        "emotional",
+        "sad"
+      ],
+      "purposeTags": [
+        "immersive",
+        "learning"
+      ],
+      "atmosphereTags": [
+        "extraordinary",
+        "profound"
+      ],
+      "paceTag": "普通",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "清朝末期の中国を舞台にした壮大な人間ドラマ",
+      "recommendedFor": [
+        "中国史好き",
+        "歴史小説好き",
+        "浅田次郎ファン"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-065",
+    "title": "重耳",
+    "authors": [
+      "宮城谷昌光"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "重耳 宮城谷昌光 講談社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "1996-06",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "historical-novel",
+      "l3Id": "foreign-history",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "講談社",
+    "pageCount": 560,
+    "estimatedReadingHours": 14,
+    "moodTags": {
+      "emotionalTags": [
+        "hot",
+        "emotional"
+      ],
+      "purposeTags": [
+        "immersive",
+        "learning"
+      ],
+      "atmosphereTags": [
+        "extraordinary",
+        "profound"
+      ],
+      "paceTag": "遅い",
+      "depthTag": "重い",
+      "readingEaseTag": "読みごたえあり",
+      "completionStatus": "完結",
+      "recommendationCatch": "19年の放浪から覇者となった男の壮大な物語",
+      "recommendedFor": [
+        "中国古代史好き",
+        "宮城谷昌光ファン",
+        "骨太な歴史小説好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-066",
+    "title": "ソードアート・オンライン",
+    "authors": [
+      "川原礫"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "ソードアート・オンライン 川原礫 KADOKAWA 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2009-04",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "isekai",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "KADOKAWA",
+    "pageCount": 392,
+    "estimatedReadingHours": 9.8,
+    "moodTags": {
+      "emotionalTags": [
+        "hot",
+        "refreshing"
+      ],
+      "purposeTags": [
+        "binge",
+        "immersive",
+        "easy"
+      ],
+      "atmosphereTags": [
+        "tense",
+        "extraordinary"
+      ],
+      "paceTag": "早い",
+      "depthTag": "軽い",
+      "readingEaseTag": "初心者向け",
+      "completionStatus": "連載中",
+      "recommendationCatch": "デスゲームVRで始まる壮大な冒険ラノベ",
+      "recommendedFor": [
+        "ゲーム好き",
+        "ラノベ入門に",
+        "アクション好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-067",
+    "title": "Re:ゼロから始める異世界生活",
+    "authors": [
+      "長月達尊"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "Re:ゼロから始める異世界生活 長月達尊 KADOKAWA 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2014-01",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "isekai",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "KADOKAWA",
+    "pageCount": 328,
+    "estimatedReadingHours": 8.2,
+    "moodTags": {
+      "emotionalTags": [
+        "hot",
+        "sad",
+        "hopeless"
+      ],
+      "purposeTags": [
+        "binge",
+        "immersive"
+      ],
+      "atmosphereTags": [
+        "dark",
+        "tense",
+        "extraordinary"
+      ],
+      "paceTag": "早い",
+      "depthTag": "中程度",
+      "readingEaseTag": "普通",
+      "completionStatus": "連載中",
+      "recommendationCatch": "死に戻りで絶望に挑む異世界ダークファンタジー",
+      "recommendedFor": [
+        "異世界もの好き",
+        "ダークファンタジー好き",
+        "アニメファン"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-068",
+    "title": "この素晴らしい世界に祝福を！",
+    "authors": [
+      "暁なつめ"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "この素晴らしい世界に祝福を！ 暁なつめ KADOKAWA 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2013-10",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "isekai",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "KADOKAWA",
+    "pageCount": 264,
+    "estimatedReadingHours": 6.6,
+    "moodTags": {
+      "emotionalTags": [
+        "funny",
+        "refreshing"
+      ],
+      "purposeTags": [
+        "easy",
+        "binge"
+      ],
+      "atmosphereTags": [
+        "bright"
+      ],
+      "paceTag": "早い",
+      "depthTag": "軽い",
+      "readingEaseTag": "初心者向け",
+      "completionStatus": "完結",
+      "recommendationCatch": "残念パーティが繰り広げる異世界ドタバタコメディ",
+      "recommendedFor": [
+        "コメディ好き",
+        "異世界もの好き",
+        "気軽に読みたい人"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-069",
+    "title": "薬屋のひとりごと",
+    "authors": [
+      "日向夏"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "薬屋のひとりごと 日向夏 主婦の友社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2014-08",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "modern-fantasy",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "主婦の友社",
+    "pageCount": 304,
+    "estimatedReadingHours": 7.6,
+    "moodTags": {
+      "emotionalTags": [
+        "refreshing"
+      ],
+      "purposeTags": [
+        "thinking",
+        "easy",
+        "binge"
+      ],
+      "atmosphereTags": [
+        "daily",
+        "extraordinary"
+      ],
+      "paceTag": "普通",
+      "depthTag": "軽い",
+      "readingEaseTag": "初心者向け",
+      "completionStatus": "連載中",
+      "recommendationCatch": "薬学少女が後宮の謎を解く中華ファンタジー",
+      "recommendedFor": [
+        "後宮もの好き",
+        "謎解き好き",
+        "アニメファン"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-070",
+    "title": "転生したらスライムだった件",
+    "authors": [
+      "伏瀬"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "転生したらスライムだった件 伏瀬 マイクロマガジン社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2014-05",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "isekai",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "マイクロマガジン社",
+    "pageCount": 308,
+    "estimatedReadingHours": 7.7,
+    "moodTags": {
+      "emotionalTags": [
+        "refreshing",
+        "hot"
+      ],
+      "purposeTags": [
+        "binge",
+        "immersive",
+        "easy"
+      ],
+      "atmosphereTags": [
+        "bright",
+        "extraordinary"
+      ],
+      "paceTag": "早い",
+      "depthTag": "軽い",
+      "readingEaseTag": "初心者向け",
+      "completionStatus": "連載中",
+      "recommendationCatch": "スライムに転生して国を作る爽快異世界ファンタジー",
+      "recommendedFor": [
+        "異世界転生好き",
+        "国づくりもの好き",
+        "ラノベ入門に"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-071",
+    "title": "無職転生 ～異世界行ったら本気だす～",
+    "authors": [
+      "理不尽な孫の手"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "無職転生 ～異世界行ったら本気だす～ 理不尽な孫の手 KADOKAWA 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2014-01",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "isekai",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "KADOKAWA",
+    "pageCount": 352,
+    "estimatedReadingHours": 8.8,
+    "moodTags": {
+      "emotionalTags": [
+        "hot",
+        "emotional",
+        "sad"
+      ],
+      "purposeTags": [
+        "immersive",
+        "binge"
+      ],
+      "atmosphereTags": [
+        "extraordinary"
+      ],
+      "paceTag": "普通",
+      "depthTag": "中程度",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "ニートが異世界で人生をやり直す感動の成長物語",
+      "recommendedFor": [
+        "異世界転生好き",
+        "成長物語好き",
+        "なろう系好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-072",
+    "title": "狼と香辛料",
+    "authors": [
+      "支倉凍砂"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "狼と香辛料 支倉凍砂 KADOKAWA 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2006-02",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "modern-fantasy",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "KADOKAWA",
+    "pageCount": 280,
+    "estimatedReadingHours": 7,
+    "moodTags": {
+      "emotionalTags": [
+        "heartwarming"
+      ],
+      "purposeTags": [
+        "thinking",
+        "immersive"
+      ],
+      "atmosphereTags": [
+        "calm",
+        "extraordinary"
+      ],
+      "paceTag": "普通",
+      "depthTag": "中程度",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "行商人と狼神が紡ぐ経済ファンタジー",
+      "recommendedFor": [
+        "知的なラノベ好き",
+        "経済に興味がある人",
+        "ファンタジー好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-073",
+    "title": "涼宮ハルヒの憂鬱",
+    "authors": [
+      "谷川流"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "涼宮ハルヒの憂鬱 谷川流 KADOKAWA 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2003-06",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "near-future",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "KADOKAWA",
+    "pageCount": 294,
+    "estimatedReadingHours": 7.4,
+    "moodTags": {
+      "emotionalTags": [
+        "funny",
+        "refreshing"
+      ],
+      "purposeTags": [
+        "easy",
+        "binge"
+      ],
+      "atmosphereTags": [
+        "bright",
+        "daily"
+      ],
+      "paceTag": "早い",
+      "depthTag": "軽い",
+      "readingEaseTag": "初心者向け",
+      "completionStatus": "連載中",
+      "recommendationCatch": "非日常を求める少女が巻き起こすSF学園コメディ",
+      "recommendedFor": [
+        "ラノベ入門に",
+        "アニメファン",
+        "学園もの好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-074",
+    "title": "とある魔術の禁書目録",
+    "authors": [
+      "鎌池和馬"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "とある魔術の禁書目録 鎌池和馬 KADOKAWA 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2004-04",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "modern-fantasy",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "KADOKAWA",
+    "pageCount": 312,
+    "estimatedReadingHours": 7.8,
+    "moodTags": {
+      "emotionalTags": [
+        "hot",
+        "refreshing"
+      ],
+      "purposeTags": [
+        "binge",
+        "immersive"
+      ],
+      "atmosphereTags": [
+        "tense",
+        "extraordinary"
+      ],
+      "paceTag": "早い",
+      "depthTag": "軽い",
+      "readingEaseTag": "初心者向け",
+      "completionStatus": "連載中",
+      "recommendationCatch": "科学と魔術が交錯する学園都市バトルファンタジー",
+      "recommendedFor": [
+        "能力バトル好き",
+        "ラノベ好き",
+        "世界観重視の人"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-075",
+    "title": "魔法科高校の劣等生",
+    "authors": [
+      "佐島勤"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "魔法科高校の劣等生 佐島勤 KADOKAWA 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2011-07",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "near-future",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "KADOKAWA",
+    "pageCount": 344,
+    "estimatedReadingHours": 8.6,
+    "moodTags": {
+      "emotionalTags": [
+        "refreshing",
+        "hot"
+      ],
+      "purposeTags": [
+        "binge",
+        "immersive"
+      ],
+      "atmosphereTags": [
+        "extraordinary",
+        "tense"
+      ],
+      "paceTag": "早い",
+      "depthTag": "中程度",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "劣等生の仮面を被った最強の魔法師の学園物語",
+      "recommendedFor": [
+        "俺TUEEE好き",
+        "学園もの好き",
+        "魔法もの好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-076",
+    "title": "ダンジョンに出会いを求めるのは間違っているだろうか",
+    "authors": [
+      "大森藤ノ"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "ダンジョンに出会いを求めるのは間違っているだろうか 大森藤ノ SBクリエイティブ 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2013-01",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "adventure-fantasy",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "SBクリエイティブ",
+    "pageCount": 326,
+    "estimatedReadingHours": 8.2,
+    "moodTags": {
+      "emotionalTags": [
+        "hot",
+        "refreshing"
+      ],
+      "purposeTags": [
+        "binge",
+        "easy",
+        "immersive"
+      ],
+      "atmosphereTags": [
+        "bright",
+        "extraordinary"
+      ],
+      "paceTag": "早い",
+      "depthTag": "軽い",
+      "readingEaseTag": "初心者向け",
+      "completionStatus": "連載中",
+      "recommendationCatch": "駆け出し冒険者が英雄を目指す王道ファンタジー",
+      "recommendedFor": [
+        "冒険ファンタジー好き",
+        "成長物語好き",
+        "アニメファン"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-077",
+    "title": "86―エイティシックス―",
+    "authors": [
+      "安里アサト"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "86―エイティシックス― 安里アサト KADOKAWA 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2017-02",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "sf",
+      "l3Id": "near-future",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "KADOKAWA",
+    "pageCount": 312,
+    "estimatedReadingHours": 7.8,
+    "moodTags": {
+      "emotionalTags": [
+        "hot",
+        "sad",
+        "emotional"
+      ],
+      "purposeTags": [
+        "thinking",
+        "immersive"
+      ],
+      "atmosphereTags": [
+        "dark",
+        "tense"
+      ],
+      "paceTag": "早い",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "連載中",
+      "recommendationCatch": "差別と戦争を描くシリアスなミリタリーSFラノベ",
+      "recommendedFor": [
+        "ミリタリーSF好き",
+        "社会派好き",
+        "シリアスなラノベ好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-078",
+    "title": "ようこそ実力至上主義の教室へ",
+    "authors": [
+      "衣笠彰梧"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "ようこそ実力至上主義の教室へ 衣笠彰梧 KADOKAWA 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2015-05",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "mystery",
+      "l3Id": "suspense",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "KADOKAWA",
+    "pageCount": 312,
+    "estimatedReadingHours": 7.8,
+    "moodTags": {
+      "emotionalTags": [
+        "refreshing"
+      ],
+      "purposeTags": [
+        "thinking",
+        "binge"
+      ],
+      "atmosphereTags": [
+        "tense",
+        "uneasy"
+      ],
+      "paceTag": "早い",
+      "depthTag": "中程度",
+      "readingEaseTag": "普通",
+      "completionStatus": "連載中",
+      "recommendationCatch": "実力だけがものを言う学校で繰り広げる頭脳戦",
+      "recommendedFor": [
+        "頭脳戦好き",
+        "心理戦好き",
+        "学園もの好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-079",
+    "title": "オーバーロード",
+    "authors": [
+      "丸山くがね"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "オーバーロード 丸山くがね KADOKAWA 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2012-07",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "isekai",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "KADOKAWA",
+    "pageCount": 424,
+    "estimatedReadingHours": 10.6,
+    "moodTags": {
+      "emotionalTags": [
+        "refreshing"
+      ],
+      "purposeTags": [
+        "binge",
+        "immersive"
+      ],
+      "atmosphereTags": [
+        "dark",
+        "extraordinary"
+      ],
+      "paceTag": "普通",
+      "depthTag": "中程度",
+      "readingEaseTag": "普通",
+      "completionStatus": "連載中",
+      "recommendationCatch": "最強の魔王が異世界征服に挑むダークファンタジー",
+      "recommendedFor": [
+        "ダークファンタジー好き",
+        "異世界もの好き",
+        "魔王もの好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-080",
+    "title": "ノルウェイの森",
+    "authors": [
+      "村上春樹"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "ノルウェイの森 村上春樹 講談社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2004-09",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "modern-literature",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "講談社",
+    "pageCount": 560,
+    "estimatedReadingHours": 14,
+    "moodTags": {
+      "emotionalTags": [
+        "sad",
+        "emotional"
+      ],
+      "purposeTags": [
+        "thinking"
+      ],
+      "atmosphereTags": [
+        "calm",
+        "profound"
+      ],
+      "paceTag": "遅い",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "喪失と再生を描く村上春樹の恋愛文学",
+      "recommendedFor": [
+        "村上春樹ファン",
+        "文学的恋愛小説好き",
+        "純文学入門に"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-081",
+    "title": "海辺のカフカ",
+    "authors": [
+      "村上春樹"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "海辺のカフカ 村上春樹 新潮社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2005-03",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "modern-literature",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "新潮社",
+    "pageCount": 672,
+    "estimatedReadingHours": 16.8,
+    "moodTags": {
+      "emotionalTags": [
+        "sad"
+      ],
+      "purposeTags": [
+        "thinking",
+        "immersive"
+      ],
+      "atmosphereTags": [
+        "calm",
+        "extraordinary"
+      ],
+      "paceTag": "遅い",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "少年と猫と話せる老人が織りなす不思議な物語",
+      "recommendedFor": [
+        "村上春樹ファン",
+        "幻想文学好き",
+        "純文学好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-082",
+    "title": "雪国",
+    "authors": [
+      "川端康成"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "雪国 川端康成 新潮社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2006-05",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "jp-literature",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "新潮社",
+    "pageCount": 176,
+    "estimatedReadingHours": 4.4,
+    "moodTags": {
+      "emotionalTags": [
+        "sad"
+      ],
+      "purposeTags": [
+        "thinking"
+      ],
+      "atmosphereTags": [
+        "calm",
+        "profound"
+      ],
+      "paceTag": "遅い",
+      "depthTag": "重い",
+      "readingEaseTag": "読みごたえあり",
+      "completionStatus": "完結",
+      "recommendationCatch": "美しい日本語で描かれた雪国の恋物語",
+      "recommendedFor": [
+        "日本文学好き",
+        "川端康成ファン",
+        "美しい文章が好きな人"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-083",
+    "title": "人間失格",
+    "authors": [
+      "太宰治"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "人間失格 太宰治 新潮社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2006-06",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "jp-literature",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "新潮社",
+    "pageCount": 192,
+    "estimatedReadingHours": 4.8,
+    "moodTags": {
+      "emotionalTags": [
+        "sad",
+        "hopeless"
+      ],
+      "purposeTags": [
+        "thinking"
+      ],
+      "atmosphereTags": [
+        "dark",
+        "profound"
+      ],
+      "paceTag": "普通",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "人間社会に馴染めない男の壮絶な告白",
+      "recommendedFor": [
+        "日本文学好き",
+        "太宰治ファン",
+        "文学入門に"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-084",
+    "title": "こころ",
+    "authors": [
+      "夏目漱石"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "こころ 夏目漱石 新潮社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2004-03",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "jp-literature",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "新潮社",
+    "pageCount": 384,
+    "estimatedReadingHours": 9.6,
+    "moodTags": {
+      "emotionalTags": [
+        "sad"
+      ],
+      "purposeTags": [
+        "thinking"
+      ],
+      "atmosphereTags": [
+        "calm",
+        "profound"
+      ],
+      "paceTag": "遅い",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "友情と裏切りを描く近代日本文学の最高峰",
+      "recommendedFor": [
+        "日本文学入門に",
+        "夏目漱石ファン",
+        "名作を読みたい人"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-085",
+    "title": "変身",
+    "authors": [
+      "フランツ・カフカ"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "変身 フランツ・カフカ 新潮社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2007-01",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "foreign-literature",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "新潮社",
+    "pageCount": 128,
+    "estimatedReadingHours": 3.2,
+    "moodTags": {
+      "emotionalTags": [
+        "sad",
+        "hopeless"
+      ],
+      "purposeTags": [
+        "thinking"
+      ],
+      "atmosphereTags": [
+        "dark",
+        "uneasy"
+      ],
+      "paceTag": "早い",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "虫に変身した男が突きつける疎外と孤独の物語",
+      "recommendedFor": [
+        "海外文学好き",
+        "カフカファン",
+        "短編名作好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-086",
+    "title": "銀河鉄道の夜",
+    "authors": [
+      "宮沢賢治"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "銀河鉄道の夜 宮沢賢治 新潮社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "1989-06",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "jp-literature",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "新潮社",
+    "pageCount": 272,
+    "estimatedReadingHours": 6.8,
+    "moodTags": {
+      "emotionalTags": [
+        "sad",
+        "emotional"
+      ],
+      "purposeTags": [
+        "thinking"
+      ],
+      "atmosphereTags": [
+        "calm",
+        "extraordinary",
+        "gentle"
+      ],
+      "paceTag": "遅い",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "completionStatus": "完結",
+      "recommendationCatch": "銀河を旅する少年が問う「ほんとうのさいわい」",
+      "recommendedFor": [
+        "日本文学好き",
+        "宮沢賢治ファン",
+        "幻想文学好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-087",
+    "title": "コンビニ人間",
+    "authors": [
+      "村田沙耶香"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "コンビニ人間 村田沙耶香 文藝春秋 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2016-07",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "modern-literature",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "文藝春秋",
+    "pageCount": 160,
+    "estimatedReadingHours": 4,
+    "moodTags": {
+      "emotionalTags": [
+        "funny"
+      ],
+      "purposeTags": [
+        "thinking"
+      ],
+      "atmosphereTags": [
+        "daily"
+      ],
+      "paceTag": "早い",
+      "depthTag": "中程度",
+      "readingEaseTag": "初心者向け",
+      "completionStatus": "完結",
+      "recommendationCatch": "コンビニでだけ「普通」でいられる女性の物語",
+      "recommendedFor": [
+        "現代文学好き",
+        "芥川賞好き",
+        "短い名作好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-088",
+    "title": "博士の愛した数式",
+    "authors": [
+      "小川洋子"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "博士の愛した数式 小川洋子 新潮社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2005-11",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "modern-literature",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "新潮社",
+    "pageCount": 256,
+    "estimatedReadingHours": 6.4,
+    "moodTags": {
+      "emotionalTags": [
+        "emotional",
+        "heartwarming",
+        "healing"
+      ],
+      "purposeTags": [
+        "easy"
+      ],
+      "atmosphereTags": [
+        "gentle",
+        "calm"
+      ],
+      "paceTag": "遅い",
+      "depthTag": "中程度",
+      "readingEaseTag": "初心者向け",
+      "completionStatus": "完結",
+      "recommendationCatch": "記憶80分の数学者と家政婦が紡ぐ温かな絆",
+      "recommendedFor": [
+        "感動作品好き",
+        "数学好き",
+        "穏やかな物語好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-089",
+    "title": "蹴りたい背中",
+    "authors": [
+      "綿矢りさ"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "蹴りたい背中 綿矢りさ 河出書房新社 小説・文学",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2007-04",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "literary",
+      "l3Id": "modern-literature",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "河出書房新社",
+    "pageCount": 144,
+    "estimatedReadingHours": 3.6,
+    "moodTags": {
+      "emotionalTags": [
+        "sad"
+      ],
+      "purposeTags": [
+        "thinking"
+      ],
+      "atmosphereTags": [
+        "daily"
+      ],
+      "paceTag": "早い",
+      "depthTag": "中程度",
+      "readingEaseTag": "初心者向け",
+      "completionStatus": "完結",
+      "recommendationCatch": "クラスで浮いた少女の鋭い感性で描く青春文学",
+      "recommendedFor": [
+        "青春小説好き",
+        "芥川賞好き",
+        "短い名作好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-090",
+    "title": "嫌われる勇気",
+    "authors": [
+      "岸見一郎"
+    ],
+    "categories": [
+      "ビジネス・経済"
+    ],
+    "keywords": [
+      "ビジネス・経済",
+      "T-1101追加"
+    ],
+    "searchableText": "嫌われる勇気 岸見一郎 ダイヤモンド社 ビジネス・経済",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2013-12",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": "easy-masterpiece",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "ダイヤモンド社",
+    "pageCount": 296,
+    "estimatedReadingHours": 7.4,
+    "moodTags": {
+      "emotionalTags": [
+        "positive"
+      ],
+      "purposeTags": [
+        "thinking",
+        "learning",
+        "motivated"
+      ],
+      "atmosphereTags": [
+        "bright"
+      ],
+      "paceTag": "早い",
+      "depthTag": "中程度",
+      "readingEaseTag": "初心者向け",
+      "recommendationCatch": "アドラー心理学で人生の悩みをシンプルに解く",
+      "recommendedFor": [
+        "対人関係に悩む人",
+        "自己啓発入門に",
+        "心理学に興味がある人"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-091",
+    "title": "7つの習慣",
+    "authors": [
+      "スティーブン・R・コヴィー"
+    ],
+    "categories": [
+      "ビジネス・経済"
+    ],
+    "keywords": [
+      "ビジネス・経済",
+      "T-1101追加"
+    ],
+    "searchableText": "7つの習慣 スティーブン・R・コヴィー キングベアー出版 ビジネス・経済",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2013-08",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": "easy-masterpiece",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "キングベアー出版",
+    "pageCount": 560,
+    "estimatedReadingHours": 14,
+    "moodTags": {
+      "purposeTags": [
+        "learning",
+        "motivated",
+        "work"
+      ],
+      "atmosphereTags": [
+        "profound"
+      ],
+      "paceTag": "普通",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "recommendationCatch": "人生を変える7つの原則を体系的に学ぶ",
+      "recommendedFor": [
+        "自己啓発好き",
+        "ビジネスパーソン",
+        "人生を変えたい人"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-092",
+    "title": "DIE WITH ZERO",
+    "authors": [
+      "ビル・パーキンス"
+    ],
+    "categories": [
+      "ビジネス・経済"
+    ],
+    "keywords": [
+      "ビジネス・経済",
+      "T-1101追加"
+    ],
+    "searchableText": "DIE WITH ZERO ビル・パーキンス ダイヤモンド社 ビジネス・経済",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2020-09",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": "easy-masterpiece",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "ダイヤモンド社",
+    "pageCount": 280,
+    "estimatedReadingHours": 7,
+    "moodTags": {
+      "emotionalTags": [
+        "positive"
+      ],
+      "purposeTags": [
+        "thinking",
+        "motivated"
+      ],
+      "atmosphereTags": [
+        "bright"
+      ],
+      "paceTag": "早い",
+      "depthTag": "中程度",
+      "readingEaseTag": "初心者向け",
+      "recommendationCatch": "人生の時間とお金の使い方を根底から覆す",
+      "recommendedFor": [
+        "人生設計に悩む人",
+        "お金と幸福を考えたい人",
+        "30代以上"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-093",
+    "title": "思考は現実化する",
+    "authors": [
+      "ナポレオン・ヒル"
+    ],
+    "categories": [
+      "ビジネス・経済"
+    ],
+    "keywords": [
+      "ビジネス・経済",
+      "T-1101追加"
+    ],
+    "searchableText": "思考は現実化する ナポレオン・ヒル きこ書房 ビジネス・経済",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "1999-04",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": "easy-masterpiece",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "きこ書房",
+    "pageCount": 640,
+    "estimatedReadingHours": 16,
+    "moodTags": {
+      "purposeTags": [
+        "motivated",
+        "learning"
+      ],
+      "atmosphereTags": [
+        "profound"
+      ],
+      "paceTag": "遅い",
+      "depthTag": "重い",
+      "readingEaseTag": "普通",
+      "recommendationCatch": "500人の成功者を分析した成功哲学の古典",
+      "recommendedFor": [
+        "目標達成したい人",
+        "自己啓発好き",
+        "起業家志望"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-094",
+    "title": "夢をかなえるゾウ",
+    "authors": [
+      "水野敬也"
+    ],
+    "categories": [
+      "ビジネス・経済"
+    ],
+    "keywords": [
+      "ビジネス・経済",
+      "T-1101追加"
+    ],
+    "searchableText": "夢をかなえるゾウ 水野敬也 飛鳥新社 ビジネス・経済",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2007-08",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": "easy-masterpiece",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "飛鳥新社",
+    "pageCount": 357,
+    "estimatedReadingHours": 8.9,
+    "moodTags": {
+      "emotionalTags": [
+        "funny",
+        "positive"
+      ],
+      "purposeTags": [
+        "motivated",
+        "easy",
+        "learning"
+      ],
+      "atmosphereTags": [
+        "bright"
+      ],
+      "paceTag": "早い",
+      "depthTag": "軽い",
+      "readingEaseTag": "初心者向け",
+      "recommendationCatch": "関西弁のゾウの神様が教える人生の教訓",
+      "recommendedFor": [
+        "自己啓発入門に",
+        "笑える本が好きな人",
+        "読書初心者"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-095",
+    "title": "学びを結果に変えるアウトプット大全",
+    "authors": [
+      "樺沢紫苑"
+    ],
+    "categories": [
+      "ビジネス・経済"
+    ],
+    "keywords": [
+      "ビジネス・経済",
+      "T-1101追加"
+    ],
+    "searchableText": "学びを結果に変えるアウトプット大全 樺沢紫苑 サンクチュアリ出版 ビジネス・経済",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2018-08",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": "easy-masterpiece",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "サンクチュアリ出版",
+    "pageCount": 272,
+    "estimatedReadingHours": 6.8,
+    "moodTags": {
+      "purposeTags": [
+        "learning",
+        "work",
+        "motivated"
+      ],
+      "atmosphereTags": [
+        "bright"
+      ],
+      "paceTag": "早い",
+      "depthTag": "軽い",
+      "readingEaseTag": "初心者向け",
+      "recommendationCatch": "脳科学に基づく80のアウトプット術",
+      "recommendedFor": [
+        "ビジネスパーソン",
+        "学生",
+        "自己成長したい人"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-096",
+    "title": "エッセンシャル思考",
+    "authors": [
+      "グレッグ・マキューン"
+    ],
+    "categories": [
+      "ビジネス・経済"
+    ],
+    "keywords": [
+      "ビジネス・経済",
+      "T-1101追加"
+    ],
+    "searchableText": "エッセンシャル思考 グレッグ・マキューン かんき出版 ビジネス・経済",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2014-11",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": "easy-masterpiece",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "かんき出版",
+    "pageCount": 320,
+    "estimatedReadingHours": 8,
+    "moodTags": {
+      "purposeTags": [
+        "thinking",
+        "work",
+        "motivated"
+      ],
+      "atmosphereTags": [
+        "calm"
+      ],
+      "paceTag": "普通",
+      "depthTag": "中程度",
+      "readingEaseTag": "普通",
+      "recommendationCatch": "本当に重要なことだけに集中する技術",
+      "recommendedFor": [
+        "忙しいビジネスパーソン",
+        "優先順位に悩む人",
+        "生産性を上げたい人"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-097",
+    "title": "LIFE SHIFT 100年時代の人生戦略",
+    "authors": [
+      "リンダ・グラットン"
+    ],
+    "categories": [
+      "ビジネス・経済"
+    ],
+    "keywords": [
+      "ビジネス・経済",
+      "T-1101追加"
+    ],
+    "searchableText": "LIFE SHIFT 100年時代の人生戦略 リンダ・グラットン 東洋経済新報社 ビジネス・経済",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2016-10",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": "easy-masterpiece",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "東洋経済新報社",
+    "pageCount": 400,
+    "estimatedReadingHours": 10,
+    "moodTags": {
+      "purposeTags": [
+        "thinking",
+        "learning",
+        "motivated"
+      ],
+      "atmosphereTags": [
+        "bright"
+      ],
+      "paceTag": "普通",
+      "depthTag": "中程度",
+      "readingEaseTag": "普通",
+      "recommendationCatch": "100年時代のマルチステージ人生戦略",
+      "recommendedFor": [
+        "キャリアに悩む人",
+        "人生設計したい人",
+        "30-50代"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-098",
+    "title": "反応しない練習",
+    "authors": [
+      "草薙龍瞬"
+    ],
+    "categories": [
+      "ビジネス・経済"
+    ],
+    "keywords": [
+      "ビジネス・経済",
+      "T-1101追加"
+    ],
+    "searchableText": "反応しない練習 草薙龍瞬 KADOKAWA ビジネス・経済",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2015-07",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": "easy-masterpiece",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "KADOKAWA",
+    "pageCount": 224,
+    "estimatedReadingHours": 5.6,
+    "moodTags": {
+      "emotionalTags": [
+        "healing"
+      ],
+      "purposeTags": [
+        "thinking",
+        "learning"
+      ],
+      "atmosphereTags": [
+        "calm",
+        "gentle"
+      ],
+      "paceTag": "普通",
+      "depthTag": "中程度",
+      "readingEaseTag": "初心者向け",
+      "recommendationCatch": "ブッダの教えで心の反応をコントロールする",
+      "recommendedFor": [
+        "ストレスに悩む人",
+        "マインドフルネスに興味がある人",
+        "心を穏やかにしたい人"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-099",
+    "title": "限りある時間の使い方",
+    "authors": [
+      "オリバー・バークマン"
+    ],
+    "categories": [
+      "ビジネス・経済"
+    ],
+    "keywords": [
+      "ビジネス・経済",
+      "T-1101追加"
+    ],
+    "searchableText": "限りある時間の使い方 オリバー・バークマン かんき出版 ビジネス・経済",
+    "updatedAt": "2026-04-19T05:30:03.659Z",
+    "publishedDate": "2022-06",
+    "language": "ja",
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "entertainment",
+      "l3Id": "easy-masterpiece",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "publisher": "かんき出版",
+    "pageCount": 304,
+    "estimatedReadingHours": 7.6,
+    "moodTags": {
+      "purposeTags": [
+        "thinking",
+        "motivated"
+      ],
+      "atmosphereTags": [
+        "calm",
+        "profound"
+      ],
+      "paceTag": "普通",
+      "depthTag": "中程度",
+      "readingEaseTag": "普通",
+      "recommendationCatch": "4000週間の人生をどう生きるかを問う哲学的時間術",
+      "recommendedFor": [
+        "忙しい人",
+        "人生の意味を考えたい人",
+        "哲学好き"
+      ]
+    }
+  },
+  {
+    "id": "novel-100-100",
+    "title": "ロードス島戦記",
+    "authors": [
+      "水野良"
+    ],
+    "categories": [
+      "小説・文学"
+    ],
+    "keywords": [
+      "小説・文学",
+      "T-1101追加"
+    ],
+    "searchableText": "ロードス島戦記 水野良 KADOKAWA 小説・文学",
+    "updatedAt": "2026-04-19T05:30:38.008Z",
+    "publisher": "KADOKAWA",
+    "publishedDate": "1988-04",
+    "language": "ja",
+    "pageCount": 296,
+    "estimatedReadingHours": 7.4,
+    "manualClassification": {
+      "l1Id": "novel",
+      "l2Id": "fantasy",
+      "l3Id": "adventure-fantasy",
+      "l4TagIds": [
+        "readable"
+      ],
+      "l5TagIds": []
+    },
+    "moodTags": {
+      "emotionalTags": [
+        "hot",
+        "emotional"
+      ],
+      "purposeTags": [
+        "immersive",
+        "binge"
+      ],
+      "atmosphereTags": [
+        "extraordinary",
+        "tense"
+      ],
+      "paceTag": "早い",
+      "depthTag": "中程度",
+      "readingEaseTag": "初心者向け",
+      "completionStatus": "完結",
+      "recommendationCatch": "日本ファンタジーラノベの原点にして金字塔",
+      "recommendedFor": [
+        "ファンタジー好き",
+        "ラノベの原点を読みたい人",
+        "TRPG好き"
+      ]
+    }
   }
 ]
