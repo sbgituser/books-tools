@@ -77,35 +77,44 @@ function chunk<T>(arr: T[], size: number): T[][] {
   return result;
 }
 
+type WorkEntry = { id: string; lastmod: string; priority: number };
+
 /**
- * summaryShort または discoveryTags を持つ作品のみ対象にする。
- * 薄いコンテンツはクロール予算の無駄遣いになるため除外。
- * ファイルの更新日も取得して lastmod に反映する。
+ * summaryShort または discoveryTags を持つ作品を取得し、
+ * summary あり（高品質）と tags のみ（中品質）に分離して返す。
+ * 薄いコンテンツ（両方なし）はサイトマップから除外。
  */
-function getIndexableWorks(): Array<{ id: string; lastmod: string }> {
+function getIndexableWorks(): { summary: WorkEntry[]; tagsOnly: WorkEntry[] } {
   try {
     const dir = path.join(process.cwd(), "public", "data", "works");
-    return fs
-      .readdirSync(dir)
-      .filter((f) => f.endsWith(".json"))
-      .map((f) => {
-        try {
-          const filePath = path.join(dir, f);
-          const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-          const hasSummary = Boolean((data.summaryShort ?? "").trim());
-          const hasTags = (data.discoveryTags?.length ?? 0) > 0;
-          if (!hasSummary && !hasTags) return null;
+    const summary: WorkEntry[] = [];
+    const tagsOnly: WorkEntry[] = [];
 
-          const stat = fs.statSync(filePath);
-          const lastmod = stat.mtime.toISOString().substring(0, 10);
-          return { id: f.replace(/\.json$/, ""), lastmod };
-        } catch {
-          return null;
+    for (const f of fs.readdirSync(dir).filter((f) => f.endsWith(".json"))) {
+      try {
+        const filePath = path.join(dir, f);
+        const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+        const hasSummary = Boolean((data.summaryShort ?? "").trim());
+        const hasTags = (data.discoveryTags?.length ?? 0) > 0;
+        if (!hasSummary && !hasTags) continue;
+
+        const stat = fs.statSync(filePath);
+        const lastmod = stat.mtime.toISOString().substring(0, 10);
+        const id = f.replace(/\.json$/, "");
+
+        if (hasSummary) {
+          summary.push({ id, lastmod, priority: 0.6 });
+        } else {
+          tagsOnly.push({ id, lastmod, priority: 0.4 });
         }
-      })
-      .filter((v): v is { id: string; lastmod: string } => v !== null);
+      } catch {
+        // skip
+      }
+    }
+
+    return { summary, tagsOnly };
   } catch {
-    return [];
+    return { summary: [], tagsOnly: [] };
   }
 }
 
@@ -117,7 +126,7 @@ function main() {
 
   // 古いworksサイトマップを削除（分割数が変わった場合に備える）
   for (const f of fs.readdirSync(publicDir)) {
-    if (/^sitemap-works(-\d+)?\.xml$/.test(f)) {
+    if (/^sitemap-works(-\d+|-tags)?\.xml$/.test(f)) {
       fs.unlinkSync(path.join(publicDir, f));
     }
   }
@@ -182,30 +191,49 @@ function main() {
   );
   console.log(`✅ sitemap-tools.xml  : ${toolsEntries.length} URLs`);
 
-  // ── sitemap-works-{n}.xml ─────────────────────────────────────────────
-  const indexableWorks = getIndexableWorks();
-  const worksChunks = chunk(indexableWorks, WORKS_PER_SITEMAP);
+  // ── sitemap-works-{n}.xml（summaryあり＝高品質）─────────────────────
+  const { summary: summaryWorks, tagsOnly: tagsOnlyWorks } = getIndexableWorks();
+  const worksChunks = chunk(summaryWorks, WORKS_PER_SITEMAP);
   const worksSitemaps: Array<{ loc: string; lastmod: string }> = [];
 
   worksChunks.forEach((worksSlice, idx) => {
     const suffix = worksChunks.length === 1 ? "" : `-${idx + 1}`;
     const fileName = `sitemap-works${suffix}.xml`;
     const entries = worksSlice.map((w) =>
-      urlEntry(`${SITE_URL}/works/${w.id}`, w.lastmod, "monthly", 0.5),
+      urlEntry(`${SITE_URL}/works/${w.id}`, w.lastmod, "monthly", w.priority),
     );
     fs.writeFileSync(
       path.join(publicDir, fileName),
       buildSitemap(entries),
       "utf-8",
     );
-    // サブサイトマップのlastmodはそのチャンク内の最新日付
     const latestMod = worksSlice.reduce(
       (max, w) => (w.lastmod > max ? w.lastmod : max),
       worksSlice[0]?.lastmod ?? today,
     );
     worksSitemaps.push({ loc: `${SITE_URL}/${fileName}`, lastmod: latestMod });
-    console.log(`✅ ${fileName.padEnd(24)}: ${entries.length} URLs`);
+    console.log(`✅ ${fileName.padEnd(24)}: ${entries.length} URLs (summary)`);
   });
+
+  // ── sitemap-works-tags.xml（tagsのみ＝中品質・低優先度）───────────────
+  // crawl予算を高品質ページに集中させるため、分離して低priorityで配置
+  if (tagsOnlyWorks.length > 0) {
+    const tagsFileName = "sitemap-works-tags.xml";
+    const tagsEntries = tagsOnlyWorks.map((w) =>
+      urlEntry(`${SITE_URL}/works/${w.id}`, w.lastmod, "monthly", 0.3),
+    );
+    fs.writeFileSync(
+      path.join(publicDir, tagsFileName),
+      buildSitemap(tagsEntries),
+      "utf-8",
+    );
+    const tagsLatestMod = tagsOnlyWorks.reduce(
+      (max, w) => (w.lastmod > max ? w.lastmod : max),
+      tagsOnlyWorks[0]?.lastmod ?? today,
+    );
+    worksSitemaps.push({ loc: `${SITE_URL}/${tagsFileName}`, lastmod: tagsLatestMod });
+    console.log(`✅ ${tagsFileName.padEnd(24)}: ${tagsEntries.length} URLs (tags-only)`);
+  }
 
   // ── sitemap-blog.xml ────────────────────────────────────────────────────
   const blogPosts = getAllBlogMeta();
@@ -259,15 +287,17 @@ function main() {
   const totalSitemaps = 3 + worksSitemaps.length + 1; // static + tools + works[] + blog + discover
   console.log(`✅ sitemap.xml        : ${totalSitemaps} sub-sitemaps`);
 
+  const allWorksCount = summaryWorks.length + tagsOnlyWorks.length;
   const total =
     staticEntries.length +
     toolsEntries.length +
-    indexableWorks.length +
+    allWorksCount +
     blogEntries.length +
     discoverEntries.length;
   console.log(`\n📊 合計 URL 数: ${total}`);
-  console.log(`   作品ページ: ${indexableWorks.length} (indexable) / ${indexableWorks.length + (2187 - indexableWorks.length)} (total)`);
-  console.log(`   薄いコンテンツ除外: ${2187 - indexableWorks.length} ページ`);
+  console.log(`   作品ページ(summary): ${summaryWorks.length} (priority 0.6)`);
+  console.log(`   作品ページ(tags-only): ${tagsOnlyWorks.length} (priority 0.3)`);
+  console.log(`   薄いコンテンツ除外: ${2645 - allWorksCount} ページ (noindex)`);
 }
 
 main();

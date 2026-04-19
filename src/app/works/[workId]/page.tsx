@@ -78,8 +78,9 @@ export async function generateMetadata({
 
   const title = `${work.title}｜${work.authorDisplay} | ${SITE_NAME}`;
   const typeLabel = work.type === "manga" ? "漫画" : "小説";
+  const autoSummary = work.summaryShort?.trim() ? null : generateAutoSummary(work);
   const desc = [
-    work.summaryShort,
+    work.summaryShort || autoSummary,
     `${work.authorDisplay}のおすすめ${typeLabel}「${work.title}」。`,
     work.discoveryTags.length > 0 ? work.discoveryTags.slice(0, 4).join("・") + "など。" : "",
     work.volumeCount > 1 ? `全${work.volumeCount}巻。` : "",
@@ -240,6 +241,38 @@ const TAG_TO_MOOD_SLUG: Record<string, { slug: string; label: string }> = {
   "完結":       { slug: "completed",    label: "完結済み漫画" },
   "読みやすい": { slug: "easy",         label: "気軽に読める漫画" },
 };
+
+/**
+ * summaryShort がない作品に対して、メタデータから自動的に紹介文を生成する。
+ * SEO description とページ上の表示の両方で利用。
+ */
+function generateAutoSummary(work: WorkDetail): string {
+  const typeLabel = work.type === "manga" ? "漫画" : "小説";
+  const l2Label = L2_LABEL[work.l2Id ?? ""];
+  const tags = work.discoveryTags.slice(0, 3);
+
+  const parts: string[] = [];
+
+  // ジャンル + タイプ
+  if (l2Label) {
+    parts.push(`${l2Label}ジャンルの${typeLabel}`);
+  } else {
+    parts.push(`おすすめの${typeLabel}`);
+  }
+
+  // タグベースの特徴
+  if (tags.length > 0) {
+    parts.push(`「${tags.join("」「")}」が特徴`);
+  }
+
+  // 巻数・完結
+  if (work.volumeCount > 1) {
+    const statusText = work.status === "completed" ? "完結済み・" : work.status === "ongoing" ? "連載中・" : "";
+    parts.push(`${statusText}全${work.volumeCount}巻`);
+  }
+
+  return `${work.authorDisplay}による${parts.join("の")}。あらすじ・おすすめ度・Kindle情報をまとめて紹介。`;
+}
 
 const L2_LABEL: Record<string, string> = {
   mystery: "ミステリー",
@@ -498,9 +531,9 @@ export default async function WorkDetailPage({
                   <p className="text-stone-400 text-xs mb-4">{work.publisherMain}</p>
                 )}
 
-                {work.summaryShort && (
+                {(work.summaryShort || (!work.summaryShort && work.discoveryTags.length > 0)) && (
                   <p className="text-stone-600 text-sm leading-relaxed bg-rose-50 border border-rose-100 rounded-xl px-4 py-3 mb-4">
-                    {work.summaryShort}
+                    {work.summaryShort || generateAutoSummary(work)}
                   </p>
                 )}
 

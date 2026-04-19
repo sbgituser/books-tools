@@ -38,6 +38,8 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
     ? `${post.description}詳しい解説・選び方のポイントをBooks Tools編集部が紹介します。`
     : `${post.title}。Books Tools編集部が厳選したおすすめ情報を詳しく解説します。`;
 
+  const ogDisplayTitle = post.ogTitle ?? post.title;
+
   return {
     title: `${post.title} | ブログ`,
     description,
@@ -45,7 +47,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
       canonical,
     },
     openGraph: {
-      title: `${post.title} | ${SITE_NAME}`,
+      title: `${ogDisplayTitle} | ${SITE_NAME}`,
       description,
       url: canonical,
       type: "article",
@@ -58,7 +60,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
     },
     twitter: {
       card: "summary_large_image",
-      title: `${post.title} | ${SITE_NAME}`,
+      title: `${ogDisplayTitle} | ${SITE_NAME}`,
       description,
     },
   };
@@ -94,9 +96,10 @@ export default async function BlogDetailPage({ params }: { params: Promise<Param
     mainEntityOfPage: getBlogCanonical(post.slug),
     keywords: post.tags.join(","),
     author: {
-      "@type": "Organization",
-      name: "Books Tools",
-      url: "https://books.kuras-plus.com",
+      "@type": "Person",
+      name: "Books Tools 編集部",
+      url: "https://books.kuras-plus.com/about",
+      jobTitle: "編集部",
     },
     publisher: {
       "@type": "Organization",
@@ -118,6 +121,22 @@ export default async function BlogDetailPage({ params }: { params: Promise<Param
     ],
   };
 
+  // ItemList JSON-LD: ランキング型記事（〇選）で『タイトル』パターンのh3見出しからリスト生成
+  const listItems = post.toc
+    .filter((item) => item.level === 3 && /^『.+』/.test(item.text))
+    .map((item, i) => ({
+      "@type": "ListItem" as const,
+      position: i + 1,
+      name: item.text.replace(/^『(.+?)』.*$/, "$1"),
+    }));
+  const itemListJsonLd = listItems.length >= 3 ? {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: post.title,
+    numberOfItems: listItems.length,
+    itemListElement: listItems,
+  } : null;
+
   return (
     <>
       <script
@@ -128,6 +147,12 @@ export default async function BlogDetailPage({ params }: { params: Promise<Param
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
+      {itemListJsonLd ? (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
+        />
+      ) : null}
       <Header />
       <main className="max-w-4xl mx-auto px-4 py-10">
         <nav className="text-xs text-stone-500 mb-4" aria-label="パンくず">

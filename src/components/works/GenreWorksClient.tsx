@@ -18,8 +18,8 @@ const TYPE_TABS: { value: TypeFilter; label: string }[] = [
   { value: "novel", label: "📕 小説" },
 ];
 
-const INITIAL_COUNT = 24;
-const LOAD_MORE_COUNT = 24;
+const INITIAL_COUNT = 60;
+const LOAD_MORE_COUNT = 60;
 
 interface Props {
   works: WorkListItem[];

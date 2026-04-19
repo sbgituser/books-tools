@@ -18,6 +18,7 @@ export type BlogMeta = {
   tags: string[];
   draft: boolean;
   coverImage?: string;
+  ogTitle?: string;
   readingMinutes: number;
   readingText: string;
 };
@@ -96,6 +97,7 @@ function parseMeta(fileName: string, raw: string): BlogMeta {
     tags: Array.isArray(data.tags) ? data.tags.map(String) : [],
     draft: Boolean(data.draft ?? false),
     coverImage: data.coverImage ? String(data.coverImage) : undefined,
+    ogTitle: data.ogTitle ? String(data.ogTitle) : undefined,
     readingMinutes: Math.max(1, Math.round(rt.minutes)),
     readingText: `${Math.max(1, Math.round(rt.minutes))}分`,
   };

@@ -1,3 +1,5 @@
+import { readFileSync, readdirSync, existsSync } from "fs";
+import { join } from "path";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "@/components/Header";
@@ -5,6 +7,47 @@ import Footer from "@/components/Footer";
 import DiscoverSection from "@/components/works/DiscoverSection";
 import { DISCOVER_MOODS } from "@/constants/discoverMoods";
 import { SITE_URL } from "@/lib/site";
+
+// ── SSR用: 各気分カテゴリの代表作品をビルド時に取得 ──
+
+interface PickedWork {
+  fileId: string;
+  title: string;
+  authorDisplay: string;
+}
+
+interface MoodPick {
+  slug: string;
+  label: string;
+  icon: string;
+  works: PickedWork[];
+}
+
+function getMoodPicks(): MoodPick[] {
+  try {
+    const curatedDir = join(process.cwd(), "data", "discover-curated");
+    if (!existsSync(curatedDir)) return [];
+    return DISCOVER_MOODS.map((mood) => {
+      const filePath = join(curatedDir, `${mood.slug}.json`);
+      if (!existsSync(filePath)) return { slug: mood.slug, label: mood.label, icon: mood.icon, works: [] };
+      const data = JSON.parse(readFileSync(filePath, "utf-8"));
+      const picks: PickedWork[] = [];
+      for (const section of data.sections ?? []) {
+        for (const item of section.items ?? []) {
+          if (picks.length >= 8) break;
+          const workPath = join(process.cwd(), "public", "data", "works", `${item.workId}.json`);
+          if (!existsSync(workPath)) continue;
+          const work = JSON.parse(readFileSync(workPath, "utf-8"));
+          picks.push({ fileId: item.workId, title: work.title, authorDisplay: work.authorDisplay ?? work.author ?? "" });
+        }
+        if (picks.length >= 8) break;
+      }
+      return { slug: mood.slug, label: mood.label, icon: mood.icon, works: picks };
+    }).filter((m) => m.works.length > 0);
+  } catch {
+    return [];
+  }
+}
 
 export const metadata: Metadata = {
   title: "気分から本を発見する | Books Discover",
@@ -28,6 +71,7 @@ const breadcrumbJsonLd = {
 };
 
 export default function DiscoverPage() {
+  const moodPicks = getMoodPicks();
   return (
     <>
       <script
@@ -82,6 +126,39 @@ export default function DiscoverPage() {
             </div>
           </div>
         </section>
+
+        {/* 気分別おすすめ作品（SSR: クローラー向け内部リンク） */}
+        {moodPicks.length > 0 && (
+          <section className="border-t border-stone-200 bg-stone-50 py-10 px-4">
+            <div className="max-w-5xl mx-auto">
+              <h2 className="text-sm font-bold text-stone-500 uppercase tracking-wider mb-6 text-center">
+                気分別のおすすめ作品
+              </h2>
+              <div className="space-y-6">
+                {moodPicks.map((mood) => (
+                  <div key={mood.slug}>
+                    <h3 className="text-sm font-bold text-stone-700 mb-3">
+                      <span className="mr-1">{mood.icon}</span>
+                      {mood.label}
+                    </h3>
+                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                      {mood.works.map((w) => (
+                        <Link
+                          key={w.fileId}
+                          href={`/works/${w.fileId}`}
+                          className="block p-3 bg-white border border-stone-200 rounded-lg hover:border-rose-300 hover:shadow-sm transition-all"
+                        >
+                          <p className="text-xs font-bold text-stone-800 line-clamp-2 leading-snug">{w.title}</p>
+                          <p className="text-xs text-stone-400 mt-1 line-clamp-1">{w.authorDisplay}</p>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* もっと探す & おすすめ本診断CTA */}
         <section className="border-t border-stone-200 bg-stone-50 py-10 px-4">

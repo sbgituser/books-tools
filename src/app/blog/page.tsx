@@ -1,3 +1,5 @@
+import { readFileSync, readdirSync } from "fs";
+import { join } from "path";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "@/components/Header";
@@ -5,6 +7,32 @@ import Footer from "@/components/Footer";
 import { formatDateLabel, getAllBlogMeta, getBlogCanonical } from "@/lib/blog";
 import { BLOG_DESCRIPTION, SITE_NAME, TOOL_LINKS } from "@/lib/site";
 import BlogIndexClient from "@/components/blog/BlogIndexClient";
+
+interface FeaturedWork {
+  fileId: string;
+  title: string;
+  authorDisplay: string;
+}
+
+function getFeaturedWorks(): FeaturedWork[] {
+  try {
+    const dir = join(process.cwd(), "public", "data", "works");
+    const files = readdirSync(dir).filter((f) => f.endsWith(".json"));
+    const candidates: Array<FeaturedWork & { score: number }> = [];
+    for (const f of files) {
+      const data = JSON.parse(readFileSync(join(dir, f), "utf-8"));
+      const hasSummary = Boolean((data.summaryShort ?? "").trim());
+      const hasTags = (data.discoveryTags?.length ?? 0) > 0;
+      if (!hasSummary) continue;
+      const score = (data.summaryShort?.length ?? 0) + (data.discoveryTags?.length ?? 0) * 20 + (data.volumeCount ?? 1) * 2;
+      candidates.push({ fileId: f.replace(/\.json$/, ""), title: data.title, authorDisplay: data.authorDisplay ?? data.author ?? "", score });
+    }
+    candidates.sort((a, b) => b.score - a.score);
+    return candidates.slice(0, 48);
+  } catch {
+    return [];
+  }
+}
 
 export const metadata: Metadata = {
   title: "読書ブログ｜小説・漫画のおすすめ＆読書ガイド",
@@ -84,6 +112,29 @@ export default function BlogIndexPage() {
         </div>
 
         <BlogIndexClient posts={posts} />
+
+        {/* 人気の作品（SSR: クローラー向け内部リンク） */}
+        {(() => {
+          const featured = getFeaturedWorks();
+          if (featured.length === 0) return null;
+          return (
+            <section className="mt-10 rounded-2xl border border-stone-200 bg-white p-6 shadow-sm">
+              <h2 className="text-lg font-bold text-stone-900 mb-4">ブログで紹介している人気作品</h2>
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
+                {featured.map((w) => (
+                  <Link
+                    key={w.fileId}
+                    href={`/works/${w.fileId}`}
+                    className="block p-3 bg-stone-50 border border-stone-100 rounded-lg hover:border-amber-300 hover:bg-amber-50 transition-all"
+                  >
+                    <p className="text-xs font-bold text-stone-800 line-clamp-2 leading-snug">{w.title}</p>
+                    <p className="text-xs text-stone-400 mt-1 line-clamp-1">{w.authorDisplay}</p>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          );
+        })()}
 
         {/* ツールで本を探す CTAバナー */}
         <div className="mt-10 grid sm:grid-cols-2 gap-3">
