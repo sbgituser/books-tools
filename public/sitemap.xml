@@ -2,23 +2,23 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>https://books.kuras-plus.com/sitemap-static.xml</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-06-20</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://books.kuras-plus.com/sitemap-tools.xml</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-06-20</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://books.kuras-plus.com/sitemap-works-1.xml</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-06-20</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://books.kuras-plus.com/sitemap-works-2.xml</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-06-20</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://books.kuras-plus.com/sitemap-works-tags.xml</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-06-20</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://books.kuras-plus.com/sitemap-blog.xml</loc>
@@ -26,6 +26,6 @@
   </sitemap>
   <sitemap>
     <loc>https://books.kuras-plus.com/sitemap-discover.xml</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-06-20</lastmod>
   </sitemap>
 </sitemapindex>

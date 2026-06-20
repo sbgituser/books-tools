@@ -16,6 +16,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import { getAllBlogMeta } from "../src/lib/blog";
+import { resolveBlogSeo } from "../src/lib/seoPolicy";
+import { PROTECTED_BLOG_PAGES } from "../src/data/seo-protected-pages";
 import { SITE_URL } from "../src/lib/site";
 import { READING_SCENES } from "../src/constants/readingScenes";
 import { PRESET_SEARCHES } from "../src/constants/bookTags";
@@ -236,27 +238,70 @@ function main() {
   }
 
   // ── sitemap-blog.xml ────────────────────────────────────────────────────
-  const blogPosts = getAllBlogMeta();
-  const blogLatest = blogPosts.length > 0
-    ? (blogPosts[0].updated ?? blogPosts[0].date).substring(0, 10)
+  // seoPolicy を適用し、noindex/redirect/canonical統合のページは除外する。
+  // protected対象は必ず含める（priority を引き上げる）。
+  const allBlogPosts = getAllBlogMeta();
+  const includedBlogPosts = allBlogPosts.filter((post) => {
+    const seo = resolveBlogSeo({
+      slug: post.slug,
+      seoStatus: post.seoStatus,
+      canonicalSlug: post.canonicalSlug,
+      redirectTo: post.redirectTo,
+    });
+    return seo.includeInSitemap;
+  });
+  const excludedBlogCount = allBlogPosts.length - includedBlogPosts.length;
+
+  const blogLatest = includedBlogPosts.length > 0
+    ? (includedBlogPosts[0].updated ?? includedBlogPosts[0].date).substring(0, 10)
     : today;
   const blogEntries = [
     urlEntry(`${SITE_URL}/blog`, blogLatest, "daily", 0.9),
-    ...blogPosts.map((post) =>
-      urlEntry(
+    ...includedBlogPosts.map((post) => {
+      const seo = resolveBlogSeo({
+        slug: post.slug,
+        seoStatus: post.seoStatus,
+        canonicalSlug: post.canonicalSlug,
+        redirectTo: post.redirectTo,
+      });
+      // 保護記事・柱記事は高優先度
+      const priority = seo.isProtected ? 0.9 : post.isPillar ? 0.8 : 0.7;
+      return urlEntry(
         `${SITE_URL}/blog/${post.slug}`,
         (post.updated ?? post.date).substring(0, 10),
         "weekly",
-        0.7,
-      ),
-    ),
+        priority,
+      );
+    }),
   ];
   fs.writeFileSync(
     path.join(publicDir, "sitemap-blog.xml"),
     buildSitemap(blogEntries),
     "utf-8",
   );
-  console.log(`✅ sitemap-blog.xml   : ${blogEntries.length} URLs`);
+  console.log(
+    `✅ sitemap-blog.xml   : ${blogEntries.length} URLs (除外 ${excludedBlogCount} 件)`,
+  );
+
+  // ── 安全装置: protected記事が必ず sitemap に含まれているか検証 ───────────
+  const includedSlugs = new Set(includedBlogPosts.map((p) => p.slug));
+  const missingProtected = PROTECTED_BLOG_PAGES.filter(
+    (p) => !includedSlugs.has(p.slug),
+  );
+  if (missingProtected.length > 0) {
+    console.error(
+      `\n🚨 SEO安全装置エラー: protected記事が sitemap から除外されています:`,
+    );
+    for (const p of missingProtected) {
+      console.error(`   - ${p.slug} (${p.title})`);
+    }
+    throw new Error(
+      `protected記事 ${missingProtected.length} 件が sitemap に含まれていません。ビルドを中止します。`,
+    );
+  }
+  console.log(
+    `🛡️  protected記事 ${PROTECTED_BLOG_PAGES.length} 件すべて sitemap に掲載確認`,
+  );
 
   // ── sitemap-discover.xml ────────────────────────────────────────────────
   const discoverEntries = [

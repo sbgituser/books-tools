@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { READING_SCENES } from "@/constants/readingScenes";
 import { getAllBlogMeta } from "@/lib/blog";
+import { isProtectedBlogSlug } from "@/data/seo-protected-pages";
 
 const POPULAR_WORKS = [
   { workId: "1d7xco7", title: "ハイキュー!!", author: "古舘春一",   type: "漫画", tags: ["熱い", "感動"],  cover: "https://books.google.com/books/content?id=e5KFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api" },
@@ -62,7 +63,11 @@ const organizationJsonLd = {
 };
 
 function FeaturedArticlesSection() {
-  const posts = getAllBlogMeta().slice(0, 4);
+  // GA4実績のある保護記事をトップに優先表示し、内部リンクを集中させる
+  const all = getAllBlogMeta();
+  const protectedPosts = all.filter((p) => isProtectedBlogSlug(p.slug));
+  const rest = all.filter((p) => !isProtectedBlogSlug(p.slug));
+  const posts = [...protectedPosts, ...rest].slice(0, 4);
   if (posts.length === 0) return null;
 
   return (

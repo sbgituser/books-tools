@@ -7,6 +7,7 @@
     "build": "next build && tsx scripts/postbuild-cleanup.ts",
     "start": "next start",
     "lint": "eslint",
+    "seo:audit": "tsx scripts/seo-audit.ts",
     "blog:new": "tsx scripts/create-blog-post.ts",
     "blog:auto": "tsx scripts/auto-generate-blog.ts",
     "search:books": "tsx scripts/search-books.ts",

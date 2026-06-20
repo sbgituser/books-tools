@@ -9,6 +9,14 @@ export type TocItem = {
   level: 2 | 3;
 };
 
+export type SeoStatus =
+  | "protect"
+  | "index"
+  | "strengthen"
+  | "noindex"
+  | "canonical"
+  | "redirect";
+
 export type BlogMeta = {
   slug: string;
   title: string;
@@ -21,6 +29,18 @@ export type BlogMeta = {
   ogTitle?: string;
   readingMinutes: number;
   readingText: string;
+  /** SEO 方針（未指定なら seoPolicy がデフォルト index と解釈） */
+  seoStatus?: SeoStatus;
+  /** canonical 統合先 slug */
+  canonicalSlug?: string;
+  /** redirect 先 slug */
+  redirectTo?: string;
+  /** 柱記事グループ（相互内部リンク用） */
+  pillarGroup?: string;
+  /** 柱記事フラグ */
+  isPillar?: boolean;
+  /** 保護理由メモ */
+  protectedReason?: string;
 };
 
 export type BlogPost = BlogMeta & {
@@ -88,6 +108,19 @@ function parseMeta(fileName: string, raw: string): BlogMeta {
   const content = matter(raw).content;
   const rt = readingTime(content);
 
+  const VALID_SEO_STATUS: SeoStatus[] = [
+    "protect",
+    "index",
+    "strengthen",
+    "noindex",
+    "canonical",
+    "redirect",
+  ];
+  const seoStatus =
+    data.seoStatus && VALID_SEO_STATUS.includes(data.seoStatus as SeoStatus)
+      ? (data.seoStatus as SeoStatus)
+      : undefined;
+
   return {
     slug,
     title: String(data.title ?? slug),
@@ -100,6 +133,14 @@ function parseMeta(fileName: string, raw: string): BlogMeta {
     ogTitle: data.ogTitle ? String(data.ogTitle) : undefined,
     readingMinutes: Math.max(1, Math.round(rt.minutes)),
     readingText: `${Math.max(1, Math.round(rt.minutes))}分`,
+    seoStatus,
+    canonicalSlug: data.canonicalSlug ? String(data.canonicalSlug) : undefined,
+    redirectTo: data.redirectTo ? String(data.redirectTo) : undefined,
+    pillarGroup: data.pillarGroup ? String(data.pillarGroup) : undefined,
+    isPillar: data.isPillar ? Boolean(data.isPillar) : undefined,
+    protectedReason: data.protectedReason
+      ? String(data.protectedReason)
+      : undefined,
   };
 }
 

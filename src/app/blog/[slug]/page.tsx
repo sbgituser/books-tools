@@ -13,6 +13,7 @@ import {
   getRelatedPosts,
 } from "@/lib/blog";
 import { SITE_NAME, TOOL_LINKS } from "@/lib/site";
+import { resolveBlogSeo } from "@/lib/seoPolicy";
 
 type Params = { slug: string };
 
@@ -30,13 +31,20 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   const post = await getBlogPostBySlug(normalizedSlug);
   if (!post) return { title: "記事が見つかりません" };
 
-  const canonical = getBlogCanonical(post.slug);
+  // SEO 方針を seoPolicy で一元決定（protected は必ず index・自己参照canonical）
+  const seo = resolveBlogSeo({
+    slug: post.slug,
+    seoStatus: post.seoStatus,
+    canonicalSlug: post.canonicalSlug,
+    redirectTo: post.redirectTo,
+  });
+  const canonical = getBlogCanonical(seo.canonicalSlug);
 
   const description = post.description && post.description.length >= 80
     ? post.description
     : post.description
-    ? `${post.description}詳しい解説・選び方のポイントをBooks Tools編集部が紹介します。`
-    : `${post.title}。Books Tools編集部が厳選したおすすめ情報を詳しく解説します。`;
+    ? `${post.description}詳しい解説・選び方のポイントを作品データと選定基準にもとづいて紹介します。`
+    : `${post.title}。作品データ・ジャンル・読書体験タグをもとに選定した情報を詳しく解説します。`;
 
   const ogDisplayTitle = post.ogTitle ?? post.title;
 
@@ -46,6 +54,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
     alternates: {
       canonical,
     },
+    robots: seo.robots,
     openGraph: {
       title: `${ogDisplayTitle} | ${SITE_NAME}`,
       description,
@@ -205,11 +214,11 @@ export default async function BlogDetailPage({ params }: { params: Promise<Param
           </article>
 
           <div className="mt-8 p-4 bg-stone-50 rounded-lg border border-stone-200">
-            <h3 className="text-sm font-semibold text-stone-600 mb-2">この記事について</h3>
+            <h3 className="text-sm font-semibold text-stone-600 mb-2">この記事の選定方針について</h3>
             <p className="text-sm text-stone-700">
-              Books Tools編集部が、実際の読書体験をもとに作成しました。
-              本サービスは2024年より、読者が本当に読みたい本を見つけられるよう、
-              厳選したコンテンツを提供しています。
+              当サイトでは、作品データ・ジャンル・読書体験タグ・関連作品との比較をもとに記事を構成しています。
+              選定基準は、読みやすさ、完結状況、ジャンル適合度、読後感、初心者向け度です。
+              外部評価や受賞歴は、確認できる範囲で参考情報として扱います。
             </p>
           </div>
 
