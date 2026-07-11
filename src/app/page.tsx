@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import { READING_SCENES } from "@/constants/readingScenes";
 import { getAllBlogMeta } from "@/lib/blog";
 import { isProtectedBlogSlug } from "@/data/seo-protected-pages";
+import { SITE_URL } from "@/lib/site";
 
 const POPULAR_WORKS = [
   { workId: "1d7xco7", title: "ハイキュー!!", author: "古舘春一",   type: "漫画", tags: ["熱い", "感動"],  cover: "https://books.google.com/books/content?id=e5KFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api" },
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
   title: "Books Discover | 気分から漫画・小説を発見する",
   description:
     "「泣きたい」「一気読みしたい」など、今の気分・体験ベースで漫画・小説を発見できるサイト。タイトルが分からなくても、雰囲気タグから次の一冊が見つかります。",
+  alternates: { canonical: SITE_URL },
   openGraph: {
     title: "Books Discover | 気分から漫画・小説を発見する",
     description: "今の気分・雰囲気で漫画・小説を発見。タグを選ぶだけで次の一冊が見つかる。",

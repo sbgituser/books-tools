@@ -1,4 +1,4 @@
-export const SITE_NAME = "Books Tools | kuras-plus";
+export const SITE_NAME = "Books Tools";
 export const SITE_URL = "https://books.kuras-plus.com";
 export const SITE_DESCRIPTION =
   "Kindle本を感覚的に探索できるツール集。類似本検索・比較など、Amazonでは体験できない本の探し方を提供します。";

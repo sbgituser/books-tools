@@ -49,7 +49,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   const ogDisplayTitle = post.ogTitle ?? post.title;
 
   return {
-    title: `${post.title} | ブログ`,
+    title: `${post.title} | ${SITE_NAME}`,
     description,
     alternates: {
       canonical,
