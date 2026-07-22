@@ -1,0 +1,18 @@
+{
+  "workId": "manga__いちゃらぶしかない百合アンソロジーコミックsugar__unknown",
+  "fileId": "0x7erkb",
+  "title": "いちゃらぶしかない百合アンソロジーコミックsugar",
+  "authorDisplay": "",
+  "confidence": "low",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 1,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 1,
+  "ndlBookItems": 1,
+  "volumes": [],
+  "newIsbnCount": 0,
+  "coverageAfter": 0,
+  "notes": [
+    "タイトル一致はあるが巻番号(dcndl:volume)なし"
+  ]
+}

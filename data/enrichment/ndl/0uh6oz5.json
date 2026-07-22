@@ -1,0 +1,197 @@
+{
+  "workId": "manga__to_loveる_とらぶる_カラー版__矢吹健太朗",
+  "fileId": "0uh6oz5",
+  "title": "To LOVEる―とらぶる― カラー版",
+  "authorDisplay": "矢吹健太朗 / 長谷見沙貴",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 111,
+  "ndlBookItems": 77,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784086196437",
+      "publishedDate": "2016-11",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784086196444",
+      "publishedDate": "2016-11",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784086196451",
+      "publishedDate": "2016-12",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784086196468",
+      "publishedDate": "2016-12",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784086196475",
+      "publishedDate": "2017-01",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784086196482",
+      "publishedDate": "2017-01",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784086196499",
+      "publishedDate": "2017-02",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784086196505",
+      "publishedDate": "2017-02",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784086196512",
+      "publishedDate": "2017-03",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784086196529",
+      "publishedDate": "2017-03",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784088801605",
+      "publishedDate": "2014-08",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784088802312",
+      "publishedDate": "2014-12",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784088746524",
+      "publishedDate": "2009-04",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784088746760",
+      "publishedDate": "2009-06",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784088747149",
+      "publishedDate": "2009-08",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784088747361",
+      "publishedDate": "2009-11",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9784088747651",
+      "publishedDate": "2010-02",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 18,
+      "volumeLabel": "18巻",
+      "isbn13": "9784088700229",
+      "publishedDate": "2010-04",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 18,
+  "coverageAfter": 1,
+  "notes": []
+}

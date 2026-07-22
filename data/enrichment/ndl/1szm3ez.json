@@ -1,0 +1,117 @@
+{
+  "workId": "manga__東京喰種トーキョーグール__石田スイ",
+  "fileId": "1szm3ez",
+  "title": "東京喰種トーキョーグール",
+  "authorDisplay": "石田スイ",
+  "confidence": "high",
+  "expectedVolumeCount": 16,
+  "existingVolumeRecords": 13,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 29,
+  "ndlBookItems": 29,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784088792729",
+      "publishedDate": "2012-02",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784088792910",
+      "publishedDate": "2012-03",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784088793573",
+      "publishedDate": "2012-06",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784088794204",
+      "publishedDate": "2012-09",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784088794785",
+      "publishedDate": "2012-12",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784088794983",
+      "publishedDate": "2013-01",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784088795461",
+      "publishedDate": "2013-04",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784088796130",
+      "publishedDate": "2013-07",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784088796529",
+      "publishedDate": "2013-10",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784088798073",
+      "publishedDate": "2014-01",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 10,
+  "coverageAfter": 0.63,
+  "notes": []
+}

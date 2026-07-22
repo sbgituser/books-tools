@@ -1,0 +1,27 @@
+{
+  "workId": "manga__ハイキュー_18_幾望__古舘春一",
+  "fileId": "1jroc5j",
+  "title": "ハイキュー!! 18 (幾望)",
+  "authorDisplay": "古舘春一",
+  "confidence": "medium",
+  "expectedVolumeCount": 18,
+  "existingVolumeRecords": 1,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 1,
+  "ndlBookItems": 1,
+  "volumes": [
+    {
+      "volumeNo": 18,
+      "volumeLabel": "18巻",
+      "isbn13": "9784088804842",
+      "publishedDate": "2015-10",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    }
+  ],
+  "newIsbnCount": 0,
+  "coverageAfter": 0.06,
+  "notes": []
+}

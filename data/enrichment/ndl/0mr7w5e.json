@@ -1,0 +1,197 @@
+{
+  "workId": "manga__リングにかけろ1__車田正美",
+  "fileId": "0mr7w5e",
+  "title": "リングにかけろ1",
+  "authorDisplay": "車田正美",
+  "confidence": "medium",
+  "expectedVolumeCount": 5,
+  "existingVolumeRecords": 5,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 45,
+  "ndlBookItems": 19,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784088592220",
+      "publishedDate": "2001-09",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784088592237",
+      "publishedDate": "2001-09",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784088592312",
+      "publishedDate": "2001-10",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784088592329",
+      "publishedDate": "2001-10",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784088592381",
+      "publishedDate": "2001-11",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784088592398",
+      "publishedDate": "2001-11",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784088592459",
+      "publishedDate": "2001-12",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784088592466",
+      "publishedDate": "2001-12",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784088592510",
+      "publishedDate": "2002-01",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784088592626",
+      "publishedDate": "2002-01",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784088592671",
+      "publishedDate": "2002-02",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784088592688",
+      "publishedDate": "2002-02",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784088592732",
+      "publishedDate": "2002-03",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784088592749",
+      "publishedDate": "2002-03",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784088592831",
+      "publishedDate": "2002-04",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784088592848",
+      "publishedDate": "2002-04",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9784088592923",
+      "publishedDate": "2002-05",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 18,
+      "volumeLabel": "18巻",
+      "isbn13": "9784088592930",
+      "publishedDate": "2002-05",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 18,
+  "coverageAfter": 1,
+  "notes": []
+}

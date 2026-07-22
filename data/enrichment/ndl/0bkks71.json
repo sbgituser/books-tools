@@ -1,0 +1,18 @@
+{
+  "workId": "novel__容疑者xの献身__東野圭吾",
+  "fileId": "0bkks71",
+  "title": "容疑者Xの献身",
+  "authorDisplay": "東野圭吾",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 59,
+  "ndlBookItems": 50,
+  "volumes": [],
+  "newIsbnCount": 0,
+  "coverageAfter": 0,
+  "notes": [
+    "タイトル一致はあるが巻番号(dcndl:volume)なし"
+  ]
+}

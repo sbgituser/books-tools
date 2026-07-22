@@ -1,0 +1,16 @@
+{
+  "workId": "manga__ダイの大冒険__三条陸",
+  "fileId": "1hiyve4",
+  "title": "ダイの大冒険",
+  "authorDisplay": "三条陸 / 稲田浩司",
+  "confidence": "low",
+  "expectedVolumeCount": 20,
+  "existingVolumeRecords": 1,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 121,
+  "ndlBookItems": 114,
+  "volumes": [],
+  "newIsbnCount": 0,
+  "coverageAfter": 0,
+  "notes": []
+}

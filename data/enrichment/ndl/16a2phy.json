@@ -1,0 +1,517 @@
+{
+  "workId": "manga__ちはやふる__末次由紀",
+  "fileId": "16a2phy",
+  "title": "ちはやふる",
+  "authorDisplay": "末次由紀",
+  "confidence": "high",
+  "expectedVolumeCount": 50,
+  "existingVolumeRecords": 14,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 127,
+  "ndlBookItems": 93,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784063192391",
+      "publishedDate": "2008-05",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784063192452",
+      "publishedDate": "2008-09",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784063192520",
+      "publishedDate": "2008-12",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784063192599",
+      "publishedDate": "2009-03",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784063192667",
+      "publishedDate": "2009-06",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784063192711",
+      "publishedDate": "2009-09",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784063192766",
+      "publishedDate": "2009-12",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784063192827",
+      "publishedDate": "2010-03",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784063192872",
+      "publishedDate": "2010-06",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784063192940",
+      "publishedDate": "2010-09",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784063803013",
+      "publishedDate": "2010-12",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784063803099",
+      "publishedDate": "2011-03",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784063803204",
+      "publishedDate": "2011-06",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784063803242",
+      "publishedDate": "2011-09",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784063803310",
+      "publishedDate": "2011-12",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784063803396",
+      "publishedDate": "2012-03",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9784063803495",
+      "publishedDate": "2012-06",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 18,
+      "volumeLabel": "18巻",
+      "isbn13": "9784063803594",
+      "publishedDate": "2012-09",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 19,
+      "volumeLabel": "19巻",
+      "isbn13": "9784063803693",
+      "publishedDate": "2012-12",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 20,
+      "volumeLabel": "20巻",
+      "isbn13": "9784063803792",
+      "publishedDate": "2013-03",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 21,
+      "volumeLabel": "21巻",
+      "isbn13": "9784063803891",
+      "publishedDate": "2013-06",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 22,
+      "volumeLabel": "22巻",
+      "isbn13": "9784063584592",
+      "publishedDate": "2013-09",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 23,
+      "volumeLabel": "23巻",
+      "isbn13": "9784063804102",
+      "publishedDate": "2013-12",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 24,
+      "volumeLabel": "24巻",
+      "isbn13": "9784063804225",
+      "publishedDate": "2014-04",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 25,
+      "volumeLabel": "25巻",
+      "isbn13": "9784063804331",
+      "publishedDate": "2014-07",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 26,
+      "volumeLabel": "26巻",
+      "isbn13": "9784063804423",
+      "publishedDate": "2014-10",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 27,
+      "volumeLabel": "27巻",
+      "isbn13": "9784063804652",
+      "publishedDate": "2015-04",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 28,
+      "volumeLabel": "28巻",
+      "isbn13": "9784063804744",
+      "publishedDate": "2015-08",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 29,
+      "volumeLabel": "29巻",
+      "isbn13": "9784063804843",
+      "publishedDate": "2015-10",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 30,
+      "volumeLabel": "30巻",
+      "isbn13": "9784063804911",
+      "publishedDate": "2016-01",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 31,
+      "volumeLabel": "31巻",
+      "isbn13": "9784063804980",
+      "publishedDate": "2016-03",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 32,
+      "volumeLabel": "32巻",
+      "isbn13": "9784063945133",
+      "publishedDate": "2016-07",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 33,
+      "volumeLabel": "33巻",
+      "isbn13": "9784063945225",
+      "publishedDate": "2016-10",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 34,
+      "volumeLabel": "34巻",
+      "isbn13": "9784063945355",
+      "publishedDate": "2017-03",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 35,
+      "volumeLabel": "35巻",
+      "isbn13": "9784063945508",
+      "publishedDate": "2017-08",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 36,
+      "volumeLabel": "36巻",
+      "isbn13": "9784065104842",
+      "publishedDate": "2017-11",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 37,
+      "volumeLabel": "37巻",
+      "isbn13": "9784065110041",
+      "publishedDate": "2018-02",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 38,
+      "volumeLabel": "38巻",
+      "isbn13": "9784065116975",
+      "publishedDate": "2018-05",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 39,
+      "volumeLabel": "39巻",
+      "isbn13": "9784065124956",
+      "publishedDate": "2018-08",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 40,
+      "volumeLabel": "40巻",
+      "isbn13": "9784065139257",
+      "publishedDate": "2018-11",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 41,
+      "volumeLabel": "41巻",
+      "isbn13": "9784065150498",
+      "publishedDate": "2019-03",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 42,
+      "volumeLabel": "42巻",
+      "isbn13": "9784065166680",
+      "publishedDate": "2019-07",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 43,
+      "volumeLabel": "43巻",
+      "isbn13": "9784065179338",
+      "publishedDate": "2019-12",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 44,
+      "volumeLabel": "44巻",
+      "isbn13": "9784065195222",
+      "publishedDate": "2020-05",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 45,
+      "volumeLabel": "45巻",
+      "isbn13": "9784065211403",
+      "publishedDate": "2020-10",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 46,
+      "volumeLabel": "46巻",
+      "isbn13": "9784065225608",
+      "publishedDate": "2021-03",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 47,
+      "volumeLabel": "47巻",
+      "isbn13": "9784065245439",
+      "publishedDate": "2021-08",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 48,
+      "volumeLabel": "48巻",
+      "isbn13": "9784065267974",
+      "publishedDate": "2022-02",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 49,
+      "volumeLabel": "49巻",
+      "isbn13": "9784065284889",
+      "publishedDate": "2022-07",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 50,
+      "volumeLabel": "50巻",
+      "isbn13": "9784065302064",
+      "publishedDate": "2022-12",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 50,
+  "coverageAfter": 1,
+  "notes": []
+}

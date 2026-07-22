@@ -1,0 +1,137 @@
+{
+  "workId": "manga__デッドデッドデーモンズデデデデデストラクション__浅野いにお",
+  "fileId": "1itvmxi",
+  "title": "デッドデッドデーモンズデデデデデストラクション",
+  "authorDisplay": "浅野いにお",
+  "confidence": "high",
+  "expectedVolumeCount": 12,
+  "existingVolumeRecords": 17,
+  "existingWithIsbn": 7,
+  "ndlTotalResults": 40,
+  "ndlBookItems": 32,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784091865007",
+      "publishedDate": "2014-10",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784091868572",
+      "publishedDate": "2015-03",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784091872609",
+      "publishedDate": "2015-09",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784091875631",
+      "publishedDate": "2016-03",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784091878298",
+      "publishedDate": "2016-10",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784099418908",
+      "publishedDate": "2017-05",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784099430252",
+      "publishedDate": "2018-09",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784099430528",
+      "publishedDate": "2019-07",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784099430580",
+      "publishedDate": "2019-12",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784099430771",
+      "publishedDate": "2020-12",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784099430894",
+      "publishedDate": "2021-08",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784099431020",
+      "publishedDate": "2022-04",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 8,
+  "coverageAfter": 1,
+  "notes": []
+}

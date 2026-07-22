@@ -1,0 +1,169 @@
+{
+  "workId": "manga__シドニアの騎士__勉弐瓶",
+  "fileId": "02g1fxk",
+  "title": "シドニアの騎士",
+  "authorDisplay": "勉·弐瓶",
+  "confidence": "low",
+  "expectedVolumeCount": 11,
+  "existingVolumeRecords": 1,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 58,
+  "ndlBookItems": 27,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784063145977",
+      "publishedDate": "2009-09",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784063106336",
+      "publishedDate": "2010-02",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784063106800",
+      "publishedDate": "2010-07",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784063107166",
+      "publishedDate": "2010-12",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784063107531",
+      "publishedDate": "2011-05",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784063107838",
+      "publishedDate": "2011-10",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784063878127",
+      "publishedDate": "2012-03",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784063878332",
+      "publishedDate": "2012-07",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784063878530",
+      "publishedDate": "2012-12",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784063878868",
+      "publishedDate": "2013-05",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784063879285",
+      "publishedDate": "2013-10",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784063879650",
+      "publishedDate": "2014-03",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784063879919",
+      "publishedDate": "2014-08",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784063880335",
+      "publishedDate": "2015-02",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784063881028",
+      "publishedDate": "2015-11",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 14,
+  "coverageAfter": 1,
+  "notes": [
+    "著者なし検索で取得"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "workId": "manga__山田くんとlv999の恋をする__ましろ",
+  "fileId": "05tk0ni",
+  "title": "山田くんとLv999の恋をする",
+  "authorDisplay": "ましろ",
+  "confidence": "high",
+  "expectedVolumeCount": 10,
+  "existingVolumeRecords": 12,
+  "existingWithIsbn": 3,
+  "ndlTotalResults": 19,
+  "ndlBookItems": 11,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784040645209",
+      "publishedDate": "2020-02",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784040649542",
+      "publishedDate": "2020-09",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784046802958",
+      "publishedDate": "2021-03",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784046807762",
+      "publishedDate": "2021-09",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784046813688",
+      "publishedDate": "2022-04",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784046819147",
+      "publishedDate": "2022-10",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784046824097",
+      "publishedDate": "2023-04",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784046830012",
+      "publishedDate": "2023-10",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784046835956",
+      "publishedDate": "2024-04",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784046841254",
+      "publishedDate": "2024-11",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 8,
+  "coverageAfter": 1,
+  "notes": []
+}

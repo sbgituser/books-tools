@@ -1,0 +1,97 @@
+{
+  "workId": "manga__チート魔術で運命をねじ伏せる__月夜涙",
+  "fileId": "0po0ls9",
+  "title": "チート魔術で運命をねじ伏せる.",
+  "authorDisplay": "月夜涙 / 舵真秀斗",
+  "confidence": "high",
+  "expectedVolumeCount": 11,
+  "existingVolumeRecords": 7,
+  "existingWithIsbn": 2,
+  "ndlTotalResults": 104,
+  "ndlBookItems": 15,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784098605774",
+      "publishedDate": "2019-12",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784098606580",
+      "publishedDate": "2020-04",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784098608089",
+      "publishedDate": "2020-10",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784098610792",
+      "publishedDate": "2021-04",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784098612239",
+      "publishedDate": "2021-12",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784098613595",
+      "publishedDate": "2022-06",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784098616206",
+      "publishedDate": "2023-02",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784098625727",
+      "publishedDate": "2023-09",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 7,
+  "coverageAfter": 0.73,
+  "notes": []
+}

@@ -1,0 +1,47 @@
+{
+  "workId": "manga__モンキーピーク_the_rock__志名坂高次",
+  "fileId": "0bh9k7j",
+  "title": "モンキーピーク the Rock",
+  "authorDisplay": "志名坂高次 / 粂田晃宏",
+  "confidence": "high",
+  "expectedVolumeCount": 6,
+  "existingVolumeRecords": 6,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 9,
+  "ndlBookItems": 9,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784537142167",
+      "publishedDate": "2020-04",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784537142556",
+      "publishedDate": "2020-07",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784537142815",
+      "publishedDate": "2020-10",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 3,
+  "coverageAfter": 0.5,
+  "notes": []
+}

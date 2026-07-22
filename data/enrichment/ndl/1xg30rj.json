@@ -1,0 +1,227 @@
+{
+  "workId": "manga__ハカイジュウ__本田真吾",
+  "fileId": "1xg30rj",
+  "title": "ハカイジュウ",
+  "authorDisplay": "本田真吾",
+  "confidence": "high",
+  "expectedVolumeCount": 19,
+  "existingVolumeRecords": 11,
+  "existingWithIsbn": 7,
+  "ndlTotalResults": 26,
+  "ndlBookItems": 23,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784253204248",
+      "publishedDate": "2010-08",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784253204255",
+      "publishedDate": "2010-11",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784253204262",
+      "publishedDate": "2011-03",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784253204279",
+      "publishedDate": "2011-07",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784253204286",
+      "publishedDate": "2011-11",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784253204293",
+      "publishedDate": "2012-03",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784253204491",
+      "publishedDate": "2012-07",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784253204507",
+      "publishedDate": "2013-08",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784253204514",
+      "publishedDate": "2013-03",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784253204521",
+      "publishedDate": "2013-07",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784253204590",
+      "publishedDate": "2013-11",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784253204606",
+      "publishedDate": "2014-03",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784253204682",
+      "publishedDate": "2014-07",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784253204699",
+      "publishedDate": "2015-03",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784253204705",
+      "publishedDate": "2015-07",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784253226714",
+      "publishedDate": "2015-11",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9784253226721",
+      "publishedDate": "2016-03",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 18,
+      "volumeLabel": "18巻",
+      "isbn13": "9784253226738",
+      "publishedDate": "2016-07",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 19,
+      "volumeLabel": "19巻",
+      "isbn13": "9784253226745",
+      "publishedDate": "2016-11",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 20,
+      "volumeLabel": "20巻",
+      "isbn13": "9784253226752",
+      "publishedDate": "2017-03",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 21,
+      "volumeLabel": "21巻",
+      "isbn13": "9784253226769",
+      "publishedDate": "2017-07",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 14,
+  "coverageAfter": 1,
+  "notes": []
+}

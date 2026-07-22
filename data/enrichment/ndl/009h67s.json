@@ -1,0 +1,187 @@
+{
+  "workId": "manga__クロスゲーム__unknown",
+  "fileId": "009h67s",
+  "title": "クロスゲーム",
+  "authorDisplay": "",
+  "confidence": "low",
+  "expectedVolumeCount": 6,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 62,
+  "ndlBookItems": 56,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784821191673",
+      "publishedDate": "1986-07",
+      "publisher": "日本文華社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784821191703",
+      "publishedDate": "1986-08",
+      "publisher": "日本文華社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784821191802",
+      "publishedDate": "1986-11",
+      "publisher": "日本文華社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784091204196",
+      "publishedDate": "2006-07",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784091205896",
+      "publishedDate": "2006-10",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784091206978",
+      "publishedDate": "2007-01",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784091210203",
+      "publishedDate": "2007-03",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784091210753",
+      "publishedDate": "2007-06",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784091211705",
+      "publishedDate": "2007-09",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784091212306",
+      "publishedDate": "2007-12",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784091213280",
+      "publishedDate": "2008-02",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784091214089",
+      "publishedDate": "2008-06",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784091215376",
+      "publishedDate": "2008-09",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784091216359",
+      "publishedDate": "2009-03",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784091216991",
+      "publishedDate": "2009-07",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784091218841",
+      "publishedDate": "2009-11",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9784091590763",
+      "publishedDate": "2010-04",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 17,
+  "coverageAfter": 1,
+  "notes": []
+}

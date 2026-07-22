@@ -1,0 +1,47 @@
+{
+  "workId": "novel__虐殺器官__伊藤計劃",
+  "fileId": "1rw3z48",
+  "title": "虐殺器官",
+  "authorDisplay": "伊藤計劃",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 14,
+  "ndlBookItems": 12,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784041040676",
+      "publishedDate": "2016-03",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784041052228",
+      "publishedDate": "2017-01",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784041063842",
+      "publishedDate": "2017-12",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 3,
+  "coverageAfter": 1,
+  "notes": []
+}

@@ -1,0 +1,437 @@
+{
+  "workId": "manga__テニスの王子様__許斐剛",
+  "fileId": "1gnzwoc",
+  "title": "テニスの王子様",
+  "authorDisplay": "許斐剛 / 影山由美",
+  "confidence": "high",
+  "expectedVolumeCount": 46,
+  "existingVolumeRecords": 8,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 352,
+  "ndlBookItems": 218,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784088728155",
+      "publishedDate": "2000-01",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784088728513",
+      "publishedDate": "2000-04",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784088728766",
+      "publishedDate": "2000-06",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784088728964",
+      "publishedDate": "2000-08",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784088730240",
+      "publishedDate": "2000-10",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784088730493",
+      "publishedDate": "2000-12",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784088730769",
+      "publishedDate": "2001-02",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784088731124",
+      "publishedDate": "2001-05",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784088731391",
+      "publishedDate": "2001-07",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784088731629",
+      "publishedDate": "2001-09",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784088732015",
+      "publishedDate": "2001-12",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784088732237",
+      "publishedDate": "2002-02",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784088732473",
+      "publishedDate": "2002-04",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784088732831",
+      "publishedDate": "2002-07",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784088733128",
+      "publishedDate": "2002-09",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784088733517",
+      "publishedDate": "2002-12",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9784088733807",
+      "publishedDate": "2003-02",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 18,
+      "volumeLabel": "18巻",
+      "isbn13": "9784088734071",
+      "publishedDate": "2003-04",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 19,
+      "volumeLabel": "19巻",
+      "isbn13": "9784088734828",
+      "publishedDate": "2003-07",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 20,
+      "volumeLabel": "20巻",
+      "isbn13": "9784088735054",
+      "publishedDate": "2003-09",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 21,
+      "volumeLabel": "21巻",
+      "isbn13": "9784088735344",
+      "publishedDate": "2003-12",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 22,
+      "volumeLabel": "22巻",
+      "isbn13": "9784088735610",
+      "publishedDate": "2004-02",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 23,
+      "volumeLabel": "23巻",
+      "isbn13": "9784088735856",
+      "publishedDate": "2004-04",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 24,
+      "volumeLabel": "24巻",
+      "isbn13": "9784088736280",
+      "publishedDate": "2004-07",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 25,
+      "volumeLabel": "25巻",
+      "isbn13": "9784088736464",
+      "publishedDate": "2004-09",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 26,
+      "volumeLabel": "26巻",
+      "isbn13": "9784088736785",
+      "publishedDate": "2004-12",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 27,
+      "volumeLabel": "27巻",
+      "isbn13": "9784088737690",
+      "publishedDate": "2005-01",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 28,
+      "volumeLabel": "28巻",
+      "isbn13": "9784088737904",
+      "publishedDate": "2005-04",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 29,
+      "volumeLabel": "29巻",
+      "isbn13": "9784088738086",
+      "publishedDate": "2005-07",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 30,
+      "volumeLabel": "30巻",
+      "isbn13": "9784088738482",
+      "publishedDate": "2005-09",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 31,
+      "volumeLabel": "31巻",
+      "isbn13": "9784088738802",
+      "publishedDate": "2005-12",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 32,
+      "volumeLabel": "32巻",
+      "isbn13": "9784088740157",
+      "publishedDate": "2006-02",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 33,
+      "volumeLabel": "33巻",
+      "isbn13": "9784088740485",
+      "publishedDate": "2006-05",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 34,
+      "volumeLabel": "34巻",
+      "isbn13": "9784088741284",
+      "publishedDate": "2006-07",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 35,
+      "volumeLabel": "35巻",
+      "isbn13": "9784088742502",
+      "publishedDate": "2006-09",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 36,
+      "volumeLabel": "36巻",
+      "isbn13": "9784088742991",
+      "publishedDate": "2007-01",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 37,
+      "volumeLabel": "37巻",
+      "isbn13": "9784088743264",
+      "publishedDate": "2007-03",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 38,
+      "volumeLabel": "38巻",
+      "isbn13": "9784088743530",
+      "publishedDate": "2007-06",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 39,
+      "volumeLabel": "39巻",
+      "isbn13": "9784088743967",
+      "publishedDate": "2007-09",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 40,
+      "volumeLabel": "40巻",
+      "isbn13": "9784088744223",
+      "publishedDate": "2007-12",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 41,
+      "volumeLabel": "41巻",
+      "isbn13": "9784088744438",
+      "publishedDate": "2008-03",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 42,
+      "volumeLabel": "42巻",
+      "isbn13": "9784088745220",
+      "publishedDate": "2008-06",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 42,
+  "coverageAfter": 0.91,
+  "notes": []
+}

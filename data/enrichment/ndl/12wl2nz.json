@@ -1,0 +1,47 @@
+{
+  "workId": "manga__ゆるキャン_アニメコミック__あfろ",
+  "fileId": "12wl2nz",
+  "title": "ゆるキャン△アニメコミック",
+  "authorDisplay": "あfろ / 芳文社 (1950年)",
+  "confidence": "high",
+  "expectedVolumeCount": 3,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 2,
+  "ndlTotalResults": 3,
+  "ndlBookItems": 3,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784832273672",
+      "publishedDate": "2022-05",
+      "publisher": "芳文社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784832273726",
+      "publishedDate": "2022-06",
+      "publisher": "芳文社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784832273764",
+      "publishedDate": "2022-07",
+      "publisher": "芳文社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    }
+  ],
+  "newIsbnCount": 1,
+  "coverageAfter": 1,
+  "notes": []
+}

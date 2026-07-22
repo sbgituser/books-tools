@@ -1,0 +1,347 @@
+{
+  "workId": "novel__とある魔術の禁書目録__鎌池和馬",
+  "fileId": "1h9rxbg",
+  "title": "とある魔術の禁書目録",
+  "authorDisplay": "鎌池和馬",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 310,
+  "ndlBookItems": 183,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784757521575",
+      "publishedDate": "2007-12",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784840227018",
+      "publishedDate": "2004-06",
+      "publisher": "メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784840227858",
+      "publishedDate": "2004-09",
+      "publisher": "メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784840228589",
+      "publishedDate": "2004-12",
+      "publisher": "メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784840230254",
+      "publishedDate": "2005-04",
+      "publisher": "メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784840229739",
+      "publishedDate": "2005-07",
+      "publisher": "メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784840232050",
+      "publishedDate": "2005-11",
+      "publisher": "メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784840232692",
+      "publishedDate": "2006-01",
+      "publisher": "メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784840233859",
+      "publishedDate": "2006-04",
+      "publisher": "メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784840234283",
+      "publishedDate": "2006-05",
+      "publisher": "メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784840235815",
+      "publishedDate": "2006-10",
+      "publisher": "メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784840236836",
+      "publishedDate": "2007-01",
+      "publisher": "メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784840238014",
+      "publishedDate": "2007-04",
+      "publisher": "メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784840240628",
+      "publishedDate": "2007-11",
+      "publisher": "メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784840241458",
+      "publishedDate": "2008-01",
+      "publisher": "メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784048670869",
+      "publishedDate": "2008-06",
+      "publisher": "アスキー・メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9784757550025",
+      "publishedDate": "2016-05",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 18,
+      "volumeLabel": "18巻",
+      "isbn13": "9784757551503",
+      "publishedDate": "2016-11",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 19,
+      "volumeLabel": "19巻",
+      "isbn13": "9784757554047",
+      "publishedDate": "2017-09",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 20,
+      "volumeLabel": "20巻",
+      "isbn13": "9784757555839",
+      "publishedDate": "2018-01",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 21,
+      "volumeLabel": "21巻",
+      "isbn13": "9784757557802",
+      "publishedDate": "2018-09",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 22,
+      "volumeLabel": "22巻",
+      "isbn13": "9784757560482",
+      "publishedDate": "2019-03",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 23,
+      "volumeLabel": "23巻",
+      "isbn13": "9784757563377",
+      "publishedDate": "2019-11",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 24,
+      "volumeLabel": "24巻",
+      "isbn13": "9784757566750",
+      "publishedDate": "2020-06",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 25,
+      "volumeLabel": "25巻",
+      "isbn13": "9784757570863",
+      "publishedDate": "2021-02",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 26,
+      "volumeLabel": "26巻",
+      "isbn13": "9784757575226",
+      "publishedDate": "2021-10",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 27,
+      "volumeLabel": "27巻",
+      "isbn13": "9784757579200",
+      "publishedDate": "2022-05",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 28,
+      "volumeLabel": "28巻",
+      "isbn13": "9784757583047",
+      "publishedDate": "2022-12",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 29,
+      "volumeLabel": "29巻",
+      "isbn13": "9784757586567",
+      "publishedDate": "2023-07",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 30,
+      "volumeLabel": "30巻",
+      "isbn13": "9784757590465",
+      "publishedDate": "2024-02",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 31,
+      "volumeLabel": "31巻",
+      "isbn13": "9784757595095",
+      "publishedDate": "2024-11",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 32,
+      "volumeLabel": "32巻",
+      "isbn13": "9784757598881",
+      "publishedDate": "2025-06",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 33,
+      "volumeLabel": "33巻",
+      "isbn13": "9784301003199",
+      "publishedDate": "2026-02",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 33,
+  "coverageAfter": 1,
+  "notes": []
+}

@@ -1,0 +1,287 @@
+{
+  "workId": "manga__鋼の錬金術師__荒川弘",
+  "fileId": "0zref9t",
+  "title": "鋼の錬金術師.",
+  "authorDisplay": "荒川弘",
+  "confidence": "high",
+  "expectedVolumeCount": 18,
+  "existingVolumeRecords": 18,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 157,
+  "ndlBookItems": 106,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784757506206",
+      "publishedDate": "2002-02",
+      "publisher": "エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784757506992",
+      "publishedDate": "2002-06",
+      "publisher": "エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784757507913",
+      "publishedDate": "2002-10",
+      "publisher": "エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784757508552",
+      "publishedDate": "2003-02",
+      "publisher": "エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784757509665",
+      "publishedDate": "2003-07",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784757510487",
+      "publishedDate": "2003-11",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784757511651",
+      "publishedDate": "2004-04",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784757512306",
+      "publishedDate": "2004-08",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784757513181",
+      "publishedDate": "2004-12",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784757513860",
+      "publishedDate": "2005-04",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784757514966",
+      "publishedDate": "2005-08",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784757515734",
+      "publishedDate": "2005-12",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784757516380",
+      "publishedDate": "2006-04",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784757517196",
+      "publishedDate": "2006-08",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784757518124",
+      "publishedDate": "2006-12",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784757519657",
+      "publishedDate": "2007-04",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9784757520646",
+      "publishedDate": "2007-09",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 18,
+      "volumeLabel": "18巻",
+      "isbn13": "9784757521759",
+      "publishedDate": "2008-01",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 19,
+      "volumeLabel": "19巻",
+      "isbn13": "9784757522374",
+      "publishedDate": "2008-04",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 20,
+      "volumeLabel": "20巻",
+      "isbn13": "9784757523531",
+      "publishedDate": "2008-09",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 21,
+      "volumeLabel": "21巻",
+      "isbn13": "9784757524392",
+      "publishedDate": "2009-01",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 22,
+      "volumeLabel": "22巻",
+      "isbn13": "9784757525382",
+      "publishedDate": "2009-05",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 23,
+      "volumeLabel": "23巻",
+      "isbn13": "9784757526020",
+      "publishedDate": "2009-08",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 24,
+      "volumeLabel": "24巻",
+      "isbn13": "9784757527423",
+      "publishedDate": "2009-12",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 25,
+      "volumeLabel": "25巻",
+      "isbn13": "9784757528406",
+      "publishedDate": "2010-04",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 26,
+      "volumeLabel": "26巻",
+      "isbn13": "9784757529298",
+      "publishedDate": "2010-08",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 27,
+      "volumeLabel": "27巻",
+      "isbn13": "9784757530546",
+      "publishedDate": "2010-11",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 26,
+  "coverageAfter": 1,
+  "notes": []
+}

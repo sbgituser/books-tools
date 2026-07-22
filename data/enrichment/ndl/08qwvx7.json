@@ -1,0 +1,337 @@
+{
+  "workId": "novel__魔法科高校の劣等生__佐島勤",
+  "fileId": "08qwvx7",
+  "title": "魔法科高校の劣等生",
+  "authorDisplay": "佐島勤",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 222,
+  "ndlBookItems": 164,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784048666152",
+      "publishedDate": "2014-06",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784048690584",
+      "publishedDate": "2014-12",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784048653022",
+      "publishedDate": "2015-09",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784048938440",
+      "publishedDate": "2018-06",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784049127003",
+      "publishedDate": "2019-08",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784049134155",
+      "publishedDate": "2020-09",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784049139785",
+      "publishedDate": "2021-09",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784049161670",
+      "publishedDate": "2024-12",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784048914239",
+      "publishedDate": "2013-03",
+      "publisher": "アスキー・メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784048916097",
+      "publishedDate": "2013-06",
+      "publisher": "アスキー・メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784048916103",
+      "publishedDate": "2013-08",
+      "publisher": "アスキー・メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784048660037",
+      "publishedDate": "2013-10",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784048665070",
+      "publishedDate": "2014-04",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784048668606",
+      "publishedDate": "2014-09",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784048691673",
+      "publishedDate": "2015-01",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784048651165",
+      "publishedDate": "2015-05",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9784048653138",
+      "publishedDate": "2015-08",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 18,
+      "volumeLabel": "18巻",
+      "isbn13": "9784048655125",
+      "publishedDate": "2015-11",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 19,
+      "volumeLabel": "19巻",
+      "isbn13": "9784048658096",
+      "publishedDate": "2016-03",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 20,
+      "volumeLabel": "20巻",
+      "isbn13": "9784048923187",
+      "publishedDate": "2016-09",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 21,
+      "volumeLabel": "21巻",
+      "isbn13": "9784048926690",
+      "publishedDate": "2017-02",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 22,
+      "volumeLabel": "22巻",
+      "isbn13": "9784048929493",
+      "publishedDate": "2017-06",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 23,
+      "volumeLabel": "23巻",
+      "isbn13": "9784048932813",
+      "publishedDate": "2017-08",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 24,
+      "volumeLabel": "24巻",
+      "isbn13": "9784048936866",
+      "publishedDate": "2018-03",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 25,
+      "volumeLabel": "25巻",
+      "isbn13": "9784048937924",
+      "publishedDate": "2018-04",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 26,
+      "volumeLabel": "26巻",
+      "isbn13": "9784048939706",
+      "publishedDate": "2018-08",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 27,
+      "volumeLabel": "27巻",
+      "isbn13": "9784049121636",
+      "publishedDate": "2018-11",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 28,
+      "volumeLabel": "28巻",
+      "isbn13": "9784049125603",
+      "publishedDate": "2019-04",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 29,
+      "volumeLabel": "29巻",
+      "isbn13": "9784049125719",
+      "publishedDate": "2019-06",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 30,
+      "volumeLabel": "30巻",
+      "isbn13": "9784049127386",
+      "publishedDate": "2019-09",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 31,
+      "volumeLabel": "31巻",
+      "isbn13": "9784049130676",
+      "publishedDate": "2020-04",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 32,
+      "volumeLabel": "32巻",
+      "isbn13": "9784049132533",
+      "publishedDate": "2020-09",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 32,
+  "coverageAfter": 1,
+  "notes": []
+}

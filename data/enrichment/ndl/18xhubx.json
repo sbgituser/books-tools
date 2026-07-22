@@ -1,0 +1,237 @@
+{
+  "workId": "manga__侵略_イカ娘__安部真弘",
+  "fileId": "18xhubx",
+  "title": "侵略！イカ娘",
+  "authorDisplay": "安部真弘",
+  "confidence": "high",
+  "expectedVolumeCount": 22,
+  "existingVolumeRecords": 20,
+  "existingWithIsbn": 3,
+  "ndlTotalResults": 40,
+  "ndlBookItems": 23,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784253214018",
+      "publishedDate": "2008-04",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784253214025",
+      "publishedDate": "2008-08",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784253214032",
+      "publishedDate": "2009-01",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784253214049",
+      "publishedDate": "2009-05",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784253214056",
+      "publishedDate": "2009-10",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784253214063",
+      "publishedDate": "2010-04",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784253214070",
+      "publishedDate": "2010-10",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784253214087",
+      "publishedDate": "2010-12",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784253214094",
+      "publishedDate": "2011-04",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784253214100",
+      "publishedDate": "2011-10",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784253214124",
+      "publishedDate": "2012-01",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784253214131",
+      "publishedDate": "2012-08",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784253214148",
+      "publishedDate": "2013-01",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784253214155",
+      "publishedDate": "2013-06",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784253214162",
+      "publishedDate": "2013-10",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784253214179",
+      "publishedDate": "2014-03",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9784253214186",
+      "publishedDate": "2014-09",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 18,
+      "volumeLabel": "18巻",
+      "isbn13": "9784253214193",
+      "publishedDate": "2014-11",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 19,
+      "volumeLabel": "19巻",
+      "isbn13": "9784253214209",
+      "publishedDate": "2015-03",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 20,
+      "volumeLabel": "20巻",
+      "isbn13": "9784253225700",
+      "publishedDate": "2015-08",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 21,
+      "volumeLabel": "21巻",
+      "isbn13": "9784253225717",
+      "publishedDate": "2016-01",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 22,
+      "volumeLabel": "22巻",
+      "isbn13": "9784253225724",
+      "publishedDate": "2016-05",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 20,
+  "coverageAfter": 1,
+  "notes": []
+}

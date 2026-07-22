@@ -1,0 +1,87 @@
+{
+  "workId": "manga__ドリフターズ__平野耕太",
+  "fileId": "1n3hb4y",
+  "title": "ドリフターズ",
+  "authorDisplay": "平野耕太",
+  "confidence": "high",
+  "expectedVolumeCount": 7,
+  "existingVolumeRecords": 8,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 11,
+  "ndlBookItems": 11,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784785934071",
+      "publishedDate": "2010-07",
+      "publisher": "少年画報社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784785937140",
+      "publishedDate": "2011-10",
+      "publisher": "少年画報社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784785950439",
+      "publishedDate": "2013-04",
+      "publisher": "少年画報社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784785954369",
+      "publishedDate": "2014-11",
+      "publisher": "少年画報社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784785957919",
+      "publishedDate": "2016-06",
+      "publisher": "少年画報社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784785963217",
+      "publishedDate": "2018-12",
+      "publisher": "少年画報社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784785974978",
+      "publishedDate": "2023-08",
+      "publisher": "少年画報社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 7,
+  "coverageAfter": 1,
+  "notes": []
+}

@@ -1,0 +1,87 @@
+{
+  "workId": "manga__タイガーマスク__梶原一騎",
+  "fileId": "0go7yjd",
+  "title": "タイガーマスク",
+  "authorDisplay": "梶原一騎 / 辻なおき",
+  "confidence": "high",
+  "expectedVolumeCount": 14,
+  "existingVolumeRecords": 14,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 100,
+  "ndlBookItems": 13,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784063600599",
+      "publishedDate": "2001-08",
+      "publisher": "コミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784063600605",
+      "publishedDate": "2001-08",
+      "publisher": "コミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784063600612",
+      "publishedDate": "2001-08",
+      "publisher": "コミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784063600629",
+      "publishedDate": "2001-09",
+      "publisher": "コミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784063600636",
+      "publishedDate": "2001-09",
+      "publisher": "コミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784063600643",
+      "publishedDate": "2001-10",
+      "publisher": "コミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784063600650",
+      "publishedDate": "2001-10",
+      "publisher": "コミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 7,
+  "coverageAfter": 0.5,
+  "notes": []
+}

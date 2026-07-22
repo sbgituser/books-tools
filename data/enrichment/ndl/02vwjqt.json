@@ -1,0 +1,18 @@
+{
+  "workId": "manga__銀の匙_silver_spoon__荒川弘",
+  "fileId": "02vwjqt",
+  "title": "銀の匙 Silver Spoon",
+  "authorDisplay": "荒川弘",
+  "confidence": "high",
+  "expectedVolumeCount": 14,
+  "existingVolumeRecords": 14,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 47,
+  "ndlBookItems": 31,
+  "volumes": [],
+  "newIsbnCount": 0,
+  "coverageAfter": 0,
+  "notes": [
+    "タイトル一致はあるが巻番号(dcndl:volume)なし"
+  ]
+}

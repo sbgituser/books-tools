@@ -1,0 +1,137 @@
+{
+  "workId": "manga__ホタルの嫁入り__橘オレコ",
+  "fileId": "1ex4mx5",
+  "title": "ホタルの嫁入り",
+  "authorDisplay": "橘オレコ",
+  "confidence": "high",
+  "expectedVolumeCount": 11,
+  "existingVolumeRecords": 12,
+  "existingWithIsbn": 2,
+  "ndlTotalResults": 96,
+  "ndlBookItems": 12,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784098521470",
+      "publishedDate": "2023-06",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784098528257",
+      "publishedDate": "2023-09",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784098530649",
+      "publishedDate": "2023-12",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784098532117",
+      "publishedDate": "2024-04",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784098535262",
+      "publishedDate": "2024-08",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784098537624",
+      "publishedDate": "2024-12",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784098540396",
+      "publishedDate": "2025-03",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784099432010",
+      "publishedDate": "2025-06",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784098542505",
+      "publishedDate": "2025-09",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784098543526",
+      "publishedDate": "2025-12",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784098544325",
+      "publishedDate": "2026-02",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784098545261",
+      "publishedDate": "2026-06",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 10,
+  "coverageAfter": 1,
+  "notes": []
+}

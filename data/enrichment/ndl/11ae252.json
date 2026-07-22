@@ -1,0 +1,107 @@
+{
+  "workId": "manga__僕たちがやりました__金城宗幸",
+  "fileId": "11ae252",
+  "title": "僕たちがやりました",
+  "authorDisplay": "金城宗幸 / 荒木光",
+  "confidence": "high",
+  "expectedVolumeCount": 9,
+  "existingVolumeRecords": 10,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 10,
+  "ndlBookItems": 9,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784063826630",
+      "publishedDate": "2015-09",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784063826937",
+      "publishedDate": "2015-10",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784063827248",
+      "publishedDate": "2016-01",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784063827668",
+      "publishedDate": "2016-04",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784063827996",
+      "publishedDate": "2016-06",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784063828450",
+      "publishedDate": "2016-09",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784063828863",
+      "publishedDate": "2016-12",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784063829334",
+      "publishedDate": "2017-03",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784063829440",
+      "publishedDate": "2017-04",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 9,
+  "coverageAfter": 1,
+  "notes": []
+}

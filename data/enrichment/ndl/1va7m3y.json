@@ -1,0 +1,57 @@
+{
+  "workId": "manga__フルーツバスケットanother__高屋奈月",
+  "fileId": "1va7m3y",
+  "title": "フルーツバスケットanother",
+  "authorDisplay": "高屋奈月",
+  "confidence": "high",
+  "expectedVolumeCount": 8,
+  "existingVolumeRecords": 8,
+  "existingWithIsbn": 4,
+  "ndlTotalResults": 4,
+  "ndlBookItems": 4,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784592218517",
+      "publishedDate": "2016-08",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784592218524",
+      "publishedDate": "2017-09",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784592218531",
+      "publishedDate": "2019-03",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784592218548",
+      "publishedDate": "2022-02",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    }
+  ],
+  "newIsbnCount": 0,
+  "coverageAfter": 0.5,
+  "notes": []
+}

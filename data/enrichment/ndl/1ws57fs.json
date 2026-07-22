@@ -1,0 +1,327 @@
+{
+  "workId": "manga__浦安鉄筋家族__浜岡賢次",
+  "fileId": "1ws57fs",
+  "title": "浦安鉄筋家族",
+  "authorDisplay": "浜岡賢次",
+  "confidence": "high",
+  "expectedVolumeCount": 25,
+  "existingVolumeRecords": 1,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 241,
+  "ndlBookItems": 236,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784253054348",
+      "publishedDate": "1993-07",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784253054355",
+      "publishedDate": "1993-11",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784253054362",
+      "publishedDate": "1994-03",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784253054379",
+      "publishedDate": "1994-07",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784253054386",
+      "publishedDate": "1994-10",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784253054393",
+      "publishedDate": "1995-01",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784253054409",
+      "publishedDate": "1995-05",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784253054416",
+      "publishedDate": "1995-08",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784253054423",
+      "publishedDate": "1995-11",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784253054430",
+      "publishedDate": "1996-01",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784253054447",
+      "publishedDate": "1996-06",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784253054454",
+      "publishedDate": "1996-10",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784253054461",
+      "publishedDate": "1997-01",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784253054478",
+      "publishedDate": "1997-03",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784253054485",
+      "publishedDate": "1997-08",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784253054492",
+      "publishedDate": "1998-01",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9784253054508",
+      "publishedDate": "1998-04",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 18,
+      "volumeLabel": "18巻",
+      "isbn13": "9784253054515",
+      "publishedDate": "1998-08",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 19,
+      "volumeLabel": "19巻",
+      "isbn13": "9784253054522",
+      "publishedDate": "1998-11",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 20,
+      "volumeLabel": "20巻",
+      "isbn13": "9784253054539",
+      "publishedDate": "1999-02",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 21,
+      "volumeLabel": "21巻",
+      "isbn13": "9784253057516",
+      "publishedDate": "1999-05",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 22,
+      "volumeLabel": "22巻",
+      "isbn13": "9784253057523",
+      "publishedDate": "1999-08",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 23,
+      "volumeLabel": "23巻",
+      "isbn13": "9784253057530",
+      "publishedDate": "1999-12",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 24,
+      "volumeLabel": "24巻",
+      "isbn13": "9784253057547",
+      "publishedDate": "2000-03",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 25,
+      "volumeLabel": "25巻",
+      "isbn13": "9784253057554",
+      "publishedDate": "2000-07",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 26,
+      "volumeLabel": "26巻",
+      "isbn13": "9784253057561",
+      "publishedDate": "2000-11",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 27,
+      "volumeLabel": "27巻",
+      "isbn13": "9784253057578",
+      "publishedDate": "2001-03",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 28,
+      "volumeLabel": "28巻",
+      "isbn13": "9784253057585",
+      "publishedDate": "2001-07",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 29,
+      "volumeLabel": "29巻",
+      "isbn13": "9784253057592",
+      "publishedDate": "2001-11",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 30,
+      "volumeLabel": "30巻",
+      "isbn13": "9784253057608",
+      "publishedDate": "2002-03",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 31,
+      "volumeLabel": "31巻",
+      "isbn13": "9784253057622",
+      "publishedDate": "2002-06",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 31,
+  "coverageAfter": 1,
+  "notes": []
+}

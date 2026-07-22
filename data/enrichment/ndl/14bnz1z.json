@@ -1,0 +1,207 @@
+{
+  "workId": "manga__紛争でしたら八田まで__田素弘",
+  "fileId": "14bnz1z",
+  "title": "紛争でしたら八田まで",
+  "authorDisplay": "田素弘",
+  "confidence": "high",
+  "expectedVolumeCount": 19,
+  "existingVolumeRecords": 21,
+  "existingWithIsbn": 4,
+  "ndlTotalResults": 19,
+  "ndlBookItems": 19,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784065189207",
+      "publishedDate": "2020-03",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784065194775",
+      "publishedDate": "2020-06",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784065207796",
+      "publishedDate": "2020-09",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784065217603",
+      "publishedDate": "2020-12",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784065225561",
+      "publishedDate": "2021-03",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784065235560",
+      "publishedDate": "2021-06",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784065247839",
+      "publishedDate": "2021-09",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784065265840",
+      "publishedDate": "2022-01",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784065275733",
+      "publishedDate": "2022-04",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784065288757",
+      "publishedDate": "2022-08",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784065298152",
+      "publishedDate": "2022-11",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784065311141",
+      "publishedDate": "2023-03",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784065323953",
+      "publishedDate": "2023-07",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784065340127",
+      "publishedDate": "2023-12",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784065355824",
+      "publishedDate": "2024-05",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784065371671",
+      "publishedDate": "2024-10",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9784065388426",
+      "publishedDate": "2025-03",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 18,
+      "volumeLabel": "18巻",
+      "isbn13": "9784065406830",
+      "publishedDate": "2025-09",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 19,
+      "volumeLabel": "19巻",
+      "isbn13": "9784065425398",
+      "publishedDate": "2026-02",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    }
+  ],
+  "newIsbnCount": 16,
+  "coverageAfter": 1,
+  "notes": []
+}

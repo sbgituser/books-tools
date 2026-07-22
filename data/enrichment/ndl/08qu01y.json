@@ -1,0 +1,67 @@
+{
+  "workId": "novel__銀河鉄道の夜__宮沢賢治",
+  "fileId": "08qu01y",
+  "title": "銀河鉄道の夜",
+  "authorDisplay": "宮沢賢治",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 519,
+  "ndlBookItems": 221,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784257950172",
+      "publishedDate": "1985-08",
+      "publisher": "朝日ソノラマ",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784904732830",
+      "publishedDate": "2021-05",
+      "publisher": "風呂猫",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784870882362",
+      "publishedDate": "1987",
+      "publisher": "和泉書院",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784904732878",
+      "publishedDate": "2023-10",
+      "publisher": "風呂猫",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784480020086",
+      "publishedDate": "1985-01-01",
+      "publisher": "筑摩書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 5,
+  "coverageAfter": 1,
+  "notes": []
+}

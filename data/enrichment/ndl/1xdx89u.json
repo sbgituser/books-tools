@@ -1,0 +1,18 @@
+{
+  "workId": "novel__占星術殺人事件__島田荘司",
+  "fileId": "1xdx89u",
+  "title": "占星術殺人事件",
+  "authorDisplay": "島田荘司",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 25,
+  "ndlBookItems": 23,
+  "volumes": [],
+  "newIsbnCount": 0,
+  "coverageAfter": 0,
+  "notes": [
+    "タイトル一致はあるが巻番号(dcndl:volume)なし"
+  ]
+}

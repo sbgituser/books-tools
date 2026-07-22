@@ -1,0 +1,107 @@
+{
+  "workId": "manga__その着せ替え人形は恋をする__福田晋一",
+  "fileId": "0hiqxyg",
+  "title": "その着せ替え人形は恋をする",
+  "authorDisplay": "福田晋一",
+  "confidence": "high",
+  "expectedVolumeCount": 15,
+  "existingVolumeRecords": 16,
+  "existingWithIsbn": 5,
+  "ndlTotalResults": 36,
+  "ndlBookItems": 24,
+  "volumes": [
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784757572133",
+      "publishedDate": "2021-04",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784757573451",
+      "publishedDate": "2021-10",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784757578371",
+      "publishedDate": "2022-03",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784757581029",
+      "publishedDate": "2022-09",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784757584266",
+      "publishedDate": "2023-03",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784757587496",
+      "publishedDate": "2023-09-25",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784757591332",
+      "publishedDate": "2024-05",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784757594937",
+      "publishedDate": "2024-11",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784757599727",
+      "publishedDate": "2025-07",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 9,
+  "coverageAfter": 0.6,
+  "notes": []
+}

@@ -1,0 +1,49 @@
+{
+  "workId": "manga__ゴブリンスレイヤー_デイインザライフ__蝸牛くも文庫クリエイ",
+  "fileId": "04nmci1",
+  "title": "ゴブリンスレイヤー：デイ・イン・ザ・ライフ",
+  "authorDisplay": "蝸牛くも（ＧＡ文庫 ／ ＳＢクリエイティブ刊） / マツセダイチ / 神奈月昇",
+  "confidence": "high",
+  "expectedVolumeCount": 3,
+  "existingVolumeRecords": 3,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 3,
+  "ndlBookItems": 3,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784757585850",
+      "publishedDate": "2023-05",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784757591202",
+      "publishedDate": "2024-03",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784757596962",
+      "publishedDate": "2025-02",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 3,
+  "coverageAfter": 1,
+  "notes": [
+    "著者なし検索で取得"
+  ]
+}

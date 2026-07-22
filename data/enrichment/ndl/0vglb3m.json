@@ -1,0 +1,77 @@
+{
+  "workId": "manga__君と宇宙を歩くために__泥ノ田犬彦",
+  "fileId": "0vglb3m",
+  "title": "君と宇宙を歩くために",
+  "authorDisplay": "泥ノ田犬彦",
+  "confidence": "high",
+  "expectedVolumeCount": 5,
+  "existingVolumeRecords": 7,
+  "existingWithIsbn": 2,
+  "ndlTotalResults": 7,
+  "ndlBookItems": 7,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784065334874",
+      "publishedDate": "2023-11",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784065353882",
+      "publishedDate": "2024-05",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784065372005",
+      "publishedDate": "2024-10",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784065391525",
+      "publishedDate": "2025-04",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784065411650",
+      "publishedDate": "2025-10",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784065433867",
+      "publishedDate": "2026-05",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 5,
+  "coverageAfter": 1,
+  "notes": []
+}

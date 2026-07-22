@@ -1,0 +1,77 @@
+{
+  "workId": "novel__ブレイブストーリー__宮部みゆき",
+  "fileId": "02oh7qk",
+  "title": "ブレイブ・ストーリー",
+  "authorDisplay": "宮部みゆき",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 38,
+  "ndlBookItems": 32,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784107711410",
+      "publishedDate": "2004-04",
+      "publisher": "新潮社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784107711427",
+      "publishedDate": "2004-04",
+      "publisher": "新潮社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784107711526",
+      "publishedDate": "2004-06",
+      "publisher": "新潮社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784107711700",
+      "publishedDate": "2004-09",
+      "publisher": "新潮社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784107711885",
+      "publishedDate": "2004-12",
+      "publisher": "新潮社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784107712059",
+      "publishedDate": "2005-03",
+      "publisher": "新潮社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 6,
+  "coverageAfter": 1,
+  "notes": []
+}

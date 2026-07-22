@@ -1,0 +1,287 @@
+{
+  "workId": "manga__赤髪の白雪姫__あきづき空太",
+  "fileId": "1vhhr08",
+  "title": "赤髪の白雪姫",
+  "authorDisplay": "あきづき空太",
+  "confidence": "high",
+  "expectedVolumeCount": 27,
+  "existingVolumeRecords": 19,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 44,
+  "ndlBookItems": 32,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784592183730",
+      "publishedDate": "2007-12",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784592183747",
+      "publishedDate": "2008-08",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784592183754",
+      "publishedDate": "2009-03",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784592183761",
+      "publishedDate": "2010-01",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784592183778",
+      "publishedDate": "2011-01",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784592191056",
+      "publishedDate": "2011-09",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784592194378",
+      "publishedDate": "2012-03",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784592194385",
+      "publishedDate": "2012-09",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784592194392",
+      "publishedDate": "2013-03",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784592194408",
+      "publishedDate": "2013-07",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784592194415",
+      "publishedDate": "2014-01",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784592194422",
+      "publishedDate": "2014-10",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784592194439",
+      "publishedDate": "2015-04",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784592194446",
+      "publishedDate": "2015-07",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784592194453",
+      "publishedDate": "2016-01",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784592105657",
+      "publishedDate": "2016-08",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9784592194477",
+      "publishedDate": "2017-03",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 18,
+      "volumeLabel": "18巻",
+      "isbn13": "9784592105763",
+      "publishedDate": "2017-11",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 19,
+      "volumeLabel": "19巻",
+      "isbn13": "9784592105893",
+      "publishedDate": "2018-06",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 20,
+      "volumeLabel": "20巻",
+      "isbn13": "9784592105985",
+      "publishedDate": "2019-01",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 21,
+      "volumeLabel": "21巻",
+      "isbn13": "9784592220114",
+      "publishedDate": "2019-09",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 22,
+      "volumeLabel": "22巻",
+      "isbn13": "9784592220121",
+      "publishedDate": "2020-03",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 23,
+      "volumeLabel": "23巻",
+      "isbn13": "9784592220138",
+      "publishedDate": "2021-04",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 24,
+      "volumeLabel": "24巻",
+      "isbn13": "9784592220145",
+      "publishedDate": "2021-06",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 25,
+      "volumeLabel": "25巻",
+      "isbn13": "9784592220152",
+      "publishedDate": "2022-05",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 26,
+      "volumeLabel": "26巻",
+      "isbn13": "9784592220169",
+      "publishedDate": "2023-07",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 27,
+      "volumeLabel": "27巻",
+      "isbn13": "9784592220176",
+      "publishedDate": "2025-05",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 26,
+  "coverageAfter": 1,
+  "notes": []
+}

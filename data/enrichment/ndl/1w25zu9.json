@@ -1,0 +1,427 @@
+{
+  "workId": "manga__dragon_ball_モノクロ版__鳥山明",
+  "fileId": "1w25zu9",
+  "title": "DRAGON BALL モノクロ版",
+  "authorDisplay": "鳥山明",
+  "confidence": "high",
+  "expectedVolumeCount": 39,
+  "existingVolumeRecords": 20,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 256,
+  "ndlBookItems": 182,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9781569314951",
+      "publishedDate": "2000",
+      "publisher": "Viz Communications",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9788756274043",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9789163818523",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9789163818561",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9788756274104",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9789163818608",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9788388803079",
+      "publishedDate": "2001",
+      "publisher": "Japonica Polonica Fantastica",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9788756274166",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9789163818660",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9788388803109",
+      "publishedDate": "2001",
+      "publisher": "Japonica Polonica Fantastica",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9788388803116",
+      "publishedDate": "2001",
+      "publisher": "Japonica Polonica Fantastica",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9788756274562",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9788756274586",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9788756274609",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9788756274623",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9789163822711",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9788756274661",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 18,
+      "volumeLabel": "18巻",
+      "isbn13": "9789163823169",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 19,
+      "volumeLabel": "19巻",
+      "isbn13": "9789163823176",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 20,
+      "volumeLabel": "20巻",
+      "isbn13": "9788756274746",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 21,
+      "volumeLabel": "21巻",
+      "isbn13": "9788756274760",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 22,
+      "volumeLabel": "22巻",
+      "isbn13": "9789163825101",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 23,
+      "volumeLabel": "23巻",
+      "isbn13": "9788762674950",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 24,
+      "volumeLabel": "24巻",
+      "isbn13": "9789163825125",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 25,
+      "volumeLabel": "25巻",
+      "isbn13": "9788762674981",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 26,
+      "volumeLabel": "26巻",
+      "isbn13": "9788762674998",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 27,
+      "volumeLabel": "27巻",
+      "isbn13": "9789163825156",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 28,
+      "volumeLabel": "28巻",
+      "isbn13": "9789163825163",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 29,
+      "volumeLabel": "29巻",
+      "isbn13": "9789163825170",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 30,
+      "volumeLabel": "30巻",
+      "isbn13": "9788388803307",
+      "publishedDate": "2002",
+      "publisher": "Japonica Polonica Fantastica",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 32,
+      "volumeLabel": "32巻",
+      "isbn13": "9789163825224",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 33,
+      "volumeLabel": "33巻",
+      "isbn13": "9788388803338",
+      "publishedDate": "2003",
+      "publisher": "Japonica Polonica Fantastica",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 34,
+      "volumeLabel": "34巻",
+      "isbn13": "9788388803345",
+      "publishedDate": "2003",
+      "publisher": "Japonica Polonica Fantastica",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 35,
+      "volumeLabel": "35巻",
+      "isbn13": "9788388803352",
+      "publishedDate": "2003",
+      "publisher": "Japonica Polonica Fantastica",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 36,
+      "volumeLabel": "36巻",
+      "isbn13": "9788388803369",
+      "publishedDate": "2003",
+      "publisher": "Japonica Polonica Fantastica",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 37,
+      "volumeLabel": "37巻",
+      "isbn13": "9788388803376",
+      "publishedDate": "2003",
+      "publisher": "Japonica Polonica Fantastica",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 38,
+      "volumeLabel": "38巻",
+      "isbn13": "9788388803383",
+      "publishedDate": "2003",
+      "publisher": "Japonica Polonica Fantastica",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 39,
+      "volumeLabel": "39巻",
+      "isbn13": "9789163828225",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 40,
+      "volumeLabel": "40巻",
+      "isbn13": "9789163828232",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 41,
+      "volumeLabel": "41巻",
+      "isbn13": "9789163828249",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 42,
+      "volumeLabel": "42巻",
+      "isbn13": "9789163828256",
+      "publishedDate": null,
+      "publisher": "Carlsen Comics",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 41,
+  "coverageAfter": 0.97,
+  "notes": []
+}

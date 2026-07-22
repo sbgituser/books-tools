@@ -1,0 +1,237 @@
+{
+  "workId": "manga__デートアライブ__橘公司",
+  "fileId": "08qtf3l",
+  "title": "デート・ア・ライブ",
+  "authorDisplay": "橘公司",
+  "confidence": "high",
+  "expectedVolumeCount": 20,
+  "existingVolumeRecords": 8,
+  "existingWithIsbn": 8,
+  "ndlTotalResults": 87,
+  "ndlBookItems": 63,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784041204467",
+      "publishedDate": "2012-08",
+      "publisher": "角川書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784829136720",
+      "publishedDate": "2011-08",
+      "publisher": "富士見書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784829137048",
+      "publishedDate": "2011-11",
+      "publisher": "富士見書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784829137444",
+      "publishedDate": "2012-03",
+      "publisher": "富士見書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784829137956",
+      "publishedDate": "2012-08",
+      "publisher": "富士見書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784829138359",
+      "publishedDate": "2012-12",
+      "publisher": "富士見書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784829138717",
+      "publishedDate": "2013-03",
+      "publisher": "富士見書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784829139387",
+      "publishedDate": "2013-09",
+      "publisher": "富士見書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784047129375",
+      "publishedDate": "2013-12",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784040700663",
+      "publishedDate": "2014-03",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784040701431",
+      "publishedDate": "2014-09",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784040701516",
+      "publishedDate": "2015-06",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784040706948",
+      "publishedDate": "2015-10",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784040706955",
+      "publishedDate": "2016-03",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784040709277",
+      "publishedDate": "2016-09",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784040709284",
+      "publishedDate": "2017-03",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9784040709291",
+      "publishedDate": "2017-08",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 18,
+      "volumeLabel": "18巻",
+      "isbn13": "9784040725659",
+      "publishedDate": "2018-03",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 19,
+      "volumeLabel": "19巻",
+      "isbn13": "9784040728216",
+      "publishedDate": "2018-08",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 20,
+      "volumeLabel": "20巻",
+      "isbn13": "9784040728223",
+      "publishedDate": "2019-03",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 21,
+      "volumeLabel": "21巻",
+      "isbn13": "9784040732671",
+      "publishedDate": "2019-10",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 22,
+      "volumeLabel": "22巻",
+      "isbn13": "9784040735818",
+      "publishedDate": "2020-03",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 15,
+  "coverageAfter": 1,
+  "notes": []
+}

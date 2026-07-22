@@ -1,0 +1,457 @@
+{
+  "workId": "manga__re_ゼロから始める異世界生活__長月達平",
+  "fileId": "1pkrrep",
+  "title": "Re:ゼロから始める異世界生活.",
+  "authorDisplay": "長月達平",
+  "confidence": "high",
+  "expectedVolumeCount": 38,
+  "existingVolumeRecords": 18,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 187,
+  "ndlBookItems": 156,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784040662084",
+      "publishedDate": "2014-01",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784040663098",
+      "publishedDate": "2014-02",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784040663340",
+      "publishedDate": "2014-03",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784040667805",
+      "publishedDate": "2014-06",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784040671222",
+      "publishedDate": "2014-10",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784040674681",
+      "publishedDate": "2015-03",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784040677804",
+      "publishedDate": "2015-09",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784040681771",
+      "publishedDate": "2016-03",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784040686271",
+      "publishedDate": "2016-09",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784040686769",
+      "publishedDate": "2016-10",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784040687704",
+      "publishedDate": "2016-12",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784040691435",
+      "publishedDate": "2017-03",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784040692852",
+      "publishedDate": "2017-06",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784040694597",
+      "publishedDate": "2017-09",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784040696119",
+      "publishedDate": "2017-12",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784040698168",
+      "publishedDate": "2018-03",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9784040651583",
+      "publishedDate": "2018-09",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 18,
+      "volumeLabel": "18巻",
+      "isbn13": "9784040653808",
+      "publishedDate": "2018-12",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 19,
+      "volumeLabel": "19巻",
+      "isbn13": "9784040656281",
+      "publishedDate": "2019-03",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 20,
+      "volumeLabel": "20巻",
+      "isbn13": "9784040657950",
+      "publishedDate": "2019-06",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 21,
+      "volumeLabel": "21巻",
+      "isbn13": "9784040640068",
+      "publishedDate": "2019-09",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 22,
+      "volumeLabel": "22巻",
+      "isbn13": "9784040645537",
+      "publishedDate": "2020-03",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 23,
+      "volumeLabel": "23巻",
+      "isbn13": "9784040647302",
+      "publishedDate": "2020-06",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 24,
+      "volumeLabel": "24巻",
+      "isbn13": "9784040649450",
+      "publishedDate": "2020-09",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 25,
+      "volumeLabel": "25巻",
+      "isbn13": "9784046800800",
+      "publishedDate": "2020-12",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 26,
+      "volumeLabel": "26巻",
+      "isbn13": "9784046803306",
+      "publishedDate": "2021-03",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 27,
+      "volumeLabel": "27巻",
+      "isbn13": "9784046805102",
+      "publishedDate": "2021-06",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 28,
+      "volumeLabel": "28巻",
+      "isbn13": "9784046809988",
+      "publishedDate": "2021-12",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 29,
+      "volumeLabel": "29巻",
+      "isbn13": "9784046812865",
+      "publishedDate": "2022-03",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 30,
+      "volumeLabel": "30巻",
+      "isbn13": "9784046814760",
+      "publishedDate": "2022-06",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 31,
+      "volumeLabel": "31巻",
+      "isbn13": "9784046817488",
+      "publishedDate": "2022-09",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 32,
+      "volumeLabel": "32巻",
+      "isbn13": "9784046820419",
+      "publishedDate": "2022-12",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 33,
+      "volumeLabel": "33巻",
+      "isbn13": "9784046823311",
+      "publishedDate": "2023-03",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 34,
+      "volumeLabel": "34巻",
+      "isbn13": "9784046825674",
+      "publishedDate": "2023-06",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 35,
+      "volumeLabel": "35巻",
+      "isbn13": "9784046828637",
+      "publishedDate": "2023-09",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 36,
+      "volumeLabel": "36巻",
+      "isbn13": "9784046831569",
+      "publishedDate": "2023-12",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 37,
+      "volumeLabel": "37巻",
+      "isbn13": "9784046834706",
+      "publishedDate": "2024-03",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 38,
+      "volumeLabel": "38巻",
+      "isbn13": "9784046837042",
+      "publishedDate": "2024-06",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 39,
+      "volumeLabel": "39巻",
+      "isbn13": "9784046840042",
+      "publishedDate": "2024-09",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 40,
+      "volumeLabel": "40巻",
+      "isbn13": "9784046846341",
+      "publishedDate": "2025-03",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 41,
+      "volumeLabel": "41巻",
+      "isbn13": "9784046848901",
+      "publishedDate": "2025-06",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 42,
+      "volumeLabel": "42巻",
+      "isbn13": "9784046851840",
+      "publishedDate": "2025-09",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 43,
+      "volumeLabel": "43巻",
+      "isbn13": "9784046855022",
+      "publishedDate": "2025-12",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 44,
+      "volumeLabel": "44巻",
+      "isbn13": "9784046858207",
+      "publishedDate": "2026-03",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 43,
+  "coverageAfter": 1,
+  "notes": []
+}

@@ -1,0 +1,16 @@
+{
+  "workId": "manga__ドラえもん__藤子・・不二雄",
+  "fileId": "0hzlvff",
+  "title": "ドラえもん",
+  "authorDisplay": "藤子・Ｆ・不二雄",
+  "confidence": "low",
+  "expectedVolumeCount": 9,
+  "existingVolumeRecords": 9,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 0,
+  "ndlBookItems": 250,
+  "volumes": [],
+  "newIsbnCount": 0,
+  "coverageAfter": 0,
+  "notes": []
+}

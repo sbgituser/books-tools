@@ -1,0 +1,147 @@
+{
+  "workId": "manga__陰陽師__岡野玲子",
+  "fileId": "0wty2vi",
+  "title": "陰陽師",
+  "authorDisplay": "岡野玲子",
+  "confidence": "high",
+  "expectedVolumeCount": 13,
+  "existingVolumeRecords": 14,
+  "existingWithIsbn": 6,
+  "ndlTotalResults": 31,
+  "ndlBookItems": 29,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784796242714",
+      "publishedDate": "1994-07",
+      "publisher": "スコラ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784796242967",
+      "publishedDate": "1994-11",
+      "publisher": "スコラ",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784796243346",
+      "publishedDate": "1995-06",
+      "publisher": "スコラ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784796243636",
+      "publishedDate": "1995-12",
+      "publisher": "スコラ",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784796243964",
+      "publishedDate": "1996-11",
+      "publisher": "スコラ",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784796244220",
+      "publishedDate": "1997-08",
+      "publisher": "スコラ",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784796244404",
+      "publishedDate": "1998-05",
+      "publisher": "スコラ",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784796244589",
+      "publishedDate": "1998-12",
+      "publisher": "スコラ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784592132196",
+      "publishedDate": "2000-03",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784592132202",
+      "publishedDate": "2001-06",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784592132219",
+      "publishedDate": "2002-12",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784592132226",
+      "publishedDate": "2005-08",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784592132332",
+      "publishedDate": "2005-10",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    }
+  ],
+  "newIsbnCount": 11,
+  "coverageAfter": 1,
+  "notes": []
+}

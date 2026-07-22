@@ -1,0 +1,137 @@
+{
+  "workId": "manga__とらドラ__竹宮ゆゆこ",
+  "fileId": "15yerji",
+  "title": "とらドラ!",
+  "authorDisplay": "竹宮ゆゆこ",
+  "confidence": "high",
+  "expectedVolumeCount": 11,
+  "existingVolumeRecords": 1,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 53,
+  "ndlBookItems": 37,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784840233538",
+      "publishedDate": "2006-03",
+      "publisher": "アスキー・メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784840234382",
+      "publishedDate": "2006-05",
+      "publisher": "メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784840235518",
+      "publishedDate": "2006-09",
+      "publisher": "メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784840236812",
+      "publishedDate": "2007-01",
+      "publisher": "メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784840239325",
+      "publishedDate": "2007-08",
+      "publisher": "メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784840241175",
+      "publishedDate": "2007-12",
+      "publisher": "メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784048670197",
+      "publishedDate": "2008-04",
+      "publisher": "アスキー・メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784048671705",
+      "publishedDate": "2008-08",
+      "publisher": "アスキー・メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784048672658",
+      "publishedDate": "2008-10",
+      "publisher": "アスキー・メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784048675932",
+      "publishedDate": "2009-03",
+      "publisher": "アスキー・メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784049148312",
+      "publishedDate": "2023-01",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784049522006",
+      "publishedDate": "2026-04",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 11,
+  "coverageAfter": 1,
+  "notes": []
+}

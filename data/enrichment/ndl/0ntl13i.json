@@ -1,0 +1,27 @@
+{
+  "workId": "manga__ふたがしら_第1集__オノナツメ",
+  "fileId": "0ntl13i",
+  "title": "ふたがしら 第1集",
+  "authorDisplay": "オノナツメ",
+  "confidence": "medium",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 1,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 1,
+  "ndlBookItems": 1,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784091885685",
+      "publishedDate": "2012-01",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    }
+  ],
+  "newIsbnCount": 0,
+  "coverageAfter": 0.5,
+  "notes": []
+}

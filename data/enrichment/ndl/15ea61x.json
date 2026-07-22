@@ -1,0 +1,269 @@
+{
+  "workId": "manga__魔女の旅__白石定規gaノベルs",
+  "fileId": "15ea61x",
+  "title": "魔女の旅々",
+  "authorDisplay": "白石定規（GAノベル／SBクリエイティブ刊） / 七緒一綺 / あずーる",
+  "confidence": "low",
+  "expectedVolumeCount": 5,
+  "existingVolumeRecords": 4,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 58,
+  "ndlBookItems": 48,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784757560932",
+      "publishedDate": "2019-04",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784797388169",
+      "publishedDate": "2016-07",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784797389241",
+      "publishedDate": "2016-12",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784797392869",
+      "publishedDate": "2017-07",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784797393996",
+      "publishedDate": "2017-11",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784797395655",
+      "publishedDate": "2018-03",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784797396133",
+      "publishedDate": "2018-07",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784797397154",
+      "publishedDate": "2018-11-15",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784815600990",
+      "publishedDate": "2019-04",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784815601706",
+      "publishedDate": "2019-08",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784815603748",
+      "publishedDate": "2019-11",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784815603779",
+      "publishedDate": "2020-04",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784815604868",
+      "publishedDate": "2020-07",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784815604882",
+      "publishedDate": "2020-10-15",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784815607975",
+      "publishedDate": "2020-12",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784815608293",
+      "publishedDate": "2021-03",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9784815608316",
+      "publishedDate": "2021-07-15",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 18,
+      "volumeLabel": "18巻",
+      "isbn13": "9784815610272",
+      "publishedDate": "2022-01",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 19,
+      "volumeLabel": "19巻",
+      "isbn13": "9784815615437",
+      "publishedDate": "2022-09-15",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 20,
+      "volumeLabel": "20巻",
+      "isbn13": "9784815617042",
+      "publishedDate": "2023-03",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 21,
+      "volumeLabel": "21巻",
+      "isbn13": "9784815619718",
+      "publishedDate": "2023-10-14",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 22,
+      "volumeLabel": "22巻",
+      "isbn13": "9784815624873",
+      "publishedDate": "2024-03",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 23,
+      "volumeLabel": "23巻",
+      "isbn13": "9784815625979",
+      "publishedDate": "2024-10",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 24,
+      "volumeLabel": "24巻",
+      "isbn13": "9784815631123",
+      "publishedDate": "2025-03",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 25,
+      "volumeLabel": "25巻",
+      "isbn13": "9784815637408",
+      "publishedDate": "2026-03",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 25,
+  "coverageAfter": 1,
+  "notes": [
+    "著者なし検索で取得"
+  ]
+}

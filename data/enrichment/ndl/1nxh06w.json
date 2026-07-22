@@ -1,0 +1,127 @@
+{
+  "workId": "manga__ヲタクに恋は難しい__unknown",
+  "fileId": "1nxh06w",
+  "title": "ヲタクに恋は難しい",
+  "authorDisplay": "",
+  "confidence": "low",
+  "expectedVolumeCount": 10,
+  "existingVolumeRecords": 1,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 28,
+  "ndlBookItems": 18,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784758008464",
+      "publishedDate": "2015-05",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784758008990",
+      "publishedDate": "2016-04",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784758009348",
+      "publishedDate": "2017-01",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784758009515",
+      "publishedDate": "2017-08",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784758009799",
+      "publishedDate": "2018-02",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784758009874",
+      "publishedDate": "2018-08",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784758020190",
+      "publishedDate": "2019-04",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784758020589",
+      "publishedDate": "2019-12",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784758021203",
+      "publishedDate": "2020-08",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784758021883",
+      "publishedDate": "2021-03",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784758022811",
+      "publishedDate": "2021-10",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 10,
+  "coverageAfter": 1,
+  "notes": []
+}

@@ -1,0 +1,18 @@
+{
+  "workId": "novel__犬神家の一族__横溝正史",
+  "fileId": "0xsp7cu",
+  "title": "犬神家の一族",
+  "authorDisplay": "横溝正史",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 91,
+  "ndlBookItems": 30,
+  "volumes": [],
+  "newIsbnCount": 0,
+  "coverageAfter": 0,
+  "notes": [
+    "タイトル一致はあるが巻番号(dcndl:volume)なし"
+  ]
+}

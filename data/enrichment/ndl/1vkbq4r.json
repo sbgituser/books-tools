@@ -1,0 +1,137 @@
+{
+  "workId": "manga__私の推しは悪役令嬢__青乃下",
+  "fileId": "1vkbq4r",
+  "title": "私の推しは悪役令嬢。",
+  "authorDisplay": "青乃下 / いのり。 / 花ヶ田",
+  "confidence": "high",
+  "expectedVolumeCount": 52,
+  "existingVolumeRecords": 9,
+  "existingWithIsbn": 8,
+  "ndlTotalResults": 15,
+  "ndlBookItems": 13,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784758021937",
+      "publishedDate": "2021-01",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784758022637",
+      "publishedDate": "2021-07",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784758023184",
+      "publishedDate": "2022-01",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784758024334",
+      "publishedDate": "2022-07",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784758024792",
+      "publishedDate": "2023-01",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784758025409",
+      "publishedDate": "2023-06",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784758026147",
+      "publishedDate": "2023-11",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784758026963",
+      "publishedDate": "2024-05",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784758027762",
+      "publishedDate": "2024-11",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784758028813",
+      "publishedDate": "2025-05",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784758029780",
+      "publishedDate": "2025-11",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784758098366",
+      "publishedDate": "2026-05",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 5,
+  "coverageAfter": 0.23,
+  "notes": []
+}

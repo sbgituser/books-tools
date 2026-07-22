@@ -1,0 +1,137 @@
+{
+  "workId": "manga__ラフ__あだち充",
+  "fileId": "1wsbmnf",
+  "title": "ラフ",
+  "authorDisplay": "あだち充",
+  "confidence": "high",
+  "expectedVolumeCount": 12,
+  "existingVolumeRecords": 19,
+  "existingWithIsbn": 9,
+  "ndlTotalResults": 39,
+  "ndlBookItems": 39,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784091217318",
+      "publishedDate": "1987-09",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784091217325",
+      "publishedDate": "1987-12",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784091217332",
+      "publishedDate": "1988-04",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784091217349",
+      "publishedDate": "1988-06",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784091217356",
+      "publishedDate": "1988-08",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784091217363",
+      "publishedDate": "1988-10",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784091217370",
+      "publishedDate": "1989-01",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784091217387",
+      "publishedDate": "1989-04",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784091217394",
+      "publishedDate": "1989-07",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784091217400",
+      "publishedDate": "1989-08",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784091223814",
+      "publishedDate": "1989-10",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784091223821",
+      "publishedDate": "1989-11",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    }
+  ],
+  "newIsbnCount": 6,
+  "coverageAfter": 1,
+  "notes": []
+}

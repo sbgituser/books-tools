@@ -1,0 +1,97 @@
+{
+  "workId": "manga__ありふれた職業で世界最強_零__神地あたる",
+  "fileId": "016pip0",
+  "title": "ありふれた職業で世界最強 零",
+  "authorDisplay": "神地あたる / 白米良",
+  "confidence": "high",
+  "expectedVolumeCount": 8,
+  "existingVolumeRecords": 9,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 8,
+  "ndlBookItems": 8,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784865543810",
+      "publishedDate": "2018-07",
+      "publisher": "オーバーラップ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784865544336",
+      "publishedDate": "2018-12",
+      "publisher": "オーバーラップ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784865545074",
+      "publishedDate": "2019-06",
+      "publisher": "オーバーラップ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784865546545",
+      "publishedDate": "2020-04",
+      "publisher": "オーバーラップ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784865547696",
+      "publishedDate": "2020-10",
+      "publisher": "オーバーラップ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784865548976",
+      "publishedDate": "2021-04",
+      "publisher": "オーバーラップ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784824000705",
+      "publishedDate": "2021-12",
+      "publisher": "オーバーラップ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784824002006",
+      "publishedDate": "2022-06",
+      "publisher": "オーバーラップ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 7,
+  "coverageAfter": 1,
+  "notes": []
+}

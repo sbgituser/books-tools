@@ -1,0 +1,18 @@
+{
+  "workId": "novel__殺戮にいたる病__我孫子武丸",
+  "fileId": "0ead25x",
+  "title": "殺戮にいたる病",
+  "authorDisplay": "我孫子武丸",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 7,
+  "ndlBookItems": 6,
+  "volumes": [],
+  "newIsbnCount": 0,
+  "coverageAfter": 0,
+  "notes": [
+    "タイトル一致はあるが巻番号(dcndl:volume)なし"
+  ]
+}

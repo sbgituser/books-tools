@@ -1,0 +1,217 @@
+{
+  "workId": "manga__墜落jkと廃人教師__",
+  "fileId": "1vebeu4",
+  "title": "墜落JKと廃人教師",
+  "authorDisplay": "ｓｏｒａ",
+  "confidence": "low",
+  "expectedVolumeCount": 7,
+  "existingVolumeRecords": 7,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 26,
+  "ndlBookItems": 26,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784592216520",
+      "publishedDate": "2018-02",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784592216537",
+      "publishedDate": "2018-07",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784592216544",
+      "publishedDate": "2018-12",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784592216551",
+      "publishedDate": "2019-04",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784592216568",
+      "publishedDate": "2019-07",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784592216575",
+      "publishedDate": "2019-11",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784592216582",
+      "publishedDate": "2020-03",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784592216599",
+      "publishedDate": "2020-07",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784592216605",
+      "publishedDate": "2020-11",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784592223801",
+      "publishedDate": "2021-03",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784592223818",
+      "publishedDate": "2021-07",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784592228042",
+      "publishedDate": "2021-11",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784592223832",
+      "publishedDate": "2022-04",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784592223849",
+      "publishedDate": "2022-08",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784592223856",
+      "publishedDate": "2022-12",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784592223863",
+      "publishedDate": "2023-04",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9784592223870",
+      "publishedDate": "2023-08-18",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 18,
+      "volumeLabel": "18巻",
+      "isbn13": "9784592223887",
+      "publishedDate": "2023-12",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 19,
+      "volumeLabel": "19巻",
+      "isbn13": "9784592223900",
+      "publishedDate": "2024-04",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 20,
+      "volumeLabel": "20巻",
+      "isbn13": "9784592224945",
+      "publishedDate": "2024-08",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 20,
+  "coverageAfter": 1,
+  "notes": []
+}

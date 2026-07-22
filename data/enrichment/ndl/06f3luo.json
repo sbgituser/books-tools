@@ -1,0 +1,18 @@
+{
+  "workId": "manga__無職転生_異世界行ったら本気だす__理不尽な孫の手",
+  "fileId": "06f3luo",
+  "title": "無職転生 ～異世界行ったら本気だす～",
+  "authorDisplay": "理不尽な孫の手",
+  "confidence": "medium",
+  "expectedVolumeCount": 3,
+  "existingVolumeRecords": 3,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 186,
+  "ndlBookItems": 69,
+  "volumes": [],
+  "newIsbnCount": 0,
+  "coverageAfter": 0,
+  "notes": [
+    "タイトル一致はあるが巻番号(dcndl:volume)なし"
+  ]
+}

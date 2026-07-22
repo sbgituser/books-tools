@@ -1,0 +1,57 @@
+{
+  "workId": "manga__サイコの世界__井龍一",
+  "fileId": "1jtuoir",
+  "title": "サイコの世界",
+  "authorDisplay": "井龍一 / 大羽隆廣",
+  "confidence": "high",
+  "expectedVolumeCount": 4,
+  "existingVolumeRecords": 5,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 4,
+  "ndlBookItems": 4,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784065262016",
+      "publishedDate": "2021-12",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784065270578",
+      "publishedDate": "2022-03",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784065277898",
+      "publishedDate": "2022-05",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784065284131",
+      "publishedDate": "2022-07",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 4,
+  "coverageAfter": 1,
+  "notes": []
+}

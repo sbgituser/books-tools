@@ -1,0 +1,37 @@
+{
+  "workId": "manga__やはり俺の青春ラブコメはまちがっている_7_5__渡航",
+  "fileId": "027jjnf",
+  "title": "やはり俺の青春ラブコメはまちがっている。. 7.5",
+  "authorDisplay": "渡航",
+  "confidence": "medium",
+  "expectedVolumeCount": 9,
+  "existingVolumeRecords": 1,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 2,
+  "ndlBookItems": 2,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784094512625",
+      "publishedDate": "2011-03",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784094514346",
+      "publishedDate": "2013-08",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    }
+  ],
+  "newIsbnCount": 1,
+  "coverageAfter": 0.22,
+  "notes": []
+}

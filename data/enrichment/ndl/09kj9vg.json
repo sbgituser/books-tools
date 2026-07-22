@@ -1,0 +1,257 @@
+{
+  "workId": "manga__ゆるゆり__なもり",
+  "fileId": "09kj9vg",
+  "title": "ゆるゆり",
+  "authorDisplay": "なもり",
+  "confidence": "high",
+  "expectedVolumeCount": 24,
+  "existingVolumeRecords": 16,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 85,
+  "ndlBookItems": 50,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784758070553",
+      "publishedDate": "2009-08",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784758070706",
+      "publishedDate": "2010-02",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784758070904",
+      "publishedDate": "2010-07",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784758071215",
+      "publishedDate": "2011-02",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784758071475",
+      "publishedDate": "2011-06",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784758071505",
+      "publishedDate": "2011-07",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784758071451",
+      "publishedDate": "2011-08",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784758072007",
+      "publishedDate": "2012-08",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784758072038",
+      "publishedDate": "2012-08",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784758072526",
+      "publishedDate": "2013-06",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784758072915",
+      "publishedDate": "2014-02",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784758073271",
+      "publishedDate": "2014-08",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784758073905",
+      "publishedDate": "2015-02",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784758075213",
+      "publishedDate": "2016-02",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784758076753",
+      "publishedDate": "2017-06",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784758077767",
+      "publishedDate": "2018-02",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9784758079754",
+      "publishedDate": "2019-09",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 18,
+      "volumeLabel": "18巻",
+      "isbn13": "9784758021159",
+      "publishedDate": "2020-06",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 19,
+      "volumeLabel": "19巻",
+      "isbn13": "9784758021975",
+      "publishedDate": "2021-01",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 20,
+      "volumeLabel": "20巻",
+      "isbn13": "9784758022873",
+      "publishedDate": "2021-09",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 21,
+      "volumeLabel": "21巻",
+      "isbn13": "9784758023412",
+      "publishedDate": "2022-01",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 22,
+      "volumeLabel": "22巻",
+      "isbn13": "9784758024822",
+      "publishedDate": "2023-01",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 23,
+      "volumeLabel": "23巻",
+      "isbn13": "9784758028202",
+      "publishedDate": "2025-01",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 24,
+      "volumeLabel": "24巻",
+      "isbn13": "9784758029834",
+      "publishedDate": "2025-11",
+      "publisher": "一迅社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 24,
+  "coverageAfter": 1,
+  "notes": []
+}

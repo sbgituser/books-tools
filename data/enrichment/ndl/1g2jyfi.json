@@ -1,0 +1,57 @@
+{
+  "workId": "manga__魔法騎士レイアース__",
+  "fileId": "1g2jyfi",
+  "title": "魔法騎士レイアース",
+  "authorDisplay": "ＣＬＡＭＰ",
+  "confidence": "low",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 40,
+  "ndlBookItems": 27,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784063302028",
+      "publishedDate": "1995-10",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784063302035",
+      "publishedDate": "1995-11",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784063302042",
+      "publishedDate": "1995-12",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784063302059",
+      "publishedDate": "1996-01",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 4,
+  "coverageAfter": 1,
+  "notes": []
+}

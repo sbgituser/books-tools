@@ -1,0 +1,167 @@
+{
+  "workId": "manga__アンサングシンデレラ_病院薬剤師_葵みどり__荒井ママレ",
+  "fileId": "024xj8u",
+  "title": "アンサングシンデレラ 病院薬剤師 葵みどり",
+  "authorDisplay": "荒井ママレ / 富野浩充",
+  "confidence": "high",
+  "expectedVolumeCount": 7,
+  "existingVolumeRecords": 7,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 18,
+  "ndlBookItems": 18,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784199805325",
+      "publishedDate": "2018-12",
+      "publisher": "ノース・スターズ・ピクチャーズ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784867200179",
+      "publishedDate": "2020-04",
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784867200186",
+      "publishedDate": "2020-04",
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784867200193",
+      "publishedDate": "2020-05",
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784867201534",
+      "publishedDate": "2020-07",
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784867201923",
+      "publishedDate": "2021-04",
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784867202715",
+      "publishedDate": "2021-11",
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784867203590",
+      "publishedDate": "2022-05",
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784867204290",
+      "publishedDate": "2022-11",
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784867204948",
+      "publishedDate": "2023-05",
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784867205730",
+      "publishedDate": "2023-10-20",
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784867206355",
+      "publishedDate": "2024-05",
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784867206966",
+      "publishedDate": "2024-11",
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784867207208",
+      "publishedDate": "2025-05",
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784867207840",
+      "publishedDate": "2025-08",
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 15,
+  "coverageAfter": 1,
+  "notes": []
+}

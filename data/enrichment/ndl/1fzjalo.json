@@ -1,0 +1,189 @@
+{
+  "workId": "manga__ゴブリンスレイヤー__蝸牛くもga文庫クリ",
+  "fileId": "1fzjalo",
+  "title": "ゴブリンスレイヤー",
+  "authorDisplay": "蝸牛くも（GA文庫／ＳＢクリエイティブ刊） / 栄田健人 / 足立慎吾／神奈月昇",
+  "confidence": "low",
+  "expectedVolumeCount": 17,
+  "existingVolumeRecords": 10,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 121,
+  "ndlBookItems": 108,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784757551169",
+      "publishedDate": "2016-09",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784797387520",
+      "publishedDate": "2016-05",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784797388343",
+      "publishedDate": "2016-09",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784797389555",
+      "publishedDate": "2017-01",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784797391589",
+      "publishedDate": "2017-05",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784797391596",
+      "publishedDate": "2017-09",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784797395297",
+      "publishedDate": "2018-03",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784797398090",
+      "publishedDate": "2018-10",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784797398113",
+      "publishedDate": "2018-12",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784815600945",
+      "publishedDate": "2019-03",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784815603304",
+      "publishedDate": "2019-09",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784815603328",
+      "publishedDate": "2020-02",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784815606404",
+      "publishedDate": "2020-10",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784815608118",
+      "publishedDate": "2021-03",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784815611927",
+      "publishedDate": "2021-09",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784815613457",
+      "publishedDate": "2022-07",
+      "publisher": "SBクリエイティブ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9784301002390",
+      "publishedDate": "2025-12",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 17,
+  "coverageAfter": 1,
+  "notes": [
+    "著者なし検索で取得"
+  ]
+}

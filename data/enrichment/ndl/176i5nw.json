@@ -1,0 +1,18 @@
+{
+  "workId": "manga__宮本武蔵__吉川英治",
+  "fileId": "176i5nw",
+  "title": "宮本武蔵.",
+  "authorDisplay": "吉川英治",
+  "confidence": "low",
+  "expectedVolumeCount": 7,
+  "existingVolumeRecords": 5,
+  "existingWithIsbn": 4,
+  "ndlTotalResults": 0,
+  "ndlBookItems": 77,
+  "volumes": [],
+  "newIsbnCount": 0,
+  "coverageAfter": 0,
+  "notes": [
+    "タイトル一致はあるが巻番号(dcndl:volume)なし"
+  ]
+}

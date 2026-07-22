@@ -1,0 +1,57 @@
+{
+  "workId": "manga__名探偵コナン__青山剛昌",
+  "fileId": "11fmcub",
+  "title": "名探偵コナン",
+  "authorDisplay": "青山剛昌",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 0,
+  "ndlBookItems": 220,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784098036752",
+      "publishedDate": "2023-01",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784098036943",
+      "publishedDate": "2023-02",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784868072294",
+      "publishedDate": "2025-12",
+      "publisher": "読書工房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784091182265",
+      "publishedDate": "2016-02",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 4,
+  "coverageAfter": 1,
+  "notes": []
+}

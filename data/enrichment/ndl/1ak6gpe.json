@@ -1,0 +1,18 @@
+{
+  "workId": "manga__ラブ_コン_カラー版__中原アヤ",
+  "fileId": "1ak6gpe",
+  "title": "ラブ★コン カラー版",
+  "authorDisplay": "中原アヤ",
+  "confidence": "medium",
+  "expectedVolumeCount": 17,
+  "existingVolumeRecords": 17,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 37,
+  "ndlBookItems": 32,
+  "volumes": [],
+  "newIsbnCount": 0,
+  "coverageAfter": 0,
+  "notes": [
+    "タイトル一致はあるが巻番号(dcndl:volume)なし"
+  ]
+}

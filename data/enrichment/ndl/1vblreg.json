@@ -1,0 +1,18 @@
+{
+  "workId": "manga__ポプテピピック__大川ぶくぶ",
+  "fileId": "1vblreg",
+  "title": "ポプテピピック",
+  "authorDisplay": "大川ぶくぶ",
+  "confidence": "high",
+  "expectedVolumeCount": 13,
+  "existingVolumeRecords": 1,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 16,
+  "ndlBookItems": 9,
+  "volumes": [],
+  "newIsbnCount": 0,
+  "coverageAfter": 0,
+  "notes": [
+    "タイトル一致はあるが巻番号(dcndl:volume)なし"
+  ]
+}

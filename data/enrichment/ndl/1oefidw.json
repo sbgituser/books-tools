@@ -1,0 +1,57 @@
+{
+  "workId": "manga__地獄先生ぬべs__真倉翔",
+  "fileId": "1oefidw",
+  "title": "地獄先生ぬ～べ～S",
+  "authorDisplay": "真倉翔 / 岡野剛",
+  "confidence": "high",
+  "expectedVolumeCount": 14,
+  "existingVolumeRecords": 4,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 4,
+  "ndlBookItems": 4,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784088817781",
+      "publishedDate": "2019-03",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784088821979",
+      "publishedDate": "2020-01",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784088825083",
+      "publishedDate": "2020-12",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784088827520",
+      "publishedDate": "2021-06",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 4,
+  "coverageAfter": 0.29,
+  "notes": []
+}

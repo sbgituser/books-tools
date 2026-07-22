@@ -1,0 +1,27 @@
+{
+  "workId": "manga__悪魔の花嫁_最終章__あしべゆうほ",
+  "fileId": "13lc6sd",
+  "title": "悪魔の花嫁　最終章",
+  "authorDisplay": "あしべゆうほ / 池田悦子",
+  "confidence": "medium",
+  "expectedVolumeCount": 3,
+  "existingVolumeRecords": 3,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 8,
+  "ndlBookItems": 7,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784253260411",
+      "publishedDate": "2008-07",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 1,
+  "coverageAfter": 0.33,
+  "notes": []
+}

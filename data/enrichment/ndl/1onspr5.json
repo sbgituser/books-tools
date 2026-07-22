@@ -1,0 +1,77 @@
+{
+  "workId": "manga__神の左手悪魔の右手__楳図かずお",
+  "fileId": "1onspr5",
+  "title": "神の左手悪魔の右手",
+  "authorDisplay": "楳図かずお",
+  "confidence": "high",
+  "expectedVolumeCount": 4,
+  "existingVolumeRecords": 4,
+  "existingWithIsbn": 2,
+  "ndlTotalResults": 17,
+  "ndlBookItems": 15,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784091813718",
+      "publishedDate": "1987-07",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784091813725",
+      "publishedDate": "1987-08",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784091813732",
+      "publishedDate": "1987-11",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784091813749",
+      "publishedDate": "1988-03",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784091813756",
+      "publishedDate": "1988-07",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784091813763",
+      "publishedDate": "1988-10",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 6,
+  "coverageAfter": 1,
+  "notes": []
+}

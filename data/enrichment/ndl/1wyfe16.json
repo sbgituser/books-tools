@@ -1,0 +1,47 @@
+{
+  "workId": "manga__愛しの彼女は隠れオタク__タアモ",
+  "fileId": "1wyfe16",
+  "title": "愛しの彼女は隠れオタク.",
+  "authorDisplay": "タアモ",
+  "confidence": "high",
+  "expectedVolumeCount": 3,
+  "existingVolumeRecords": 4,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 25,
+  "ndlBookItems": 3,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784098715619",
+      "publishedDate": "2022-03",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784098723645",
+      "publishedDate": "2023-11",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784098726769",
+      "publishedDate": "2024-08",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 2,
+  "coverageAfter": 1,
+  "notes": []
+}

@@ -1,0 +1,18 @@
+{
+  "workId": "manga__ハイキュー_ショーセツバン_1_烏野強化合宿__古舘春一",
+  "fileId": "1jyman6",
+  "title": "ハイキュー!!ショーセツバン!! 1 (烏野強化合宿)",
+  "authorDisplay": "古舘春一 / 星希代子",
+  "confidence": "low",
+  "expectedVolumeCount": 12,
+  "existingVolumeRecords": 1,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 0,
+  "ndlBookItems": 0,
+  "volumes": [],
+  "newIsbnCount": 0,
+  "coverageAfter": 0,
+  "notes": [
+    "NDL取得失敗: TypeError: fetch failed"
+  ]
+}

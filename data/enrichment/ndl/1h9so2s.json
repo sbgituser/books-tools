@@ -1,0 +1,47 @@
+{
+  "workId": "manga__恋愛フロップス__石坂リューダイ",
+  "fileId": "1h9so2s",
+  "title": "恋愛フロップス",
+  "authorDisplay": "石坂リューダイ / Love Flops Project",
+  "confidence": "high",
+  "expectedVolumeCount": 5,
+  "existingVolumeRecords": 5,
+  "existingWithIsbn": 2,
+  "ndlTotalResults": 3,
+  "ndlBookItems": 3,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784592166160",
+      "publishedDate": "2022-10",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784592166177",
+      "publishedDate": "2023-01",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784592166184",
+      "publishedDate": "2023-09-29",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    }
+  ],
+  "newIsbnCount": 1,
+  "coverageAfter": 0.6,
+  "notes": []
+}

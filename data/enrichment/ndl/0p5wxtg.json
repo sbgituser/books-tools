@@ -1,0 +1,177 @@
+{
+  "workId": "manga__ありふれた職業で世界最強__白米良",
+  "fileId": "0p5wxtg",
+  "title": "ありふれた職業で世界最強",
+  "authorDisplay": "白米良",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 63,
+  "ndlBookItems": 60,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784865540550",
+      "publishedDate": "2015-06",
+      "publisher": "オーバーラップ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784865540734",
+      "publishedDate": "2015-11",
+      "publisher": "オーバーラップ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784865540932",
+      "publishedDate": "2016-02",
+      "publisher": "オーバーラップ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784865541434",
+      "publishedDate": "2016-07",
+      "publisher": "オーバーラップ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784865541786",
+      "publishedDate": "2016-12",
+      "publisher": "オーバーラップ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784865542196",
+      "publishedDate": "2017-05",
+      "publisher": "オーバーラップ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784865542653",
+      "publishedDate": "2017-12",
+      "publisher": "オーバーラップ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784865543087",
+      "publishedDate": "2018-04",
+      "publisher": "オーバーラップ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784865544282",
+      "publishedDate": "2018-12",
+      "publisher": "オーバーラップ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784865544893",
+      "publishedDate": "2019-06",
+      "publisher": "オーバーラップ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784865546989",
+      "publishedDate": "2020-07",
+      "publisher": "オーバーラップ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784824000644",
+      "publishedDate": "2022-01",
+      "publisher": "オーバーラップ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784824002631",
+      "publishedDate": "2022-09",
+      "publisher": "オーバーラップ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784824008411",
+      "publishedDate": "2024-05",
+      "publisher": "オーバーラップ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784824010421",
+      "publishedDate": "2025-01",
+      "publisher": "オーバーラップ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784824013224",
+      "publishedDate": "2025-08",
+      "publisher": "オーバーラップ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 15,
+  "coverageAfter": 1,
+  "notes": []
+}

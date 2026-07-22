@@ -1,0 +1,27 @@
+{
+  "workId": "manga__光が死んだ夏__額賀澪",
+  "fileId": "0yx8ham",
+  "title": "光が死んだ夏",
+  "authorDisplay": "額賀澪",
+  "confidence": "high",
+  "expectedVolumeCount": 6,
+  "existingVolumeRecords": 1,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 33,
+  "ndlBookItems": 3,
+  "volumes": [
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784040759913",
+      "publishedDate": "2025-07",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 1,
+  "coverageAfter": 0.17,
+  "notes": []
+}

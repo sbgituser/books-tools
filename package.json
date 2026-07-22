@@ -34,6 +34,9 @@
     "sync:blog-books": "tsx scripts/sync-blog-books.ts",
     "generate:ogp": "tsx scripts/generate-ogp-images.tsx",
     "prebuild": "tsx scripts/normalize-works.ts && tsx scripts/generate-works-data.ts && tsx scripts/generate-scenes-data.ts && tsx scripts/generate-similar-works.ts && tsx scripts/generate-similar-index.ts && tsx scripts/build-split-index.ts && tsx scripts/build-search-index.ts && tsx scripts/generate-feeds.ts && tsx scripts/copy-discover-curated.ts && tsx scripts/generate-ogp-images.tsx && tsx scripts/generate-sitemap.ts",
+    "enrich:volumes": "tsx scripts/enrich-volumes-ndl.ts",
+    "enrich:volumes:dry": "tsx scripts/enrich-volumes-ndl.ts --dry-run",
+    "enrich:apply": "tsx scripts/apply-volume-enrichment.ts",
     "generate:discover-candidates": "tsx scripts/generate-discover-candidates.ts",
     "generate:discover-curated": "tsx scripts/generate-discover-curated.ts",
     "collect:discover": "npm run generate:discover-candidates && npm run generate:discover-curated"

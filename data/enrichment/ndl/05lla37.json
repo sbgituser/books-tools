@@ -1,0 +1,77 @@
+{
+  "workId": "manga__シャーマンキングflowers__武井宏之",
+  "fileId": "05lla37",
+  "title": "シャーマンキングＦＬＯＷＥＲＳ",
+  "authorDisplay": "武井宏之",
+  "confidence": "high",
+  "expectedVolumeCount": 6,
+  "existingVolumeRecords": 6,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 18,
+  "ndlBookItems": 12,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784065241561",
+      "publishedDate": "2021-07",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784065245668",
+      "publishedDate": "2021-07",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784065243015",
+      "publishedDate": "2021-08",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784065243022",
+      "publishedDate": "2021-08",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784065247730",
+      "publishedDate": "2021-09",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784065247761",
+      "publishedDate": "2021-09",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 6,
+  "coverageAfter": 1,
+  "notes": []
+}

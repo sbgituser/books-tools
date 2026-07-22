@@ -1,0 +1,687 @@
+{
+  "workId": "manga__じゃりン子チエ__はるき悦巳",
+  "fileId": "0a77p12",
+  "title": "じゃりン子チエ",
+  "authorDisplay": "はるき悦巳",
+  "confidence": "high",
+  "expectedVolumeCount": 64,
+  "existingVolumeRecords": 18,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 277,
+  "ndlBookItems": 158,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784575812008",
+      "publishedDate": "1979-05",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784575812015",
+      "publishedDate": "1988",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784575812022",
+      "publishedDate": "1988-09",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784575812039",
+      "publishedDate": "1989",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784575721461",
+      "publishedDate": "1998-12",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784575912050",
+      "publishedDate": "1980-07",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784575812060",
+      "publishedDate": "1988-10",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784575812077",
+      "publishedDate": "1988-10",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784575812084",
+      "publishedDate": "1988-10",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784575812091",
+      "publishedDate": "1988-10",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784575812107",
+      "publishedDate": "1988-10",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784575812114",
+      "publishedDate": "1988-11",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784575812121",
+      "publishedDate": "1988-12",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784575812138",
+      "publishedDate": "1988-12",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784575812145",
+      "publishedDate": "1988-12",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784575812152",
+      "publishedDate": "1988-11",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9784575812169",
+      "publishedDate": "1988-11",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 18,
+      "volumeLabel": "18巻",
+      "isbn13": "9784575812176",
+      "publishedDate": "1988-11",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 19,
+      "volumeLabel": "19巻",
+      "isbn13": "9784575812183",
+      "publishedDate": "1988-12",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 20,
+      "volumeLabel": "20巻",
+      "isbn13": "9784575722376",
+      "publishedDate": "2000-06",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 21,
+      "volumeLabel": "21巻",
+      "isbn13": "9784575812206",
+      "publishedDate": "1988-08",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 22,
+      "volumeLabel": "22巻",
+      "isbn13": "9784575812213",
+      "publishedDate": "1988-10",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 23,
+      "volumeLabel": "23巻",
+      "isbn13": "9784575812220",
+      "publishedDate": "1988-10",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 24,
+      "volumeLabel": "24巻",
+      "isbn13": "9784575812237",
+      "publishedDate": "1988-10",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 25,
+      "volumeLabel": "25巻",
+      "isbn13": "9784575812244",
+      "publishedDate": "1988-12",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 26,
+      "volumeLabel": "26巻",
+      "isbn13": "9784575812251",
+      "publishedDate": "1985-11",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 27,
+      "volumeLabel": "27巻",
+      "isbn13": "9784575723045",
+      "publishedDate": "2001-04",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 28,
+      "volumeLabel": "28巻",
+      "isbn13": "9784575812275",
+      "publishedDate": "1986-05",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 29,
+      "volumeLabel": "29巻",
+      "isbn13": "9784575812282",
+      "publishedDate": "1986-08",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 30,
+      "volumeLabel": "30巻",
+      "isbn13": "9784575812299",
+      "publishedDate": "1986-12",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 31,
+      "volumeLabel": "31巻",
+      "isbn13": "9784575812305",
+      "publishedDate": "1987-04",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 32,
+      "volumeLabel": "32巻",
+      "isbn13": "9784575812312",
+      "publishedDate": "1987-07",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 33,
+      "volumeLabel": "33巻",
+      "isbn13": "9784575814040",
+      "publishedDate": "1987-10",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 34,
+      "volumeLabel": "34巻",
+      "isbn13": "9784575814293",
+      "publishedDate": "1988-01",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 35,
+      "volumeLabel": "35巻",
+      "isbn13": "9784575814651",
+      "publishedDate": "1988-06",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 36,
+      "volumeLabel": "36巻",
+      "isbn13": "9784575815009",
+      "publishedDate": "1988-11",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 37,
+      "volumeLabel": "37巻",
+      "isbn13": "9784575815221",
+      "publishedDate": "1989-02",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 38,
+      "volumeLabel": "38巻",
+      "isbn13": "9784575724295",
+      "publishedDate": "2002-11",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 39,
+      "volumeLabel": "39巻",
+      "isbn13": "9784575724301",
+      "publishedDate": "2002-11",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 40,
+      "volumeLabel": "40巻",
+      "isbn13": "9784575724448",
+      "publishedDate": "2003-02",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 41,
+      "volumeLabel": "41巻",
+      "isbn13": "9784575724455",
+      "publishedDate": "2003-02",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 42,
+      "volumeLabel": "42巻",
+      "isbn13": "9784575724578",
+      "publishedDate": "2003-05",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 43,
+      "volumeLabel": "43巻",
+      "isbn13": "9784575724585",
+      "publishedDate": "2003-05",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 44,
+      "volumeLabel": "44巻",
+      "isbn13": "9784575724714",
+      "publishedDate": "2003-08",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 45,
+      "volumeLabel": "45巻",
+      "isbn13": "9784575724790",
+      "publishedDate": "2003-10",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 46,
+      "volumeLabel": "46巻",
+      "isbn13": "9784575724899",
+      "publishedDate": "2003-12",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 47,
+      "volumeLabel": "47巻",
+      "isbn13": "9784575725025",
+      "publishedDate": "2004-03",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 48,
+      "volumeLabel": "48巻",
+      "isbn13": "9784575817768",
+      "publishedDate": "1992",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 49,
+      "volumeLabel": "49巻",
+      "isbn13": "9784575818031",
+      "publishedDate": "1992",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 50,
+      "volumeLabel": "50巻",
+      "isbn13": "9784575818222",
+      "publishedDate": "1992",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 51,
+      "volumeLabel": "51巻",
+      "isbn13": "9784575818345",
+      "publishedDate": "1992",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 52,
+      "volumeLabel": "52巻",
+      "isbn13": "9784575818604",
+      "publishedDate": null,
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 53,
+      "volumeLabel": "53巻",
+      "isbn13": "9784575818819",
+      "publishedDate": null,
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 54,
+      "volumeLabel": "54巻",
+      "isbn13": "9784575819007",
+      "publishedDate": "1993",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 55,
+      "volumeLabel": "55巻",
+      "isbn13": "9784575819229",
+      "publishedDate": null,
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 56,
+      "volumeLabel": "56巻",
+      "isbn13": "9784575819533",
+      "publishedDate": "1994",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 57,
+      "volumeLabel": "57巻",
+      "isbn13": "9784575819762",
+      "publishedDate": null,
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 58,
+      "volumeLabel": "58巻",
+      "isbn13": "9784575820010",
+      "publishedDate": null,
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 59,
+      "volumeLabel": "59巻",
+      "isbn13": "9784575820300",
+      "publishedDate": null,
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 60,
+      "volumeLabel": "60巻",
+      "isbn13": "9784575820713",
+      "publishedDate": "1995",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 61,
+      "volumeLabel": "61巻",
+      "isbn13": "9784575820935",
+      "publishedDate": "1995",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 62,
+      "volumeLabel": "62巻",
+      "isbn13": "9784575821260",
+      "publishedDate": "1996-03",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 63,
+      "volumeLabel": "63巻",
+      "isbn13": "9784575821604",
+      "publishedDate": null,
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 64,
+      "volumeLabel": "64巻",
+      "isbn13": "9784575821840",
+      "publishedDate": null,
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 65,
+      "volumeLabel": "65巻",
+      "isbn13": "9784575822106",
+      "publishedDate": "1997",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 66,
+      "volumeLabel": "66巻",
+      "isbn13": "9784575822588",
+      "publishedDate": "1997-07",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 67,
+      "volumeLabel": "67巻",
+      "isbn13": "9784575822953",
+      "publishedDate": "1997-12",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 67,
+  "coverageAfter": 1,
+  "notes": []
+}

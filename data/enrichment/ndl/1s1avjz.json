@@ -1,0 +1,27 @@
+{
+  "workId": "manga__乙嫁語り_the_bride_s_stories__森薫",
+  "fileId": "1s1avjz",
+  "title": "乙嫁語り = The Bride's Stories",
+  "authorDisplay": "森薫",
+  "confidence": "high",
+  "expectedVolumeCount": 15,
+  "existingVolumeRecords": 1,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 7,
+  "ndlBookItems": 7,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784047260764",
+      "publishedDate": "2009-10",
+      "publisher": "エンターブレイン",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 1,
+  "coverageAfter": 0.07,
+  "notes": []
+}

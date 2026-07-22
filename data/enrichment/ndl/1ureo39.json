@@ -1,0 +1,87 @@
+{
+  "workId": "manga__異世界チート開拓記__中村モリス",
+  "fileId": "1ureo39",
+  "title": "異世界チート開拓記.",
+  "authorDisplay": "中村モリス / ファースト",
+  "confidence": "high",
+  "expectedVolumeCount": 7,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 2,
+  "ndlTotalResults": 7,
+  "ndlBookItems": 7,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784575411195",
+      "publishedDate": "2020-05",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784575411737",
+      "publishedDate": "2020-11",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784575412451",
+      "publishedDate": "2021-06",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784575413991",
+      "publishedDate": "2022-04",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784575418132",
+      "publishedDate": "2024-01",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784575420692",
+      "publishedDate": "2025-01",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784575423389",
+      "publishedDate": "2026-01",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    }
+  ],
+  "newIsbnCount": 5,
+  "coverageAfter": 1,
+  "notes": []
+}

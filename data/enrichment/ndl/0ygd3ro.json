@@ -1,0 +1,47 @@
+{
+  "workId": "novel__人間失格__太宰治",
+  "fileId": "0ygd3ro",
+  "title": "人間失格",
+  "authorDisplay": "太宰治",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 342,
+  "ndlBookItems": 169,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784107714862",
+      "publishedDate": "2009-06",
+      "publisher": "新潮社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784107715425",
+      "publishedDate": "2010-02",
+      "publisher": "新潮社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784098600564",
+      "publishedDate": "2018-08",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 3,
+  "coverageAfter": 1,
+  "notes": []
+}

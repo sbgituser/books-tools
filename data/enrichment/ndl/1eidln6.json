@@ -1,0 +1,97 @@
+{
+  "workId": "manga__犬と猫どっちも飼ってると毎日たのしい__松本ひで吉",
+  "fileId": "1eidln6",
+  "title": "犬と猫どっちも飼ってると毎日たのしい.",
+  "authorDisplay": "松本ひで吉",
+  "confidence": "high",
+  "expectedVolumeCount": 8,
+  "existingVolumeRecords": 15,
+  "existingWithIsbn": 7,
+  "ndlTotalResults": 11,
+  "ndlBookItems": 10,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784065117750",
+      "publishedDate": "2018-06",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784065136218",
+      "publishedDate": "2018-10",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784065157572",
+      "publishedDate": "2019-05",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784065182130",
+      "publishedDate": "2019-12",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784065207727",
+      "publishedDate": "2020-09",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784065229996",
+      "publishedDate": "2021-04",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784065251041",
+      "publishedDate": "2021-10",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784065375754",
+      "publishedDate": "2024-11",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    }
+  ],
+  "newIsbnCount": 1,
+  "coverageAfter": 1,
+  "notes": []
+}

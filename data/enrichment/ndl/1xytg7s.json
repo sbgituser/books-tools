@@ -1,0 +1,67 @@
+{
+  "workId": "manga__ピンポン__松本大洋",
+  "fileId": "1xytg7s",
+  "title": "ピンポン",
+  "authorDisplay": "松本大洋",
+  "confidence": "high",
+  "expectedVolumeCount": 5,
+  "existingVolumeRecords": 10,
+  "existingWithIsbn": 4,
+  "ndlTotalResults": 26,
+  "ndlBookItems": 14,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784091847362",
+      "publishedDate": "1996-09",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784091847379",
+      "publishedDate": "1997-01",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784091847386",
+      "publishedDate": "1997-04",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784091847393",
+      "publishedDate": "1997-08",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784091847409",
+      "publishedDate": "1997-10",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    }
+  ],
+  "newIsbnCount": 1,
+  "coverageAfter": 1,
+  "notes": []
+}

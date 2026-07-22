@@ -1,0 +1,137 @@
+{
+  "workId": "manga__凪のお暇__コナリミサト",
+  "fileId": "01mai4x",
+  "title": "凪のお暇",
+  "authorDisplay": "コナリミサト",
+  "confidence": "high",
+  "expectedVolumeCount": 12,
+  "existingVolumeRecords": 15,
+  "existingWithIsbn": 3,
+  "ndlTotalResults": 36,
+  "ndlBookItems": 13,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784253156370",
+      "publishedDate": "2017-06",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784253156387",
+      "publishedDate": "2017-11",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784253156400",
+      "publishedDate": "2018-01",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784253156417",
+      "publishedDate": "2018-07",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784253156448",
+      "publishedDate": "2019-02",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784253156462",
+      "publishedDate": "2019-09",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784253156493",
+      "publishedDate": "2020-04",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784253156509",
+      "publishedDate": "2021-01",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784253156547",
+      "publishedDate": "2021-12",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784253156820",
+      "publishedDate": "2022-08",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784253156875",
+      "publishedDate": "2024-02",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784253157124",
+      "publishedDate": "2025-06",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 10,
+  "coverageAfter": 1,
+  "notes": []
+}

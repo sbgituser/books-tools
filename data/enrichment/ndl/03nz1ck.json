@@ -1,0 +1,29 @@
+{
+  "workId": "manga__ゴブリンスレイヤー_ブランニューデイ__蝸牛くもga文庫クリ",
+  "fileId": "03nz1ck",
+  "title": "ゴブリンスレイヤー：ブランニュー・デイ",
+  "authorDisplay": "蝸牛くも（GA文庫／ＳＢクリエイティブ刊） / 池野雅博 / 神奈月昇",
+  "confidence": "medium",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 2,
+  "ndlBookItems": 2,
+  "volumes": [
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784757561779",
+      "publishedDate": "2019-06",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 1,
+  "coverageAfter": 0.5,
+  "notes": [
+    "著者なし検索で取得"
+  ]
+}

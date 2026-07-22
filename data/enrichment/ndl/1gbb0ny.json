@@ -1,0 +1,47 @@
+{
+  "workId": "manga__テンマクキネマ__附田祐斗",
+  "fileId": "1gbb0ny",
+  "title": "テンマクキネマ",
+  "authorDisplay": "附田祐斗 / 佐伯俊",
+  "confidence": "high",
+  "expectedVolumeCount": 3,
+  "existingVolumeRecords": 3,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 3,
+  "ndlBookItems": 3,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784088835891",
+      "publishedDate": "2023-08",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784088836638",
+      "publishedDate": "2023-10-04",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784088837710",
+      "publishedDate": "2023-11-02",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 3,
+  "coverageAfter": 1,
+  "notes": []
+}

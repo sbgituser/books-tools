@@ -1,0 +1,217 @@
+{
+  "workId": "manga__あしたのジョー__ちばてつや",
+  "fileId": "1506bc5",
+  "title": "あしたのジョー",
+  "authorDisplay": "ちばてつや / 高森朝雄",
+  "confidence": "high",
+  "expectedVolumeCount": 20,
+  "existingVolumeRecords": 1,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 281,
+  "ndlBookItems": 121,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784061769236",
+      "publishedDate": "1989",
+      "publisher": "コミックス",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784061769243",
+      "publishedDate": "1989-02",
+      "publisher": "コミックス",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784061769250",
+      "publishedDate": "1989-03",
+      "publisher": "コミックス",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784061769267",
+      "publishedDate": "1989-03",
+      "publisher": "コミックス",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784061769274",
+      "publishedDate": "1989-04",
+      "publisher": "コミックス",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784061010239",
+      "publishedDate": "1985-10",
+      "publisher": "コミックス",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784061010246",
+      "publishedDate": "1985-10",
+      "publisher": "コミックス",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784061010253",
+      "publishedDate": "1985-11",
+      "publisher": "コミックス",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784061010260",
+      "publishedDate": "1985-11",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784061010277",
+      "publishedDate": "1985-12",
+      "publisher": "コミックス",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784061010284",
+      "publishedDate": "1985-12",
+      "publisher": "コミックス",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784061010291",
+      "publishedDate": "1986-01",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784061769359",
+      "publishedDate": "1989-08",
+      "publisher": "コミックス",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784061769366",
+      "publishedDate": "1989-08",
+      "publisher": "コミックス",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784061769373",
+      "publishedDate": "1989-09",
+      "publisher": "コミックス",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784061769380",
+      "publishedDate": "1989-09",
+      "publisher": "コミックス",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9784063193718",
+      "publishedDate": "1993-10",
+      "publisher": "コミックス",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 18,
+      "volumeLabel": "18巻",
+      "isbn13": "9784063193725",
+      "publishedDate": "1993-10",
+      "publisher": "コミックス",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 19,
+      "volumeLabel": "19巻",
+      "isbn13": "9784063193732",
+      "publishedDate": "1993-11",
+      "publisher": "コミックス",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 20,
+      "volumeLabel": "20巻",
+      "isbn13": "9784063193749",
+      "publishedDate": "1993-11",
+      "publisher": "コミックス",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 20,
+  "coverageAfter": 1,
+  "notes": []
+}

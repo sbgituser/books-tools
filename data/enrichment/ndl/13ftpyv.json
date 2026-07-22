@@ -1,0 +1,77 @@
+{
+  "workId": "manga__少女終末旅行__unknown",
+  "fileId": "13ftpyv",
+  "title": "少女終末旅行",
+  "authorDisplay": "",
+  "confidence": "low",
+  "expectedVolumeCount": 5,
+  "existingVolumeRecords": 1,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 22,
+  "ndlBookItems": 9,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784107717818",
+      "publishedDate": "2014-11",
+      "publisher": "新潮社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784107718303",
+      "publishedDate": "2015-07",
+      "publisher": "新潮社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784107718747",
+      "publishedDate": "2016-02",
+      "publisher": "新潮社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784107719294",
+      "publishedDate": "2016-11",
+      "publisher": "新潮社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784107720092",
+      "publishedDate": "2017-09",
+      "publisher": "新潮社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784107720191",
+      "publishedDate": "2018-03",
+      "publisher": "新潮社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 5,
+  "coverageAfter": 1,
+  "notes": []
+}

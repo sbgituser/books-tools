@@ -1,0 +1,37 @@
+{
+  "workId": "manga__転生大魔女の異世界暮らし古代ローマ風国家で始める魔法研究_comic__藤田麓",
+  "fileId": "02chaz1",
+  "title": "転生大魔女の異世界暮らし～古代ローマ風国家で始める魔法研究～@COMIC",
+  "authorDisplay": "藤田麓 / 灰猫さんきち / saraki",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 3,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 2,
+  "ndlBookItems": 2,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784867943328",
+      "publishedDate": "2024-11",
+      "publisher": "TOブックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784867945049",
+      "publishedDate": "2025-04",
+      "publisher": "TOブックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 1,
+  "coverageAfter": 1,
+  "notes": []
+}

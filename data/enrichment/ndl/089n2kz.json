@@ -1,0 +1,47 @@
+{
+  "workId": "manga__ひぐらしのなく頃に_鬼__竜騎士07",
+  "fileId": "089n2kz",
+  "title": "ひぐらしのなく頃に 鬼 ：",
+  "authorDisplay": "竜騎士07 / 旭",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 22,
+  "ndlBookItems": 19,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784575857856",
+      "publishedDate": "2022-12",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784575858679",
+      "publishedDate": "2023-08",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784575860085",
+      "publishedDate": "2024-09",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 3,
+  "coverageAfter": 1,
+  "notes": []
+}

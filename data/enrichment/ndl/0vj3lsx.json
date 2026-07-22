@@ -1,0 +1,97 @@
+{
+  "workId": "manga__ブルーロックepisode_凪__金城宗幸",
+  "fileId": "0vj3lsx",
+  "title": "ブルーロック－ＥＰＩＳＯＤＥ　凪－",
+  "authorDisplay": "金城宗幸 / 三宮宏太 / ノ村優介",
+  "confidence": "high",
+  "expectedVolumeCount": 8,
+  "existingVolumeRecords": 8,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 10,
+  "ndlBookItems": 10,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784065289815",
+      "publishedDate": "2022-10",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784065309308",
+      "publishedDate": "2023-03",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784065328439",
+      "publishedDate": "2023-09",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784065351710",
+      "publishedDate": "2024-04",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784065361634",
+      "publishedDate": "2024-07",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784065374320",
+      "publishedDate": "2024-11",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784065393512",
+      "publishedDate": "2025-05",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784065403662",
+      "publishedDate": "2025-08",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 8,
+  "coverageAfter": 1,
+  "notes": []
+}

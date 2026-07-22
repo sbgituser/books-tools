@@ -424,6 +424,119 @@ for (const [workId, entries] of groups.entries()) {
   works.push(work);
 }
 
+// ── NDL巻データサプリメントのマージ ───────────────────────────────
+// data/volumes-supplement.json (apply-volume-enrichment.ts で生成) を適用する。
+//   - 既存巻に ISBN / 発売日が欠けていれば巻番号で突合して補完
+//   - 存在しない巻番号は新規 Volume として追加
+//   - 全巻連続特定できた作品は volumeCount を更新(既存より大きい場合のみ)
+
+type VolumeSupplementEntry = {
+  source: "ndl";
+  fileId: string;
+  volumes: Array<{
+    volumeNo: number;
+    isbn13: string;
+    publishedDate: string | null;
+    publisher: string | null;
+  }>;
+  completeVolumeCount: number | null;
+};
+
+const volumesSupplementPath = join(process.cwd(), "data", "volumes-supplement.json");
+const volumesSupplement: Record<string, VolumeSupplementEntry> = existsSync(volumesSupplementPath)
+  ? JSON.parse(readFileSync(volumesSupplementPath, "utf-8"))
+  : {};
+
+{
+  const worksById = new Map(works.map((w) => [w.workId, w]));
+  const volsByWork = new Map<string, Volume[]>();
+  for (const v of volumes) {
+    if (!volsByWork.has(v.workId)) volsByWork.set(v.workId, []);
+    volsByWork.get(v.workId)!.push(v);
+  }
+
+  let filledIsbn = 0;
+  let filledDate = 0;
+  let addedVolumes = 0;
+  let updatedCounts = 0;
+
+  let skippedOutOfRange = 0;
+
+  for (const [workId, supp] of Object.entries(volumesSupplement)) {
+    const work = worksById.get(workId);
+    if (!work) continue;
+
+    // 1..max が欠番なく特定できた場合のみ volumeCount を先に確定させる。
+    // これにより「新規巻の追加範囲」も正しい版のみに限定できる
+    // （例: 版違いの全60巻シリーズが混入し、既存の全30巻シリーズに
+    //   31巻目以降が誤って追加されるのを防ぐ）。
+    if (supp.completeVolumeCount != null && supp.completeVolumeCount > work.volumeCount) {
+      work.volumeCount = supp.completeVolumeCount;
+      updatedCounts++;
+    }
+
+    const workVols = volsByWork.get(workId) ?? [];
+    const existingIsbns = new Set(workVols.map((v) => v.isbn13).filter(Boolean));
+    const byNo = new Map<number, Volume>();
+    for (const v of workVols) {
+      if (v.volumeNo != null && !byNo.has(v.volumeNo)) byNo.set(v.volumeNo, v);
+    }
+
+    for (const sv of supp.volumes) {
+      if (existingIsbns.has(sv.isbn13)) continue;
+      const existing = byNo.get(sv.volumeNo);
+      if (existing) {
+        if (!existing.isbn13) {
+          existing.isbn13 = sv.isbn13;
+          filledIsbn++;
+        }
+        if (!existing.publishedDate && sv.publishedDate) {
+          existing.publishedDate = sv.publishedDate;
+          filledDate++;
+        }
+      } else if (supp.completeVolumeCount != null && sv.volumeNo <= work.volumeCount) {
+        // 新規巻の追加は「1巻から欠番なく連続特定できた(=版違いの心配がない)」
+        // 作品のみに限定する。部分マッチ(completeVolumeCount=null)は
+        // 既存巻へのISBN/発売日補完のみ行い、新規巻としては追加しない
+        // （タイトル前方一致による別シリーズ混入のリスクを避けるため）
+        const newVol: Volume = {
+          volumeId: `vol__${workId}__${sv.isbn13}`,
+          workId,
+          volumeNo: sv.volumeNo,
+          volumeLabel: `第${sv.volumeNo}巻`,
+          title: `${work.title}（${sv.volumeNo}）`,
+          ...(sv.publishedDate ? { publishedDate: sv.publishedDate } : {}),
+          isbn13: sv.isbn13,
+        };
+        volumes.push(newVol);
+        workVols.push(newVol);
+        byNo.set(sv.volumeNo, newVol);
+        work.volumeIds.push(newVol.volumeId);
+        addedVolumes++;
+      } else {
+        skippedOutOfRange++;
+      }
+    }
+
+    // 発売日レンジを再計算
+    const dates = workVols
+      .map((v) => v.publishedDate)
+      .filter((d): d is string => Boolean(d))
+      .sort();
+    if (dates.length > 0) {
+      work.firstPublishedDate = dates[0];
+      work.latestPublishedDate = dates[dates.length - 1];
+    }
+  }
+
+  if (Object.keys(volumesSupplement).length > 0) {
+    console.log(
+      `NDLサプリメント適用: ISBN補完 ${filledIsbn}巻 / 発売日補完 ${filledDate}巻 / 巻追加 ${addedVolumes}巻 / ` +
+        `volumeCount更新 ${updatedCounts}作品 / 範囲外のため除外 ${skippedOutOfRange}巻`,
+    );
+  }
+}
+
 // ── 類似作品ID の簡易生成（同type・共通タグ上位） ─────────────────
 
 const worksByType = new Map<WorkType, Work[]>();

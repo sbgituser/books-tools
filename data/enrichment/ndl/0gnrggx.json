@@ -1,0 +1,137 @@
+{
+  "workId": "manga__モンキーピーク__志名坂高次",
+  "fileId": "0gnrggx",
+  "title": "モンキーピーク",
+  "authorDisplay": "志名坂高次 / 粂田晃宏",
+  "confidence": "high",
+  "expectedVolumeCount": 12,
+  "existingVolumeRecords": 12,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 21,
+  "ndlBookItems": 21,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784537135466",
+      "publishedDate": "2017-02",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784537135824",
+      "publishedDate": "2017-05",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784537136128",
+      "publishedDate": "2017-08",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784537136500",
+      "publishedDate": "2017-11",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784537136920",
+      "publishedDate": "2018-02",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784537137323",
+      "publishedDate": "2018-05",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784537137705",
+      "publishedDate": "2018-08",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784537138382",
+      "publishedDate": "2018-11",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784537138856",
+      "publishedDate": "2019-02",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784537139228",
+      "publishedDate": "2019-06",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784537139587",
+      "publishedDate": "2019-08",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784537139938",
+      "publishedDate": "2019-11",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 12,
+  "coverageAfter": 1,
+  "notes": []
+}

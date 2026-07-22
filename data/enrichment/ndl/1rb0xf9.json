@@ -1,0 +1,77 @@
+{
+  "workId": "manga__一ノ瀬家の大罪__タイザン5",
+  "fileId": "1rb0xf9",
+  "title": "一ノ瀬家の大罪",
+  "authorDisplay": "タイザン5",
+  "confidence": "high",
+  "expectedVolumeCount": 6,
+  "existingVolumeRecords": 6,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 6,
+  "ndlBookItems": 6,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784088834375",
+      "publishedDate": "2023-03",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784088834931",
+      "publishedDate": "2023-06",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784088835884",
+      "publishedDate": "2023-08",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784088836607",
+      "publishedDate": "2023-10-04",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784088837895",
+      "publishedDate": "2023-12",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784088838472",
+      "publishedDate": "2024-03",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 6,
+  "coverageAfter": 1,
+  "notes": []
+}

@@ -1,0 +1,37 @@
+{
+  "workId": "manga__魔法少女サイトsept__佐藤健太郎",
+  "fileId": "1haooio",
+  "title": "魔法少女サイトSept",
+  "authorDisplay": "佐藤健太郎 / 宗我部としのり",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 2,
+  "ndlBookItems": 2,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784253229012",
+      "publishedDate": "2018-04",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784253229029",
+      "publishedDate": "2018-11",
+      "publisher": "秋田書店",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 2,
+  "coverageAfter": 1,
+  "notes": []
+}

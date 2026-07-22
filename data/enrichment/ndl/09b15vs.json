@@ -1,0 +1,37 @@
+{
+  "workId": "manga__ポーの一族_秘密の花園__萩尾望都",
+  "fileId": "09b15vs",
+  "title": "ポーの一族 秘密の花園",
+  "authorDisplay": "萩尾望都",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 2,
+  "ndlBookItems": 2,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784098712083",
+      "publishedDate": "2020-11",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784098714995",
+      "publishedDate": "2021-11",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 2,
+  "coverageAfter": 1,
+  "notes": []
+}

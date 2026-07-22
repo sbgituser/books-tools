@@ -1,0 +1,189 @@
+{
+  "workId": "manga__戦国妖狐__悟志水上",
+  "fileId": "0mkshj6",
+  "title": "戦国妖狐",
+  "authorDisplay": "悟志·水上",
+  "confidence": "low",
+  "expectedVolumeCount": 13,
+  "existingVolumeRecords": 1,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 30,
+  "ndlBookItems": 24,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784861275227",
+      "publishedDate": "2008-09",
+      "publisher": "マッグガーデン",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784861275906",
+      "publishedDate": "2009-02",
+      "publisher": "マッグガーデン",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784861276729",
+      "publishedDate": "2009-11",
+      "publisher": "マッグガーデン",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784861277276",
+      "publishedDate": "2010-04",
+      "publisher": "マッグガーデン",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784861277856",
+      "publishedDate": "2010-11",
+      "publisher": "マッグガーデン",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784861278334",
+      "publishedDate": "2011-03",
+      "publisher": "マッグガーデン",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784861278754",
+      "publishedDate": "2011-08",
+      "publisher": "マッグガーデン",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784861279324",
+      "publishedDate": "2012-01",
+      "publisher": "マッグガーデン",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784800000187",
+      "publishedDate": "2012-07",
+      "publisher": "マッグガーデン",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784800000705",
+      "publishedDate": "2012-12",
+      "publisher": "マッグガーデン",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784800001702",
+      "publishedDate": "2013-06",
+      "publisher": "マッグガーデン",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784800002396",
+      "publishedDate": "2013-12",
+      "publisher": "マッグガーデン",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784800003447",
+      "publishedDate": "2014-08",
+      "publisher": "マッグガーデン",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784800004147",
+      "publishedDate": "2015-02",
+      "publisher": "マッグガーデン",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784800004857",
+      "publishedDate": "2015-08",
+      "publisher": "マッグガーデン",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784800005335",
+      "publishedDate": "2016-02",
+      "publisher": "マッグガーデン",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9784800005854",
+      "publishedDate": "2016-06",
+      "publisher": "マッグガーデン",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 16,
+  "coverageAfter": 1,
+  "notes": [
+    "著者なし検索で取得"
+  ]
+}

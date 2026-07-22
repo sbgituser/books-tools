@@ -1,0 +1,18 @@
+{
+  "workId": "manga__ぼっちざろっく_アンソロジーコミック_5__アンソロジー",
+  "fileId": "00swc5z",
+  "title": "ぼっち・ざ・ろっく！アンソロジーコミック　５",
+  "authorDisplay": "アンソロジー",
+  "confidence": "low",
+  "expectedVolumeCount": 5,
+  "existingVolumeRecords": 1,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 1,
+  "ndlBookItems": 1,
+  "volumes": [],
+  "newIsbnCount": 0,
+  "coverageAfter": 0,
+  "notes": [
+    "著者なし検索で取得"
+  ]
+}

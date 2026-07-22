@@ -1,0 +1,57 @@
+{
+  "workId": "manga__ルパン三世m__モンキー・パンチ",
+  "fileId": "0z3ymv2",
+  "title": "ルパン三世M ：",
+  "authorDisplay": "モンキー・パンチ / 深山雪男",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 9,
+  "ndlBookItems": 9,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784575727036",
+      "publishedDate": "2009-02",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784575727043",
+      "publishedDate": "2009-02",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784575727401",
+      "publishedDate": "2009-12",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784575727418",
+      "publishedDate": "2009-12",
+      "publisher": "双葉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 4,
+  "coverageAfter": 1,
+  "notes": []
+}

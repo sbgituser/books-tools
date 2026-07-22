@@ -1,0 +1,16 @@
+{
+  "workId": "manga__one_piece__尾田栄一郎",
+  "fileId": "0cb8t8s",
+  "title": "ONE PIECE",
+  "authorDisplay": "尾田栄一郎",
+  "confidence": "low",
+  "expectedVolumeCount": 109,
+  "existingVolumeRecords": 1,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 0,
+  "ndlBookItems": 86,
+  "volumes": [],
+  "newIsbnCount": 0,
+  "coverageAfter": 0,
+  "notes": []
+}

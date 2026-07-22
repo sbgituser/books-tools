@@ -1,0 +1,37 @@
+{
+  "workId": "manga__re_ゼロから始める異世界生活_第一章_王都の一日編__マツセダイチ",
+  "fileId": "0bq650q",
+  "title": "Ｒｅ：ゼロから始める異世界生活 第一章 王都の一日編",
+  "authorDisplay": "マツセダイチ",
+  "confidence": "medium",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 2,
+  "ndlBookItems": 2,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784040668758",
+      "publishedDate": "2014-10",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784040672809",
+      "publishedDate": "2015-03",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 2,
+  "coverageAfter": 1,
+  "notes": []
+}

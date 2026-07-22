@@ -1,0 +1,27 @@
+{
+  "workId": "manga__たまのこしいれ_アシガールedo__森本梢子",
+  "fileId": "0in0q55",
+  "title": "たまのこしいれ ―アシガールEDO―",
+  "authorDisplay": "森本梢子",
+  "confidence": "high",
+  "expectedVolumeCount": 4,
+  "existingVolumeRecords": 4,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 5,
+  "ndlBookItems": 5,
+  "volumes": [
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784088432830",
+      "publishedDate": null,
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 1,
+  "coverageAfter": 0,
+  "notes": []
+}

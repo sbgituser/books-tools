@@ -1,0 +1,67 @@
+{
+  "workId": "manga__クジマ歌えば家ほろろ__紺野アキラ",
+  "fileId": "0qmw83d",
+  "title": "クジマ歌えば家ほろろ",
+  "authorDisplay": "紺野アキラ",
+  "confidence": "high",
+  "expectedVolumeCount": 5,
+  "existingVolumeRecords": 6,
+  "existingWithIsbn": 2,
+  "ndlTotalResults": 5,
+  "ndlBookItems": 5,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784098510924",
+      "publishedDate": "2022-04",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784098513284",
+      "publishedDate": "2022-10",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784098520510",
+      "publishedDate": "2023-05",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784098530274",
+      "publishedDate": "2023-11",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784098533169",
+      "publishedDate": "2024-05",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 4,
+  "coverageAfter": 1,
+  "notes": []
+}

@@ -1,0 +1,27 @@
+{
+  "workId": "manga__やはり俺の青春ラブコメはまちがっている_14_5__渡航",
+  "fileId": "1tl65m1",
+  "title": "やはり俺の青春ラブコメはまちがっている。. 14.5",
+  "authorDisplay": "渡航",
+  "confidence": "medium",
+  "expectedVolumeCount": 9,
+  "existingVolumeRecords": 1,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 1,
+  "ndlBookItems": 1,
+  "volumes": [
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784094530049",
+      "publishedDate": "2021-04",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    }
+  ],
+  "newIsbnCount": 0,
+  "coverageAfter": 0,
+  "notes": []
+}

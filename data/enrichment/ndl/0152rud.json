@@ -1,0 +1,27 @@
+{
+  "workId": "manga__棄憶武装士__天埜冬景",
+  "fileId": "0152rud",
+  "title": "棄憶武装士",
+  "authorDisplay": "天埜冬景",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 1,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 2,
+  "ndlBookItems": 2,
+  "volumes": [
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784040674759",
+      "publishedDate": "2015-04",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    }
+  ],
+  "newIsbnCount": 0,
+  "coverageAfter": 0.5,
+  "notes": []
+}

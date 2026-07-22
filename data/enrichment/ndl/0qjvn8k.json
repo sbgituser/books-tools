@@ -1,0 +1,37 @@
+{
+  "workId": "novel__all_you_need_is_kill__桜坂洋",
+  "fileId": "0qjvn8k",
+  "title": "All You Need Is Kill",
+  "authorDisplay": "桜坂洋 / 竹内良輔 / 安倍吉俊 / 小畑健",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 15,
+  "ndlBookItems": 13,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784088801254",
+      "publishedDate": "2014-06",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784088801261",
+      "publishedDate": "2014-06",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 2,
+  "coverageAfter": 1,
+  "notes": []
+}

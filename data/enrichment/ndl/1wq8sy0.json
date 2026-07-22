@@ -1,0 +1,187 @@
+{
+  "workId": "manga__スレイヤーズ__神坂一",
+  "fileId": "1wq8sy0",
+  "title": "スレイヤーズ",
+  "authorDisplay": "神坂　一",
+  "confidence": "high",
+  "expectedVolumeCount": 13,
+  "existingVolumeRecords": 6,
+  "existingWithIsbn": 5,
+  "ndlTotalResults": 153,
+  "ndlBookItems": 121,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784829132883",
+      "publishedDate": "2008-05",
+      "publisher": "富士見書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784829132890",
+      "publishedDate": "2008-05",
+      "publisher": "富士見書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784829132906",
+      "publishedDate": "2008-05",
+      "publisher": "富士見書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784829132968",
+      "publishedDate": "2008-06",
+      "publisher": "富士見書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784829132975",
+      "publishedDate": "2008-06",
+      "publisher": "富士見書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784829132982",
+      "publishedDate": "2008-06",
+      "publisher": "富士見書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784829133088",
+      "publishedDate": "2008-07",
+      "publisher": "富士見書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784829133095",
+      "publishedDate": "2008-07",
+      "publisher": "富士見書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784829133101",
+      "publishedDate": "2008-07",
+      "publisher": "富士見書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784829133392",
+      "publishedDate": "2008-10",
+      "publisher": "富士見書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784829133408",
+      "publishedDate": "2008-10",
+      "publisher": "富士見書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784829133415",
+      "publishedDate": "2008-10",
+      "publisher": "富士見書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784829133484",
+      "publishedDate": "2008-11",
+      "publisher": "富士見書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784829133491",
+      "publishedDate": "2008-11",
+      "publisher": "富士見書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784829133507",
+      "publishedDate": "2008-11",
+      "publisher": "富士見書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784040729053",
+      "publishedDate": "2018-10",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9784040733777",
+      "publishedDate": "2019-10",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 13,
+  "coverageAfter": 1,
+  "notes": []
+}

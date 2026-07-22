@@ -1,0 +1,47 @@
+{
+  "workId": "manga__聖_おにいさん__中村光",
+  "fileId": "1ggvkxu",
+  "title": "聖☆おにいさん",
+  "authorDisplay": "中村光",
+  "confidence": "high",
+  "expectedVolumeCount": 21,
+  "existingVolumeRecords": 1,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 37,
+  "ndlBookItems": 32,
+  "volumes": [
+    {
+      "volumeNo": 20,
+      "volumeLabel": "20巻",
+      "isbn13": "9784065285589",
+      "publishedDate": "2022-07",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 21,
+      "volumeLabel": "21巻",
+      "isbn13": "9784065349526",
+      "publishedDate": "2024-03",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 22,
+      "volumeLabel": "22巻",
+      "isbn13": "9784065400340",
+      "publishedDate": "2025-07",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 3,
+  "coverageAfter": 0.1,
+  "notes": []
+}

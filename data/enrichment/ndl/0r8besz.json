@@ -1,0 +1,157 @@
+{
+  "workId": "manga__新世紀エヴァンゲリオン__貞本義行",
+  "fileId": "0r8besz",
+  "title": "新世紀エヴァンゲリオン",
+  "authorDisplay": "貞本義行",
+  "confidence": "high",
+  "expectedVolumeCount": 9,
+  "existingVolumeRecords": 9,
+  "existingWithIsbn": 5,
+  "ndlTotalResults": 50,
+  "ndlBookItems": 43,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784047131156",
+      "publishedDate": "1996-01",
+      "publisher": "角川書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784047131323",
+      "publishedDate": "1996-03",
+      "publisher": "角川書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784047131651",
+      "publishedDate": "1997-04",
+      "publisher": "角川書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784047131972",
+      "publishedDate": "1997-10",
+      "publisher": "角川書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784047133112",
+      "publishedDate": "1999-12",
+      "publisher": "角川書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784047133808",
+      "publishedDate": "2000-12",
+      "publisher": "角川書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784047134690",
+      "publishedDate": "2001-12",
+      "publisher": "角川書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784047135291",
+      "publishedDate": "2002-12",
+      "publisher": "角川書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784047136182",
+      "publishedDate": "2004-04",
+      "publisher": "角川書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784047138001",
+      "publishedDate": "2006-03",
+      "publisher": "角川書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784047139343",
+      "publishedDate": "2007-06",
+      "publisher": "角川書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784047154209",
+      "publishedDate": "2010-04",
+      "publisher": "角川書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784041203545",
+      "publishedDate": "2012-11",
+      "publisher": "角川書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784041019320",
+      "publishedDate": "2014-11",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 12,
+  "coverageAfter": 1,
+  "notes": []
+}

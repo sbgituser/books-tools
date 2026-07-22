@@ -1,0 +1,18 @@
+{
+  "workId": "novel__華氏451度__レイ・ブラッドベリ",
+  "fileId": "1hj4zuk",
+  "title": "華氏451度",
+  "authorDisplay": "レイ・ブラッドベリ",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 13,
+  "ndlBookItems": 5,
+  "volumes": [],
+  "newIsbnCount": 0,
+  "coverageAfter": 0,
+  "notes": [
+    "タイトル一致はあるが巻番号(dcndl:volume)なし"
+  ]
+}

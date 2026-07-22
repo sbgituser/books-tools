@@ -1,0 +1,27 @@
+{
+  "workId": "manga__名探偵コナン犯人の犯沢さん_volume9__かんばまゆこ",
+  "fileId": "0l0c8ym",
+  "title": "名探偵コナン犯人の犯沢さん. VOLUME9",
+  "authorDisplay": "かんばまゆこ",
+  "confidence": "medium",
+  "expectedVolumeCount": 9,
+  "existingVolumeRecords": 1,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 1,
+  "ndlBookItems": 1,
+  "volumes": [
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784098536559",
+      "publishedDate": "2024-10",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    }
+  ],
+  "newIsbnCount": 0,
+  "coverageAfter": 0.11,
+  "notes": []
+}

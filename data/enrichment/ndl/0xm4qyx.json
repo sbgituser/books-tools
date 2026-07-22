@@ -1,0 +1,18 @@
+{
+  "workId": "novel__星を継ぐもの__ジェイムズ・p・ホー",
+  "fileId": "0xm4qyx",
+  "title": "星を継ぐもの",
+  "authorDisplay": "ジェイムズ・P・ホーガン",
+  "confidence": "medium",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 6,
+  "ndlBookItems": 2,
+  "volumes": [],
+  "newIsbnCount": 0,
+  "coverageAfter": 0,
+  "notes": [
+    "タイトル一致はあるが巻番号(dcndl:volume)なし"
+  ]
+}

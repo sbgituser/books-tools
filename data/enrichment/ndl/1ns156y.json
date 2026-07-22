@@ -1,0 +1,18 @@
+{
+  "workId": "manga__鋼の錬金術師20th_anniversary_book__荒川弘",
+  "fileId": "1ns156y",
+  "title": "鋼の錬金術師20th anniversary book",
+  "authorDisplay": "荒川弘",
+  "confidence": "high",
+  "expectedVolumeCount": 27,
+  "existingVolumeRecords": 1,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 2,
+  "ndlBookItems": 2,
+  "volumes": [],
+  "newIsbnCount": 0,
+  "coverageAfter": 0,
+  "notes": [
+    "タイトル一致はあるが巻番号(dcndl:volume)なし"
+  ]
+}

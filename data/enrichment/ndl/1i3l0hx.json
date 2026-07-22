@@ -1,0 +1,67 @@
+{
+  "workId": "manga__桜蘭高校ホスト部_クラブ__葉鳥ビスコ",
+  "fileId": "1i3l0hx",
+  "title": "桜蘭高校ホスト部(クラブ)",
+  "authorDisplay": "葉鳥ビスコ",
+  "confidence": "high",
+  "expectedVolumeCount": 16,
+  "existingVolumeRecords": 16,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 8,
+  "ndlBookItems": 8,
+  "volumes": [
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784592187141",
+      "publishedDate": "2009-05",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784592187158",
+      "publishedDate": "2009-09",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784592187165",
+      "publishedDate": "2010-04",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9784592187172",
+      "publishedDate": "2010-09",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 18,
+      "volumeLabel": "18巻",
+      "isbn13": "9784592187189",
+      "publishedDate": "2011-04",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 5,
+  "coverageAfter": 0.19,
+  "notes": []
+}

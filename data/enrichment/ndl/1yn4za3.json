@@ -1,0 +1,47 @@
+{
+  "workId": "manga__元悪役令嬢とs級冒険者のほのぼの街暮らし不遇なキャラに転生してたけど_理想の美女__ばいお",
+  "fileId": "1yn4za3",
+  "title": "元悪役令嬢とS級冒険者のほのぼの街暮らし～不遇なキャラに転生してたけど、理想の美女になれたからプラマイゼロだよね～@COMIC",
+  "authorDisplay": "ばいお / ひだまり",
+  "confidence": "high",
+  "expectedVolumeCount": 3,
+  "existingVolumeRecords": 3,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 3,
+  "ndlBookItems": 3,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784866997254",
+      "publishedDate": "2023-01",
+      "publisher": "TOブックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784867941188",
+      "publishedDate": "2024-04",
+      "publisher": "TOブックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784867943618",
+      "publishedDate": "2024-12",
+      "publisher": "TOブックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 2,
+  "coverageAfter": 1,
+  "notes": []
+}

@@ -1,0 +1,57 @@
+{
+  "workId": "novel__こころ__夏目漱石",
+  "fileId": "0zhhopl",
+  "title": "こころ",
+  "authorDisplay": "夏目漱石",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 599,
+  "ndlBookItems": 101,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784803009736",
+      "publishedDate": "2016-12",
+      "publisher": "アース・スターエンターテイメント",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784862514295",
+      "publishedDate": "2021-08-06",
+      "publisher": "三和書籍",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784480021687",
+      "publishedDate": "1988-01-01",
+      "publisher": "筑摩書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784000090124",
+      "publishedDate": "1990-11",
+      "publisher": "岩波書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 4,
+  "coverageAfter": 1,
+  "notes": []
+}

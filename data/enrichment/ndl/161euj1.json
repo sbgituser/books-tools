@@ -1,0 +1,16 @@
+{
+  "workId": "manga__エヴァンゲリオン__貞本義行",
+  "fileId": "161euj1",
+  "title": "エヴァンゲリオン",
+  "authorDisplay": "貞本義行",
+  "confidence": "low",
+  "expectedVolumeCount": 12,
+  "existingVolumeRecords": 1,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 51,
+  "ndlBookItems": 44,
+  "volumes": [],
+  "newIsbnCount": 0,
+  "coverageAfter": 0,
+  "notes": []
+}

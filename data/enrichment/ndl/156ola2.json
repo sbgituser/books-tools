@@ -1,0 +1,1057 @@
+{
+  "workId": "manga__パタリロ__魔夜峰央",
+  "fileId": "156ola2",
+  "title": "パタリロ！",
+  "authorDisplay": "魔夜峰央",
+  "confidence": "high",
+  "expectedVolumeCount": 94,
+  "existingVolumeRecords": 17,
+  "existingWithIsbn": 16,
+  "ndlTotalResults": 242,
+  "ndlBookItems": 192,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784592111719",
+      "publishedDate": "1993",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784592880721",
+      "publishedDate": "1994-09",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784592880738",
+      "publishedDate": "1994-09",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784592880745",
+      "publishedDate": "1995-06",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784592880752",
+      "publishedDate": "1995-06",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784592111764",
+      "publishedDate": "1980-12",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784592111771",
+      "publishedDate": "1981-03",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784592880783",
+      "publishedDate": "1996-06",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784592880790",
+      "publishedDate": "1996-06",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784592880806",
+      "publishedDate": "1996-12",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784592111818",
+      "publishedDate": "1982-03",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784592111825",
+      "publishedDate": "1982-04",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784592111832",
+      "publishedDate": "1982-05",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784592111849",
+      "publishedDate": "1982-08",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784592111856",
+      "publishedDate": "1982-11",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784592111863",
+      "publishedDate": "1983-02",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9784592111870",
+      "publishedDate": "1983-05",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 18,
+      "volumeLabel": "18巻",
+      "isbn13": "9784592111887",
+      "publishedDate": "1983-07",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 19,
+      "volumeLabel": "19巻",
+      "isbn13": "9784592111894",
+      "publishedDate": "1983-11",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 20,
+      "volumeLabel": "20巻",
+      "isbn13": "9784592111900",
+      "publishedDate": "1984-02",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 21,
+      "volumeLabel": "21巻",
+      "isbn13": "9784592111917",
+      "publishedDate": "1984-05",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 22,
+      "volumeLabel": "22巻",
+      "isbn13": "9784592111924",
+      "publishedDate": "1984-09",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 23,
+      "volumeLabel": "23巻",
+      "isbn13": "9784592111931",
+      "publishedDate": "1985-01",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 24,
+      "volumeLabel": "24巻",
+      "isbn13": "9784592111948",
+      "publishedDate": "1985-05",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 25,
+      "volumeLabel": "25巻",
+      "isbn13": "9784592111955",
+      "publishedDate": "1985-09",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 26,
+      "volumeLabel": "26巻",
+      "isbn13": "9784592111962",
+      "publishedDate": "1985-12",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 27,
+      "volumeLabel": "27巻",
+      "isbn13": "9784592111979",
+      "publishedDate": "1986-04",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 28,
+      "volumeLabel": "28巻",
+      "isbn13": "9784592111986",
+      "publishedDate": "1986-07",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 29,
+      "volumeLabel": "29巻",
+      "isbn13": "9784592111993",
+      "publishedDate": "1986-11",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 30,
+      "volumeLabel": "30巻",
+      "isbn13": "9784592112006",
+      "publishedDate": "1987-04",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 31,
+      "volumeLabel": "31巻",
+      "isbn13": "9784592112143",
+      "publishedDate": "1987-07",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 32,
+      "volumeLabel": "32巻",
+      "isbn13": "9784592112150",
+      "publishedDate": "1987-12",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 33,
+      "volumeLabel": "33巻",
+      "isbn13": "9784592112167",
+      "publishedDate": "1988-02",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 34,
+      "volumeLabel": "34巻",
+      "isbn13": "9784592112174",
+      "publishedDate": "1988-04",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 35,
+      "volumeLabel": "35巻",
+      "isbn13": "9784592112181",
+      "publishedDate": "1988-07",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 36,
+      "volumeLabel": "36巻",
+      "isbn13": "9784592112198",
+      "publishedDate": "1988-09",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 37,
+      "volumeLabel": "37巻",
+      "isbn13": "9784592112204",
+      "publishedDate": "1988-12",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 38,
+      "volumeLabel": "38巻",
+      "isbn13": "9784592112211",
+      "publishedDate": "1989-02",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 39,
+      "volumeLabel": "39巻",
+      "isbn13": "9784592112228",
+      "publishedDate": "1989-05",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 40,
+      "volumeLabel": "40巻",
+      "isbn13": "9784592112235",
+      "publishedDate": "1989-09",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 41,
+      "volumeLabel": "41巻",
+      "isbn13": "9784592112242",
+      "publishedDate": "1990-01",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 42,
+      "volumeLabel": "42巻",
+      "isbn13": "9784592112259",
+      "publishedDate": "1990-04",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 43,
+      "volumeLabel": "43巻",
+      "isbn13": "9784592112266",
+      "publishedDate": "1990-06",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 44,
+      "volumeLabel": "44巻",
+      "isbn13": "9784592112273",
+      "publishedDate": "1990-09",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 45,
+      "volumeLabel": "45巻",
+      "isbn13": "9784592112280",
+      "publishedDate": "1991-03",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 46,
+      "volumeLabel": "46巻",
+      "isbn13": "9784592112297",
+      "publishedDate": "1991-11",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 47,
+      "volumeLabel": "47巻",
+      "isbn13": "9784592112303",
+      "publishedDate": "1991-11",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 48,
+      "volumeLabel": "48巻",
+      "isbn13": "9784592113386",
+      "publishedDate": "1992-03",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 49,
+      "volumeLabel": "49巻",
+      "isbn13": "9784592113393",
+      "publishedDate": "1992-08",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 50,
+      "volumeLabel": "50巻",
+      "isbn13": "9784592113409",
+      "publishedDate": "1992-12",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 51,
+      "volumeLabel": "51巻",
+      "isbn13": "9784592124511",
+      "publishedDate": "1993-04",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 52,
+      "volumeLabel": "52巻",
+      "isbn13": "9784592124528",
+      "publishedDate": "1993-09",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 53,
+      "volumeLabel": "53巻",
+      "isbn13": "9784592124535",
+      "publishedDate": "1994-02",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 54,
+      "volumeLabel": "54巻",
+      "isbn13": "9784592124542",
+      "publishedDate": "1994-07",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 55,
+      "volumeLabel": "55巻",
+      "isbn13": "9784592124559",
+      "publishedDate": "1994-10",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 56,
+      "volumeLabel": "56巻",
+      "isbn13": "9784592124566",
+      "publishedDate": "1994-12",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 57,
+      "volumeLabel": "57巻",
+      "isbn13": "9784592124573",
+      "publishedDate": "1995-05",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 58,
+      "volumeLabel": "58巻",
+      "isbn13": "9784592124580",
+      "publishedDate": "1995-08",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 59,
+      "volumeLabel": "59巻",
+      "isbn13": "9784592124597",
+      "publishedDate": "1995-10",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 60,
+      "volumeLabel": "60巻",
+      "isbn13": "9784592124603",
+      "publishedDate": "1996-03",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 61,
+      "volumeLabel": "61巻",
+      "isbn13": "9784592124610",
+      "publishedDate": "1996-09",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 62,
+      "volumeLabel": "62巻",
+      "isbn13": "9784592124627",
+      "publishedDate": "1997-02",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 63,
+      "volumeLabel": "63巻",
+      "isbn13": "9784592124634",
+      "publishedDate": "1997-05",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 64,
+      "volumeLabel": "64巻",
+      "isbn13": "9784592124641",
+      "publishedDate": "1997-10",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 65,
+      "volumeLabel": "65巻",
+      "isbn13": "9784592124658",
+      "publishedDate": "1998-04",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 66,
+      "volumeLabel": "66巻",
+      "isbn13": "9784592124665",
+      "publishedDate": "1998-10",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 67,
+      "volumeLabel": "67巻",
+      "isbn13": "9784592124672",
+      "publishedDate": "1999-03",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 68,
+      "volumeLabel": "68巻",
+      "isbn13": "9784592124689",
+      "publishedDate": "1999-06",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 69,
+      "volumeLabel": "69巻",
+      "isbn13": "9784592124696",
+      "publishedDate": "1999-11",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 70,
+      "volumeLabel": "70巻",
+      "isbn13": "9784592124702",
+      "publishedDate": "2000-06",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 71,
+      "volumeLabel": "71巻",
+      "isbn13": "9784592124719",
+      "publishedDate": "2001-01",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 72,
+      "volumeLabel": "72巻",
+      "isbn13": "9784592124726",
+      "publishedDate": "2001-06",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 73,
+      "volumeLabel": "73巻",
+      "isbn13": "9784592124733",
+      "publishedDate": "2001-11",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 74,
+      "volumeLabel": "74巻",
+      "isbn13": "9784592124740",
+      "publishedDate": "2002-07",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 75,
+      "volumeLabel": "75巻",
+      "isbn13": "9784592178750",
+      "publishedDate": "2003-01",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 76,
+      "volumeLabel": "76巻",
+      "isbn13": "9784592178767",
+      "publishedDate": "2003-07",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 77,
+      "volumeLabel": "77巻",
+      "isbn13": "9784592181774",
+      "publishedDate": "2004-08",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 78,
+      "volumeLabel": "78巻",
+      "isbn13": "9784592181781",
+      "publishedDate": "2005-06",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 79,
+      "volumeLabel": "79巻",
+      "isbn13": "9784592181798",
+      "publishedDate": "2006-05",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 80,
+      "volumeLabel": "80巻",
+      "isbn13": "9784592184508",
+      "publishedDate": "2007-05",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 81,
+      "volumeLabel": "81巻",
+      "isbn13": "9784592184515",
+      "publishedDate": "2008-05",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 82,
+      "volumeLabel": "82巻",
+      "isbn13": "9784592184522",
+      "publishedDate": "2009-05",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 83,
+      "volumeLabel": "83巻",
+      "isbn13": "9784592184539",
+      "publishedDate": "2009-11",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 84,
+      "volumeLabel": "84巻",
+      "isbn13": "9784592184546",
+      "publishedDate": "2010-05",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 85,
+      "volumeLabel": "85巻",
+      "isbn13": "9784592184553",
+      "publishedDate": "2010-11",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 86,
+      "volumeLabel": "86巻",
+      "isbn13": "9784592184560",
+      "publishedDate": "2011-05",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 87,
+      "volumeLabel": "87巻",
+      "isbn13": "9784592184577",
+      "publishedDate": "2011-11",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 88,
+      "volumeLabel": "88巻",
+      "isbn13": "9784592184584",
+      "publishedDate": "2012-05",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 89,
+      "volumeLabel": "89巻",
+      "isbn13": "9784592184591",
+      "publishedDate": "2012-11",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 90,
+      "volumeLabel": "90巻",
+      "isbn13": "9784592184607",
+      "publishedDate": "2013-05",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 91,
+      "volumeLabel": "91巻",
+      "isbn13": "9784592184614",
+      "publishedDate": "2013-11",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 92,
+      "volumeLabel": "92巻",
+      "isbn13": "9784592184621",
+      "publishedDate": "2014-05",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 93,
+      "volumeLabel": "93巻",
+      "isbn13": "9784592184638",
+      "publishedDate": "2014-11",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 94,
+      "volumeLabel": "94巻",
+      "isbn13": "9784592184645",
+      "publishedDate": "2015-05",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 95,
+      "volumeLabel": "95巻",
+      "isbn13": "9784592194668",
+      "publishedDate": "2015-11",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 96,
+      "volumeLabel": "96巻",
+      "isbn13": "9784592194675",
+      "publishedDate": "2016-04",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 97,
+      "volumeLabel": "97巻",
+      "isbn13": "9784592194682",
+      "publishedDate": "2016-12",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 98,
+      "volumeLabel": "98巻",
+      "isbn13": "9784592194699",
+      "publishedDate": "2017-07",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 99,
+      "volumeLabel": "99巻",
+      "isbn13": "9784592196693",
+      "publishedDate": "2018-04",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 100,
+      "volumeLabel": "100巻",
+      "isbn13": "9784592215004",
+      "publishedDate": "2018-11",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 101,
+      "volumeLabel": "101巻",
+      "isbn13": "9784592220015",
+      "publishedDate": "2019-06",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 102,
+      "volumeLabel": "102巻",
+      "isbn13": "9784592220022",
+      "publishedDate": "2020-10",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 103,
+      "volumeLabel": "103巻",
+      "isbn13": "9784592220039",
+      "publishedDate": "2021-08",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 104,
+      "volumeLabel": "104巻",
+      "isbn13": "9784592220046",
+      "publishedDate": "2022-06",
+      "publisher": "白泉社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 93,
+  "coverageAfter": 1,
+  "notes": []
+}

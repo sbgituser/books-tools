@@ -1,0 +1,67 @@
+{
+  "workId": "manga__百合星人ナオコサン__",
+  "fileId": "0ymsslv",
+  "title": "百合星人ナオコサン",
+  "authorDisplay": "ｋａｓｈｍｉｒ",
+  "confidence": "low",
+  "expectedVolumeCount": 4,
+  "existingVolumeRecords": 4,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 7,
+  "ndlBookItems": 6,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784840236997",
+      "publishedDate": "2006-12",
+      "publisher": "メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784048675031",
+      "publishedDate": "2008-12",
+      "publisher": "アスキー・メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784048702089",
+      "publishedDate": "2010-12",
+      "publisher": "アスキー・メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784048864985",
+      "publishedDate": "2012-03",
+      "publisher": "アスキー・メディアワークス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784048664837",
+      "publishedDate": "2014-04",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 5,
+  "coverageAfter": 1,
+  "notes": []
+}

@@ -1,0 +1,27 @@
+{
+  "workId": "manga__亜人__三浦追儺",
+  "fileId": "1rl699d",
+  "title": "亜人",
+  "authorDisplay": "三浦追儺",
+  "confidence": "high",
+  "expectedVolumeCount": 3,
+  "existingVolumeRecords": 3,
+  "existingWithIsbn": 2,
+  "ndlTotalResults": 5,
+  "ndlBookItems": 4,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784063878684",
+      "publishedDate": "2013-03",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    }
+  ],
+  "newIsbnCount": 0,
+  "coverageAfter": 0.33,
+  "notes": []
+}

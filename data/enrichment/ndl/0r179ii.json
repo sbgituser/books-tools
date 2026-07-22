@@ -1,0 +1,157 @@
+{
+  "workId": "manga__トライガンマキシマム__内藤泰弘",
+  "fileId": "0r179ii",
+  "title": "トライガン・マキシマム",
+  "authorDisplay": "内藤泰弘",
+  "confidence": "high",
+  "expectedVolumeCount": 14,
+  "existingVolumeRecords": 14,
+  "existingWithIsbn": 5,
+  "ndlTotalResults": 23,
+  "ndlBookItems": 23,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784785918422",
+      "publishedDate": "1998-07",
+      "publisher": "少年画報社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784785918880",
+      "publishedDate": "1999-02",
+      "publisher": "少年画報社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784785919481",
+      "publishedDate": "1999-12",
+      "publisher": "少年画報社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784785920128",
+      "publishedDate": "2000-09",
+      "publisher": "少年画報社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784785920661",
+      "publishedDate": "2001-04",
+      "publisher": "少年画報社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784785921286",
+      "publishedDate": "2001-11",
+      "publisher": "少年画報社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784785922177",
+      "publishedDate": "2002-09",
+      "publisher": "少年画報社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784785923068",
+      "publishedDate": "2003-06",
+      "publisher": "少年画報社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784785923693",
+      "publishedDate": "2003-12",
+      "publisher": "少年画報社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784785924973",
+      "publishedDate": "2005-02",
+      "publisher": "少年画報社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784785924980",
+      "publishedDate": "2005-02",
+      "publisher": "少年画報社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784785926656",
+      "publishedDate": "2006-09",
+      "publisher": "少年画報社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784785928841",
+      "publishedDate": "2007-12",
+      "publisher": "少年画報社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784785929237",
+      "publishedDate": "2008-04",
+      "publisher": "少年画報社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 9,
+  "coverageAfter": 1,
+  "notes": []
+}

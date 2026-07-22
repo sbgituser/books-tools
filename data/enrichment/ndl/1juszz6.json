@@ -1,0 +1,18 @@
+{
+  "workId": "manga__増田こうすけ劇場_ギャグマンガ日和__増田こうすけ",
+  "fileId": "1juszz6",
+  "title": "増田こうすけ劇場 ギャグマンガ日和",
+  "authorDisplay": "増田こうすけ",
+  "confidence": "medium",
+  "expectedVolumeCount": 6,
+  "existingVolumeRecords": 6,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 41,
+  "ndlBookItems": 28,
+  "volumes": [],
+  "newIsbnCount": 0,
+  "coverageAfter": 0,
+  "notes": [
+    "タイトル一致はあるが巻番号(dcndl:volume)なし"
+  ]
+}

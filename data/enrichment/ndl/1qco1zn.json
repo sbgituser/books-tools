@@ -1,0 +1,37 @@
+{
+  "workId": "manga__神様のカルテ__石川サブロウ",
+  "fileId": "1qco1zn",
+  "title": "神様のカルテ.",
+  "authorDisplay": "石川サブロウ",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 3,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 2,
+  "ndlBookItems": 2,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784091838674",
+      "publishedDate": "2011-05",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784091840479",
+      "publishedDate": "2011-08",
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 1,
+  "coverageAfter": 1,
+  "notes": []
+}

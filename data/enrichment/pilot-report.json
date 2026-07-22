@@ -1,0 +1,702 @@
+{
+  "generatedAt": "2026-07-21T23:05:14.578Z",
+  "totalWorks": 67,
+  "byConfidence": {
+    "high": 44,
+    "medium": 12,
+    "low": 11
+  },
+  "totalNewIsbns": 558,
+  "avgCoverageAfter": 0.76,
+  "openbdVerifiedRatio": 0.95,
+  "works": [
+    {
+      "fileId": "0ias0qn",
+      "title": "火花",
+      "confidence": "high",
+      "expected": 2,
+      "found": 0,
+      "newIsbns": 0,
+      "coverage": 0,
+      "notes": [
+        "タイトル一致はあるが巻番号(dcndl:volume)なし"
+      ]
+    },
+    {
+      "fileId": "0ky9rt0",
+      "title": "オリエント急行の殺人",
+      "confidence": "high",
+      "expected": 2,
+      "found": 0,
+      "newIsbns": 0,
+      "coverage": 0,
+      "notes": [
+        "タイトル一致はあるが巻番号(dcndl:volume)なし"
+      ]
+    },
+    {
+      "fileId": "0oee7b6",
+      "title": "火車",
+      "confidence": "high",
+      "expected": 2,
+      "found": 0,
+      "newIsbns": 0,
+      "coverage": 0,
+      "notes": [
+        "タイトル一致はあるが巻番号(dcndl:volume)なし"
+      ]
+    },
+    {
+      "fileId": "1i6bur3",
+      "title": "新世界より",
+      "confidence": "high",
+      "expected": 2,
+      "found": 7,
+      "newIsbns": 7,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "0xw38i2",
+      "title": "精霊の守り人",
+      "confidence": "high",
+      "expected": 2,
+      "found": 3,
+      "newIsbns": 3,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "1s8ytrk",
+      "title": "ハリー・ポッターと賢者の石",
+      "confidence": "high",
+      "expected": 2,
+      "found": 1,
+      "newIsbns": 1,
+      "coverage": 0.5,
+      "notes": []
+    },
+    {
+      "fileId": "08tvese",
+      "title": "怪獣8号",
+      "confidence": "high",
+      "expected": 2,
+      "found": 16,
+      "newIsbns": 16,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "0fy8yk0",
+      "title": "アオのハコ",
+      "confidence": "high",
+      "expected": 2,
+      "found": 26,
+      "newIsbns": 26,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "0jrh2b1",
+      "title": "メダリスト",
+      "confidence": "high",
+      "expected": 2,
+      "found": 14,
+      "newIsbns": 13,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "1tzlddg",
+      "title": "白夜行",
+      "confidence": "high",
+      "expected": 2,
+      "found": 5,
+      "newIsbns": 5,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "0zhhopl",
+      "title": "こころ",
+      "confidence": "high",
+      "expected": 2,
+      "found": 4,
+      "newIsbns": 4,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "0p2v0bo",
+      "title": "ノルウェイの森",
+      "confidence": "high",
+      "expected": 2,
+      "found": 3,
+      "newIsbns": 3,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "05e18k2",
+      "title": "ぼくたちは勉強ができない",
+      "confidence": "high",
+      "expected": 2,
+      "found": 21,
+      "newIsbns": 20,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "0bq650q",
+      "title": "Ｒｅ：ゼロから始める異世界生活 第一章 王都の一日編",
+      "confidence": "medium",
+      "expected": 2,
+      "found": 2,
+      "newIsbns": 2,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "0nhekvg",
+      "title": "ドリトライ",
+      "confidence": "high",
+      "expected": 2,
+      "found": 2,
+      "newIsbns": 2,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "0up6xx8",
+      "title": "テルマエ・ロマエ",
+      "confidence": "high",
+      "expected": 2,
+      "found": 6,
+      "newIsbns": 6,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "0hexe5p",
+      "title": "Dr.コトー診療所 新装版",
+      "confidence": "high",
+      "expected": 2,
+      "found": 25,
+      "newIsbns": 25,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "0uh6oz5",
+      "title": "To LOVEる―とらぶる― カラー版",
+      "confidence": "high",
+      "expected": 2,
+      "found": 18,
+      "newIsbns": 18,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "0kjpjsm",
+      "title": "かぐや様は告らせたい～天才たちの恋愛頭脳戦～ カラー版",
+      "confidence": "medium",
+      "expected": 2,
+      "found": 28,
+      "newIsbns": 28,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "0o1zbxg",
+      "title": "ゴブリンスレイヤー外伝：イヤーワン",
+      "confidence": "high",
+      "expected": 2,
+      "found": 14,
+      "newIsbns": 14,
+      "coverage": 1,
+      "notes": [
+        "著者なし検索で取得"
+      ]
+    },
+    {
+      "fileId": "03nz1ck",
+      "title": "ゴブリンスレイヤー：ブランニュー・デイ",
+      "confidence": "medium",
+      "expected": 2,
+      "found": 1,
+      "newIsbns": 1,
+      "coverage": 0.5,
+      "notes": [
+        "著者なし検索で取得"
+      ]
+    },
+    {
+      "fileId": "0rjd35w",
+      "title": "新装版　シドニアの騎士",
+      "confidence": "high",
+      "expected": 2,
+      "found": 15,
+      "newIsbns": 15,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "16w9y3l",
+      "title": "シャーマンキング０",
+      "confidence": "medium",
+      "expected": 2,
+      "found": 2,
+      "newIsbns": 2,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "1g144vl",
+      "title": "ジョジョの奇妙な冒険 クレイジー・Dの悪霊的失恋",
+      "confidence": "low",
+      "expected": 2,
+      "found": 0,
+      "newIsbns": 0,
+      "coverage": 0,
+      "notes": []
+    },
+    {
+      "fileId": "0pwbki3",
+      "title": "ダイヤのＡ　ａｃｔ２",
+      "confidence": "medium",
+      "expected": 2,
+      "found": 34,
+      "newIsbns": 34,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "0y1f62e",
+      "title": "続テルマエ・ロマエ",
+      "confidence": "high",
+      "expected": 2,
+      "found": 2,
+      "newIsbns": 2,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "0bf2mrf",
+      "title": "トリコ モノクロ版",
+      "confidence": "high",
+      "expected": 2,
+      "found": 43,
+      "newIsbns": 43,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "1r77zp2",
+      "title": "バクマン。 モノクロ版",
+      "confidence": "high",
+      "expected": 2,
+      "found": 20,
+      "newIsbns": 20,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "12wnl5u",
+      "title": "ハヤテのごとく！ 完全版",
+      "confidence": "high",
+      "expected": 2,
+      "found": 52,
+      "newIsbns": 52,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "1vkm6k0",
+      "title": "もうひとつのピアノの森　整う音",
+      "confidence": "low",
+      "expected": 2,
+      "found": 0,
+      "newIsbns": 0,
+      "coverage": 0,
+      "notes": []
+    },
+    {
+      "fileId": "1k479ud",
+      "title": "ひぐらしのなく頃に解　目明し編",
+      "confidence": "medium",
+      "expected": 2,
+      "found": 4,
+      "newIsbns": 4,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "089n2kz",
+      "title": "ひぐらしのなく頃に 鬼 ：",
+      "confidence": "high",
+      "expected": 2,
+      "found": 3,
+      "newIsbns": 3,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "0a6aiut",
+      "title": "ひぐらしのなく頃に　宵越し編",
+      "confidence": "medium",
+      "expected": 2,
+      "found": 2,
+      "newIsbns": 2,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "09b15vs",
+      "title": "ポーの一族 秘密の花園",
+      "confidence": "high",
+      "expected": 2,
+      "found": 2,
+      "newIsbns": 2,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "0dm4rc5",
+      "title": "完全版 ぼくらの",
+      "confidence": "high",
+      "expected": 2,
+      "found": 11,
+      "newIsbns": 11,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "1jtmcx1",
+      "title": "マギ シンドバッドの冒険",
+      "confidence": "high",
+      "expected": 2,
+      "found": 19,
+      "newIsbns": 19,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "0z3ymv2",
+      "title": "ルパン三世M ：",
+      "confidence": "high",
+      "expected": 2,
+      "found": 4,
+      "newIsbns": 4,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "1w8wbdq",
+      "title": "るろうに剣心―明治剣客浪漫譚― モノクロ版",
+      "confidence": "medium",
+      "expected": 2,
+      "found": 10,
+      "newIsbns": 10,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "0ks9f5g",
+      "title": "ロードス島戦記 灰色の魔女",
+      "confidence": "high",
+      "expected": 2,
+      "found": 3,
+      "newIsbns": 3,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "0gjtq5l",
+      "title": "あっぱれ！浦安鉄筋家族",
+      "confidence": "high",
+      "expected": 2,
+      "found": 24,
+      "newIsbns": 24,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "117lq6t",
+      "title": "運命の人に出会う話　プチデザ",
+      "confidence": "low",
+      "expected": 2,
+      "found": 0,
+      "newIsbns": 0,
+      "coverage": 0,
+      "notes": []
+    },
+    {
+      "fileId": "1pcii68",
+      "title": "【話販売】運命の人に出会う話　第１話　運命…？",
+      "confidence": "low",
+      "expected": 2,
+      "found": 0,
+      "newIsbns": 0,
+      "coverage": 0,
+      "notes": []
+    },
+    {
+      "fileId": "02vaypa",
+      "title": "怪物王女ナイトメア",
+      "confidence": "high",
+      "expected": 2,
+      "found": 7,
+      "newIsbns": 6,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "0sszq6z",
+      "title": "【期間限定　無料お試し版】覚悟のススメ",
+      "confidence": "low",
+      "expected": 2,
+      "found": 0,
+      "newIsbns": 0,
+      "coverage": 0,
+      "notes": []
+    },
+    {
+      "fileId": "1ufdwsr",
+      "title": "干物妹！うまるちゃんG",
+      "confidence": "low",
+      "expected": 2,
+      "found": 0,
+      "newIsbns": 0,
+      "coverage": 0,
+      "notes": []
+    },
+    {
+      "fileId": "0n509sj",
+      "title": "金田一少年の事件簿　Ｆｉｌｅ",
+      "confidence": "medium",
+      "expected": 2,
+      "found": 34,
+      "newIsbns": 34,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "07uvd1y",
+      "title": "今際の国のアリス RETRY",
+      "confidence": "high",
+      "expected": 2,
+      "found": 2,
+      "newIsbns": 2,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "0saljmr",
+      "title": "七海みなみは輝きたい 弱キャラ友崎くん外伝",
+      "confidence": "medium",
+      "expected": 2,
+      "found": 3,
+      "newIsbns": 3,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "18uz57p",
+      "title": "食糧人類－Ｓｔａｒｖｉｎｇ　Ａｎｏｎｙｍｏｕｓ－",
+      "confidence": "low",
+      "expected": 2,
+      "found": 0,
+      "newIsbns": 0,
+      "coverage": 0,
+      "notes": []
+    },
+    {
+      "fileId": "18ursaw",
+      "title": "多重人格探偵サイコ",
+      "confidence": "low",
+      "expected": 2,
+      "found": 8,
+      "newIsbns": 8,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "1mlke2d",
+      "title": "墜落JKと廃人教師【通常版】",
+      "confidence": "low",
+      "expected": 2,
+      "found": 0,
+      "newIsbns": 0,
+      "coverage": 0,
+      "notes": []
+    },
+    {
+      "fileId": "1lk155f",
+      "title": "東京タラレバ娘　シーズン２",
+      "confidence": "medium",
+      "expected": 2,
+      "found": 6,
+      "newIsbns": 6,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "008gatx",
+      "title": "変な家　【連載版】:",
+      "confidence": "low",
+      "expected": 2,
+      "found": 0,
+      "newIsbns": 0,
+      "coverage": 0,
+      "notes": [
+        "著者なし検索で取得"
+      ]
+    },
+    {
+      "fileId": "1c7yuvn",
+      "title": "魔法科高校の劣等生 Appendix",
+      "confidence": "high",
+      "expected": 2,
+      "found": 2,
+      "newIsbns": 2,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "1g2jyfi",
+      "title": "魔法騎士レイアース",
+      "confidence": "low",
+      "expected": 2,
+      "found": 4,
+      "newIsbns": 4,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "1haooio",
+      "title": "魔法少女サイトSept",
+      "confidence": "high",
+      "expected": 2,
+      "found": 2,
+      "newIsbns": 2,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "0ead25x",
+      "title": "殺戮にいたる病",
+      "confidence": "high",
+      "expected": 2,
+      "found": 0,
+      "newIsbns": 0,
+      "coverage": 0,
+      "notes": [
+        "タイトル一致はあるが巻番号(dcndl:volume)なし"
+      ]
+    },
+    {
+      "fileId": "1v6jqvm",
+      "title": "アンドロイドは電気羊の夢を見るか?",
+      "confidence": "medium",
+      "expected": 2,
+      "found": 0,
+      "newIsbns": 0,
+      "coverage": 0,
+      "notes": [
+        "タイトル一致はあるが巻番号(dcndl:volume)なし"
+      ]
+    },
+    {
+      "fileId": "08qu01y",
+      "title": "銀河鉄道の夜",
+      "confidence": "high",
+      "expected": 2,
+      "found": 5,
+      "newIsbns": 5,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "15jo9zz",
+      "title": "蹴りたい背中",
+      "confidence": "high",
+      "expected": 2,
+      "found": 0,
+      "newIsbns": 0,
+      "coverage": 0,
+      "notes": [
+        "タイトル一致はあるが巻番号(dcndl:volume)なし"
+      ]
+    },
+    {
+      "fileId": "1r3vxsn",
+      "title": "天地明察",
+      "confidence": "high",
+      "expected": 2,
+      "found": 9,
+      "newIsbns": 9,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "1s0qwnd",
+      "title": "のぼうの城",
+      "confidence": "high",
+      "expected": 2,
+      "found": 3,
+      "newIsbns": 3,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "18bwyqn",
+      "title": "村上海賊の娘",
+      "confidence": "high",
+      "expected": 2,
+      "found": 13,
+      "newIsbns": 12,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "02oh7qk",
+      "title": "ブレイブ・ストーリー",
+      "confidence": "high",
+      "expected": 2,
+      "found": 6,
+      "newIsbns": 6,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "15m8h7k",
+      "title": "鹿の王",
+      "confidence": "high",
+      "expected": 2,
+      "found": 4,
+      "newIsbns": 4,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "0qjvn8k",
+      "title": "All You Need Is Kill",
+      "confidence": "high",
+      "expected": 2,
+      "found": 2,
+      "newIsbns": 2,
+      "coverage": 1,
+      "notes": []
+    },
+    {
+      "fileId": "1sradj4",
+      "title": "後宮の烏",
+      "confidence": "high",
+      "expected": 2,
+      "found": 7,
+      "newIsbns": 6,
+      "coverage": 1,
+      "notes": []
+    }
+  ]
+}

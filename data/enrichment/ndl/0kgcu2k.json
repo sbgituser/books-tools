@@ -1,0 +1,287 @@
+{
+  "workId": "manga__ワカコ酒__新久千映",
+  "fileId": "0kgcu2k",
+  "title": "ワカコ酒",
+  "authorDisplay": "新久千映",
+  "confidence": "high",
+  "expectedVolumeCount": 22,
+  "existingVolumeRecords": 12,
+  "existingWithIsbn": 12,
+  "ndlTotalResults": 46,
+  "ndlBookItems": 39,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784199801457",
+      "publishedDate": "2013-06",
+      "publisher": "ノース・スターズ・ピクチャーズ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784199801785",
+      "publishedDate": "2014-01",
+      "publisher": "ノース・スターズ・ピクチャーズ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784199802294",
+      "publishedDate": "2014-09",
+      "publisher": "ノース・スターズ・ピクチャーズ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784199802478",
+      "publishedDate": "2015-01",
+      "publisher": "ノース・スターズ・ピクチャーズ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784199802775",
+      "publishedDate": "2015-08",
+      "publisher": "ノース・スターズ・ピクチャーズ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784199803253",
+      "publishedDate": "2016-02",
+      "publisher": "ノース・スターズ・ピクチャーズ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784199803536",
+      "publishedDate": "2016-08",
+      "publisher": "ノース・スターズ・ピクチャーズ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784199803895",
+      "publishedDate": "2017-02",
+      "publisher": "ノース・スターズ・ピクチャーズ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784199804359",
+      "publishedDate": "2017-09",
+      "publisher": "ノース・スターズ・ピクチャーズ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784199804779",
+      "publishedDate": "2018-03",
+      "publisher": "ノース・スターズ・ピクチャーズ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784199805134",
+      "publishedDate": "2018-09",
+      "publisher": "ノース・スターズ・ピクチャーズ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784199805547",
+      "publishedDate": "2019-03",
+      "publisher": "ノース・スターズ・ピクチャーズ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784199805868",
+      "publishedDate": "2019-09",
+      "publisher": "ノース・スターズ・ピクチャーズ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 14,
+      "volumeLabel": "14巻",
+      "isbn13": "9784199806186",
+      "publishedDate": "2020-03",
+      "publisher": "ノース・スターズ・ピクチャーズ",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 15,
+      "volumeLabel": "15巻",
+      "isbn13": "9784867201619",
+      "publishedDate": "2020-09",
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 16,
+      "volumeLabel": "16巻",
+      "isbn13": "9784867201992",
+      "publishedDate": "2021-03",
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 17,
+      "volumeLabel": "17巻",
+      "isbn13": "9784867202524",
+      "publishedDate": "2021-09",
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 18,
+      "volumeLabel": "18巻",
+      "isbn13": "9784867203033",
+      "publishedDate": "2022-03",
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 19,
+      "volumeLabel": "19巻",
+      "isbn13": "9784867204047",
+      "publishedDate": "2022-09",
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 20,
+      "volumeLabel": "20巻",
+      "isbn13": "9784867204719",
+      "publishedDate": "2023-03",
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 21,
+      "volumeLabel": "21巻",
+      "isbn13": "9784867205341",
+      "publishedDate": "2023-09",
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 22,
+      "volumeLabel": "22巻",
+      "isbn13": "9784867206195",
+      "publishedDate": "2024-03",
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 23,
+      "volumeLabel": "23巻",
+      "isbn13": "9784867206805",
+      "publishedDate": "2024-09",
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 24,
+      "volumeLabel": "24巻",
+      "isbn13": "9784867207413",
+      "publishedDate": "2025-03",
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 25,
+      "volumeLabel": "25巻",
+      "isbn13": "9784867207963",
+      "publishedDate": "2025-09",
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 26,
+      "volumeLabel": "26巻",
+      "isbn13": "9784867208625",
+      "publishedDate": "2026-03",
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 27,
+      "volumeLabel": "27巻",
+      "isbn13": "9784867209233",
+      "publishedDate": null,
+      "publisher": "コアミックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 19,
+  "coverageAfter": 1,
+  "notes": []
+}

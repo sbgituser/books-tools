@@ -1,0 +1,47 @@
+{
+  "workId": "novel__三体__劉慈欣",
+  "fileId": "1fk3bbp",
+  "title": "三体",
+  "authorDisplay": "劉慈欣",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 55,
+  "ndlBookItems": 36,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784152104458",
+      "publishedDate": "2025-07",
+      "publisher": "早川書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784152099488",
+      "publishedDate": "2020-06",
+      "publisher": "早川書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784152100207",
+      "publishedDate": "2021-05",
+      "publisher": "早川書房",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 3,
+  "coverageAfter": 1,
+  "notes": []
+}

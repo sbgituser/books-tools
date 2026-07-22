@@ -1,0 +1,67 @@
+{
+  "workId": "manga__怪物事変__藍本松",
+  "fileId": "0za1s83",
+  "title": "怪物事変",
+  "authorDisplay": "藍本松",
+  "confidence": "high",
+  "expectedVolumeCount": 24,
+  "existingVolumeRecords": 20,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 25,
+  "ndlBookItems": 25,
+  "volumes": [
+    {
+      "volumeNo": 21,
+      "volumeLabel": "21巻",
+      "isbn13": "9784088838908",
+      "publishedDate": "2024-05",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 22,
+      "volumeLabel": "22巻",
+      "isbn13": "9784088842158",
+      "publishedDate": "2024-11",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 23,
+      "volumeLabel": "23巻",
+      "isbn13": "9784088844206",
+      "publishedDate": "2025-05",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 24,
+      "volumeLabel": "24巻",
+      "isbn13": "9784088847054",
+      "publishedDate": "2025-12",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 25,
+      "volumeLabel": "25巻",
+      "isbn13": "9784088850467",
+      "publishedDate": null,
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 5,
+  "coverageAfter": 0.17,
+  "notes": []
+}

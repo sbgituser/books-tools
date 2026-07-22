@@ -1,0 +1,37 @@
+{
+  "workId": "manga__ミスミソウ_完全版__押切蓮介",
+  "fileId": "0xp5sba",
+  "title": "ミスミソウ 完全版 ：",
+  "authorDisplay": "押切蓮介",
+  "confidence": "high",
+  "expectedVolumeCount": 6,
+  "existingVolumeRecords": 6,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 9,
+  "ndlBookItems": 5,
+  "volumes": [
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784821186648",
+      "publishedDate": "2008-09",
+      "publisher": "ぶんか社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784821188178",
+      "publishedDate": "2009-07",
+      "publisher": "ぶんか社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 2,
+  "coverageAfter": 0.33,
+  "notes": []
+}

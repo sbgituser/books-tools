@@ -1,0 +1,18 @@
+{
+  "workId": "novel__火車__宮部みゆき",
+  "fileId": "0oee7b6",
+  "title": "火車",
+  "authorDisplay": "宮部みゆき",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 93,
+  "ndlBookItems": 33,
+  "volumes": [],
+  "newIsbnCount": 0,
+  "coverageAfter": 0,
+  "notes": [
+    "タイトル一致はあるが巻番号(dcndl:volume)なし"
+  ]
+}

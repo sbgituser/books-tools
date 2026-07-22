@@ -1,0 +1,27 @@
+{
+  "workId": "manga__liar_game_第1章1__甲斐谷忍",
+  "fileId": "1jhvdkp",
+  "title": "LIAR GAME 第1章1",
+  "authorDisplay": "甲斐谷忍",
+  "confidence": "medium",
+  "expectedVolumeCount": 19,
+  "existingVolumeRecords": 1,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 1,
+  "ndlBookItems": 1,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784086194754",
+      "publishedDate": "2013-12",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    }
+  ],
+  "newIsbnCount": 0,
+  "coverageAfter": 0.05,
+  "notes": []
+}

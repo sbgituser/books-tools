@@ -1,0 +1,49 @@
+{
+  "workId": "manga__re_ゼロから始める異世界生活_氷結の絆__長月達平reゼロから",
+  "fileId": "0bljjm7",
+  "title": "Re:ゼロから始める異世界生活 氷結の絆",
+  "authorDisplay": "長月達平（「Re:ゼロから始める異世界生活」KADOKAWA/MF文庫J刊） / 大塚真一郎 / ツカハラ ミノリ",
+  "confidence": "medium",
+  "expectedVolumeCount": 3,
+  "existingVolumeRecords": 3,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 4,
+  "ndlBookItems": 3,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784757568549",
+      "publishedDate": "2020-09",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784757570771",
+      "publishedDate": "2021-02",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784757574052",
+      "publishedDate": "2021-08",
+      "publisher": "スクウェア・エニックス",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 3,
+  "coverageAfter": 1,
+  "notes": [
+    "著者なし検索で取得"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "workId": "manga__アンデッドガールマーダーファルス__友山ハルカ",
+  "fileId": "07yelrl",
+  "title": "アンデッドガール・マーダーファルス",
+  "authorDisplay": "友山ハルカ / 青崎有吾",
+  "confidence": "high",
+  "expectedVolumeCount": 6,
+  "existingVolumeRecords": 6,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 8,
+  "ndlBookItems": 3,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784063906554",
+      "publishedDate": "2016-10",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784063907070",
+      "publishedDate": "2017-08",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784065116708",
+      "publishedDate": "2018-06",
+      "publisher": "講談社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 3,
+  "coverageAfter": 0.5,
+  "notes": []
+}

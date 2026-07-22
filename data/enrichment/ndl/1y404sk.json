@@ -1,0 +1,27 @@
+{
+  "workId": "novel__鬼平犯科帳__池波正太郎",
+  "fileId": "1y404sk",
+  "title": "鬼平犯科帳.",
+  "authorDisplay": "池波正太郎",
+  "confidence": "high",
+  "expectedVolumeCount": 6,
+  "existingVolumeRecords": 6,
+  "existingWithIsbn": 5,
+  "ndlTotalResults": 0,
+  "ndlBookItems": 124,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784167907631",
+      "publishedDate": "2017-01",
+      "publisher": "文藝春秋",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 1,
+  "coverageAfter": 0.17,
+  "notes": []
+}

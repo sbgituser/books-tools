@@ -1,0 +1,87 @@
+{
+  "workId": "manga__東京喰種トーキョーグール_re__石田スイ",
+  "fileId": "06kpild",
+  "title": "東京喰種トーキョーグール:re",
+  "authorDisplay": "石田スイ",
+  "confidence": "medium",
+  "expectedVolumeCount": 5,
+  "existingVolumeRecords": 5,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 9,
+  "ndlBookItems": 8,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784081138234",
+      "publishedDate": "2019-10",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784081138241",
+      "publishedDate": "2019-10",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784081138258",
+      "publishedDate": "2019-11",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784081138265",
+      "publishedDate": "2019-11",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784081138272",
+      "publishedDate": "2019-11",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784081138289",
+      "publishedDate": "2019-12",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784081138296",
+      "publishedDate": "2019-12",
+      "publisher": "集英社",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 7,
+  "coverageAfter": 1,
+  "notes": []
+}

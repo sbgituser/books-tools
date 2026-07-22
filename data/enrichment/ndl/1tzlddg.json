@@ -1,0 +1,67 @@
+{
+  "workId": "novel__白夜行__東野圭吾",
+  "fileId": "1tzlddg",
+  "title": "白夜行",
+  "authorDisplay": "東野圭吾",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 38,
+  "ndlBookItems": 25,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784860557003",
+      "publishedDate": "2015-05",
+      "publisher": "大活字文化普及協会",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784860557010",
+      "publishedDate": "2015-05",
+      "publisher": "大活字文化普及協会",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784860557027",
+      "publishedDate": "2015-05",
+      "publisher": "大活字文化普及協会",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784860557034",
+      "publishedDate": "2015-05",
+      "publisher": "大活字文化普及協会",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784860558406",
+      "publishedDate": "2015-05",
+      "publisher": "大活字文化普及協会",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 5,
+  "coverageAfter": 1,
+  "notes": []
+}

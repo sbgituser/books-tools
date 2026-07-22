@@ -1,0 +1,67 @@
+{
+  "workId": "novel__魍魎の匣__志水アキ",
+  "fileId": "1e9kcej",
+  "title": "魍魎の匣",
+  "authorDisplay": "志水　アキ",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 7,
+  "ndlBookItems": 7,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784048541565",
+      "publishedDate": "2007-12",
+      "publisher": "角川書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784048542180",
+      "publishedDate": "2008-08",
+      "publisher": "角川書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784048543408",
+      "publishedDate": "2009-07",
+      "publisher": "角川書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784048544252",
+      "publishedDate": "2010-01",
+      "publisher": "角川書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784048545051",
+      "publishedDate": "2010-07",
+      "publisher": "角川書店",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 5,
+  "coverageAfter": 1,
+  "notes": []
+}

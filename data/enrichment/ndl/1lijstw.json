@@ -1,0 +1,37 @@
+{
+  "workId": "manga__魔法科高校の劣等生appendix__佐島勤",
+  "fileId": "1lijstw",
+  "title": "魔法科高校の劣等生Appendix.",
+  "authorDisplay": "佐島勤",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 1,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 2,
+  "ndlBookItems": 2,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784049143348",
+      "publishedDate": "2022-06",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784049145267",
+      "publishedDate": "2022-09",
+      "publisher": "KADOKAWA",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    }
+  ],
+  "newIsbnCount": 1,
+  "coverageAfter": 1,
+  "notes": []
+}

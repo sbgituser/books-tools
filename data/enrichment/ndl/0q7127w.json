@@ -1,0 +1,27 @@
+{
+  "workId": "manga__major_2nd_メジャーセカンド__満田拓也",
+  "fileId": "0q7127w",
+  "title": "MAJOR 2nd（メジャーセカンド）",
+  "authorDisplay": "満田拓也",
+  "confidence": "high",
+  "expectedVolumeCount": 30,
+  "existingVolumeRecords": 24,
+  "existingWithIsbn": 7,
+  "ndlTotalResults": 1,
+  "ndlBookItems": 1,
+  "volumes": [
+    {
+      "volumeNo": 33,
+      "volumeLabel": "33巻",
+      "isbn13": "9784098547463",
+      "publishedDate": null,
+      "publisher": "小学館",
+      "source": "ndl",
+      "openbdVerified": false,
+      "existsInCurrent": false
+    }
+  ],
+  "newIsbnCount": 1,
+  "coverageAfter": 0,
+  "notes": []
+}

@@ -1,0 +1,18 @@
+{
+  "workId": "novel__変身__フランツ・カフカ",
+  "fileId": "0w3a96c",
+  "title": "変身",
+  "authorDisplay": "フランツ・カフカ / 原田義人 / 古典名作文庫編集部",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 60,
+  "ndlBookItems": 11,
+  "volumes": [],
+  "newIsbnCount": 0,
+  "coverageAfter": 0,
+  "notes": [
+    "タイトル一致はあるが巻番号(dcndl:volume)なし"
+  ]
+}

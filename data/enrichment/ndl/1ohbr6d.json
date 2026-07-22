@@ -1,0 +1,147 @@
+{
+  "workId": "manga__ガンニバル__二宮正明",
+  "fileId": "1ohbr6d",
+  "title": "ガンニバル",
+  "authorDisplay": "二宮正明",
+  "confidence": "high",
+  "expectedVolumeCount": 12,
+  "existingVolumeRecords": 13,
+  "existingWithIsbn": 1,
+  "ndlTotalResults": 20,
+  "ndlBookItems": 20,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784537138818",
+      "publishedDate": "2019-03",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784537139242",
+      "publishedDate": "2019-06",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784537139693",
+      "publishedDate": "2019-09",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784537141740",
+      "publishedDate": "2019-12",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784537141955",
+      "publishedDate": "2020-02",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784537142334",
+      "publishedDate": "2020-05",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784537142600",
+      "publishedDate": "2020-07",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784537142921",
+      "publishedDate": "2020-10",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 9,
+      "volumeLabel": "9巻",
+      "isbn13": "9784537143270",
+      "publishedDate": "2021-01",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 10,
+      "volumeLabel": "10巻",
+      "isbn13": "9784537143621",
+      "publishedDate": "2021-04",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 11,
+      "volumeLabel": "11巻",
+      "isbn13": "9784537143881",
+      "publishedDate": "2021-08",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 12,
+      "volumeLabel": "12巻",
+      "isbn13": "9784537144345",
+      "publishedDate": "2021-12",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 13,
+      "volumeLabel": "13巻",
+      "isbn13": "9784537144659",
+      "publishedDate": "2022-03",
+      "publisher": "日本文芸社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    }
+  ],
+  "newIsbnCount": 12,
+  "coverageAfter": 1,
+  "notes": []
+}

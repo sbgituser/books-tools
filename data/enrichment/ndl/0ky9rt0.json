@@ -1,0 +1,18 @@
+{
+  "workId": "novel__オリエント急行の殺人__アガサ・クリスティー",
+  "fileId": "0ky9rt0",
+  "title": "オリエント急行の殺人",
+  "authorDisplay": "アガサ・クリスティー",
+  "confidence": "high",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 18,
+  "ndlBookItems": 6,
+  "volumes": [],
+  "newIsbnCount": 0,
+  "coverageAfter": 0,
+  "notes": [
+    "タイトル一致はあるが巻番号(dcndl:volume)なし"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "workId": "manga__スライム倒して300年_知らないうちにレベルmaxになってました__森田季節gaノベルs",
+  "fileId": "1q0zyzo",
+  "title": "スライム倒して300年、知らないうちにレベルMAXになってました",
+  "authorDisplay": "森田季節(GAノベル/SBクリエイティブ刊) / シバユウスケ / 紅緒",
+  "confidence": "medium",
+  "expectedVolumeCount": 5,
+  "existingVolumeRecords": 5,
+  "existingWithIsbn": 3,
+  "ndlTotalResults": 1,
+  "ndlBookItems": 1,
+  "volumes": [],
+  "newIsbnCount": 0,
+  "coverageAfter": 0,
+  "notes": [
+    "タイトル一致はあるが巻番号(dcndl:volume)なし"
+  ]
+}

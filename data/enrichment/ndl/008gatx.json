@@ -1,0 +1,18 @@
+{
+  "workId": "manga__変な家_連載版__雨穴飛鳥新社刊",
+  "fileId": "008gatx",
+  "title": "変な家　【連載版】:",
+  "authorDisplay": "雨穴（飛鳥新社刊） / 綾野暁",
+  "confidence": "low",
+  "expectedVolumeCount": 2,
+  "existingVolumeRecords": 2,
+  "existingWithIsbn": 0,
+  "ndlTotalResults": 2,
+  "ndlBookItems": 0,
+  "volumes": [],
+  "newIsbnCount": 0,
+  "coverageAfter": 0,
+  "notes": [
+    "著者なし検索で取得"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "workId": "manga__ぼっちざろっく__はまじあき",
+  "fileId": "0elbcxa",
+  "title": "ぼっち・ざ・ろっく!",
+  "authorDisplay": "はまじあき",
+  "confidence": "high",
+  "expectedVolumeCount": 8,
+  "existingVolumeRecords": 7,
+  "existingWithIsbn": 7,
+  "ndlTotalResults": 18,
+  "ndlBookItems": 9,
+  "volumes": [
+    {
+      "volumeNo": 1,
+      "volumeLabel": "1巻",
+      "isbn13": "9784832270725",
+      "publishedDate": "2019-03",
+      "publisher": "芳文社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 2,
+      "volumeLabel": "2巻",
+      "isbn13": "9784832271708",
+      "publishedDate": "2020-03",
+      "publisher": "芳文社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": false
+    },
+    {
+      "volumeNo": 3,
+      "volumeLabel": "3巻",
+      "isbn13": "9784832272521",
+      "publishedDate": "2021-03",
+      "publisher": "芳文社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 4,
+      "volumeLabel": "4巻",
+      "isbn13": "9784832273887",
+      "publishedDate": "2022-09",
+      "publisher": "芳文社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 5,
+      "volumeLabel": "5巻",
+      "isbn13": "9784832274198",
+      "publishedDate": "2022-12",
+      "publisher": "芳文社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 6,
+      "volumeLabel": "6巻",
+      "isbn13": "9784832274778",
+      "publishedDate": "2023-09",
+      "publisher": "芳文社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 7,
+      "volumeLabel": "7巻",
+      "isbn13": "9784832295810",
+      "publishedDate": "2024-11",
+      "publisher": "芳文社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    },
+    {
+      "volumeNo": 8,
+      "volumeLabel": "8巻",
+      "isbn13": "9784832296770",
+      "publishedDate": "2025-12",
+      "publisher": "芳文社",
+      "source": "ndl",
+      "openbdVerified": true,
+      "existsInCurrent": true
+    }
+  ],
+  "newIsbnCount": 1,
+  "coverageAfter": 1,
+  "notes": []
+}
