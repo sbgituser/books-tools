@@ -1,0 +1,2678 @@
+{
+  "manga__ガンニバル__二宮正明": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率92%"
+  },
+  "manga__信長のシェフ__梶川卓郎": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率97%"
+  },
+  "novel__やはり俺の青春ラブコメはまちがっている__渡航": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率100%"
+  },
+  "novel__涼宮ハルヒの憂鬱__谷川流": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率110%"
+  },
+  "novel__ようこそ実力至上主義の教室へ__衣笠彰梧": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率117%"
+  },
+  "novel__とある魔術の禁書目録__鎌池和馬": {
+    "status": "ongoing",
+    "reason": "最新巻が5ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__名探偵コナン__青山剛昌": {
+    "status": "completed",
+    "reason": "最新巻が32年前・巻データ網羅率100%"
+  },
+  "manga__liar_game__甲斐谷忍": {
+    "status": "completed",
+    "reason": "最新巻が11年前・巻データ網羅率105%"
+  },
+  "manga__嘘喰い__迫稔雄": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率102%"
+  },
+  "manga__賭ケグルイ__河本ほむら": {
+    "status": "ongoing",
+    "reason": "最新巻が4ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__きのう何食べた__よしながふみ": {
+    "status": "ongoing",
+    "reason": "最新巻が5ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__海月姫__東村アキコ": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率118%"
+  },
+  "manga__東京タラレバ娘__東村アキコ": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率156%"
+  },
+  "manga__重版出来__松田奈緒子": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率120%"
+  },
+  "manga__アシガール__森本梢子": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率106%"
+  },
+  "manga__アンサングシンデレラ__荒井ママレ": {
+    "status": "ongoing",
+    "reason": "最新巻が11ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__basara__田村由美": {
+    "status": "completed",
+    "reason": "最新巻が24年前・巻データ網羅率107%"
+  },
+  "manga__7seeds__田村由美": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率103%"
+  },
+  "manga__大奥__よしながふみ": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率121%"
+  },
+  "manga__蒼天航路__王欣太": {
+    "status": "completed",
+    "reason": "最新巻が20年前・巻データ網羅率106%"
+  },
+  "manga__アドアストラ__カガノミハチ": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率108%"
+  },
+  "manga__信長協奏曲__石井あゆみ": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率109%"
+  },
+  "manga__センゴク__宮下英樹": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率104%"
+  },
+  "manga__風雲児たち__みなもと太郎": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率103%"
+  },
+  "manga__へうげもの__山田芳裕": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率104%"
+  },
+  "manga__蜘蛛ですが_なにか__かかし朝浩": {
+    "status": "ongoing",
+    "reason": "最新巻が5ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__陰の実力者になりたくて__坂野杏梨": {
+    "status": "ongoing",
+    "reason": "最新巻が2ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__異世界薬局__高山理図": {
+    "status": "ongoing",
+    "reason": "最新巻が9ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__dr_コトー診療所__山田貴敏": {
+    "status": "completed",
+    "reason": "最新巻が16年前・巻データ網羅率104%"
+  },
+  "manga__ラジエーションハウス__横幕智裕": {
+    "status": "ongoing",
+    "reason": "最新巻が3ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__インベスターz__三田紀房": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率105%"
+  },
+  "manga__左ききのエレン__nifuni": {
+    "status": "ongoing",
+    "reason": "最新巻が2ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__め組の大吾__曽田正人": {
+    "status": "completed",
+    "reason": "最新巻が27年前・巻データ網羅率95%"
+  },
+  "manga__blue_giant__石塚真一": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率100%"
+  },
+  "manga__ましろのおと__羅川真里茂": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率106%"
+  },
+  "novel__雪国__川端康成": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率100%"
+  },
+  "novel__人間失格__太宰治": {
+    "status": "completed",
+    "reason": "最新巻が7年前・巻データ網羅率167%"
+  },
+  "novel__かがみの孤城__辻村深月": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率120%"
+  },
+  "manga__マッシュルmashle__甲本一": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率106%"
+  },
+  "manga__スキップとローファー__高松美咲": {
+    "status": "completed",
+    "reason": "最新巻が7年前・巻データ網羅率100%"
+  },
+  "manga__会長はメイド様__藤原ヒロ": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率122%"
+  },
+  "manga__ベルサイユのばら__池田理代子": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率114%"
+  },
+  "manga__ザファブル__南勝久": {
+    "status": "completed",
+    "reason": "最新巻が11年前・巻データ網羅率100%"
+  },
+  "manga__蟲師__漆原友紀": {
+    "status": "completed",
+    "reason": "最新巻が17年前・巻データ網羅率110%"
+  },
+  "manga__攻殻機動隊__士郎正宗": {
+    "status": "completed",
+    "reason": "最新巻が25年前・巻データ網羅率250%"
+  },
+  "manga__坂本ですが__佐野菜見": {
+    "status": "completed",
+    "reason": "最新巻が13年前・巻データ網羅率100%"
+  },
+  "manga__ぐらんぶる__井上堅二": {
+    "status": "completed",
+    "reason": "最新巻が11年前・巻データ網羅率100%"
+  },
+  "novel__竜馬がゆく__司馬遼太郎": {
+    "status": "ongoing",
+    "reason": "最新巻が2ヶ月前(閾値12ヶ月以内)"
+  },
+  "novel__坂の上の雲__司馬遼太郎": {
+    "status": "completed",
+    "reason": "最新巻が27年前・巻データ網羅率125%"
+  },
+  "novel__燃えよ剣__司馬遼太郎": {
+    "status": "completed",
+    "reason": "最新巻が21年前・巻データ網羅率140%"
+  },
+  "novel__金閣寺__三島由紀夫": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率100%"
+  },
+  "manga__be_blues_青になれ__田中モトユキ": {
+    "status": "completed",
+    "reason": "最新巻が14年前・巻データ網羅率100%"
+  },
+  "manga__ベイビーステップ__勝木光": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率102%"
+  },
+  "manga__リアル__井上雄彦": {
+    "status": "ongoing",
+    "reason": "最新巻が3ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__山と食欲と私__信濃川日出雄": {
+    "status": "ongoing",
+    "reason": "最新巻が8ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ワカコ酒__新久千映": {
+    "status": "ongoing",
+    "reason": "最新巻が4ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__紛争でしたら八田まで__田素弘": {
+    "status": "ongoing",
+    "reason": "最新巻が5ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__アイアムアヒーロー__花沢健吾": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率109%"
+  },
+  "novel__この素晴らしい世界に祝福を__暁なつめ": {
+    "status": "ongoing",
+    "reason": "最新巻が5ヶ月前(閾値12ヶ月以内)"
+  },
+  "novel__オーバーロード__丸山くがね": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率111%"
+  },
+  "manga__銀魂__空知英秋": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率101%"
+  },
+  "manga__こちら葛飾区亀有公園前派出所__秋本治": {
+    "status": "completed",
+    "reason": "最新巻が49年前・巻データ網羅率100%"
+  },
+  "manga__ダイヤのa__寺嶋裕二": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率102%"
+  },
+  "manga__はじめの一歩__森川ジョージ": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率100%"
+  },
+  "manga__弱虫ペダル__渡辺航": {
+    "status": "completed",
+    "reason": "最新巻が18年前・巻データ網羅率100%"
+  },
+  "manga__あひるの空__日向武史": {
+    "status": "completed",
+    "reason": "最新巻が7年前・巻データ網羅率104%"
+  },
+  "manga__うる星やつら__高橋留美子": {
+    "status": "completed",
+    "reason": "最新巻が18年前・巻データ網羅率103%"
+  },
+  "manga__pluto__浦沢直樹": {
+    "status": "completed",
+    "reason": "最新巻が17年前・巻データ網羅率113%"
+  },
+  "manga__食糧人類__蔵石ユウ": {
+    "status": "completed",
+    "reason": "最新巻が7年前・巻データ網羅率114%"
+  },
+  "manga__デッドデッドデーモンズデデデデデストラクション__浅野いにお": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率150%"
+  },
+  "manga__ドロヘドロ__林田球": {
+    "status": "completed",
+    "reason": "最新巻が24年前・巻データ網羅率100%"
+  },
+  "manga__ヨルムンガンド__高橋慶太郎": {
+    "status": "completed",
+    "reason": "最新巻が14年前・巻データ網羅率109%"
+  },
+  "novel__十角館の殺人__綾辻行人": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率140%"
+  },
+  "novel__三体__劉慈欣": {
+    "status": "ongoing",
+    "reason": "最新巻が12ヶ月前(閾値12ヶ月以内)"
+  },
+  "novel__華氏451度__レイ・ブラッドベリ": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率100%"
+  },
+  "novel__虐殺器官__伊藤計劃": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率167%"
+  },
+  "novel__ハーモニー__伊藤計劃": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率150%"
+  },
+  "novel__星を継ぐもの__ジェイムズ・p・ホー": {
+    "status": "completed",
+    "reason": "最新巻が46年前・巻データ網羅率100%"
+  },
+  "novel__獣の奏者__上橋菜穂子": {
+    "status": "completed",
+    "reason": "最新巻が10年前・巻データ網羅率118%"
+  },
+  "manga__赤ちゃんと僕__羅川真里茂": {
+    "status": "completed",
+    "reason": "最新巻が23年前・巻データ網羅率111%"
+  },
+  "manga__banana_fish__吉田秋生": {
+    "status": "completed",
+    "reason": "最新巻が29年前・巻データ網羅率116%"
+  },
+  "manga__天使禁猟区__由貴香織里": {
+    "status": "completed",
+    "reason": "最新巻が23年前・巻データ網羅率110%"
+  },
+  "manga__花ざかりの君たちへ__中条比紗也": {
+    "status": "completed",
+    "reason": "最新巻が21年前・巻データ網羅率104%"
+  },
+  "manga__ワンパンマン__one": {
+    "status": "ongoing",
+    "reason": "最新巻が4ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__名探偵コナン_犯人の犯沢さん__かんばまゆこ": {
+    "status": "ongoing",
+    "reason": "最新巻が3ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__アンデッドアンラック__戸塚慶文": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率100%"
+  },
+  "manga__逃げ上手の若君__松井優征": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率100%"
+  },
+  "manga__夜桜さんちの大作戦__権平ひつじ": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率100%"
+  },
+  "manga__ウィッチウォッチ__篠原健太": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率100%"
+  },
+  "novel__告白__湊かなえ": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率200%"
+  },
+  "manga__ハイキュー部__宮島京平": {
+    "status": "ongoing",
+    "reason": "最新巻が10ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__昭和元禄落語心中__雲田はるこ": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率71%"
+  },
+  "manga__gantz_e__奥浩哉": {
+    "status": "ongoing",
+    "reason": "最新巻が5ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__変な家__雨穴": {
+    "status": "ongoing",
+    "reason": "最新巻が0ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__re_ゼロから始める異世界生活__長月達平": {
+    "status": "ongoing",
+    "reason": "最新巻が4ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__re_ゼロから始める異世界生活__大塚真一郎": {
+    "status": "ongoing",
+    "reason": "最新巻が3ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__鹿の王__上橋菜穂子": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率75%"
+  },
+  "manga__盾の勇者の成り上がり__アネコユサギ": {
+    "status": "ongoing",
+    "reason": "最新巻が2ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__不安の種__中山昌亮": {
+    "status": "completed",
+    "reason": "最新巻が18年前・巻データ網羅率100%"
+  },
+  "manga__デッドマンワンダーランド__片岡人生": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率92%"
+  },
+  "manga__ボボボーボボーボボ__澤井啓夫": {
+    "status": "completed",
+    "reason": "最新巻が20年前・巻データ網羅率100%"
+  },
+  "manga__甘_と稲妻__雨隠ギド": {
+    "status": "completed",
+    "reason": "最新巻が7年前・巻データ網羅率125%"
+  },
+  "manga__異世界居酒屋_のぶ__蝉川夏哉": {
+    "status": "ongoing",
+    "reason": "最新巻が7ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__とらドラ__竹宮ゆゆこ": {
+    "status": "ongoing",
+    "reason": "最新巻が3ヶ月前(閾値12ヶ月以内)"
+  },
+  "novel__ダンジョンに出会いを求めるのは間違っているだろうか__大森藤ノ": {
+    "status": "ongoing",
+    "reason": "最新巻が9ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ダンジョンに出会いを求めるのは間違っているだろうか__大森藤ノ": {
+    "status": "ongoing",
+    "reason": "最新巻が9ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__千歳くんはラムネ瓶のなか__裕夢": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率200%"
+  },
+  "manga__ようこそ実力至上主義の教室へ__衣笠彰梧": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率92%"
+  },
+  "manga__death_note__小畑健": {
+    "status": "completed",
+    "reason": "最新巻が19年前・巻データ網羅率92%"
+  },
+  "manga__探偵学園q__さとうふみや": {
+    "status": "completed",
+    "reason": "最新巻が20年前・巻データ網羅率91%"
+  },
+  "manga__アドアストラ_スキピオとハンニバル__カガノミハチ": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率100%"
+  },
+  "manga__信長協奏曲_コンツェルト__石井あゆみ": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率95%"
+  },
+  "manga__神様のカルテ__石川サブロウ": {
+    "status": "completed",
+    "reason": "最新巻が14年前・巻データ網羅率100%"
+  },
+  "manga__槍の勇者のやり直し__にぃと": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率118%"
+  },
+  "manga__蜘蛛ですが_なにか__馬場翁": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率100%"
+  },
+  "manga__ありふれた職業で世界最強__白米良": {
+    "status": "ongoing",
+    "reason": "最新巻が11ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ありふれた職業で世界最強_零__白米良": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率100%"
+  },
+  "manga__異世界チート魔術師_マジシャン__内田健": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率75%"
+  },
+  "manga__異世界チート開拓記__中村モリス": {
+    "status": "ongoing",
+    "reason": "最新巻が6ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__チートスキル_支配_を使って異世界ハーレム__零覇": {
+    "status": "ongoing",
+    "reason": "最新巻が4ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__コウノドリ__鈴ノ木ユウ": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率103%"
+  },
+  "manga__blue_giant_momentum__石塚真一": {
+    "status": "ongoing",
+    "reason": "最新巻が0ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__blue_giant_explorer__石塚真一": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率100%"
+  },
+  "manga__ソードアートオンラインプログレッシブ__比村奇石": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率86%"
+  },
+  "manga__オレがbl漫画のヒロインなんてありえねぇ__山野でこ": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率100%"
+  },
+  "manga__ありふれた職業で世界最強__roga": {
+    "status": "ongoing",
+    "reason": "最新巻が11ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ありふれた職業で世界最強_零__神地あたる": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率100%"
+  },
+  "manga__火ノ丸相撲__川田": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率96%"
+  },
+  "manga__鋼の錬金術師__荒川弘": {
+    "status": "completed",
+    "reason": "最新巻が15年前・巻データ網羅率96%"
+  },
+  "manga__暗殺教室__松井優征": {
+    "status": "completed",
+    "reason": "最新巻が10年前・巻データ網羅率95%"
+  },
+  "manga__バンパイアハンターd__鷹木骰子": {
+    "status": "completed",
+    "reason": "最新巻が11年前・巻データ網羅率88%"
+  },
+  "manga__百合星人ナオコサン__kashmir": {
+    "status": "completed",
+    "reason": "最新巻が14年前・巻データ網羅率80%"
+  },
+  "manga__光が死んだ夏__モクモクれん": {
+    "status": "ongoing",
+    "reason": "最新巻が1ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__新装版_バキ__板垣恵介": {
+    "status": "completed",
+    "reason": "最新巻が7年前・巻データ網羅率100%"
+  },
+  "novel__魍魎の匣__志水アキ": {
+    "status": "completed",
+    "reason": "最新巻が17年前・巻データ網羅率100%"
+  },
+  "manga__bleach__久保帯人": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率101%"
+  },
+  "manga__sket_dance_モノクロ版__篠原健太": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率100%"
+  },
+  "manga__ケンガンアシュラ__サンドロビッチ・ヤバ": {
+    "status": "completed",
+    "reason": "最新巻が7年前・巻データ網羅率104%"
+  },
+  "manga__銀魂_モノクロ版__空知英秋": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率99%"
+  },
+  "manga__月刊少女野崎くん__椿いづみ": {
+    "status": "completed",
+    "reason": "最新巻が11年前・巻データ網羅率100%"
+  },
+  "manga__であいもん__浅野りん": {
+    "status": "ongoing",
+    "reason": "最新巻が1ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__それでも町は廻っている__石黒正数": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率131%"
+  },
+  "manga__かぐや様は告らせたい_同人版__赤坂アカ": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率100%"
+  },
+  "manga__ヒナまつり__大武政夫": {
+    "status": "completed",
+    "reason": "最新巻が15年前・巻データ網羅率100%"
+  },
+  "manga__みなみけ__桜場コハル": {
+    "status": "ongoing",
+    "reason": "最新巻が10ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__うる星やつら_新装版__高橋留美子": {
+    "status": "completed",
+    "reason": "最新巻が19年前・巻データ網羅率100%"
+  },
+  "manga__真説ボボボーボボーボボ__澤井啓夫": {
+    "status": "completed",
+    "reason": "最新巻が18年前・巻データ網羅率100%"
+  },
+  "manga__彼岸島__松本光司": {
+    "status": "ongoing",
+    "reason": "最新巻が1ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ハカイジュウ__本田真吾": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率100%"
+  },
+  "manga__なるたる__鬼頭莫宏": {
+    "status": "completed",
+    "reason": "最新巻が22年前・巻データ網羅率142%"
+  },
+  "manga__漂流教室__楳図かずお": {
+    "status": "completed",
+    "reason": "最新巻が27年前・巻データ網羅率150%"
+  },
+  "manga__神の左手悪魔の右手__楳図かずお": {
+    "status": "completed",
+    "reason": "最新巻が15年前・巻データ網羅率100%"
+  },
+  "manga__モンキーピーク__志名坂高次": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率100%"
+  },
+  "manga__食糧人類starving_anonymous__蔵石ユウ": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率71%"
+  },
+  "manga__さんかれあ__はっとりみつる": {
+    "status": "completed",
+    "reason": "最新巻が11年前・巻データ網羅率118%"
+  },
+  "manga__学校怪談__高橋葉介": {
+    "status": "completed",
+    "reason": "最新巻が19年前・巻データ網羅率107%"
+  },
+  "manga__見える子ちゃん__泉朝樹": {
+    "status": "ongoing",
+    "reason": "最新巻が4ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ひぐらしのなく頃に__竜騎士07": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率113%"
+  },
+  "manga__sakamoto_days__鈴木祐斗": {
+    "status": "ongoing",
+    "reason": "最新巻が2ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__dear_boys_act__八神ひろき": {
+    "status": "ongoing",
+    "reason": "最新巻が4ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__major_2nd_メジャーセカンド__満田拓也": {
+    "status": "ongoing",
+    "reason": "最新巻が9ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__capeta__曽田正人": {
+    "status": "completed",
+    "reason": "最新巻が13年前・巻データ網羅率103%"
+  },
+  "manga__mr_fullswing__鈴木信也": {
+    "status": "completed",
+    "reason": "最新巻が14年前・巻データ網羅率100%"
+  },
+  "manga__マギ__大高忍": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率100%"
+  },
+  "manga__七つの大罪__鈴木央": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率107%"
+  },
+  "manga__fairy_tail__真島ヒロ": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率102%"
+  },
+  "manga__ヴァニタスの手記__望月淳": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率127%"
+  },
+  "manga__3月のライオン__羽海野チカ": {
+    "status": "ongoing",
+    "reason": "最新巻が8ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__魔法陣グルグル__衛藤ヒロユキ": {
+    "status": "ongoing",
+    "reason": "最新巻が8ヶ月前(閾値12ヶ月以内)"
+  },
+  "novel__占星術殺人事件__島田荘司": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率100%"
+  },
+  "novel__氷菓__タスクオーナ": {
+    "status": "ongoing",
+    "reason": "最新巻が4ヶ月前(閾値12ヶ月以内)"
+  },
+  "novel__模倣犯__宮部みゆき": {
+    "status": "completed",
+    "reason": "最新巻が20年前・巻データ網羅率140%"
+  },
+  "novel__犬神家の一族__横溝正史": {
+    "status": "completed",
+    "reason": "最新巻が19年前・巻データ網羅率100%"
+  },
+  "manga__ハイキュー__古舘春一": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率100%"
+  },
+  "manga__東京卍リベンジャーズ__和久井健": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率100%"
+  },
+  "manga__ダンジョン飯__九井諒子": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率121%"
+  },
+  "manga__dr_stone__稲垣理一郎": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率100%"
+  },
+  "manga__宇宙兄弟__小山宙哉": {
+    "status": "ongoing",
+    "reason": "最新巻が12ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__約束のネバーランド__白井カイウ": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率100%"
+  },
+  "manga__うしおととら__藤田和日郎": {
+    "status": "completed",
+    "reason": "最新巻が29年前・巻データ網羅率100%"
+  },
+  "manga__ヒカルの碁__ほったゆみ": {
+    "status": "completed",
+    "reason": "最新巻が22年前・巻データ網羅率100%"
+  },
+  "manga__からくりサーカス__藤田和日郎": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率105%"
+  },
+  "manga__ピンポン__松本大洋": {
+    "status": "completed",
+    "reason": "最新巻が28年前・巻データ網羅率180%"
+  },
+  "manga__四月は君の嘘__新川直司": {
+    "status": "completed",
+    "reason": "最新巻が11年前・巻データ網羅率118%"
+  },
+  "manga__ぼくらの__鬼頭莫宏": {
+    "status": "completed",
+    "reason": "最新巻が16年前・巻データ網羅率109%"
+  },
+  "novel__コンビニ人間__村田沙耶香": {
+    "status": "completed",
+    "reason": "最新巻が10年前・巻データ網羅率100%"
+  },
+  "novel__博士の愛した数式__小川洋子": {
+    "status": "completed",
+    "reason": "最新巻が20年前・巻データ網羅率167%"
+  },
+  "novel__容疑者xの献身__東野圭吾": {
+    "status": "completed",
+    "reason": "最新巻が17年前・巻データ網羅率100%"
+  },
+  "novel__海辺のカフカ__村上春樹": {
+    "status": "completed",
+    "reason": "最新巻が21年前・巻データ網羅率100%"
+  },
+  "novel__火花__又吉直樹": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率100%"
+  },
+  "novel__オリエント急行の殺人__アガサ・クリスティー": {
+    "status": "completed",
+    "reason": "最新巻が15年前・巻データ網羅率100%"
+  },
+  "novel__火車__宮部みゆき": {
+    "status": "completed",
+    "reason": "最新巻が28年前・巻データ網羅率100%"
+  },
+  "novel__新世界より__貴志祐介": {
+    "status": "completed",
+    "reason": "最新巻が11年前・巻データ網羅率114%"
+  },
+  "novel__精霊の守り人__上橋菜穂子": {
+    "status": "completed",
+    "reason": "最新巻が17年前・巻データ網羅率167%"
+  },
+  "novel__正欲__朝井リョウ": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率100%"
+  },
+  "novel__ハリーポッターと賢者の石__jkローリング": {
+    "status": "completed",
+    "reason": "最新巻が14年前・巻データ網羅率150%"
+  },
+  "manga__葬送のフリーレン__山田鐘人": {
+    "status": "ongoing",
+    "reason": "最新巻が7ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__怪獣8号__松本直也": {
+    "status": "ongoing",
+    "reason": "最新巻が10ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__薬屋のひとりごと__日向夏": {
+    "status": "ongoing",
+    "reason": "最新巻が1ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__spy_family__遠藤達哉": {
+    "status": "ongoing",
+    "reason": "最新巻が3ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ブルーロック__金城宗幸": {
+    "status": "ongoing",
+    "reason": "最新巻が1ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__チェンソーマン__藤本タツキ": {
+    "status": "ongoing",
+    "reason": "最新巻が1ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__キングダム__原泰久": {
+    "status": "ongoing",
+    "reason": "最新巻が2ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__アオのハコ__三浦糀": {
+    "status": "ongoing",
+    "reason": "最新巻が0ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__その着せ替え人形は恋をする__福田晋一": {
+    "status": "ongoing",
+    "reason": "最新巻が12ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__メダリスト__つるまいかだ": {
+    "status": "ongoing",
+    "reason": "最新巻が6ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__黄泉のツガイ__荒川弘": {
+    "status": "ongoing",
+    "reason": "最新巻が4ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__忘却バッテリー__みかわ絵子": {
+    "status": "ongoing",
+    "reason": "最新巻が6ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ちいかわなんか小さくてかわいいやつ__ナガノ": {
+    "status": "ongoing",
+    "reason": "最新巻が8ヶ月前(閾値12ヶ月以内)"
+  },
+  "novel__白夜行__東野圭吾": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率140%"
+  },
+  "novel__こころ__夏目漱石": {
+    "status": "completed",
+    "reason": "最新巻が22年前・巻データ網羅率100%"
+  },
+  "novel__ノルウェイの森__村上春樹": {
+    "status": "completed",
+    "reason": "最新巻が21年前・巻データ網羅率100%"
+  },
+  "manga__金田一少年の事件簿r__天樹征丸": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率100%"
+  },
+  "manga__聲の形__大今良時": {
+    "status": "completed",
+    "reason": "最新巻が11年前・巻データ網羅率129%"
+  },
+  "manga__おやすみプンプン__浅野いにお": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率138%"
+  },
+  "manga__東京ヒゴロ__松本大洋": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率133%"
+  },
+  "manga__トライガン__内藤泰弘": {
+    "status": "completed",
+    "reason": "最新巻が15年前・巻データ網羅率100%"
+  },
+  "manga__major__満田拓也": {
+    "status": "completed",
+    "reason": "最新巻が15年前・巻データ網羅率100%"
+  },
+  "manga__ブラッククローバー__田畠裕基": {
+    "status": "ongoing",
+    "reason": "最新巻が10ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__終わりのセラフ__降矢大輔": {
+    "status": "ongoing",
+    "reason": "最新巻が2ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__トリコ__島袋光年": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率100%"
+  },
+  "manga__青の祓魔師__加藤和恵": {
+    "status": "ongoing",
+    "reason": "最新巻が2ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ダークギャザリング__近藤憲一": {
+    "status": "ongoing",
+    "reason": "最新巻が5ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__地獄楽__賀来ゆうじ": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率108%"
+  },
+  "manga__gantz__奥浩哉": {
+    "status": "completed",
+    "reason": "最新巻が10年前・巻データ網羅率103%"
+  },
+  "manga__プラネテス__幸村誠": {
+    "status": "completed",
+    "reason": "最新巻が22年前・巻データ網羅率200%"
+  },
+  "manga__ホムンクルス__山本英夫": {
+    "status": "completed",
+    "reason": "最新巻が15年前・巻データ網羅率133%"
+  },
+  "manga__九条の大罪__真鍋昌平": {
+    "status": "ongoing",
+    "reason": "最新巻が3ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__リボーンの棋士__鍋倉夫": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率200%"
+  },
+  "manga__今日から俺は__西森博之": {
+    "status": "completed",
+    "reason": "最新巻が28年前・巻データ網羅率113%"
+  },
+  "manga__rookies__森田まさのり": {
+    "status": "completed",
+    "reason": "最新巻が18年前・巻データ網羅率100%"
+  },
+  "manga__キャプテン翼_kids_dream__高橋陽一": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率120%"
+  },
+  "manga__タッチ__あだち充": {
+    "status": "completed",
+    "reason": "最新巻が21年前・巻データ網羅率104%"
+  },
+  "manga__ラフ__あだち充": {
+    "status": "completed",
+    "reason": "最新巻が20年前・巻データ網羅率175%"
+  },
+  "manga__ちはやふる__末次由紀": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率102%"
+  },
+  "manga__俺物語__アルコ": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率100%"
+  },
+  "manga__フルーツバスケット__高屋奈月": {
+    "status": "completed",
+    "reason": "最新巻が19年前・巻データ網羅率104%"
+  },
+  "manga__桜蘭高校ホスト部__葉鳥ビスコ": {
+    "status": "completed",
+    "reason": "最新巻が15年前・巻データ網羅率106%"
+  },
+  "manga__となりの怪物くん__ろびこ": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率131%"
+  },
+  "manga__五等分の花嫁__春場ねぎ": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率107%"
+  },
+  "manga__ぼくたちは勉強ができない__筒井大志": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率105%"
+  },
+  "manga__ゆらぎ荘の幽奈さん__ミウラタダヒロ": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率104%"
+  },
+  "manga__それでも歩は寄せてくる__山本崇一朗": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率112%"
+  },
+  "manga__からかい上手の高木さん__山本崇一朗": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率110%"
+  },
+  "manga__男子高校生の日常__山内泰延": {
+    "status": "completed",
+    "reason": "最新巻が13年前・巻データ網羅率114%"
+  },
+  "manga__銀の匙__荒川弘": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率107%"
+  },
+  "manga__もやしもん__石川雅之": {
+    "status": "ongoing",
+    "reason": "最新巻が9ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__dr_コトー診療所_完全版__山田貴敏": {
+    "status": "completed",
+    "reason": "最新巻が16年前・巻データ網羅率100%"
+  },
+  "manga__僕たちがやりました__金城宗幸": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率111%"
+  },
+  "manga__亜人__三浦追儺": {
+    "status": "completed",
+    "reason": "最新巻が13年前・巻データ網羅率100%"
+  },
+  "manga__寄生獣リバーシ__岩明均": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率138%"
+  },
+  "manga__とんがり帽子のアトリエ__白浜鴎": {
+    "status": "ongoing",
+    "reason": "最新巻が3ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__山田くんと7人の魔女__吉河美希": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率100%"
+  },
+  "manga__ダンダダン__龍幸伸": {
+    "status": "ongoing",
+    "reason": "最新巻が1ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__薬屋のひとりごと__日向夏ヒーロー文庫イ": {
+    "status": "ongoing",
+    "reason": "最新巻が8ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__あかね噺__末永裕樹": {
+    "status": "ongoing",
+    "reason": "最新巻が1ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__カグラバチ__外薗健": {
+    "status": "ongoing",
+    "reason": "最新巻が2ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__アイスヘッドギル__蜂矢育生": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率100%"
+  },
+  "manga__夜桜四重奏ヨザクラカルテット__ヤスダスズヒト": {
+    "status": "ongoing",
+    "reason": "最新巻が11ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__怪物事変__藍本松": {
+    "status": "ongoing",
+    "reason": "最新巻が7ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ガチアクタ__裏那圭": {
+    "status": "ongoing",
+    "reason": "最新巻が5ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__魔都精兵のスレイブ__竹村洋平": {
+    "status": "ongoing",
+    "reason": "最新巻が1ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__魔入りました_入間くん__西修": {
+    "status": "ongoing",
+    "reason": "最新巻が3ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__テンマクキネマ__附田祐斗": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率100%"
+  },
+  "manga__ふつうの軽音部__クワハリ": {
+    "status": "ongoing",
+    "reason": "最新巻が4ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ダイヤモンドの功罪__平井大橋": {
+    "status": "ongoing",
+    "reason": "最新巻が4ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ドリトライ__雲母坂盾": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率100%"
+  },
+  "manga__ツーオンアイス__逸茂エルク": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率100%"
+  },
+  "manga__レッドブルー__波切敦": {
+    "status": "ongoing",
+    "reason": "最新巻が1ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__僕とロボコ__宮崎周平": {
+    "status": "ongoing",
+    "reason": "最新巻が2ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__クジマ歌えば家ほろろ__紺野アキラ": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率120%"
+  },
+  "manga__高校生家族__仲間りょう": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率100%"
+  },
+  "manga__ルリドラゴン__眞藤雅興": {
+    "status": "ongoing",
+    "reason": "最新巻が4ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__あやかしトライアングル__矢吹健太朗": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率100%"
+  },
+  "manga__天国大魔境__石黒正数": {
+    "status": "ongoing",
+    "reason": "最新巻が5ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__地雷グリコ__暁月あきら": {
+    "status": "ongoing",
+    "reason": "最新巻が1ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__平和の国の島崎へ__瀬下猛": {
+    "status": "ongoing",
+    "reason": "最新巻が3ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__トリリオンゲーム__稲垣理一郎": {
+    "status": "ongoing",
+    "reason": "最新巻が5ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__アンダーニンジャ__花沢健吾": {
+    "status": "ongoing",
+    "reason": "最新巻が4ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__忍者と極道__近藤信輔": {
+    "status": "ongoing",
+    "reason": "最新巻が3ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__終末のハーレム__link": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率100%"
+  },
+  "manga__無限の住人__沙村広明": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率107%"
+  },
+  "manga__望郷太郎__山田芳裕": {
+    "status": "ongoing",
+    "reason": "最新巻が6ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__大ダーク__林田球": {
+    "status": "ongoing",
+    "reason": "最新巻が9ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__スーパーボールガールズ__金城宗幸": {
+    "status": "ongoing",
+    "reason": "最新巻が5ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__バトルスタディーズ__なきぼくろ": {
+    "status": "ongoing",
+    "reason": "最新巻が3ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__サイコの世界__井龍一": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率125%"
+  },
+  "manga__君と宇宙を歩くために__泥ノ田犬彦": {
+    "status": "ongoing",
+    "reason": "最新巻が2ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__魔女と傭兵__宮木真人": {
+    "status": "ongoing",
+    "reason": "最新巻が4ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__終末のワルキューレ__アジチカ": {
+    "status": "ongoing",
+    "reason": "最新巻が3ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__異世界失格__野田宏": {
+    "status": "ongoing",
+    "reason": "最新巻が6ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__焼いてるふたり__ハナツカシオリ": {
+    "status": "ongoing",
+    "reason": "最新巻が1ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__妻_小学生になる__村田椰融": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率100%"
+  },
+  "manga__おとなりに銀河__雨隠ギド": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率100%"
+  },
+  "manga__ぼっちざろっく__はまじあき": {
+    "status": "ongoing",
+    "reason": "最新巻が8ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__図書館の大魔術師__泉光": {
+    "status": "ongoing",
+    "reason": "最新巻が1ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__サチ録サチの黙示録__茶んた": {
+    "status": "ongoing",
+    "reason": "最新巻が12ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__異世界おじさん__殆ど死んでいる": {
+    "status": "ongoing",
+    "reason": "最新巻が3ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__異世界ありがとう__荒井小豆": {
+    "status": "ongoing",
+    "reason": "最新巻が12ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ゆびさきと恋__森下suu": {
+    "status": "ongoing",
+    "reason": "最新巻が2ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__顔だけじゃ好きになりません__安斎かりん": {
+    "status": "ongoing",
+    "reason": "最新巻が4ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__恋せよまやかし天使ども__卯月ココ": {
+    "status": "ongoing",
+    "reason": "最新巻が1ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__お姉ちゃんの翠くん__目黒あむ": {
+    "status": "ongoing",
+    "reason": "最新巻が3ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__運命の人に出会う話__あなしん": {
+    "status": "ongoing",
+    "reason": "最新巻が4ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__どうせ_恋してしまうんだ__満井春香": {
+    "status": "ongoing",
+    "reason": "最新巻が4ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__消えた初恋__アルコ": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率100%"
+  },
+  "manga__ホタルの嫁入り__橘オレコ": {
+    "status": "ongoing",
+    "reason": "最新巻が1ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__弱キャラ友崎くん__屋久ユウキ": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率100%"
+  },
+  "manga__不滅のあなたへ__大今良時": {
+    "status": "ongoing",
+    "reason": "最新巻が11ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ノラガミ__あだちとか": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率104%"
+  },
+  "manga__幼稚園wars__千葉侑生": {
+    "status": "ongoing",
+    "reason": "最新巻が3ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ランウェイで笑って__猪ノ谷言葉": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率123%"
+  },
+  "manga__ブルーピリオド__山口つばさ": {
+    "status": "ongoing",
+    "reason": "最新巻が2ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ペリリュー_楽園のゲルニカ__武田一義": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率100%"
+  },
+  "manga__ラグナクリムゾン__小林大樹": {
+    "status": "ongoing",
+    "reason": "最新巻が2ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__夏目友人帳__緑川ゆき": {
+    "status": "ongoing",
+    "reason": "最新巻が3ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__絢爛たるグランドセーヌ__cuvie": {
+    "status": "ongoing",
+    "reason": "最新巻が6ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__花野井くんと恋の病__森野萌": {
+    "status": "ongoing",
+    "reason": "最新巻が9ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__めだかボックス__暁月あきら": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率100%"
+  },
+  "manga__テガミバチ__浅田弘幸": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率100%"
+  },
+  "manga__テニスの王子様__許斐剛": {
+    "status": "completed",
+    "reason": "最新巻が18年前・巻データ網羅率93%"
+  },
+  "manga__バクマン__大場つぐみ": {
+    "status": "completed",
+    "reason": "最新巻が10年前・巻データ網羅率105%"
+  },
+  "manga__働きマン__安野モヨコ": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率180%"
+  },
+  "manga__土竜の唄__高橋のぼる": {
+    "status": "ongoing",
+    "reason": "最新巻が1ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__スキップビート__仲村佳樹": {
+    "status": "ongoing",
+    "reason": "最新巻が10ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ラブ_コン_カラー版__中原アヤ": {
+    "status": "completed",
+    "reason": "最新巻が18年前・巻データ網羅率100%"
+  },
+  "manga__シャーマンキング__武井宏之": {
+    "status": "completed",
+    "reason": "最新巻が21年前・巻データ網羅率100%"
+  },
+  "manga__魔人探偵脳噛ネウロ__松井優征": {
+    "status": "completed",
+    "reason": "最新巻が13年前・巻データ網羅率100%"
+  },
+  "manga__武装錬金__和月伸宏": {
+    "status": "completed",
+    "reason": "最新巻が20年前・巻データ網羅率110%"
+  },
+  "manga__ハヤテのごとく__畑健二郎": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率102%"
+  },
+  "manga__新装版_魔法先生ネギま__赤松健": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率100%"
+  },
+  "manga__バガボンド__井上雄彦": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率103%"
+  },
+  "manga__ピアノの森__一色まこと": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率112%"
+  },
+  "manga__beck__ハロルド作石": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率103%"
+  },
+  "manga__あずまんが大王__あずまきよひこ": {
+    "status": "completed",
+    "reason": "最新巻が24年前・巻データ網羅率100%"
+  },
+  "manga__かってに改蔵__久米田康治": {
+    "status": "completed",
+    "reason": "最新巻が15年前・巻データ網羅率123%"
+  },
+  "manga__るろうに剣心__和月伸宏": {
+    "status": "completed",
+    "reason": "最新巻が16年前・巻データ網羅率100%"
+  },
+  "manga__電影少女__桂正和": {
+    "status": "completed",
+    "reason": "最新巻が23年前・巻データ網羅率107%"
+  },
+  "manga__金田一少年の事件簿__ふみや・さとう": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率103%"
+  },
+  "manga__bastard__萩原一至": {
+    "status": "completed",
+    "reason": "最新巻が14年前・巻データ網羅率104%"
+  },
+  "manga__dr_スランプ__鳥山明": {
+    "status": "completed",
+    "reason": "最新巻が30年前・巻データ網羅率106%"
+  },
+  "manga__めぞん一刻__高橋留美子": {
+    "status": "completed",
+    "reason": "最新巻が24年前・巻データ網羅率113%"
+  },
+  "manga__ガラスの仮面__美内すずえ": {
+    "status": "completed",
+    "reason": "最新巻が13年前・巻データ網羅率100%"
+  },
+  "manga__デビルマン__永井豪とダイナミック": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率106%"
+  },
+  "manga__あしたのジョー__ちばてつや": {
+    "status": "completed",
+    "reason": "最新巻が32年前・巻データ網羅率100%"
+  },
+  "manga__ドカベン__水島新司": {
+    "status": "ongoing",
+    "reason": "最新巻が6ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ルパン三世__モンキー・パンチ": {
+    "status": "ongoing",
+    "reason": "最新巻が3ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__のだめカンタービレ__二ノ宮知子": {
+    "status": "completed",
+    "reason": "最新巻が15年前・巻データ網羅率104%"
+  },
+  "manga__ドラゴン桜__三田紀房": {
+    "status": "completed",
+    "reason": "最新巻が18年前・巻データ網羅率105%"
+  },
+  "manga__今際の国のアリス__麻生羽呂": {
+    "status": "completed",
+    "reason": "最新巻が10年前・巻データ網羅率122%"
+  },
+  "manga__テルマエロマエ__ヤマザキマリ": {
+    "status": "completed",
+    "reason": "最新巻が13年前・巻データ網羅率117%"
+  },
+  "manga__東京喰種トーキョーグール__石田スイ": {
+    "status": "completed",
+    "reason": "最新巻が11年前・巻データ網羅率94%"
+  },
+  "manga__逃げるは恥だが役に立つ__海野つなみ": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率173%"
+  },
+  "manga__ミステリと言う勿れ__田村由美": {
+    "status": "ongoing",
+    "reason": "最新巻が5ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__映像研には手を出すな__大童澄瞳": {
+    "status": "ongoing",
+    "reason": "最新巻が6ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__リングにかけろ__車田正美": {
+    "status": "completed",
+    "reason": "最新巻が17年前・巻データ網羅率104%"
+  },
+  "manga__ろくでなしblues__森田まさのり": {
+    "status": "completed",
+    "reason": "最新巻が22年前・巻データ網羅率102%"
+  },
+  "manga__d_grayman__星野桂": {
+    "status": "ongoing",
+    "reason": "最新巻が12ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__to_loveる__矢吹健太朗": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率106%"
+  },
+  "manga__psyren__岩代俊明": {
+    "status": "completed",
+    "reason": "最新巻が15年前・巻データ網羅率106%"
+  },
+  "manga__boruto__岸本斉史": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率105%"
+  },
+  "manga__鵺の陰陽師__川江康太": {
+    "status": "ongoing",
+    "reason": "最新巻が1ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__一ノ瀬家の大罪__タイザン5": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率117%"
+  },
+  "manga__ケロロ軍曹__吉崎観音": {
+    "status": "ongoing",
+    "reason": "最新巻が7ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ギャグマンガ日和__増田こうすけ": {
+    "status": "completed",
+    "reason": "最新巻が11年前・巻データ網羅率107%"
+  },
+  "manga__世紀末リーダー伝たけし__島袋光年": {
+    "status": "completed",
+    "reason": "最新巻が20年前・巻データ網羅率104%"
+  },
+  "manga__エンジェル伝説__八木教広": {
+    "status": "completed",
+    "reason": "最新巻が19年前・巻データ網羅率107%"
+  },
+  "manga__とっても_ラッキーマン__ガモウひろし": {
+    "status": "completed",
+    "reason": "最新巻が17年前・巻データ網羅率106%"
+  },
+  "manga__浦安鉄筋家族__浜岡賢次": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率103%"
+  },
+  "manga__侵略_イカ娘__安部真弘": {
+    "status": "completed",
+    "reason": "最新巻が10年前・巻データ網羅率114%"
+  },
+  "manga__さよなら絶望先生__久米田康治": {
+    "status": "completed",
+    "reason": "最新巻が13年前・巻データ網羅率107%"
+  },
+  "manga__じょしらく__久米田康治": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率133%"
+  },
+  "manga__魁_クロマティ高校__野中英次": {
+    "status": "completed",
+    "reason": "最新巻が20年前・巻データ網羅率112%"
+  },
+  "manga__究極超人ある__ゆうきまさみ": {
+    "status": "completed",
+    "reason": "最新巻が7年前・巻データ網羅率110%"
+  },
+  "manga__じゃりン子チエ__はるき悦巳": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率90%"
+  },
+  "manga__working__高津カリノ": {
+    "status": "completed",
+    "reason": "最新巻が11年前・巻データ網羅率108%"
+  },
+  "manga__かくしごと__久米田康治": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率117%"
+  },
+  "manga__干物妹_うまるちゃん__サンカクヘッド": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率100%"
+  },
+  "manga__ばらかもん__ヨシノサツキ": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率105%"
+  },
+  "manga__のんのんびより__あっと": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率100%"
+  },
+  "manga__パタリロ__魔夜峰央": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率101%"
+  },
+  "manga__ゆるゆり__なもり": {
+    "status": "ongoing",
+    "reason": "最新巻が9ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__こみっくがーるず__はんざわかおり": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率100%"
+  },
+  "manga__セクシーコマンドー外伝_すごいよ_マサルさん__うすた京介": {
+    "status": "completed",
+    "reason": "最新巻が28年前・巻データ網羅率100%"
+  },
+  "manga__ピューと吹く_ジャガー__うすた京介": {
+    "status": "completed",
+    "reason": "最新巻が15年前・巻データ網羅率105%"
+  },
+  "manga__ドラゴンクエスト_ダイの大冒険__三条陸": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率103%"
+  },
+  "manga__犬夜叉__高橋留美子": {
+    "status": "completed",
+    "reason": "最新巻が17年前・巻データ網羅率102%"
+  },
+  "manga__烈火の炎__安西信行": {
+    "status": "completed",
+    "reason": "最新巻が24年前・巻データ網羅率103%"
+  },
+  "manga__black_cat__矢吹健太朗": {
+    "status": "completed",
+    "reason": "最新巻が20年前・巻データ網羅率105%"
+  },
+  "manga__魔法先生ネギま__赤松健": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率103%"
+  },
+  "manga__風魔の小次郎__車田正美": {
+    "status": "completed",
+    "reason": "最新巻が26年前・巻データ網羅率110%"
+  },
+  "manga__覚悟のススメ__山口貴由": {
+    "status": "completed",
+    "reason": "最新巻が19年前・巻データ網羅率109%"
+  },
+  "manga__hellsing__平野耕太": {
+    "status": "completed",
+    "reason": "最新巻が17年前・巻データ網羅率100%"
+  },
+  "manga__テラフォーマーズ__貴家悠": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率100%"
+  },
+  "manga__将国のアルタイル__カトウコトノ": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率107%"
+  },
+  "manga__needless__今井神": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率100%"
+  },
+  "manga__claymore__八木教広": {
+    "status": "completed",
+    "reason": "最新巻が11年前・巻データ網羅率100%"
+  },
+  "manga__ダーウィンズゲーム__flipflops": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率113%"
+  },
+  "manga__神さまの言うとおり__金城宗幸": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率105%"
+  },
+  "manga__刃牙道__板垣恵介": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率118%"
+  },
+  "manga__修羅の門__川原正敏": {
+    "status": "completed",
+    "reason": "最新巻が15年前・巻データ網羅率103%"
+  },
+  "manga__ドリフターズ__平野耕太": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率129%"
+  },
+  "manga__タイガーマスク__梶原一騎": {
+    "status": "completed",
+    "reason": "最新巻が24年前・巻データ網羅率107%"
+  },
+  "manga__pandorahearts__望月淳": {
+    "status": "completed",
+    "reason": "最新巻が11年前・巻データ網羅率100%"
+  },
+  "manga__uq_holder__赤松健": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率104%"
+  },
+  "manga__スライム倒して300年_知らないうちにレベルmaxになってました__森田季節": {
+    "status": "ongoing",
+    "reason": "最新巻が6ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__聖女の魔力は万能です__橘由華": {
+    "status": "ongoing",
+    "reason": "最新巻が5ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__幼女戦記__東條チカ": {
+    "status": "ongoing",
+    "reason": "最新巻が4ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ゴブリンスレイヤー__蝸牛くもga文庫クリ": {
+    "status": "ongoing",
+    "reason": "最新巻が7ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__魔女の旅__白石定規gaノベルs": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率80%"
+  },
+  "manga__迷宮ブラックカンパニー__安村洋平": {
+    "status": "ongoing",
+    "reason": "最新巻が4ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__スレイヤーズ__神坂一": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率106%"
+  },
+  "manga__賢者の孫__吉岡剛": {
+    "status": "ongoing",
+    "reason": "最新巻が5ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__魔法騎士レイアース__clamp": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率125%"
+  },
+  "manga__美少女戦士セーラームーン__武内直子": {
+    "status": "completed",
+    "reason": "最新巻が22年前・巻データ網羅率100%"
+  },
+  "manga__私の推しは悪役令嬢__青乃下": {
+    "status": "ongoing",
+    "reason": "最新巻が2ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__転生王女と天才令嬢の魔法革命__鴉ぴえろ": {
+    "status": "ongoing",
+    "reason": "最新巻が5ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__デートアライブ__橘公司": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率105%"
+  },
+  "manga__地獄先生ぬべ__真倉翔": {
+    "status": "ongoing",
+    "reason": "最新巻が5ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__恐怖新聞__つのだじろう": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率122%"
+  },
+  "manga__エコエコアザラク__古賀新一": {
+    "status": "completed",
+    "reason": "最新巻が27年前・巻データ網羅率110%"
+  },
+  "manga__怪物王女__光永康則": {
+    "status": "completed",
+    "reason": "最新巻が13年前・巻データ網羅率105%"
+  },
+  "manga__屍鬼__小野不由美": {
+    "status": "completed",
+    "reason": "最新巻が15年前・巻データ網羅率109%"
+  },
+  "manga__惡の華__押見修造": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率173%"
+  },
+  "manga__魔法少女サイト__佐藤健太郎": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率125%"
+  },
+  "manga__うずまき__伊藤潤二": {
+    "status": "completed",
+    "reason": "最新巻が26年前・巻データ網羅率200%"
+  },
+  "manga__血の轍__押見修造": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率129%"
+  },
+  "manga__ハピネス__押見修造": {
+    "status": "completed",
+    "reason": "最新巻が7年前・巻データ網羅率190%"
+  },
+  "manga__わたしは真悟__楳図かずお": {
+    "status": "completed",
+    "reason": "最新巻が16年前・巻データ網羅率190%"
+  },
+  "manga__七夕の国__岩明均": {
+    "status": "completed",
+    "reason": "最新巻が27年前・巻データ網羅率200%"
+  },
+  "manga__ポーの一族__萩尾望都": {
+    "status": "ongoing",
+    "reason": "最新巻が8ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__闇の末裔__松下容子": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率100%"
+  },
+  "manga__百鬼夜行抄__今市子": {
+    "status": "ongoing",
+    "reason": "最新巻が3ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__陰陽師__岡野玲子": {
+    "status": "completed",
+    "reason": "最新巻が20年前・巻データ網羅率108%"
+  },
+  "manga__羊の木__いがらしみきお": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率100%"
+  },
+  "manga__多重人格探偵サイコ__大塚英志": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率100%"
+  },
+  "manga__bleach_モノクロ版__久保帯人": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率100%"
+  },
+  "manga__bleach_カラー版__久保帯人": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率100%"
+  },
+  "manga__borutoボルト_naruto_next_generations__岸本斉史": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率100%"
+  },
+  "manga__borutoボルト_two_blue_vortex__岸本斉史": {
+    "status": "ongoing",
+    "reason": "最新巻が5ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__capeta_新装版__曽田正人": {
+    "status": "ongoing",
+    "reason": "最新巻が12ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__dear_boys_act_ii__八神ひろき": {
+    "status": "completed",
+    "reason": "最新巻が17年前・巻データ網羅率100%"
+  },
+  "manga__dear_boys_act_3__八神ひろき": {
+    "status": "completed",
+    "reason": "最新巻が10年前・巻データ網羅率100%"
+  },
+  "manga__death_note_モノクロ版__大場つぐみ": {
+    "status": "completed",
+    "reason": "最新巻が19年前・巻データ網羅率100%"
+  },
+  "manga__death_note_カラー版__大場つぐみ": {
+    "status": "completed",
+    "reason": "最新巻が19年前・巻データ網羅率100%"
+  },
+  "manga__dr_コトー診療所_公式版__山田貴敏": {
+    "status": "completed",
+    "reason": "最新巻が16年前・巻データ網羅率100%"
+  },
+  "manga__exarm_エクスアーム_リマスター版__hirock": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率100%"
+  },
+  "manga__gto_パラダイスロスト__藤沢とおる": {
+    "status": "ongoing",
+    "reason": "最新巻が1ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__i_s__桂正和": {
+    "status": "completed",
+    "reason": "最新巻が13年前・巻データ網羅率100%"
+  },
+  "manga__major_メジャー__満田拓也": {
+    "status": "completed",
+    "reason": "最新巻が18年前・巻データ網羅率100%"
+  },
+  "manga__pluto_デジタルver__浦沢直樹手治虫": {
+    "status": "completed",
+    "reason": "最新巻が17年前・巻データ網羅率100%"
+  },
+  "manga__psyren_サイレン__岩代俊明": {
+    "status": "completed",
+    "reason": "最新巻が15年前・巻データ網羅率100%"
+  },
+  "manga__re_ゼロから始める異世界生活_第二章_屋敷の一週間編__長月達平reゼロから": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率100%"
+  },
+  "manga__re_ゼロから始める異世界生活氷結の絆__長月達平": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率100%"
+  },
+  "manga__re_ゼロから始める異世界生活_氷結の絆__長月達平reゼロから": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率100%"
+  },
+  "manga__spy_family_カラー版__遠藤達哉": {
+    "status": "ongoing",
+    "reason": "最新巻が3ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__to_loveる_とらぶる_ダークネス_カラー版__矢吹健太朗": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率100%"
+  },
+  "manga__to_loveる_とらぶる_カラー版__矢吹健太朗": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率100%"
+  },
+  "manga__to_loveる_とらぶる_ダークネス_モノクロ版__矢吹健太朗": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率100%"
+  },
+  "manga__web版_working__高津カリノ": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率100%"
+  },
+  "manga__アイシールド21__村田雄介": {
+    "status": "completed",
+    "reason": "最新巻が21年前・巻データ網羅率100%"
+  },
+  "manga__アウターゾーン__光原伸": {
+    "status": "completed",
+    "reason": "最新巻が20年前・巻データ網羅率107%"
+  },
+  "manga__アクセルワールド__合鴨ひろゆき": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率100%"
+  },
+  "manga__たまのこしいれ_アシガールedo__森本梢子": {
+    "status": "ongoing",
+    "reason": "最新巻が9ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__あしたのジョー__高森朝雄": {
+    "status": "completed",
+    "reason": "最新巻が23年前・巻データ網羅率100%"
+  },
+  "manga__ありふれた職業で世界最強__": {
+    "status": "ongoing",
+    "reason": "最新巻が11ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ありふれた職業で世界最強零__神地あたる": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率100%"
+  },
+  "manga__アンサングシンデレラ病院薬剤師葵みどり__荒井ママレ": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率100%"
+  },
+  "manga__アンサングシンデレラ_病院薬剤師_葵みどり__荒井ママレ": {
+    "status": "ongoing",
+    "reason": "最新巻が11ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__いちご100_カラー版__河下水希": {
+    "status": "completed",
+    "reason": "最新巻が20年前・巻データ網羅率100%"
+  },
+  "manga__いちご100_モノクロ版__河下水希": {
+    "status": "completed",
+    "reason": "最新巻が20年前・巻データ網羅率100%"
+  },
+  "manga__いちご100__河下水希": {
+    "status": "completed",
+    "reason": "最新巻が13年前・巻データ網羅率100%"
+  },
+  "manga__ヴァニタスの手記_カルテ__望月淳": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率100%"
+  },
+  "manga__新世紀エヴァンゲリオン__貞本義行": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率121%"
+  },
+  "manga__愛蔵版_新世紀エヴァンゲリオン__貞本義行": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率100%"
+  },
+  "manga__エコエコアザラクii__古賀新一": {
+    "status": "completed",
+    "reason": "最新巻が28年前・巻データ網羅率100%"
+  },
+  "manga__かぐや様は告らせたい天才たちの恋愛頭脳戦__赤坂アカ": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率100%"
+  },
+  "manga__かぐや様は告らせたい天才たちの恋愛頭脳戦_カラー版__赤坂アカ": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率100%"
+  },
+  "manga__カラダ探し__ウェルザード": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率100%"
+  },
+  "manga__カラダ探し_解__ウェルザード": {
+    "status": "completed",
+    "reason": "最新巻が7年前・巻データ網羅率100%"
+  },
+  "manga__増田こうすけ劇場ギャグマンガ日和gb__増田こうすけ": {
+    "status": "ongoing",
+    "reason": "最新巻が8ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__増田こうすけ劇場_ギャグマンガ日和__増田こうすけ": {
+    "status": "completed",
+    "reason": "最新巻が13年前・巻データ網羅率100%"
+  },
+  "manga__増田こうすけ劇場_ギャグマンガ日和gb__増田こうすけ": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率100%"
+  },
+  "manga__キャプテン翼_kids_dream__戸田邦和": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率100%"
+  },
+  "manga__クロスゲーム__あだち充": {
+    "status": "completed",
+    "reason": "最新巻が10年前・巻データ網羅率100%"
+  },
+  "manga__ゲゲゲの鬼太郎_水木しげる漫画大全集__水木しげる": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率100%"
+  },
+  "manga__ゴブリンスレイヤー外伝_イヤーワン__蝸牛くもga文庫クリ": {
+    "status": "ongoing",
+    "reason": "最新巻が7ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ゴブリンスレイヤー_ブランニューデイ__蝸牛くもga文庫クリ": {
+    "status": "completed",
+    "reason": "最新巻が7年前・巻データ網羅率100%"
+  },
+  "manga__ゴブリンスレイヤー__蝸牛くもga文庫sb": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率100%"
+  },
+  "manga__シドニアの騎士__弐瓶勉": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率127%"
+  },
+  "manga__新装版_シドニアの騎士__弐瓶勉": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率100%"
+  },
+  "manga__シャーマンキングflowers__武井宏之": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率100%"
+  },
+  "manga__シャーマンキング完全版__武井宏之": {
+    "status": "completed",
+    "reason": "最新巻が17年前・巻データ網羅率100%"
+  },
+  "manga__ジョジョの奇妙な冒険_クレイジーdの悪霊的失恋__カラスマタスク": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率100%"
+  },
+  "manga__スライム倒して300年_知らないうちにレベルmaxになってました__森田季節gaノベルs": {
+    "status": "ongoing",
+    "reason": "最新巻が7ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__センゴク権兵衛__宮下英樹": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率100%"
+  },
+  "manga__センゴク一統記__宮下英樹": {
+    "status": "completed",
+    "reason": "最新巻が10年前・巻データ網羅率100%"
+  },
+  "manga__ソードアートオンラインプログレッシブ__川原礫": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率100%"
+  },
+  "manga__ソードアートオンラインユナイタルリング__カネツキマサト": {
+    "status": "ongoing",
+    "reason": "最新巻が6ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ドラゴンクエスト_ダイの大冒険_新装彩録版__三条陸": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率100%"
+  },
+  "manga__ドラゴンクエスト_ダイの大冒険_勇者アバンと獄炎の魔王__三条陸": {
+    "status": "ongoing",
+    "reason": "最新巻が2ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__dragon_quest_ドラゴンクエスト_ダイの大冒険__三条陸": {
+    "status": "completed",
+    "reason": "最新巻が23年前・巻データ網羅率100%"
+  },
+  "manga__ダイヤのa_act2__寺嶋裕二": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率100%"
+  },
+  "manga__タッチ_ポスターコレクション__あだち充": {
+    "status": "ongoing",
+    "reason": "最新巻が7ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__タッチ_完全復刻版__あだち充": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率100%"
+  },
+  "manga__ダンジョンに出会いを求めるのは間違っているだろうか__大森藤ノga文庫sb": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率100%"
+  },
+  "manga__ちいかわ_なんか小さくてかわいいやつ__ナガノ": {
+    "status": "ongoing",
+    "reason": "最新巻が8ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__チェーザレ__惣領冬実": {
+    "status": "completed",
+    "reason": "最新巻が13年前・巻データ網羅率100%"
+  },
+  "manga__チェンソーマン_カラー版__藤本タツキ": {
+    "status": "ongoing",
+    "reason": "最新巻が1ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ツバサ__clamp": {
+    "status": "completed",
+    "reason": "最新巻が17年前・巻データ網羅率100%"
+  },
+  "manga__新テニスの王子様__許斐剛": {
+    "status": "ongoing",
+    "reason": "最新巻が1ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__デビルマンサーガ__永井豪とダイナミック": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率100%"
+  },
+  "manga__デュラララ_罪歌編__成田良悟電撃文庫デュ": {
+    "status": "completed",
+    "reason": "最新巻が13年前・巻データ網羅率100%"
+  },
+  "manga__テラフォーマーズ__橘賢一": {
+    "status": "completed",
+    "reason": "最新巻が7年前・巻データ網羅率100%"
+  },
+  "manga__とある魔術の禁書目録__鎌池和馬": {
+    "status": "ongoing",
+    "reason": "最新巻が5ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ドカベンスーパースターズ編__水島新司": {
+    "status": "completed",
+    "reason": "最新巻が13年前・巻データ網羅率100%"
+  },
+  "manga__ドカベンプロ野球編__水島新司": {
+    "status": "completed",
+    "reason": "最新巻が22年前・巻データ網羅率100%"
+  },
+  "manga__ドメスティックな彼女__流石景": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率100%"
+  },
+  "manga__トライガンマキシマム__内藤泰弘": {
+    "status": "completed",
+    "reason": "最新巻が18年前・巻データ網羅率129%"
+  },
+  "manga__藤子f不二雄大全集大長編ドラえもん__藤子・f・不二雄": {
+    "status": "completed",
+    "reason": "最新巻が14年前・巻データ網羅率100%"
+  },
+  "manga__ドラえもん__藤子・・不二雄": {
+    "status": "completed",
+    "reason": "最新巻が13年前・巻データ網羅率100%"
+  },
+  "manga__ドラゴン桜2__三田紀房": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率100%"
+  },
+  "manga__トリコ_モノクロ版__島袋光年": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率100%"
+  },
+  "manga__トリリオンゲーム_単話__稲垣理一郎": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率100%"
+  },
+  "manga__ニセコイ__古味直志": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率100%"
+  },
+  "manga__のだめカンタービレ_新装版__二ノ宮知子": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率100%"
+  },
+  "manga__ハイスクール奇面組__新沢基栄": {
+    "status": "completed",
+    "reason": "最新巻が24年前・巻データ網羅率100%"
+  },
+  "manga__バクマン_モノクロ版__大場つぐみ": {
+    "status": "completed",
+    "reason": "最新巻が14年前・巻データ網羅率100%"
+  },
+  "manga__バクマン__小畑健": {
+    "status": "completed",
+    "reason": "最新巻が14年前・巻データ網羅率100%"
+  },
+  "manga__ハチミツとクローバー__羽海野チカ": {
+    "status": "completed",
+    "reason": "最新巻が18年前・巻データ網羅率108%"
+  },
+  "manga__ハヤテのごとく_完全版__畑健二郎": {
+    "status": "ongoing",
+    "reason": "最新巻が5ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__もうひとつのピアノの森_整う音__一色まこと": {
+    "status": "ongoing",
+    "reason": "最新巻が7ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ひぐらしのなく頃に解_目明し編__竜騎士07": {
+    "status": "completed",
+    "reason": "最新巻が19年前・巻データ網羅率100%"
+  },
+  "manga__ひぐらしのなく頃に_宵越し編__竜騎士07": {
+    "status": "completed",
+    "reason": "最新巻が18年前・巻データ網羅率100%"
+  },
+  "manga__ピューと吹く_ジャガー_モノクロ版__うすた京介": {
+    "status": "completed",
+    "reason": "最新巻が15年前・巻データ網羅率100%"
+  },
+  "manga__ピューと吹く_ジャガー_カラー版__うすた京介": {
+    "status": "completed",
+    "reason": "最新巻が15年前・巻データ網羅率100%"
+  },
+  "manga__ピンポンフルゲームの__松本大洋": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率100%"
+  },
+  "manga__フラジャイル__恵三朗": {
+    "status": "ongoing",
+    "reason": "最新巻が4ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__フルーツバスケットanother__高屋奈月": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率100%"
+  },
+  "manga__カラー版_フルーツバスケット__高屋奈月": {
+    "status": "completed",
+    "reason": "最新巻が20年前・巻データ網羅率100%"
+  },
+  "manga__ブルーロックepisode_凪__金城宗幸": {
+    "status": "ongoing",
+    "reason": "最新巻が11ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ポーの一族_秘密の花園__萩尾望都": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率100%"
+  },
+  "manga__ボールルームへようこそ__竹内友": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率100%"
+  },
+  "manga__完全版_ぼくらの__鬼頭莫宏": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率100%"
+  },
+  "manga__マギ_シンドバッドの冒険__大高忍": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率100%"
+  },
+  "manga__ミュージアム__巴亮介": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率100%"
+  },
+  "manga__みゆき__あだち充": {
+    "status": "completed",
+    "reason": "最新巻が36年前・巻データ網羅率100%"
+  },
+  "manga__めぞん一刻_新装版__高橋留美子": {
+    "status": "completed",
+    "reason": "最新巻が18年前・巻データ網羅率100%"
+  },
+  "manga__めだかボックス_モノクロ版__西尾維新": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率100%"
+  },
+  "manga__め組の大吾_救国のオレンジ__曽田正人": {
+    "status": "ongoing",
+    "reason": "最新巻が11ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__め組の大吾救国のオレンジ__曽田正人": {
+    "status": "ongoing",
+    "reason": "最新巻が11ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__モブサイコ100__": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率100%"
+  },
+  "manga__新装版もやしもん__石川雅之": {
+    "status": "ongoing",
+    "reason": "最新巻が4ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__モンキーピーク_the_rock__志名坂高次": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率100%"
+  },
+  "manga__やはり俺の青春ラブコメはまちがっている__渡航": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率100%"
+  },
+  "manga__ゆびさきと恋__森下": {
+    "status": "ongoing",
+    "reason": "最新巻が8ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__ゆらぎ荘の幽奈さん_カラー版__ミウラタダヒロ": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率100%"
+  },
+  "manga__期間限定_無料お試し版_ヨルムンガンド__高橋慶太郎": {
+    "status": "completed",
+    "reason": "最新巻が18年前・巻データ網羅率100%"
+  },
+  "manga__ヨルムンガンド傑作選__高橋慶太郎": {
+    "status": "completed",
+    "reason": "最新巻が13年前・巻データ網羅率100%"
+  },
+  "manga__ラブひな__赤松健": {
+    "status": "completed",
+    "reason": "最新巻が24年前・巻データ網羅率100%"
+  },
+  "manga__新装版_ラブひな__赤松健": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率100%"
+  },
+  "manga__リングにかけろ1__車田正美": {
+    "status": "completed",
+    "reason": "最新巻が24年前・巻データ網羅率100%"
+  },
+  "manga__ルパン三世m__モンキー・パンチ": {
+    "status": "completed",
+    "reason": "最新巻が16年前・巻データ網羅率100%"
+  },
+  "manga__るろうに剣心_明治剣客浪漫譚北海道編__和月伸宏": {
+    "status": "ongoing",
+    "reason": "最新巻が6ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__るろうに剣心_明治剣客浪漫譚_モノクロ版__和月伸宏": {
+    "status": "completed",
+    "reason": "最新巻が30年前・巻データ網羅率100%"
+  },
+  "manga__れっつ_ハイキュー__レツ": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率100%"
+  },
+  "manga__ロードス島戦記_灰色の魔女__たくま朋正": {
+    "status": "completed",
+    "reason": "最新巻が11年前・巻データ網羅率100%"
+  },
+  "manga__ワールドトリガー__葦原大介": {
+    "status": "ongoing",
+    "reason": "最新巻が7ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__悪魔の花嫁_最終章__あしべゆうほ": {
+    "status": "completed",
+    "reason": "最新巻が15年前・巻データ網羅率100%"
+  },
+  "manga__異世界失格_単話__野田宏": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率100%"
+  },
+  "manga__行け_稲中卓球部__古谷実": {
+    "status": "completed",
+    "reason": "最新巻が14年前・巻データ網羅率111%"
+  },
+  "manga__元祖_浦安鉄筋家族__浜岡賢次": {
+    "status": "completed",
+    "reason": "最新巻が16年前・巻データ網羅率100%"
+  },
+  "manga__毎度_浦安鉄筋家族__浜岡賢次": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率100%"
+  },
+  "manga__あっぱれ_浦安鉄筋家族__浜岡賢次": {
+    "status": "ongoing",
+    "reason": "最新巻が7ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__運命の巻戻士__木村風太": {
+    "status": "ongoing",
+    "reason": "最新巻が7ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__愛蔵版_花ざかりの君たちへ__中条比紗也": {
+    "status": "completed",
+    "reason": "最新巻が18年前・巻データ網羅率100%"
+  },
+  "manga__花の慶次_雲のかなたに_新装版__隆慶一郎": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率100%"
+  },
+  "manga__怪物王女ナイトメア__光永康則": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率114%"
+  },
+  "manga__岳__石塚真一": {
+    "status": "completed",
+    "reason": "最新巻が13年前・巻データ網羅率100%"
+  },
+  "manga__干物妹_うまるちゃんg__サンカクヘッド": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率100%"
+  },
+  "manga__顔だけじゃ好きになりません_通常版_電子限定おまけ付き__安斎かりん": {
+    "status": "ongoing",
+    "reason": "最新巻が4ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__顔だけじゃ好きになりません_電子限定おまけ付き__安斎かりん": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率100%"
+  },
+  "manga__究極超人あ_る__ゆうきまさみ": {
+    "status": "completed",
+    "reason": "最新巻が35年前・巻データ網羅率100%"
+  },
+  "manga__金色のガッシュ_2__雷句誠": {
+    "status": "ongoing",
+    "reason": "最新巻が6ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__金田一少年の事件簿_file__天樹征丸": {
+    "status": "completed",
+    "reason": "最新巻が21年前・巻データ網羅率100%"
+  },
+  "manga__金田一少年の事件簿_20周年記念シリーズ__天樹征丸": {
+    "status": "completed",
+    "reason": "最新巻が13年前・巻データ網羅率100%"
+  },
+  "manga__金田一少年の事件簿外伝_犯人たちの事件簿__さとうふみや": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率100%"
+  },
+  "manga__銀の匙_silver_spoon__荒川弘": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率100%"
+  },
+  "manga__銀魂_カラー版__空知英秋": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率100%"
+  },
+  "manga__五等分の花嫁_フルカラー版__春場ねぎ": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率100%"
+  },
+  "manga__黒子のバスケ_replace_plus__高橋一郎": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率100%"
+  },
+  "manga__黒子のバスケ_カラー版__藤巻忠俊": {
+    "status": "completed",
+    "reason": "最新巻が11年前・巻データ網羅率100%"
+  },
+  "manga__今際の国のアリス_retry__麻生羽呂": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率100%"
+  },
+  "manga__左ききのエレン__かっぴー": {
+    "status": "ongoing",
+    "reason": "最新巻が2ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__桜蘭高校ホスト部_クラブ__葉鳥ビスコ": {
+    "status": "completed",
+    "reason": "最新巻が15年前・巻データ網羅率100%"
+  },
+  "manga__カジュアルワイド三国志__横山光輝": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率100%"
+  },
+  "manga__屍鬼__藤崎竜": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率100%"
+  },
+  "manga__七海みなみは輝きたい_弱キャラ友崎くん外伝__屋久ユウキ": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率100%"
+  },
+  "manga__弱キャラ友崎くんcomic__屋久ユウキ小学館ガガ": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率100%"
+  },
+  "manga__修羅の門_第弐門__川原正敏": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率100%"
+  },
+  "manga__修羅の門第弐門__川原正敏": {
+    "status": "completed",
+    "reason": "最新巻が11年前・巻データ網羅率100%"
+  },
+  "manga__終わりのセラフ__鏡貴也": {
+    "status": "ongoing",
+    "reason": "最新巻が2ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__終末のハーレム_セミカラー版__link": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率100%"
+  },
+  "manga__終末のハーレム__宵野コタロー": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率100%"
+  },
+  "manga__少女終末旅行__つくみず": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率100%"
+  },
+  "manga__食戟のソーマ__佐伯俊": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率100%"
+  },
+  "manga__食糧人類starving_anonymous__イナベカズ": {
+    "status": "completed",
+    "reason": "最新巻が7年前・巻データ網羅率100%"
+  },
+  "manga__食糧人類re_starving_re_velation__イナベカズ": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率100%"
+  },
+  "manga__信長のシェフ__西村ミツル": {
+    "status": "completed",
+    "reason": "最新巻が11年前・巻データ網羅率108%"
+  },
+  "manga__新クロサギ__黒丸": {
+    "status": "completed",
+    "reason": "最新巻が13年前・巻データ網羅率100%"
+  },
+  "manga__神さまの言うとおり弐__金城宗幸": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率100%"
+  },
+  "manga__神様はじめました__鈴木ジュリエッタ": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率100%"
+  },
+  "manga__グラップラー刃牙__板垣恵介": {
+    "status": "completed",
+    "reason": "最新巻が26年前・巻データ網羅率100%"
+  },
+  "manga__刃牙らへん__板垣恵介": {
+    "status": "ongoing",
+    "reason": "最新巻が5ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__世紀末リーダー伝たけし_ワイド判__島袋光年": {
+    "status": "completed",
+    "reason": "最新巻が20年前・巻データ網羅率100%"
+  },
+  "manga__青の祓魔師_カラー版__加藤和恵": {
+    "status": "ongoing",
+    "reason": "最新巻が2ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__愛蔵版赤ちゃんと僕__羅川真里茂": {
+    "status": "completed",
+    "reason": "最新巻が15年前・巻データ網羅率100%"
+  },
+  "manga__戦国妖狐新装版__水上悟志": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率100%"
+  },
+  "manga__探偵学園q__天樹征丸": {
+    "status": "completed",
+    "reason": "最新巻が18年前・巻データ網羅率105%"
+  },
+  "manga__地獄先生ぬべneo__真倉翔": {
+    "status": "completed",
+    "reason": "最新巻が7年前・巻データ網羅率100%"
+  },
+  "manga__墜落jkと廃人教師__": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率100%"
+  },
+  "manga__墜落jkと廃人教師_通常版__": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率100%"
+  },
+  "manga__釣りキチ三平__矢口高雄": {
+    "status": "completed",
+    "reason": "最新巻が39年前・巻データ網羅率100%"
+  },
+  "manga__愛蔵版天使禁猟区__由貴香織里": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率100%"
+  },
+  "manga__電撃デイジー__最富キョウスケ": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率106%"
+  },
+  "manga__フルカラー版_賭ケグルイ__河本ほむら": {
+    "status": "ongoing",
+    "reason": "最新巻が4ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__課長_島耕作__弘兼憲史": {
+    "status": "completed",
+    "reason": "最新巻が33年前・巻データ網羅率100%"
+  },
+  "manga__課長島耕作__弘兼憲史": {
+    "status": "completed",
+    "reason": "最新巻が18年前・巻データ網羅率100%"
+  },
+  "manga__東京タラレバ娘_シーズン2__東村アキコ": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率100%"
+  },
+  "manga__東京喰種トーキョーグール_re__石田スイ": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率100%"
+  },
+  "manga__凪のお暇_分冊版__コナリミサト": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率100%"
+  },
+  "manga__彼岸島_48日後__松本光司": {
+    "status": "ongoing",
+    "reason": "最新巻が1ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__美少女戦士セーラームーン_完全版__武内直子": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率100%"
+  },
+  "manga__美少女戦士セーラームーン完全版__武内直子": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率100%"
+  },
+  "manga__漂流教室_文庫版__楳図かずお": {
+    "status": "completed",
+    "reason": "最新巻が27年前・巻データ網羅率100%"
+  },
+  "manga__封神演義__藤崎竜": {
+    "status": "completed",
+    "reason": "最新巻が25年前・巻データ網羅率100%"
+  },
+  "manga__封神演義_カラー版__藤崎竜": {
+    "status": "completed",
+    "reason": "最新巻が25年前・巻データ網羅率100%"
+  },
+  "manga__風雲児たち幕末編__みなもと太郎": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率100%"
+  },
+  "manga__風魔の小次郎究極最終版__車田正美": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率100%"
+  },
+  "manga__平和の国の島崎へ__濱田轟天": {
+    "status": "ongoing",
+    "reason": "最新巻が3ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__変な家_連載版__雨穴飛鳥新社刊": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率100%"
+  },
+  "manga__僕のヒーローアカデミアすまっしゅ__根田啓史": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率100%"
+  },
+  "manga__魔人探偵脳噛ネウロ_モノクロ版__松井優征": {
+    "status": "completed",
+    "reason": "最新巻が16年前・巻データ網羅率100%"
+  },
+  "manga__魔人探偵脳噛ネウロ_カラー版__松井優征": {
+    "status": "completed",
+    "reason": "最新巻が16年前・巻データ網羅率100%"
+  },
+  "manga__魔都精兵のスレイブ__タカヒロ": {
+    "status": "ongoing",
+    "reason": "最新巻が1ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__魔都精兵のスレイブ_セミカラー版__タカヒロ": {
+    "status": "completed",
+    "reason": "最新巻が5年前・巻データ網羅率75%"
+  },
+  "manga__魔法科高校の劣等生_appendix__佐島勤": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率100%"
+  },
+  "manga__clamp_premium_collection_魔法騎士レイアース2__clamp": {
+    "status": "completed",
+    "reason": "最新巻が3年前・巻データ網羅率100%"
+  },
+  "manga__魔法騎士レイアース2__": {
+    "status": "completed",
+    "reason": "最新巻が23年前・巻データ網羅率100%"
+  },
+  "manga__魔法騎士レイアース__": {
+    "status": "completed",
+    "reason": "最新巻が23年前・巻データ網羅率100%"
+  },
+  "manga__魔法少女サイトsept__佐藤健太郎": {
+    "status": "completed",
+    "reason": "最新巻が7年前・巻データ網羅率100%"
+  },
+  "manga__マギアレコード魔法少女まどか_マギカ外伝__magicaquar": {
+    "status": "ongoing",
+    "reason": "最新巻が7ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__魔法陣グルグル2__衛藤ヒロユキ": {
+    "status": "ongoing",
+    "reason": "最新巻が8ヶ月前(閾値12ヶ月以内)"
+  },
+  "manga__無職転生_異世界行ったら本気だす__理不尽な孫の手": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率100%"
+  },
+  "manga__名探偵コナン犯人の犯沢さん__かんばまゆこ": {
+    "status": "completed",
+    "reason": "最新巻が6年前・巻データ網羅率100%"
+  },
+  "manga__羊の木__山上たつひこ": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率120%"
+  },
+  "manga__恋愛フロップス__石坂リューダイ": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率100%"
+  },
+  "manga__狼と香辛料__小梅けいと": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率100%"
+  },
+  "novel__殺戮にいたる病__我孫子武丸": {
+    "status": "completed",
+    "reason": "最新巻が8年前・巻データ網羅率100%"
+  },
+  "novel__アンドロイドは電気羊の夢を見るか__フィリップ・k・ディ": {
+    "status": "completed",
+    "reason": "最新巻が49年前・巻データ網羅率100%"
+  },
+  "novel__銀河鉄道の夜__宮沢賢治": {
+    "status": "completed",
+    "reason": "最新巻が2年前・巻データ網羅率100%"
+  },
+  "novel__蹴りたい背中__綿矢りさ": {
+    "status": "completed",
+    "reason": "最新巻が19年前・巻データ網羅率100%"
+  },
+  "novel__天地明察__冲方丁": {
+    "status": "completed",
+    "reason": "最新巻が10年前・巻データ網羅率122%"
+  },
+  "novel__のぼうの城__和田竜": {
+    "status": "completed",
+    "reason": "最新巻が15年前・巻データ網羅率167%"
+  },
+  "novel__村上海賊の娘__和田竜": {
+    "status": "completed",
+    "reason": "最新巻が7年前・巻データ網羅率108%"
+  },
+  "novel__ブレイブストーリー__宮部みゆき": {
+    "status": "completed",
+    "reason": "最新巻が20年前・巻データ網羅率117%"
+  },
+  "novel__鹿の王__上橋菜穂子": {
+    "status": "completed",
+    "reason": "最新巻が9年前・巻データ網羅率150%"
+  },
+  "novel__all_you_need_is_kill__桜坂洋": {
+    "status": "completed",
+    "reason": "最新巻が12年前・巻データ網羅率150%"
+  },
+  "novel__後宮の烏__白川紺子": {
+    "status": "completed",
+    "reason": "最新巻が4年前・巻データ網羅率114%"
+  }
+}

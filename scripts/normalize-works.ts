@@ -409,6 +409,7 @@ for (const [workId, entries] of groups.entries()) {
     publisherMain: representative.publisher,
     summaryShort: summariesSupplement[workId] ?? moodRep?.recommendationCatch,
     status,
+    ...(status !== "unknown" ? { statusSource: "explicit" as const } : {}),
     volumeCount: volumeCountPatches[workId] ?? workVolumes.length,
     firstPublishedDate: dates[0],
     latestPublishedDate: dates[dates.length - 1],
@@ -534,6 +535,36 @@ const volumesSupplement: Record<string, VolumeSupplementEntry> = existsSync(volu
       `NDLサプリメント適用: ISBN補完 ${filledIsbn}巻 / 発売日補完 ${filledDate}巻 / 巻追加 ${addedVolumes}巻 / ` +
         `volumeCount更新 ${updatedCounts}作品 / 範囲外のため除外 ${skippedOutOfRange}巻`,
     );
+  }
+}
+
+// ── 完結/連載ステータスのパッチ適用 ───────────────────────────────
+// data/status-patches.json (infer-work-status.ts で生成) を適用する。
+// status が "unknown" のままの作品にのみ適用し、moodTags 由来の
+// 明示的な status は絶対に上書きしない。
+// ※ infer-work-status.ts は上記の巻データマージ後の works.json/volumes.json を
+//   読んで生成するため、このパッチは常に「前回の normalize 実行結果」に対する
+//   ものになる(volumes-supplement.json と同じ2段階の運用)。
+
+type StatusPatchEntry = { status: WorkStatus; reason: string };
+
+const statusPatchesPath = join(process.cwd(), "data", "status-patches.json");
+const statusPatches: Record<string, StatusPatchEntry> = existsSync(statusPatchesPath)
+  ? JSON.parse(readFileSync(statusPatchesPath, "utf-8"))
+  : {};
+
+{
+  let applied = 0;
+  for (const work of works) {
+    if (work.status !== "unknown") continue;
+    const patch = statusPatches[work.workId];
+    if (!patch) continue;
+    work.status = patch.status;
+    work.statusSource = "inferred";
+    applied++;
+  }
+  if (Object.keys(statusPatches).length > 0) {
+    console.log(`ステータス推定パッチ適用: ${applied}作品`);
   }
 }
 

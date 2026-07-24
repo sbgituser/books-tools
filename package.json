@@ -37,6 +37,8 @@
     "enrich:volumes": "tsx scripts/enrich-volumes-ndl.ts",
     "enrich:volumes:dry": "tsx scripts/enrich-volumes-ndl.ts --dry-run",
     "enrich:apply": "tsx scripts/apply-volume-enrichment.ts",
+    "infer:status": "tsx scripts/infer-work-status.ts",
+    "infer:status:dry": "tsx scripts/infer-work-status.ts --dry-run",
     "generate:discover-candidates": "tsx scripts/generate-discover-candidates.ts",
     "generate:discover-curated": "tsx scripts/generate-discover-curated.ts",
     "collect:discover": "npm run generate:discover-candidates && npm run generate:discover-curated"

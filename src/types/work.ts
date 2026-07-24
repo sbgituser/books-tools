@@ -41,6 +41,8 @@ export interface Work {
   summaryShort?: string;
   description?: string;
   status: WorkStatus;
+  /** status の根拠。"explicit"=元データで明示、"inferred"=巻の発売日から推定、未設定=不明時代からのデータ */
+  statusSource?: "explicit" | "inferred";
   volumeCount: number;
   firstPublishedDate?: string;
   latestPublishedDate?: string;
