@@ -16,7 +16,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { getAllBlogMeta } from "../src/lib/blog";
-import { resolveBlogSeo } from "../src/lib/seoPolicy";
+import { resolveBlogSeo, isWorkThinContent } from "../src/lib/seoPolicy";
 import { PROTECTED_BLOG_PAGES } from "../src/data/seo-protected-pages";
 import { SITE_URL } from "../src/lib/site";
 import { READING_SCENES } from "../src/constants/readingScenes";
@@ -98,7 +98,17 @@ function getIndexableWorks(): { summary: WorkEntry[]; tagsOnly: WorkEntry[] } {
         const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
         const hasSummary = Boolean((data.summaryShort ?? "").trim());
         const hasTags = (data.discoveryTags?.length ?? 0) > 0;
-        if (!hasSummary && !hasTags) continue;
+        const volumesWithIsbnCount = ((data.volumes ?? []) as Array<{ isbn13?: string }>).filter(
+          (v) => v.isbn13,
+        ).length;
+        const isThin = isWorkThinContent({
+          summaryShort: data.summaryShort,
+          discoveryTags: data.discoveryTags ?? [],
+          volumeCount: data.volumeCount ?? 1,
+          statusSource: data.statusSource,
+          volumesWithIsbnCount,
+        });
+        if (isThin) continue;
 
         const stat = fs.statSync(filePath);
         const lastmod = stat.mtime.toISOString().substring(0, 10);
@@ -107,6 +117,7 @@ function getIndexableWorks(): { summary: WorkEntry[]; tagsOnly: WorkEntry[] } {
         if (hasSummary) {
           summary.push({ id, lastmod, priority: 0.6 });
         } else {
+          // タグはないが巻データが充実している、または明示/推定ステータスがある作品
           tagsOnly.push({ id, lastmod, priority: 0.4 });
         }
       } catch {
@@ -181,6 +192,7 @@ function main() {
     ),
     // コレクション
     urlEntry(`${SITE_URL}/collections/adventure-manga`, today, "weekly", 0.8),
+    urlEntry(`${SITE_URL}/collections/completed-manga`, today, "weekly", 0.8),
     urlEntry(`${SITE_URL}/tools/literary-awards`, today, "weekly", 0.85),
     ...LITERARY_AWARDS.map((a) =>
       urlEntry(`${SITE_URL}/tools/literary-awards/${a.id}`, today, "monthly", 0.8),

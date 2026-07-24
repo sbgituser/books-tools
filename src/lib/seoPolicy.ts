@@ -157,6 +157,35 @@ export function isProtectedPagePath(path: string): boolean {
   return isProtectedPath(path);
 }
 
+/** 作品ページの薄いコンテンツ判定に必要な最小フィールド */
+export type WorkThinContentInput = {
+  summaryShort?: string;
+  discoveryTags: string[];
+  volumeCount: number;
+  statusSource?: "explicit" | "inferred";
+  volumesWithIsbnCount: number;
+};
+
+/**
+ * 作品ページが「薄いコンテンツ」かどうかを判定する。
+ *
+ * summaryShort・discoveryTags による紹介文がなくても、以下のいずれかを満たせば
+ * 「巻数・ISBN・刊行状況が正確に揃ったデータシート」として独自の情報価値があると判断し、
+ * noindex にしない（Phase 2: T-1180方針の延長で、機械的な文章量ではなく
+ * 構造化データの充実度で品質を判定する）。
+ *   - 複数巻作品で、ISBN確認済みの巻が3件以上ある
+ *   - 完結/連載ステータスが確定している（explicit または inferred）
+ */
+export function isWorkThinContent(work: WorkThinContentInput): boolean {
+  const hasSummary = Boolean(work.summaryShort?.trim());
+  const hasTags = work.discoveryTags.length > 0;
+  if (hasSummary || hasTags) return false;
+
+  const hasRichVolumeData = work.volumeCount >= 2 && work.volumesWithIsbnCount >= 3;
+  const hasConfirmedStatus = Boolean(work.statusSource);
+  return !hasRichVolumeData && !hasConfirmedStatus;
+}
+
 /**
  * protected 対象に対する危険な設定を検出して違反メッセージを返す。
  * 違反がなければ空配列。ビルド時・seo:audit時の安全装置。

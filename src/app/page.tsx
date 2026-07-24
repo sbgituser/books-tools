@@ -443,6 +443,7 @@ export default function HomePage() {
                 { title: "春アニメ原作ガイド全60作品", desc: "2026年4月放送開始アニメの原作漫画・ラノベを完全網羅", href: "/blog/spring-anime-2026-original-manga", emoji: "📺" },
                 { title: "冒険漫画おすすめ厳選20選", desc: "ファンタジー×冒険の名作・最新作を網羅", href: "/collections/adventure-manga", emoji: "⚔️" },
                 { title: "魔法小説おすすめ12選", desc: "ハリー・ポッターから和風ファンタジーまで", href: "/blog/magic-fantasy-novel-recommendations", emoji: "✨" },
+                { title: "完結済み漫画を巻数で選ぶ", desc: "全5巻以内〜大長編まで、打ち切りの心配なく読める完結作品", href: "/collections/completed-manga", emoji: "✅" },
               ].map((item) => (
                 <Link
                   key={item.href}

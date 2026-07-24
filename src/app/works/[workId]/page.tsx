@@ -25,6 +25,8 @@ import {
   AUDIBLE_FREE_TRIAL_URL,
 } from "@/lib/site";
 import { getBlogPostsForWork, formatDateLabel } from "@/lib/blog";
+import { isWorkThinContent } from "@/lib/seoPolicy";
+import { READING_SPEEDS } from "@/constants/readingTimeConfig";
 import type { WorkDetail, Volume } from "@/types/work";
 import type { SimilarWorks } from "@/types/similar-works";
 
@@ -89,11 +91,15 @@ export async function generateMetadata({
     .filter(Boolean)
     .join(" ");
 
-  // summaryShort も discoveryTags もない薄いページは noindex にして
-  // サイト全体の品質評価を守る
-  const hasSummary = Boolean(work.summaryShort?.trim());
-  const hasTags = (work.discoveryTags?.length ?? 0) > 0;
-  const isThinContent = !hasSummary && !hasTags;
+  // summaryShort・discoveryTags がなくても、巻数・ISBN・刊行状況が
+  // 確定したデータシートには独自の情報価値があるため noindex にしない
+  const isThinContent = isWorkThinContent({
+    summaryShort: work.summaryShort,
+    discoveryTags: work.discoveryTags ?? [],
+    volumeCount: work.volumeCount,
+    statusSource: work.statusSource,
+    volumesWithIsbnCount: work.volumes.filter((v) => v.isbn13).length,
+  });
 
   return {
     title,
@@ -319,6 +325,26 @@ function getCoverGradient(l2Id?: string): string {
   return L2_COVER_GRADIENT[l2Id ?? ""] ?? "from-stone-400 to-stone-600";
 }
 
+/**
+ * 巻のpageCount合計から読了時間の目安を算出する。
+ * pageCountが判明している巻が1件もない場合はnullを返す。
+ */
+function estimateReadingMinutes(work: WorkDetail): number | null {
+  const totalPages = work.volumes.reduce((sum, v) => sum + (v.pageCount ?? 0), 0);
+  if (totalPages === 0) return null;
+  const speedConfig = READING_SPEEDS.find((s) => s.type === work.type);
+  if (!speedConfig) return null;
+  return Math.round(totalPages / speedConfig.speeds.average.pagesPerMinute);
+}
+
+function formatReadingMinutes(minutes: number): string {
+  const hours = Math.floor(minutes / 60);
+  const mins = minutes % 60;
+  if (hours === 0) return `約${mins}分`;
+  if (mins === 0) return `約${hours}時間`;
+  return `約${hours}時間${mins}分`;
+}
+
 function generateWorkFAQs(work: WorkDetail): { q: string; a: string }[] {
   const faqs: { q: string; a: string }[] = [];
   const typeLabel = work.type === "manga" ? "漫画" : "小説";
@@ -348,7 +374,15 @@ function generateWorkFAQs(work: WorkDetail): { q: string; a: string }[] {
     a: `Amazon・Kindleで${typeLabel}版が購入できます。Kindle Unlimitedの対象作品であれば読み放題でお楽しみいただけます${work.type === "novel" ? "。また、Audibleでオーディオブックとして聴くこともできます" : ""}。`,
   });
 
-  return faqs.slice(0, 3);
+  const readingMinutes = estimateReadingMinutes(work);
+  if (readingMinutes !== null) {
+    faqs.push({
+      q: `『${work.title}』を読むのにどれくらい時間がかかりますか？`,
+      a: `全${work.volumeCount > 1 ? `${work.volumeCount}巻` : "巻"}で読了時間は${formatReadingMinutes(readingMinutes)}が目安です（平均的な読書速度で計算）。`,
+    });
+  }
+
+  return faqs.slice(0, 4);
 }
 
 export default async function WorkDetailPage({
@@ -375,6 +409,7 @@ export default async function WorkDetailPage({
 
   const workUrl = `${SITE_URL}/works/${fileId}`;
 
+  const readingMinutes = estimateReadingMinutes(work);
   const workFAQs = generateWorkFAQs(work);
   const recommendsForUser = work.discoveryTags
     .map(tag => TAG_TO_RECOMMEND[tag])
@@ -408,9 +443,12 @@ export default async function WorkDetailPage({
       url: `${SITE_URL}/works/${item.fileId}`,
     })) ?? [];
 
+  // 複数巻シリーズは BookSeries、単巻は Book として構造化する。
+  // 単巻の場合はISBNが判明していれば付与する(従来は巻データがJSON-LDに一切反映されていなかった)
+  const singleVolumeIsbn = work.volumeCount === 1 ? work.volumes[0]?.isbn13 : undefined;
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Book",
+    "@type": work.volumeCount > 1 ? "BookSeries" : "Book",
     name: work.title,
     author: work.authors.map((a) => ({ "@type": "Person", name: a })),
     ...(work.publisherMain
@@ -418,7 +456,9 @@ export default async function WorkDetailPage({
       : {}),
     ...(work.summaryShort ? { description: work.summaryShort } : {}),
     ...(work.coverImageUrl ? { image: work.coverImageUrl } : {}),
-    bookFormat: "https://schema.org/EBook",
+    ...(work.volumeCount > 1
+      ? { numberOfItems: work.volumeCount }
+      : { bookFormat: "https://schema.org/EBook", ...(singleVolumeIsbn ? { isbn: singleVolumeIsbn } : {}) }),
     ...(work.l2Id ? { genre: L2_LABEL[work.l2Id] ?? work.l2Id } : {}),
     url: workUrl,
     ...(relatedLinks.length > 0 ? { isRelatedTo: relatedLinks } : {}),
@@ -529,6 +569,11 @@ export default async function WorkDetailPage({
                   {work.volumeCount > 1 && (
                     <span className="text-xs font-bold px-2.5 py-1 rounded-full bg-stone-100 text-stone-600">
                       全{work.volumeCount}巻
+                    </span>
+                  )}
+                  {readingMinutes !== null && (
+                    <span className="text-xs font-bold px-2.5 py-1 rounded-full bg-violet-100 text-violet-700">
+                      📖 読了目安 {formatReadingMinutes(readingMinutes)}
                     </span>
                   )}
                 </div>
