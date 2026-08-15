@@ -53,6 +53,9 @@ export default function Footer() {
             <a href="https://side-job-calc.kuras-plus.com/income-wall" target="_blank" rel="noopener noreferrer" className="block text-stone-400 hover:text-white text-xs transition-colors">
               年収の壁シミュレーション（103万・130万・178万）
             </a>
+            <a href="https://diy-shelf-maker.kuras-plus.com" target="_blank" rel="noopener noreferrer" className="block text-stone-400 hover:text-white text-xs transition-colors">
+              DIY棚シミュレーター — 賃貸でもOKな突っ張り棚の設計ツール
+            </a>
           </nav>
         </div>
 
