@@ -13,6 +13,17 @@ import {
   type FilterValue,
 } from "@/constants/mediaOriginals";
 
+/**
+ * Google Books content API の画像URL(?id=XXX)からbook idを取り出し、
+ * 該当書籍のGoogle Booksページへのリンクを組み立てる。
+ * Googleの画像を表示する場合、該当ページへのリンクが必須(Googleガイドライン)。
+ */
+function googleBooksPageUrlFromThumbnail(thumbnailUrl?: string): string | null {
+  if (!thumbnailUrl) return null;
+  const m = thumbnailUrl.match(/[?&]id=([^&]+)/);
+  return m ? `https://books.google.com/books?id=${m[1]}` : null;
+}
+
 // ── 検索ロジック ──────────────────────────────────────────────
 
 function searchItems(
@@ -103,14 +114,30 @@ function MediaOriginalCard({
         {/* サムネイル */}
         {item.thumbnailUrl && (
           <div className="shrink-0">
-            <Image
-              src={item.thumbnailUrl}
-              alt={item.originalTitle ?? item.mediaTitle}
-              width={56}
-              height={80}
-              className="rounded-md object-cover shadow-sm border border-stone-100"
-              unoptimized
-            />
+            {(() => {
+              const googleBooksUrl = googleBooksPageUrlFromThumbnail(item.thumbnailUrl);
+              const img = (
+                <Image
+                  src={item.thumbnailUrl}
+                  alt={item.originalTitle ?? item.mediaTitle}
+                  width={56}
+                  height={80}
+                  className="rounded-md object-cover shadow-sm border border-stone-100"
+                  unoptimized
+                />
+              );
+              return googleBooksUrl ? (
+                <a
+                  href={googleBooksUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`${item.originalTitle ?? item.mediaTitle}をGoogle Booksで見る`}
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  {img}
+                </a>
+              ) : img;
+            })()}
           </div>
         )}
 

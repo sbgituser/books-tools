@@ -36,6 +36,11 @@ export default function BlogBookInlineCard({ book }: { book: BlogLinkedBook }) {
   );
 
   const coverSrc = coverCandidates[coverIndex] ?? null;
+  // Google Booksの画像を使う場合、Google Booksページへのリンクが必須(Googleガイドライン)。
+  // workIdがある場合は /works/[workId] 側に既にリンクを設置済みのためここでは不要。
+  const googleBooksUrl = book.sourceIds?.googleBooksId
+    ? `https://books.google.com/books?id=${book.sourceIds.googleBooksId}`
+    : null;
 
   const cardContent = (
     <>
@@ -84,6 +89,19 @@ export default function BlogBookInlineCard({ book }: { book: BlogLinkedBook }) {
       >
         {cardContent}
       </Link>
+    );
+  }
+
+  if (googleBooksUrl) {
+    return (
+      <a
+        href={googleBooksUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="my-3 flex items-center gap-3 rounded-xl border border-stone-200 bg-stone-50 p-3 sm:p-4 hover:bg-stone-100 hover:border-stone-300 hover:shadow-sm transition-all duration-200 no-underline group book-card-link"
+      >
+        {cardContent}
+      </a>
     );
   }
 

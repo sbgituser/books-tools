@@ -54,9 +54,11 @@ function MangaCover({ book }: { book: MoodBookEntry }) {
 
   const src = candidates[idx] ?? null;
   const color = L2_COLORS[book.l2Id ?? ""] ?? "bg-stone-200";
+  // Google Booksの画像を使う場合はGoogle Booksページへのリンクが必須(Googleガイドライン)
+  const googleBooksUrl = googleBooksId ? `https://books.google.com/books?id=${googleBooksId}` : null;
 
   if (src) {
-    return (
+    const img = (
       // eslint-disable-next-line @next/next/no-img-element
       <img
         src={src}
@@ -65,6 +67,14 @@ function MangaCover({ book }: { book: MoodBookEntry }) {
         className="w-20 h-28 sm:w-24 sm:h-32 object-cover rounded-lg shadow-md shrink-0"
       />
     );
+    if (googleBooksUrl) {
+      return (
+        <a href={googleBooksUrl} target="_blank" rel="noopener noreferrer" aria-label={`${book.title}をGoogle Booksで見る`}>
+          {img}
+        </a>
+      );
+    }
+    return img;
   }
 
   return (

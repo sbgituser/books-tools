@@ -206,6 +206,33 @@ git add . && git commit -m "feat: ..." && git push origin master
 > curated JSON は `data/scene-curated/` に保存されるため、
 > ビルド時には自動的にバンドルされる。
 
+### 画像・著作権チェックリスト(新しい書影表示箇所を追加する時に必ず確認)
+
+本サイトの書影は **Google Books API**(`books.google.com/books/content?...`)と
+**Open Library**(`covers.openlibrary.org`)から取得している。**Amazon商品画像は一切使用しない**
+(Amazon PA-API/Creators APIは自社サーバーへの保存禁止・改変禁止など制約が厳しく、
+かつ利用にはAmazonアソシエイトの売上実績が必要なため、現状は対象外)。
+
+書影を表示する新しいコンポーネント・ページを追加する場合、以下を必ず満たすこと:
+
+1. **Google Booksの画像を表示するページ・カードには、その書籍のGoogle Booksページ
+   (`https://books.google.com/books?id={googleBooksId}`)への明確なリンクを必ず設置する。**
+   (Googleの利用ガイドラインで必須。「表示する書籍には、Google Booksページまたは
+   自サイトのプレビューページへの明確なリンクを付けること」と定められている)
+   - 直接リンクを貼れない場合は、`/works/[workId]` など**それ自体がGoogle Booksへの
+     リンクを持つ内部ページ**へリンクすることで代替可(間接的に要件を満たす)
+   - 参考実装: `src/app/works/[workId]/page.tsx` の `googleBooksUrl` /
+     `src/components/BlogBookInlineCard.tsx` / `src/components/tools/MediaOriginalsClient.tsx`
+2. Open Libraryの画像については必須の帰属表示はないが、**自社サーバーへの保存・キャッシュや
+   大量クロールは行わない**こと(`next.config.ts` の `images.unoptimized: true` により、
+   常に画像元へ直接リクエストする構成を維持する。ダウンロードして自前ホスティングしない)
+3. **Amazon商品画像を新たに使おうとしていないか確認する。** Amazonへのリンクは
+   アフィリエイトリンク(`buildAmazonUrl`)としてのみ使用し、商品画像そのものは
+   Amazonから取得しない
+4. 新しいコンポーネントを追加した際は、そのコンポーネントが実際にどこかのページから
+   使われているか確認すること(未使用の書影コンポーネントを増やさない。
+   `src/components/BookCard.tsx` 等、過去に使われなくなったコンポーネントが残っている例がある)
+
 ## 読書シーンの追加方法
 
 1. `src/constants/readingScenes.ts` の `READING_SCENES` 配列に新しいシーンを追加する：

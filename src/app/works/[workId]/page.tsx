@@ -128,21 +128,46 @@ function VolumeCard({ vol }: { vol: Volume }) {
     (vol.googleBooksId
       ? `https://books.google.com/books/content?id=${vol.googleBooksId}&printsec=frontcover&img=1&zoom=1&source=gbs_api`
       : null);
+  // Google Books の画像を表示する場合、該当書籍のGoogle Booksページへの
+  // リンクが必須(Googleのガイドラインによる)
+  const googleBooksUrl = vol.googleBooksId
+    ? `https://books.google.com/books?id=${vol.googleBooksId}`
+    : null;
 
   return (
     <div className="flex gap-3 p-3 bg-white border border-stone-200 rounded-xl hover:border-rose-300 hover:shadow-sm transition-all">
       {/* サムネイル */}
       <div className="relative w-12 flex-shrink-0 rounded overflow-hidden bg-stone-100" style={{ height: 72 }}>
         {imgSrc ? (
-          <Image
-            src={imgSrc}
-            alt={vol.volumeLabel}
-            fill
-            sizes="48px"
-            className="object-cover"
-            unoptimized
-            loading="lazy"
-          />
+          googleBooksUrl ? (
+            <a
+              href={googleBooksUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`${vol.volumeLabel}をGoogle Booksで見る`}
+              className="absolute inset-0"
+            >
+              <Image
+                src={imgSrc}
+                alt={vol.volumeLabel}
+                fill
+                sizes="48px"
+                className="object-cover"
+                unoptimized
+                loading="lazy"
+              />
+            </a>
+          ) : (
+            <Image
+              src={imgSrc}
+              alt={vol.volumeLabel}
+              fill
+              sizes="48px"
+              className="object-cover"
+              unoptimized
+              loading="lazy"
+            />
+          )
         ) : (
           <div className="absolute inset-0 flex items-center justify-center text-stone-300 text-xs text-center p-1">
             📖
@@ -406,6 +431,12 @@ export default async function WorkDetailPage({
   const typeColor = TYPE_COLOR[work.type] ?? TYPE_COLOR.other;
   const statusLabel = STATUS_LABEL[work.status];
   const workAmazonUrl = amazonSearchUrl(work.title);
+  // Google Books APIの表紙画像を使う場合、Googleのガイドラインにより
+  // 該当書籍のGoogle Booksページへのリンクを明示する必要がある
+  const representativeGoogleBooksId = work.volumes.find((v) => v.googleBooksId)?.googleBooksId;
+  const googleBooksUrl = representativeGoogleBooksId
+    ? `https://books.google.com/books?id=${representativeGoogleBooksId}`
+    : null;
 
   const workUrl = `${SITE_URL}/works/${fileId}`;
 
@@ -529,15 +560,35 @@ export default async function WorkDetailPage({
               <div className="relative w-28 sm:w-40 flex-shrink-0">
                 <div className="aspect-[2/3] relative rounded-xl overflow-hidden bg-gradient-to-br from-stone-100 to-stone-200 shadow-md">
                   {work.coverImageUrl ? (
-                    <Image
-                      src={work.coverImageUrl}
-                      alt={`${work.title} の表紙`}
-                      fill
-                      sizes="160px"
-                      className="object-cover"
-                      unoptimized
-                      priority
-                    />
+                    googleBooksUrl ? (
+                      <a
+                        href={googleBooksUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={`${work.title}をGoogle Booksで見る`}
+                        className="absolute inset-0"
+                      >
+                        <Image
+                          src={work.coverImageUrl}
+                          alt={`${work.title} の表紙`}
+                          fill
+                          sizes="160px"
+                          className="object-cover"
+                          unoptimized
+                          priority
+                        />
+                      </a>
+                    ) : (
+                      <Image
+                        src={work.coverImageUrl}
+                        alt={`${work.title} の表紙`}
+                        fill
+                        sizes="160px"
+                        className="object-cover"
+                        unoptimized
+                        priority
+                      />
+                    )
                   ) : (
                     <div className={`absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-br ${getCoverGradient(work.l2Id)} p-2`}>
                       <span className="text-white text-2xl font-bold leading-tight text-center drop-shadow" style={{ fontFamily: "serif" }}>
@@ -549,6 +600,16 @@ export default async function WorkDetailPage({
                     </div>
                   )}
                 </div>
+                {googleBooksUrl && (
+                  <a
+                    href={googleBooksUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-1.5 block text-center text-[11px] text-stone-400 hover:text-rose-600 transition-colors"
+                  >
+                    Google Booksで見る →
+                  </a>
+                )}
               </div>
 
               {/* 情報 */}
