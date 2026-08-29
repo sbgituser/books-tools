@@ -14,6 +14,7 @@ import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SimilarWorksSection from "@/components/works/SimilarWorksSection";
+import ShareButtons from "@/components/ShareButtons";
 import {
   SITE_NAME,
   SITE_URL,
@@ -696,6 +697,10 @@ export default async function WorkDetailPage({
                       🎧 Audible版
                     </a>
                   )}
+                </div>
+
+                <div className="mt-3">
+                  <ShareButtons url={workUrl} text={`${work.title}｜${work.authorDisplay}`} />
                 </div>
               </div>
             </div>

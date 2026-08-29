@@ -4,6 +4,7 @@ import { useState, useCallback } from "react";
 import Link from "next/link";
 import { QUIZ_QUESTIONS, QUIZ_RESULT_TYPES, calcQuizResult } from "@/constants/bookQuiz";
 import { buildAmazonUrl } from "@/data/products";
+import { SITE_URL } from "@/lib/site";
 import type { QuizResultType } from "@/types/quiz";
 
 const ACCENT_CLASSES: Record<string, { bg: string; text: string; border: string; button: string }> = {
@@ -90,7 +91,7 @@ export default function BookQuizClient() {
 
   const handleCopy = useCallback(async () => {
     if (!result) return;
-    const text = `${result.shareText}\nhttps://books-tools.vercel.app/tools/book-quiz/`;
+    const text = `${result.shareText}\n${SITE_URL}/tools/book-quiz`;
     try {
       await navigator.clipboard.writeText(text);
       setCopied(true);
@@ -185,7 +186,7 @@ export default function BookQuizClient() {
 
   const accent = ACCENT_CLASSES[result.accentColor] ?? ACCENT_CLASSES.stone;
   const tweetText = encodeURIComponent(
-    `${result.shareText}\nhttps://books-tools.vercel.app/tools/book-quiz/`,
+    `${result.shareText}\n${SITE_URL}/tools/book-quiz`,
   );
   const tweetUrl = `https://twitter.com/intent/tweet?text=${tweetText}`;
 

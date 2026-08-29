@@ -14,6 +14,7 @@ import {
 } from "@/lib/blog";
 import { SITE_NAME, TOOL_LINKS } from "@/lib/site";
 import { resolveBlogSeo } from "@/lib/seoPolicy";
+import ShareButtons from "@/components/ShareButtons";
 
 type Params = { slug: string };
 
@@ -186,12 +187,16 @@ export default async function BlogDetailPage({ params }: { params: Promise<Param
           </div>
           <h1 className="text-3xl font-bold text-stone-900 mb-3 leading-tight">{post.title}</h1>
           <p className="text-sm text-stone-500 mb-4">{post.description}</p>
-          <div className="flex flex-wrap gap-2 mb-8">
+          <div className="flex flex-wrap gap-2 mb-4">
             {post.tags.map((tag) => (
               <span key={tag} className="text-xs px-2 py-1 rounded-full bg-stone-100 text-stone-600">
                 #{tag}
               </span>
             ))}
+          </div>
+
+          <div className="mb-8">
+            <ShareButtons url={getBlogCanonical(post.slug)} text={post.title} />
           </div>
 
           {post.toc.length > 0 ? (
@@ -213,7 +218,11 @@ export default async function BlogDetailPage({ params }: { params: Promise<Param
             {content}
           </article>
 
-          <div className="mt-8 p-4 bg-stone-50 rounded-lg border border-stone-200">
+          <div className="mt-8 flex justify-end">
+            <ShareButtons url={getBlogCanonical(post.slug)} text={post.title} />
+          </div>
+
+          <div className="mt-4 p-4 bg-stone-50 rounded-lg border border-stone-200">
             <h3 className="text-sm font-semibold text-stone-600 mb-2">この記事の選定方針について</h3>
             <p className="text-sm text-stone-700">
               当サイトでは、作品データ・ジャンル・読書体験タグ・関連作品との比較をもとに記事を構成しています。
